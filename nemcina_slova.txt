@@ -1,0 +1,3009 @@
+ich — já
+du — ty
+er — on
+sie — ona
+es — ono
+wir — my
+ihr — vy
+sie — oni
+Sie — Vy (vykání)
+sein — být
+haben — mít
+werden — stávat se / stane se
+machen — dělat
+gehen — jít
+kommen — přijít
+sagen — říct
+wissen — vědět
+sehen — vidět
+geben — dát
+nehmen — vzít
+denken — myslet
+sprechen — mluvit
+stehen — stát
+finden — najít
+bleiben — zůstat
+liegen — ležet
+heißen — jmenovat se
+lassen — nechat / dovolit
+fragen — ptát se
+leben — žít
+arbeiten — pracovat
+spielen — hrát
+laufen — běžet / jít
+fahren — jet (dopravou)
+schreiben — psát
+lesen — číst
+hören — slyšet / poslouchat
+essen — jíst
+trinken — pít
+kaufen — koupit
+verkaufen — prodat
+brauchen — potřebovat
+kennen — znát (osobu/místo)
+lernen — učit se
+verstehen — rozumět
+zeigen — ukázat
+bringen — přinést
+halten — držet / zastavit
+setzen — posadit / nastavit
+stellen — postavit / položit
+legen — položit (nalehko)
+öffnen — otevřít
+schließen — zavřít
+beginnen — začít
+enden — skončit
+helfen — pomoci
+warten — čekat
+suchen — hledat
+glauben — věřit / myslet
+meinen — myslet / mínit
+mögen — mít rád
+wollen — chtít
+können — moci / umět
+müssen — muset
+dürfen — smět
+sollen — mít (cizí příkaz)
+schauen — dívat se
+reden — mluvit / hovořit
+erzählen — vyprávět
+erklären — vysvětlit
+versuchen — zkusit / pokusit se
+passieren — stát se / přihodit se
+ändern — změnit
+erreichen — dosáhnout / dostat se
+verlieren — ztratit
+gewinnen — vyhrát
+wählen — vybrat / volit
+treffen — potkat / trefit
+holen — jít pro / přinést
+führen — vést
+folgen — sledovat / následovat
+zahlen — platit
+bezahlen — zaplatit
+kosten — stát (cena)
+sparen — šetřit
+reisen — cestovat
+fahren — řídit / jet
+fliegen — letět
+schwimmen — plavat
+schlafen — spát
+aufwachen — probudit se
+aufstehen — vstát
+anziehen — obléct
+waschen — mýt / prát
+kochen — vařit
+backen — péct
+essen gehen — jít na jídlo
+telefonieren — telefonovat
+anrufen — zavolat (telefonicky)
+schicken — poslat
+bekommen — dostat / obdržet
+verlassen — opustit
+zurückkommen — vrátit se
+einschlafen — usnout
+sterben — zemřít
+geboren werden — narodit se
+heiraten — vzít se / oženit se
+kennenlernen — poznat (někoho)
+einladen — pozvat
+besuchen — navštívit
+mitnehmen — vzít s sebou
+ausgehen — jít ven
+einkaufen — nakupovat
+aufmachen — otevřít
+zumachen — zavřít
+anmachen — zapnout
+ausmachen — vypnout
+aufhören — přestat
+anfangen — začít
+weitermachen — pokračovat
+aufpassen — dávat pozor
+zuhören — naslouchat
+nachdenken — přemýšlet
+vorstellen — představit (si)
+erinnern — připomenout / pamatovat si
+vergessen — zapomenout
+entscheiden — rozhodnout
+versprechen — slíbit
+danken — poděkovat
+entschuldigen — omluvit
+grüßen — pozdravit
+das Haus — dům
+die Wohnung — byt
+das Zimmer — pokoj
+die Küche — kuchyně
+das Badezimmer — koupelna
+das Schlafzimmer — ložnice
+das Wohnzimmer — obývací pokoj
+die Tür — dveře
+das Fenster — okno
+der Tisch — stůl
+der Stuhl — židle
+das Bett — postel
+der Schrank — skříň
+das Regal — polička / regál
+die Lampe — lampa
+der Boden — podlaha / půda
+die Wand — zeď / stěna
+die Decke — strop / deka
+die Treppe — schodiště
+der Aufzug — výtah
+der Keller — sklep
+der Garten — zahrada
+der Balkon — balkon
+die Garage — garáž
+die Straße — ulice
+der Weg — cesta / chodník
+der Platz — náměstí / místo
+die Stadt — město
+das Dorf — vesnice
+das Land — země / venkov
+die Welt — svět
+das Gebäude — budova
+das Büro — kancelář
+die Schule — škola
+die Universität — univerzita
+das Krankenhaus — nemocnice
+die Apotheke — lékárna
+der Supermarkt — supermarket
+das Restaurant — restaurace
+das Café — kavárna
+der Bahnhof — nádraží
+der Flughafen — letiště
+das Hotel — hotel
+die Bank — banka
+das Museum — muzeum
+die Kirche — kostel
+der Park — park
+die Brücke — most
+der Fluss — řeka
+der See — jezero
+das Meer — moře
+der Berg — hora
+der Wald — les
+das Feld — pole
+der Himmel — nebe / obloha
+die Sonne — slunce
+der Mond — měsíc
+der Stern — hvězda
+die Wolke — mrak
+der Regen — déšť
+der Schnee — sníh
+der Wind — vítr
+das Wetter — počasí
+die Temperatur — teplota
+der Frühling — jaro
+der Sommer — léto
+der Herbst — podzim
+der Winter — zima
+der Morgen — ráno
+der Mittag — poledne
+der Abend — večer
+die Nacht — noc
+heute — dnes
+gestern — včera
+morgen — zítra
+jetzt — teď
+später — později
+früher — dřív / dříve
+immer — vždy
+manchmal — někdy
+oft — často
+selten — zřídka
+nie — nikdy
+schon — již / už
+noch — ještě / stále
+bald — brzy
+heute Morgen — dnes ráno
+heute Abend — dnes večer
+der Montag — pondělí
+der Dienstag — úterý
+der Mittwoch — středa
+der Donnerstag — čtvrtek
+der Freitag — pátek
+der Samstag — sobota
+der Sonntag — neděle
+die Woche — týden
+das Wochenende — víkend
+der Monat — měsíc (časový)
+das Jahr — rok
+der Januar — leden
+der Februar — únor
+der März — březen
+der April — duben
+der Mai — květen
+der Juni — červen
+der Juli — červenec
+der August — srpen
+der September — září
+der Oktober — říjen
+der November — listopad
+der Dezember — prosinec
+der Mensch — člověk
+die Person — osoba
+der Mann — muž
+die Frau — žena
+das Kind — dítě
+der Junge — chlapec
+das Mädchen — dívka
+der Baby — miminko
+der Erwachsene — dospělý
+der Alte — starý člověk
+der Freund — přítel / kamarád
+die Freundin — přítelkyně / kamarádka
+der Kollege — kolega
+der Chef — šéf
+der Nachbar — soused
+der Fremde — cizinec
+die Familie — rodina
+der Vater — otec
+die Mutter — matka
+der Sohn — syn
+die Tochter — dcera
+der Bruder — bratr
+die Schwester — sestra
+der Großvater — dědeček
+die Großmutter — babička
+der Onkel — strýc
+die Tante — teta
+der Neffe — synovec
+die Nichte — neteř
+der Mann / Ehemann — manžel
+die Frau / Ehefrau — manželka
+das Paar — pár
+der Körper — tělo
+der Kopf — hlava
+das Gesicht — obličej
+das Auge — oko
+das Ohr — ucho
+die Nase — nos
+der Mund — ústa
+der Zahn — zub
+der Hals — krk / hrdlo
+die Schulter — rameno
+der Arm — paže / ruka
+die Hand — ruka (dlaň)
+der Finger — prst
+der Bauch — břicho
+der Rücken — záda
+das Bein — noha (celá)
+das Knie — koleno
+der Fuß — chodidlo / noha (dolní)
+das Herz — srdce
+das Blut — krev
+die Haut — kůže
+das Haar — vlasy / vlas
+die Gesundheit — zdraví
+die Krankheit — nemoc
+der Schmerz — bolest
+das Fieber — horečka
+der Husten — kašel
+der Schnupfen — rýma
+die Erkältung — nachlazení
+die Allergie — alergie
+der Arzt — lékař
+die Ärztin — lékařka
+das Medikament — lék
+die Tablette — tableta
+die Spritze — injekce
+die Operation — operace
+das Essen — jídlo
+das Trinken — pití
+das Frühstück — snídaně
+das Mittagessen — oběd
+das Abendessen — večeře
+das Brot — chléb
+die Butter — máslo
+der Käse — sýr
+die Wurst — klobása / salám
+das Fleisch — maso
+das Huhn — kuře
+das Rindfleisch — hovězí
+das Schweinefleisch — vepřové
+der Fisch — ryba
+das Ei — vejce
+die Milch — mléko
+der Joghurt — jogurt
+der Apfel — jablko
+die Birne — hruška
+die Banane — banán
+die Orange — pomeranč
+die Erdbeere — jahoda
+die Tomate — rajče
+die Kartoffel — brambor
+die Karotte — mrkev
+der Salat — salát
+die Suppe — polévka
+der Reis — rýže
+die Nudeln — těstoviny / nudle
+das Öl — olej
+der Zucker — cukr
+das Salz — sůl
+der Pfeffer — pepř
+der Kaffee — káva
+der Tee — čaj
+das Wasser — voda
+der Saft — džus / šťáva
+das Bier — pivo
+der Wein — víno
+die Kleidung — oblečení
+das Hemd — košile
+die Bluse — halenka
+der Pullover — svetr
+die Jacke — bunda / sako
+der Mantel — kabát
+die Hose — kalhoty
+der Rock — sukně
+das Kleid — šaty
+die Unterwäsche — spodní prádlo
+die Socke — ponožka
+der Schuh — bota
+der Stiefel — bota (vysoká)
+der Hut — klobouk
+die Mütze — čepice
+der Schal — šál
+der Handschuh — rukavice
+die Brille — brýle
+die Uhr — hodinky / hodiny
+der Ring — prsten
+die Kette — náhrdelník
+die Tasche — kabelka / taška / kapsa
+der Rucksack — batoh
+das Portemonnaie — peněženka
+der Schlüssel — klíč
+das Handy — mobilní telefon
+das Smartphone — smartphone
+der Computer — počítač
+der Laptop — notebook
+das Tablet — tablet
+das Internet — internet
+die E-Mail — email
+die Webseite — webová stránka
+die App — aplikace
+das Passwort — heslo
+der Drucker — tiskárna
+das Buch — kniha
+die Zeitung — noviny
+die Zeitschrift — časopis
+der Brief — dopis
+das Heft — sešit
+der Stift — tužka / pero
+das Papier — papír
+die Schere — nůžky
+der Kleber — lepidlo
+die Musik — hudba
+der Film — film
+das Konzert — koncert
+das Theater — divadlo
+das Kino — kino
+das Bild — obraz / obrázek
+das Foto — fotografie
+die Kunst — umění
+der Sport — sport
+das Fußball — fotbal
+der Tennis — tenis
+das Schwimmen — plavání
+das Fahrrad — kolo
+das Auto — auto
+der Zug — vlak
+der Bus — autobus
+das Flugzeug — letadlo
+das Schiff — loď
+das Motorrad — motorka
+das Taxi — taxi
+die U-Bahn — metro
+die Straßenbahn — tramvaj
+der Führerschein — řidičský průkaz
+der Unfall — nehoda
+der Stau — zácpa
+das Parkhaus — parkovací dům
+der Benzin — benzín
+das Geld — peníze
+der Euro — euro
+der Cent — cent
+die Rechnung — účet / faktura
+die Quittung — stvrzenka
+die Steuer — daň
+das Gehalt — plat
+der Lohn — mzda
+die Miete — nájemné
+der Kredit — úvěr
+die Versicherung — pojištění
+die Arbeit — práce
+der Beruf — povolání
+die Stelle — místo / pozice
+das Unternehmen — podnik / firma
+die Firma — firma
+das Produkt — produkt
+der Kunde — zákazník
+der Verkäufer — prodavač
+der Käufer — kupující
+der Markt — trh / trhy
+die Wirtschaft — ekonomika / hospodářství
+die Politik — politika
+die Regierung — vláda
+der Präsident — prezident
+der Bundeskanzler — spolkový kancléř
+der Minister — ministr
+das Gesetz — zákon
+das Recht — právo / právo na
+die Polizei — policie
+die Feuerwehr — hasiči
+das Gericht — soud / jídlo
+das Gefängnis — vězení
+der Krieg — válka
+der Frieden — mír
+die Sprache — jazyk / řeč
+das Deutsch — němčina
+das Englisch — angličtina
+das Französisch — francouzština
+die Übersetzung — překlad
+das Wort — slovo
+der Satz — věta
+die Frage — otázka
+die Antwort — odpověď
+die Meinung — názor
+die Idee — nápad / myšlenka
+der Plan — plán
+das Ziel — cíl
+der Erfolg — úspěch
+das Problem — problém
+die Lösung — řešení
+der Fehler — chyba
+die Chance — šance / příležitost
+die Gefahr — nebezpečí
+die Hilfe — pomoc
+der Rat — rada
+die Entscheidung — rozhodnutí
+die Erfahrung — zkušenost
+das Wissen — znalost / vědomosti
+die Bildung — vzdělání
+der Unterricht — výuka / hodina
+die Hausaufgabe — domácí úkol
+die Prüfung — zkouška
+das Zeugnis — vysvědčení
+der Abschluss — závěr / maturita / diplom
+der Kurs — kurz
+die Übung — cvičení
+das Beispiel — příklad
+die Aufgabe — úkol
+die Anleitung — návod
+die Regel — pravidlo
+der Unterschied — rozdíl
+die Ähnlichkeit — podobnost
+der Vergleich — srovnání
+die Bedeutung — význam
+die Wichtigkeit — důležitost
+der Grund — důvod / základ
+die Ursache — příčina
+die Wirkung — účinek / efekt
+das Ergebnis — výsledek
+die Folge — důsledek / následek
+die Möglichkeit — možnost
+die Notwendigkeit — nutnost
+die Freiheit — svoboda
+die Gleichheit — rovnost
+die Gerechtigkeit — spravedlnost
+die Verantwortung — odpovědnost
+die Pflicht — povinnost
+das Recht — právo
+die Wahrheit — pravda
+die Lüge — lež
+das Vertrauen — důvěra
+die Hoffnung — naděje
+die Angst — strach
+die Freude — radost
+die Traurigkeit — smutek
+die Wut — hněv / vztek
+die Liebe — láska
+der Hass — nenávist
+die Eifersucht — žárlivost
+das Glück — štěstí / štěstí být šťastný
+das Unglück — neštěstí
+der Spaß — zábava
+die Überraschung — překvapení
+die Enttäuschung — zklamání
+der Stress — stres
+die Ruhe — klid
+die Entspannung — relaxace
+die Müdigkeit — únava
+der Hunger — hlad
+der Durst — žízeň
+der Schlaf — spánek
+der Traum — sen
+groß — velký
+klein — malý
+lang — dlouhý
+kurz — krátký
+breit — široký
+schmal — úzký
+hoch — vysoký
+niedrig — nízký
+dick — tlustý / silný
+dünn — tenký / štíhlý
+schwer — těžký
+leicht — lehký
+schnell — rychlý
+langsam — pomalý
+laut — hlasitý
+leise — tichý
+hell — světlý / jasný
+dunkel — tmavý
+kalt — studený
+warm — teplý
+heiß — horký
+neu — nový
+alt — starý
+jung — mladý
+frisch — čerstvý
+sauber — čistý
+schmutzig — špinavý
+schön — hezký / krásný
+hässlich — ošklivý
+gut — dobrý
+schlecht — špatný
+richtig — správný
+falsch — špatný / nesprávný
+einfach — jednoduchý / jednoduše
+schwierig — obtížný
+wichtig — důležitý
+interessant — zajímavý
+langweilig — nudný
+lustig — zábavný / vtipný
+traurig — smutný
+glücklich — šťastný
+müde — unavený
+krank — nemocný
+gesund — zdravý
+hungrig — hladový
+durstig — žíznivý
+bereit — připravený
+fertig — hotový / připravený
+möglich — možný
+unmöglich — nemožný
+nötig — nutný / potřebný
+genug — dost
+viel — hodně / mnoho
+wenig — málo
+mehr — více
+weniger — méně
+zu — příliš
+sehr — velmi
+zu viel — příliš mnoho
+am meisten — nejvíce
+zusammen — dohromady
+allein — sám / sám o sobě
+hier — tady
+dort — tam
+oben — nahoře
+unten — dole
+vorne — vpředu
+hinten — vzadu
+links — vlevo
+rechts — vpravo
+innen — uvnitř
+außen — venku / zvenku
+nah — blízko
+weit — daleko
+überall — všude
+nirgends — nikde
+irgendwo — někde
+wohin — kam
+woher — odkud
+warum — proč
+weil — protože
+obwohl — ačkoli
+wenn — když / pokud / jestliže
+falls — pokud / v případě že
+aber — ale
+und — a
+oder — nebo
+sondern — nýbrž
+denn — protože (souřadicí)
+also — tedy / takže
+trotzdem — přesto
+deshalb — proto
+damit — aby / s tím
+während — zatímco / během
+bevor — než (časově)
+nachdem — poté co
+seitdem — od té doby
+bis — až do / dokud
+so — tak / takže
+wie — jak / jako
+als — jako / než / když (minulost)
+ob — zda / jestli
+dass — že
+wer — kdo
+was — co
+wo — kde
+wann — kdy
+wie viel — kolik
+welcher — který
+dieser — tento
+jener — tamten
+jeder — každý
+alles — vše
+nichts — nic
+etwas — něco / trochu
+jemand — někdo
+niemand — nikdo
+man — člověk (obecně)
+selbst — sám / samotný
+noch einmal — ještě jednou
+auf einmal — najednou
+zum Beispiel — například
+das heißt — to znamená
+natürlich — samozřejmě / přirozeně
+eigentlich — vlastně
+vielleicht — možná
+wahrscheinlich — pravděpodobně
+sicher — jistě / bezpečný
+leider — bohužel
+zum Glück — naštěstí
+leider Gottes — žel bohů
+unbedingt — bezpodmínečně / rozhodně
+sofort — okamžitě / hned
+gleich — hned / stejný
+ungefähr — přibližně
+mindestens — alespoň / nejméně
+höchstens — nanejvýš / nejvýše
+wenigstens — alespoň
+fast — skoro / téměř
+kaum — sotva / stěží
+nur — jen / pouze
+auch — také / i
+noch — ještě / navíc
+schon — již / vždyť
+immer noch — stále ještě
+nicht mehr — už ne
+eher — spíše / dříve
+sowohl … als auch — jak … tak i
+entweder … oder — buď … nebo
+weder … noch — ani … ani
+je … desto — čím … tím
+danke — díky
+bitte — prosím / prosím si
+entschuldigung — promiňte / omluva
+es tut mir leid — je mi líto
+gern — rád(a)
+natürlich — samozřejmě
+ja — ano
+nein — ne
+vielleicht — možná
+ich weiß nicht — nevím
+ich verstehe — rozumím
+ich verstehe nicht — nerozumím
+sprechen Sie Deutsch? — mluvíte německy?
+können Sie das wiederholen? — můžete to zopakovat?
+wie bitte? — cože? / prosím?
+was bedeutet das? — co to znamená?
+ich bin müde — jsem unavený/á
+ich habe Hunger — mám hlad
+ich habe Durst — mám žízeň
+mir geht es gut — je mi dobře
+mir geht es schlecht — je mi špatně
+wie geht es Ihnen? — jak se máte? (vykání)
+wie geht es dir? — jak se máš?
+guten Morgen — dobré ráno
+guten Tag — dobrý den
+guten Abend — dobrý večer
+gute Nacht — dobrou noc
+auf Wiedersehen — na shledanou
+tschüss — čau
+hallo — ahoj
+herzlich willkommen — srdečně vítejte
+frohes Neues Jahr — šťastný nový rok
+frohe Weihnachten — veselé Vánoce
+frohe Ostern — veselé Velikonoce
+herzlichen Glückwunsch — blahopřeji
+alles Gute — vše nejlepší
+gute Besserung — uzdravte se / brzké uzdravení
+viel Glück — hodně štěstí
+viel Erfolg — hodně úspěchů
+mahlzeit — dobrou chuť / po obědě
+prost — na zdraví (přípitek)
+die Zahl — číslo
+die Uhrzeit — čas (hodin)
+die Adresse — adresa
+die Telefonnummer — telefonní číslo
+das Datum — datum
+die Farbe — barva
+rot — červený
+blau — modrý
+gelb — žlutý
+grün — zelený
+schwarz — černý
+weiß — bílý
+grau — šedý
+braun — hnědý
+orange — oranžový
+rosa — růžový
+lila — fialový
+der Hund — pes
+die Katze — kočka
+der Vogel — pták
+der Fisch — ryba
+das Pferd — kůň
+die Kuh — kráva
+das Schwein — prase
+das Schaf — ovce
+die Ziege — koza
+das Huhn — slepice / kuře
+der Elefant — slon
+der Löwe — lev
+der Tiger — tygr
+der Bär — medvěd
+der Wolf — vlk
+der Fuchs — liška
+der Hase — zajíc
+das Eichhörnchen — veverka
+der Schmetterling — motýl
+die Biene — včela
+die Spinne — pavouk
+die Schlange — had
+die Pflanze — rostlina
+der Baum — strom
+der Blume — květ (die Blume)
+das Gras — tráva
+das Blatt — list
+die Wurzel — kořen
+die Frucht — ovoce / plod
+das Gemüse — zelenina
+das Obst — ovoce (souhrnně)
+der Stein — kámen
+die Erde — země / půda
+das Feuer — oheň
+das Wasser — voda
+die Luft — vzduch
+das Licht — světlo
+der Schatten — stín
+der Lärm — hluk
+der Geruch — vůně / zápach
+der Geschmack — chuť
+das Gefühl — pocit / cit
+der Gedanke — myšlenka
+die Erinnerung — vzpomínka
+die Fantasie — fantazie / představivost
+die Realität — realita
+die Natur — příroda
+die Umwelt — životní prostředí
+die Energie — energie
+die Kraft — síla
+die Macht — moc
+die Kontrolle — kontrola
+die Methode — metoda
+der Stil — styl
+die Qualität — kvalita
+die Quantität — množství / kvantita
+der Preis — cena
+die Größe — velikost
+das Gewicht — váha / hmotnost
+die Länge — délka
+die Breite — šířka
+die Höhe — výška
+die Tiefe — hloubka
+die Geschwindigkeit — rychlost
+die Entfernung — vzdálenost
+die Richtung — směr
+der Norden — sever
+der Süden — jih
+der Osten — východ
+der Westen — západ
+die Grenze — hranice
+das Ausland — zahraničí
+das Inland — domácí území / vnitrozemí
+die Reise — cesta / výlet
+der Urlaub — dovolená
+die Heimat — vlast / domov
+die Kultur — kultura
+die Geschichte — dějiny / příběh
+die Tradition — tradice
+das Fest — svátek / slavnost
+die Feier — oslava
+die Party — party / večírek
+das Geschenk — dárek
+der Geburtstag — narozeniny
+die Hochzeit — svatba
+das Begräbnis — pohřeb
+die Taufe — křtiny
+das Jubiläum — výročí
+der Witz — vtip
+das Rätsel — hádanka
+das Spiel — hra
+die Regel — pravidlo
+das Team — tým
+der Sieg — vítězství
+die Niederlage — porážka
+das Unentschieden — remíza
+der Rekord — rekord
+der Wettkampf — soutěž
+das Training — trénink
+die Mannschaft — tým / mužstvo
+der Trainer — trenér
+der Spieler — hráč
+der Zuschauer — divák
+das Stadion — stadion
+der Platz — hřiště / místo
+das Tor — brána / gól
+der Ball — míč
+die Musik — hudba
+das Lied — píseň
+das Instrument — nástroj (hudební)
+die Gitarre — kytara
+das Klavier — klavír
+die Geige — housle
+die Flöte — flétna
+das Schlagzeug — bicí
+der Sänger — zpěvák
+die Sängerin — zpěvačka
+das Konzert — koncert
+die Band — kapela
+die Note — nota / známka
+die Malerei — malířství / malba
+die Zeichnung — kresba
+die Skulptur — socha
+die Architektur — architektura
+das Design — design
+die Mode — móda
+die Literatur — literatura
+das Gedicht — báseň
+der Roman — román
+die Kurzgeschichte — povídka
+die Wissenschaft — věda
+die Forschung — výzkum
+das Experiment — experiment
+die Theorie — teorie
+der Beweis — důkaz
+das Labor — laboratoř
+die Mathematik — matematika
+die Physik — fyzika
+die Chemie — chemie
+die Biologie — biologie
+die Informatik — informatika
+die Medizin — medicína
+die Psychologie — psychologie
+die Philosophie — filozofie
+die Soziologie — sociologie
+die Ökologie — ekologie
+das Klima — klima
+die Klimaänderung — klimatická změna
+die Energie — energie
+die Solarenergie — solární energie
+der Strom — proud / elektřina
+das Gas — plyn
+der Müll — odpad / smetí
+das Recycling — recyklace
+die Nachhaltigkeit — udržitelnost
+der Krankenwagen — sanitka
+der Notfall — nouzová situace
+die Feuerwehr — hasiči
+die Polizei — policie
+der Notruf — tísňové volání
+der Ausweis — průkaz / doklad
+der Pass — pas
+das Visum — vízum
+die Staatsbürgerschaft — státní příslušnost
+die Demokratie — demokracie
+die Wahl — volby / výběr
+der Vertrag — smlouva
+die Organisation — organizace
+die Gesellschaft — společnost
+die Gemeinschaft — komunita / společenství
+die Bevölkerung — obyvatelstvo
+die Minderheit — menšina
+die Mehrheit — většina
+der Einfluss — vliv
+die Macht — moc
+die Kontrolle — kontrola
+das System — systém
+die Struktur — struktura
+der Prozess — proces
+die Entwicklung — vývoj / rozvoj
+der Fortschritt — pokrok
+die Veränderung — změna
+die Revolution — revoluce
+die Innovation — inovace
+die Technologie — technologie
+die Industrie — průmysl
+die Landwirtschaft — zemědělství
+der Handel — obchod (směna)
+die Produktion — výroba
+der Export — export
+der Import — import
+das Unternehmen — podnik
+der Wettbewerb — soutěž / konkurence
+die Globalisierung — globalizace
+die Krise — krize
+die Lösung — řešení
+die Reform — reforma
+der Kompromiss — kompromis
+die Zusammenarbeit — spolupráce
+die Partnerschaft — partnerství
+das Abkommen — dohoda / smlouva
+die Konferenz — konference
+das Treffen — setkání / schůzka
+die Diskussion — diskuse
+das Argument — argument
+die Kritik — kritika
+die Unterstützung — podpora
+der Widerstand — odpor
+die Herausforderung — výzva
+die Gelegenheit — příležitost
+der Vorteil — výhoda
+der Nachteil — nevýhoda
+das Risiko — riziko
+die Sicherheit — bezpečnost / jistota
+der Schutz — ochrana
+die Privatsphäre — soukromí
+die Öffentlichkeit — veřejnost
+die Transparenz — transparentnost
+die Moral — morálka
+die Ethik — etika
+der Wert — hodnota
+das Prinzip — princip
+die Norm — norma
+die Grenze — hranice / mez
+das Maß — míra
+der Standard — standard
+ab — od / pryč
+an — u / na / zapnout
+auf — na (povrch) / otevřený
+aus — z / ven / vypnutý
+bei — u / při
+bis — do / až
+durch — skrze / přes
+für — pro
+gegen — proti / kolem (čas)
+hinter — za (místně)
+in — v / do
+mit — s (nástroj/doprovod)
+nach — po / do (země/město)
+neben — vedle
+ohne — bez
+seit — od (jak dlouho)
+über — nad / přes / o (tématu)
+um — kolem / v (čas)
+unter — pod / mezi
+von — od / z / o
+vor — před
+zwischen — mezi
+zu — k / příliš
+auf Wiederhören — na slyšenou (telefon)
+schreib mir — napiš mi
+ruf mich an — zavolej mi
+ich melde mich — ozvím se
+bis bald — brzy na shledanou
+bis später — do té doby / na shledanou
+bis morgen — do zítřka
+warte mal — chvíli počkej
+einen Moment bitte — moment prosím
+kein Problem — žádný problém
+in Ordnung — v pořádku
+alles klar — vše jasné / jasně
+passt — pasuje / hodí se
+stimmt — souhlasí / správně
+genau — přesně / právě tak
+eben — právě / prostě
+doch — vždyť / přece / ano (na zápornou otázku)
+halt — prostě / no prostě (částice)
+mal — jednou / jen tak (částice)
+ja — vždyť (jako částice)
+eigentlich — vlastně
+übrigens — mimochodem
+nämlich — totiž
+trotzdem — přesto
+deswegen — proto
+außerdem — navíc / kromě toho
+zuerst — nejdříve / nejprve
+dann — pak / potom
+danach — poté
+schließlich — nakonec / konečně
+endlich — konečně
+plötzlich — náhle / najednou
+leider — bohužel
+zum Glück — naštěstí
+einerseits — na jedné straně
+andererseits — na druhé straně
+insgesamt — celkem / celkově
+überhaupt — vůbec / celkově
+besonders — zvláště / zejména
+hauptsächlich — hlavně / především
+vor allem — především / hlavně
+stattdessen — místo toho
+ansonsten — jinak / ostatně
+außerdem — mimoto / navíc
+zunächst — zpočátku / nejprve
+gleichzeitig — současně / zároveň
+schon wieder — zase / opět
+immer wieder — pořád dokola
+von Anfang an — od začátku
+am Ende — na konci / nakonec
+zu Hause — doma
+nach Hause — domů
+von zu Hause — z domova
+auf dem Weg — cestou / na cestě
+unterwegs — na cestě / v pohybu
+in der Nähe — v blízkosti / poblíž
+weit weg — daleko
+gegenüber — naproti / oproti
+nebenan — vedlejší / hned vedle
+obendrein — navíc k tomu
+der Anfang — začátek
+das Ende — konec
+die Mitte — střed / polovina
+der Rand — okraj / kraj
+der Teil — část
+das Ganze — celek
+die Hälfte — polovina
+das Drittel — třetina
+das Viertel — čtvrtina
+einmal — jednou
+zweimal — dvakrát
+dreimal — třikrát
+pro Woche — za týden
+pro Monat — za měsíc
+pro Jahr — za rok
+täglich — denně / každodenní
+wöchentlich — týdně / týdenní
+monatlich — měsíčně / měsíční
+jährlich — ročně / roční
+halbstündlich — každou půlhodinu
+stündlich — každou hodinu
+pünktlich — přesný / včas
+unpünktlich — nepřesný / pozdě
+früh — brzy / časně
+spät — pozdě / pozdní
+rechtzeitig — včas
+bereits — již / už
+gerade — právě (teď) / rovně
+soeben — právě teď / právě před chvílí
+gleich darauf — hned poté
+kurz danach — krátce poté
+lange — dlouho / dlouhá doba
+kurzfristig — krátkodobý / na krátkou dobu
+langfristig — dlouhodobý / na dlouhou dobu
+dauerhaft — trvalý / trvale
+vorübergehend — přechodný / dočasně
+regelmäßig — pravidelný / pravidelně
+unregelmäßig — nepravidelný
+häufig — časný / častý
+selten — vzácný / zřídka
+gelegentlich — příležitostný / občas
+die Ausnahme — výjimka
+die Regel — pravidlo
+das Prinzip — princip
+die Basis — základ / báze
+die Grundlage — základ / základna
+der Kern — jádro / základ
+der Schwerpunkt — těžiště / důraz
+der Aspekt — aspekt / hledisko
+der Faktor — faktor / činitel
+die Funktion — funkce
+der Effekt — efekt / účinek
+die Reaktion — reakce
+die Wechselwirkung — vzájemné působení
+der Zusammenhang — souvislost / kontext
+der Kontext — kontext
+die Situation — situace
+die Lage — situace / poloha
+der Zustand — stav
+der Verlauf — průběh
+das Ergebnis — výsledek
+der Fortschritt — pokrok
+die Verbesserung — zlepšení
+die Verschlechterung — zhoršení
+die Lösung — řešení
+das Scheitern — selhání / neúspěch
+die Verwirklichung — uskutečnění
+die Umsetzung — realizace / provedení
+die Durchführung — provedení / realizace
+die Planung — plánování
+die Vorbereitung — příprava
+die Ausführung — provedení / výkon
+die Kontrolle — kontrola
+die Überprüfung — ověření / kontrola
+die Beurteilung — hodnocení / posouzení
+die Bewertung — hodnocení / ocenění
+die Einschätzung — odhad / posouzení
+die Analyse — analýza
+die Auswertung — vyhodnocení
+die Präsentation — prezentace
+der Bericht — zpráva / hlášení
+das Protokoll — protokol / zápis
+die Zusammenfassung — shrnutí
+der Überblick — přehled
+die Einführung — úvod / zavedení
+die Erklärung — vysvětlení / prohlášení
+die Beschreibung — popis
+die Darstellung — zobrazení / prezentace
+das Beispiel — příklad
+der Hinweis — upozornění / pokyn
+der Tipp — tip / rada
+der Rat — rada (doporučení)
+die Empfehlung — doporučení
+die Kritik — kritika
+das Lob — chvála
+die Beschwerde — stížnost
+die Anfrage — dotaz / žádost
+der Antrag — žádost / návrh (formální)
+der Auftrag — zakázka / úkol
+die Aufgabe — úkol / cvičení
+die Verantwortung — odpovědnost
+die Pflicht — povinnost
+das Recht — právo / právo na
+die Erlaubnis — povolení / svolení
+das Verbot — zákaz
+die Ausnahme — výjimka
+die Bedingung — podmínka
+die Voraussetzung — předpoklad
+die Anforderung — požadavek
+das Kriterium — kritérium
+die Leistung — výkon / výsledek
+die Fähigkeit — schopnost / dovednost
+die Kompetenz — kompetence / způsobilost
+das Talent — talent
+die Stärke — silná stránka / síla
+die Schwäche — slabost / slabá stránka
+die Erkenntnis — poznatek / zjištění
+die Einsicht — vhled / pochopení
+das Verständnis — porozumění / pochopení
+die Toleranz — tolerance
+die Akzeptanz — přijetí / akceptace
+die Ablehnung — odmítnutí
+der Konflikt — konflikt
+die Auseinandersetzung — spor / střet
+die Einigung — dohoda / shoda
+der Konsens — konsenzus
+der Kompromiss — kompromis
+die Kooperation — kooperace / spolupráce
+die Kommunikation — komunikace
+der Austausch — výměna / výměna zkušeností
+die Verbindung — spojení / vztah
+die Beziehung — vztah / závislostnení
+das Verhältnis — vztah / poměr
+der Kontakt — kontakt
+der Umgang — zacházení / styk
+die Begegnung — setkání
+die Veranstaltung — akce / událost
+das Ereignis — událost / příhoda
+der Termin — termín / schůzka
+die Verabredung — dohoda / schůzka
+der Zeitplan — časový plán / rozvrh
+das Programm — program
+die Agenda — agenda / program (schůze)
+das Thema — téma
+der Inhalt — obsah
+der Umfang — rozsah / objem
+das Niveau — úroveň
+der Grad — stupeň / míra
+die Anzahl — počet
+die Menge — množství / dav
+die Summe — součet / suma
+der Betrag — částka
+die Rate — sazba / míra / splátka
+der Prozentsatz — procento / procentní sazba
+die Häufigkeit — frekvence / četnost
+die Dichte — hustota
+die Konzentration — koncentrace / soustředění
+die Intensität — intenzita
+die Stärke — intenzita / síla
+der Druck — tlak / nátlak
+der Einfluss — vliv / dopad
+die Auswirkung — dopad / důsledek
+der Effekt — efekt
+der Nutzen — užitek / přínos
+der Vorteil — výhoda
+der Nachteil — nevýhoda
+das Risiko — riziko
+die Gefahr — nebezpečí
+die Sicherheit — bezpečnost / jistota
+die Stabilität — stabilita
+die Flexibilität — flexibilita
+die Effizienz — efektivita
+die Effektivität — účinnost
+die Nachhaltigkeit — udržitelnost
+die Transparenz — transparentnost
+die Zuverlässigkeit — spolehlivost
+die Genauigkeit — přesnost
+die Vollständigkeit — úplnost / kompletnost
+die Einfachheit — jednoduchost
+die Komplexität — složitost / komplexnost
+die Vielfalt — rozmanitost / pestrost
+die Einheit — jednota / jednotka
+der Zusammenhalt — soudržnost
+die Solidarität — solidarita
+die Loyalität — loajalita
+das Vertrauen — důvěra
+die Ehrlichkeit — poctivost / upřímnost
+die Offenheit — otevřenost
+die Neugier — zvědavost
+die Kreativität — kreativita
+die Leidenschaft — vášeň / nadšení
+das Engagement — angažovanost / nasazení
+die Motivation — motivace
+die Disziplin — disciplína
+die Ausdauer — vytrvalost
+die Geduld — trpělivost
+der Mut — odvaha
+die Würde — důstojnost
+der Respekt — respekt / úcta
+die Wertschätzung — ocenění / vážnost
+die Dankbarkeit — vděčnost
+die Bescheidenheit — skromnost
+die Großzügigkeit — velkorysost / štědrost
+die Freundlichkeit — přívětivost / laskavost
+die Höflichkeit — zdvořilost
+das Mitgefühl — soucit
+die Empathie — empatie
+das Einfühlungsvermögen — vcítění
+die Sensibilität — citlivost
+die Stabilität — stabilita
+die Ausgeglichenheit — vyrovnanost / rovnováha
+die Reife — zralost
+die Weisheit — moudrost
+die Intelligenz — inteligence
+das Bewusstsein — vědomí
+das Unbewusste — nevědomí
+die Persönlichkeit — osobnost
+der Charakter — charakter
+die Identität — identita
+die Individualität — individualita
+die Einzigartigkeit — jedinečnost / unikátnost
+die Grundschule — základní škola
+die Mittelschule — druhý stupeň ZŠ / střední škola
+das Gymnasium — gymnázium
+das Abitur — maturita
+die Diplomarbeit — diplomová práce
+der Professor — profesor / učitel (m.)
+die Professorin — profesorka / učitelka (f.)
+der Student — student (m.)
+die Studentin — studentka (f.)
+die Note — známka / nota
+das Klassenzimmer — třída / učebna
+die Bibliothek — knihovna
+die Turnhalle — tělocvična
+die Kantine / die Mensa — jídelna / mensa
+das Wörterbuch — slovník
+die Grammatik — gramatika
+der Wortschatz — slovní zásoba
+das Schreiben — psaní
+das Lesen — čtení
+das Hören — poslech
+das Gespräch — rozhovor / konverzace
+die Aussprache — výslovnost
+das Verb — sloveso
+das Substantiv — podstatné jméno
+das Adjektiv — přídavné jméno
+das Adverb — příslovce
+die Präposition — předložka
+die Konjunktion — spojka
+das Subjekt — podmět
+das Objekt — předmět (gramatický)
+der Text — text
+der Absatz — odstavec
+das Kapitel — kapitola
+die Einleitung — úvod
+der Schluss — závěr
+die Zusammenfassung — shrnutí
+das Thema — téma
+die Handlung — děj (příběhu)
+die Figur — postava (v příběhu)
+der Autor — autor (m.)
+die Autorin — autorka (f.)
+der Verlag — nakladatelství
+die Veröffentlichung — vydání / publikace
+die Nachricht — zpráva / novinka
+die Überschrift — titulek
+der Bericht — zpráva / hlášení
+das Interview — rozhovor
+das Dokument — dokument
+das Formular — formulář
+die Unterschrift — podpis
+die Kopie — kopie / fotokopie
+die Presse — tisk / noviny
+die Nachricht — zpráva / vzkaz
+die Taste — tlačítko / klávesa
+der Bildschirm — obrazovka
+die Tastatur — klávesnice
+die Maus — myš (počítačová)
+das Mikrofon — mikrofon
+die Kamera — fotoaparát / kamera
+das Video — video
+der Kanal — kanál
+das Netzwerk — síť
+das Profil — profil
+die sozialen Medien — sociální sítě
+der Link — odkaz
+die Datei — soubor
+der Ordner — složka
+die Software — software
+das Update — aktualizace
+das Backup — záloha
+der Fehler — chyba (systém. / obecně)
+das WLAN / das WiFi — Wi-Fi
+das Bluetooth — Bluetooth
+der Akku — baterie / akumulátor
+das Ladegerät — nabíječka
+das Kabel — kabel
+der Stecker — zástrčka
+die Steckdose — zásuvka (elektrická)
+die Glühbirne — žárovka
+der Kühlschrank — lednice
+der Backofen — trouba
+die Mikrowelle — mikrovlnka
+die Spülmaschine — myčka nádobí
+die Waschmaschine — pračka
+der Staubsauger — vysavač
+das Bügeleisen — žehlička
+die Klimaanlage — klimatizace
+die Heizung — topení
+der Thermostat — termostat
+der Wasserhahn — kohout / kohoutek
+das Waschbecken — umyvadlo / dřez
+die Badewanne — vana
+die Dusche — sprcha
+die Toilette — záchod / toaleta
+das Toilettenpapier — toaletní papír
+die Seife — mýdlo
+das Shampoo — šampon
+die Zahnpasta — zubní pasta
+die Zahnbürste — kartáček na zuby
+der Rasierapparat — holítko
+das Parfüm — parfém
+das Deo — deodorant
+die Creme — krém
+die Bürste — kartáč / štětec
+der Kamm — hřeben
+der Spiegel — zrcadlo
+das Handtuch — ručník
+die Decke — deka / přikrývka / strop
+das Kissen — polštář
+das Laken — prostěradlo
+die Matratze — matrace
+die Gardine / der Vorhang — záclona / závěs
+der Teppich — koberec
+die Fliese — dlaždice
+die Farbe — barva (nátěr) / barva (pigment)
+der Hammer — kladivo
+der Schraubenzieher — šroubovák
+der Schraubenschlüssel — klíč (nářadí)
+der Nagel — hřebík
+die Schraube — šroub
+die Leiter — žebřík
+das Seil — lano / provaz
+das Klebeband — lepicí páska
+der Beutel — sáček / vak
+der Umschlag — obálka
+das Paket — balíček / paketa
+die Schachtel — krabička / krabice
+das Tablett — tác / tablet
+die Flasche — láhev
+die Dose — plechovka
+das Trinkglas — sklenice (na pití)
+die Tasse — šálek / hrnek
+der Teller — talíř
+die Schüssel — mísa
+die Gabel — vidlička
+der Löffel — lžíce
+das Messer — nůž
+die Serviette — ubrousek
+die Tischdecke — ubrus
+die Gefriertruhe — mrazák
+die Schublade — zásuvka (nábytku)
+das Regal — polička / regál
+der Kleiderschrank — šatní skříň
+der Nachttisch — noční stolek
+der Schreibtisch — psací stůl
+das Bücherregal — knihovna (nábytek)
+der Sessel — křeslo
+das Sofa — pohovka / gauč
+die Stirn — čelo
+das Kinn — brada
+die Wange — tvář / líce
+die Lippen — rty
+die Zunge — jazyk (anatomický)
+die Kehle — hrdlo
+der Bauch — břicho / žaludek
+der Brustkorb — hrudník
+die Hüfte — bok / kyčel
+das Handgelenk — zápěstí
+der Ellbogen — loket
+der Fingernagel — nehet
+der Oberschenkel — stehno
+die Wade — lýtko
+die Ferse — pata
+der Daumen — palec
+der Zeigefinger — ukazovák
+der Mittelfinger — prostředník
+der Ringfinger — prsteník
+der kleiner Finger — malíček
+der Kiefer — čelist
+der Schädel — lebka
+die Wirbelsäule — páteř
+die Rippe — žebro
+die Knochen — kosti
+der Muskel — sval
+der Nerv — nerv
+das Gehirn — mozek
+die Lunge — plíce
+die Leber — játra
+die Niere — ledvina
+der Darm — střevo
+die Blase — močový měchýř
+die Vene — žíla
+die Arterie — tepna
+der Blutdruck — krevní tlak
+das Cholesterin — cholesterol
+die Diät — dieta
+die Kalorie — kalorie
+das Vitamin — vitamín
+das Mineral — minerál
+das Eiweiß — bílkoviny
+die Kohlenhydrate — sacharidy
+das Fett — tuk
+das Immunsystem — imunitní systém
+die Impfung — očkování
+die Vorbeugung / die Prävention — prevence
+die Diagnose — diagnóza
+die Behandlung — léčba / ošetření
+die Therapie — terapie
+die Rehabilitation — rehabilitace
+die Chirurgie — chirurgie
+das Röntgenbild — rentgen
+die MRT / die Kernspintomographie — magnetická rezonance
+der Ultraschall — ultrazvuk
+die Blutuntersuchung — krevní test
+das Rezept — recept (lékařský i kuchařský)
+die Vorsorgeuntersuchung — preventivní prohlídka
+die erste Hilfe — první pomoc
+die Genesung — uzdravení / zotavení
+der Marathon — maraton
+der Triathlon — triatlon
+das Turnen — tělocvik / gymnastika
+das Klettern — lezení
+das Skifahren — lyžování
+das Snowboarden — snowboard
+das Surfen — surfování
+das Segeln — plachtění
+das Kajak — kajak
+das Boxen — box
+das Ringen — zápas
+die Leichtathletik — atletika
+der Hochsprung — skok do výšky
+der Weitsprung — skok do dálky
+das Schwimmbad — plavecký bazén / bazén
+die Laufbahn — dráha / karierní dráha
+der Tennisplatz — tenisový kurt
+der Fußballplatz — fotbalové hřiště
+der Korb — koš (basketbal)
+das Netz — síť (tenis/volejbal)
+der Schläger — raketa / hole (sport)
+der Helm — přilba
+der Trainingsanzug — tepláková souprava
+die Turnschuhe — sportovní boty / tenisky
+das T-Shirt — tričko
+die Shorts — šortky / kraťasy
+der Badeanzug — plavky
+die Schwimmbrille — plavecké brýle
+die Flossen — ploutve
+der Neoprenanzug — neoprenový oblek
+der Basketball — basketbal
+der Volleyball — volejbal
+das Rugby — ragby
+das Eishockey — lední hokej
+das Golf — golf
+das Baseball — baseball
+das Handball — házená
+das Bowling — bowling
+das Badminton — badminton
+das Schach — šachy
+die Spielkarten — hrací karty
+der Würfel — kostka (hrací)
+das Puzzle — puzzle
+das Videospiel — videohra
+die Spielkonsole — herní konzole
+das Spielzeug — hračka
+die Puppe — panenka
+das Kuscheltier — plyšák
+der Baukasten — stavebnice
+das Modell — model / miniatura
+der Buchstabe — písmeno / litera
+das Alphabet — abeceda
+der Vokal — samohláska
+der Konsonant — souhláska
+die Silbe — slabika
+die Betonung — přízvuk / akcentování
+der Großbuchstabe — velké písmeno
+der Kleinbuchstabe — malé písmeno
+der Punkt — tečka / bod
+das Komma — čárka
+das Semikolon — středník
+der Doppelpunkt — dvojtečka
+das Ausrufezeichen — vykřičník
+das Fragezeichen — otazník
+die Anführungszeichen — uvozovky
+die Klammer — závorka
+der Bindestrich — spojovník / pomlčka
+das Apostroph — apostrof
+die Seite — strana / stránka
+der Einband — obálka (knihy)
+das Inhaltsverzeichnis — obsah (knihy)
+die Fußnote — poznámka pod čarou
+das Zitat — citát / citace
+der Verweis — odkaz / reference
+die Quelle — zdroj / pramen
+das Literaturverzeichnis — bibliografie / seznam literatury
+das Erscheinungsdatum — datum vydání
+der Sachbuch — literatura faktu
+die Biografie — životopis
+das Tagebuch — deník
+die Postkarte — pohlednice
+das Comic — komiks
+die Modezeitschrift — módní časopis
+die Tageszeitung — deník (noviny)
+die Wochenzeitschrift — týdeník
+die Monatsschrift — měsíčník
+die Schlagzeile — titulek / titulní zpráva
+die Rezension — recenze
+der Preis — cena / odměna / cena (peněžní)
+das Festival — festival
+die Ausstellung — výstava
+die Kunstgalerie — galerie umění
+der Regisseur — režisér
+der Schauspieler — herec (m.)
+die Schauspielerin — herečka (f.)
+der Drehbuchautor — scenárista
+das Drehbuch — scénář
+die Spezialeffekte — speciální efekty
+der Soundtrack — filmová hudba / soundtrack
+der Trailer — trailer
+die Premiere — premiéra
+die Kasse — pokladna / kasa
+die Bühne — jeviště / scéna
+das Bühnenbild — kulisy
+das Publikum — publikum / diváci
+der Applaus — potlesk
+die Zugabe — přídavek (koncert)
+die Oper — opera
+der Tanz — tanec
+das Ballett — balet
+der Rhythmus — rytmus
+die Melodie — melodie
+die Harmonie — harmonie
+der Chor — sbor / chór
+das Orchester — orchestr
+der Dirigent — dirigent
+der Komponist — skladatel (m.)
+die Sinfonie — symfonie
+der Blues — blues
+die Volksmusik — lidová hudba
+die E-Musik — vážná hudba (klasická)
+die E-Gitarre — elektrická kytara
+der Bass — baskytara / bas
+das Schlagzeug — bicí
+der Synthesizer — syntezátor
+der Verstärker — zesilovač
+die Kopfhörer — sluchátka
+der Lautsprecher — reproduktor
+das Budget — rozpočet
+die Kosten — náklady / cena
+die Ausgabe — výdaj / vydání
+der Ertrag — výnos / příjem
+der Gewinn — zisk
+der Verlust — ztráta
+die Bilanz — bilance / rozvaha
+das Kapital — kapitál
+die Investition — investice
+die Rendite — výnos / návratnost
+der Zinssatz — úroková sazba
+die Hypothek — hypotéka
+das Girokonto — běžný účet
+das Sparkonto — spořicí účet
+der Geldautomat — bankomat
+die Kreditkarte — kreditní karta
+die EC-Karte / die Debitkarte — debetní karta
+die Überweisung — bankovní převod
+die Abhebung — výběr (z účtu)
+die Einzahlung — vklad / záloha
+die Währung — měna
+der Wechselkurs — směnný kurz
+die Inflation — inflace
+die Rezession — recese
+die Arbeitslosigkeit — nezaměstnanost
+die Beschäftigung — zaměstnanost
+der Arbeitsmarkt — trh práce
+die Gewerkschaft — odborový svaz
+der Streik — stávka
+der Arbeitsvertrag — pracovní smlouva
+die Kündigung — výpověď
+die Eigenkündigung — výpověď ze strany zaměstnance
+das Vorstellungsgespräch — pracovní pohovor
+der Lebenslauf — životopis (CV)
+das Anschreiben — průvodní / motivační dopis
+die Referenz — reference / doporučení
+die Karriere — kariéra
+die Beförderung — povýšení
+die Prämie — prémie / bonus
+die Arbeitszeit — pracovní doba
+die Schicht — směna
+die Teilzeitstelle — práce na částečný úvazek
+die Vollzeitstelle — práce na plný úvazek
+das Homeoffice / das Fernarbeiten — home office / práce na dálku
+der Freiberufler — freelancer / OSVČ
+der Unternehmer — podnikatel
+der Manager — manažer
+der Aktionär — akcionář
+der Vorstand — správní rada / představenstvo
+der Geschäftsführer — jednatel / CEO
+die Abteilung — oddělení
+die Filiale — pobočka
+der Hauptsitz — centrála / sídlo
+das Lager — sklad
+der Lieferant — dodavatel
+die Lieferkette — dodavatelský řetězec
+die Logistik — logistika
+der Vertrieb — distribuce / prodej
+die Werbung — reklama
+das Marketing — marketing
+die Marke — značka
+das Logo — logo
+die Kampagne — kampaň
+die Zielgruppe — cílová skupina
+der Marktanteil — tržní podíl
+die Fusion — fúze
+die Übernahme — převzetí / akvizice
+das Startup — startup
+das Risikokapital — rizikový kapitál
+
+die Sonne scheint — slunce svítí
+der Regenbogen — duha
+der Blitz — blesk
+der Donner — hrom
+der Sturm — bouře
+der Nebel — mlha
+der Frost — mráz / jinovatka
+der Hagel — krupobití
+die Hitzewelle — vlna veder
+der Sandsturm — písečná bouře
+der Vulkan — sopka
+das Erdbeben — zemětřesení
+der Tsunami — tsunami
+die Überschwemmung — záplava / povodeň
+die Trockenheit / die Dürre — sucho
+der Gletscher — ledovec
+die Wüste — poušť
+die Savanne — savana
+der Dschungel — džungle
+der Regenwald — deštný prales
+die Tundra — tundra
+der Ozean — oceán
+die Küste — pobřeží
+die Insel — ostrov
+die Halbinsel — poloostrov
+das Tal — údolí
+der Hügel — kopec
+der Gipfel — vrchol / špička
+der Hang — svah
+die Klippe — útes / sráz
+der Krater — kráter
+der Geysir — gejzír
+die Quelle — pramen / zdroj
+die Lagune — laguna
+das Riff — útes (korálový)
+die Koralle — korál
+der Sumpf — bažina / mokřad
+das Moor — rašeliniště
+die Heide — vřesoviště
+die Steppe — step
+das Plateau — plošina / náhorní plošina
+der Kontinent — kontinent
+das Ökosystem — ekosystém
+die Biodiversität — biodiverzita
+die bedrohte Art — ohrožený druh
+das Aussterben — vyhynutí / zánik
+der Naturschutz — ochrana přírody
+das Naturschutzgebiet — přírodní rezervace
+der Nationalpark — národní park
+das Wildtier — volně žijící zvíře
+die Raubtier — šelma / dravec
+das Beutetier — kořist
+die Nahrungskette — potravní řetězec
+der Fotosynthese — fotosyntéza
+der Zellkern — buněčné jádro
+die DNA — DNA
+das Gen — gen
+die Evolution — evoluce
+die Ökologie — ekologie
+die Geologie — geologie
+die Astronomie — astronomie
+das Universum — vesmír
+die Galaxie — galaxie
+der Komet — kometa
+der Asteroid — asteroid
+die Raumstation — vesmírná stanice
+die Rakete — raketa
+das Teleskop — teleskop
+das Mikroskop — mikroskop
+das Atom — atom
+das Molekül — molekul
+das Elektron — elektron
+das Proton — proton
+das Neutron — neutron
+die Strahlung — záření
+die Radioaktivität — radioaktivita
+der Magnet — magnet
+die Gravitation — gravitace
+die Quantenphysik — kvantová fyzika
+die Relativitätstheorie — teorie relativity
+die künstliche Intelligenz — umělá inteligence
+der Algorithmus — algoritmus
+das maschinelle Lernen — strojové učení
+die neuronalen Netze — neuronové sítě
+der Roboter — robot
+die Automatisierung — automatizace
+das autonome Fahren — autonomní řízení
+das 3D-Drucken — 3D tisk
+die Biotechnologie — biotechnologie
+die Nanotechnologie — nanotechnologie
+die Quantencomputer — kvantový počítač
+der Datenschutz — ochrana dat / soukromí
+der Datenmissbrauch — zneužití dat
+der Cyberangriff — kybernetický útok
+die Verschlüsselung — šifrování
+die Cloud — cloud / oblak (IT)
+das Rechenzentrum — datové centrum
+die Künstliche Intelligenz — umělá inteligence (KI)
+der Avatar — avatar
+die virtuelle Realität — virtuální realita
+die erweiterte Realität — rozšířená realita
+das Internet der Dinge — internet věcí
+das Smart Home — chytré domácnosti
+das Elektroauto — elektromobil
+das Hybridfahrzeug — hybridní vozidlo
+das Wasserstoffauto — vodíkové auto
+die Ladestation — nabíjecí stanice
+das Fahrrad-Sharing — sdílení kol
+das Carsharing — sdílení aut
+der öffentliche Nahverkehr — hromadná doprava
+die Seilbahn — lanovka / gondola
+die Fähre — trajekt / přívoz
+das Kreuzfahrtschiff — výletní loď
+die Jacht — jachta
+das Kanu — kánoe
+das Ruderboot — veslice
+der Heißluftballon — horkovzdušný balón
+das Segelflugzeug — kluzák
+der Hubschrauber — vrtulník
+das Luftkissenboot — vzdušné vozidlo / hovercraft
+der Rucksacktourist — batůžkář
+die Jugendherberge — ubytovna pro mládež
+das Fünf-Sterne-Hotel — pětihvězdičkový hotel
+die Suite — suite / apartmá
+die Rezeption — recepce
+der Concierge — recepční / concierge
+der Zimmerservice — pokojová služba
+die Minibar — minibar
+das Frühstücksbuffet — snídaňový bufet
+das All-Inclusive — all-inclusive
+die Vollpension — plná penze
+die Halbpension — polopenze
+die Selbstverpflegung — bez stravy (vlastní stravování)
+das Reisebüro — cestovní kancelář
+der Reiseführer — průvodce (osoba) / průvodce (kniha)
+die Sehenswürdigkeit — turistická atrakce
+das Wahrzeichen — symbol / dominanta (města)
+die Stadtführung — prohlídka města
+der Audioguide — audioprůvodce
+das Souvenirgeschäft — obchod se suvenýry
+das Schnäppchen — výhodná koupě / slevy
+der Ausverkauf — výprodej
+die Sonderangebot — speciální nabídka
+der Rabatt — sleva / rabat
+der Gutschein — kupón / voucher
+die Quittung — stvrzenka / účtenka
+die Mehrwertsteuer — DPH
+die Kundenkarte — věrnostní karta
+das Angebot — nabídka
+die Nachfrage — poptávka
+der Lagerbestand — skladové zásoby
+die Lieferfrist — lhůta dodání
+die Rücksendung — vrácení zboží
+die Rückerstattung — vrácení peněz
+die Garantie — záruka
+die Reklamation — reklamace / stížnost
+der Kundendienst — zákaznický servis
+das Trinkgeld — spropitné
+die Speisekarte — jídelní lístek / menu
+das Tagesmenü — denní menu
+das vegetarische Gericht — vegetariánské jídlo
+das vegane Gericht — veganské jídlo
+das glutenfreie Gericht — bezlepkové jídlo
+die Portion — porce
+das Dessert — dezert
+der Aperitif — aperitiv
+der Digestif — digestiv
+das Leitungswasser — kohoutková voda
+das Mineralwasser — minerální voda
+das stille Wasser — neperlivá voda
+das Sprudelwasser — perlivá voda
+der Espresso — espresso
+der Cappuccino — cappuccino
+der Latte Macchiato — latte macchiato
+der Kakao — kakao / horká čokoláda
+der Ingwertee — zázvorový čaj
+die Kräutermedizin — bylinkový čaj / bylinná medicína
+das Smoothie — smoothie
+der Cocktail — koktejl
+der Mocktail — bezalkoholický koktejl
+die Sucht — závislost / addiction
+das Rauchen — kouření
+das Alkohol trinken — pití alkoholu
+das Drogen — drogy
+die Rehabilitation — rehabilitace / léčba závislostí
+der Psychiater — psychiatr
+der Psychologe — psycholog
+die Beratung — poradenství / konzultace
+die Gruppentherapie — skupinová terapie
+das Selbstbewusstsein — sebevědomí
+das Selbstwertgefühl — sebehodnocení / sebeúcta
+die Achtsamkeit — mindfulness / všímavost
+die Meditation — meditace
+das Yoga — jóga
+das Wohlbefinden — pohoda / blahobyt
+die mentale Gesundheit — duševní zdraví
+die Burnout — vyhoření
+das Trauma — trauma
+die Angststörung — úzkostná porucha
+die Depression — deprese
+die Einsamkeit — samota / osamění
+die Verbundenheit — sounáležitost
+das Vertrauen in sich — sebedůvěra
+die Persönlichkeitsentwicklung — osobní rozvoj
+das Potenzial — potenciál
+die Stärken und Schwächen — silné a slabé stránky
+das Feedback geben — dávat zpětnou vazbu
+das aktive Zuhören — aktivní naslouchání
+der Kompromiss — kompromis
+die Konfliktlösung — řešení konfliktů
+die Mediation — mediace
+die Verhandlung — vyjednávání / jednání
+die Überzeugungskraft — přesvědčivost
+die Führungskompetenz — leadership / vedení
+das Teambuilding — teambuilding
+die Work-Life-Balance — rovnováha práce a života
+das Netzwerken — networking
+der Mentor — mentor
+das Mentoring — mentoring
+das Coaching — coaching
+das Lebenslanges Lernen — celoživotní učení
+die Weiterbildung — další vzdělávání
+die Umschulung — rekvalifikace
+das Praktikum — praxe / stáž
+das Ehrenamt — dobrovolnictví / čestná funkce
+die Zivilgesellschaft — občanská společnost
+das Engagement — angažovanost / nasazení
+die Petition — petice
+der Protest — protest
+die Demonstration — demonstrace
+die Bürgerinitiative — občanská iniciativa
+die Menschenrechte — lidská práva
+die Kinderrechte — práva dětí
+die Frauenrechte — práva žen
+die LGBTQ+-Rechte — práva LGBTQ+
+die Barrierefreiheit — bezbariérovost / přístupnost
+die Integration — integrace
+die Inklusion — inkluze
+die Vielfalt — rozmanitost / pestrost
+das Vorurteil — předsudek
+die Diskriminierung — diskriminace
+der Rassismus — rasismus
+der Sexismus — sexismus
+die Fremdenfeindlichkeit — xenofobie
+der Antisemitismus — antisemitismus
+die Toleranz — tolerance
+die Offenheit — otevřenost
+das interreligiöse Gespräch — mezináboženský dialog
+der Atheismus — ateismus
+der Glaube — víra / přesvědčení
+die Spiritualität — spiritualita
+das Gebet — modlitba
+das Ritual — rituál
+das Tabu — tabu
+die Etikette — etiketa / společenské normy
+die Umgangsformen — způsoby chování
+die Höflichkeit — zdvořilost
+
+die Stirn runzeln — svraštit čelo / neschvalovat
+auf jemanden zugehen — přistoupit k někomu / udělat krok vstříc
+den Mut aufbringen — sebrat odvahu
+die Nerven behalten — zachovat klid / nervy
+den Kopf verlieren — ztratit hlavu
+sich die Zeit nehmen — vzít si čas
+Bescheid geben — dát vědět
+jemanden auf den neuesten Stand bringen — uvést někoho do obrazu
+auf dem Laufenden bleiben — být v obraze / sledovat dění
+die Weichen stellen — nastavit kurz / určit směr
+einen Schritt zurückgehen — udělat krok zpět
+über den Tellerrand schauen — podívat se za horizont
+Brücken bauen — budovat mosty
+die Fäden in der Hand halten — držet otěže / mít věci pod kontrolou
+unter vier Augen — mezi čtyřma očima
+auf eigene Faust — na vlastní pěst
+schwarz auf weiß — černé na bílém
+auf Anhieb — hned napoprvé
+ins Fettnäpfchen treten — šlápnout do faux pas
+die Katze aus dem Sack lassen — vytáhnout trumf / prozradit tajemství
+das Handtuch werfen — hodit ručník do ringu
+etwas auf die Spitze treiben — přehánět / dotáhnout do extrému
+Hals über Kopf — střemhlav / bez přemýšlení
+wie aus dem Nichts — jako z ničeho nic
+auf Hochtouren laufen — jet na plné obrátky
+den Nagel auf den Kopf treffen — trefit hřebík na hlavičku
+nicht drum herumkommen — nelze se vyhnout
+die Weisheit mit Löffeln gegessen haben — být samá moudrost (ironie)
+das ist nicht mein Bier — to není moje věc
+sich ins Zeug legen — nasadit se / dát do toho vše
+auf Schritt und Tritt — na každém kroku
+in die Quere kommen — přijít do cesty / zkomplikovat
+den Ball flachhalten — nechat to ležet / netlačit na pilu
+abwarten und Tee trinken — počkat a uvidět
+die Rechnung ohne den Wirt machen — plánovat bez znalosti faktů
+es kommt darauf an — záleží na tom
+mal sehen — uvidíme
+das kommt mir bekannt vor — to mi připadá povědomé
+ich habe keine Ahnung — nemám tušení
+das geht in Ordnung — to je v pořádku
+das macht Sinn — to dává smysl
+das lohnt sich — to stojí za to / to se vyplatí
+das ist nicht der Rede wert — to nestojí za řeč
+da bin ich überfragt — na to nemám odpověď
+ich bin dabei — jsem v tom / počítejte se mnou
+abgemacht — domluveno / sjednáno
+Moment mal — moment / chvíli počkejte
+na ja — no jo / no tak
+wie auch immer — ať už tak či tak / jak tak
+egal — jedno mi to je / nezáleží
+das kommt hin — to sedí / to vychází
+er hat Recht — má pravdu
+das stimmt nicht — to nesouhlasí / to není pravda
+das ist mir egal — je mi to jedno
+ich muss los — musím jít
+das läuft gut — to jde dobře
+alles beim Alten — vše při starém
+halb so wild — to nic není / není to tak zlé
+auf der sicheren Seite sein — být na bezpečné straně
+die Stirn bieten — postavit se čelem
+jemanden im Stich lassen — nechat někoho na holičkách
+das Ruder übernehmen — vzít kormidlo do rukou / převzít kontrolu
+jemandem in die Hände spielen — nahrávat někomu / pomáhat nepřímo
+auf eigenen Füßen stehen — stát na vlastních nohou
+die Stirn bieten — čelit / postavit se
+die Zügel anziehen — zpřísnit / zatáhnout za uzdu
+etwas unter Dach und Fach bringen — dotáhnout do konce
+an einem Strang ziehen — táhnout za jeden provaz
+jemandem das Wasser reichen — dosahat po kotníky / nestačit někomu
+die Luft anhalten — zadržet dech
+einen Bogen machen um — vyhnout se obloukem
+der Schuss nach hinten — výsledek opačný než zamýšlený
+der Kern der Sache — jádro věci
+im Klartext — natvrdo / bez okolků
+offen gesagt — upřímně řečeno
+ehrlich gesagt — otevřeně řečeno
+unter uns gesagt — mezi námi řečeno
+mit anderen Worten — jinými slovy
+kurz gesagt — stručně řečeno
+ich meine nur — myslím jen
+genauer gesagt — přesněji řečeno
+das heißt wiederum — to pak znamená
+soweit so gut — zatím dobře
+im Großen und Ganzen — celkově vzato
+im Nachhinein — zpětně / po čase
+auf lange Sicht — z dlouhodobého hlediska
+nach wie vor — stále jako dřív / pořád ještě
+nach und nach — postupně
+mehr oder weniger — více či méně
+auf Biegen oder Brechen — za každou cenu
+irgendwie — nějak
+irgendwann — někdy / jednou
+irgendwo — někde
+irgendjemand — někdo
+irgendetwas — něco
+nirgendwo — nikde
+nirgendwann — nikdy (v čase)
+der Lärmpegel — hladina hluku
+die Lautstärke — hlasitost / hlučnost
+das Geräusch — zvuk / šum / hluk
+das Knacken — praskání / kliknutí
+das Rauschen — šum / šumění
+das Klingeln — zvonění
+der Ton — tón / zvuk
+die Stille — ticho
+die Ruhe — klid / ticho
+das Echo — ozvěna
+die Akustik — akustika
+die Architektur — architektura
+der Bauplan — stavební plán
+das Fundament — základy / základ
+die Konstruktion — konstrukce
+das Tragwerk — nosná konstrukce
+die Fassade — fasáda / průčelí
+das Dach — střecha
+der Balken — trám
+der Pfeiler — pilíř / sloup
+der Bogen — oblouk / luk
+der Kuppel — kupole
+der Turm — věž
+das Gewölbe — klenba
+die Säule — sloup
+der Grundriss — půdorys
+die Traufhöhe — výška atiky
+der Innenraum — interiér / vnitřní prostor
+die Außenhülle — plášť budovy / exteriér
+der Entwurf — návrh / skica
+der Bauherr — stavebník / investor
+der Architekt — architekt
+der Statiker — statik
+das Baurecht — stavební předpisy / právo
+die Baugenehmigung — stavební povolení
+der Bebauungsplan — územní plán
+das Schulrecht — školské právo
+das Arbeitsrecht — pracovní právo
+das Strafrecht — trestní právo
+das Zivilrecht — občanské právo
+das Verfassungsrecht — ústavní právo
+das Steuerrecht — daňové právo
+das Erbrecht — dědické právo
+das Mietrecht — nájemní právo
+das Vertragsrecht — smluvní právo
+das Urheberrecht — autorské právo
+der Rechtsanwalt — advokát / právní zástupce
+der Richter — soudce
+der Staatsanwalt — státní zástupce / prokurátor
+der Zeuge — svědek
+der Angeklagte — obviněný / obžalovaný
+der Kläger — žalobce / navrhovatel
+der Beklagte — žalovaný
+das Urteil — rozsudek / verdikt
+die Strafe — trest
+die Geldstrafe — peněžitý trest / pokuta
+die Bewährungsstrafe — podmíněný trest
+die Freiheitsstrafe — trest odnětí svobody
+der Anwalt — právník / advokát
+die Kanzlei — advokátní kancelář
+der Vertrag — smlouva
+die Klausel — klauzule / ustanovení
+das Kleingedruckte — malé písmo / háček v smlouvě
+das Gott — Bůh
+die Religion — náboženství
+das Christentum — křesťanství
+der Islam — islám
+das Judentum — židovství
+der Hinduismus — hinduismus
+der Buddhismus — buddhismus
+der Atheismus — ateismus
+der Agnostizismus — agnosticismus
+die Kirche — kostel / církev
+die Moschee — mešita
+die Synagoge — synagoga
+der Tempel — chrám / pagoda
+das Kloster — klášter
+der Priester — kněz / duchovní
+der Imam — imám
+der Rabbi — rabbi / rabín
+der Mönch — mnich
+die Nonne — jeptiška
+der Gottesdienst — bohoslužba
+die Messe — mše
+das Gebet — modlitba
+die Bibel — Bible
+der Koran — Korán
+die Tora — Tóra
+die Seele — duše
+der Geist — duch
+der Glaube — víra
+das Wunder — zázrak / div
+die Heilige — světice / světice (f.)
+der Heilige — světec (m.)
+die Sünde — hřích
+die Vergebung — odpuštění
+die Gnade — milost
+die Erlösung — spása / vykoupení
+das Paradies — ráj
+die Hölle — peklo
+das Fegefeuer — očistec
+die Reinkarnation — reinkarnace
+der Karma — karma
+das Karma — karma (n.)
+die Pilgerfahrt — pouť
+die Wallfahrt — pouť / poutní místo
+der Heilige Geist — Duch svatý
+die Dreieinigkeit — Trojice (Boží)
+das Kreuz — kříž
+das Gebet sprechen — říci modlitbu
+fasten — postit se
+das Fasten — půst
+die Taufe — křest
+die Konfirmation — konfirmace / biřmování
+die Kommunion — přijímání / první přijímání
+der Segen — požehnání
+die Auferstehung — vzkříšení
+die Schöpfung — stvoření / Creation
+das Paradox — paradox
+die These — teze / tvrzení
+die Antithese — antiteze
+die Synthese — syntéza
+das Dilemma — dilema
+das Axiom — axiom
+das Postulat — postulát
+die Hypothese — hypotéza
+die Prämisse — premisa
+die Schlussfolgerung — závěr / dedukce
+das Argument — argument
+der Beweis — důkaz
+die Widerlegung — vyvrácení / vyvracení
+die Analogie — analogie
+die Metapher — metafora
+das Symbol — symbol
+der Vergleich — srovnání / přirovnání
+die Addition — sčítání
+die Subtraktion — odčítání
+die Multiplikation — násobení
+die Division — dělení
+der Bruch — zlomek
+die Dezimalzahl — desetinné číslo
+der Prozentsatz — procentní sazba / procento
+die Quadratwurzel — druhá odmocnina
+die Potenz — mocnina
+der Logarithmus — logaritmus
+die Gleichung — rovnice
+die Ungleichung — nerovnice
+die Funktion — funkce (matematická)
+die Variable — proměnná
+die Konstante — konstanta
+der Winkel — úhel
+die Gerade — přímka
+die Kurve — křivka
+der Kreis — kruh / kružnice
+das Dreieck — trojúhelník
+das Viereck — čtyřúhelník
+das Fünfeck — pětiúhelník
+der Würfel — krychle / kostka
+die Kugel — kulička / koule
+der Zylinder — válec
+der Kegel — kužel
+die Statistik — statistika
+die Wahrscheinlichkeit — pravděpodobnost
+der Mittelwert — průměr (aritmetický)
+der Median — medián
+der Modus — modus (nejčastější hodnota)
+die Standardabweichung — směrodatná odchylka
+das Koordinatensystem — souřadnicový systém
+die X-Achse — osa X
+die Y-Achse — osa Y
+die Steigung — stoupání / gradient
+das Integral — integrál
+die Ableitung — derivace
+
+die Einkaufsliste — nákupní seznam
+der Einkaufswagen — nákupní vozík
+der Einkaufskorb — nákupní košík
+die Kasse — pokladna
+die Selbstbedienung — samoobsluha
+der Kassenbon — pokladní lístek
+die Tüte — taška / sáček
+die Papiertüte — papírová taška
+die Plastiktüte — plastová taška
+das Rückgaberecht — právo na vrácení zboží
+der Umtausch — výměna zboží
+die Versandkosten — poštovné / přepravní náklady
+die Lieferung — dodávka
+das Online-Shopping — online nakupování
+der Warenkorb — košík (online)
+die Bestellung — objednávka
+die Bestellnummer — číslo objednávky
+der Kundenaccount — zákaznický účet
+die Bewertung — hodnocení (zákaznické)
+das Feedback — zpětná vazba
+die Platzhirsch — dominanta trhu / vedoucí subjekt
+der Discounter — diskont / obchodní řetězec
+der Fachhandel — specializovaný obchod
+das Kaufhaus — obchodní dům
+das Einkaufszentrum — obchodní centrum
+der Wochenmarkt — týdenní trh / trhiště
+das Bio-Geschäft — bio obchod
+der Second-Hand-Laden — second hand
+der Trödelmarkt — bleší trh / bazar
+die Auktion — aukce
+das Gebot — nabídka (aukce) / přikázání
+die Mitbietung — příhoz (aukce)
+der Höchstbieter — nejvyšší nabízející
+der Ausverkauf — výprodej
+die Saisonsware — sezónní zboží
+das Muster — vzorek / vzor
+die Probe — vzorek / zkouška
+die Qualitätsprüfung — kontrola kvality
+die Produktbeschreibung — popis produktu
+die technischen Daten — technické parametry
+die Spezifikation — specifikace
+die Kompatibilität — kompatibilita
+die Garantieleistung — záruční servis
+der Kundendienst — zákaznický servis
+die Reklamationsnummer — číslo reklamace
+der Schadensbericht — záznam o poškození
+das Ersatzteil — náhradní díl
+die Wartung — údržba / servis
+die Inspektion — inspekce / prohlídka
+das Protokoll — protokol / zápis
+die Checkliste — kontrolní seznam
+die To-Do-Liste — seznam úkolů
+die Priorität — priorita
+die Frist — lhůta / termín
+die Deadline — deadline / konečný termín
+die Pünktlichkeit — dochvilnost / přesnost
+die Verlängerung — prodloužení
+die Verschiebung — odsunutí / přesunutí
+die Absage — zrušení / odvolání
+die Bestätigung — potvrzení
+die Benachrichtigung — upozornění / oznámení
+die Einladung — pozvání / pozvánka
+die Ablehnung — odmítnutí
+die Akzeptanz — přijetí / akceptace
+die Verhandlung — vyjednávání / jednání
+das Angebot — nabídka
+die Nachfrage — poptávka
+das Preisangebot — cenová nabídka
+der Kostenvoranschlag — předběžná kalkulace
+der Vertragsentwurf — návrh smlouvy
+die Unterzeichnung — podepsání / podpis
+die Ratifizierung — ratifikace
+das Inkrafttreten — vstoupení v platnost
+die Kündigung des Vertrags — ukončení smlouvy
+der Schadensersatz — náhrada škody / odškodnění
+die Versicherungssumme — pojistná částka
+der Versicherungsfall — pojistná událost
+die Prämie — pojistné / prémie
+der Versicherungsträger — pojistitel
+der Versicherte — pojištěný
+die Krankenversicherung — zdravotní pojištění
+die Rentenversicherung — důchodové pojištění
+die Unfallversicherung — úrazové pojištění
+die Haftpflichtversicherung — pojištění odpovědnosti
+die Lebensversicherung — životní pojištění
+die Hausratversicherung — pojištění domácnosti
+die Kfz-Versicherung — pojištění vozidla
+der Eigenanteil — spoluúčast (pojistná)
+der Selbstbehalt — franšíza (pojistná)
+die Leistung — výkon / výhoda / plnění
+die Zusatzleistung — dodatková služba / plnění navíc
+das Bonussystem — věrnostní / bodový systém
+das Abo — předplatné
+der Abonnent — předplatitel
+der Newsletter — newsletter
+die Push-Benachrichtigung — push upozornění
+die Datenschutzerklärung — prohlášení o ochraně osobních údajů
+die Nutzungsbedingungen — podmínky použití
+das Cookie — cookie (web.)
+der Algorithmus — algoritmus
+der Feed — feed (sociální sítě)
+der Post — příspěvek (sociální sítě)
+der Like — lajk / to se mi líbí
+der Kommentar — komentář
+das Teilen — sdílení
+der Follower — sledující
+der Influencer — influencer
+der Content Creator — tvůrce obsahu
+das Streaming — streamování
+das Podcast — podcast
+der Kanal — kanál (YouTube/TV)
+das Abonnieren — přihlásit se k odběru
+der Klick — kliknutí
+die Impressionen — zobrazení / impresi
+die Reichweite — dosah
+die Interaktion — interakce
+das Engagement (Marketing) — angažovanost (marketing)
+die Konversion — konverze (marketing)
+der Funnel — trychtýř / marketingový funnel
+das SEO — SEO (optimalizace pro vyhledávače)
+das SEM — SEM (marketing ve vyhledávačích)
+die Analyse — analýza
+der Report — zpráva / report
+das Dashboard — přehled / dashboard
+der KPI — KPI (klíčový ukazatel výkonu)
+die Metrik — metrika
+das A/B-Testing — A/B testování
+der Prototyp — prototyp
+der Nutzer — uživatel
+die Nutzererfahrung — uživatelský zážitek / UX
+die Benutzeroberfläche — uživatelské rozhraní / UI
+das Design — design
+das Layout — rozvržení / layout
+die Navigation — navigace
+die Barrierefreiheit — bezbariérovost / přístupnost (web)
+die Ladezeit — doba načítání
+der Fehler 404 — chyba 404 / stránka nenalezena
+der Server-Absturz — pád serveru
+der Neustart — restart / nový začátek
+das Update installieren — nainstalovat aktualizaci
+die Softwarelösung — softwarové řešení
+die Automatisierung — automatizace
+der Workflow — pracovní postup / workflow
+das Projektmanagement — projektový management
+die agile Methode — agilní metoda
+der Sprint — sprint (projektové řízení)
+der Scrum — scrum (metoda řízení)
+das Kanban — kanban
+die Retrospektive — retrospektiva (team review)
+der Product Owner — Product Owner (vlastník produktu)
+der Scrum Master — Scrum Master
+der Stakeholder — zainteresovaná strana / stakeholder
+das Risikomanagement — řízení rizik
+die Qualitätssicherung — zajištění kvality
+die Dokumentation — dokumentace
+die Versionskontrolle — správa verzí (kódu)
+das Repository — repozitář
+der Commit — commit (verze kódu)
+der Branch — větev (Git)
+der Merge — sloučení (Git)
+das Deployment — nasazení (software)
+die Testumgebung — testovací prostředí
+die Produktionsumgebung — produkční prostředí
+der Bug — chyba (v kódu) / hmyz
+das Debugging — ladění
+die Code-Überprüfung — revize kódu
+der Pull Request — žádost o sloučení kódu
+die IT-Infrastruktur — IT infrastruktura
+die Netzwerksicherheit — bezpečnost sítě
+das Zero-Day-Exploit — zero-day exploit
+die Phishing-Mail — phishingový email
+die Zwei-Faktor-Authentifizierung — dvoufaktorové ověření
+das Single Sign-On — jednotné přihlášení
+das Datenleck — únik dat
+der Identitätsdiebstahl — krádež identity
+
+der Magen-Darm-Trakt — gastrointestinální trakt
+die Entzündung — zánět
+die Infektion — infekce
+das Bakterium — bakterie
+das Virus — virus
+der Pilz — houba / plíseň (med.)
+der Parasit — parazit
+die Immunität — imunita
+die Antikörper — protilátky
+das Antigen — antigen
+die Impfstoffe — vakcíny
+die Blutgruppe — krevní skupina
+der Blutzucker — krevní cukr / glykémie
+die Schilddrüse — štítná žláza
+das Hormon — hormon
+das Insulin — inzulin
+der Diabetes — cukrovka / diabetes
+der Herzinfarkt — infarkt
+der Schlaganfall — mrtvice / mozková příhoda
+der Krebs — rakovina
+die Chemotherapie — chemoterapie
+die Strahlentherapie — radioterapie
+die Transplantation — transplantace
+der Spender — dárce
+der Empfänger — příjemce
+das Blutspenden — dárcovství krve
+die Wiederbelebung — resuscitace / oživení
+der Herzstillstand — zástava srdce
+die Beatmung — umělá ventilace / dýchání
+das Koma — kóma
+die Intensivstation — jednotka intenzivní péče
+der Notarzt — záchranář / pohotovostní lékař
+die psychiatrische Klinik — psychiatrická klinika
+die Entgiftung — detoxikace
+die Suchthilfe — pomoc závislým
+der Sozialarbeiter — sociální pracovník
+die Pflegekraft — pečovatel/ka / zdravotní sestra
+der Pfleger — pečovatel / sanitář
+die Pflegeheim — pečovatelský dům / domov pro seniory
+die häusliche Pflege — domácí péče
+die Palliativpflege — paliativní péče
+das Hospiz — hospic
+die Sterbehilfe — eutanazie / asistovaná smrt
+der Embryo — embryo
+der Fötus — plod / fetus
+die Schwangerschaft — těhotenství
+die Geburt — porod
+die Geburtsurkunde — rodný list
+die Pränataldiagnose — prenatální diagnostika
+die Fehlgeburt — potrat (spontánní)
+die Abtreibung — potrat (umělý)
+die künstliche Befruchtung — umělé oplodnění
+die Stammzellenforschung — výzkum kmenových buněk
+das Klonen — klonování
+die genetische Beratung — genetické poradenství
+das Erbgut — dědičná výbava / genetický materiál
+das Chromosom — chromozom
+die Mutation — mutace
+der Phänotyp — fenotyp
+der Genotyp — genotyp
+die Epigenetik — epigenetika
+die Vererbung — dědičnost
+der Konflikt der Generationen — generační konflikt
+der Altersunterschied — věkový rozdíl
+die Jugendbewegung — hnutí mládeže
+das Bürgerrecht — občanské právo
+die Gleichstellung — rovnoprávnost
+die Wahlbeteiligung — volební účast
+der Parlamentarier — poslanec / parlamentní člen
+die Fraktion — frakce / poslanecký klub
+das Mandat — mandát
+die Opposition — opozice
+die Regierungspartei — vládní strana
+das Haushaltsgesetz — zákon o státním rozpočtu
+der Bundesetat — spolkový rozpočet
+das Konjunkturprogramm — konjunkturní program / stimulační balíček
+die Geldpolitik — měnová politika
+die Fiskalpolitik — fiskální politika
+die Zentralbank — centrální banka
+der Leitzins — základní úroková sazba
+die Inflation bekämpfen — bojovat s inflací
+die Kaufkraft — kupní síla
+das Bruttoinlandsprodukt (BIP) — hrubý domácí produkt (HDP)
+das Wirtschaftswachstum — hospodářský růst
+der Aufschwung — oživení / konjunktura
+der Abschwung — útlum / pokles
+die Stagflation — stagflace
+die Schuldenquote — poměr dluhu k HDP
+die Sozialleistungen — sociální dávky
+das Arbeitslosengeld — podpora v nezaměstnanosti
+das Kurzarbeitergeld — podpora při zkrácené pracovní době
+das Kindergeld — přídavky na děti
+das Wohngeld — příspěvek na bydlení
+das Bürgergeld — příspěvek pro občany / základní příjem
+die Armutsgefährdung — ohrožení chudobou
+die soziale Ungleichheit — sociální nerovnost
+der Mindestlohn — minimální mzda
+die Tarifverhandlung — kolektivní vyjednávání
+der Tarifvertrag — kolektivní smlouva
+die Berufsausbildung — odborné vzdělávání
+die duale Ausbildung — duální vzdělávání (škola + firma)
+das Handwerk — řemeslo
+der Meister — mistr (řemeslný)
+die Gesellenprüfung — výuční list / závěrečná zkouška
+die Berufsschule — odborná škola
+das Fachabitur — technická maturita
+der Bachelor — bakalář
+der Master — magistr / master
+die Habilitation — habilitace
+der Doktorgrad — doktorát
+die Forschungsförderung — podpora výzkumu
+der Wissenschaftsrat — vědecká rada
+die Hochschulreform — reforma vysokého školství
+das Studiengebühr — školné
+das BAföG — státní podpora studientů (Německo)
+die akademische Freiheit — akademická svoboda
+die Lehrfreiheit — svoboda výuky
+die Lernfreiheit — svoboda studia
+
+die Bewölkung — oblačnost / zatažení
+der Temperatursturz — prudký pokles teploty
+die Hitzewelle — vlna horka
+der Kälteeinbruch — příchod chladného počasí
+der Luftdruck — atmosferický tlak
+die Luftfeuchtigkeit — vlhkost vzduchu
+der Taupunkt — rosný bod
+die Windgeschwindigkeit — rychlost větru
+der Nordwind — severní vítr
+der Südwind — jižní vítr
+der Passatwind — pasát
+der Monsun — monzun
+der Tornado — tornádo / smršť
+der Wirbelsturm — cyklon / hurikán
+der Hurrikan — hurikán
+der Taifun — tajfun
+die Bö — poryv větru
+die Sturmböe — prudký poryv větru
+das Gewitter — bouřka
+der Blitzschlag — úder blesku
+der Platzregen — prudký déšť / průtrž mračen
+das Hochwasser — povodeň / záplava
+die Dürre — sucho
+der Dürreperiode — období sucha
+der Wasserstand — hladina vody
+das Schmelzwasser — tajová voda
+das Treibeis — ledové kry
+der Gletscher schmilzt — ledovec taje
+der Klimawandel — změna klimatu
+die CO2-Emissionen — emise CO2
+der Treibhauseffekt — skleníkový efekt
+die erneuerbare Energie — obnovitelná energie
+die Windenergie — větrná energie
+die Solarenergie — solární energie
+die Wasserkraft — vodní energie
+die Geothermie — geotermální energie
+der Atomstrom — jaderná elektřina
+das Atomkraftwerk — jaderná elektrárna
+der Reaktor — reaktor
+die Entsorgung von Atommüll — likvidace jaderného odpadu
+die Solarpanel — solární panel
+die Windkraftanlage — větrná elektrárna / větrník
+die Batterie-Speicherung — bateriové úložiště
+das Smart Grid — chytrá síť (elektřina)
+die Energiewende — energetický přechod
+der ökologische Fußabdruck — ekologická stopa
+das Plastikrecycling — recyklace plastů
+die Kompostierung — kompostování
+die Elektromobilität — elektromobilita
+die Ladeinfrastruktur — nabíjecí infrastruktura
+das Carsharing — sdílení vozidel
+der Fernbus — dálkový autobus
+das Fahrgemeinschaft — spolujízda
+die Übernachtung — přenocování
+das Hostel — hostel
+die Ferienwohnung — dovolenkový byt / apartmán
+das Airbnb — Airbnb
+die Sehenswürdigkeit — pamětihodnost / turistická atrakce
+das Kulturerbe — kulturní dědictví
+das UNESCO-Welterbe — světové dědictví UNESCO
+die Stadtbesichtigung — prohlídka města
+die Führung — prohlídka s průvodcem
+der Stadtplan — mapa města
+die Touristeninformation — turistické informační centrum
+die Bordkarte — palubní lístek
+das Gepäck aufgeben — odbavit zavazadlo
+die Sicherheitskontrolle — bezpečnostní kontrola
+das Abfluggate — odletová brána
+die Verspätung — zpoždění
+der Anschlussflug — navazující let
+die Reisekrankenversicherung — cestovní zdravotní pojištění
+das Reisevisum — cestovní vízum
+der Reisepass — cestovní pas
+das Reisedokument — cestovní dokument
+das Roaming — roaming (mobilní)
+der Wechselkurs — směnný kurz
+das Reisegeld — cestovní peníze / kapesné
+das Backpacking — cestování s batohem
+der Kulturtourismus — kulturní turismus
+der Ökotourismus — ekoturismus
+der Abenteuertourismus — dobrodružná turistika
+der Massentourismus — masový turismus
+die Reiselust — touha cestovat / wanderlust
+das Fernweh — touha po cestování / touha po dálavách
+das Heimweh — noštalgie / stesk po domově
+die Eingewöhnung — přivykání / aklimatizace
+der Kulturschock — kulturní šok
+der Sprachbarriere — jazyková bariéra
+die Einheimischen — místní obyvatelé
+die Hauptverkehrszeit — dopravní špička
+der Berufsverkehr — ranní/odpolední provoz
+der Stau — dopravní zácpa
+die Umgehungsstraße — obchvat
+die Stadtautobahn — městská dálnice / rychlostní komunikace
+die Parkgebühr — parkovné
+die Fußgängerzone — pěší zóna
+der Zebrastreifen — přechod pro chodce
+die Ampel — semafor
+der Radweg — cyklostezka
+der Bürgersteig — chodník
+die Unterführung — podchod
+die Brücke — most
+der Tunnel — tunel
+die Maut — mýtné / dálniční poplatek
+die Vignette — dálniční známka
+der Führerschein — řidičský průkaz
+die Fahrprüfung — zkouška z jízdy
+die Fahrschule — autoškola
+der Bußgeldbescheid — výměr pokuty
+der Fahrzeugschein — technický průkaz
+der TÜV — technická prohlídka (automobilu)
+die Pannenhilfe — pomoc při poruše / silniční asistenční
+der Abschleppdienst — odtahová služba
+das Navigationssystem — navigační systém / GPS
+die Verkehrsregeln — dopravní pravidla
+die Vorfahrt — přednost v jízdě
+das Überholen — předjíždění
+die Geschwindigkeitsbegrenzung — omezení rychlosti
+der Tempomat — tempomat / cruise control
+der Sicherheitsgurt — bezpečnostní pás
+der Airbag — airbag
+der Motorraum — motorový prostor / engine compartment
+das Getriebe — převodovka
+der Auspuff — výfuk
+die Bremse — brzda
+die Handbremse — ruční brzda
+das Steuer / das Lenkrad — volant
+der Rückspiegel — zpětné zrcátko
+der Außenspiegel — boční zpětné zrcátko
+der Scheibenwischer — stěrač
+der Kofferraum — kufr auta
+die Motorhaube — kapota
+das Nummernschild — registrační značka
+der Reifendruck — tlak v pneumatice
+das Reserverad — rezervní kolo / rezerva
+
+der Verkehrsunfall — dopravní nehoda
+die Unfallstelle — místo nehody
+der Unfallbericht — zpráva o nehodě
+der Sachschaden — věcná škoda / materiální škoda
+der Personenschaden — újma na zdraví
+die Haftung — ručení / odpovědnost (právní)
+der Versicherungsanspruch — pojistný nárok
+die Schadensmeldung — hlášení škody
+der Gutachter — znalec / odhadce
+die Begutachtung — znalecké posouzení
+das Fahrverbot — zákaz řízení
+der Führerscheinentzug — odebrání řidičského průkazu
+der Alkoholtest — test na alkohol
+die Promillegrenze — hranice promile
+das Bußgeld — pokuta (správní)
+der Knöllchen — parkovací lístek (hovor.)
+die Radarfalle — radarová past / měření rychlosti
+der Strafzettel — pokutový lístek
+der Einspruch — námitka / odvolání
+das Mahnverfahren — platební rozkaz / upomínkové řízení
+die Vollstreckung — výkon (rozsudku / exekuce)
+der Gerichtsvollzieher — soudní vykonavatel / exekutor
+die Insolvenz — insolvence / úpadek
+der Konkurs — konkurs / bankrot
+die Liquidation — likvidace (firmy)
+der Insolvenzverwalter — insolvenční správce
+die Gläubiger — věřitelé
+der Schuldner — dlužník
+die Tilgung — splácení / umoření dluhu
+die Rate — splátka
+der Ratenplan — splátkový plán
+die Bonitätsprüfung — prověření bonity / kreditní kontrola
+der Schufa-Eintrag — záznam v registru dlužníků
+die Kreditwürdigkeit — kreditní způsobilost / bonita
+das Girokonto — běžný účet
+der Überziehungskredit — kontokorent
+der Dispositionskredit — povolené přečerpání / dispo
+der Festgeldzins — úrok z termínového vkladu
+das Wertpapierdepot — cenné papíry / portfolio
+die Aktie — akcie
+die Anleihe — dluhopis
+der Fonds — fond (investiční)
+der ETF — ETF (burzovně obchodovaný fond)
+die Dividende — dividenda
+der Kurs — kurz (cenného papíru)
+die Börse — burza
+der Dax — DAX (německý akciový index)
+der Broker — broker / makléř
+der Handel — obchod / obchodování
+die Transaktion — transakce
+die Provision — provize
+das Depot — depot / sklad / účet pro cenné papíry
+die Kapitalertragssteuer — daň z kapitálových výnosů
+die Abgeltungssteuer — srážková daň
+das Steuerformular — daňový formulář
+die Steuererklärung — daňové přiznání
+das Finanzamt — finanční úřad
+der Steuerbescheid — daňový výměr
+der Steuerberater — daňový poradce
+der Jahresabschluss — roční uzávěrka
+die Buchhaltung — účetnictví
+das Kassenbuch — pokladní deník
+die Einnahmen-Ausgaben-Rechnung — příjmy a výdaje / výkaz zisků a ztrát
+der Umsatz — obrat
+der Bruttogewinn — hrubý zisk
+der Nettogewinn — čistý zisk
+die Abschreibung — odpis / amortizace
+die Rücklage — rezerva (finanční)
+das Eigenkapital — vlastní kapitál
+das Fremdkapital — cizí kapitál
+die Liquidität — likvidita
+die Solvenz — solventnost
+die Bilanzanalyse — analýza rozvahy
+der Cashflow — cashflow / peněžní tok
+das Betriebsergebnis — provozní výsledek
+das EBITDA — EBITDA (zisk před odpisy a daněmi)
+die Amortisation — amortizace / splácení
+der Return on Investment — návratnost investic (ROI)
+die Marge — marže
+das Marktsegment — tržní segment
+die Zielgruppe — cílová skupina
+der Marktanteil — tržní podíl
+die Marktsättigung — nasycení trhu
+der Markteintritt — vstup na trh
+die Marktstrategie — tržní strategie
+die Preisstrategie — cenová strategie
+das Premiumprodukt — prémiový produkt
+das Massenprodukt — masový produkt
+die Eigenmarke — vlastní značka / privátní label
+das Sortiment — sortiment / výběr zboží
+die Lagerhaltung — skladování zboží
+das Bestandsmanagement — řízení zásob
+der Lieferant — dodavatel
+die Beschaffung — zásobování / nákup
+der Einkäufer — nákupčí
+der Vertriebsleiter — ředitel prodeje
+der Außendienst — terénní prodej / obchodní zástupci
+der Innendienst — zákaznická podpora / vnitřní prodej
+das Kundenprojekt — zákaznický projekt
+die Ausschreibung — výběrové řízení / tendr
+das Angebot abgeben — podat nabídku
+der Zuschlag — přidělení zakázky
+die Lieferbedingungen — dodací podmínky
+das Incoterms — Incoterms (obchodní doložky)
+der Frachtbrief — nákladní list / přepravní doklad
+der Zoll — clo
+das Zolldokument — celní dokument
+die Einfuhrumsatzsteuer — dovozní DPH
+die Exportkontrolle — kontrola vývozu
+das Handelsembargo — obchodní embargo
+die Wirtschaftssanktionen — hospodářské sankce
+der Freihandel — volný obchod
+das Freihandelsabkommen — dohoda o volném obchodu
+die Zollunion — celní unie
+der Binnenmarkt — vnitřní trh
+der gemeinsame Markt — společný trh
+die Handelsbeziehungen — obchodní vztahy
+der Importeur — dovozce
+der Exporteur — vývozce
+der Handelsvertreter — obchodní zástupce
+die Handelsregistereintragung — zápis do obchodního rejstříku
+das Handelsregister — obchodní rejstřík
+die Gesellschaft mit beschränkter Haftung (GmbH) — společnost s ručením omezeným (s.r.o.)
+die Aktiengesellschaft (AG) — akciová společnost (a.s.)
+das Einzelunternehmen — živnost / fyzická osoba
+die Partnerschaft — partnerství / veřejná obchodní společnost
+die Kommanditgesellschaft (KG) — komanditní společnost
+die Genossenschaft — družstvo
+der Verein — spolek / sdružení
+die Stiftung — nadace
+das Gewerbe — živnost / řemeslo
+der Gewerbeschein — živnostenský list
+das Finanzierungsmodell — model financování
+der Businessplan — podnikatelský plán
+die Marktanalyse — analýza trhu
+die SWOT-Analyse — SWOT analýza
+die Wettbewerbsanalyse — analýza konkurence
+das Alleinstellungsmerkmal (USP) — unikátní prodejní argument (USP)
+der Mehrwert — přidaná hodnota
+die Kundenzufriedenheit — spokojenost zákazníků
+die Kundenbindung — věrnost zákazníků / udržení zákazníků
+die Neukundengewinnung — získávání nových zákazníků
+die Empfehlung — doporučení
+das Mundpropaganda — ústní doporučení
+die Markenbekanntheit — povědomí o značce
+das Corporate Identity — firemní identita
+die Unternehmenskultur — firemní kultura
+das Leitbild — firemní hodnoty / mise a vize
+die Mission — poslání / mise
+die Vision — vize
+die Unternehmensstrategie — firemní strategie
+der strategische Plan — strategický plán
+die Kernkompetenz — klíčová kompetence
+
+das Haustier — domácí zvíře / mazlíček
+der Hamster — křeček
+das Meerschweinchen — morče
+das Kaninchen — králík (domácí)
+der Papagei — papoušek
+der Wellensittich — andulka
+die Schildkröte — želvička
+der Goldfisch — zlatá rybička
+die Maus — myš
+die Ratte — potkan
+der Gecko — gekon
+die Biene — včela
+die Wespe — vosa
+die Hornisse — sršeň
+die Libelle — vážka
+der Käfer — brouk
+der Marienkäfer — beruška
+der Regenwurm — žížala
+der Tausendfüßler — stonožka
+der Krebs — rak / krab
+die Muschel — mušle
+der Oktopus — chobotnice
+der Delfin — delfín
+der Wal — velryba
+der Hai — žralok
+der Pinguin — tučňák
+der Strauß — pštros
+der Adler — orel
+der Falke — sokol
+der Kolibri — kolibřík
+die Eule — sova
+der Storch — čáp
+die Schwalbe — vlaštovka
+der Specht — datel
+der Pfau — páv
+der Flamingo — plameňák
+das Nashorn — nosorožec
+das Nilpferd — hroch
+die Giraffe — žirafa
+das Zebra — zebra
+der Gorilla — gorila
+der Schimpanse — šimpanz
+der Gepard — gepard
+der Jaguar — jaguár
+der Panter — panter
+der Lurch — obojživelník
+der Frosch — žába
+die Kröte — ropucha
+der Salamander — mlok / ještěr
+das Krokodil — krokodýl
+die Eidechse — ještěrka
+die Riesenechse — varani
+der Komodo-Waran — komodský varan
+das Vertrauen aufbauen — budovat důvěru
+jemanden unterstützen — podporovat někoho
+Grenzen setzen — nastavovat hranice
+sich entschuldigen — omluvit se
+ein schlechtes Gewissen haben — mít špatné svědomí
+jemandem vergeben — odpustit někomu
+Missverständnisse klären — vyjasnit nedorozumění
+offen kommunizieren — otevřeně komunikovat
+Kompromisse eingehen — dělat kompromisy
+füreinander da sein — být tu jeden pro druhého
+sich verlassen auf — spolehnut se na
+gemeinsam wachsen — společně růst
+die Verbindung stärken — posilovat pouto
+Grenzen respektieren — respektovat hranice
+die Gefühle ausdrücken — vyjadřovat pocity
+zuhören ohne zu urteilen — naslouchat bez odsuzování
+Verständnis zeigen — projevit porozumění
+Wertschätzung zeigen — projevit ocenění
+jemanden ermutigen — povzbudit někoho
+die Stimmung — nálada
+aufgeregt — vzrušený / nabuzený
+begeistert — nadšený
+erleichtert — ulehčený
+dankbar — vděčný
+stolz — hrdý
+schuldig — provinilý
+schamhaft — zahanbený
+verlegen — rozpačitý
+neidisch — závidivý
+eifersüchtig — žárlivý
+neugierig — zvědavý
+ungeduldig — netrpělivý
+entspannt — uvolněný / relaxovaný
+erschöpft — vyčerpaný
+gelassen — klidný / vyrovnaný
+besorgt — znepokojený / starostlivý
+enttäuscht sein — být zklamaný
+überfordert sein — být přetížený / nezvládat
+sich wohlfühlen — cítit se dobře / být ve své kůži
+ich mache mir Sorgen — dělám si starosti
+ich bin am Ende — jsem na dně / jsem vyčerpaný
+das liegt mir am Herzen — záleží mi na tom
+es geht mir durch den Kopf — vrtá mi to hlavou
+ich bin hin und hergerissen — jsem rozpolcený
+das tut weh — to bolí (přen.)
+das macht mir Mut — to mi dodává odvahu
+ich fühle mich verstanden — cítím se pochopen
+ich stehe hinter dir — stojím za tebou
+du kannst auf mich zählen — můžeš na mě počítat
+ich bin für dich da — jsem tu pro tebe
+es wird alles gut — všechno bude v pořádku
+kopf hoch — hlavu vzhůru
+nicht aufgeben — nevzdávat se
+weiter so — tak dál / pokračuj tak
+gut gemacht — dobře uděláno
+ich bin stolz auf dich — jsem na tebe hrdý/á
+
+der Morgenroutine — ranní rutina
+das Mittagsschläfchen — odpolední šlofík / zdřímnutí
+das Nickerchen — zdřímnutí / krátký spánek
+der Feierabend — konec pracovní doby / volný čas po práci
+die Auszeit — oddech / pauza / time-out
+das Wochenende genießen — užívat si víkend
+etwas Neues ausprobieren — zkusit něco nového
+einen Spaziergang machen — jít na procházku
+an der frischen Luft sein — být na čerstvém vzduchu
+die Natur genießen — užívat si přírodu
+die Stille genießen — užívat si ticho
+sich Zeit nehmen — dopřát si čas
+zur Ruhe kommen — dojít k odpočinku / uklidnit se
+das Bewusstsein schärfen — zostřit vnímání / zvýšit povědomí
+den Augenblick genießen — vychutnat okamžik
+im Hier und Jetzt leben — žít tady a teď
+die Prioritäten setzen — stanovit priority
+das Wesentliche erkennen — rozpoznat podstatné
+loslassen können — umět pustit / nechat být
+sich selbst treu bleiben — zůstat sám sebě věrný
+das innere Gleichgewicht — vnitřní rovnováha
+die innere Stärke — vnitřní síla
+das Selbstmitgefühl — soucit se sebou samým
+die Selbstfürsorge — péče o sebe / sebeobsluha
+das Aufblühen — rozkvétání / prospívání
+das Potenzial entfalten — rozvíjet potenciál
+der persönliche Wachstum — osobní růst
+die Lebensziele — životní cíle
+der Lebenssinn — smysl života
+das Lebensglück — životní štěstí
+die Erfüllung finden — najít naplnění
+auf dem richtigen Weg sein — být na správné cestě
+Schritt für Schritt — krok za krokem
+jeden Tag zählt — každý den se počítá
+das Leben genießen — užívat si života
+dankbar sein für — být vděčný za
+das Positive sehen — vidět pozitivní stránku
+die Kraft der Gewohnheit — síla zvyku
+die Veränderung wagen — odvážit se změny
+mutig vorangehen — odvážně jít vpřed
+
+der Horizont erweitern — rozšiřovat obzory
+die Komfortzone verlassen — opustit komfortní zónu
+neue Wege gehen — jít novými cestami
+die Weichen stellen — nastavit výhybky / určit kurz
+das Beste aus sich herausholen — vytěžit ze sebe maximum
+die Ärmel hochkrempeln — vyhrnout si rukávy / pustit se do toho
+mit Herzblut dabei sein — být u toho celým srdcem
+an sich glauben — věřit v sebe
+über sich hinauswachsen — přerůst sebe sama
+der erste Schritt ist der schwerste — první krok je nejtěžší
+das Glas ist halb voll — sklenice je z poloviny plná
+das Beste kommt noch — to nejlepší teprve přijde
+es ist nie zu spät — nikdy není pozdě
+man lernt nie aus — člověk se nikdy nepřestane učit
+übung macht den Meister — cvičení dělá mistra
+ohne Fleiß kein Preis — bez práce nejsou koláče
+aller Anfang ist schwer — každý začátek je těžký
+gut Ding will Weile haben — dobrá věc chce svůj čas
+der Weg ist das Ziel — cesta je cílem
+die Zeit heilt alle Wunden — čas léčí všechny rány
+morgen ist auch noch ein Tag — zítra je také den
+das Leben geht weiter — život jde dál
+nach Regen kommt Sonnenschein — po dešti přijde slunečno
+der Klügere gibt nach — moudrý ustoupí
+viele Köche verderben den Brei — příliš kuchařů jídlo zkazí
+was du heute kannst besorgen — co můžeš udělat dnes
+Einigkeit macht stark — v jednotě je síla
+alte Freunde sind die besten — staří přátelé jsou ti nejlepší
+geteiltes Leid ist halbes Leid — sdílený žal je poloviční žal
+der Apfel fällt nicht weit vom Stamm — jablko nepadá daleko od stromu
+ehrlich währt am längsten — čestnost trvá nejdéle
+reden ist Silber, Schweigen ist Gold — řeč je stříbro, mlčení zlato
+der frühe Vogel fängt den Wurm — ranní ptáče dál doskáče
+nicht alles, was glänzt, ist Gold — ne vše, co se třpytí, je zlato
+das Beste kommt zum Schluss — to nejlepší přichází nakonec
+die Hoffnung stirbt zuletzt — naděje umírá poslední
+man soll den Tag nicht vor dem Abend loben — chval den teprve večer
+jedem das Seine — každému to jeho
+leben und leben lassen — žij a nech žít
+wer wagt, gewinnt — kdo riskuje, vyhraje
+erst denken, dann handeln — nejdřív myslet, potom jednat
+nach vorne schauen — dívat se dopředu
+im Großen und Ganzen — celkově vzato
+so oder so — tak nebo tak
+es kommt wie es kommt — přijde to, co přijde
+abwarten — počkat
+schauen wir mal — uvidíme
+da bin ich gespannt — na to jsem zvědavý/á
+das wird schon werden — to se nějak udělá
+alles hat seine Zeit — všechno má svůj čas
+das liegt in der Natur der Sache — to je v povaze věci
+es hat keinen Sinn — nemá to smysl
+es lohnt sich nicht — nestojí to za to
+man kann nicht alles haben — člověk nemůže mít vše
+das beste aus der Situation machen — udělat z té situace to nejlepší
+im Nachhinein ist man immer schlauer — zpětně je člověk vždy chytřejší
+aus Fehlern lernt man — z chyb se člověk učí
+noch einmal von vorne anfangen — začít znovu od začátku
+eine neue Chance bekommen — dostat novou šanci
+der nächste Schritt — příští krok
+weitermachen — pokračovat dál
+durchhalten — vydržet / vytrvat
+nicht aufhören zu träumen — nepřestat snít
+die Zukunft gehört uns — budoucnost patří nám
+die Vollendung — dokonání / dovršení / dokonalost

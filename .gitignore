@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+
+# Rozpracovaná dávka Claude Batch API (dočasný stav generátoru)
+fraze/.claude-batch.json
+
+# Dočasné soubory při atomickém zápisu
+*.tmp
+
+# Lokální API klíč, kdyby se sem někdy dostal
+api-key
