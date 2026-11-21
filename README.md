@@ -182,6 +182,16 @@ Slovíčka označená v interaktivním režimu `n` se ukládají do `neznama_<ja
 
 `rozbor-skriptu.html` – výklad skriptů pro učení bashe ve třech částech: původní verze s technikami a cvičeními, opravy slabých míst (kód před/po) a rozšíření o fráze, ovládání klávesami a generátory frází. Otevři `xdg-open rozbor-skriptu.html`, online verze: https://claude.ai/artifact/NrzGvG6r9z5a5sfphknAXR
 
+## Git
+
+Soukromý repozitář: https://github.com/navik61/jazyky (větev `master`). Uložení změn:
+
+```sh
+git add -A && git commit -m "popis změny" && git push
+```
+
+Aliasy a pravidlo okna niri jsou mimo projekt, v `~/dotfiles`.
+
 ## Řešení problémů
 
 - **Fráze se nezobrazuje** – zkontroluj, že je slovíčko v `fraze/<slovník>.tsv` (`grep -F 'slovo — ' fraze/*.tsv`); po změně slovníku spusť generátor.
