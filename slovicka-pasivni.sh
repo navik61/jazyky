@@ -4,7 +4,7 @@
 # Pasivní poslech slovíček se vzorovými frázemi v plovoucím okně kitty
 # Ovládání v okně: [mezera] pauza / pokračovat · [z] znovu · [x] chybná fráze · [q] konec
 # Použití: ./slovicka-pasivni.sh [jazyk] [--swap|--orig] [--neznama] [--bez-frazi]
-#                                [--vsechna] [--pocet N] [--pauza N]
+#                                [--vsechna] [--pocet N] [--pauza N] [--pruhledne] [--bez-sumu]
 # ================================================================
 
 # Bez grafické relace (cron, systemd) by mpv nenašel PipeWire
@@ -46,6 +46,8 @@ _pouziti() {
     echo "  --vsechna, -a   Projít celý slovník"
     echo "  --pocet N, -n   Počet slovíček (výchozí: 30)"
     echo "  --pauza N, -p   Pauza mezi slovíčky v sekundách (výchozí: 3)"
+    echo "  --pruhledne, -t Průhledné okno ve stylu poznámek (pozt) místo kitty"
+    echo "  --bez-sumu      Bez tichého šumu na pozadí (drží BT reproduktor vzhůru)"
     echo ""
     echo "Ovládání v okně: [mezera] pauza / pokračovat · [z] zopakovat slovíčko · [x] chybná fráze · [q] konec"
     echo ""
@@ -62,18 +64,26 @@ _pouziti() {
 _napoveda_x() {
     [[ -n "$AKT_RADEK" && -n "${FRAZE[$AKT_RADEK]:-}" ]] || return 0
     if (( AKT_OZNACENO )); then
-        printf ' · \e[1;31m✗ fráze označena\e[0;90m'
+        printf ' · \e[1;31m✗ označeno\e[0;90m'
     else
-        printf ' · [x] chybná fráze'
+        printf ' · [x] chyba'
     fi
 }
 
+# Totéž pro průhledné okno (*…* = zvýraznit)
+_napoveda_x_view() {
+    [[ -n "$AKT_RADEK" && -n "${FRAZE[$AKT_RADEK]:-}" ]] || return 0
+    if (( AKT_OZNACENO )); then printf ' · *✗ fráze označena*'; else printf ' · [x] chybná fráze'; fi
+}
+
 _napoveda_klaves() {
+    _view NAPOVEDA "[mezera] pauza · [z] znovu$(_napoveda_x_view) · [q] konec"
     printf '\r\e[K\e[0;90m[mezera] pauza · [z] znovu%s · [q] konec\e[0m' "$(_napoveda_x)"
 }
 
 _radek_pauzy() {
-    printf '\r\e[K\e[1;33m⏸  Pauza\e[0;90m · [mezera] dál · [z] znovu%s · [q] konec\e[0m' "$(_napoveda_x)"
+    _view NAPOVEDA "*⏸ Pauza* · [mezera] dál · [z] znovu$(_napoveda_x_view) · [q] konec"
+    printf '\r\e[K\e[1;33m⏸ Pauza\e[0;90m · [mezera] dál · [z] znovu%s · [q] konec\e[0m' "$(_napoveda_x)"
 }
 
 # [x]: uloží frázi aktuálního slovíčka do fraze/chybne.tsv
@@ -104,7 +114,8 @@ _pauza() {
     local klavesa
     _signal_tts STOP
     _radek_pauzy
-    while IFS= read -rsn1 klavesa; do
+    while :; do
+        IFS= read -rsn1 klavesa || exit 0      # konec vstupu (zavřené okno)
         case "$klavesa" in
             " ") break ;;
             z|Z) _zopakuj; break ;;
@@ -161,20 +172,14 @@ _cekej() {
 
 _zobraz() {
     local titulek="$1" nazev="$2" prvni="$3" druhy="$4" fraze="$5" fraze_cs="$6"
+    _view KARTA "$titulek  │  $nazev" "$prvni" "$druhy" "$fraze" "$fraze_cs"
     clear
-    printf '\e[0;90m%s  │  %s\e[0m\n\n' "$titulek" "$nazev"
-    _vypis_zalomene $'\e[1;33m' "$prvni"
-    _vypis_zalomene $'\e[0;37m' "$druhy"
-    echo
-    if [[ -n "$fraze" ]]; then
-        _vypis_zalomene $'\e[3;36m' "$fraze"       # kurzíva, tyrkysová
-        _vypis_zalomene $'\e[0;90m' "$fraze_cs"
-        echo
-    fi
+    _vypis_kartu "$titulek" "$nazev" "$prvni" "$druhy" "$fraze" "$fraze_cs"
     _napoveda_klaves
 }
 
 _uklid() {
+    _pozadi_zastav
     _signal_tts CONT
     _signal_tts TERM
     _uklid_tts
@@ -191,7 +196,7 @@ trap _uklid EXIT
 
 main() {
     local jazyk="" swap="0" poradi_zadano="0" jen_neznama="0" bez_frazi="0"
-    local vsechna="0" pocet=30 pauza=3
+    local vsechna="0" pocet=30 pauza=3 pruhledne="${SLOVICKA_PRUHLEDNE:-0}" bez_sumu="0"
 
     local i=0
     local -a args=("$@")
@@ -202,6 +207,8 @@ main() {
             --neznama|-u) jen_neznama="1" ;;
             --bez-frazi) bez_frazi="1" ;;
             --vsechna|-a) vsechna="1" ;;
+            --pruhledne|-t) pruhledne="1" ;;
+            --bez-sumu) bez_sumu="1" ;;
             --pocet|-n) (( ++i )); pocet="${args[i]:-}" ;;
             --pauza|-p) (( ++i )); pauza="${args[i]:-}" ;;
             -h|--help) _pouziti 0 ;;
@@ -249,19 +256,26 @@ main() {
         [[ -f "$soubor" ]] || _chyba "Soubor nenalezen: $soubor"
     fi
 
-    # Mimo okno: otevřít plovoucí okno a spustit poslech v něm
+    # Mimo okno: otevřít okno (průhledné nebo kitty) a spustit poslech v něm
+    local -a argumenty=("$jazyk" --pocet "$pocet" --pauza "$pauza")
+    if [[ "$swap" == "1" ]]; then argumenty+=(--swap); else argumenty+=(--orig); fi
+    [[ "$jen_neznama" == "1" ]] && argumenty+=(--neznama)
+    [[ "$bez_frazi" == "1" ]] && argumenty+=(--bez-frazi)
+    [[ "$vsechna" == "1" ]] && argumenty+=(--vsechna)
+    [[ "$bez_sumu" == "1" ]] && argumenty+=(--bez-sumu)
+    if [[ "$pruhledne" == "1" ]] && _lze_pruhledne; then
+        _spust_pruhledne znaky "${argumenty[@]}"
+        trap - EXIT
+        exit 0
+    fi
     if _lze_otevrit_okno; then
-        local -a argumenty=("$jazyk" --pocet "$pocet" --pauza "$pauza")
-        if [[ "$swap" == "1" ]]; then argumenty+=(--swap); else argumenty+=(--orig); fi
-        [[ "$jen_neznama" == "1" ]] && argumenty+=(--neznama)
-        [[ "$bez_frazi" == "1" ]] && argumenty+=(--bez-frazi)
-        [[ "$vsechna" == "1" ]] && argumenty+=(--vsechna)
         _spust_v_okne "${argumenty[@]}"
         trap - EXIT     # spouštěč nesmí zavřít okno, které právě otevřel
         exit 0
     fi
 
     [[ "$bez_frazi" == "0" ]] && _nacti_fraze "$jazyk"
+    _pozadi_spust "$bez_sumu"
 
     local -a slovicka
     if [[ "$vsechna" == "1" ]]; then
@@ -275,6 +289,7 @@ main() {
     if [[ "$swap" == "1" ]]; then rezim="Česky → Originál"; else rezim="Originál → Česky"; fi
 
     [[ "$V_OKNE" == "1" ]] && tput civis 2>/dev/null     # skrýt kurzor
+    _view ZPRAVA "▶ Pasivní poslech: $nazev" "Slovíček: $celkem\nPořadí: $rezim\nPauza: ${pauza} s"
     clear
     echo -e "\n\e[1;32m▶ Pasivní poslech: $nazev\e[0m"
     printf "  Slovíček: %d  │  Pořadí: %s  │  Pauza: %ss\n" "$celkem" "$rezim" "$pauza"
@@ -319,9 +334,10 @@ main() {
         (( ++i ))
     done
 
+    _view ZPRAVA "✓ Hotovo!" "Přehráno $celkem slovíček." "[libovolná klávesa] zavřít okno (jinak za 10 s)"
     clear
     echo -e "\n\e[1;32m✓ Hotovo! Přehráno $celkem slovíček.\e[0m"
-    if [[ "$V_OKNE" == "1" ]]; then
+    if [[ "$V_OKNE" != "0" ]]; then
         printf '\e[0;90m[libovolná klávesa] zavřít okno (jinak za 10 s)\e[0m'
         read -rsn1 -t 10
     fi

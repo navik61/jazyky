@@ -12,14 +12,25 @@ readonly PIPER="$HOME/.local/share/uv/tools/piper-tts/bin/piper"
 readonly PIPER_MODELY="$HOME/.local/share/piper"
 readonly TTS_SPEED="0.85"
 
+# Zvuk na pozadí po celou dobu procvičování — drží Bluetooth reproduktor vzhůru,
+# aby neuřízl začátek krátkých slov.
+#   SLOVICKA_POZADI = sum (výchozí, tichý šum) | ne (vypnuto) | cesta ke zvukovému souboru (smyčka)
+#   SLOVICKA_SUM_BARVA = white | pink | brown (výchozí white), SLOVICKA_SUM_UROVEN = amplituda (výchozí 0.003)
+#   SLOVICKA_POZADI_HLASITOST = hlasitost souboru 0–100 (výchozí 25)
+POZADI_PID=""
+
 # Titulek okna kitty, podle něj se okno hledá (pgrep/pkill -f)
 readonly OKNO_NAZEV="kitty-float-slovicka"
 # Rozměry musí odpovídat pravidlu app-id "kitty-float" v niri config.kdl
 readonly OKNO_SIRKA=820
 readonly OKNO_VYSKA=380
 
-# 1 = skript běží uvnitř plovoucího okna (nastavuje _spust_v_okne)
+# 1 = skript běží uvnitř plovoucího okna kitty (nastavuje _spust_v_okne),
+# 2 = v průhledném okně slovicka-view.py (nastavuje _spust_pruhledne)
 readonly V_OKNE="${SLOVICKA_V_OKNE:-0}"
+# Průhledné okno: deskriptor, na který se posílají příkazy pro slovicka-view.py
+readonly VIEW_FD="${SLOVICKA_FD:-}"
+readonly VIEW_PY="$CESTA_SLOVNIKU/slovicka-view.py"
 
 # Vzorové fráze: fraze/<slovník>.tsv, řádek = <řádek slovníku> TAB <fráze> TAB <překlad>
 # (generuje generuj-fraze.py)
@@ -103,15 +114,51 @@ _chyba() {
     exit 1
 }
 
-# Vypíše text zalomený podle šířky terminálu, s odsazením a barvou
-# _vypis_zalomene $'\e[1;33m' "text"
-_vypis_zalomene() {
-    local barva="$1" text="$2" sirka radek
+# Vypíše kartu slovíčka tak, aby se vešla do výšky terminálu (okno kitty má jen ~10 řádků;
+# při přetečení by terminál odroloval a titulek s vlajkami zmizel). Poslední řádek je pro nápovědu.
+# Prázdné řádky se vloží jen když je místo; v krajním případě se zkrátí fráze (…).
+# _vypis_kartu titulek nazev prvni druhy fraze fraze_cs
+_vypis_kartu() {
+    local titulek="$1" nazev="$2" prvni="$3" druhy="$4" fraze="$5" fraze_cs="$6"
+    local sirka vyska volno
     sirka=$(( $(tput cols 2>/dev/null || echo 80) - 4 ))
     (( sirka < 20 )) && sirka=20
-    while IFS= read -r radek; do
-        printf '%s  %s\e[0m\n' "$barva" "$radek"
-    done < <(printf '%s\n' "$text" | fold -s -w "$sirka")
+    vyska=$(tput lines 2>/dev/null || echo 24)
+
+    local -a r_prvni=() r_druhy=() r_fraze=() r_cs=()
+    mapfile -t r_prvni < <(printf '%s\n' "$prvni" | fold -s -w "$sirka")
+    mapfile -t r_druhy < <(printf '%s\n' "$druhy" | fold -s -w "$sirka")
+    [[ -n "$fraze" ]] && mapfile -t r_fraze < <(printf '%s\n' "$fraze" | fold -s -w "$sirka")
+    [[ -n "$fraze_cs" ]] && mapfile -t r_cs < <(printf '%s\n' "$fraze_cs" | fold -s -w "$sirka")
+
+    # titulek + nápověda + obsah
+    volno=$(( vyska - 2 - ${#r_prvni[@]} - ${#r_druhy[@]} - ${#r_fraze[@]} - ${#r_cs[@]} ))
+
+    # Nevejde se → zkrátit nejdřív překlad fráze, pak frázi (poslední řádek s …)
+    while (( volno < 0 && ${#r_cs[@]} > 1 )); do
+        unset 'r_cs[-1]'; r_cs[-1]="${r_cs[-1]% } …"; (( ++volno ))
+    done
+    while (( volno < 0 && ${#r_fraze[@]} > 1 )); do
+        unset 'r_fraze[-1]'; r_fraze[-1]="${r_fraze[-1]% } …"; (( ++volno ))
+    done
+    (( volno < 0 && ${#r_cs[@]} )) && { r_cs=(); (( ++volno )); }
+
+    # Prázdné řádky podle priority: před frází, za titulkem, před nápovědou
+    local mezera_fraze=0 mezera_titulek=0 mezera_konec=0
+    if (( ${#r_fraze[@]} && volno > 0 )); then mezera_fraze=1; (( --volno )); fi
+    if (( volno > 0 )); then mezera_titulek=1; (( --volno )); fi
+    if (( volno > 0 )); then mezera_konec=1; (( --volno )); fi
+
+    local radek
+    printf '\e[0;90m%s  │  %s\e[0m\n' "$titulek" "$nazev"
+    (( mezera_titulek )) && echo
+    for radek in "${r_prvni[@]}"; do printf '\e[1;33m  %s\e[0m\n' "$radek"; done
+    for radek in "${r_druhy[@]}"; do printf '\e[0;37m  %s\e[0m\n' "$radek"; done
+    (( mezera_fraze )) && echo
+    for radek in "${r_fraze[@]}"; do printf '\e[3;36m  %s\e[0m\n' "$radek"; done   # kurzíva, tyrkysová
+    for radek in "${r_cs[@]}"; do printf '\e[0;90m  %s\e[0m\n' "$radek"; done
+    (( mezera_konec )) && echo
+    return 0
 }
 
 # ── Vzorové fráze ───────────────────────────────────────────────
@@ -162,6 +209,36 @@ _spust_v_okne() {
     echo -e "\e[0;90mBěží v plovoucím okně ([q] v okně = konec).\e[0m"
 }
 
+# Spustí tentýž skript v průhledném okně slovicka-view.py (vzhled jako poznámky pozt).
+# $1 = režim kláves (znaky = pasivní, radky = interaktivní), zbytek = argumenty skriptu
+_spust_pruhledne() {
+    local rezim="$1"; shift
+    setsid -f python3 "$VIEW_PY" --rezim "$rezim" -- "$SKRIPT" "$@" </dev/null &>/dev/null
+    echo -e "\e[0;90mBěží v průhledném okně ([q] v okně = konec).\e[0m"
+}
+
+# Lze otevřít průhledné okno? (grafická relace + python-gobject s GTK4)
+_lze_pruhledne() {
+    [[ "$V_OKNE" == "0" && -n "${WAYLAND_DISPLAY:-}${DISPLAY:-}" && -f "$VIEW_PY" ]] \
+        && python3 -c 'import gi; gi.require_version("Gtk", "4.0")' &>/dev/null
+}
+
+# Běží skript v průhledném okně?
+_pruhledne() { [[ "$V_OKNE" == "2" && -n "$VIEW_FD" ]]; }
+
+# Pošle příkaz průhlednému oknu (pole oddělená tabulátorem, viz slovicka-view.py):
+#   _view KARTA hlavička první druhý fráze fráze_cs
+#   _view NAPOVEDA "text *zvýrazněné*"
+#   _view ZPRAVA nadpis "řádek\nřádek" [nápověda]
+# Mimo průhledné okno nic nedělá.
+_view() {
+    _pruhledne || return 0
+    local IFS=$'\t'
+    # shellcheck disable=SC2261  # >&"$VIEW_FD" je deskriptor, ne soubor
+    printf '%s\n' "${*//$'\n'/ }" >&"$VIEW_FD" 2>/dev/null
+    return 0
+}
+
 # Lze otevřít okno? (kitty + grafická relace, a skript ještě neběží v okně)
 _lze_otevrit_okno() {
     [[ "$V_OKNE" == "0" ]] && command -v kitty &>/dev/null \
@@ -170,7 +247,7 @@ _lze_otevrit_okno() {
 
 _okno_zavrit() {
     # Uvnitř okna nic nezabíjet — okno se zavře samo s koncem skriptu
-    [[ "$V_OKNE" == "1" ]] && return 0
+    [[ "$V_OKNE" != "0" ]] && return 0
     pkill -f "$OKNO_NAZEV" 2>/dev/null || true
 }
 
@@ -246,6 +323,33 @@ _tts_reci() {
             | mpv --really-quiet --no-video --no-input-terminal - 2>/dev/null
 
     done < <(printf '%s\n' "$text" | tr '/' '\n')
+}
+
+# ── Zvuk na pozadí ──────────────────────────────────────────────
+# _pozadi_spust [vypnuto]   — vypnuto=1 (volba --bez-sumu) nic nespustí
+_pozadi_spust() {
+    local zdroj="${SLOVICKA_POZADI:-sum}"
+    [[ "${1:-0}" == "1" || "$zdroj" == "ne" || "$zdroj" == "0" ]] && return 0
+    command -v mpv &>/dev/null || return 0
+    local -a mpv_volby=(--no-video --really-quiet --no-input-terminal
+                        --audio-client-name=slovicka-pozadi)
+    if [[ "$zdroj" == "sum" ]]; then
+        mpv "${mpv_volby[@]}" \
+            "av://lavfi:anoisesrc=color=${SLOVICKA_SUM_BARVA:-white}:amplitude=${SLOVICKA_SUM_UROVEN:-0.003}" \
+            </dev/null &>/dev/null &
+    elif [[ -f "$zdroj" ]]; then
+        mpv "${mpv_volby[@]}" --loop-file=inf --volume="${SLOVICKA_POZADI_HLASITOST:-25}" "$zdroj" \
+            </dev/null &>/dev/null &
+    else
+        return 0
+    fi
+    POZADI_PID=$!
+}
+
+_pozadi_zastav() {
+    [[ -n "$POZADI_PID" ]] && kill "$POZADI_PID" 2>/dev/null
+    POZADI_PID=""
+    return 0
 }
 
 # ── Neznámá slovíčka ────────────────────────────────────────────
