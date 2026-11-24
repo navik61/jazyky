@@ -422,14 +422,15 @@ def main() -> None:
     p.add_argument("--sady", nargs="+", default=SADY, choices=SADY)
     p.add_argument("--jazyky", nargs="+", choices=JAZYKY)
     p.add_argument("--limit", type=int, default=0, help="max. pojmů na sadu (a jazyk)")
-    p.add_argument("--davka", type=int, default=0, help="položek v jednom dotazu (výchozí 40 slova / 15 vety)")
+    p.add_argument("--davka", type=int, default=0, help="položek v jednom dotazu (výchozí 40 slova / 8 vety)")
     p.add_argument("--model", default="claude-sonnet-5-5", choices=list(CENY_BATCH))
     p.add_argument("--effort", default="low", choices=["low", "medium", "high"])
     p.add_argument("--ano", action="store_true", help="neptat se před odesláním")
     p.add_argument("--stav", action="store_true", help="jen ukázat stav odeslané dávky")
     p.add_argument("--nanecisto", action="store_true", help="jen plán a odhad ceny")
     args = p.parse_args()
-    args.davka = args.davka or (40 if args.krok == "slova" else 15)
+    # Věty: při 15 položkách v dotazu model část vynechával, 8 je spolehlivější
+    args.davka = args.davka or (40 if args.krok == "slova" else 8)
 
     if STAV.exists() and not args.nanecisto:
         c = klient()

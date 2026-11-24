@@ -225,10 +225,10 @@ Fills in only what is missing – after adding concepts just run it again. Uses 
 - The `vety` step writes a sentence only where it is missing and translates it into the languages that lack a translation.
 - Before sending it shows the number of items and a cost estimate and asks (`--ano` = don't ask). After downloading it prints the real cost.
 - Ctrl+C does not cancel the batch – the next run just downloads the results (the pending batch is stored in `fraze/.claude-batch.json`). Invalid results (too short, copied entry) are sent again on the next run.
-- Options: `--model claude-sonnet-5-5 | claude-opus-5-5 | claude-haiku-5-5` (default Sonnet), `--effort low | medium | high`, `--davka N` (items per request), `--sady`, `--jazyky`, `--limit`.
+- Options: `--model claude-sonnet-5-5 | claude-opus-5-5 | claude-haiku-5-5` (default Sonnet), `--effort low | medium | high`, `--davka N` (items per request, default 40 words / 8 sentences – with larger batches the model skipped some items), `--sady`, `--jazyky`, `--limit`.
 - Authentication – one of: `ant auth login` (Console profile, default), or an API key in `~/.config/anthropic/api-key` (chmod 600). Do not put the API key into `.zshrc` – Claude Code would start using it instead of the subscription.
 
-**Status (24 Nov 2026):** the original Czech dictionaries and sentences (20,847 words, USD 8.47) were converted to concepts; the extension to all 7 languages was generated with Claude Sonnet 5.5 for USD 53.50 (18,497 words, 226,867 sentence translations). Words are almost complete; sentences cover 86–100 % of general concepts (golf 57–100 %); the rest (~3,000 sentences, ~21,000 translations, estimate USD 4.55) will be filled in by another `./generuj-claude.py vety`.
+**Status (24 Nov 2026):** the original Czech dictionaries and sentences (20,847 words, USD 8.47) were converted to concepts; the extension to all 7 languages was generated with Claude Sonnet 5.5 for USD 59.04 (18,497 words, ~21,000 new sentences, ~248,000 translations). All 6,555 concepts have a word, a sentence and translations in all seven languages.
 
 ## Unknown words
 

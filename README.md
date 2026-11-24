@@ -225,10 +225,10 @@ Doplňuje jen to, co chybí – po přidání pojmů stačí spustit znovu. Pou�
 - Krok `vety` napíše větu jen tam, kde chybí, a přeloží ji do jazyků, kde chybí překlad.
 - Před odesláním ukáže počet položek a odhad ceny a zeptá se (`--ano` = neptat se). Po stažení vypíše skutečnou cenu.
 - Ctrl+C dávku nezruší – dalším spuštěním se jen stáhnou výsledky (rozpracovaná dávka je v `fraze/.claude-batch.json`). Neplatné výsledky (příliš krátké, opsané heslo) odešle další spuštění.
-- Volby: `--model claude-sonnet-5-5 | claude-opus-5-5 | claude-haiku-5-5` (výchozí Sonnet), `--effort low | medium | high`, `--davka N`, `--sady`, `--jazyky`, `--limit`.
+- Volby: `--model claude-sonnet-5-5 | claude-opus-5-5 | claude-haiku-5-5` (výchozí Sonnet), `--effort low | medium | high`, `--davka N` (výchozí 40 slov / 8 vět – při větších dávkách model část položek vynechával), `--sady`, `--jazyky`, `--limit`.
 - Přihlášení – jedno z: `ant auth login` (profil Console, výchozí), nebo API klíč v `~/.config/anthropic/api-key` (chmod 600). API klíč nedávej do `.zshrc` – Claude Code by ho začal používat místo předplatného.
 
-**Stav (24. 11. 2026):** původní české slovníky a věty (20 847 slovíček, 8,47 USD) převedeny na pojmy; doplnění na všech 7 jazyků vygeneroval Claude Sonnet 5.5 za 53,50 USD (18 497 slov, 226 867 překladů vět). Slova jsou téměř kompletní, věty mají 86–100 % pojmů obecné sady (golf 57–100 %); zbytek (~3 000 vět, ~21 000 překladů, odhad 4,55 USD) doplní další `./generuj-claude.py vety`.
+**Stav (24. 11. 2026):** původní české slovníky a věty (20 847 slovíček, 8,47 USD) převedeny na pojmy; doplnění na všech 7 jazyků vygeneroval Claude Sonnet 5.5 za 59,04 USD (18 497 slov, ~21 000 nových vět, ~248 000 překladů). Všech 6 555 pojmů má slovo, větu i překlady ve všech sedmi jazycích.
 
 ## Neznámá slovíčka
 
