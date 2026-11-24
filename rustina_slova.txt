@@ -1,0 +1,3006 @@
+я — já
+ты — ty
+он — on
+она — ona
+оно — ono
+мы — my
+вы — vy
+они — oni / ony
+Вы — Vy (vykání)
+быть — být
+иметь — mít
+делать / сделать — dělat / udělat
+идти / ехать — jít / jet
+прийти — přijít
+сказать — říct
+знать — vědět
+видеть — vidět
+дать — dát
+взять — vzít / vzít si
+думать — myslet
+говорить — mluvit
+находиться — být / nacházet se
+найти — najít
+остаться — zůstat
+положить / поставить — položit / postavit
+звать / называть — zavolat / jmenovat
+жить — žít
+работать — pracovat
+играть — hrát (si)
+бежать / бегать — běžet / běhat
+понимать / понять — chápat / pochopit
+хотеть — chtít
+мочь — moci
+должен — muset / mít povinnost
+уметь — umět
+начать — začít
+кончить / закончить — skončit / dokončit
+ждать — čekat
+искать — hledat
+верить / считать — věřit / myslet
+слышать / чувствовать / чувствовать себя — slyšet / cítit / cítit se
+носить / принести — nosit / přinést
+оставить / покинуть — nechat / opustit
+читать — číst
+писать — psát
+открыть — otevřít
+закрыть — zavřít
+купить — koupit
+продать — prodat
+есть — jíst
+пить — pít
+спать — spát
+проснуться — probudit se
+встать — vstát
+одеться — obléknout se
+умыться — mýt se
+готовить — vařit
+вернуться — vrátit se
+выйти / уйти — vyjít / odejít
+войти — vstoupit / vejít
+смотреть — dívat se / sledovat
+слушать — naslouchat / poslouchat
+помочь — pomoci
+учиться / выучить — učit se / naučit se
+объяснить — vysvětlit
+спросить / попросить — zeptat se / požádat
+ответить — odpovědět
+повторить — zopakovat
+помнить / вспомнить — pamatovat si / vzpomenout
+забыть — zapomenout
+решить — rozhodnout
+обещать — slíbit
+благодарить — poděkovat
+извиниться — omluvit se
+поздороваться — pozdravit
+встретить / встретиться — potkat / setkat se
+знать (кого-то) — znát (osoby/místa)
+понимать — rozumět / chápat
+выбрать — vybrat / zvolit
+менять / измениться — změnit (se)
+путешествовать — cestovat
+водить машину — řídit (auto)
+лететь — letět
+плавать — plavat
+варить — vařit (polévku, kaši)
+убирать / чистить — uklízet / čistit
+платить — platit
+стоить — stát (cena)
+экономить / копить — šetřit
+потерять / проиграть — ztratit / prohrát
+выиграть — vyhrát
+перестать — přestat
+продолжать — pokračovat
+использовать / пользоваться — používat
+нравиться — líbit se / mít rád (neosobní)
+любить — milovat / mít rád
+ненавидеть — nenávidět
+забыться — zapomenout se
+поднять — zvednout
+снизить / убавить — snížit / ztlumit
+выключить / потушить — vypnout / uhasit
+включить — zapnout / rozsvítit
+сесть — sednout si
+отправить / послать — poslat / odeslat
+получить — přijmout / obdržet
+строить — postavit / budovat
+стать / становиться — stát se / stávat se
+казаться — zdát se / vypadat
+вернуться домой — vrátit se domů
+уехать / улететь — odjet / odletět
+приехать / прилететь / прийти — přijet / přiletět / přijít
+случиться / произойти — stát se / přihodit se
+улучшить — zlepšit (se)
+ухудшить — zhoršit (se)
+увеличить — zvýšit / zvětšit
+уменьшить — snížit / zmenšit
+добавить — přidat / přičíst
+убрать / удалить — odstranit / vzít
+делиться — sdílet / dělit se
+решить (задачу) — vyřešit
+создать — vytvořit
+описать — popsat
+сравнить — porovnat / srovnat
+анализировать — analyzovat
+попробовать — zkusit / vyzkoušet
+удаться / добиться успеха — podařit se / uspět
+ошибиться — udělat chybu / splést se
+защищать — chránit
+спасти / сохранить — zachránit / uložit
+рисковать — riskovat
+избегать — vyhnout se
+разрешить / позволить — dovolit / umožnit
+запретить — zakázat
+предложить — nabídnout
+принять — přijmout / akceptovat
+отказаться — odmítnout
+дом — dům / domov
+квартира — byt
+комната — pokoj / místnost
+кухня — kuchyně
+ванная / туалет — koupelna / záchod
+спальня — ložnice
+гостиная — obývací pokoj
+сад — zahrada
+дверь — dveře
+окно — okno
+стол — stůl
+стул — židle
+кровать — postel
+пол — podlaha
+стена — stěna
+потолок — strop
+лестница — schodiště
+лифт — výtah
+гараж — garáž
+улица / дорога — ulice / silnice
+путь / маршрут — cesta / trasa
+площадь — náměstí
+город — město
+страна — země / národ
+деревня / посёлок — vesnice / vesnička
+мир — svět
+здание — budova
+офис — kancelář
+школа — škola
+университет — univerzita
+больница — nemocnice
+аптека — lékárna
+супермаркет — supermarket
+ресторан — restaurace
+кафе — kavárna
+вокзал — nádraží
+аэропорт — letiště
+гостиница — hotel
+банк — banka
+музей — muzeum
+церковь — kostel
+парк — park
+мост — most
+река — řeka
+озеро — jezero
+море — moře
+гора — hora
+лес — les
+поле — pole
+небо — obloha / nebe
+солнце — slunce
+луна — měsíc (na obloze)
+звезда — hvězda
+облако / туча — mrak
+дождь — déšť
+снег — sníh
+ветер — vítr
+погода — počasí
+температура — teplota
+весна — jaro
+лето — léto
+осень — podzim
+зима — zima
+утро — ráno
+полдень — poledne
+день / после обеда — odpoledne
+вечер — večer
+ночь — noc
+сегодня — dnes
+вчера — včera
+завтра — zítra
+сейчас / теперь — teď
+потом / после — potom / po
+раньше / перед — dříve / před
+всегда — vždy
+иногда — někdy
+часто — často
+редко — zřídka
+никогда — nikdy
+уже — již / už
+ещё / снова — stále / ještě / znovu
+скоро / рано — brzy
+понедельник — pondělí
+вторник — úterý
+среда — středa
+четверг — čtvrtek
+пятница — pátek
+суббота — sobota
+воскресенье — neděle
+неделя — týden
+выходные — víkend
+месяц — měsíc
+год — rok
+январь — leden
+февраль — únor
+март — březen
+апрель — duben
+май — květen
+июнь — červen
+июль — červenec
+август — srpen
+сентябрь — září
+октябрь — říjen
+ноябрь — listopad
+декабрь — prosinec
+человек — osoba / člověk
+мужчина — muž
+женщина — žena
+ребёнок — dítě
+девочка — dítě (dívka) / holčička
+мальчик / юноша — chlapec / mladík
+девушка — dívka / mladá žena
+малыш / младенец — miminko
+взрослый — dospělý
+пожилой человек — starší člověk
+друг — přítel / kamarád (m.)
+подруга — přítelkyně / kamarádka (f.)
+коллега — kolega
+начальник — šéf / vedoucí
+сосед — soused
+иностранец — cizinec
+семья — rodina
+отец — otec
+мать — matka
+сын — syn
+дочь — dcera
+брат — bratr
+сестра — sestra
+дедушка — dědeček
+бабушка — babička
+дядя — strýc
+тётя — teta
+племянник / внук — synovec / vnuk
+племянница / внучка — neteř / vnučka
+муж — manžel
+жена — manželka
+пара / супруги — pár / manželé
+тело — tělo
+голова — hlava
+лицо — obličej
+глаз — oko
+ухо — ucho
+нос — nos
+рот — ústa
+зуб — zub
+шея — krk
+плечо — rameno
+рука — paže / ruka
+ладонь — ruka (dlaň)
+палец — prst
+живот / пупок — břicho / pupek
+спина — záda
+нога — noha (celá)
+колено — koleno
+ступня — chodidlo
+сердце — srdce
+кровь — krev
+кожа — kůže
+волосы — vlasy
+здоровье — zdraví
+болезнь — nemoc / choroba
+боль — bolest
+температура / жар — horečka
+кашель — kašel
+простуда / насморк — nachlazení / rýma
+аллергия — alergie
+врач / доктор — lékař / doktor
+лекарство — lék / medicína
+таблетка — tableta
+укол — injekce
+операция — operace
+еда — jídlo / potravina
+завтрак — snídaně
+обед — oběd
+ужин — večeře
+хлеб — chléb
+масло — máslo
+сыр — sýr
+мясо — maso
+курица — kuře / kuřecí
+говядина — hovězí
+свинина — vepřové
+рыба — ryba
+яйцо — vejce
+молоко — mléko
+йогурт — jogurt
+яблоко — jablko
+груша — hruška
+банан — banán
+апельсин — pomeranč
+клубника — jahoda
+помидор — rajče
+картофель / картошка — brambor
+морковь — mrkev
+салат — salát
+суп — polévka
+рис — rýže
+макароны — těstoviny
+растительное масло — olej
+сахар — cukr
+соль — sůl
+перец — pepř
+кофе — káva
+чай — čaj
+вода — voda
+сок — džus / šťáva
+пиво — pivo
+вино — víno
+одежда — oblečení
+рубашка — košile
+блузка — halenka
+свитер — svetr
+куртка / пиджак — bunda / sako
+пальто — kabát
+брюки — kalhoty
+юбка — sukně
+платье / костюм — šaty / oblek
+нижнее бельё — spodní prádlo
+носок — ponožka
+ботинок / туфля — bota
+сапог — bota (vysoká)
+шляпа — klobouk
+шапка — čepice
+шарф — šál
+перчатка — rukavice
+очки — brýle
+часы — hodinky
+кольцо — prsten
+ожерелье — náhrdelník
+сумка — taška / kabelka
+рюкзак — batoh
+кошелёк — peněženka
+ключ — klíč
+телефон — telefon
+мобильный телефон — mobilní telefon
+смартфон — smartphone
+компьютер — počítač
+ноутбук — notebook
+планшет — tablet
+интернет — internet
+электронная почта — email
+сайт — webová stránka
+приложение — aplikace
+пароль — heslo
+принтер — tiskárna
+книга — kniha
+газета — noviny
+журнал — časopis
+письмо — dopis
+тетрадь — sešit
+ручка — pero
+карандаш — tužka
+бумага — papír
+ножницы — nůžky
+клей — lepidlo
+музыка — hudba
+фильм — film
+концерт — koncert
+театр — divadlo
+кино / кинотеатр — kino
+картина — obraz
+фотография / фото — fotografie / foto
+искусство — umění
+спорт — sport
+футбол — fotbal
+теннис — tenis
+плавание — plavání
+велоспорт — cyklistika
+велосипед — kolo
+машина / автомобиль — auto
+поезд — vlak
+автобус — autobus
+самолёт — letadlo
+корабль / лодка — loď
+мотоцикл — motorka
+такси — taxi
+метро — metro
+трамвай — tramvaj
+водительские права — řidičský průkaz
+авария — nehoda
+движение / транспорт — provoz / doprava
+заправка — benzínová pumpa
+деньги — peníze
+рубль — rubl
+копейка — kopějka
+счёт — účet
+чек — stvrzenka
+налог — daň
+зарплата — plat / mzda
+квартплата / аренда — nájemné
+кредит / заём — půjčka / úvěr
+страховка — pojištění
+работа — práce / zaměstnání
+профессия — povolání
+должность — pozice / místo
+фирма / компания — firma / podnik
+продукт / товар — produkt / zboží
+клиент / покупатель — zákazník
+продавец — prodavač
+покупатель — kupující
+рынок — trh
+экономика — ekonomika
+политика — politika
+правительство — vláda
+президент — prezident
+премьер-министр — premiér
+министр — ministr
+закон — zákon
+право — právo / právo na
+полиция — policie
+пожарные — hasiči
+суд — soud
+тюрьма — vězení
+война — válka
+мир (без войны) — mír
+язык — jazyk / řeč / jazyk (anatomický)
+русский язык — ruština
+английский язык — angličtina
+немецкий язык — němčina
+перевод — překlad
+слово — slovo
+предложение / выражение — věta / výraz
+вопрос / просьба — otázka / žádost
+ответ — odpověď
+мнение — názor
+идея / мысль — nápad / myšlenka
+план — plán
+цель — cíl
+успех — úspěch
+проблема — problém
+решение — řešení
+ошибка — chyba
+возможность — možnost / příležitost
+опасность — nebezpečí
+помощь — pomoc
+совет — rada (doporučení)
+решение (выбор) — rozhodnutí
+опыт — zkušenost / zážitek
+знание / знания — znalost / vědomosti
+образование — vzdělání
+урок — hodina / lekce
+домашнее задание — domácí úkol
+экзамен — zkouška
+результат — výsledek
+диплом / степень — titul / diplom
+курс — kurz
+упражнение — cvičení
+пример — příklad
+задача / задание — úkol
+правило — pravidlo
+разница — rozdíl
+сходство — podobnost
+сравнение — srovnání
+значение / смысл — význam / smysl
+важность — důležitost
+причина / мотив — důvod / motiv
+причина — příčina / důvod
+эффект / действие — účinek / efekt
+итог — výsledek / vyústění
+последствие — důsledek / následek
+свобода — svoboda
+равенство — rovnost
+справедливость — spravedlnost
+ответственность — odpovědnost
+обязанность / долг — povinnost
+права — práva
+правда — pravda
+ложь — lež
+доверие — důvěra
+надежда — naděje
+страх — strach
+радость — radost
+грусть / печаль — smutek
+гнев / злость — hněv / vztek
+любовь — láska
+ненависть — nenávist
+ревность — žárlivost
+счастье — štěstí
+удача / судьба — štěstí (náhoda) / osud
+развлечение — zábava
+сюрприз / удивление — překvapení
+разочарование — zklamání
+стресс — stres
+спокойствие — klid
+отдых / расслабление — relaxace
+усталость — únava
+голод — hlad
+жажда — žízeň
+сон / сонливость — spánek / ospalost
+сон / мечта — sen
+большой — velký
+маленький — malý
+длинный — dlouhý
+короткий — krátký
+широкий — široký
+узкий — úzký
+высокий — vysoký
+низкий / тихий — nízký / tichý
+толстый — tlustý
+тонкий / худой — tenký / hubený
+тяжёлый — těžký
+лёгкий — lehký
+быстрый — rychlý
+медленный — pomalý
+сильный / громкий — silný / hlasitý
+слабый — slabý
+светлый / ясный — světlý / jasný
+тёмный — tmavý
+холодный — studený
+прохладный / свежий — chladný / čerstvý
+тёплый / горячий — teplý / horký
+новый — nový
+старый — starý
+молодой — mladý
+чистый — čistý
+грязный — špinavý
+красивый — hezký / krásný
+некрасивый / уродливый — ošklivý
+хороший — dobrý
+плохой / злой — špatný / zlý
+правильный / справедливый — správný / spravedlivý
+неправильный — špatný / nesprávný
+лёгкий / простой — snadný / jednoduchý
+трудный / сложный — obtížný / těžký
+важный — důležitý
+интересный — zajímavý
+скучный — nudný
+весёлый / смешной — zábavný / veselý
+грустный — smutný
+счастливый — šťastný
+усталый — unavený
+больной — nemocný
+здоровый — zdravý
+голодный — hladový
+жаждущий — žíznivý
+готовый — připravený / hotový
+возможный — možný
+невозможный — nemožný
+нужный / необходимый — nutný / potřebný
+достаточно — dost
+много / очень — hodně / velmi
+мало / немного — málo / trochu
+больше — více / plus
+меньше — méně / minus
+слишком — příliš
+вполне — docela / dost
+вместе — dohromady / spolu
+сам / один — sám / sám o sobě
+близко — blízko
+далеко — daleko
+везде — všude
+нигде — nikde
+где-то — někde
+над / наверху — nad / nahoře
+под / внизу — pod / dole
+впереди / перед — vpředu / před
+сзади / за — vzadu / za
+внутри — uvnitř
+снаружи / на улице — venku / ven
+слева / налево — vlevo
+справа / направо — vpravo
+наверху — nahoře
+внизу — dole
+да — ano
+нет — ne
+может быть — možná
+я не знаю — nevím
+я понимаю — rozumím
+я не понимаю — nerozumím
+спасибо — děkuji
+пожалуйста / не за что — prosím / není zač
+извини / извините — promiň / promiňte
+мне жаль — je mi líto
+пожалуйста — prosím (žádost)
+будьте добры — prosím (zdvořilostní)
+без проблем — žádný problém
+хорошо / ладно — dobře / v pořádku
+конечно — jistě / samozřejmě
+очевидно — samozřejmě / zřejmě
+доброе утро / добрый день — dobré ráno / dobrý den
+добрый день — dobré odpoledne
+добрый вечер — dobrý večer
+спокойной ночи — dobrou noc
+до свидания — na shledanou
+привет / пока — ahoj / čau
+здравствуйте — zdravím (neutrální pozdrav)
+добро пожаловать — vítejte
+как дела? — jak se máš?
+как у вас дела? — jak se máte? (vykání)
+у меня всё хорошо — je mi dobře
+мне плохо — je mi špatně
+очень приятно — těší mě (při představení)
+с Новым годом — šťastný nový rok
+с Рождеством — veselé Vánoce
+с Пасхой — veselé Velikonoce
+поздравляю — blahopřeji / gratulace
+отлично! / молодец! — výborně!
+ни пуха ни пера! — hodně štěstí! (doslovně: ani chmýří, ani pírko)
+приятного аппетита — dobrou chuť
+за здоровье! / будем здоровы! — na zdraví (přípitek)
+цвет — barva
+красный — červený
+синий / голубой — modrý (синий=tmavě, голубой=světle)
+жёлтый — žlutý
+зелёный — zelený
+чёрный — černý
+белый — bílý
+серый — šedý
+коричневый — hnědý
+оранжевый — oranžový
+розовый — růžový
+фиолетовый — fialový
+собака — pes
+кошка — kočka
+птица — pták
+рыбка — ryba (živá)
+лошадь — kůň
+корова — kráva
+свинья — prase
+овца — ovce
+коза — koza
+курица (птица) — slepice
+слон — slon
+лев — lev
+тигр — tygr
+медведь — medvěd
+волк — vlk
+лиса — liška
+кролик — králík
+белка — veverka
+бабочка — motýl
+пчела — včela
+паук — pavouk
+змея — had
+растение — rostlina
+дерево — strom
+цветок — květ / květina
+трава — tráva
+лист — list
+корень — kořen
+фрукты — ovoce
+овощи — zelenina
+камень — kámen
+земля / почва — země / půda
+огонь — oheň
+вода (стихия) — voda (živel)
+воздух — vzduch
+свет — světlo
+тень — stín
+шум / звук — hluk / zvuk
+запах / аромат — vůně
+вкус — chuť
+ощущение — pocit / vjem
+мысль — myšlenka
+воспоминание — vzpomínka
+фантазия / воображение — fantazie
+реальность — realita
+природа — příroda
+окружающая среда — životní prostředí
+энергия — energie
+сила — síla
+власть — moc
+контроль — kontrola
+метод — metoda
+стиль — styl
+качество — kvalita
+количество — množství / kvantita
+цена — cena
+размер — velikost / rozměr
+вес — váha / hmotnost
+длина — délka
+ширина — šířka
+высота — výška
+глубина — hloubka
+скорость — rychlost
+расстояние — vzdálenost
+направление — směr
+север — sever
+юг — jih
+восток — východ
+запад — západ
+граница — hranice
+заграница — zahraničí
+поездка / экскурсия — cesta / výlet
+отпуск / каникулы — dovolená / prázdniny
+родина — vlast / domov
+культура — kultura
+история — dějiny / příběh / historka
+традиция — tradice
+праздник / вечеринка — svátek / slavnost / party
+торжество — oslava
+подарок — dárek
+день рождения — narozeniny
+свадьба / брак — svatba / manželství
+похороны — pohřeb
+годовщина — výročí
+шутка / анекдот — vtip
+загадка — hádanka
+игра — hra
+команда — tým / mužstvo
+победа — vítězství
+поражение — porážka
+ничья — remíza
+рекорд — rekord
+соревнование / конкурс — soutěž
+тренировка — trénink
+игрок — hráč
+болельщик — fanoušek
+стадион — stadion
+поле / площадка — hřiště / pole
+гол — gól
+мяч — míč
+песня — píseň
+музыкальный инструмент — hudební nástroj
+гитара — kytara
+пианино / фортепиано — klavír
+скрипка — housle
+флейта — flétna
+барабаны / ударные — bicí
+певец — zpěvák (m.)
+певица — zpěvačka (f.)
+выступление — vystoupení / koncert
+группа — kapela / hudební skupina
+живопись — malba / malířství
+рисунок — kresba
+скульптура / статуя — socha
+архитектура — architektura
+дизайн — design
+мода — móda
+литература — literatura
+стихотворение / поэзия — báseň / poezie
+роман — román
+рассказ — povídka / příběh
+наука — věda
+исследование — výzkum
+эксперимент — experiment
+теория — teorie
+доказательство — důkaz
+лаборатория — laboratoř
+математика — matematika
+физика — fyzika
+химия — chemie
+биология — biologie
+информатика — informatika
+медицина — medicína
+психология — psychologie
+философия — filozofie
+социология — sociologie
+экология — ekologie
+климат — klima
+изменение климата — klimatická změna
+электричество — elektřina
+солнечная энергия — solární energie
+ток — proud (elektrický)
+газ — plyn
+мусор / отходы — odpad / smetí
+переработка — recyklace
+устойчивое развитие — udržitelnost
+скорая помощь — sanitka
+чрезвычайная ситуация — nouzová situace
+пожарная машина — hasičské auto
+отделение полиции — policejní stanice
+номер экстренной службы — tísňové číslo
+паспорт / удостоверение личности — pas / průkaz totožnosti
+загранпаспорт — pas (cestovní)
+виза — vízum
+гражданство — státní příslušnost / občanství
+демократия — demokracie
+выборы — volby
+договор / контракт — smlouva
+организация — organizace
+общество — společnost
+сообщество — komunita / společenství
+население — obyvatelstvo / populace
+меньшинство — menšina
+большинство — většina
+влияние — vliv
+грипп — chřipka
+авторитет — autorita
+система — systém
+структура — struktura
+процесс — proces
+развитие — vývoj / rozvoj
+прогресс — pokrok
+изменение / перемена — změna
+революция — revoluce
+инновация — inovace
+технология — technologie
+промышленность — průmysl
+сельское хозяйство — zemědělství
+торговля — obchod (směna)
+производство — výroba
+экспорт — export
+импорт — import
+предприятие — podnik / firma
+конкуренция — konkurence / soutěž
+глобализация — globalizace
+кризис — krize
+урегулирование — vyřešení / urovnání
+реформа — reforma
+компромисс — kompromis
+сотрудничество — spolupráce
+партнёрство — partnerství
+соглашение / согласие — dohoda / shoda
+конференция — konference
+совещание / встреча — schůzka / porada
+обсуждение / дискуссия — diskuse
+аргумент — argument
+критика — kritika
+поддержка — podpora
+сопротивление — odpor / odolnost
+вызов — výzva
+шанс — příležitost / šance
+преимущество — výhoda
+недостаток — nevýhoda
+риск — riziko
+безопасность — bezpečnost
+защита — ochrana
+частная жизнь — soukromí
+общественность — veřejnost
+прозрачность — transparentnost
+мораль — morálka
+этика — etika
+ценность — hodnota
+принцип — princip
+норма — norma
+предел / ограничение — omezení / mez
+мера — míra / opatření
+стандарт — standard
+и — a
+или — nebo
+но — ale
+а — a / ale (protiklad)
+однако — avšak
+если — pokud / jestliže
+почему / потому что — proč / protože
+когда — kdy / když
+пока / в то время как — zatímco / během
+хотя — i když / ačkoli
+если не — pokud ne
+до / пока не — až do / dokud
+после того как — poté co
+с тех пор — od té doby
+поэтому / так что — tak / takže
+как — jak / jako
+что / который — že / který / co
+кто — kdo
+что — co
+где / куда — kde / kam
+сколько — kolik
+какой / который — který / jaký
+этот / это — tento / toto
+тот / то — tamten / tamto
+каждый — každý
+всё — vše / všechno
+ничего — nic
+что-то / что-нибудь — něco
+кто-то / кто-нибудь — někdo
+никто — nikdo
+есть (имеется) — je / existuje
+там есть — je tam / jsou tam
+тоже / также — také / i
+всё ещё — stále / pořád
+уже не — už ne
+только — jen / pouze
+всё-таки — přece jen
+действительно / правда — opravdu / skutečně
+вероятно — pravděpodobně
+обязательно — určitě / povinně
+к сожалению — bohužel
+к счастью — naštěstí
+естественно — přirozeně / samozřejmě
+на самом деле — ve skutečnosti
+в любом случае — tak jako tak / nicméně
+хотя бы — alespoň
+почти — skoro / téměř
+едва / только что — sotva / právě
+сразу / немедленно — okamžitě / hned
+наконец — konečně
+вдруг / внезапно — náhle / najednou
+ясно / чётко — jasně / zřetelně
+точно — přesně
+приблизительно / примерно — přibližně
+по крайней мере — přinejmenším
+максимум — nanejvýš
+минимум — nejméně / minimálně
+вместо этого — místo toho
+тем не менее — přesto
+значит / поэтому — tedy / proto
+кроме того — navíc / mimoto
+в общем / вообще — obecně
+в частности — konkrétně / zvláště
+например — například
+то есть — to jest / to znamená
+другими словами — jinými slovy
+с другой стороны — na druhé straně
+наоборот — naopak
+фактически — ve skutečnosti / fakticky
+номер / число — číslo
+время — čas
+адрес — adresa
+номер телефона — telefonní číslo
+дата — datum
+имя / название — jméno / název
+возраст — věk
+национальность — národnost
+религия — náboženství
+форма — tvar / forma
+материал — materiál
+металл — kov
+дерево (материал) — dřevo
+стекло — sklo
+пластик — plast
+ткань — látka / tkanina
+картон — karton / lepenka
+резина — guma
+кожа (материал) — kůže (materiál)
+хлопок — bavlna
+шёлк — hedvábí
+шерсть — vlna
+железо — železo
+золото — zlato
+серебро — stříbro
+круглый — kulatý
+квадратный — čtvercový
+прямоугольный — obdélníkový
+треугольный — trojúhelníkový
+прямой — rovný / přímý
+изогнутый — zakřivený
+острый — ostrý
+гладкий — hladký
+шершавый — drsný
+мягкий — měkký
+твёрдый — tvrdý
+полный — plný
+пустой — prázdný
+открытый — otevřený
+закрытый — zavřený
+безопасный — bezpečný
+опасный — nebezpečný
+общественный / публичный — veřejný
+частный — soukromý
+национальный / государственный — národní / státní
+международный — mezinárodní
+местный — místní
+глобальный — globální
+естественный / природный — přirozený / přírodní
+искусственный — umělý
+настоящий / реальный — skutečný / opravdový
+фальшивый / ложный — falešný
+современный — moderní
+традиционный — tradiční
+оригинальный — originální / původní
+типичный — typický
+необычный — neobvyklý
+обычный / общий — běžný / společný
+редкий — vzácný / řídký
+популярный — populární / oblíbený
+знаменитый / известный — slavný / známý
+полезный — užitečný
+бесполезный — zbytečný / neužitečný
+свободный / бесплатный — volný / bezplatný / svobodný
+занятый — zaneprázdněný / obsazený
+доступный — dostupný
+подходящий — vhodný
+необходимый — nutný / nezbytný
+дополнительный — dodatečný
+различный / разный — různý
+конкретный / специфический — specifický / konkrétní
+общий — obecný
+главный / основной — hlavní
+базовый — základní
+простой — jednoduchý
+сложный — složitý
+полный / комплектный — úplný / kompletní
+частичный — částečný
+окончательный / последний — konečný / závěrečný
+недавний — nedávný
+современный / актуальный — současný / aktuální
+будущий — budoucí
+прошлый — minulý
+настоящий (время) — přítomný
+положительный — pozitivní
+отрицательный — negativní
+нормальный — normální
+странный — zvláštní / podivný
+очевидный — zřejmý / očividný
+ясный / чёткий — jasný / zřetelný
+уверенный — jistý (si)
+похожий — podobný
+другой / иной — jiný / odlišný
+тот же самый — stejný
+равный — rovný / stejný
+противоположный — opačný
+прямой (непосредственный) — přímý
+косвенный — nepřímý
+активный — aktivní
+пассивный — pasivní
+мощный / могущественный — silný / mocný
+богатый — bohatý
+бедный — chudý
+везучий — šťastný (se štěstím)
+невезучий — nešťastný (bez štěstí)
+умный — chytrý / inteligentní
+глупый — hloupý
+добрый / милый — laskavý / milý
+грубый / невежливый — hrubý / nezdvořilý
+честный / искренний — čestný / upřímný
+нечестный — nečestný
+терпеливый — trpělivý
+нетерпеливый — netrpělivý
+смелый / храбрый — statečný / odvážný
+застенчивый / робкий — plachý / nesmělý
+вежливый — zdvořilý
+дружелюбный — přátelský
+серьёзный — vážný / seriózní
+внимательный / осторожный — pozorný / opatrný
+невнимательный / неосторожный — nepozorný / neopatrný
+творческий / креативный — kreativní
+логичный — logický
+практичный — praktický
+цифровой — digitální
+виртуальный — virtuální
+автоматический — automatický
+ручной — manuální / ruční
+профессиональный — profesionální
+личный — osobní
+социальный — sociální
+политический — politický
+экономический — ekonomický
+культурный — kulturní
+исторический — historický
+научный — vědecký
+медицинский — lékařský
+юридический / законный — právní / zákonný
+экологический — ekologický / životního prostředí
+начальная школа — základní škola (1. stupeň)
+средняя школа — základní a střední škola (5.–11. třída)
+гимназия / лицей — gymnázium / lyceum
+аттестат / выпускные экзамены — maturitní vysvědčení / maturita
+дипломная работа / диссертация — diplomová práce / disertace
+преподаватель / учитель — profesor / učitel (m.)
+учительница — učitelka (f.)
+студент / ученик — student / žák (m.)
+студентка / ученица — studentka / žákyně (f.)
+оценка — známka / hodnocení
+класс — třída
+кабинет / аудитория — učebna
+библиотека — knihovna
+спортзал — tělocvična
+столовая — jídelna
+портфель — školní taška / aktovka
+словарь — slovník
+грамматика — gramatika
+лексика / словарный запас — slovní zásoba
+письмо / почерк — psaní / rukopis
+чтение — čtení
+аудирование — poslech
+разговор — konverzace / rozhovor
+произношение — výslovnost
+глагол — sloveso
+существительное — podstatné jméno
+прилагательное — přídavné jméno
+наречие — příslovce
+предлог — předložka
+союз — spojka
+подлежащее — podmět
+сказуемое — přísudek
+дополнение — předmět (gramatický)
+фраза — fráze / věta
+текст — text
+абзац — odstavec
+глава — kapitola
+введение — úvod
+заключение — závěr
+краткое содержание — shrnutí
+тема — téma
+сюжет — děj (příběhu)
+персонаж / герой — postava (v příběhu)
+автор — autor (m.)
+писательница — spisovatelka (f.)
+издательство — nakladatelství
+публикация / издание — publikace / vydání
+новость / новости — zpráva / novinka
+заголовок — titul / nadpis
+подзаголовок — podtitul
+интервью — rozhovor / interview
+доклад / отчёт — zpráva / hlášení
+документ — dokument
+бланк / анкета — formulář
+подпись — podpis
+ксерокопия — fotokopie
+пресса — tisk / noviny
+сообщение — zpráva / vzkaz
+кнопка / клавиша — tlačítko / klávesa
+экран — obrazovka
+клавиатура — klávesnice
+мышь / мышка — myš (počítačová)
+микрофон — mikrofon
+фотоаппарат — fotoaparát
+видео — video
+канал — kanál
+сеть — síť
+профиль — profil
+социальные сети / соцсети — sociální sítě
+ссылка — odkaz
+файл — soubor
+папка — složka
+программа — program
+программное обеспечение — software
+аппаратное обеспечение / железо — hardware
+обновление — aktualizace
+резервная копия — záloha
+сбой / ошибка — chyba (systém.)
+беспроводное подключение — bezdrátové připojení
+блютуз — Bluetooth
+вайфай — Wi-Fi
+батарейка / аккумулятор — baterie
+зарядка / зарядное устройство — nabíječka
+провод / кабель — kabel
+вилка — zástrčka
+розетка — elektrická zásuvka
+лампочка — žárovka
+холодильник — lednice
+духовка — trouba
+микроволновка — mikrovlnka
+посудомоечная машина — myčka nádobí
+стиральная машина — pračka
+пылесос — vysavač
+утюг — žehlička
+кондиционер — klimatizace
+отопление — topení / vytápění
+термостат — termostat
+кран — kohout / kohoutek
+раковина — umyvadlo / dřez
+ванна — vana
+душ — sprcha
+унитаз / туалет — záchod / toaleta
+туалетная бумага — toaletní papír
+мыло — mýdlo
+шампунь — šampon
+зубная паста — zubní pasta
+зубная щётка — kartáček na zuby
+бритва — holítko / žiletka
+духи — parfém
+дезодорант — deodorant
+крем — krém
+щётка — kartáč
+расчёска — hřeben
+маникюрные ножницы — nůžky na nehty
+зеркало — zrcadlo
+полотенце — ručník
+одеяло / плед — deka / přikrývka
+подушка — polštář
+простыня / постельное бельё — prostěradlo / povlečení
+матрас — matrace
+занавеска / штора — záclona / závěs
+обои — tapeta
+паркет — parkety / podlaha
+плитка — dlaždice
+ковёр — koberec
+краска — barva (malířská)
+молоток — kladivo
+отвёртка — šroubovák
+гаечный ключ — klíč (nářadí)
+гвоздь — hřebík
+винт / шуруп — šroub / vrut
+стремянка / лестница — žebřík
+верёвка — lano / provaz
+скотч — lepicí páska
+пакет — sáček / taška (igelitová)
+конверт — obálka
+посылка — balíček
+коробка — krabice
+поднос — tác
+бутылка — láhev
+банка — plechovka / sklenice (zavařovací)
+стакан — sklenice (na pití)
+чашка / кружка — šálek / hrnek
+тарелка — talíř
+миска — mísa
+вилка (столовая) — vidlička
+ложка — lžíce
+нож — nůž
+салфетка — ubrousek
+скатерть — ubrus
+блюдо — podnos / chod (jídla)
+морозилка — mrazák
+кладовка — spíž
+ящик — zásuvka (nábytku)
+полка — polička
+стеллаж — police / regál
+шкаф — skříň
+тумбочка — noční stolek
+письменный стол — psací stůl
+книжный шкаф — knihovna (nábytek)
+книжный магазин — knihkupectví
+кресло — křeslo
+диван — pohovka / gauč
+палас / коврик — koberec / kobereček
+лампа — lampa
+выключатель — vypínač
+городской телефон — pevná linka
+домофон — domofon
+почтовый ящик — poštovní schránka
+звонок — zvonek
+калитка / ворота — branka / brána
+забор — plot
+крыша — střecha
+камин / труба — krb / komín
+форточка — větrací okénko
+навес — markýza / přístřešek
+жалюзи / ставни — žaluzie / okenice
+замок — zámek (dveřní)
+ручка (двери) — klika (dveřní)
+ключи от дома — klíče od domu
+сигнализация — poplašné zařízení
+датчик дыма — detektor kouře
+огнетушитель — hasicí přístroj
+вредная еда — nezdravé jídlo
+фастфуд — fast food
+пицца — pizza
+борщ — boršč
+щи — zelná polévka (šči)
+пельмени — pelmeně (masové taštičky)
+вареники — vareniky (plněné taštičky)
+блины — palačinky (bliny)
+сырники — tvarohové lívance
+каша — kaše
+котлета — karbanátek / sekaná
+сосиска / колбаса — párek / salám
+ветчина — šunka
+сало — špek / sádlo
+икра — kaviár
+шашлык — šašlik (grilované maso)
+пирог / пирожок — koláč / pirožek
+торт — dort
+мороженое — zmrzlina
+печенье — sušenka
+бутерброд — chlebíček / obložený chléb
+пряник — perník
+варенье — zavařenina / džem
+творог — tvaroh
+сметана — zakysaná smetana
+кефир — kefír
+квас — kvas (kvašený nápoj)
+водка — vodka
+коньяк — koňak
+шампанское — šampaňské
+морс — ovocný nápoj (mors)
+компот — kompot (ovocný nápoj)
+газировка / лимонад — limonáda / nealko nápoj
+прогулка — vycházka / procházka
+визит / посещение — návštěva / prohlídka (turistická)
+экскурсия с гидом — prohlídka s průvodcem
+поездка за город — výlet (krátký)
+билет — lístek / vstupenka
+бронь / бронирование — rezervace
+одноместный номер — jednolůžkový pokoj
+двухместный номер — dvoulůžkový pokoj
+полный пансион — plná penze
+полупансион — polopenze
+завтрак включён — se snídaní
+дача — chata / dača
+кемпинг — tábořiště / kemping
+порт — přístav
+паром — trajekt / přívoz
+поезд дальнего следования — dálkový vlak
+таможня — celnice
+паспортный контроль — pasová kontrola
+багаж — zavazadlo
+чемодан — kufr
+ручная кладь — příruční zavazadlo
+регистрация — check-in / registrace
+выход на посадку — gate / odletová brána
+взлёт — vzlet
+посадка — přistání / nástup
+ремень безопасности — bezpečnostní pás
+место / сиденье — sedadlo / místo
+иллюминатор — okénko (letadla)
+остановка — zastávka
+платформа / путь — nástupiště / kolej
+расписание — jízdní řád / rozvrh
+опоздание / задержка — zpoždění
+пересадка — přestup (vlak/letadlo)
+стоянка / парковка — parkoviště
+светофор — semafor
+кольцевая развязка — kruhový objezd
+обгон — předjíždění
+ограничение скорости — omezení rychlosti
+штраф — pokuta
+механик — mechanik
+автосервис — autoservis / opravna
+шина — pneumatika
+поломка / неисправность — závada / porucha
+бензин — benzín
+дизель / солярка — nafta / diesel
+заправить полный бак — natankovat plnou
+человеческое тело — lidské tělo
+лоб — čelo
+подбородок — brada
+щека — tvář / líce
+губы — rty
+язык (анатомия) — jazyk (anatomický)
+горло — hrdlo / krk
+грудь — hrudník / prsa
+бок — bok / strana
+запястье — zápěstí
+локоть — loket
+ноготь — nehet
+бедро — stehno
+икра (ноги) — lýtko
+пятка — pata
+большой палец — palec
+указательный палец — ukazovák
+средний палец — prostředník
+безымянный палец — prsteník
+мизинец — malíček
+челюсть — čelist
+череп — lebka
+позвоночник — páteř
+ребро — žebro
+кости — kosti
+мышца — sval
+нерв — nerv
+мозг — mozek
+лёгкое — plíce
+печень — játra
+почка — ledvina
+желудок — žaludek
+кишечник — střevo
+мочевой пузырь — močový měchýř
+вена — žíla
+артерия — tepna
+кость — kost
+сухожилие — šlacha
+хрящ — chrupavka
+давление — krevní tlak
+холестерин — cholesterol
+глюкоза / сахар в крови — glukóza / cukr v krvi
+диета / питание — dieta / stravování
+калория — kalorie
+витамины — vitaminy
+минералы — minerály
+белки — bílkoviny
+углеводы — sacharidy
+жиры — tuky
+иммунитет — imunitní systém / imunita
+прививка — očkování
+профилактика — prevence
+диагноз — diagnóza
+лечение — léčba / ošetření
+терапия — terapie
+реабилитация — rehabilitace
+хирургия — chirurgie
+рентген — rentgen
+МРТ — magnetická rezonance
+УЗИ — ultrazvuk
+анализ крови — krevní testy
+рецепт (врача) — recept (lékařský)
+рецепт (блюда) — recept (kuchařský)
+медосмотр — lékařská prohlídka
+травмпункт / приёмный покой — pohotovost / úrazová ambulance
+выздоровление — uzdravení
+восстановление — zotavení / zotavování
+первая помощь — první pomoc
+экстремальный спорт — extrémní sport
+фитнес / физическая форма — fitness / kondice
+тренировка / упражнения — trénink / cvičení
+тренажёрный зал — posilovna
+бег — běh
+марафон — maraton
+триатлон — triatlon
+шоссейный велоспорт — silniční cyklistika
+гимнастика — gymnastika
+скалолазание / альпинизм — lezení / horolezectví
+лыжи / лыжный спорт — lyžování
+сноуборд — snowboard
+сёрфинг — surfování
+парусный спорт — plachtění
+каяк — kajak
+каноэ — kánoe
+виндсёрфинг — windsurfing
+стрельба из лука — lukostřelba
+фехтование — šerm
+дзюдо — judo
+карате — karate
+бокс — box
+борьба — zápas
+лёгкая атлетика — atletika
+метание диска — hod diskem
+прыжок в высоту — skok do výšky
+прыжок в длину — skok do dálky
+забег — závod v běhu
+спортивная арена — sportovní aréna
+бассейн — bazén / plavecký bazén
+дорожка / трасса — dráha / trať
+теннисный корт — tenisový kurt
+футбольное поле — fotbalové hřiště
+корзина — koš (basketbal)
+сетка — síť (tenis/volejbal)
+ракетка — raketa (tenis/badminton)
+шлем — přilba
+спортивный костюм — tepláková souprava
+кроссовки / кеды — tenisky / sportovní boty
+футболка — tričko
+шорты — šortky
+купальник / плавки — plavky
+очки для плавания — plavecké brýle
+трубка — dýchací trubice / šnorchl
+ласты — ploutve (potápěčské)
+гидрокостюм — potápěčský oblek
+футбольный мяч — fotbalový míč
+баскетбол — basketbal
+волейбол — volejbal
+регби — ragby
+хоккей — hokej
+гольф — golf
+бейсбол — baseball
+гандбол — házená
+боулинг — bowling
+бадминтон — badminton
+городки — gorodki (ruská lidová hra)
+бильярд — kulečník / biliár
+верховая езда — jezdectví
+катание на коньках — bruslení
+фигурное катание — krasobruslení
+художественная гимнастика — moderní gymnastika
+синхронное плавание — synchronizované plavání
+прыжки в воду — skoky do vody
+гребля — veslování
+бодибилдинг / культуризм — kulturistika
+тяжёлая атлетика — vzpírání
+вольная борьба — volný zápas
+настольный теннис — stolní tenis
+самбо — sambo (bojové umění)
+покер — poker
+шахматы — šachy
+игральные карты — karty (hrací)
+кости / кубики — kostky (hrací)
+пазл — puzzle / skládačka
+видеоигра — videohra
+игровая приставка — herní konzole
+игрушка — hračka
+кукла — panenka
+мягкая игрушка — plyšák
+матрёшка — matrjoška
+конструктор — stavebnice / lego
+модель / макет — model / miniatura
+буква — písmeno abecedy
+алфавит / азбука — abeceda
+гласная — samohláska
+согласная — souhláska
+слог — slabika
+ударение — přízvuk
+заглавная буква — velké písmeno
+строчная буква — malé písmeno
+точка — tečka
+запятая — čárka
+точка с запятой — středník
+двоеточие — dvojtečka
+восклицательный знак — vykřičník
+вопросительный знак — otazník
+кавычки — uvozovky
+скобка — závorka
+тире — pomlčka
+мягкий знак — měkký znak (ь)
+пункт / параграф — odstavec / paragraf
+страница — strana / stránka
+отрывок — úryvek
+том / громкость — svazek / hlasitost
+обложка — obálka (knihy)
+оглавление / указатель — obsah / rejstřík / ukazatel
+примечание / нота — poznámka / nota
+цитата — citát / citace
+ссылка (в тексте) — odkaz / reference
+источник — zdroj
+библиография — bibliografie
+дата выхода — datum vydání
+издатель — vydavatel
+серия / собрание — edice / sbírka (knih)
+художественная литература — beletrie
+научно-популярная литература — literatura faktu
+биография — životopis
+автобиография — autobiografie
+дневник — deník
+переписка — korespondence
+открытка — pohlednice
+комикс — komiks
+модный журнал — módní časopis
+ежедневная газета — deník (noviny)
+еженедельник — týdeník
+ежемесячный журнал — měsíčník
+главная новость — titulní zpráva
+статья — článek
+колонка — sloupek (v novinách)
+рецензия — recenze
+литературная критика — literární kritika
+премия / награда — cena / odměna
+фестиваль — festival
+выставка — výstava
+художественная галерея — galerie umění
+режиссёр — režisér
+актёр — herec (m.)
+актриса — herečka (f.)
+сценарист — scenárista
+сценарий — scénář
+спецэффекты — speciální efekty
+саундтрек — filmová hudba / soundtrack
+трейлер — trailer / upoutávka
+премьера — premiéra
+сцена — jeviště / scéna
+декорации — kulisy
+публика / зрители — publikum / diváci
+аплодисменты — potlesk
+бис — přídavek (koncert)
+театральный режиссёр — divadelní režisér
+сценография — scénografie
+театральный костюм — divadelní kostým
+грим — líčení / maska (divadelní)
+маска — maska
+опера — opera
+танец — tanec
+балет — balet
+современный танец — moderní tanec
+классическая музыка — klasická hudba
+джаз — jazz
+рок — rock
+поп-музыка — pop (hudba)
+рэп — rap
+народная музыка — lidová hudba
+электронная музыка — elektronická hudba
+ритм — rytmus
+мелодия — melodie
+гармония — harmonie
+хор — sbor / chór
+оркестр — orchestr
+дирижёр — dirigent
+композитор — skladatel (m.)
+женщина-композитор — skladatelka (f.)
+симфония — symfonie
+концерт для фортепиано — klavírní koncert
+соната — sonáta
+прелюдия — preludium
+сюита — suita
+песня / трек — píseň / song
+припев — refrén
+куплет — sloka
+слова песни / текст — text písně
+электрогитара — elektrická kytara
+бас-гитара — baskytara / bas
+балалайка — balalajka
+синтезатор — syntezátor
+гармонь / баян — harmonika / bajan
+микшерный пульт — mixpult
+усилитель — zesilovač
+наушники — sluchátka
+колонка / динамик — reproduktor
+до / перед — před (časově)
+после — po (časově)
+во время — během
+затем / потом — potom / pak
+итак / значит — tedy / takže
+ну / тогда — no tak / tedy / tehdy
+однако / зато — ale / avšak / zato
+даже / более того — ba dokonce
+или же — nebo (alternativa)
+иначе — jinak
+и всё же — a přesto / a přece
+несмотря на — navzdory
+хотя и — ačkoli
+несмотря на то что — přestože
+чтобы — aby
+для того чтобы — aby / za účelem
+так как — jelikož / protože
+поскольку — jelikož / protože
+учитывая что — vzhledem k tomu že
+раз уж — když už / protože
+благодаря — díky (pozitivní příčina)
+из-за — kvůli (negativní příčina)
+в результате — v důsledku
+вследствие этого — v důsledku toho
+поэтому — proto / tedy
+обычно — obvykle
+как правило — zpravidla / obvykle
+нормально / как обычно — normálně / obvykle
+порой — někdy / občas
+время от времени — čas od času
+изредка — občas / zřídka
+почти никогда — skoro nikdy
+ни разу — ani jednou / nikdy
+постоянно — vždy / stále
+непрерывно — nepřetržitě / stále
+недавно — nedávno
+в последнее время — poslední dobou
+только что — teprve teď / právě
+с того времени — od té doby
+заранее — předem / dopředu
+с опозданием / поздно — se zpožděním / pozdě
+вовремя — včas
+заблаговременно — s předstihem
+в данный момент — v tuto chvíli
+в настоящее время — v současnosti
+неожиданно — nečekaně
+вдруг — najednou / náhle
+тем временем / между тем — mezitím
+в долгосрочной перспективе — v dlouhodobém horizontu
+в краткосрочной перспективе — v krátkodobém horizontu
+надолго — dlouhodobě / na dlouho
+ненадолго — krátkodobě / na chvíli
+в сущности / в глубине — v podstatě / v hloubi
+в целом — celkově
+подробно — podrobně
+в принципе — v zásadě
+вначале / изначально — na začátku / původně
+вообще-то / собственно — ve skutečnosti / vlastně
+в конце концов — ostatně / koneckonců
+во всяком случае — v každém případě
+в случае — v případě
+что касается — pokud jde o
+с одной стороны … с другой — na jedné straně … na druhé
+как … так и — jak … tak
+ни … ни — ani … ani
+либо … либо — buď … nebo
+не только … но и — nejen … ale také
+чем больше … тем больше — čím více … tím více
+чем меньше … тем меньше — čím méně … tím méně
+столько … сколько — tolik … kolik
+ключевое слово — klíčové slovo
+ключевой момент — klíčový bod
+понятие / концепция — pojem / koncept
+определение — definice
+объяснение — vysvětlení
+описание — popis
+иллюстрация — ilustrace / znázornění
+модель / образец — model / vzor
+прототип — prototyp
+версия — verze
+выпуск — vydání
+экземпляр / копия — výtisk / kopie
+оригинал / подлинник — originál
+черновик — návrh / koncept
+окончательный вариант — definitivní text
+исправление / корректура — oprava / korektura
+переработка / пересмотр — revize / přepracování
+оценка (качества) — hodnocení / posouzení
+суждение / приговор — úsudek / rozsudek
+заключение (эксперта) — posudek
+впечатление — dojem
+реакция — reakce
+обратная связь — zpětná vazba
+отклик — odezva
+эхо / отголосок — ozvěna / ohlas
+воздействие — dopad / vliv
+трек — stopa / skladba alba
+знак — znak / znamení
+символ — symbol
+сигнал — signál / znamení
+уведомление — upozornění / notifikace
+напоминание / замечание — připomínka / poznámka
+календарь — kalendář
+ежедневник — diář
+список — seznam
+перечень / опись — seznam / výčet / inventář
+журнал (учёта) — registr / zápisník
+архив — archiv
+папка (с бумагами) — složka / šanon
+протокол — protokol / zápis
+предложение (проект) — návrh
+предложение (оферта) — nabídka
+заявка / заявление — žádost
+смета — cenová nabídka / rozpočet (zakázky)
+бюджет — rozpočet
+финансирование — financování
+стоимость / затраты — náklady / cena
+расход — výdaj
+доход — výnos / příjem
+прибыль — zisk
+убыток — ztráta
+баланс / равновесие — bilance / rovnováha
+капитал — kapitál
+инвестиция / вложение — investice
+доходность / производительность — výnos / výkon
+рентабельность — rentabilita
+финансовый риск — finanční riziko
+процентная ставка — úroková sazba
+ипотека — hypotéka
+покупка в рассрочку — splátková koupě
+расчётный счёт — běžný účet
+сберегательный счёт — spořicí účet
+банкомат — bankomat
+кредитная карта — kreditní karta
+дебетовая карта — debetní karta
+банковский перевод — bankovní převod
+снятие (денег) — výběr (z účtu)
+вклад / депозит — vklad
+валюта — měna / valuty
+обменный курс — směnný kurz
+инфляция — inflace
+дефляция — deflace
+экономический рост — ekonomický růst
+рецессия / спад — recese
+безработица — nezaměstnanost
+занятость — zaměstnanost
+рынок труда — trh práce
+профсоюз — odborový svaz
+забастовка — stávka
+трудовой договор — pracovní smlouva
+увольнение — propuštění / výpověď
+увольнение по собственному желанию — výpověď (ze strany pracovníka)
+собеседование — pracovní pohovor
+резюме — životopis (CV)
+сопроводительное письмо — motivační dopis
+рекомендация — reference / doporučení
+опыт работы — pracovní zkušenosti
+повышение квалификации — školení / další vzdělávání
+профессиональное развитие — profesní rozvoj
+карьера — kariéra
+повышение — povýšení
+премия / бонус — bonus / prémie
+возмещение расходов — náhrada výdajů
+рабочее время — pracovní doba
+смена — směna
+неполный рабочий день — práce na částečný úvazek
+полный рабочий день — práce na plný úvazek
+удалённая работа / удалёнка — práce na dálku / home office
+фрилансер / ИП — OSVČ / freelancer
+ремесленник — řemeslník
+торговец — obchodník
+предприниматель — podnikatel
+менеджер / руководитель — manažer / vedoucí
+администратор — správce / administrátor
+партнёр / компаньон — společník
+акционер — akcionář
+совет директоров — správní rada
+генеральный директор — generální ředitel
+отдел — oddělení / sekce
+филиал — pobočka
+головной офис — centrála
+склад — sklad
+производственная линия — výrobní linka
+поставщик — dodavatel
+цепочка поставок — dodavatelský řetězec
+логистика — logistika
+распространение / дистрибуция — distribuce
+реклама — reklama
+маркетинг — marketing
+бренд / торговая марка — značka / ochranná známka
+логотип — logo
+имидж компании — firemní image
+рекламная кампания — reklamní kampaň
+целевая аудитория — cílová skupina
+рыночная ниша — tržní nika
+доля рынка — tržní podíl
+слияние — fúze / sloučení
+поглощение / приобретение — akvizice
+стартап — startup
+бизнес-инкубатор — inkubátor (pro startupy)
+венчурный капитал — rizikový kapitál
+бизнес-ангел — andělský investor
+радуга — duha
+молния — blesk
+гром — hrom
+гроза / ливень — bouřka / průtrž
+туман — mlha
+мороз / иней — mráz / jinovatka
+град — krupobití
+жара / волна жары — vedro / vlna veder
+вулкан — sopka
+землетрясение — zemětřesení
+цунами — tsunami
+наводнение — záplava / povodeň
+засуха — sucho
+ледник — ledovec
+пустыня — poušť
+саванна — savana
+джунгли — džungle
+тропический лес — deštný prales
+тундра — tundra
+тайга — tajga
+побережье / берег — pobřeží / břeh
+остров — ostrov
+полуостров — poloostrov
+долина — údolí
+холм — kopec
+вершина — vrchol / špička
+склон — svah
+обрыв / утёс — útes / sráz
+кратер — kráter
+гейзер — gejzír
+родник / источник — pramen
+лагуна — laguna
+коралловый риф — korálový útes
+коралл — korál
+болото — bažina / mokřad
+степь — step
+плато — plošina / náhorní plošina
+материк / континент — kontinent
+экосистема — ekosystém
+биоразнообразие — biodiverzita
+вымирающий вид — ohrožený druh
+вымирание — vyhynutí
+охрана природы — ochrana přírody
+заповедник — přírodní rezervace
+национальный парк — národní park
+дикие животные — volně žijící zvířata
+хищник — šelma / dravec
+добыча — kořist
+пищевая цепь — potravní řetězec
+фотосинтез — fotosyntéza
+ДНК — DNA
+ген — gen
+эволюция — evoluce
+астрономия — astronomie
+вселенная / космос — vesmír
+галактика — galaxie
+комета — kometa
+астероид — asteroid
+космическая станция — vesmírná stanice
+ракета — raketa
+телескоп — teleskop
+микроскоп — mikroskop
+атом — atom
+молекула — molekula
+электрон — elektron
+протон — proton
+нейтрон — neutron
+излучение — záření
+радиоактивность — radioaktivita
+магнит — magnet
+гравитация / притяжение — gravitace
+квантовая физика — kvantová fyzika
+теория относительности — teorie relativity
+искусственный интеллект / ИИ — umělá inteligence
+алгоритм — algoritmus
+машинное обучение — strojové učení
+нейронные сети / нейросети — neuronové sítě
+робот — robot
+автоматизация — automatizace
+беспилотное вождение — autonomní řízení
+3D-печать — 3D tisk
+биотехнология — biotechnologie
+нанотехнология — nanotechnologie
+защита данных — ochrana dat
+утечка данных — únik dat
+кибератака — kybernetický útok
+шифрование — šifrování
+облако — cloud (IT)
+дата-центр — datové centrum
+аватар — avatar
+виртуальная реальность — virtuální realita
+дополненная реальность — rozšířená realita
+интернет вещей — internet věcí
+умный дом — chytrá domácnost
+электромобиль — elektromobil
+гибридный автомобиль — hybridní vozidlo
+водородный автомобиль — vodíkové auto
+зарядная станция — nabíjecí stanice
+велопрокат — sdílení kol / půjčovna kol
+каршеринг — sdílení aut
+общественный транспорт — veřejná doprava / hromadná doprava
+канатная дорога — lanovka
+электричка — příměstský vlak
+круизный лайнер — výletní loď
+яхта — jachta
+лодка — loďka
+вёсельная лодка — veslice
+воздушный шар — horkovzdušný balón
+планер — kluzák
+вертолёт — vrtulník
+турист с рюкзаком — batůžkář
+хостел — ubytovna pro mládež / hostel
+пятизвёздочный отель — pětihvězdičkový hotel
+люкс — apartmá
+ресепшен / стойка регистрации — recepce
+администратор (гостиницы) / портье — recepční / portýr
+обслуживание номеров — pokojová služba
+мини-бар — minibar
+шведский стол — snídaňový bufet / švédský stůl
+всё включено — all-inclusive
+без питания — bez stravy
+санаторий — lázeňské sanatorium
+пребывание — pobyt
+турагентство — cestovní kancelář
+гид / путеводитель — turistický průvodce (osoba/kniha)
+достопримечательность — turistická atrakce / pamětihodnost
+символ города — dominanta / symbol (místa)
+обзорная экскурсия — prohlídka města
+аудиогид — audioprůvodce
+сувенирный магазин — obchod se suvenýry
+выгодная покупка — výhodná koupě
+распродажа — výprodej
+специальное предложение / акция — speciální nabídka / akce
+скидка — sleva
+купон / ваучер — kupón / voucher
+кассовый чек — účtenka
+НДС — DPH
+карта постоянного клиента — věrnostní karta
+предложение (экономика) — nabídka (ekonomie)
+спрос — poptávka
+товар на складе / запасы — zásoby na skladu
+срок доставки — lhůta dodání
+возврат товара — vrácení zboží
+возврат денег — vrácení peněz
+гарантия — záruka
+жалоба / претензия — reklamace / stížnost
+служба поддержки — zákaznický servis
+чаевые — spropitné
+меню — jídelní lístek / menu
+комплексный обед / бизнес-ланч — denní menu
+вегетарианское блюдо — vegetariánské jídlo
+веганское блюдо — veganské jídlo
+без глютена — bezlepkový
+порция — porce
+десерт / сладкое — dezert / sladké
+закуска — předkrm
+горячее / основное блюдо — hlavní chod
+вода из-под крана — kohoutková voda
+газированная вода — perlivá voda
+негазированная вода — neperlivá voda
+горячий шоколад — horká čokoláda
+имбирный чай — zázvorový čaj
+травяной чай — bylinkový čaj
+смузи — smoothie
+коктейль — koktejl
+безалкогольный коктейль — bezalkoholový koktejl
+зависимость — závislost
+курение — kouření
+употребление наркотиков — užívání drog
+реабилитационный центр — odvykací centrum
+психиатр — psychiatr
+психолог — psycholog
+консультирование — poradenství
+групповая терапия — skupinová terapie
+уверенность в себе — sebevědomí
+самооценка — sebehodnocení / sebeúcta
+осознанность — mindfulness / uvědomění
+медитация — meditace
+йога — jóga
+благополучие — pohoda / blahobyt
+психическое здоровье — duševní zdraví
+выгорание — vyhoření
+травма (психическая) — trauma
+тревожное расстройство — úzkostná porucha
+депрессия — deprese
+одиночество — samota / osamění
+чувство принадлежности — sounáležitost
+вера в себя — sebedůvěra
+личностный рост — osobní rozvoj
+потенциал — potenciál
+сильные и слабые стороны — silné a slabé stránky
+давать обратную связь — dávat zpětnou vazbu
+активное слушание — aktivní naslouchání
+разрешение конфликтов — řešení konfliktů
+посредничество / медиация — mediace
+переговоры — vyjednávání
+убеждение — přesvědčování
+лидерство — vedení / leadership
+тимбилдинг — teambuilding
+баланс работы и личной жизни — rovnováha práce a života
+нетворкинг / деловые связи — networking
+наставник — mentor
+наставничество — mentoring
+коучинг — coaching
+обучение в течение всей жизни — celoživotní učení
+дополнительное образование — další vzdělávání
+переподготовка — rekvalifikace
+стажировка / практика — praxe / stáž
+волонтёрство — dobrovolnictví
+гражданское общество — občanská společnost
+петиция — petice
+протест — protest
+демонстрация / митинг — demonstrace
+права человека — lidská práva
+права ребёнка — práva dětí
+права женщин — práva žen
+права ЛГБТ — práva LGBTQ+
+доступная среда — bezbariérovost / přístupnost
+интеграция — integrace
+инклюзия — inkluze
+разнообразие — rozmanitost / pestrost
+предрассудок — předsudek
+дискриминация — diskriminace
+расизм — rasismus
+сексизм — sexismus
+ксенофобия — xenofobie
+антисемитизм — antisemitismus
+терпимость / толерантность — tolerance
+открытость — otevřenost
+атеизм — ateismus
+вера — víra
+духовность — spiritualita
+молитва — modlitba
+ритуал / обряд — rituál
+табу — tabu
+этикет — etiketa
+манеры — způsoby chování
+вежливость — zdvořilost
+перепись населения — sčítání lidu
+рождаемость — porodnost
+смертность — smrtnost
+продолжительность жизни — střední délka života
+поколение — generace
+старение населения — stárnutí obyvatelstva
+пенсия — důchod / penze
+социальное государство — sociální stát
+социальное обеспечение — sociální zabezpečení
+пособие — dávka / podpora
+компенсация — příspěvek / odškodnění
+субсидия — dotace / subvence
+налогообложение — zdanění
+государственные расходы — veřejné výdaje
+государственный долг — státní dluh
+ВВП — HDP
+уровень жизни — životní úroveň
+неравенство — nerovnost
+черта бедности — hranice chudoby
+социальная мобильность — sociální mobilita
+средний класс — střední třída
+рабочий класс — dělnická třída
+высший класс — vyšší třída
+элита — elita
+коррупция — korupce
+взяточничество — úplatkářství
+мошенничество — podvod
+скандал — skandál
+подотчётность — odpovědnost / zodpovědnost
+правовое государство — právní stát
+конституция — ústava
+парламент / Дума — parlament / Duma
+сенат / Совет Федерации — senát / Rada federace
+оппозиция — opozice
+коалиция — koalice
+референдум — referendum
+голос / голосование — hlas / hlasování
+избирательный бюллетень — volební lístek
+избирательный участок — volební místnost
+кандидат — kandidát
+партия — (politická) strana
+предвыборная программа — volební program / manifest
+внешняя политика — zahraniční politika
+внутренняя политика — domácí / vnitřní politika
+дипломатия — diplomacie
+посол — velvyslanec
+посольство — velvyslanectví
+договор (международный) — smlouva / dohoda
+санкция — sankce
+союз / альянс — aliance / spojenectví
+НАТО — NATO
+Организация Объединённых Наций (ООН) — Spojené národy (OSN)
+Европейский союз — Evropská unie
+МВФ — MMF
+ВОЗ — WHO
+некоммерческая организация — nezisková organizace
+благотворительная организация — charitativní organizace
+пожертвование — dar / příspěvek
+сбор средств — fundraising / sbírka
+грант — grant / financování
+стипендия — stipendium
+патент — patent
+авторское право — autorské právo
+интеллектуальная собственность — duševní vlastnictví
+товарный знак — ochranná známka
+лицензия — licence
+роялти / авторское вознаграждение — licenční poplatek / tantiéma
+подвести итоги — shrnout / udělat bilanci
+принять решение — přijmout rozhodnutí
+раскрыть карты — odkrýt karty
+говорить без обиняков — nechodit kolem horké kaše
+смотреть в будущее — hledět do budoucnosti
+сделать шаг назад — udělat krok zpět
+мыслить широко — myslet otevřeně
+набраться смелости — dodat si odvahy
+не вешать нос — nevěšet hlavu
+найти общий язык — najít společnou řeč
+сделать первый шаг — udělat první krok
+читать между строк — číst mezi řádky
+смотреть на вещи шире — vidět věci s nadhledem
+пойти не тем путём — vydat se špatnou cestou
+честно говоря — upřímně řečeno
+по правде говоря — abych řekl/a pravdu
+в общем и целом — celkově vzato
+в некотором смысле — v jistém smyslu
+что касается меня — pokud jde o mě
+при этом / тем не менее — přesto / při tom
+короче говоря — stručně řečeno / zkráceně
+в горе и в радости — v dobrém i zlém
+рано или поздно — dříve nebo později
+более или менее — více méně
+так или иначе — tak či onak / v každém případě
+уровень шума — hladina hluku
+громкость — hlasitost
+звук — zvuk
+скрип — vrzání / skřípání
+свист / шипение — pískání / syčení
+звон — zvonění
+тон / оттенок — tón / odstín
+тишина — ticho
+гул / эхо — dunění / ozvěna
+акустика — akustika
+архитектурный проект — architektonický projekt
+чертёж / план — plán / výkres
+фундамент — základy (budovy)
+конструкция — konstrukce / struktura
+несущая стена — nosná zeď
+фасад — fasáda / průčelí
+балка — trám
+опора / столб — pilíř / sloup
+арка — oblouk
+купол — kupole
+башня — věž
+свод — klenba
+колонна — sloup
+планировка — půdorys / dispozice
+интерьер — interiér
+экстерьер — exteriér
+эскиз / набросок — skica / náčrt
+заказчик — klient / zadavatel
+архитектор — architekt
+инженер-конструктор — statik
+разрешение на строительство — stavební povolení
+генеральный план — územní plán
+трудовое право — pracovní právo
+уголовное право — trestní právo
+гражданское право — občanské právo
+конституционное право — ústavní právo
+налоговое право — daňové právo
+наследственное право — dědické právo
+жилищное право — nájemní / bytové právo
+договорное право — smluvní právo
+право собственности — vlastnické právo
+адвокат / юрист — advokát / právník
+судья — soudce
+прокурор — státní zástupce
+свидетель — svědek
+обвиняемый / подсудимый — obviněný / obžalovaný
+истец — žalobce
+приговор — rozsudek
+наказание — trest
+денежный штраф — peněžitá pokuta
+условный срок — podmíněný trest
+лишение свободы — trest odnětí svobody
+юридическая фирма — advokátní kancelář
+пункт / оговорка — klauzule / ustanovení
+мелкий шрифт — malé písmo
+Бог — Bůh
+вероисповедание — náboženské vyznání
+христианство — křesťanství
+ислам — islám
+иудаизм — judaismus
+индуизм — hinduismus
+буддизм — buddhismus
+мечеть — mešita
+синагога — synagoga
+храм — chrám
+монастырь — klášter
+священник / батюшка — kněz / duchovní
+имам — imám
+раввин — rabín
+монах — mnich
+монахиня — jeptiška
+богослужение — bohoslužba
+литургия / месса — liturgie / mše
+православие — pravoslaví
+Библия — Bible
+Коран — Korán
+Тора — Tóra
+душа — duše
+дух — duch
+убеждение / вера — víra / přesvědčení
+чудо — zázrak
+святой — světec (m.)
+святая — světice (f.)
+грех — hřích
+прощение — odpuštění
+благодать / милость — milost
+спасение — spása
+рай — ráj
+ад — peklo
+икона — ikona
+перевоплощение / реинкарнация — reinkarnace
+карма — karma
+паломничество — pouť
+пост — půst
+крещение — křest
+конфирмация — biřmování / konfirmace
+причастие — přijímání
+благословение — požehnání
+воскресение — vzkříšení
+сотворение мира — stvoření
+парадокс — paradox
+тезис — teze / tvrzení
+антитезис — antiteze
+синтез — syntéza
+дилемма — dilema
+аксиома — axiom
+гипотеза — hypotéza
+предпосылка — premisa
+вывод — vyvození / závěr
+аналогия — analogie
+метафора — metafora
+сложение — sčítání
+вычитание — odčítání
+умножение — násobení
+деление — dělení
+дробь — zlomek
+десятичная дробь — desetinné číslo
+процент — procento
+квадратный корень — druhá odmocnina
+степень — mocnina
+логарифм — logaritmus
+уравнение — rovnice
+неравенство (матем.) — nerovnice
+функция — funkce (matematická)
+переменная — proměnná
+константа / постоянная — konstanta
+угол — úhel
+прямая — přímka
+кривая — křivka
+круг / окружность — kruh / kružnice
+треугольник — trojúhelník
+квадрат — čtverec
+пятиугольник — pětiúhelník
+куб — krychle / kostka
+шар / сфера — koule
+цилиндр — válec
+конус — kužel
+статистика — statistika
+вероятность — pravděpodobnost
+среднее значение — průměr
+медиана — medián
+стандартное отклонение — směrodatná odchylka
+система координат — souřadnicový systém
+наклон / градиент — sklon / gradient
+интеграл — integrál
+производная — derivace
+спектр — spektrum
+частота — frekvence
+длина волны — vlnová délka
+амплитуда — amplituda
+колебание — kmitání / oscilace
+резонанс — rezonance
+инерция — setrvačnost
+импульс — hybnost
+трение — tření
+вязкость — viskozita
+плотность — hustota
+давление (физ.) — tlak
+напряжение — napětí (elektrické)
+сопротивление (электр.) — odpor (elektrický)
+цепь (электрическая) — obvod (elektrický)
+полупроводник — polovodič
+транзистор — tranzistor
+микросхема / чип — mikročip
+оптоволокно — optická vlákna
+лазер — laser
+GPS / навигатор — GPS / navigace
+спутник — satelit
+база данных — databáze
+сервер — server
+криптография — šifrování / kryptografie
+брандмауэр / файрвол — firewall
+вирус — virus (IT i biologický)
+взлом — hackování
+IP-адрес — IP adresa
+широкополосный интернет — širokopásmový internet
+интерфейс — rozhraní / interface
+отладка — ladění / debugging
+код — kód / program
+синтаксис — syntaxe
+компилятор — kompilátor
+открытый исходный код — open source
+фреймворк — framework
+API / программный интерфейс — API (rozhraní pro aplikace)
+список покупок — nákupní seznam
+тележка — nákupní vozík
+корзина (для покупок) — nákupní košík
+касса — pokladna
+самообслуживание — samoobsluha
+квитанция — stvrzenka / doklad
+пакет (для покупок) — taška / sáček
+бумажный пакет — papírová taška
+полиэтиленовый пакет — plastová taška
+право на возврат — právo na vrácení zboží
+обмен товара — výměna zboží
+стоимость доставки — poštovné / poplatek za dopravu
+доставка — dodávka / doručení
+онлайн-покупки — online nakupování
+корзина (на сайте) — košík (online)
+заказ — objednávka
+номер заказа — číslo objednávky
+личный кабинет — zákaznický účet
+отзыв — hodnocení (zákaznické) / recenze
+лидер рынка — tržní lídr
+дискаунтер — diskont
+специализированный магазин — specializovaný obchod
+универмаг — obchodní dům
+торговый центр — obchodní centrum
+рынок / базар — trh / tržiště
+магазин органических продуктов — bio obchod
+секонд-хенд — second hand
+блошиный рынок / барахолка — bleší trh / bazar
+аукцион — aukce
+ставка (на аукционе) — nabídka (aukce)
+тот, кто больше предложит — nejvyšší nabízející
+ликвидация — výprodej (likvidace)
+сезонный товар — sezónní zboží
+образец — vzorek / vzor
+контроль качества — kontrola kvality
+описание товара — popis produktu
+технические характеристики — technické parametry
+совместимость — kompatibilita
+гарантийное обслуживание — záruční servis
+техподдержка — zákaznická podpora
+номер претензии — číslo reklamace
+акт о повреждении — záznam o poškození
+запчасть — náhradní díl
+техобслуживание — údržba / servis
+осмотр / проверка — inspekce / prohlídka
+чек-лист — kontrolní seznam
+список дел — seznam úkolů
+приоритет — priorita
+срок / дедлайн — termín / deadline
+пунктуальность — dochvilnost / přesnost
+продление — prodloužení
+перенос — odsunutí / přesunutí
+отмена — zrušení
+подтверждение — potvrzení
+уведомление / объявление — upozornění / oznámení
+приглашение — pozvání / pozvánka
+отказ — odmítnutí
+согласие / принятие — přijetí / akceptace
+переговоры (деловые) — vyjednávání / jednání
+коммерческое предложение — cenová nabídka
+предварительная оценка — předběžná kalkulace / odhad
+проект договора — návrh smlouvy
+подписание договора — podepsání smlouvy
+ратификация — ratifikace
+вступление в силу — vstoupení v platnost
+расторжение договора — ukončení smlouvy
+возмещение ущерба — náhrada škody
+страховая сумма — pojistná částka
+страховой случай — pojistná událost
+страховой взнос — pojistné
+страховщик — pojistitel
+застрахованный — pojištěný
+медицинская страховка / полис ОМС — zdravotní pojištění
+пенсионное страхование — důchodové pojištění
+страхование от несчастных случаев — úrazové pojištění
+страхование ответственности — pojištění odpovědnosti
+страхование жизни — životní pojištění
+страхование жилья — pojištění domácnosti
+автостраховка / ОСАГО — pojištění vozidla
+франшиза — spoluúčast
+страховая выплата — pojistné plnění
+подписка — předplatné
+подписчик — předplatitel / odběratel
+рассылка — newsletter
+пуш-уведомление — push upozornění
+политика конфиденциальности — prohlášení o ochraně osobních údajů
+условия использования — podmínky použití
+куки — cookie (web.)
+лента — feed (sociální sítě)
+пост / публикация — příspěvek (sociální sítě)
+лайк — lajk / to se mi líbí
+комментарий — komentář
+репост — sdílení
+подписчик (в соцсетях) — sledující
+блогер / инфлюенсер — influencer
+автор контента — tvůrce obsahu
+стриминг / трансляция — streamování
+подкаст — podcast
+подписаться — přihlásit se k odběru
+клик — kliknutí
+показ — zobrazení / imprese
+охват — dosah (marketing)
+взаимодействие — interakce
+вовлечённость — angažovanost (marketing)
+конверсия — konverze (marketing)
+воронка продаж — marketingový trychtýř
+SEO / поисковая оптимизация — SEO
+панель управления / дашборд — přehled / dashboard
+ключевой показатель эффективности — KPI (klíčový ukazatel výkonu)
+метрика — metrika
+A/B-тестирование — A/B testování
+рабочий прототип — funkční prototyp
+пользователь — uživatel
+пользовательский опыт — uživatelský zážitek / UX
+пользовательский интерфейс — uživatelské rozhraní / UI
+макет / вёрстка — rozvržení / layout
+навигация — navigace
+время загрузки — doba načítání
+ошибка 404 — chyba 404
+падение сервера — pád serveru
+перезагрузка — restart
+установить обновление — nainstalovat aktualizaci
+программное решение — softwarové řešení
+рабочий процесс — pracovní postup / workflow
+управление проектами — projektový management
+гибкая методология — agilní metoda
+спринт — sprint (projektové řízení)
+скрам — scrum (metoda řízení)
+канбан — kanban
+ретроспектива — retrospektiva
+владелец продукта — vlastník produktu
+скрам-мастер — Scrum Master
+заинтересованная сторона — zainteresovaná strana
+управление рисками — řízení rizik
+обеспечение качества — zajištění kvality
+документация — dokumentace
+контроль версий — správa verzí (kódu)
+репозиторий — repozitář
+коммит — commit (verze kódu)
+ветка — větev (Git)
+слияние (Git) — sloučení (Git)
+развёртывание / деплой — nasazení (software)
+тестовая среда — testovací prostředí
+рабочая среда / прод — produkční prostředí
+баг — chyba (v kódu)
+отлаживать — ladit
+ревью кода — revize kódu
+запрос на слияние — žádost o sloučení kódu
+ИТ-инфраструктура — IT infrastruktura
+сетевая безопасность — bezpečnost sítě
+уязвимость нулевого дня — zero-day zranitelnost
+фишинговое письмо — phishingový email
+двухфакторная аутентификация — dvoufaktorové ověření
+единый вход — jednotné přihlášení
+слив данных — únik dat
+кража личных данных — krádež identity
+селфи — selfie
+скриншот — screenshot / snímek obrazovky
+скопировать и вставить — kopírovat-vložit
+перетащить — přetáhnout a pustit
+прокручивать / листать — rolovat / scrollovat
+смахнуть / свайпнуть — přejet (prstem)
+нажать / тапнуть — klepnout (na obrazovku)
+увеличить / уменьшить — přiblížit / oddálit
+сенсорный экран — dotykový displej
+значок уведомления — odznak notifikace
+главный экран — domovská obrazovka
+экран блокировки — zamčená obrazovka
+режим полёта — režim letadlo
+не беспокоить — nerušit
+тёмная тема — tmavý režim
+шрифт — písmo / font
+жирный — tučné (písmo)
+курсив — kurzíva
+подчёркнутый — podtržené
+заголовок (раздела) — nadpis / titulek
+подзаголовок (раздела) — podnadpis
+маркер списка — odrážka
+таблица — tabulka
+график — graf
+схема / диаграмма — diagram / schéma
+блок-схема — vývojový diagram
+столбчатая диаграмма — sloupcový graf
+круговая диаграмма — koláčový graf
+линейный график — spojnicový graf
+точечная диаграмма — bodový graf
+точка данных — datový bod
+тенденция / тренд — trend
+прогноз — předpověď / prognóza
+проекция — projekce / prognóza
+сценарий (развития) — scénář
+кейс / практический пример — případová studie
+опрос — průzkum / anketa
+анкета / опросник — dotazník
+респондент — respondent
+размер выборки — velikost vzorku
+погрешность — chybová marže
+корреляция — korelace
+причинно-следственная связь — kauzalita / příčinná závislost
+предвзятость / искажение — zkreslení / předpojatost
+контрольная группа — kontrolní skupina
+переменная (исследования) — proměnná (výzkum)
+качественное исследование — kvalitativní výzkum
+количественное исследование — kvantitativní výzkum
+полевое исследование — terénní výzkum
+кабинетное исследование — rešerše
+выводы (исследования) — zjištění / závěry (výzkumu)
+следствие / вывод — důsledek / implikace
+ограничения (исследования) — omezení (výzkumu)
+дальнейшие исследования — další výzkum
+желудочно-кишечный тракт — trávicí trakt
+воспаление — zánět
+инфекция — infekce
+бактерия — bakterie
+грибок — houba / plíseň (med.)
+паразит — parazit
+иммунитет (сопротивляемость) — imunita
+антитела — protilátky
+антиген — antigen
+вакцины — vakcíny
+группа крови — krevní skupina
+уровень сахара в крови — krevní cukr / glykémie
+щитовидная железа — štítná žláza
+гормон — hormon
+инсулин — inzulin
+диабет / сахарный диабет — cukrovka / diabetes
+инфаркт — infarkt
+инсульт — mrtvice / mozková příhoda
+рак — rakovina
+химиотерапия — chemoterapie
+лучевая терапия — radioterapie
+пересадка / трансплантация — transplantace
+донор — dárce
+реципиент — příjemce
+донорство крови — dárcovství krve
+реанимация — resuscitace / oživení
+остановка сердца — zástava srdce
+искусственная вентиляция лёгких — umělá ventilace / dýchání
+кома — kóma
+реанимационное отделение — jednotka intenzivní péče
+спасатель / фельдшер — záchranář
+психиатрическая больница — psychiatrická klinika
+детоксикация — detoxikace
+помощь зависимым — pomoc závislým
+социальный работник — sociální pracovník
+сиделка — pečovatel/ka
+дом престарелых — domov pro seniory
+уход на дому — domácí péče
+паллиативная помощь — paliativní péče
+хоспис — hospic
+эвтаназия — eutanazie
+эмбрион / зародыш — embryo
+плод — plod / fetus
+беременность — těhotenství
+роды — porod
+свидетельство о рождении — rodný list
+пренатальная диагностика — prenatální diagnostika
+выкидыш — potrat (spontánní)
+аборт — potrat (umělý)
+ЭКО (экстракорпоральное оплодотворение) — umělé oplodnění
+исследование стволовых клеток — výzkum kmenových buněk
+клонирование — klonování
+генетическое консультирование — genetické poradenství
+геном — genetická výbava / genom
+хромосома — chromozom
+мутация — mutace
+фенотип — fenotyp
+генотип — genotyp
+эпигенетика — epigenetika
+наследственность — dědičnost
+разрыв поколений — generační propast
+разница в возрасте — věkový rozdíl
+молодёжное движение — hnutí mládeže
+гражданские права — občanská práva
+равноправие — rovnoprávnost
+явка избирателей — volební účast
+депутат — poslanec
+фракция — poslanecký klub / frakce
+мандат — mandát
+оппозиционная партия — opoziční strana
+правящая партия — vládní strana
+закон о бюджете — zákon o státním rozpočtu
+государственный бюджет — státní rozpočet
+пакет мер по стимулированию — stimulační balíček
+денежно-кредитная политика — měnová politika
+бюджетная политика — fiskální politika
+центральный банк / Центробанк — centrální banka
+ключевая ставка — základní úroková sazba
+бороться с инфляцией — bojovat s inflací
+покупательная способность — kupní síla
+валовой внутренний продукт — HDP (hrubý domácí produkt)
+подъём экономики — hospodářský rozmach
+оживление — oživení / konjunktura
+замедление / спад — útlum / zpomalení
+стагфляция — stagflace
+отношение долга к ВВП — poměr dluhu k HDP
+социальные выплаты — sociální dávky
+пособие по безработице — podpora v nezaměstnanosti
+детское пособие — přídavky na děti
+жилищная субсидия — příspěvek na bydlení
+базовый доход — základní příjem
+риск бедности — ohrožení chudobou
+социальное неравенство — sociální nerovnost
+минимальная зарплата / МРОТ — minimální mzda
+коллективные переговоры — kolektivní vyjednávání
+коллективный договор — kolektivní smlouva
+профессиональное образование — odborné vzdělávání
+ученичество — učňovské vzdělávání
+ремесло — řemeslo
+мастер — mistr (řemeslný)
+колледж / техникум — odborná škola / technikum
+бакалавриат / степень бакалавра — bakalářský titul
+магистратура / степень магистра — magisterský titul / master
+аспирантура / докторская степень — doktorát
+поддержка науки — podpora výzkumu
+академическая свобода — akademická svoboda
+плата за обучение — školné
+облачность — oblačnost
+резкое похолодание — prudký pokles teploty
+атмосферное давление — atmosférický tlak
+влажность воздуха — vlhkost vzduchu
+точка росы — rosný bod
+скорость ветра — rychlost větru
+северный ветер — severní vítr
+пассат — pasát
+муссон — monzun
+смерч / торнадо — tornádo / smršť
+циклон — cyklon
+ураган — hurikán
+тайфун — tajfun
+порыв ветра — poryv větru
+вьюга / метель — vánice / metelice
+удар молнии — blesk / úder blesku
+ливень — průtrž mračen / prudký déšť
+паводок / половодье — povodeň / jarní tání
+длительная засуха — dlouhotrvající sucho
+уровень воды — hladina vody
+талая вода — tajová voda
+таяние ледников — tání ledovců
+глобальное потепление — globální oteplování
+выбросы CO2 — emise CO2
+парниковый эффект — skleníkový efekt
+возобновляемая энергия — obnovitelná energie
+ветровая энергия — větrná energie
+солнечная энергетика — fotovoltaika / solární energetika
+гидроэнергия — vodní energie
+геотермальная энергия — geotermální energie
+атомная энергия — jaderná energie
+атомная электростанция / АЭС — jaderná elektrárna
+реактор — reaktor
+захоронение ядерных отходов — likvidace jaderného odpadu
+солнечная панель — solární panel
+ветряк / ветрогенератор — větrná elektrárna / větrník
+накопитель энергии — bateriové úložiště
+умная сеть — chytrá síť (elektřina)
+энергетический переход — energetický přechod
+углеродный след — uhlíková stopa
+переработка пластика — recyklace plastů
+компостирование — kompostování
+электромобильность — elektromobilita
+зарядная инфраструктура — nabíjecí infrastruktura
+междугородний автобус — dálkový autobus
+попутчики / совместные поездки — spolujízda
+ночёвка — přenocování
+съёмная квартира (посуточно) — dovolenkový byt / apartmán
+туризм — turistika / cestovní ruch
+культурное наследие — kulturní dědictví
+всемирное наследие ЮНЕСКО — světové dědictví UNESCO
+автобусная экскурсия по городу — okružní jízda městem
+экскурсия — prohlídka s výkladem
+карта города — mapa města
+туристический информационный центр — turistické informační centrum
+посадочный талон — palubní lístek
+сдать багаж — odbavit zavazadlo
+досмотр — bezpečnostní kontrola
+терминал — terminál
+задержка рейса — zpoždění letu
+стыковочный рейс — navazující let
+туристическая страховка — cestovní pojištění
+роуминг — roaming (mobilní)
+деньги на поездку — cestovní peníze
+путешествие с рюкзаком — cestování s batohem
+культурный туризм — kulturní turismus
+экотуризм — ekoturismus
+приключенческий туризм — dobrodružná turistika
+массовый туризм — masový turismus
+страсть к путешествиям — touha po cestování / wanderlust
+тоска по родине — stesk po domově
+культурный шок — kulturní šok
+языковой барьер — jazyková bariéra
+местные жители — místní obyvatelé
+час пик — dopravní špička
+пробка — dopravní zácpa
+объездная дорога / кольцевая — obchvat / okruh
+паркомат — parkovací automat
+пешеходная зона — pěší zóna
+пешеходный переход / зебра — přechod pro chodce
+дорожные знаки — dopravní značky
+велодорожка — cyklostezka
+тротуар — chodník
+подземный переход — podchod
+туннель — tunel
+плата за проезд — mýtné / poplatek
+платная дорога — placená silnice
+экзамен по вождению — zkouška z jízdy
+автошкола — autoškola
+постановление о штрафе — výměr pokuty
+техосмотр — technická prohlídka
+техпомощь на дороге — pomoc při poruše
+эвакуатор — odtahový vůz
+навигатор — navigace / GPS
+правила дорожного движения / ПДД — pravidla silničního provozu
+преимущество в движении — přednost v jízdě
+обгонять — předjíždět
+максимально допустимая скорость — nejvyšší povolená rychlost
+круиз-контроль — tempomat
+пристегнуться — připoutat se
+подушка безопасности — airbag
+коробка передач — převodovka
+выхлопная труба — výfuk
+тормоз — brzda
+ручник — ruční brzda
+руль — volant
+зеркало заднего вида — zpětné zrcátko
+боковое зеркало — boční zpětné zrcátko
+дворник — stěrač
+багажник — kufr auta
+капот — kapota
+номерной знак — registrační značka
+давление в шинах — tlak v pneumatikách
+запаска — rezervní kolo / rezerva
+дорожно-транспортное происшествие / ДТП — dopravní nehoda
+место аварии — místo nehody
+протокол о ДТП — záznam o dopravní nehodě
+материальный ущерб — věcná škoda
+вред здоровью — újma na zdraví
+юридическая ответственность — ručení / odpovědnost (právní)
+страховое требование — pojistný nárok
+заявление о страховом случае — hlášení škody
+эксперт / оценщик — znalec / odhadce
+экспертиза — znalecké posouzení
+запрет на вождение — zákaz řízení
+лишение прав — odebrání řidičského průkazu
+алкотестер — test na alkohol / alkohol tester
+допустимое содержание алкоголя — hranice promile
+административный штраф — pokuta (správní)
+квитанция о штрафе — pokutový lístek
+камера / радар — radar / měření rychlosti
+обжалование — námitka / odvolání
+неплатёжеспособность — insolvence / úpadek
+банкротство — bankrot / konkurs
+ликвидация (фирмы) — likvidace (firmy)
+конкурсный управляющий — insolvenční správce
+кредиторы — věřitelé
+должник — dlužník
+погашение долга — splácení dluhu
+ежемесячный платёж — měsíční splátka
+график платежей — splátkový kalendář
+проверка кредитоспособности — prověření bonity
+кредитоспособность — bonita / úvěruschopnost
+овердрафт — kontokorent / povolené přečerpání
+брокерский счёт — účet pro cenné papíry
+акция — akcie
+облигация — dluhopis
+инвестиционный фонд — fond (investiční)
+биржевой фонд / ETF — ETF (burzovně obchodovaný fond)
+дивиденд — dividenda
+курс акций — cena akcie / kurz
+биржа — burza
+брокер — broker / makléř
+сделка — transakce / obchod
+комиссия — provize
+налог на прирост капитала — daň z kapitálových výnosů
+налоговая декларация — daňové přiznání
+налоговая инспекция / налоговая — finanční úřad
+налоговый консультант — daňový poradce
+годовой отчёт — roční uzávěrka
+бухгалтерия / бухучёт — účetnictví
+оборот / выручка — obrat / tržby
+валовая прибыль — hrubý zisk
+чистая прибыль — čistý zisk
+амортизация — odpis / amortizace
+резерв — rezerva (finanční)
+собственный капитал — vlastní kapitál
+заёмный капитал — cizí kapitál
+ликвидность — likvidita
+платёжеспособность — solventnost
+денежный поток — cashflow / peněžní tok
+EBITDA — EBITDA
+окупаемость инвестиций — návratnost investic
+маржа / наценка — marže / přirážka
+сегмент рынка — tržní segment
+целевые клиенты — cílová klientela
+насыщение рынка — nasycení trhu
+выход на рынок — vstup na trh
+рыночная стратегия — tržní strategie
+ценовая стратегия — cenová strategie
+премиальный товар — prémiový produkt
+собственная торговая марка — vlastní značka
+ассортимент — sortiment / výběr zboží
+управление запасами — řízení zásob
+подрядчик — dodavatel / zhotovitel
+закупки / снабжение — zásobování / nákup
+закупщик / снабженец — nákupčí
+коммерческий директор — ředitel prodeje
+удовлетворённость клиентов — spokojenost zákazníků
+лояльность клиентов — věrnost zákazníků
+привлечение клиентов — získávání nových zákazníků
+реферальная программа — doporučovací program
+сарафанное радио — ústní doporučení
+узнаваемость бренда — povědomí o značce
+фирменный стиль — firemní identita
+корпоративная культура — firemní kultura
+миссия — poslání / mise
+видение — vize
+стратегия компании — firemní strategie
+ключевая компетенция — klíčová kompetence
+тендер / конкурс — výběrové řízení / tendr
+подать заявку — podat nabídku
+присуждение контракта — přidělení zakázky
+условия поставки — dodací podmínky
+накладная — nákladní list / dodací list
+таможенная пошлина — clo
+импортный НДС — dovozní DPH
+торговое эмбарго — obchodní embargo
+экономические санкции — hospodářské sankce
+свободная торговля — volný obchod
+соглашение о свободной торговле — dohoda o volném obchodu
+таможенный союз — celní unie
+единый рынок — vnitřní / společný trh
+торговые отношения — obchodní vztahy
+импортёр — dovozce
+экспортёр — vývozce
+торговый представитель — obchodní zástupce
+единый государственный реестр — obchodní rejstřík
+общество с ограниченной ответственностью (ООО) — společnost s ručením omezeným (s.r.o.)
+акционерное общество (АО) — akciová společnost (a.s.)
+индивидуальный предприниматель (ИП) — živnostník / fyzická osoba
+полное товарищество — veřejná obchodní společnost
+кооператив — družstvo
+объединение / общество — spolek / sdružení
+фонд (благотворительный) — nadace
+свидетельство о регистрации — živnostenské oprávnění / registrace
+бизнес-план — podnikatelský plán
+анализ рынка — analýza trhu
+SWOT-анализ — SWOT analýza
+анализ конкурентов — analýza konkurence
+уникальное торговое предложение — unikátní prodejní argument
+добавленная стоимость — přidaná hodnota
+идентичность бренда — identita značky
+ключевые ценности — klíčové hodnoty firmy
+домашнее животное / питомец — domácí zvíře / mazlíček
+хомяк — křeček
+морская свинка — morče
+декоративный кролик — zakrslý králík
+попугай — papoušek
+волнистый попугайчик — andulka
+черепаха — želva
+золотая рыбка — zlatá rybička
+мышь (животное) — myš
+крыса — potkan
+геккон — gekon
+оса — vosa
+шершень — sršeň
+стрекоза — vážka
+жук — brouk
+божья коровка — beruška
+дождевой червь — žížala
+многоножка — stonožka
+краб — krab
+ракушка / мидия — mušle / slávka
+осьминог — chobotnice
+дельфин — delfín
+кит — velryba
+акула — žralok
+пингвин — tučňák
+страус — pštros
+орёл — orel
+сокол — sokol
+колибри — kolibřík
+сова — sova
+аист — čáp
+ласточка — vlaštovka
+дятел — datel
+павлин — páv
+фламинго — plameňák
+носорог — nosorožec
+бегемот — hroch
+жираф — žirafa
+зебра — zebra
+горилла — gorila
+шимпанзе — šimpanz
+гепард — gepard
+ягуар — jaguár
+пантера — panter
+земноводное — obojživelník
+лягушка — žába
+жаба — ropucha
+саламандра / тритон — mlok / čolek
+крокодил — krokodýl
+ящерица — ještěrka
+завоевать доверие — budovat důvěru
+поддерживать кого-то — podporovat někoho
+устанавливать границы — nastavovat hranice
+попросить прощения — omluvit se
+мучиться угрызениями совести — mít špatné svědomí
+простить кого-то — odpustit někomu
+прояснить недоразумение — vyjasnit nedorozumění
+открыто общаться — otevřeně komunikovat
+идти на компромисс — dělat kompromisy
+быть рядом друг с другом — být tu jeden pro druhého
+полагаться на — spolehnout se na
+расти вместе — společně růst
+укреплять связь — posilovat pouto
+уважать границы — respektovat hranice
+выражать чувства — vyjadřovat pocity
+слушать не осуждая — naslouchat bez odsuzování
+проявить понимание — projevit porozumění
+выразить признательность — projevit ocenění
+подбодрить кого-то — povzbudit někoho
+настроение — nálada
+взволнованный — vzrušený / rozrušený
+восторженный — nadšený
+испытывающий облегчение — ulehčený
+благодарный — vděčný
+гордый — hrdý
+виноватый — provinilý
+пристыженный — zahanbený
+смущённый — rozpačitý
+завистливый — závistivý
+ревнивый — žárlivý
+любопытный — zvědavý
+нетерпеливый (сейчас) — netrpělivý
+расслабленный — uvolněný / relaxovaný
+измученный / изнурённый — vyčerpaný
+спокойный / уравновешенный — klidný / vyrovnaný
+обеспокоенный — znepokojený / starostlivý
+быть разочарованным — být zklamaný
+быть перегруженным — být přetížený / nezvládat
+чувствовать себя в своей тарелке — cítit se dobře / být ve své kůži
+я переживаю — dělám si starosti
+я без сил — jsem na dně / jsem vyčerpaný
+мне это важно — záleží mi na tom
+это не выходит у меня из головы — vrtá mi to hlavou
+у меня смешанные чувства — jsem rozpolcený
+это больно — to bolí (přen.)
+это придаёт мне смелости — to mi dodává odvahu
+я чувствую, что меня понимают — cítím se pochopen
+я на твоей стороне — stojím za tebou
+ты можешь на меня рассчитывать — můžeš na mě počítat
+я рядом — jsem tu pro tebe
+всё будет хорошо — všechno bude v pořádku
+держись! — hlavu vzhůru / vydrž
+не сдаваться — nevzdávat se
+так держать — tak dál / pokračuj tak
+молодец — dobře uděláno / šikula
+я горжусь тобой — jsem na tebe hrdý/á
+утренний распорядок — ranní rutina
+дневной сон — odpolední šlofík
+вздремнуть — zdřímnout si
+конец рабочего дня — konec pracovní doby
+передышка / свободное время — oddech / pauza / volný čas
+наслаждаться выходными — užívat si víkend
+попробовать что-то новое — zkusit něco nového
+пойти погулять — jít na procházku
+быть на свежем воздухе — být na čerstvém vzduchu
+наслаждаться природой — užívat si přírodu
+наслаждаться тишиной — užívat si ticho
+не торопиться — dopřát si čas / nespěchat
+прийти в себя / успокоиться — dojít k odpočinku / uklidnit se
+обострить восприятие — zostřit vnímání
+наслаждаться моментом — vychutnat okamžik
+жить здесь и сейчас — žít tady a teď
+расставить приоритеты — stanovit priority
+понять главное — rozpoznat podstatné
+отпустить — umět pustit / nechat být
+оставаться верным себе — zůstat sám sobě věrný
+внутреннее равновесие — vnitřní rovnováha
+внутренняя сила — vnitřní síla
+сострадание к себе — soucit se sebou samým
+забота о себе — péče o sebe
+расцвет — rozkvět / prospívání
+раскрыть потенциал — rozvíjet potenciál
+личностный рост (развитие) — osobní růst
+жизненные цели — životní cíle
+смысл жизни — smysl života
+обрести себя — najít naplnění / najít sám sebe
+быть на верном пути — být na správné cestě
+шаг за шагом — krok za krokem
+каждый день на счету — každý den se počítá
+радоваться жизни — užívat si života
+быть благодарным за — být vděčný za
+видеть хорошее — vidět pozitivní stránku
+сила привычки — síla zvyku
+решиться на перемены — odvážit se změny
+смело идти вперёд — odvážně jít vpřed

@@ -1,15 +1,28 @@
-#!/usr/bin/env python3
+#!/usr/bin/env -S uv run --quiet --script
+# /// script
+# requires-python = ">=3.10"
+# dependencies = ["pygobject"]
+# ///
 """Průhledné okno pro procvičování slovíček ve stylu poznámek (pozt z ~/Projects/Pango-view).
 
 Použití: slovicka-view.py --rezim znaky|radky -- <skript> [argumenty …]
+         slovicka-view.py --vyber "Výzva" položka1 položka2 …
 
 Spustí <skript> (slovicka-pasivni.sh / slovicka-interaktivni.sh) s proměnnou SLOVICKA_V_OKNE=2.
 Skript posílá příkazy na deskriptor $SLOVICKA_FD (řádek, pole oddělená tabulátorem):
   KARTA     hlavička  první  druhý  fráze  fráze_cs
   NAPOVEDA  text                     (*text* = zvýraznit)
   ZPRAVA    nadpis  text  [nápověda]  (\\n v textu = nový řádek)
+  INTRO     cesta_k_obrázku  šířka    (dialog s obrázkem; q/Esc/mezera/Enter = přeskočit)
+  INTRO_KONEC                         (zavře dialog s obrázkem)
 Stisknuté klávesy jdou skriptu na stdin: v režimu „znaky“ jako znak (pasivní poslech, read -n1),
 v režimu „radky“ jako řádek (interaktivní, read -r; Enter = prázdný řádek).
+Přeskočení intra pošle skriptu Enter.
+
+--vyber: nabídka ve stejném stylu (náhrada rofi -dmenu, funguje na každém Waylandu i X11).
+Šipky / j k / číslice 1–9 / myš, Enter = vybrat, Esc / q = zrušit. Vypíše pořadové číslo
+volby (1..N) a na druhý řádek aktivační token (xdg-activation), aby další okno dostalo fokus.
+Při zrušení nevypíše nic a skončí kódem 1.
 
 Ovládání okna: = / - / 0 zoom · tažení myší přesun · zavření okna = konec skriptu.
 Proměnné: SLOVICKA_STYL (0–9, barvy jako styly poznámek, výchozí 0), SLOVICKA_ALFA (hex 00–ff,
@@ -29,9 +42,12 @@ except locale.Error:
     os.environ["LC_ALL"] = "C.UTF-8"
     locale.setlocale(locale.LC_ALL, "C.UTF-8")
 
-# Vykreslovat jen na integrovaném AMD GPU (jako poznamka-view.py), aby se dGPU mohlo uspat
-os.environ.setdefault("VK_DRIVER_FILES", "/usr/share/vulkan/icd.d/radeon_icd.json")
-os.environ.setdefault("__EGL_VENDOR_LIBRARY_FILENAMES", "/usr/share/glvnd/egl_vendor.d/50_mesa.json")
+# Vykreslovat jen na integrovaném AMD GPU (jako poznamka-view.py), aby se dGPU mohlo uspat.
+# Jen když ty ovladače v systému jsou — jinde (Intel, jen Nvidia) by GTK nemělo čím kreslit.
+for _promenna, _soubor in (("VK_DRIVER_FILES", "/usr/share/vulkan/icd.d/radeon_icd.json"),
+                           ("__EGL_VENDOR_LIBRARY_FILENAMES", "/usr/share/glvnd/egl_vendor.d/50_mesa.json")):
+    if os.path.exists(_soubor):
+        os.environ.setdefault(_promenna, _soubor)
 
 import gi  # noqa: E402
 
@@ -39,7 +55,8 @@ gi.require_version("Gtk", "4.0")
 gi.require_version("Gdk", "4.0")
 gi.require_version("Pango", "1.0")
 gi.require_version("PangoCairo", "1.0")
-from gi.repository import Gdk, Gio, GLib, Gtk, Pango, PangoCairo  # noqa: E402
+gi.require_version("GdkPixbuf", "2.0")
+from gi.repository import Gdk, GdkPixbuf, Gio, GLib, Gtk, Pango, PangoCairo  # noqa: E402
 
 CSS = b"window, window.background { background: transparent; box-shadow: none; }"
 KROK = 1.2
@@ -72,18 +89,93 @@ def rgb(hex_barva):
     return tuple(int(h[i:i + 2], 16) / 255 for i in (0, 2, 4))
 
 
-class Karta(Gtk.ApplicationWindow):
-    def __init__(self, app, rezim, prikaz):
-        super().__init__(application=app, decorated=False, resizable=False)
-        self.set_title("Slovíčka")
-        self.rezim = rezim
+class Styl:
+    """Barvy, písmo a zoom podle SLOVICKA_STYL / SLOVICKA_ALFA / SLOVICKA_ZOOM (karta i nabídka)."""
+
+    def nacti_styl(self):
         styl = int(os.environ.get("SLOVICKA_STYL", "0") or 0)
         self.bg, self.fg, self.akcent, self.fraze, self.font = STYLY.get(styl, STYLY[0])
         alfa = os.environ.get("SLOVICKA_ALFA") or os.environ.get("POZNAMKA_ALFA") or "b3"
         self.alfa = int(alfa, 16) / 255
         self.zoom = float(os.environ.get("SLOVICKA_ZOOM", "1") or 1)
         self.sirka = int(os.environ.get("SLOVICKA_SIRKA", "760") or 760)
+
+    def velikost(self, body):
+        return f'size="{round(body * 1024 * self.zoom)}"'
+
+    def okraj(self):
+        return round(28 * self.zoom)
+
+    def layout(self, plocha, markup, sirka):
+        lay = plocha.create_pango_layout(None)
+        lay.set_font_description(Pango.FontDescription.from_string(self.font))
+        lay.set_width(sirka * Pango.SCALE)
+        lay.set_wrap(Pango.WrapMode.WORD_CHAR)
+        lay.set_markup(markup, -1)
+        return lay
+
+    def pozadi(self, cr):
+        r, g, b = rgb(self.bg)
+        cr.set_source_rgba(r, g, b, self.alfa)
+        cr.paint()
+
+    def presun(self, gesto, _n, x, y):
+        povrch = self.get_surface()
+        if isinstance(povrch, Gdk.Toplevel):
+            povrch.begin_move(gesto.get_device(), gesto.get_current_button(), x, y,
+                              gesto.get_current_event_time())
+
+
+class Intro(Gtk.Window):
+    """Úvodní obrázek. Je to dialog (transient) nad kartou, takže ho všechny kompozitory —
+    i dlaždicové (niri, sway, Hyprland) — otevřou jako plovoucí, bez pravidel v konfiguraci."""
+
+    def __init__(self, karta, cesta, sirka):
+        super().__init__(transient_for=karta, decorated=False, resizable=False)
+        self.set_title("Slovíčka – intro")
+        self.karta = karta
+        # Obrázek zmenšit předem: okno bez změny velikosti má přirozenou velikost obsahu,
+        # a ta by jinak byla rozměr fotky (1920×1080)
+        vyska = sirka * 9 // 16
+        pixbuf = GdkPixbuf.Pixbuf.new_from_file_at_scale(cesta, sirka, vyska, True)
+        _ok, png = pixbuf.save_to_bufferv("png", [], [])
+        obraz = Gtk.Picture.new_for_paintable(Gdk.Texture.new_from_bytes(GLib.Bytes.new(png)))
+        obraz.set_content_fit(Gtk.ContentFit.COVER)
+        obraz.set_size_request(sirka, vyska)
+        self.set_child(obraz)
+        klavesy = Gtk.EventControllerKey()
+        klavesy.connect("key-pressed", self.klavesa)
+        self.add_controller(klavesy)
+        self.connect("close-request", self.zavreno)
+        self.preskoceno = False
+
+    def klavesa(self, _ctl, keyval, _code, _stav):
+        if Gdk.keyval_name(keyval) in ("q", "Q", "Escape", "space", "Return", "KP_Enter"):
+            self.close()
+            return True
+        return False
+
+    def zavreno(self, *_):
+        # Zavřel ho uživatel (klávesou nebo křížkem v kompozitoru) → skript má intro ukončit
+        if not self.preskoceno:
+            self.karta.posli("")
+        self.karta.intro = None
+        self.karta.present()
+        return False
+
+    def ukonci(self):
+        self.preskoceno = True   # ukončuje skript, není co posílat
+        self.close()
+
+
+class Karta(Gtk.ApplicationWindow, Styl):
+    def __init__(self, app, rezim, prikaz):
+        super().__init__(application=app, decorated=False, resizable=False)
+        self.set_title("Slovíčka")
+        self.rezim = rezim
+        self.nacti_styl()
         self.obsah, self.napoveda = "", ""
+        self.intro = None
 
         self.plocha = Gtk.DrawingArea()
         self.plocha.set_draw_func(self.kresli)
@@ -136,6 +228,13 @@ class Karta(Gtk.ApplicationWindow):
             self.prekresli()
         elif druh == "ZPRAVA":
             self.zprava(data[0], data[1], data[2])
+        elif druh == "INTRO" and os.path.exists(data[0]):
+            if self.intro:
+                self.intro.ukonci()
+            self.intro = Intro(self, data[0], int(data[1] or 1280))
+            self.intro.present()
+        elif druh == "INTRO_KONEC" and self.intro:
+            self.intro.ukonci()
 
     def posli(self, znak):
         text = znak + "\n" if self.rezim == "radky" else (znak or "\n")
@@ -157,9 +256,6 @@ class Karta(Gtk.ApplicationWindow):
         return False
 
     # ── Obsah ────────────────────────────────────────────────────
-    def velikost(self, body):
-        return f'size="{round(body * 1024 * self.zoom)}"'
-
     def karta(self, hlavicka, prvni, druhy, fraze, fraze_cs):
         casti = [
             f'<span {self.velikost(10)} alpha="65%">{esc(hlavicka)}</span>',
@@ -186,20 +282,10 @@ class Karta(Gtk.ApplicationWindow):
         return f'<span {self.velikost(10)} alpha="60%">{text}</span>'
 
     # ── Vykreslení ───────────────────────────────────────────────
-    def okraj(self):
-        return round(28 * self.zoom)
-
     def layouty(self):
         sirka_textu = round(self.sirka * self.zoom) - 2 * self.okraj()
-        vysledek = []
-        for markup in (self.obsah, self.markup_napovedy() if self.napoveda else ""):
-            lay = self.plocha.create_pango_layout(None)
-            lay.set_font_description(Pango.FontDescription.from_string(self.font))
-            lay.set_width(sirka_textu * Pango.SCALE)
-            lay.set_wrap(Pango.WrapMode.WORD_CHAR)
-            lay.set_markup(markup, -1)
-            vysledek.append(lay)
-        return vysledek
+        return [self.layout(self.plocha, markup, sirka_textu)
+                for markup in (self.obsah, self.markup_napovedy() if self.napoveda else "")]
 
     def prekresli(self):
         obsah, napoveda = self.layouty()
@@ -213,9 +299,7 @@ class Karta(Gtk.ApplicationWindow):
         self.plocha.queue_draw()
 
     def kresli(self, _plocha, cr, sirka, vyska):
-        r, g, b = rgb(self.bg)
-        cr.set_source_rgba(r, g, b, self.alfa)
-        cr.paint()
+        self.pozadi(cr)
         obsah, napoveda = self.layouty()
         m = self.okraj()
         r, g, b = rgb(self.fg)
@@ -243,15 +327,149 @@ class Karta(Gtk.ApplicationWindow):
         self.prekresli()
         return True
 
-    def presun(self, gesto, _n, x, y):
-        povrch = self.get_surface()
-        if isinstance(povrch, Gdk.Toplevel):
-            povrch.begin_move(gesto.get_device(), gesto.get_current_button(), x, y,
-                              gesto.get_current_event_time())
+
+class Vyber(Gtk.ApplicationWindow, Styl):
+    """Nabídka (náhrada rofi -dmenu) ve stylu karty."""
+
+    def __init__(self, app, vyzva, polozky, vysledek):
+        super().__init__(application=app, decorated=False, resizable=False)
+        self.set_title(f"Slovíčka – {vyzva}")
+        self.nacti_styl()
+        self.vyzva, self.polozky, self.vysledek = vyzva, polozky, vysledek
+        self.zvolena = 0
+        self.radky = []          # (y_od, y_do) každé položky po vykreslení — pro klik myší
+
+        self.plocha = Gtk.DrawingArea()
+        self.plocha.set_draw_func(self.kresli)
+        self.set_child(self.plocha)
+        klavesy = Gtk.EventControllerKey()
+        klavesy.connect("key-pressed", self.klavesa)
+        self.add_controller(klavesy)
+        klik = Gtk.GestureClick()
+        klik.connect("pressed", self.klik)
+        self.plocha.add_controller(klik)
+        self.prekresli()
+
+    def markupy(self):
+        hlavicka = f'<span {self.velikost(16)} weight="bold" foreground="{self.akcent}">{esc(self.vyzva)}</span>'
+        polozky = []
+        for i, text in enumerate(self.polozky):
+            cislo = f"{i + 1}  " if i < 9 else "   "
+            if i == self.zvolena:
+                polozky.append(f'<span {self.velikost(14)} weight="bold" foreground="{self.akcent}">'
+                               f'▶ {cislo}{esc(text)}</span>')
+            else:
+                polozky.append(f'<span {self.velikost(14)}>   {cislo}{esc(text)}</span>')
+        napoveda = (f'<span {self.velikost(10)} alpha="60%">[↑↓] výběr · [Enter] potvrdit · '
+                    f'[1–9] rovnou · [Esc] zrušit</span>')
+        return hlavicka, polozky, napoveda
+
+    def rozvrh(self):
+        sirka_textu = round(self.sirka * self.zoom) - 2 * self.okraj()
+        hlavicka, polozky, napoveda = self.markupy()
+        return (self.layout(self.plocha, hlavicka, sirka_textu),
+                [self.layout(self.plocha, p, sirka_textu) for p in polozky],
+                self.layout(self.plocha, napoveda, sirka_textu))
+
+    def prekresli(self):
+        hlavicka, polozky, napoveda = self.rozvrh()
+        m = self.okraj()
+        mezera = round(8 * self.zoom)
+        vyska = (2 * m + hlavicka.get_pixel_size()[1] + 2 * mezera
+                 + sum(p.get_pixel_size()[1] + mezera for p in polozky)
+                 + mezera + napoveda.get_pixel_size()[1])
+        self.plocha.set_content_width(round(self.sirka * self.zoom))
+        self.plocha.set_content_height(vyska)
+        self.plocha.queue_draw()
+
+    def kresli(self, _plocha, cr, _sirka, vyska):
+        self.pozadi(cr)
+        hlavicka, polozky, napoveda = self.rozvrh()
+        m = self.okraj()
+        mezera = round(8 * self.zoom)
+        cr.set_source_rgb(*rgb(self.fg))
+        cr.move_to(m, m)
+        PangoCairo.show_layout(cr, hlavicka)
+        y = m + hlavicka.get_pixel_size()[1] + 2 * mezera
+        self.radky = []
+        for p in polozky:
+            v = p.get_pixel_size()[1]
+            cr.move_to(m, y)
+            PangoCairo.show_layout(cr, p)
+            self.radky.append((y, y + v + mezera))
+            y += v + mezera
+        cr.move_to(m, vyska - m - napoveda.get_pixel_size()[1])
+        PangoCairo.show_layout(cr, napoveda)
+
+    def potvrd(self, index):
+        self.vysledek.append(index + 1)
+        # Token pro další okno (xdg-activation): to se pak otevře navrchu a s fokusem i v GNOME/KDE.
+        # Musí se vyžádat, dokud má tohle okno fokus.
+        try:
+            token = self.get_display().get_app_launch_context().get_startup_notify_id(None, [])
+        except (TypeError, GLib.Error):
+            token = None
+        self.vysledek.append(token or "")
+        self.close()
+
+    def klavesa(self, _ctl, keyval, _code, _stav):
+        k = Gdk.keyval_name(keyval)
+        if k in ("Down", "j", "Tab"):
+            self.zvolena = (self.zvolena + 1) % len(self.polozky)
+        elif k in ("Up", "k", "ISO_Left_Tab"):
+            self.zvolena = (self.zvolena - 1) % len(self.polozky)
+        elif k in ("Return", "KP_Enter", "space"):
+            self.potvrd(self.zvolena)
+            return True
+        elif k in ("Escape", "q", "Q"):
+            self.close()
+            return True
+        elif k and len(k) == 1 and k.isdigit() and 1 <= int(k) <= min(9, len(self.polozky)):
+            self.potvrd(int(k) - 1)
+            return True
+        else:
+            return False
+        self.prekresli()
+        return True
+
+    def klik(self, gesto, _n, _x, y):
+        for i, (od, do) in enumerate(self.radky):
+            if od <= y < do:
+                self.potvrd(i)
+                return
+        self.presun(gesto, _n, _x, y)    # mimo položky = přesun okna
+
+
+def css_pruhledne():
+    css = Gtk.CssProvider()
+    css.load_from_data(CSS)
+    Gtk.StyleContext.add_provider_for_display(
+        Gdk.Display.get_default(), css, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION)
+
+
+def hlavni_vyber(vyzva, polozky):
+    if not polozky:
+        return 1
+    app = Gtk.Application(application_id="cz.slovicka.vyber", flags=Gio.ApplicationFlags.NON_UNIQUE)
+    vysledek = []
+
+    def start(app):
+        css_pruhledne()
+        Vyber(app, vyzva, polozky, vysledek).present()
+
+    app.connect("activate", start)
+    app.run([sys.argv[0]])
+    if not vysledek:
+        return 1
+    print(vysledek[0])
+    print(vysledek[1] if len(vysledek) > 1 else "")
+    return 0
 
 
 def main():
     argv = sys.argv[1:]
+    if argv[:1] == ["--vyber"]:
+        return hlavni_vyber(argv[1] if len(argv) > 1 else "Vyber", argv[2:])
     rezim = "znaky"
     if len(argv) >= 2 and argv[0] == "--rezim":
         rezim, argv = argv[1], argv[2:]
@@ -265,10 +483,7 @@ def main():
     okno = []
 
     def start(app):
-        css = Gtk.CssProvider()
-        css.load_from_data(CSS)
-        Gtk.StyleContext.add_provider_for_display(
-            Gdk.Display.get_default(), css, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION)
+        css_pruhledne()
         okno.append(Karta(app, rezim, argv))
         okno[0].present()
 

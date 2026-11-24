@@ -9,3 +9,6 @@ fraze/.claude-batch.json
 
 # Lokální API klíč, kdyby se sem někdy dostal
 api-key
+
+# Vygenerovaný úvodní obrázek (vzniká sám z intro.txt a fotky)
+intro/.vygenerovano/

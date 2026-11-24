@@ -8,8 +8,19 @@
 # ================================================================
 
 # ── Konfigurace ─────────────────────────────────────────────────
-readonly PIPER="$HOME/.local/share/uv/tools/piper-tts/bin/piper"
-readonly PIPER_MODELY="$HOME/.local/share/piper"
+# Piper (TTS): SLOVICKA_PIPER, jinak instalace přes `uv tool install piper-tts`, jinak piper z PATH.
+# Pozor: na některých distribucích je „piper“ i nástroj na herní myši — proto má uv přednost.
+_najdi_piper() {
+    local p
+    for p in "${SLOVICKA_PIPER:-}" "$HOME/.local/share/uv/tools/piper-tts/bin/piper" \
+             "$HOME/.local/bin/piper" "$(command -v piper 2>/dev/null)"; do
+        [[ -n "$p" && -x "$p" ]] && { printf '%s' "$p"; return; }
+    done
+}
+PIPER=$(_najdi_piper)
+readonly PIPER
+# Hlasy Piperu (<jazyk>.onnx + .onnx.json)
+readonly PIPER_MODELY="${SLOVICKA_PIPER_MODELY:-${XDG_DATA_HOME:-$HOME/.local/share}/piper}"
 readonly TTS_SPEED="0.85"
 
 # Zvuk na pozadí po celou dobu procvičování — drží Bluetooth reproduktor vzhůru,
@@ -19,18 +30,21 @@ readonly TTS_SPEED="0.85"
 #   SLOVICKA_POZADI_HLASITOST = hlasitost souboru 0–100 (výchozí 25)
 POZADI_PID=""
 
-# Titulek okna kitty, podle něj se okno hledá (pgrep/pkill -f)
-readonly OKNO_NAZEV="kitty-float-slovicka"
-# Rozměry musí odpovídat pravidlu app-id "kitty-float" v niri config.kdl
-readonly OKNO_SIRKA=820
-readonly OKNO_VYSKA=380
-
-# 1 = skript běží uvnitř plovoucího okna kitty (nastavuje _spust_v_okne),
-# 2 = v průhledném okně slovicka-view.py (nastavuje _spust_pruhledne)
+# 0 = skript běží v terminálu (spouštěč, nebo záložní režim bez grafické relace),
+# 2 = v průhledném okně slovicka-view.py (nastavuje _spust_v_okne)
 readonly V_OKNE="${SLOVICKA_V_OKNE:-0}"
 # Průhledné okno: deskriptor, na který se posílají příkazy pro slovicka-view.py
 readonly VIEW_FD="${SLOVICKA_FD:-}"
 readonly VIEW_PY="$CESTA_SLOVNIKU/slovicka-view.py"
+
+# Aktivační token (xdg-activation na Waylandu, DESKTOP_STARTUP_ID na X11): bez něj GNOME/KDE
+# otevřou nové okno na pozadí. Spouštěč (rofi, fuzzel…) ho předá v proměnné; každé GTK okno
+# (nabídka) pak vydá token pro další okno. Předává se souborem, protože nabídky běží v $( ).
+readonly TOKEN_SOUBOR="${XDG_RUNTIME_DIR:-/tmp}/slovicka-aktivace.$$"
+if [[ "$V_OKNE" == "0" && -n "${XDG_ACTIVATION_TOKEN:-}${DESKTOP_STARTUP_ID:-}" ]]; then
+    printf '%s' "${XDG_ACTIVATION_TOKEN:-$DESKTOP_STARTUP_ID}" > "$TOKEN_SOUBOR"
+fi
+unset XDG_ACTIVATION_TOKEN DESKTOP_STARTUP_ID
 
 # Vzorové fráze: fraze/<slovník>.tsv, řádek = <řádek slovníku> TAB <fráze> TAB <překlad>
 # (generuje generuj-fraze.py)
@@ -41,12 +55,15 @@ declare -A FRAZE=()
 declare -A FRAZE_CS=()
 
 # Pořadí určuje i pořadí v nabídce
-readonly JAZYKY=(de en it de_golf en_golf it_golf)
+readonly JAZYKY=(de en it fr es ru de_golf en_golf it_golf)
 
 declare -A SOUBORY=(
     [de]="$CESTA_SLOVNIKU/nemcina_slova.txt"
     [en]="$CESTA_SLOVNIKU/anglictina_slova.txt"
     [it]="$CESTA_SLOVNIKU/italstina_slova.txt"
+    [fr]="$CESTA_SLOVNIKU/francouzstina_slova.txt"
+    [es]="$CESTA_SLOVNIKU/spanelstina_slova.txt"
+    [ru]="$CESTA_SLOVNIKU/rustina_slova.txt"
     [de_golf]="$CESTA_SLOVNIKU/golf_nemcina.txt"
     [en_golf]="$CESTA_SLOVNIKU/golf_anglictina.txt"
     [it_golf]="$CESTA_SLOVNIKU/golf_italstina.txt"
@@ -56,6 +73,9 @@ declare -A NAZVY=(
     [de]="🇩🇪 Němčina"
     [en]="🇬🇧 Angličtina"
     [it]="🇮🇹 Italština"
+    [fr]="🇫🇷 Francouzština"
+    [es]="🇪🇸 Španělština"
+    [ru]="🇷🇺 Ruština"
     [de_golf]="🇩🇪 Němčina Golf"
     [en_golf]="🇬🇧 Angličtina Golf"
     [it_golf]="🇮🇹 Italština Golf"
@@ -65,6 +85,9 @@ declare -A VLAJKY=(
     [de]="🇩🇪"
     [en]="🇬🇧"
     [it]="🇮🇹"
+    [fr]="🇫🇷"
+    [es]="🇪🇸"
+    [ru]="🇷🇺"
     [de_golf]="🇩🇪"
     [en_golf]="🇬🇧"
     [it_golf]="🇮🇹"
@@ -74,6 +97,9 @@ declare -A TTS_MODELY=(
     [de]="$PIPER_MODELY/de_DE-thorsten-medium.onnx"
     [en]="$PIPER_MODELY/en_US-lessac-medium.onnx"
     [it]="$PIPER_MODELY/it_IT-riccardo-x_low.onnx"
+    [fr]="$PIPER_MODELY/fr_FR-siwis-medium.onnx"
+    [es]="$PIPER_MODELY/es_ES-davefx-medium.onnx"
+    [ru]="$PIPER_MODELY/ru_RU-irina-medium.onnx"
     [cs]="$PIPER_MODELY/cs_CZ-jirka-medium.onnx"
 )
 
@@ -81,6 +107,9 @@ declare -A TTS_JAZYK=(
     [de]="de"
     [en]="en"
     [it]="it"
+    [fr]="fr"
+    [es]="es"
+    [ru]="ru"
     [cs]="cs"
     [de_golf]="de"
     [en_golf]="en"
@@ -101,7 +130,7 @@ _je_jazyk() {
     return 1
 }
 
-# Výpis jazyků pro nápovědu: "de, en, it, de_golf, en_golf, it_golf"
+# Výpis jazyků pro nápovědu: "de, en, it, fr, es, ru, de_golf, en_golf, it_golf"
 _seznam_jazyku() {
     local IFS=","
     printf '%s' "${JAZYKY[*]}" | sed 's/,/, /g'
@@ -114,7 +143,7 @@ _chyba() {
     exit 1
 }
 
-# Vypíše kartu slovíčka tak, aby se vešla do výšky terminálu (okno kitty má jen ~10 řádků;
+# Vypíše kartu slovíčka tak, aby se vešla do výšky terminálu (záložní režim bez okna;
 # při přetečení by terminál odroloval a titulek s vlajkami zmizel). Poslední řádek je pro nápovědu.
 # Prázdné řádky se vloží jen když je místo; v krajním případě se zkrátí fráze (…).
 # _vypis_kartu titulek nazev prvni druhy fraze fraze_cs
@@ -192,35 +221,42 @@ _oznac_chybnou() {
     } | sort -u > "$SOUBOR_CHYBNYCH.tmp" && mv -f "$SOUBOR_CHYBNYCH.tmp" "$SOUBOR_CHYBNYCH"
 }
 
-# ── Plovoucí okno ───────────────────────────────────────────────
-# Spustí tentýž skript v plovoucím okně kitty (odpojeně od terminálu),
-# aby klávesy fungovaly přímo v okně se slovíčky.
-_spust_v_okne() {
-    _zjisti_pozici_okna
-    SLOVICKA_V_OKNE=1 setsid -f kitty \
-        --class kitty-float \
-        --title "$OKNO_NAZEV" \
-        --override font_size=16 \
-        --override background_opacity=0.92 \
-        --override window_padding_width=24 \
-        "$SKRIPT" "$@" </dev/null &>/dev/null
-    sleep 0.8
-    niri msg action move-floating-window --x "$OKNO_X" --y "$OKNO_Y" 2>/dev/null || true
-    echo -e "\e[0;90mBěží v plovoucím okně ([q] v okně = konec).\e[0m"
-}
-
-# Spustí tentýž skript v průhledném okně slovicka-view.py (vzhled jako poznámky pozt).
+# ── Průhledné okno ──────────────────────────────────────────────
+# Spustí tentýž skript v průhledném okně slovicka-view.py (vzhled jako poznámky pozt),
+# odpojeně od terminálu, aby klávesy fungovaly přímo v okně se slovíčky.
+# slovicka-view.py běží přes `uv run --script` (PyGObject si uv nainstaluje sám).
 # $1 = režim kláves (znaky = pasivní, radky = interaktivní), zbytek = argumenty skriptu
-_spust_pruhledne() {
+_spust_v_okne() {
     local rezim="$1"; shift
-    setsid -f python3 "$VIEW_PY" --rezim "$rezim" -- "$SKRIPT" "$@" </dev/null &>/dev/null
+    _s_tokenem setsid -f uv run --quiet --script "$VIEW_PY" --rezim "$rezim" -- "$SKRIPT" "$@" \
+        </dev/null &>/dev/null
     echo -e "\e[0;90mBěží v průhledném okně ([q] v okně = konec).\e[0m"
 }
 
-# Lze otevřít průhledné okno? (grafická relace + python-gobject s GTK4)
-_lze_pruhledne() {
-    [[ "$V_OKNE" == "0" && -n "${WAYLAND_DISPLAY:-}${DISPLAY:-}" && -f "$VIEW_PY" ]] \
-        && python3 -c 'import gi; gi.require_version("Gtk", "4.0")' &>/dev/null
+# Jde spustit GTK okno? (grafická relace — Wayland i X11 — a uv)
+_lze_gtk() {
+    [[ -n "${WAYLAND_DISPLAY:-}${DISPLAY:-}" && -f "$VIEW_PY" ]] && command -v uv &>/dev/null
+}
+
+# Lze otevřít okno? (jde GTK, a skript ještě neběží v okně)
+_lze_otevrit_okno() {
+    [[ "$V_OKNE" == "0" ]] && _lze_gtk
+}
+
+# Spustí příkaz s aktivačním tokenem od předchozího okna (token se tím spotřebuje)
+_s_tokenem() {
+    local token=""
+    if [[ -f "$TOKEN_SOUBOR" ]]; then
+        token=$(<"$TOKEN_SOUBOR")
+        rm -f "$TOKEN_SOUBOR"
+    fi
+    if [[ -z "$token" ]]; then
+        "$@"
+    elif [[ -n "${WAYLAND_DISPLAY:-}" ]]; then
+        XDG_ACTIVATION_TOKEN="$token" "$@"
+    else
+        DESKTOP_STARTUP_ID="$token" "$@"
+    fi
 }
 
 # Běží skript v průhledném okně?
@@ -239,35 +275,28 @@ _view() {
     return 0
 }
 
-# Lze otevřít okno? (kitty + grafická relace, a skript ještě neběží v okně)
-_lze_otevrit_okno() {
-    [[ "$V_OKNE" == "0" ]] && command -v kitty &>/dev/null \
-        && [[ -n "${WAYLAND_DISPLAY:-}${DISPLAY:-}" ]]
-}
-
-_okno_zavrit() {
-    # Uvnitř okna nic nezabíjet — okno se zavře samo s koncem skriptu
-    [[ "$V_OKNE" != "0" ]] && return 0
-    pkill -f "$OKNO_NAZEV" 2>/dev/null || true
-}
-
-# ── Pozice okna (střed aktivního monitoru) ──────────────────────
-_zjisti_pozici_okna() {
-    local vystup log_w log_h
-    vystup=$(niri msg focused-output 2>/dev/null)
-    log_w=$(echo "$vystup" | awk '/Logical size:/ {split($3,a,"x"); print a[1]}')
-    log_h=$(echo "$vystup" | awk '/Logical size:/ {split($3,a,"x"); print a[2]}')
-    log_w=${log_w:-1920}
-    log_h=${log_h:-1080}
-
-    OKNO_X=$(( (log_w - OKNO_SIRKA) / 2 ))
-    OKNO_Y=$(( (log_h - OKNO_VYSKA) / 2 ))
-}
-
 # ── TTS ─────────────────────────────────────────────────────────
 _uklid_tts() {
     [[ -n "$TMP_MP3" ]] && rm -f "$TMP_MP3"
     TMP_MP3=""
+}
+
+# PID čtení běžícího na pozadí (pasivní i interaktivní režim), viz _signal_tts
+TTS_PID=""
+
+# Pošle signál (STOP/CONT/TERM) běžícímu čtení i jeho potomkům
+# (piper, ffmpeg, mpv, edge-tts jsou přímí potomci podprocesu TTS)
+# STOP: nejdřív rodič, aby mezitím nespustil dalšího potomka (jinak by piper hrál dál).
+_signal_tts() {
+    [[ -n "$TTS_PID" ]] || return 0
+    if [[ "$1" == "STOP" ]]; then
+        kill -STOP "$TTS_PID" 2>/dev/null
+        pkill -STOP -P "$TTS_PID" 2>/dev/null
+    else
+        pkill "-$1" -P "$TTS_PID" 2>/dev/null
+        kill "-$1" "$TTS_PID" 2>/dev/null
+    fi
+    return 0
 }
 
 # _tts_reci "text" jazyk   — jazyk: cs nebo klíč z JAZYKY
@@ -303,8 +332,8 @@ _tts_reci() {
             continue
         fi
 
-        # Ostatní jazyky — Piper, bez modelu záložně espeak-ng
-        if [[ ! -f "$model" ]]; then
+        # Ostatní jazyky — Piper, bez Piperu nebo modelu záložně espeak-ng
+        if [[ -z "$PIPER" || ! -f "$model" ]]; then
             if command -v espeak-ng &>/dev/null; then
                 espeak-ng -v "$tts_jazyk" -s 130 "$cast" 2>/dev/null
             else
@@ -323,6 +352,114 @@ _tts_reci() {
             | mpv --really-quiet --no-video --no-input-terminal - 2>/dev/null
 
     done < <(printf '%s\n' "$text" | tr '/' '\n')
+}
+
+# ── Intro (--intro) ─────────────────────────────────────────────
+# Před procvičováním se v dialogu nad kartou ukáže úvodní obrázek (vlajky + text z intro.txt)
+# a hraje hudba, pak je krátká pauza. Obrázek se skládá z nejnovější fotky v intro/
+# a znovu se vygeneruje jen když se změnil text, fotka, seznam vlajek nebo intro-obrazek.py.
+readonly INTRO_TEXT="$CESTA_SLOVNIKU/intro.txt"
+readonly INTRO_ADR="$CESTA_SLOVNIKU/intro"
+readonly INTRO_PY="$CESTA_SLOVNIKU/intro-obrazek.py"
+readonly INTRO_VYSTUP="$INTRO_ADR/.vygenerovano/intro.jpg"
+readonly INTRO_OTISK="$INTRO_ADR/.vygenerovano/otisk"
+readonly INTRO_DELKA="${SLOVICKA_INTRO_DELKA:-60}"
+readonly INTRO_PAUZA="${SLOVICKA_INTRO_PAUZA:-5}"
+# Šířka okna s úvodním obrázkem v px (výška = 16 : 9)
+readonly INTRO_SIRKA="${SLOVICKA_INTRO_SIRKA:-1280}"
+INTRO_HUDBA_PID=""
+
+# Nejnovější soubor v intro/ s některou z přípon: _intro_soubor jpg png …
+_intro_soubor() {
+    local -a vzory=() p
+    for p in "$@"; do vzory+=(-o -iname "*.$p"); done
+    find "$INTRO_ADR" -maxdepth 1 -type f \( "${vzory[@]:1}" \) -printf '%T@\t%p\n' 2>/dev/null \
+        | sort -rn | head -n1 | cut -f2-
+}
+
+# Vlajky všech jazyků bez opakování, oddělené mezerou (pořadí podle JAZYKY)
+_intro_vlajky() {
+    local j v vysledek=""
+    for j in "${JAZYKY[@]}"; do
+        v="${VLAJKY[$j]}"
+        [[ " $vysledek " == *" $v "* ]] || vysledek+="${vysledek:+ }$v"
+    done
+    printf '%s' "$vysledek"
+}
+
+# Zkontroluje text, fotku a vlajky; při změně znovu složí úvodní obrázek.
+# Vrací 1, když obrázek nejde připravit (chybí fotka nebo generátor selže).
+_intro_priprav() {
+    local obrazek vlajky otisk
+    obrazek=$(_intro_soubor jpg jpeg png webp)
+    if [[ -z "$obrazek" ]]; then
+        echo "Intro: v $INTRO_ADR není žádný obrázek (jpg/png/webp)." >&2
+        return 1
+    fi
+    vlajky=$(_intro_vlajky)
+    otisk=$( { sha256sum "$obrazek" "$INTRO_PY" | cut -d' ' -f1
+               sha256sum "$INTRO_TEXT" 2>/dev/null | cut -d' ' -f1
+               printf '%s\n' "$obrazek" "$vlajky"
+             } | sha256sum | cut -d' ' -f1 )
+    if [[ -f "$INTRO_VYSTUP" && "$(cat "$INTRO_OTISK" 2>/dev/null)" == "$otisk" ]]; then
+        return 0
+    fi
+    _view ZPRAVA "🎨 Intro" "Text nebo obrázek se změnil,\nskládám nový úvodní obrázek…"
+    echo -e "\e[0;90mIntro: skládám nový úvodní obrázek…\e[0m"
+    local text="$INTRO_TEXT"
+    [[ -f "$text" ]] || text=/dev/null
+    if ! uv run --quiet --script "$INTRO_PY" --obrazek "$obrazek" --text "$text" \
+            --vystup "$INTRO_VYSTUP" --vlajky "$vlajky" >&2; then
+        echo "Intro: obrázek se nepodařilo vytvořit." >&2
+        return 1
+    fi
+    printf '%s\n' "$otisk" > "$INTRO_OTISK"
+}
+
+_intro_zastav() {
+    [[ -n "$INTRO_HUDBA_PID" ]] && kill "$INTRO_HUDBA_PID" 2>/dev/null
+    INTRO_HUDBA_PID=""
+    _view INTRO_KONEC
+}
+
+# Celé intro: příprava obrázku, INTRO_DELKA s obrázkem a hudbou, INTRO_PAUZA pauza.
+# Obrázek ukazuje slovicka-view.py jako dialog nad kartou (plovoucí v každém kompozitoru,
+# bez pravidel v konfiguraci); hudba hraje přes mpv. Klávesa v dialogu (q/Esc/mezera/Enter)
+# intro přeskočí, [q] v okně se slovíčky ukončí procvičování. Bez okna (terminál) hraje jen hudba.
+_intro_spust() {
+    local hudba obraz_ok=1 klavesa
+    _intro_priprav || obraz_ok=0
+    hudba=$(_intro_soubor ogg mp3 opus flac wav m4a)
+
+    if [[ -n "$hudba" ]]; then
+        mpv --really-quiet --no-video --no-input-terminal --length="$INTRO_DELKA" \
+            "$hudba" </dev/null &>/dev/null &
+        INTRO_HUDBA_PID=$!
+    fi
+
+    _view ZPRAVA "🎵 Intro" "Úvodní obrázek a hudba (${INTRO_DELKA} s)." "[q/Esc] v obrázku = přeskočit · [q] tady = konec"
+    echo -e "\e[1;32m🎵 Intro (${INTRO_DELKA} s)\e[0m \e[0;90m[Enter] přeskočit · [q] konec\e[0m"
+    if [[ "$obraz_ok" == "1" ]] && _pruhledne; then
+        _view INTRO "$INTRO_VYSTUP" "$INTRO_SIRKA"
+    fi
+    if [[ "$obraz_ok" == "1" ]] && _pruhledne || [[ -n "$INTRO_HUDBA_PID" ]]; then
+        # Čeká INTRO_DELKA s, nebo na klávesu (přeskočit / q = konec)
+        if IFS= read -r -s -n 1 -t "$INTRO_DELKA" klavesa; then
+            [[ "${klavesa,,}" == "q" ]] && { _intro_zastav; exit 0; }
+        fi
+    fi
+    _intro_zastav
+
+    # Zbytek řádku / další stisknuté klávesy zahodit
+    while read -r -t 0.05 -n 1 _; do :; done
+
+    local i
+    for (( i = INTRO_PAUZA; i > 0; i-- )); do
+        _view ZPRAVA "⏳ Za chvíli začínáme" "Procvičování začne za $i s."
+        printf '\r\e[0;90mProcvičování začne za %d s… \e[0m' "$i"
+        sleep 1
+    done
+    echo
 }
 
 # ── Zvuk na pozadí ──────────────────────────────────────────────
@@ -378,10 +515,11 @@ _neznama_odeber() {
     [[ -s "$f" ]] || rm -f "$f"
 }
 
-# ── Nabídky (terminál nebo rofi) ────────────────────────────────
+# ── Nabídky (terminál, GTK, nebo rofi/fuzzel/wofi/zenity) ──────
 
-# Výběr z nabídky: v terminálu číslem, bez terminálu (rofi) přes rofi -dmenu.
-# Vypíše pořadové číslo zvolené položky (1..N), při zrušení nic.
+# Výběr z nabídky. Vypíše pořadové číslo zvolené položky (1..N), při zrušení nic.
+#   terminál → číslem; jinak GTK nabídka ze slovicka-view.py (každý Wayland i X11);
+#   bez uv záložně rofi, fuzzel, wofi nebo zenity (podle toho, co je nainstalované).
 _vyber() {
     local vyzva="$1"; shift
     if [[ -t 0 ]]; then
@@ -391,13 +529,43 @@ _vyber() {
         echo -n "Volba [1-$#, Enter=1]: " >&2
         local volba; read -r volba
         echo "${volba:-1}"
+    elif _lze_gtk; then
+        local vystup index token
+        vystup=$(_s_tokenem uv run --quiet --script "$VIEW_PY" --vyber "$vyzva" "$@" 2>/dev/null) \
+            || return 0
+        { IFS= read -r index; IFS= read -r token; } <<< "$vystup"
+        [[ -n "$token" ]] && printf '%s' "$token" > "$TOKEN_SOUBOR"
+        echo "$index"
     else
-        printf '%s\n' "$@" | rofi -dmenu -i -no-custom -format d -p "$vyzva"
+        _vyber_dmenu "$vyzva" "$@"
     fi
 }
 
+# Záložní nabídka přes dmenu-styl program. Vypíše 1..N, při zrušení nic.
+_vyber_dmenu() {
+    local vyzva="$1"; shift
+    local text="" i=1 polozka
+    if command -v rofi &>/dev/null; then
+        printf '%s\n' "$@" | rofi -dmenu -i -no-custom -format d -p "$vyzva"
+        return 0
+    elif command -v fuzzel &>/dev/null; then
+        text=$(printf '%s\n' "$@" | fuzzel --dmenu --prompt "$vyzva: ")
+    elif command -v wofi &>/dev/null; then
+        text=$(printf '%s\n' "$@" | wofi --dmenu --insensitive --prompt "$vyzva")
+    elif command -v zenity &>/dev/null; then
+        text=$(zenity --list --title="Slovíčka" --text="$vyzva" --column="$vyzva" "$@" 2>/dev/null)
+    else
+        _chyba "Není čím zobrazit nabídku: nainstaluj uv (nabídka v GTK), nebo rofi/fuzzel/wofi/zenity."
+    fi
+    [[ -n "$text" ]] || return 0
+    for polozka in "$@"; do
+        [[ "$polozka" == "$text" ]] && { echo "$i"; return 0; }
+        (( ++i ))
+    done
+}
+
 # Vypíše klíč jazyka, u uložených neznámých slovíček "neznama:<klíč>".
-# Esc v rofi = konec skriptu.
+# Esc v nabídce = konec skriptu.
 _vyber_jazyk() {
     local -a klice=() polozky=()
     local j f n volba

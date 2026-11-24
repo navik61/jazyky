@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # ================================================================
 # slovicka-pasivni.sh
-# Pasivní poslech slovíček se vzorovými frázemi v plovoucím okně kitty
+# Pasivní poslech slovíček se vzorovými frázemi v průhledném okně (slovicka-view.py)
 # Ovládání v okně: [mezera] pauza / pokračovat · [z] znovu · [x] chybná fráze · [q] konec
 # Použití: ./slovicka-pasivni.sh [jazyk] [--swap|--orig] [--neznama] [--bez-frazi]
-#                                [--vsechna] [--pocet N] [--pauza N] [--pruhledne] [--bez-sumu]
+#                                [--vsechna] [--pocet N] [--pauza N] [--bez-sumu] [--intro]
 # ================================================================
 
 # Bez grafické relace (cron, systemd) by mpv nenašel PipeWire
@@ -22,8 +22,6 @@ source "$CESTA_SLOVNIKU/spolecne.sh" || { echo "Chybí $CESTA_SLOVNIKU/spolecne.
 readonly PAUZA_MEZI_JAZYKY=1.2
 readonly PAUZA_PRED_FRAZI=0.8
 
-# PID běžícího čtení (TTS na pozadí), aby šlo pozastavit a uklidit
-TTS_PID=""
 # Právě zobrazené slovíčko — pro označení chybné fráze klávesou [x]
 AKT_RADEK=""
 AKT_JAZYK=""
@@ -46,8 +44,8 @@ _pouziti() {
     echo "  --vsechna, -a   Projít celý slovník"
     echo "  --pocet N, -n   Počet slovíček (výchozí: 30)"
     echo "  --pauza N, -p   Pauza mezi slovíčky v sekundách (výchozí: 3)"
-    echo "  --pruhledne, -t Průhledné okno ve stylu poznámek (pozt) místo kitty"
     echo "  --bez-sumu      Bez tichého šumu na pozadí (drží BT reproduktor vzhůru)"
+    echo "  --intro, intro  Před procvičováním ${INTRO_DELKA} s úvodní obrázek s hudbou, pak ${INTRO_PAUZA} s pauza"
     echo ""
     echo "Ovládání v okně: [mezera] pauza / pokračovat · [z] zopakovat slovíčko · [x] chybná fráze · [q] konec"
     echo ""
@@ -90,15 +88,6 @@ _radek_pauzy() {
 _oznac() {
     [[ -n "$AKT_RADEK" ]] && (( ! AKT_OZNACENO )) || return 0
     _oznac_chybnou "$AKT_JAZYK" "$AKT_RADEK" && AKT_OZNACENO=1
-    return 0
-}
-
-# Pošle signál (STOP/CONT/TERM) běžícímu čtení i jeho potomkům
-# (piper, ffmpeg, mpv, edge-tts jsou přímí potomci podprocesu TTS)
-_signal_tts() {
-    [[ -n "$TTS_PID" ]] || return 0
-    pkill "-$1" -P "$TTS_PID" 2>/dev/null
-    kill "-$1" "$TTS_PID" 2>/dev/null
     return 0
 }
 
@@ -179,12 +168,12 @@ _zobraz() {
 }
 
 _uklid() {
+    rm -f "$TOKEN_SOUBOR"     # nespotřebovaný aktivační token (zrušená nabídka)
+    _intro_zastav
     _pozadi_zastav
     _signal_tts CONT
     _signal_tts TERM
     _uklid_tts
-    [[ "$V_OKNE" == "1" ]] && tput cnorm 2>/dev/null
-    _okno_zavrit
 }
 
 _na_preruseni() {
@@ -196,7 +185,7 @@ trap _uklid EXIT
 
 main() {
     local jazyk="" swap="0" poradi_zadano="0" jen_neznama="0" bez_frazi="0"
-    local vsechna="0" pocet=30 pauza=3 pruhledne="${SLOVICKA_PRUHLEDNE:-0}" bez_sumu="0"
+    local vsechna="0" pocet=30 pauza=3 bez_sumu="0" intro="0"
 
     local i=0
     local -a args=("$@")
@@ -207,8 +196,9 @@ main() {
             --neznama|-u) jen_neznama="1" ;;
             --bez-frazi) bez_frazi="1" ;;
             --vsechna|-a) vsechna="1" ;;
-            --pruhledne|-t) pruhledne="1" ;;
+            --pruhledne|-t) ;;   # dřív volba průhledného okna, teď výchozí
             --bez-sumu) bez_sumu="1" ;;
+            --intro|intro) intro="1" ;;
             --pocet|-n) (( ++i )); pocet="${args[i]:-}" ;;
             --pauza|-p) (( ++i )); pauza="${args[i]:-}" ;;
             -h|--help) _pouziti 0 ;;
@@ -256,24 +246,21 @@ main() {
         [[ -f "$soubor" ]] || _chyba "Soubor nenalezen: $soubor"
     fi
 
-    # Mimo okno: otevřít okno (průhledné nebo kitty) a spustit poslech v něm
+    # Mimo okno: otevřít průhledné okno a spustit poslech v něm
     local -a argumenty=("$jazyk" --pocet "$pocet" --pauza "$pauza")
     if [[ "$swap" == "1" ]]; then argumenty+=(--swap); else argumenty+=(--orig); fi
     [[ "$jen_neznama" == "1" ]] && argumenty+=(--neznama)
     [[ "$bez_frazi" == "1" ]] && argumenty+=(--bez-frazi)
     [[ "$vsechna" == "1" ]] && argumenty+=(--vsechna)
     [[ "$bez_sumu" == "1" ]] && argumenty+=(--bez-sumu)
-    if [[ "$pruhledne" == "1" ]] && _lze_pruhledne; then
-        _spust_pruhledne znaky "${argumenty[@]}"
+    [[ "$intro" == "1" ]] && argumenty+=(--intro)
+    if _lze_otevrit_okno; then
+        _spust_v_okne znaky "${argumenty[@]}"
         trap - EXIT
         exit 0
     fi
-    if _lze_otevrit_okno; then
-        _spust_v_okne "${argumenty[@]}"
-        trap - EXIT     # spouštěč nesmí zavřít okno, které právě otevřel
-        exit 0
-    fi
 
+    [[ "$intro" == "1" ]] && _intro_spust
     [[ "$bez_frazi" == "0" ]] && _nacti_fraze "$jazyk"
     _pozadi_spust "$bez_sumu"
 
@@ -288,7 +275,6 @@ main() {
     local rezim
     if [[ "$swap" == "1" ]]; then rezim="Česky → Originál"; else rezim="Originál → Česky"; fi
 
-    [[ "$V_OKNE" == "1" ]] && tput civis 2>/dev/null     # skrýt kurzor
     _view ZPRAVA "▶ Pasivní poslech: $nazev" "Slovíček: $celkem\nPořadí: $rezim\nPauza: ${pauza} s"
     clear
     echo -e "\n\e[1;32m▶ Pasivní poslech: $nazev\e[0m"

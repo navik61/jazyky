@@ -28,6 +28,9 @@ SLOVNIKY = {
     "nemcina_slova.txt":    ("German", False),
     "anglictina_slova.txt": ("English", False),
     "italstina_slova.txt":  ("Italian", False),
+    "francouzstina_slova.txt": ("French", False),
+    "spanelstina_slova.txt": ("Spanish", False),
+    "rustina_slova.txt":    ("Russian", False),
     "golf_nemcina.txt":     ("German", True),
     "golf_anglictina.txt":  ("English", True),
     "golf_italstina.txt":   ("Italian", True),
@@ -59,6 +62,12 @@ PRIKLADY = {
     "English": ("to borrow — půjčit si", "Can I borrow your umbrella until tomorrow morning?",
                 "Můžu si půjčit tvůj deštník do zítřejšího rána?"),
     "Italian": ("la chiave — klíč", "Non trovo più la chiave della macchina.",
+                "Nemůžu najít klíč od auta."),
+    "French": ("la clé — klíč", "Je ne trouve plus la clé de la voiture.",
+               "Nemůžu najít klíč od auta."),
+    "Spanish": ("la llave — klíč", "No encuentro la llave del coche.",
+                "Nemůžu najít klíč od auta."),
+    "Russian": ("ключ — klíč", "Я не могу найти ключ от машины.",
                 "Nemůžu najít klíč od auta."),
 }
 PRIKLADY_GOLF = {
@@ -126,7 +135,9 @@ def cisty(text: str) -> str:
 
 def platna(radek: str, fraze: str, cs: str) -> bool:
     """Základní kontrola kvality — odmítnuté se zkusí znovu při dalším průchodu."""
-    if "—" in fraze or "—" in cs or fraze == radek:
+    # Zkopírované heslo „slovo — překlad“. Samotná pomlčka ve větě nevadí
+    # (ruština ji píše běžně: „Счастье — это…“), fráze se ukládají oddělené tabulátorem.
+    if fraze == radek or radek in fraze or radek in cs:
         return False
     if not 5 <= len(fraze.split()) <= 22 or len(cs.split()) < 3:
         return False

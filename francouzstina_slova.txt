@@ -1,0 +1,3012 @@
+je — já
+tu — ty
+il — on
+elle — ona
+ce / cela — ono / to
+nous — my
+vous — vy
+ils / elles — oni / ony
+vous (vouvoiement) — Vy (vykání)
+être — být
+avoir — mít
+faire — dělat / udělat
+aller — jít / jet
+venir — přijít
+dire — říct
+savoir — vědět
+voir — vidět
+donner — dát
+prendre — vzít / vzít si
+penser — myslet
+parler — mluvit
+rester — zůstat / být (stav, místo)
+trouver — najít
+demeurer — zůstat / bydlet
+mettre — dát / položit
+appeler — zavolat / jmenovat
+vivre — žít
+travailler — pracovat
+jouer — hrát (si)
+courir — běžet
+comprendre — chápat / pochopit
+vouloir — chtít
+pouvoir — moci
+devoir — muset / mít povinnost
+savoir faire — umět
+commencer — začít
+finir / terminer — skončit / dokončit
+attendre — čekat
+chercher — hledat
+croire — věřit / myslet
+entendre / sentir / se sentir — slyšet / cítit / cítit se
+porter / apporter — nosit / přinést
+laisser / quitter — nechat / opustit
+lire — číst
+écrire — psát
+ouvrir — otevřít
+fermer — zavřít
+acheter — koupit
+vendre — prodat
+manger — jíst
+boire — pít
+dormir — spát
+se réveiller — probudit se
+se lever — vstát
+s'habiller — obléknout se
+se laver — mýt se
+cuisiner — vařit
+revenir — vrátit se
+sortir / partir — vyjít / odejít
+entrer — vstoupit / vejít
+regarder — dívat se / sledovat
+écouter — naslouchat / poslouchat
+aider — pomoci
+apprendre — učit se / naučit se
+expliquer — vysvětlit
+demander — ptát se / žádat
+répondre — odpovědět
+répéter — zopakovat
+se souvenir / se rappeler — pamatovat si / vzpomenout
+oublier — zapomenout
+décider — rozhodnout
+promettre — slíbit
+remercier — poděkovat
+s'excuser — omluvit se
+saluer — pozdravit
+rencontrer — potkat / setkat se
+connaître — znát (osoby/místa)
+comprendre bien — rozumět
+choisir — vybrat / zvolit
+changer — změnit (se)
+voyager — cestovat
+conduire — řídit (auto)
+voler — letět
+nager — plavat
+faire la cuisine — vařit
+nettoyer — uklízet / čistit
+payer — platit
+coûter — stát (cena)
+économiser — šetřit
+perdre — ztratit / prohrát
+gagner — vyhrát
+arrêter — přestat
+continuer — pokračovat
+utiliser — používat
+plaire — líbit se
+aimer — milovat / mít rád
+détester — nenávidět
+s'oublier — zapomenout na sebe
+lever — zvednout
+baisser — snížit / ztlumit
+éteindre — vypnout / uhasit
+allumer — zapnout / rozsvítit
+s'asseoir — sednout si
+envoyer — poslat / odeslat
+recevoir — přijmout / obdržet
+construire — postavit / budovat
+devenir — stát se / stávat se
+sembler / avoir l'air — zdát se / vypadat
+rentrer — vrátit se domů
+partir — odjet / odletět
+arriver — přijet / přiletět / přijít
+se passer / arriver — stát se / přihodit se
+améliorer — zlepšit (se)
+empirer — zhoršit (se)
+augmenter — zvýšit / zvětšit
+diminuer — snížit / zmenšit
+ajouter — přidat / přičíst
+enlever / supprimer — odstranit / vzít
+partager — sdílet
+résoudre — vyřešit
+créer — vytvořit
+décrire — popsat
+comparer — porovnat / srovnat
+analyser — analyzovat
+essayer — zkusit / vyzkoušet
+réussir — podařit se / uspět
+se tromper — udělat chybu / splést se
+protéger — chránit
+sauver / sauvegarder — zachránit / uložit
+risquer — riskovat
+éviter — vyhnout se
+permettre — dovolit / umožnit
+interdire — zakázat
+offrir — nabídnout
+accepter — přijmout / akceptovat
+refuser — odmítnout
+la maison — dům / domov
+l'appartement — byt
+la chambre / la pièce — pokoj / místnost
+la cuisine — kuchyně
+la salle de bains / les toilettes — koupelna / záchod
+la chambre à coucher — ložnice
+le salon — obývací pokoj
+le jardin — zahrada
+la porte — dveře
+la fenêtre — okno
+la table — stůl
+la chaise — židle
+le lit — postel
+le sol — podlaha
+le mur — stěna
+le plafond — strop
+l'escalier — schodiště
+l'ascenseur — výtah
+le garage — garáž
+la rue / la route — ulice / silnice
+le chemin / l'itinéraire — cesta / trasa
+la place — náměstí
+la ville — město
+le pays — země / národ
+le village — vesnice / vesnička
+le monde — svět
+le bâtiment — budova
+le bureau — kancelář
+l'école — škola
+l'université — univerzita
+l'hôpital — nemocnice
+la pharmacie — lékárna
+le supermarché — supermarket
+le restaurant — restaurace
+le café — kavárna
+la gare — nádraží
+l'aéroport — letiště
+l'hôtel — hotel
+la banque — banka
+le musée — muzeum
+l'église — kostel
+le parc — park
+le pont — most
+la rivière / le fleuve — řeka
+le lac — jezero
+la mer — moře
+la montagne — hora
+la forêt — les
+le champ — pole
+le ciel — obloha / nebe
+le soleil — slunce
+la lune — měsíc (na obloze)
+l'étoile — hvězda
+le nuage — mrak
+la pluie — déšť
+la neige — sníh
+le vent — vítr
+le temps — počasí / čas
+la température — teplota
+le printemps — jaro
+l'été — léto
+l'automne — podzim
+l'hiver — zima
+le matin — ráno
+midi — poledne
+l'après-midi — odpoledne
+le soir — večer
+la nuit — noc
+aujourd'hui — dnes
+hier — včera
+demain — zítra
+maintenant — teď
+après / ensuite — potom / po
+avant — dříve / před
+toujours — vždy
+parfois / quelquefois — někdy
+souvent — často
+rarement — zřídka
+jamais — nikdy
+déjà — již / už
+encore — stále / ještě / znovu
+bientôt / tôt — brzy
+lundi — pondělí
+mardi — úterý
+mercredi — středa
+jeudi — čtvrtek
+vendredi — pátek
+samedi — sobota
+dimanche — neděle
+la semaine — týden
+le week-end — víkend
+le mois — měsíc
+l'an / l'année — rok
+janvier — leden
+février — únor
+mars — březen
+avril — duben
+mai — květen
+juin — červen
+juillet — červenec
+août — srpen
+septembre — září
+octobre — říjen
+novembre — listopad
+décembre — prosinec
+la personne — osoba / člověk
+l'homme — muž / člověk
+la femme — žena
+l'enfant — dítě
+la petite fille — holčička
+le garçon / le jeune homme — chlapec / mladík
+la fille / la jeune femme — dívka / mladá žena
+le bébé — miminko
+l'adulte — dospělý
+la personne âgée — starší člověk
+l'ami — přítel / kamarád (m.)
+l'amie — přítelkyně / kamarádka (f.)
+le collègue — kolega
+le chef / le patron — šéf / vedoucí
+le voisin — soused
+l'étranger — cizinec
+la famille — rodina
+le père — otec
+la mère — matka
+le fils — syn
+la fille — dcera
+le frère — bratr
+la sœur — sestra
+le grand-père — dědeček
+la grand-mère — babička
+l'oncle — strýc
+la tante — teta
+le neveu / le petit-fils — synovec / vnuk
+la nièce / la petite-fille — neteř / vnučka
+le mari — manžel
+l'épouse / la femme — manželka
+le couple — pár / manželé
+le corps — tělo
+la tête — hlava
+le visage — obličej
+l'œil — oko
+l'oreille — ucho
+le nez — nos
+la bouche — ústa
+la dent — zub
+le cou — krk
+l'épaule — rameno
+le bras — paže / ruka
+la main — ruka (dlaň)
+le doigt — prst
+le ventre — břicho
+le dos — záda
+la jambe — noha (celá)
+le genou — koleno
+le pied — chodidlo / noha (dolní)
+le cœur — srdce
+le sang — krev
+la peau — kůže
+les cheveux — vlasy
+la santé — zdraví
+la maladie — nemoc / choroba
+la douleur — bolest
+la fièvre — horečka
+la toux — kašel
+le rhume — nachlazení / rýma
+l'allergie — alergie
+le médecin / le docteur — lékař / doktor
+le médicament — lék
+le comprimé — tableta
+la piqûre — injekce
+l'opération — operace
+la nourriture — jídlo / potravina
+le petit-déjeuner — snídaně
+le déjeuner — oběd
+le dîner — večeře
+le pain — chléb
+le beurre — máslo
+le fromage — sýr
+la viande — maso
+le poulet — kuře / kuřecí
+le bœuf — hovězí
+le porc — vepřové
+le poisson — ryba
+l'œuf — vejce
+le lait — mléko
+le yaourt — jogurt
+la pomme — jablko
+la poire — hruška
+la banane — banán
+l'orange — pomeranč
+la fraise — jahoda
+la tomate — rajče
+la pomme de terre — brambor
+la carotte — mrkev
+la salade — salát
+la soupe — polévka
+le riz — rýže
+les pâtes — těstoviny
+l'huile — olej
+le sucre — cukr
+le sel — sůl
+le poivre — pepř
+le café — káva
+le thé — čaj
+l'eau — voda
+le jus — džus / šťáva
+la bière — pivo
+le vin — víno
+les vêtements — oblečení
+la chemise — košile
+le chemisier — halenka
+le pull — svetr
+la veste — bunda / sako
+le manteau — kabát
+le pantalon — kalhoty
+la jupe — sukně
+la robe — šaty
+le costume — oblek
+les sous-vêtements — spodní prádlo
+la chaussette — ponožka
+la chaussure — bota
+la botte — bota (vysoká)
+le chapeau — klobouk
+le bonnet — čepice
+l'écharpe — šál
+le gant — rukavice
+les lunettes — brýle
+la montre — hodinky
+la bague — prsten
+le collier — náhrdelník
+le sac — taška / kabelka
+le sac à dos — batoh
+le portefeuille — peněženka
+la clé — klíč
+le téléphone — telefon
+le portable — mobilní telefon
+le smartphone — smartphone
+l'ordinateur — počítač
+l'ordinateur portable — notebook
+la tablette — tablet
+internet — internet
+l'e-mail / le courriel — email
+le site web — webová stránka
+l'application — aplikace
+le mot de passe — heslo
+l'imprimante — tiskárna
+le livre — kniha
+le journal — noviny
+le magazine / la revue — časopis
+la lettre — dopis
+le cahier — sešit
+le stylo — pero
+le crayon — tužka
+le papier — papír
+les ciseaux — nůžky
+la colle — lepidlo
+la musique — hudba
+le film — film
+le concert — koncert
+le théâtre — divadlo
+le cinéma — kino
+le tableau — obraz
+la photo — fotografie / foto
+l'art — umění
+le sport — sport
+le football — fotbal
+le tennis — tenis
+la natation — plavání
+le cyclisme — cyklistika
+le vélo — kolo
+la voiture — auto
+le train — vlak
+le bus / le car — autobus
+l'avion — letadlo
+le bateau — loď
+la moto — motorka
+le taxi — taxi
+le métro — metro
+le tramway — tramvaj
+le permis de conduire — řidičský průkaz
+l'accident — nehoda
+la circulation — provoz / doprava
+la station-service — benzínová pumpa
+l'argent — peníze
+l'euro — euro
+le centime — cent
+l'addition / la facture — účet
+le reçu / le ticket de caisse — stvrzenka
+l'impôt / la taxe — daň
+le salaire — plat / mzda
+le loyer — nájemné
+le prêt / le crédit — půjčka / úvěr
+l'assurance — pojištění
+le travail / l'emploi — práce / zaměstnání
+le métier / la profession — povolání
+le poste — pozice / místo
+l'entreprise / la société — firma / podnik
+le produit — produkt
+le client — zákazník
+le vendeur — prodavač
+l'acheteur — kupující
+le marché — trh
+l'économie — ekonomika
+la politique — politika
+le gouvernement — vláda
+le président — prezident
+le Premier ministre — premiér
+le ministre — ministr
+la loi — zákon
+le droit — právo / právo na
+la police — policie
+les pompiers — hasiči
+le tribunal — soud
+la prison — vězení
+la guerre — válka
+la paix — mír
+la langue — jazyk / řeč
+le français — francouzština
+l'anglais — angličtina
+l'allemand — němčina
+la traduction — překlad
+le mot — slovo
+la phrase / l'expression — věta / výraz
+la question / la demande — otázka / žádost
+la réponse — odpověď
+l'opinion / l'avis — názor
+l'idée — nápad / myšlenka
+le plan / le projet — plán
+le but / l'objectif — cíl
+le succès — úspěch
+le problème — problém
+la solution — řešení
+l'erreur / la faute — chyba
+la possibilité / l'occasion — možnost / příležitost
+le danger — nebezpečí
+l'aide — pomoc
+le conseil — rada (doporučení)
+la décision — rozhodnutí
+l'expérience — zkušenost / zážitek
+la connaissance / les connaissances — znalost / vědomosti
+l'éducation / la formation — vzdělání
+le cours / la leçon — hodina / lekce
+les devoirs — domácí úkoly
+l'examen — zkouška
+le résultat — výsledek
+le diplôme — titul / diplom
+la formation (cours) — kurz
+l'exercice — cvičení
+l'exemple — příklad
+la tâche — úkol
+la règle — pravidlo
+la différence — rozdíl
+la ressemblance — podobnost
+la comparaison — srovnání
+le sens / la signification — význam / smysl
+l'importance — důležitost
+la raison / le motif — důvod / motiv
+la cause — příčina / důvod
+l'effet — účinek / efekt
+l'issue / l'aboutissement — výsledek / vyústění
+la conséquence — důsledek / následek
+la liberté — svoboda
+l'égalité — rovnost
+la justice — spravedlnost
+la responsabilité — odpovědnost
+le devoir / l'obligation — povinnost
+le droit (discipline) — právo (obor)
+la vérité — pravda
+le mensonge — lež
+la confiance — důvěra
+l'espoir — naděje
+la peur — strach
+la joie — radost
+la tristesse — smutek
+la colère — hněv / vztek
+l'amour — láska
+la haine — nenávist
+la jalousie — žárlivost
+le bonheur — štěstí
+la chance — štěstí / osud
+l'amusement / le divertissement — zábava
+la surprise — překvapení
+la déception — zklamání
+le stress — stres
+le calme — klid
+la détente — relaxace
+la fatigue — únava
+la faim — hlad
+la soif — žízeň
+le sommeil — spánek / ospalost
+le rêve — sen
+grand — velký
+petit — malý
+long — dlouhý
+court — krátký
+large — široký
+étroit — úzký
+haut / grand — vysoký
+bas — nízký / tichý
+gros / épais — tlustý / velký
+mince / maigre — tenký / štíhlý
+lourd — těžký
+léger — lehký
+rapide — rychlý
+lent — pomalý
+fort — silný / hlasitý
+faible — slabý
+clair — světlý / jasný
+sombre / foncé — tmavý
+froid — studený
+frais — chladný / čerstvý
+chaud — teplý / horký
+nouveau / neuf — nový
+vieux / ancien — starý
+jeune — mladý
+propre — čistý
+sale — špinavý
+beau / joli — hezký / krásný
+laid / moche — ošklivý
+bon — dobrý
+mauvais / méchant — špatný / zlý
+juste / correct — správný / spravedlivý
+faux / incorrect — špatný / nesprávný
+facile / simple — snadný / jednoduchý
+difficile — obtížný / těžký
+important — důležitý
+intéressant — zajímavý
+ennuyeux — nudný
+amusant / drôle — zábavný
+triste — smutný
+heureux — šťastný
+fatigué — unavený
+malade — nemocný
+en bonne santé — zdravý
+affamé — hladový
+assoiffé — žíznivý
+prêt — připravený / hotový
+possible — možný
+impossible — nemožný
+nécessaire — nutný / potřebný
+assez — dost
+beaucoup / très — hodně / velmi
+peu / un peu — málo / trochu
+plus — více / plus
+moins — méně / minus
+trop — příliš
+suffisamment — dostatečně
+ensemble — dohromady / spolu
+seul — sám / sám o sobě
+près — blízko
+loin — daleko
+partout — všude
+nulle part — nikde
+quelque part — někde
+au-dessus — nad / nahoře
+au-dessous / sous — pod / dole
+devant — vpředu / před
+derrière — vzadu / za
+dedans / à l'intérieur — uvnitř
+dehors — venku / ven
+à gauche — vlevo
+à droite — vpravo
+en haut — nahoře
+en bas — dole
+oui — ano
+non — ne
+peut-être — možná
+je ne sais pas — nevím
+je comprends — rozumím
+je ne comprends pas — nerozumím
+merci — děkuji
+de rien / je vous en prie — prosím / není zač
+pardon / excusez-moi — promiň / promiňte
+je suis désolé — je mi líto
+s'il te plaît — prosím (žádost, tykání)
+s'il vous plaît — prosím (zdvořilostní)
+pas de problème — žádný problém
+d'accord / ça va — dobře / v pořádku
+bien sûr — jistě / samozřejmě
+évidemment — samozřejmě / zřejmě
+bonjour — dobré ráno / dobrý den
+bon après-midi — hezké odpoledne
+bonsoir — dobrý večer
+bonne nuit — dobrou noc
+au revoir — na shledanou
+salut — ahoj / čau
+bonjour à tous — zdravím (neutrální pozdrav)
+bienvenue — vítejte
+comment ça va ? — jak se máš?
+comment allez-vous ? — jak se máte? (vykání)
+je vais bien — je mi dobře
+je ne vais pas bien — je mi špatně
+enchanté — těší mě (při představení)
+bonne année — šťastný nový rok
+joyeux Noël — veselé Vánoce
+joyeuses Pâques — veselé Velikonoce
+félicitations — blahopřeji / gratulace
+bravo ! — výborně!
+bonne chance ! — hodně štěstí!
+bon appétit — dobrou chuť
+santé ! / à la vôtre ! — na zdraví (přípitek)
+la couleur — barva
+rouge — červený
+bleu — modrý
+jaune — žlutý
+vert — zelený
+noir — černý
+blanc — bílý
+gris — šedý
+marron / brun — hnědý
+orange — oranžový
+rose — růžový
+violet — fialový
+le chien — pes
+le chat — kočka
+l'oiseau — pták
+le poisson (animal) — ryba (živá)
+le cheval — kůň
+la vache — kráva
+le cochon — prase
+le mouton — ovce
+la chèvre — koza
+la poule — slepice
+l'éléphant — slon
+le lion — lev
+le tigre — tygr
+l'ours — medvěd
+le loup — vlk
+le renard — liška
+le lapin — králík
+l'écureuil — veverka
+le papillon — motýl
+l'abeille — včela
+l'araignée — pavouk
+le serpent — had
+la plante — rostlina
+l'arbre — strom
+la fleur — květ / květina
+l'herbe — tráva
+la feuille — list
+la racine — kořen
+les fruits — ovoce
+les légumes — zelenina
+la pierre — kámen
+la terre / le sol — země / půda
+le feu — oheň
+l'eau (élément) — voda (živel)
+l'air — vzduch
+la lumière — světlo
+l'ombre — stín
+le bruit / le son — hluk / zvuk
+l'odeur / le parfum — vůně
+le goût — chuť
+la sensation — pocit / vjem
+la pensée — myšlenka
+le souvenir — vzpomínka
+l'imagination — fantazie
+la réalité — realita
+la nature — příroda
+l'environnement — životní prostředí
+l'énergie — energie
+la force — síla
+le pouvoir — moc
+le contrôle — kontrola
+la méthode — metoda
+le style — styl
+la qualité — kvalita
+la quantité — množství / kvantita
+le prix — cena
+la taille / la dimension — velikost / rozměr
+le poids — váha / hmotnost
+la longueur — délka
+la largeur — šířka
+la hauteur — výška
+la profondeur — hloubka
+la vitesse — rychlost
+la distance — vzdálenost
+la direction — směr
+le nord — sever
+le sud — jih
+l'est — východ
+l'ouest — západ
+la frontière — hranice
+l'étranger (pays) — zahraničí
+le voyage / l'excursion — cesta / výlet
+les vacances — dovolená / prázdniny
+la patrie — vlast / domov
+la culture — kultura
+l'histoire — dějiny / příběh / historka
+la tradition — tradice
+la fête — svátek / slavnost / party
+la célébration — oslava
+le cadeau — dárek
+l'anniversaire — narozeniny
+le mariage — svatba / manželství
+l'enterrement — pohřeb
+l'anniversaire (de mariage) — výročí
+la blague — vtip
+la devinette — hádanka
+le jeu — hra
+l'équipe — tým / mužstvo
+la victoire — vítězství
+la défaite — porážka
+le match nul — remíza
+le record — rekord
+la compétition / le concours — soutěž
+l'entraînement — trénink
+le joueur — hráč
+le supporter — fanoušek
+le stade — stadion
+le terrain — hřiště / pole
+le but — gól
+le ballon / la balle — míč
+la chanson — píseň
+l'instrument de musique — hudební nástroj
+la guitare — kytara
+le piano — klavír
+le violon — housle
+la flûte — flétna
+la batterie — bicí
+le chanteur — zpěvák (m.)
+la chanteuse — zpěvačka (f.)
+le récital — recitál / koncert
+le groupe — kapela / hudební skupina
+la peinture — malba / malířství
+le dessin — kresba
+la sculpture / la statue — socha
+l'architecture — architektura
+le design — design
+la mode — móda
+la littérature — literatura
+le poème / la poésie — báseň / poezie
+le roman — román
+le conte / la nouvelle — povídka / příběh
+la science — věda
+la recherche — výzkum
+l'expérience scientifique — experiment
+la théorie — teorie
+la preuve — důkaz
+le laboratoire — laboratoř
+les mathématiques — matematika
+la physique — fyzika
+la chimie — chemie
+la biologie — biologie
+l'informatique — informatika
+la médecine — medicína
+la psychologie — psychologie
+la philosophie — filozofie
+la sociologie — sociologie
+l'écologie — ekologie
+le climat — klima
+le changement climatique — klimatická změna
+l'électricité — elektřina
+l'énergie solaire — solární energie
+le courant — proud (elektrický)
+le gaz — plyn
+les déchets / les ordures — odpad / smetí
+le recyclage — recyklace
+la durabilité — udržitelnost
+l'ambulance — sanitka
+l'urgence — nouzová situace
+le camion de pompiers — hasičské auto
+le commissariat — policejní stanice
+le numéro d'urgence — tísňové číslo
+la carte d'identité — průkaz totožnosti
+le passeport — pas
+le visa — vízum
+la nationalité / la citoyenneté — státní příslušnost / občanství
+la démocratie — demokracie
+les élections — volby
+le contrat — smlouva
+l'organisation — organizace
+la société — společnost
+la communauté — komunita / společenství
+la population — obyvatelstvo / populace
+la minorité — menšina
+la majorité — většina
+l'influence — vliv
+la grippe — chřipka
+l'autorité — autorita / moc
+le système — systém
+la structure — struktura
+le processus — proces
+le développement — vývoj / rozvoj
+le progrès — pokrok
+le changement — změna
+la révolution — revoluce
+l'innovation — inovace
+la technologie — technologie
+l'industrie — průmysl
+l'agriculture — zemědělství
+le commerce — obchod (směna)
+la production — výroba
+l'exportation — export
+l'importation — import
+l'entreprise — podnik / firma
+la concurrence — konkurence / soutěž
+la mondialisation — globalizace
+la crise — krize
+la solution (à un conflit) — vyřešení
+la réforme — reforma
+le compromis — kompromis
+la coopération — spolupráce
+le partenariat — partnerství
+l'accord — dohoda / shoda
+la conférence — konference
+la réunion — schůzka / porada
+la discussion — diskuse
+l'argument — argument
+la critique — kritika
+le soutien — podpora
+la résistance — odpor / odolnost
+le défi — výzva
+l'occasion — příležitost
+l'avantage — výhoda
+l'inconvénient — nevýhoda
+le risque — riziko
+la sécurité — bezpečnost / jistota
+la protection — ochrana
+la vie privée — soukromí
+le public — veřejnost
+la transparence — transparentnost
+la morale — morálka
+l'éthique — etika
+la valeur — hodnota
+le principe — princip
+la norme — norma
+la limite — omezení / mez
+la mesure — míra / opatření
+le standard — standard
+et — a
+ou — nebo
+mais — ale
+pourtant — ale / přece
+cependant — avšak
+si — pokud / jestliže
+pourquoi / parce que — proč / protože
+quand — kdy / když
+pendant que — zatímco / během
+bien que — i když / ačkoli
+sinon — jinak / pokud ne
+jusqu'à / jusqu'à ce que — až do / dokud
+après que — poté co
+depuis — od té doby
+donc — tak / takže
+comme — jak / jako
+que — že / který / co
+qui — kdo
+quoi / qu'est-ce que — co
+où — kde / kam
+combien — kolik
+quel / lequel — který
+ce / cet / cette — tento / toto
+ce … -là — tamten / tamto
+chaque — každý
+tout — vše / všechno
+rien — nic
+quelque chose — něco
+quelqu'un — někdo
+personne — nikdo
+on — se (neosobní podmět)
+il y a — je (tam) / jsou (tam)
+voilà — tady je / to je
+aussi — také / i
+toujours (encore) — pořád / stále
+déjà vu — už viděno
+seulement / ne … que — jen / pouze
+quand même — přece jen
+vraiment — opravdu / skutečně
+probablement — pravděpodobně
+certainement — jistě
+sûrement — určitě
+malheureusement — bohužel
+heureusement — naštěstí
+naturellement — přirozeně / samozřejmě
+en fait — ve skutečnosti
+de toute façon — tak jako tak / nicméně
+au moins — alespoň
+presque — skoro / téměř
+à peine / juste — sotva / právě
+tout de suite — okamžitě / hned
+enfin / finalement — konečně
+soudain / tout à coup — náhle / najednou
+clairement — jasně / zřetelně
+exactement — přesně
+environ — přibližně
+du moins — přinejmenším
+au maximum — nanejvýš
+au minimum — nejméně / minimálně
+au contraire — naopak
+malgré tout — přesto
+donc / par conséquent — tedy / proto
+en plus / de plus — navíc / mimoto
+en général — obecně
+en particulier — konkrétně / zvláště
+par exemple — například
+c'est-à-dire — to jest / to znamená
+en d'autres termes — jinými slovy
+d'un autre côté — na druhé straně
+à l'inverse — naopak / obráceně
+en réalité — ve skutečnosti
+le numéro / le nombre — číslo
+l'heure — hodina / čas
+l'adresse — adresa
+le numéro de téléphone — telefonní číslo
+la date — datum
+le nom — jméno / název
+l'âge — věk
+la nationalité — národnost
+la religion — náboženství
+la forme — tvar / forma
+le matériau — materiál
+le métal — kov
+le bois — dřevo
+le verre — sklo
+le plastique — plast
+le tissu — látka / tkanina
+le carton — karton / lepenka
+le caoutchouc — guma
+le cuir — kůže (materiál)
+le coton — bavlna
+la soie — hedvábí
+la laine — vlna
+le fer — železo
+l'or — zlato
+l'argent (métal) — stříbro
+rond — kulatý
+carré — čtvercový
+rectangulaire — obdélníkový
+triangulaire — trojúhelníkový
+droit — rovný / přímý
+courbe — zakřivený
+pointu / tranchant — ostrý
+lisse — hladký
+rugueux — drsný
+mou / doux — měkký
+dur — tvrdý
+plein — plný
+vide — prázdný
+ouvert — otevřený
+fermé — zavřený
+sûr — bezpečný / jistý
+dangereux — nebezpečný
+public — veřejný
+privé — soukromý
+national — národní / státní
+international — mezinárodní
+local — místní
+mondial / global — globální
+naturel — přirozený / přírodní
+artificiel — umělý
+réel / vrai — skutečný / opravdový
+faux — falešný
+moderne — moderní
+traditionnel — tradiční
+original — originální / původní
+typique — typický
+inhabituel — neobvyklý
+courant / commun — běžný / společný
+rare — vzácný / řídký
+populaire — populární / oblíbený
+célèbre — slavný / známý
+utile — užitečný
+inutile — zbytečný / neužitečný
+libre / gratuit — volný / bezplatný / svobodný
+occupé — zaneprázdněný / obsazený
+disponible — dostupný / volný
+adapté / approprié — vhodný
+indispensable — nezbytný
+supplémentaire — dodatečný
+divers / varié — různý
+spécifique — specifický / konkrétní
+général — obecný
+principal — hlavní
+de base — základní
+élémentaire — jednoduchý / elementární
+compliqué / complexe — složitý
+complet — úplný / kompletní
+partiel — částečný
+final — konečný / závěrečný
+récent — nedávný
+actuel — současný / aktuální
+futur — budoucí
+passé — minulý
+présent — přítomný
+positif — pozitivní
+négatif — negativní
+normal — normální
+étrange / bizarre — zvláštní / podivný
+évident — zřejmý / očividný
+net / clair — jasný / zřetelný
+certain — jistý
+semblable / similaire — podobný
+différent — jiný / odlišný
+même — stejný
+égal — rovný / stejný
+opposé / contraire — opačný
+direct — přímý
+indirect — nepřímý
+actif — aktivní
+passif — pasivní
+puissant — silný / mocný
+riche — bohatý
+pauvre — chudý
+chanceux — šťastný (se štěstím)
+malchanceux — nešťastný (bez štěstí)
+intelligent — chytrý / inteligentní
+bête / stupide — hloupý
+gentil / aimable — laskavý / milý
+impoli / grossier — hrubý / nezdvořilý
+honnête / sincère — čestný / upřímný
+malhonnête — nečestný
+patient — trpělivý
+impatient — netrpělivý
+courageux — statečný / odvážný
+timide — plachý / nesmělý
+poli — zdvořilý
+amical — přátelský
+sérieux — vážný / seriózní
+attentif / prudent — pozorný / opatrný
+inattentif / imprudent — nepozorný / neopatrný
+créatif — kreativní
+logique — logický
+pratique — praktický
+numérique — digitální
+virtuel — virtuální
+automatique — automatický
+manuel — manuální
+professionnel — profesionální
+personnel — osobní
+social — sociální
+politique — politický
+économique — ekonomický
+culturel — kulturní
+historique — historický
+scientifique — vědecký
+médical — lékařský
+légal / juridique — právní / zákonný
+écologique — ekologický / životního prostředí
+l'école primaire — základní škola
+le collège — druhý stupeň ZŠ
+le lycée — gymnázium / střední škola
+le baccalauréat — maturita
+le mémoire / la thèse — diplomová práce / teze
+le professeur — profesor / učitel (m.)
+la professeure — profesorka / učitelka (f.)
+l'étudiant / l'élève — student / žák (m.)
+l'étudiante / l'élève — studentka / žákyně (f.)
+la note — známka / hodnocení
+la classe — třída
+la salle de classe — učebna
+la bibliothèque — knihovna
+le gymnase — tělocvična
+la cantine — jídelna
+le cartable — školní taška / aktovka
+le dictionnaire — slovník
+la grammaire — gramatika
+le vocabulaire — slovní zásoba
+l'écriture — psaní / rukopis
+la lecture — čtení
+la compréhension orale — poslech
+la conversation — konverzace
+la prononciation — výslovnost
+le verbe — sloveso
+le nom / le substantif — podstatné jméno
+l'adjectif — přídavné jméno
+l'adverbe — příslovce
+la préposition — předložka
+la conjonction — spojka
+le sujet — podmět
+le prédicat — přísudek
+le complément d'objet — předmět (gramatický)
+la proposition — věta (část souvětí)
+le texte — text
+le paragraphe — odstavec
+le chapitre — kapitola
+l'introduction — úvod
+la conclusion — závěr
+le résumé — shrnutí
+le sujet / le thème — téma
+l'intrigue — děj (příběhu)
+le personnage — postava (v příběhu)
+l'auteur — autor (m.)
+l'autrice — autorka (f.)
+la maison d'édition — nakladatelství
+la publication — publikace / vydání
+la nouvelle / l'actualité — zpráva / novinka
+le titre — titul / nadpis
+le sous-titre — podtitul
+l'interview / l'entretien — rozhovor / interview
+le rapport — zpráva / hlášení / vztah
+le document — dokument
+le formulaire — formulář
+la signature — podpis
+la photocopie — fotokopie
+la presse — tisk / noviny
+le message — zpráva / vzkaz
+la touche / le bouton — tlačítko / klávesa
+l'écran — obrazovka
+le clavier — klávesnice
+la souris — myš (počítačová)
+le micro — mikrofon
+l'appareil photo — fotoaparát
+la vidéo — video
+la chaîne — kanál
+le réseau — síť
+le profil — profil
+les réseaux sociaux — sociální sítě
+le lien — odkaz / spojení
+le fichier — soubor
+le dossier — složka
+le programme — program
+le logiciel — software
+le matériel — hardware
+la mise à jour — aktualizace
+la sauvegarde — záloha
+le bug / la panne — chyba (systém.)
+la connexion sans fil — bezdrátové připojení
+le Bluetooth — Bluetooth
+le wifi — Wi-Fi
+la batterie / la pile — baterie
+le chargeur — nabíječka
+le câble — kabel
+la fiche — zástrčka
+la prise — elektrická zásuvka
+l'ampoule — žárovka
+le réfrigérateur / le frigo — lednice
+le four — trouba
+le micro-ondes — mikrovlnka
+le lave-vaisselle — myčka nádobí
+la machine à laver / le lave-linge — pračka
+l'aspirateur — vysavač
+le fer à repasser — žehlička
+la climatisation — klimatizace
+le chauffage — topení / vytápění
+le thermostat — termostat
+le robinet — kohout / kohoutek
+le lavabo / l'évier — umyvadlo / dřez
+la baignoire — vana
+la douche — sprcha
+les toilettes / les W.-C. — záchod / toaleta
+le papier toilette — toaletní papír
+le savon — mýdlo
+le shampooing — šampon
+le dentifrice — zubní pasta
+la brosse à dents — kartáček na zuby
+le rasoir — holítko / žiletka
+le parfum — parfém
+le déodorant — deodorant
+la crème — krém
+la brosse — kartáč
+le peigne — hřeben
+la paire de ciseaux — nůžky
+le miroir — zrcadlo
+la serviette — ručník
+la couverture — deka / přikrývka
+l'oreiller — polštář
+le drap — prostěradlo
+le matelas — matrace
+le rideau — záclona / závěs
+le papier peint — tapeta
+le parquet — parkety / podlaha
+le carrelage — dlaždice
+le tapis — koberec
+la peinture (murale) — barva (malířská)
+le marteau — kladivo
+le tournevis — šroubovák
+la clé (outil) — klíč (nářadí)
+le clou — hřebík
+la vis — šroub
+l'échelle — žebřík
+la corde — lano / provaz
+le ruban adhésif / le scotch — lepicí páska
+le sachet / le sac plastique — sáček / taška
+l'enveloppe — obálka
+le colis / le paquet — balíček
+la boîte / le carton — krabice
+le set de table — prostírání / podložka
+la bouteille — láhev
+la boîte de conserve / le bocal — plechovka / sklenice (zavařovací)
+le verre (à boire) — sklenice (na pití)
+la tasse — šálek / hrnek
+l'assiette — talíř
+le bol / le saladier — mísa
+la fourchette — vidlička
+la cuillère — lžíce
+le couteau — nůž
+la serviette (de table) — ubrousek
+la nappe — ubrus
+le plateau — tác
+le congélateur — mrazák
+le garde-manger — spíž
+le tiroir — zásuvka (nábytku)
+l'étagère — polička
+le rayonnage — police / regál
+l'armoire / le placard — skříň
+la table de chevet — noční stolek
+le bureau (meuble) — psací stůl
+la bibliothèque (meuble) — knihovna (nábytek)
+la librairie — knihkupectví
+le fauteuil — křeslo
+le canapé — pohovka / gauč
+la moquette — koberec (celoplošný)
+la lampe — lampa
+l'interrupteur — vypínač
+le téléphone fixe — pevná linka
+l'interphone — domofon
+la boîte aux lettres — poštovní schránka
+la sonnette — zvonek
+le portail — brána / vrátka
+le mur d'enceinte — zeď (venkovní)
+le toit — střecha
+la cheminée — komín / krb
+la fenêtre à battants — otevírací okno
+le store / l'auvent — markýza
+le volet — okenice / žaluzie
+la serrure — zámek (dveřní)
+la poignée — klika (dveřní)
+les clés de la maison — klíče od domu
+l'alarme — poplašné zařízení
+le détecteur de fumée — detektor kouře
+l'extincteur — hasicí přístroj
+la malbouffe — nezdravé jídlo
+la restauration rapide — fast food
+la pizza — pizza
+la baguette — bageta
+le croissant — croissant / loupák
+le pain au chocolat — čokoládový croissant
+la brioche — briočka
+le croque-monsieur — zapečený toast se šunkou a sýrem
+la quiche — slaný koláč (quiche)
+la crêpe — palačinka
+la galette — pohanková placka
+le steak / le bifteck — biftek / steak
+la côtelette — kotleta
+la saucisse — klobása / párek
+le jambon — šunka
+le saucisson — trvanlivý salám
+la charcuterie — uzeniny
+le camembert — camembert
+le pâté — paštika
+le foie gras — husí játra
+la glace — zmrzlina
+le gâteau / la tarte — dort / koláč
+le biscuit — sušenka
+le sandwich — sendvič
+la crème brûlée — krémový dezert s karamelem
+la mousse au chocolat — čokoládová pěna
+le macaron — makronka
+l'éclair — větrník (eclair)
+le café crème — káva s mlékem
+le café au lait — bílá káva
+l'expresso — espresso
+la limonade / la boisson gazeuse — limonáda / nealko nápoj
+l'apéritif — aperitiv
+le digestif — digestiv / likér po jídle
+le cognac — koňak
+le champagne — šampaňské
+la promenade / la balade — vycházka / procházka
+la visite — návštěva / prohlídka (turistická)
+la visite guidée — prohlídka s průvodcem
+l'excursion — výlet (krátký)
+le billet / le ticket — lístek / vstupenka / bankovka
+la réservation — rezervace
+la chambre simple — jednolůžkový pokoj
+la chambre double — dvoulůžkový pokoj
+la pension complète — plná penze
+la demi-pension — polopenze
+la chambre d'hôtes — penzion se snídaní
+le gîte (rural) — venkovská chalupa / agroturistika
+le camping — tábořiště / kemping
+le port — přístav
+le ferry / le bac — trajekt / přívoz
+le passeport (contrôle) — pas
+la douane — celnice
+le contrôle des passeports — pasová kontrola
+les bagages — zavazadla
+la valise — kufr
+le bagage à main — příruční zavazadlo
+l'enregistrement — check-in
+la porte d'embarquement — gate / odletová brána
+le décollage — vzlet
+l'atterrissage — přistání
+la ceinture de sécurité — bezpečnostní pás
+le siège / la place — sedadlo / místo
+le hublot — okénko (letadla)
+l'arrêt — zastávka
+le quai / la voie — nástupiště / kolej
+l'horaire / l'emploi du temps — jízdní řád / rozvrh
+le retard — zpoždění
+la correspondance — přestup (vlak/letadlo)
+le parking — parkoviště
+le feu rouge / les feux — semafor
+le rond-point — kruhový objezd
+le dépassement — předjíždění
+la limitation de vitesse — omezení rychlosti
+l'amende / la contravention — pokuta
+le mécanicien — mechanik
+le garage (atelier) — autoservis / opravna
+le pneu — pneumatika
+la panne — závada / porucha
+l'essence — benzín
+le gazole / le diesel — nafta / diesel
+faire le plein — natankovat
+le corps humain — lidské tělo
+le front — čelo
+le menton — brada
+la joue — tvář / líce
+les lèvres — rty
+la langue (anatomie) — jazyk (anatomický)
+la gorge — hrdlo / krk
+la poitrine — hrudník / prsa
+le côté / la hanche — bok / strana
+le poignet — zápěstí
+le coude — loket
+l'ongle — nehet
+la cuisse — stehno
+le mollet — lýtko
+le talon — pata
+le pouce — palec
+l'index — ukazovák
+le majeur — prostředník
+l'annulaire — prsteník
+l'auriculaire / le petit doigt — malíček
+la mâchoire — čelist
+le crâne — lebka
+la colonne vertébrale — páteř
+la côte — žebro
+les os — kosti
+le muscle — sval
+le nerf — nerv
+le cerveau — mozek
+le poumon — plíce
+le foie — játra
+le rein — ledvina
+l'estomac — žaludek
+l'intestin — střevo
+la vessie — močový měchýř
+la veine — žíla
+l'artère — tepna
+l'os — kost
+le tendon — šlacha
+le cartilage — chrupavka
+la tension artérielle — krevní tlak
+le cholestérol — cholesterol
+le glucose — glukóza
+le régime / l'alimentation — dieta / stravování
+la calorie — kalorie
+les vitamines — vitaminy
+les minéraux — minerály
+les protéines — bílkoviny
+les glucides — sacharidy
+les lipides / les graisses — tuky
+le système immunitaire — imunitní systém
+la vaccination — očkování
+la prévention — prevence
+le diagnostic — diagnóza
+le traitement / les soins — léčba / ošetření
+la thérapie — terapie
+la rééducation — rehabilitace
+la chirurgie — chirurgie
+la radiographie / la radio — rentgen
+l'IRM — magnetická rezonance
+l'échographie — ultrazvuk
+la prise de sang — krevní testy / odběr krve
+l'ordonnance — recept (lékařský)
+la recette — recept (kuchařský)
+la visite médicale — lékařská prohlídka
+les urgences — pohotovost
+la guérison — uzdravení / hojení
+la convalescence — zotavení / rekonvalescence
+les premiers secours — první pomoc
+le sport extrême — extrémní sport
+la forme physique — fitness / kondice
+l'exercice physique — trénink / cvičení
+la salle de sport — posilovna
+la course à pied — běh
+le marathon — maraton
+le triathlon — triatlon
+le vélo de route — silniční cyklistika
+la gymnastique — gymnastika
+l'escalade — lezení / horolezectví
+le ski — lyžování
+le snowboard — snowboard
+le surf — surfování
+la voile — plachtění
+le kayak — kajak
+le canoë — kánoe
+la planche à voile — windsurfing
+le tir à l'arc — lukostřelba
+l'escrime — šerm
+le judo — judo
+le karaté — karate
+la boxe — box
+la lutte — zápas
+l'athlétisme — atletika
+le lancer du disque — hod diskem
+le saut en hauteur — skok do výšky
+le saut en longueur — skok do dálky
+la course (compétition) — závod v běhu
+le stade (sportif) — stadion
+la piscine — bazén / plavecký bazén
+la piste — dráha / trať
+le court de tennis — tenisový kurt
+le terrain de football — fotbalové hřiště
+le panier — koš (basketbal)
+le filet — síť (tenis/volejbal)
+la raquette — raketa (tenis/badminton)
+le casque — přilba
+le survêtement — tepláková souprava
+les baskets — tenisky / sportovní boty
+le tee-shirt — tričko
+le short — šortky
+le maillot de bain — plavky
+les lunettes de natation — plavecké brýle
+le tuba — dýchací trubice / šnorchl
+les palmes — ploutve (potápěčské)
+la combinaison de plongée — potápěčský oblek
+le ballon de football — fotbalový míč
+le basket — basketbal
+le volley — volejbal
+le rugby — ragby
+le hockey — hokej
+le golf — golf
+le baseball — baseball
+le handball — házená
+le bowling — bowling
+le badminton — badminton
+le tennis de table / le ping-pong — stolní tenis
+la pétanque — petanque
+l'équitation — jezdectví
+le patinage — bruslení
+le patinage artistique — krasobruslení
+la gymnastique rythmique — moderní gymnastika
+la natation synchronisée — synchronizované plavání
+le plongeon — skok do vody
+l'aviron — veslování
+la musculation — kulturistika / posilování
+l'haltérophilie — vzpírání
+la lutte libre — volný styl (zápas)
+le cyclisme sur piste — dráhová cyklistika
+le billard — kulečník / biliár
+le poker — poker
+les échecs — šachy
+les cartes à jouer — karty (hrací)
+les dés — kostky (hrací)
+le puzzle — puzzle / skládačka
+le jeu vidéo — videohra
+la console de jeux — herní konzole
+le jouet — hračka
+la poupée — panenka
+la peluche — plyšák
+le jeu de construction — stavebnice
+la maquette — model / miniatura
+la lettre (de l'alphabet) — písmeno abecedy
+l'alphabet — abeceda
+la voyelle — samohláska
+la consonne — souhláska
+la syllabe — slabika
+l'accent — přízvuk / akcent
+la majuscule — velké písmeno
+la minuscule — malé písmeno
+le point — tečka
+la virgule — čárka
+le point-virgule — středník
+les deux-points — dvojtečka
+le point d'exclamation — vykřičník
+le point d'interrogation — otazník
+les guillemets — uvozovky
+la parenthèse — závorka
+le tiret — pomlčka
+l'apostrophe — apostrof
+l'alinéa — odstavec
+la page — strana / stránka
+le passage (de texte) — úryvek
+le volume — svazek / hlasitost
+la couverture (de livre) — obálka (knihy)
+la table des matières / l'index — obsah / rejstřík
+la note — poznámka / nota
+la citation — citát / citace
+la référence — odkaz / reference
+la source — zdroj
+la bibliographie — bibliografie
+la date de parution — datum vydání
+l'éditeur — vydavatel
+la collection — edice / sbírka (knih)
+la fiction — beletrie
+la non-fiction / les essais — literatura faktu
+la biographie — životopis
+l'autobiographie — autobiografie
+le journal intime — deník
+le courrier — pošta / korespondence
+la carte postale — pohlednice
+la bande dessinée / la BD — komiks
+le magazine de mode — módní časopis
+le quotidien — deník (noviny)
+l'hebdomadaire — týdeník
+le mensuel — měsíčník
+la une — titulní strana
+l'article — článek
+la chronique — sloupek (v novinách)
+la critique (d'un film, d'un livre) — recenze
+la critique littéraire — literární kritika
+le prix / la récompense — cena / odměna
+le festival — festival
+l'exposition — výstava
+la galerie d'art — galerie umění
+le réalisateur — režisér
+l'acteur — herec (m.)
+l'actrice — herečka (f.)
+le scénariste — scenárista
+le scénario — scénář
+les effets spéciaux — speciální efekty
+la bande originale — filmová hudba / soundtrack
+la bande-annonce — trailer / upoutávka
+la première — premiéra
+le guichet — pokladna (kina/divadla)
+la scène — jeviště / scéna
+les coulisses — zákulisí
+le public / les spectateurs — publikum / diváci
+les applaudissements — potlesk
+le rappel — přídavek (koncert)
+le metteur en scène — divadelní režisér
+la scénographie / le décor — scénografie / kulisy
+le costume de théâtre — divadelní kostým
+le maquillage — make-up / líčení
+le masque — maska
+l'opéra — opera
+la danse — tanec
+le ballet — balet
+la danse contemporaine — moderní tanec
+la musique classique — klasická hudba
+le jazz — jazz
+le rock — rock
+la pop — pop (hudba)
+le rap — rap
+la musique folklorique — lidová hudba
+la musique électronique — elektronická hudba
+le rythme — rytmus
+la mélodie — melodie
+l'harmonie — harmonie
+la chorale / le chœur — sbor / chór
+l'orchestre — orchestr
+le chef d'orchestre — dirigent
+le compositeur — skladatel (m.)
+la compositrice — skladatelka (f.)
+la symphonie — symfonie
+le concerto pour piano — klavírní koncert
+la sonate — sonáta
+le prélude — preludium
+la suite — suita
+le morceau / le titre — skladba / song
+le refrain — refrén
+le couplet — sloka
+les paroles — text písně
+la guitare électrique — elektrická kytara
+la basse — baskytara / bas
+le tambour — buben
+le synthétiseur — syntezátor
+le micro (de scène) — mikrofon (na pódiu)
+la table de mixage — mixpult
+l'amplificateur / l'ampli — zesilovač
+le casque (audio) / les écouteurs — sluchátka
+le haut-parleur / l'enceinte — reproduktor
+après — po (časově)
+pendant — během
+tandis que — zatímco
+puis / ensuite — potom / pak
+alors / donc — tedy / takže
+eh bien — no tak / tedy
+or — avšak / jenže
+voire — ba dokonce
+ou bien — nebo (alternativa)
+autrement — jinak
+néanmoins — přesto / nicméně
+et pourtant — a přesto / a přece
+malgré — navzdory
+quoique (+ subjonctif) — ačkoli
+bien que (+ subjonctif) — ačkoli / přestože
+pour que (+ subjonctif) — aby
+afin que (+ subjonctif) — aby / za účelem
+puisque — jelikož / protože
+car — neboť / protože
+étant donné que — vzhledem k tomu že
+vu que — vidíc že / protože
+grâce à — díky (pozitivní příčina)
+à cause de — kvůli (negativní příčina)
+à la suite de — v důsledku
+par conséquent — v důsledku toho
+c'est pourquoi — proto
+d'habitude — obvykle
+normalement — normálně / obvykle
+de temps en temps — čas od času
+parfois — někdy / tu a tam
+de temps à autre — občas
+quelquefois — někdy / občas
+presque jamais — skoro nikdy
+ne … jamais — nikdy
+sans cesse — stále / bez přestání
+continuellement — nepřetržitě / stále
+récemment — nedávno
+ces derniers temps — poslední dobou
+tout récemment — teprve nedávno
+depuis lors — od té doby
+à l'avance — předem / dopředu
+en retard — se zpožděním / pozdě
+à l'heure — včas / přesně
+à temps — včas
+en ce moment — v tuto chvíli
+actuellement — v současnosti
+à l'improviste — nečekaně
+tout d'un coup — najednou / náhle
+en attendant / entre-temps — mezitím
+à long terme — v dlouhodobém horizontu
+à court terme — v krátkodobém horizontu
+durablement — dlouhodobě
+provisoirement — prozatímně / krátkodobě
+au fond — v podstatě / v hloubi
+dans l'ensemble — celkově
+en détail — podrobně
+en principe — v zásadě
+au début / à l'origine — na začátku / původně
+après tout — ostatně / koneckonců
+en tout cas — v každém případě
+au cas où — v případě, že
+quant à / en ce qui concerne — pokud jde o
+d'une part … d'autre part — na jedné straně … na druhé
+aussi bien … que — jak … tak
+ni … ni — ani … ani
+soit … soit — buď … nebo
+non seulement … mais aussi — nejen … ale také
+plus … plus — čím více … tím více
+moins … moins — čím méně … tím méně
+autant … que — tolik … kolik
+le mot-clé — klíčové slovo
+le point clé — klíčový bod
+la notion / le concept — pojem / koncept
+la définition — definice
+l'explication — vysvětlení
+la description — popis
+l'illustration — ilustrace / znázornění
+le modèle — model / vzor
+le prototype — prototyp
+la version — verze
+l'édition — vydání
+l'exemplaire / la copie — výtisk / kopie
+l'original — originál
+le brouillon — návrh / koncept
+la version définitive — definitivní text
+la correction — oprava / korektura
+la révision — revize / přepracování
+l'évaluation — hodnocení / posouzení
+le jugement — úsudek / rozsudek
+l'avis / l'expertise — posudek
+l'impression — dojem
+la réaction — reakce
+le retour / le feedback — zpětná vazba
+la réponse (réaction) — odezva
+l'écho — ozvěna / ohlas
+l'impact — dopad / vliv
+la piste (d'un album) — stopa / skladba alba
+le signe — znak / znamení
+le symbole — symbol
+le signal — signál / znamení
+la notification — upozornění / notifikace
+le rappel / la remarque — připomínka / poznámka
+le calendrier — kalendář
+l'agenda — diář / program
+la liste — seznam
+l'inventaire — seznam / výčet / inventář
+le registre — registr / zápisník
+les archives — archiv
+le classeur — šanon / složka
+le compte rendu — zpráva / zápis
+la proposition — návrh
+l'offre — nabídka
+la demande — žádost / poptávka
+le devis — cenová nabídka
+le budget — rozpočet
+le financement — financování
+le coût — náklady / cena
+la dépense — výdaj
+le revenu — výnos / příjem
+le bénéfice / le profit — zisk
+la perte — ztráta
+le bilan / l'équilibre — bilance / rovnováha
+le capital — kapitál
+l'investissement — investice
+le rendement — výnos / výkon
+la rentabilité — rentabilita
+le risque financier — finanční riziko
+le taux d'intérêt — úroková sazba
+le prêt immobilier — hypotéka
+l'achat à crédit — splátková koupě
+le compte courant — běžný účet
+le compte d'épargne / le livret — spořicí účet
+le distributeur (de billets) — bankomat
+la carte de crédit — kreditní karta
+la carte bancaire — debetní karta
+le virement — bankovní převod
+le retrait — výběr (z účtu)
+le dépôt / l'acompte — vklad / záloha
+la devise / la monnaie — měna / valuty
+le taux de change — směnný kurz
+l'inflation — inflace
+la déflation — deflace
+la croissance économique — ekonomický růst
+la récession — recese
+le chômage — nezaměstnanost
+l'emploi — zaměstnanost
+le marché du travail — trh práce
+le syndicat — odborový svaz
+la grève — stávka
+le contrat de travail — pracovní smlouva
+le licenciement — propuštění / výpověď
+la démission — rezignace / výpověď (ze strany pracovníka)
+l'entretien d'embauche — pracovní pohovor
+le CV — životopis (CV)
+la lettre de motivation — motivační dopis
+les références / la recommandation — reference / doporučení
+l'expérience professionnelle — pracovní zkušenosti
+la formation professionnelle — vzdělání / školení
+le développement professionnel — profesní rozvoj
+la carrière — kariéra
+la promotion — povýšení
+la prime — bonus / prémie
+le remboursement des frais — náhrada výdajů
+les horaires de travail — pracovní doba
+le poste / l'équipe (de travail) — směna
+le temps partiel — práce na částečný úvazek
+le temps plein — práce na plný úvazek
+le télétravail — práce na dálku / home office
+l'indépendant / le freelance — OSVČ / freelancer
+l'artisan — řemeslník
+le commerçant — obchodník
+l'entrepreneur — podnikatel
+le manager / le responsable — manažer / vedoucí
+l'administrateur — správce / administrátor
+l'associé — společník
+l'actionnaire — akcionář
+le conseil d'administration — správní rada
+le PDG — generální ředitel
+le service / le département — oddělení / sekce
+la succursale / la filiale — pobočka
+le siège social — centrála
+l'entrepôt — sklad
+la chaîne de production — výrobní linka
+le fournisseur — dodavatel
+la chaîne d'approvisionnement — dodavatelský řetězec
+la logistique — logistika
+la distribution — distribuce
+la publicité — reklama
+le marketing — marketing
+la marque — značka / ochranná známka
+le logo — logo
+l'image de marque — firemní image
+la campagne publicitaire — reklamní kampaň
+le public cible — cílová skupina
+la niche de marché — tržní nika
+la part de marché — tržní podíl
+la fusion — fúze / sloučení
+l'acquisition / le rachat — akvizice
+la start-up — startup
+l'incubateur — inkubátor (pro startupy)
+le capital-risque — rizikový kapitál
+l'investisseur providentiel — andělský investor
+l'arc-en-ciel — duha
+l'éclair — blesk
+le tonnerre — hrom
+l'orage — bouřka
+le brouillard — mlha
+le gel / le givre — mráz / jinovatka
+la grêle — krupobití
+la canicule — vlna veder
+le volcan — sopka
+le tremblement de terre / le séisme — zemětřesení
+le tsunami — tsunami
+l'inondation — záplava / povodeň
+la sécheresse — sucho
+le glacier — ledovec
+le désert — poušť
+la savane — savana
+la jungle — džungle
+la forêt tropicale — deštný prales
+la toundra — tundra
+la côte — pobřeží
+l'île — ostrov
+la péninsule — poloostrov
+la vallée — údolí
+la colline — kopec
+le sommet — vrchol / špička
+la pente — svah
+la falaise — útes / sráz
+le cratère — kráter
+le geyser — gejzír
+la source — pramen
+la lagune — laguna
+le récif de corail — korálový útes
+le corail — korál
+le marais — bažina / mokřad
+la lande — vřesoviště
+la steppe — step
+le plateau (géographie) — plošina / náhorní plošina
+le continent — kontinent
+l'écosystème — ekosystém
+la biodiversité — biodiverzita
+l'espèce menacée — ohrožený druh
+l'extinction — vyhynutí
+la protection de la nature — ochrana přírody
+la réserve naturelle — přírodní rezervace
+le parc national — národní park
+la faune sauvage — volně žijící zvířata
+le prédateur — šelma / dravec
+la proie — kořist
+la chaîne alimentaire — potravní řetězec
+la photosynthèse — fotosyntéza
+l'ADN — DNA
+le gène — gen
+l'évolution — evoluce
+l'astronomie — astronomie
+l'univers — vesmír
+la galaxie — galaxie
+la comète — kometa
+l'astéroïde — asteroid
+la station spatiale — vesmírná stanice
+la fusée — raketa
+le télescope — teleskop
+le microscope — mikroskop
+l'atome — atom
+la molécule — molekula
+l'électron — elektron
+le proton — proton
+le neutron — neutron
+le rayonnement — záření
+la radioactivité — radioaktivita
+l'aimant — magnet
+la gravité — gravitace
+la physique quantique — kvantová fyzika
+la théorie de la relativité — teorie relativity
+l'intelligence artificielle / l'IA — umělá inteligence
+l'algorithme — algoritmus
+l'apprentissage automatique — strojové učení
+les réseaux de neurones — neuronové sítě
+le robot — robot
+l'automatisation — automatizace
+la conduite autonome — autonomní řízení
+l'impression 3D — 3D tisk
+la biotechnologie — biotechnologie
+la nanotechnologie — nanotechnologie
+la protection des données — ochrana dat
+le vol de données — krádež dat
+la cyberattaque — kybernetický útok
+le chiffrement — šifrování
+le cloud / le nuage — cloud (IT)
+le centre de données — datové centrum
+l'avatar — avatar
+la réalité virtuelle — virtuální realita
+la réalité augmentée — rozšířená realita
+l'internet des objets — internet věcí
+la maison connectée — chytrá domácnost
+la voiture électrique — elektromobil
+le véhicule hybride — hybridní vozidlo
+la voiture à hydrogène — vodíkové auto
+la borne de recharge — nabíjecí stanice
+le vélo en libre-service — sdílení kol
+l'autopartage — sdílení aut
+les transports en commun — veřejná doprava / hromadná doprava
+le téléphérique — lanovka
+le TGV — vysokorychlostní vlak
+le bateau de croisière — výletní loď
+le yacht — jachta
+la barque — loďka
+le bateau à rames — veslice
+la montgolfière — horkovzdušný balón
+le planeur — kluzák
+l'hélicoptère — vrtulník
+le routard — batůžkář
+l'auberge de jeunesse — ubytovna pro mládež
+l'hôtel cinq étoiles — pětihvězdičkový hotel
+la suite — apartmá
+la réception — recepce
+le réceptionniste / le concierge — recepční / portýr
+le service d'étage — pokojová služba
+le minibar — minibar
+le buffet du petit-déjeuner — snídaňový bufet
+la formule tout compris — all-inclusive
+le logement seul — bez stravy
+la pension — penzion
+le séjour — pobyt
+l'agence de voyages — cestovní kancelář
+le guide touristique — turistický průvodce (osoba/kniha)
+l'attraction touristique — turistická atrakce
+le monument emblématique — dominanta / symbol (místa)
+la visite de la ville — prohlídka města
+l'audioguide — audioprůvodce
+la boutique de souvenirs — obchod se suvenýry
+la bonne affaire — výhodná koupě
+les soldes — výprodej
+l'offre spéciale / la promotion — speciální nabídka / akce
+la réduction / la remise — sleva
+le bon d'achat — kupón / voucher
+le ticket de caisse — účtenka
+la TVA — DPH
+la carte de fidélité — věrnostní karta
+l'offre (économie) — nabídka (ekonomie)
+la demande (économie) — poptávka
+le stock — zásoby na skladu
+le délai de livraison — lhůta dodání
+le retour (d'un article) — vrácení zboží
+le remboursement — vrácení peněz
+la garantie — záruka
+la réclamation — reklamace / stížnost
+le service client — zákaznický servis
+le pourboire — spropitné
+la carte / le menu — jídelní lístek / menu
+le plat du jour — denní nabídka
+le plat végétarien — vegetariánské jídlo
+le plat végétalien — veganské jídlo
+sans gluten — bezlepkový
+la portion — porce
+le dessert — dezert / sladké
+l'entrée — předkrm
+le plat principal — hlavní chod
+l'eau du robinet — kohoutková voda
+l'eau gazeuse — perlivá voda
+l'eau plate — neperlivá voda
+le chocolat chaud — horká čokoláda
+la tisane au gingembre — zázvorový čaj
+la tisane — bylinkový čaj
+le smoothie — smoothie
+le cocktail — koktejl
+le cocktail sans alcool — bezalkoholový koktejl
+la dépendance — závislost
+le tabagisme — kouření
+la consommation de drogue — užívání drog
+la cure de désintoxication — odvykací léčba
+le psychiatre — psychiatr
+le psychologue — psycholog
+le conseil (accompagnement) — poradenství
+la thérapie de groupe — skupinová terapie
+la confiance en soi — sebevědomí
+l'estime de soi — sebehodnocení / sebeúcta
+la pleine conscience — mindfulness / uvědomění
+la méditation — meditace
+le yoga — jóga
+le bien-être — pohoda / blahobyt
+la santé mentale — duševní zdraví
+l'épuisement professionnel / le burn-out — vyhoření
+le traumatisme — trauma
+le trouble anxieux — úzkostná porucha
+la dépression — deprese
+la solitude — samota / osamění
+le sentiment d'appartenance — sounáležitost
+l'assurance — sebedůvěra / jistota
+le développement personnel — osobní rozvoj
+le potentiel — potenciál
+les points forts et les points faibles — silné a slabé stránky
+donner un retour — dávat zpětnou vazbu
+l'écoute active — aktivní naslouchání
+la résolution de conflits — řešení konfliktů
+la médiation — mediace
+la négociation — vyjednávání
+la persuasion — přesvědčování
+le leadership — vedení / leadership
+la cohésion d'équipe — teambuilding
+l'équilibre vie professionnelle-vie privée — rovnováha práce a života
+le réseautage — networking
+le mentor — mentor
+le mentorat — mentoring
+le coaching — coaching
+l'apprentissage tout au long de la vie — celoživotní učení
+la formation continue — další vzdělávání
+la reconversion — rekvalifikace
+le stage — praxe / stáž
+le bénévolat — dobrovolnictví
+la société civile — občanská společnost
+la pétition — petice
+la protestation — protest
+la manifestation — demonstrace
+les droits de l'homme — lidská práva
+les droits de l'enfant — práva dětí
+les droits des femmes — práva žen
+les droits LGBTQ+ — práva LGBTQ+
+l'accessibilité — bezbariérovost / přístupnost
+l'intégration — integrace
+l'inclusion — inkluze
+la diversité — rozmanitost / pestrost
+le préjugé — předsudek
+la discrimination — diskriminace
+le racisme — rasismus
+le sexisme — sexismus
+la xénophobie — xenofobie
+l'antisémitisme — antisemitismus
+la tolérance — tolerance
+l'ouverture d'esprit — otevřenost
+l'athéisme — ateismus
+la foi — víra
+la spiritualité — spiritualita
+la prière — modlitba
+le rituel — rituál
+le tabou — tabu
+l'étiquette — etiketa
+les bonnes manières — způsoby chování
+la politesse — zdvořilost
+le recensement — sčítání lidu
+la natalité — porodnost
+la mortalité — smrtnost
+l'espérance de vie — střední délka života
+la génération — generace
+le vieillissement de la population — stárnutí obyvatelstva
+la retraite — důchod / penze
+l'État-providence — sociální stát
+la sécurité sociale — sociální zabezpečení
+l'allocation / la prestation — dávka
+l'indemnité — příspěvek / odškodnění
+la subvention — dotace / subvence
+l'imposition — zdanění
+les dépenses publiques — veřejné výdaje
+la dette publique — státní dluh
+le PIB — HDP
+le niveau de vie — životní úroveň
+l'inégalité — nerovnost
+le seuil de pauvreté — hranice chudoby
+la mobilité sociale — sociální mobilita
+la classe moyenne — střední třída
+la classe ouvrière — dělnická třída
+la classe supérieure — vyšší třída
+l'élite — elita
+la corruption — korupce
+les pots-de-vin — úplatkářství
+la fraude / l'escroquerie — podvod
+le scandale — skandál
+l'obligation de rendre des comptes — odpovědnost / zodpovědnost
+l'État de droit — právní stát
+la constitution — ústava
+le parlement — parlament
+le sénat — senát
+l'opposition — opozice
+la coalition — koalice
+le référendum — referendum
+la voix / le vote — hlas / hlasování
+le bulletin de vote — volební lístek
+le bureau de vote — volební místnost
+le candidat — kandidát
+le parti (politique) — (politická) strana
+le programme électoral — volební program
+la politique étrangère — zahraniční politika
+la politique intérieure — domácí / vnitřní politika
+la diplomatie — diplomacie
+l'ambassadeur — velvyslanec
+l'ambassade — velvyslanectví
+le traité — smlouva / dohoda
+la sanction — sankce
+l'alliance — aliance / spojenectví
+l'OTAN — NATO
+les Nations unies (ONU) — Spojené národy (OSN)
+l'Union européenne — Evropská unie
+le FMI — MMF
+l'OMS — WHO
+l'organisation non gouvernementale (ONG) — nevládní organizace
+l'association caritative — charitativní organizace
+le don — dar / příspěvek
+la collecte de fonds — fundraising / sbírka
+la subvention (de recherche) — grant / financování
+la bourse (d'études) — stipendium
+le brevet — patent
+le droit d'auteur — autorské právo
+la propriété intellectuelle — duševní vlastnictví
+la marque déposée — ochranná známka
+la licence — licence
+la redevance / les droits d'auteur — licenční poplatek / tantiéma
+faire le point — udělat přehled situace / shrnout
+prendre une décision — přijmout rozhodnutí
+jouer cartes sur table — hrát s otevřenými kartami
+ne pas tourner autour du pot — nechodit kolem horké kaše
+regarder vers l'avenir — hledět do budoucnosti
+prendre du recul — udělat krok zpět / získat odstup
+avoir l'esprit ouvert — mít otevřenou mysl
+avoir du courage — mít odvahu
+garder la tête haute — držet hlavu vzhůru
+trouver un terrain d'entente — najít společnou řeč
+faire le premier pas — udělat první krok
+lire entre les lignes — číst mezi řádky
+relativiser — vidět věci s nadhledem
+faire fausse route — vydat se špatnou cestou
+pour être franc — upřímně řečeno
+à vrai dire — abych řekl/a pravdu
+tout bien considéré — celkově vzato
+dans un certain sens — v jistém smyslu
+quant à moi — pokud jde o mě
+cela dit — přesto / s tím řečeným
+bref / en bref — stručně řečeno / zkráceně
+pour le meilleur et pour le pire — v dobrém i zlém
+tôt ou tard — dříve nebo později
+plus ou moins — více méně
+de toute manière — v každém případě
+le niveau sonore — hladina hluku
+le volume (sonore) — hlasitost
+le son — zvuk
+le grincement — vrzání / skřípání
+le sifflement — syčení / pískání
+la sonnerie — zvonění
+la tonalité / la nuance — tón / odstín
+le silence — ticho
+le grondement / l'écho — dunění / ozvěna
+l'acoustique — akustika
+le projet architectural — architektonický projekt
+le plan — plán / návrh
+les fondations — základy (budovy)
+l'ossature — konstrukce / kostra
+le mur porteur — nosná zeď
+la façade — fasáda / průčelí
+la poutre — trám
+le pilier — pilíř
+l'arc — oblouk
+la coupole / le dôme — kupole
+la tour — věž
+la voûte — klenba
+la colonne — sloup
+le plan au sol — půdorys
+l'intérieur — interiér
+l'extérieur — exteriér
+l'esquisse / le croquis — skica / náčrt
+le maître d'ouvrage — klient / zadavatel
+l'architecte — architekt
+l'ingénieur en structure — statik
+le permis de construire — stavební povolení
+le plan d'urbanisme — územní plán
+le droit du travail — pracovní právo
+le droit pénal — trestní právo
+le droit civil — občanské právo
+le droit constitutionnel — ústavní právo
+le droit fiscal — daňové právo
+le droit des successions — dědické právo
+le droit du bail — nájemní právo
+le droit des contrats — smluvní právo
+la propriété littéraire — autorské právo (literární)
+l'avocat — advokát / právník
+le juge — soudce
+le procureur — státní zástupce
+le témoin — svědek
+l'accusé — obviněný / obžalovaný
+le plaignant — žalobce
+le verdict / le jugement — rozsudek
+la peine — trest
+l'amende (judiciaire) — pokuta
+le sursis — podmíněný trest
+la peine de prison — trest odnětí svobody
+le cabinet d'avocats — advokátní kancelář
+la clause — klauzule / ustanovení
+les petits caractères — malé písmo
+Dieu — Bůh
+la croyance religieuse — náboženské vyznání
+le christianisme — křesťanství
+l'islam — islám
+le judaïsme — judaismus
+l'hindouisme — hinduismus
+le bouddhisme — buddhismus
+la mosquée — mešita
+la synagogue — synagoga
+le temple — chrám
+le monastère — klášter
+le prêtre — kněz / duchovní
+l'imam — imám
+le rabbin — rabín
+le moine — mnich
+la religieuse — jeptiška
+le culte / l'office — bohoslužba
+la messe — mše
+l'oraison — modlitba (formální)
+la Bible — Bible
+le Coran — Korán
+la Torah — Tóra
+l'âme — duše
+l'esprit — duch
+la croyance — víra / přesvědčení
+le miracle — zázrak
+le saint — světec (m.)
+la sainte — světice (f.)
+le péché — hřích
+le pardon — odpuštění
+la grâce — milost
+le salut — spása
+le paradis — ráj
+l'enfer — peklo
+le purgatoire — očistec
+la réincarnation — reinkarnace
+le karma — karma
+le pèlerinage — pouť
+le jeûne — půst
+le baptême — křest
+la confirmation — biřmování / konfirmace
+la communion — přijímání
+la bénédiction — požehnání
+la résurrection — vzkříšení
+la création — stvoření
+le paradoxe — paradox
+la thèse — teze / tvrzení
+l'antithèse — antiteze
+la synthèse — syntéza
+le dilemme — dilema
+l'axiome — axiom
+l'hypothèse — hypotéza
+la prémisse — premisa
+la déduction — vyvození / dedukce
+l'analogie — analogie
+la métaphore — metafora
+l'addition — sčítání
+la soustraction — odčítání
+la multiplication — násobení
+la division — dělení
+la fraction — zlomek
+le nombre décimal — desetinné číslo
+le pourcentage — procento
+la racine carrée — druhá odmocnina
+la puissance — mocnina
+le logarithme — logaritmus
+l'équation — rovnice
+l'inéquation — nerovnice
+la fonction — funkce (matematická)
+la variable — proměnná
+la constante — konstanta
+l'angle — úhel
+la droite — přímka
+la courbe — křivka
+le cercle — kruh / kružnice
+le triangle — trojúhelník
+le carré — čtverec
+le pentagone — pětiúhelník
+le cube — krychle / kostka
+la sphère — koule
+le cylindre — válec
+le cône — kužel
+la statistique — statistika
+la probabilité — pravděpodobnost
+la moyenne — průměr
+la médiane — medián
+l'écart type — směrodatná odchylka
+le repère / le système de coordonnées — souřadnicový systém
+la pente (maths) — sklon / strmost
+l'intégrale — integrál
+la dérivée — derivace
+le spectre — spektrum
+la fréquence — frekvence
+la longueur d'onde — vlnová délka
+l'amplitude — amplituda
+l'oscillation — kmitání / oscilace
+la résonance — rezonance
+l'inertie — setrvačnost
+la quantité de mouvement — hybnost
+le frottement — tření
+la viscosité — viskozita
+la densité — hustota
+la pression — tlak
+la tension (électrique) — napětí (elektrické)
+la résistance (électrique) — odpor (elektrický)
+le circuit (électrique) — obvod (elektrický)
+le semi-conducteur — polovodič
+le transistor — tranzistor
+la puce électronique — mikročip
+la fibre optique — optická vlákna
+le laser — laser
+le GPS — GPS
+le satellite — satelit
+la base de données — databáze
+le serveur — server
+la cryptographie — šifrování / kryptografie
+le pare-feu — firewall
+le virus — virus (IT i biologický)
+le piratage — hackování
+l'adresse IP — IP adresa
+le haut débit — širokopásmový internet
+l'interface — rozhraní / interface
+le débogage — ladění / debugging
+le code — kód / program
+la syntaxe — syntaxe
+le compilateur — kompilátor
+le logiciel libre / l'open source — open source
+le cadriciel / le framework — framework
+l'API — API (rozhraní pro aplikace)
+la liste de courses — nákupní seznam
+le chariot / le caddie — nákupní vozík
+le panier — nákupní košík
+la caisse — pokladna
+le libre-service — samoobsluha
+le reçu — účtenka / stvrzenka
+le sac (de courses) — taška / sáček
+le sac en papier — papírová taška
+le sac en plastique — plastová taška
+le droit de rétractation — právo na vrácení zboží
+l'échange (d'un article) — výměna zboží
+les frais de port — poštovné / poplatek za dopravu
+la livraison — dodávka / doručení
+les achats en ligne — online nakupování
+le panier (en ligne) — košík (online)
+la commande — objednávka
+le numéro de commande — číslo objednávky
+le compte client — zákaznický účet
+l'avis client — hodnocení (zákaznické)
+le leader du marché — dominanta trhu / tržní lídr
+le discounter / le magasin discount — diskont
+le magasin spécialisé — specializovaný obchod
+le grand magasin — obchodní dům
+le centre commercial — obchodní centrum
+le marché hebdomadaire — týdenní trh / trhiště
+le magasin bio — bio obchod
+la friperie — second hand
+le marché aux puces / la brocante — bleší trh / bazar
+la vente aux enchères — aukce
+l'enchère — nabídka (aukce)
+le plus offrant — nejvyšší nabízející
+la liquidation — výprodej (likvidace)
+les articles de saison — sezónní zboží
+l'échantillon — vzorek
+le contrôle qualité — kontrola kvality
+la description du produit — popis produktu
+les caractéristiques techniques — technické parametry
+la compatibilité — kompatibilita
+le service après-vente — záruční servis
+l'assistance client — zákaznická podpora
+le numéro de réclamation — číslo reklamace
+le constat de dommage — záznam o poškození
+la pièce de rechange — náhradní díl
+l'entretien — údržba / servis
+l'inspection — inspekce / prohlídka
+la liste de contrôle — kontrolní seznam
+la liste de tâches — seznam úkolů
+la priorité — priorita
+la date limite / l'échéance — termín / deadline
+la ponctualité — dochvilnost / přesnost
+la prolongation — prodloužení
+le report — odsunutí / přesunutí
+l'annulation — zrušení
+la confirmation (d'une réservation) — potvrzení
+l'avis / l'annonce — upozornění / oznámení
+l'invitation — pozvání / pozvánka
+le refus — odmítnutí
+l'acceptation — přijetí / akceptace
+les pourparlers — vyjednávání / jednání
+l'offre de prix — cenová nabídka
+l'estimation — předběžná kalkulace / odhad
+le projet de contrat — návrh smlouvy
+la signature du contrat — podepsání smlouvy
+la ratification — ratifikace
+l'entrée en vigueur — vstoupení v platnost
+la résiliation — ukončení smlouvy / výpověď
+les dommages et intérêts — náhrada škody
+la somme assurée — pojistná částka
+le sinistre — pojistná událost
+la prime d'assurance — pojistné
+l'assureur — pojistitel
+l'assuré — pojištěný
+l'assurance maladie — zdravotní pojištění
+l'assurance retraite — důchodové pojištění
+l'assurance accident — úrazové pojištění
+la responsabilité civile — pojištění odpovědnosti
+l'assurance vie — životní pojištění
+l'assurance habitation — pojištění domácnosti
+l'assurance auto — pojištění vozidla
+la franchise — spoluúčast
+la prestation (d'assurance) — plnění
+l'abonnement — předplatné
+l'abonné — předplatitel
+la lettre d'information / la newsletter — newsletter
+la notification push — push upozornění
+la politique de confidentialité — prohlášení o ochraně osobních údajů
+les conditions d'utilisation — podmínky použití
+le cookie / le témoin de connexion — cookie (web.)
+le fil d'actualité — feed (sociální sítě)
+la publication — příspěvek (sociální sítě)
+le j'aime / le like — lajk / to se mi líbí
+le commentaire — komentář
+le partage — sdílení
+l'abonné (réseaux sociaux) — sledující
+l'influenceur — influencer
+le créateur de contenu — tvůrce obsahu
+le streaming — streamování
+le podcast / la baladodiffusion — podcast
+s'abonner — přihlásit se k odběru
+le clic — kliknutí
+l'impression (marketing) — zobrazení / imprese
+la portée — dosah (marketing)
+l'interaction — interakce
+l'engagement — angažovanost (marketing)
+la conversion — konverze (marketing)
+l'entonnoir de conversion — marketingový trychtýř
+le référencement (SEO) — SEO
+le tableau de bord — přehled / dashboard
+l'indicateur clé de performance — KPI (klíčový ukazatel výkonu)
+l'indicateur / la métrique — metrika
+le test A/B — A/B testování
+la maquette fonctionnelle — funkční prototyp
+l'utilisateur — uživatel
+l'expérience utilisateur — uživatelský zážitek / UX
+l'interface utilisateur — uživatelské rozhraní / UI
+la mise en page — rozvržení / layout
+la navigation — navigace
+le temps de chargement — doba načítání
+l'erreur 404 — chyba 404
+la panne de serveur — pád serveru
+le redémarrage — restart
+installer une mise à jour — nainstalovat aktualizaci
+la solution logicielle — softwarové řešení
+le flux de travail — pracovní postup / workflow
+la gestion de projet — projektový management
+la méthode agile — agilní metoda
+le sprint — sprint (projektové řízení)
+le scrum — scrum (metoda řízení)
+le kanban — kanban
+la rétrospective — retrospektiva
+le responsable produit — vlastník produktu
+le Scrum Master — Scrum Master
+la partie prenante — zainteresovaná strana
+la gestion des risques — řízení rizik
+l'assurance qualité — zajištění kvality
+la documentation — dokumentace
+la gestion de versions — správa verzí (kódu)
+le dépôt (de code) — repozitář
+le commit — commit (verze kódu)
+la branche — větev (Git)
+la fusion (Git) — sloučení (Git)
+le déploiement — nasazení (software)
+l'environnement de test — testovací prostředí
+l'environnement de production — produkční prostředí
+le bogue — chyba (v kódu)
+déboguer — ladit
+la revue de code — revize kódu
+la demande de fusion — žádost o sloučení kódu
+l'infrastructure informatique — IT infrastruktura
+la sécurité réseau — bezpečnost sítě
+la faille zero-day — zero-day zranitelnost
+l'e-mail d'hameçonnage — phishingový email
+l'authentification à deux facteurs — dvoufaktorové ověření
+l'authentification unique — jednotné přihlášení
+la fuite de données — únik dat
+l'usurpation d'identité — krádež identity
+le selfie / l'égoportrait — selfie
+la capture d'écran — screenshot / snímek obrazovky
+copier-coller — kopírovat-vložit
+glisser-déposer — přetáhnout a pustit
+faire défiler — rolovat / scrollovat
+balayer (l'écran) — přejet (prstem)
+toucher / appuyer — klepnout (na obrazovku)
+zoomer / dézoomer — přiblížit / oddálit
+l'écran tactile — dotykový displej
+le badge de notification — odznak notifikace
+l'écran d'accueil — domovská obrazovka
+l'écran de verrouillage — zamčená obrazovka
+le mode avion — režim letadlo
+ne pas déranger — nerušit
+le mode sombre — tmavý režim
+la police (de caractères) — písmo / font
+gras — tučné (písmo)
+italique — kurzíva
+souligné — podtržené
+le titre (de section) — nadpis / titulek
+le sous-titre (de section) — podnadpis
+la puce — odrážka
+le tableau (données) — tabulka
+le graphique — graf / diagram
+le schéma — diagram / schéma
+l'organigramme — vývojový diagram
+l'histogramme / le diagramme en barres — sloupcový graf
+le camembert (graphique) — koláčový graf
+le graphique linéaire — spojnicový graf
+le nuage de points — bodový graf
+la donnée — datový bod / údaj
+la tendance — trend
+la prévision — předpověď / prognóza
+la projection — projekce / prognóza
+le scénario (prospectif) — scénář
+l'étude de cas — případová studie
+le sondage / l'enquête — průzkum / anketa
+le questionnaire — dotazník
+la personne interrogée — respondent
+la taille de l'échantillon — velikost vzorku
+la marge d'erreur — chybová marže
+la corrélation — korelace
+la causalité — kauzalita / příčinná závislost
+le biais — zkreslení / předpojatost
+le groupe témoin — kontrolní skupina
+la variable (recherche) — proměnná (výzkum)
+la recherche qualitative — kvalitativní výzkum
+la recherche quantitative — kvantitativní výzkum
+l'enquête de terrain — terénní výzkum
+la recherche documentaire — rešerše
+les résultats (d'une étude) — zjištění / závěry (výzkumu)
+l'implication — důsledek / implikace
+les limites (d'une étude) — omezení (výzkumu)
+les recherches futures — další výzkum
+l'appareil digestif — trávicí trakt
+l'inflammation — zánět
+l'infection — infekce
+la bactérie — bakterie
+le champignon / la mycose — houba / plíseň (med.)
+le parasite — parazit
+l'immunité — imunita
+les anticorps — protilátky
+l'antigène — antigen
+les vaccins — vakcíny
+le groupe sanguin — krevní skupina
+la glycémie — krevní cukr / glykémie
+la thyroïde — štítná žláza
+l'hormone — hormon
+l'insuline — inzulin
+le diabète — cukrovka / diabetes
+la crise cardiaque / l'infarctus — infarkt
+l'AVC — mrtvice / mozková příhoda
+le cancer — rakovina
+la chimiothérapie — chemoterapie
+la radiothérapie — radioterapie
+la greffe / la transplantation — transplantace
+le donneur — dárce
+le receveur — příjemce
+le don du sang — dárcovství krve
+la réanimation — resuscitace / oživení
+l'arrêt cardiaque — zástava srdce
+la ventilation artificielle — umělá ventilace / dýchání
+le coma — kóma
+les soins intensifs / la réa — jednotka intenzivní péče
+le secouriste — záchranář
+l'hôpital psychiatrique — psychiatrická klinika
+la désintoxication — detoxikace
+l'aide aux toxicomanes — pomoc závislým
+le travailleur social — sociální pracovník
+l'aide-soignant / l'aide-soignante — pečovatel/ka
+la maison de retraite / l'EHPAD — domov pro seniory
+les soins à domicile — domácí péče
+les soins palliatifs — paliativní péče
+l'hospice / l'unité de soins palliatifs — hospic
+l'euthanasie — eutanazie
+l'embryon — embryo
+le fœtus — plod / fetus
+la grossesse — těhotenství
+l'accouchement — porod
+l'acte de naissance — rodný list
+le diagnostic prénatal — prenatální diagnostika
+la fausse couche — potrat (spontánní)
+l'avortement / l'IVG — potrat (umělý)
+la fécondation in vitro (FIV) — umělé oplodnění
+la recherche sur les cellules souches — výzkum kmenových buněk
+le clonage — klonování
+le conseil génétique — genetické poradenství
+le génome — genetická výbava / genom
+le chromosome — chromozom
+la mutation — mutace
+le phénotype — fenotyp
+le génotype — genotyp
+l'épigénétique — epigenetika
+l'hérédité — dědičnost
+le fossé générationnel — generační propast
+la différence d'âge — věkový rozdíl
+le mouvement de jeunesse — hnutí mládeže
+les droits civiques — občanská práva
+l'égalité des droits — rovnoprávnost
+le taux de participation — volební účast
+le député — poslanec
+le groupe parlementaire — poslanecký klub / frakce
+le mandat — mandát
+le parti d'opposition — opoziční strana
+le parti au pouvoir — vládní strana
+la loi de finances — zákon o státním rozpočtu
+le budget de l'État — státní rozpočet
+le plan de relance — stimulační balíček
+la politique monétaire — měnová politika
+la politique budgétaire — fiskální politika
+la banque centrale — centrální banka
+le taux directeur — základní úroková sazba
+lutter contre l'inflation — bojovat s inflací
+le pouvoir d'achat — kupní síla
+le produit intérieur brut — HDP (hrubý domácí produkt)
+l'essor économique — hospodářský rozmach
+la reprise — oživení / konjunktura
+le ralentissement — útlum / zpomalení
+la stagflation — stagflace
+le ratio dette/PIB — poměr dluhu k HDP
+les prestations sociales — sociální dávky
+l'allocation chômage — podpora v nezaměstnanosti
+les allocations familiales — přídavky na děti
+l'aide au logement / l'APL — příspěvek na bydlení
+le revenu universel — základní příjem
+le risque de pauvreté — ohrožení chudobou
+l'inégalité sociale — sociální nerovnost
+le salaire minimum / le SMIC — minimální mzda
+la négociation collective — kolektivní vyjednávání
+la convention collective — kolektivní smlouva
+l'enseignement professionnel — odborné vzdělávání
+l'apprentissage (en alternance) — učňovské vzdělávání
+le métier artisanal — řemeslo
+le maître artisan — mistr (řemeslný)
+le lycée professionnel — odborná škola
+la licence (diplôme) — bakalářský titul
+le master — magisterský titul / master
+le doctorat — doktorát
+le soutien à la recherche — podpora výzkumu
+la liberté académique — akademická svoboda
+les frais de scolarité — školné
+la nébulosité — oblačnost
+la chute brutale des températures — prudký pokles teploty
+la pression atmosphérique — atmosférický tlak
+l'humidité de l'air — vlhkost vzduchu
+le point de rosée — rosný bod
+la vitesse du vent — rychlost větru
+le mistral — mistral (studený severní vítr)
+l'alizé — pasát
+la mousson — monzun
+la tornade — tornádo / smršť
+le cyclone — cyklon
+l'ouragan — hurikán
+le typhon — tajfun
+la rafale (de vent) — poryv větru
+l'averse orageuse — bouřková přeháňka
+la foudre — blesk / úder blesku
+l'averse / la pluie torrentielle — průtrž mračen / prudký déšť
+la crue — povodeň / vzestup hladiny
+la sécheresse prolongée — dlouhotrvající sucho
+le niveau de l'eau — hladina vody
+l'eau de fonte — tajová voda
+la fonte des glaciers — tání ledovců
+le dérèglement climatique — změna klimatu
+les émissions de CO2 — emise CO2
+l'effet de serre — skleníkový efekt
+les énergies renouvelables — obnovitelná energie
+l'énergie éolienne — větrná energie
+le photovoltaïque — fotovoltaika
+l'énergie hydraulique — vodní energie
+la géothermie — geotermální energie
+l'énergie nucléaire — jaderná energie
+la centrale nucléaire — jaderná elektrárna
+le réacteur — reaktor
+le stockage des déchets nucléaires — likvidace jaderného odpadu
+le panneau solaire — solární panel
+l'éolienne — větrná elektrárna / větrník
+le stockage par batterie — bateriové úložiště
+le réseau intelligent — chytrá síť (elektřina)
+la transition énergétique — energetický přechod
+l'empreinte carbone — uhlíková stopa
+le recyclage du plastique — recyklace plastů
+le compostage — kompostování
+l'électromobilité — elektromobilita
+l'infrastructure de recharge — nabíjecí infrastruktura
+l'autocar — dálkový autobus
+le covoiturage — spolujízda
+la nuitée — přenocování
+la location de vacances — dovolenkový byt / apartmán
+le tourisme — turistika / cestovní ruch
+le patrimoine culturel — kulturní dědictví
+le patrimoine mondial de l'UNESCO — světové dědictví UNESCO
+le tour de ville — okružní jízda městem
+la visite commentée — prohlídka s výkladem
+le plan de la ville — mapa města
+l'office de tourisme — turistické informační centrum
+la carte d'embarquement — palubní lístek
+enregistrer ses bagages — odbavit zavazadlo
+le contrôle de sécurité — bezpečnostní kontrola
+le terminal — terminál
+le vol retardé — zpožděný let
+le vol de correspondance — navazující let
+l'assurance voyage — cestovní pojištění
+l'itinérance (roaming) — roaming (mobilní)
+l'argent de poche (pour le voyage) — cestovní peníze
+voyager sac au dos — cestování s batohem
+le tourisme culturel — kulturní turismus
+l'écotourisme — ekoturismus
+le tourisme d'aventure — dobrodružná turistika
+le tourisme de masse — masový turismus
+l'envie de voyager — touha po cestování / wanderlust
+le mal du pays — stesk po domově
+le choc culturel — kulturní šok
+la barrière de la langue — jazyková bariéra
+les habitants (locaux) — místní obyvatelé
+l'heure de pointe — dopravní špička
+l'embouteillage / le bouchon — dopravní zácpa
+le périphérique / la rocade — obchvat / okruh
+l'horodateur — parkovací automat
+la zone piétonne — pěší zóna
+le passage piéton — přechod pro chodce
+les feux de circulation — světelná signalizace
+la piste cyclable — cyklostezka
+le trottoir — chodník
+le passage souterrain — podchod
+le tunnel — tunel
+le péage — mýtné / poplatek
+la vignette autoroutière — dálniční známka
+l'examen du permis — zkouška z jízdy
+l'auto-école — autoškola
+le procès-verbal (PV) — výměr pokuty
+le contrôle technique — technická prohlídka
+l'assistance dépannage — pomoc při poruše
+la dépanneuse — odtahový vůz
+le GPS / le navigateur — navigace / GPS
+le code de la route — pravidla silničního provozu
+la priorité (à droite) — přednost v jízdě (zprava)
+doubler — předjíždět
+la vitesse maximale autorisée — nejvyšší povolená rychlost
+le régulateur de vitesse — tempomat
+la ceinture — pás (bezpečnostní)
+l'airbag / le coussin gonflable — airbag
+la boîte de vitesses — převodovka
+le pot d'échappement — výfuk
+le frein — brzda
+le frein à main — ruční brzda
+le volant — volant
+le rétroviseur — zpětné zrcátko
+le rétroviseur extérieur — boční zpětné zrcátko
+l'essuie-glace — stěrač
+le coffre — kufr auta
+le capot — kapota
+la plaque d'immatriculation — registrační značka
+la pression des pneus — tlak v pneumatikách
+la roue de secours — rezervní kolo / rezerva
+l'accident de la route — dopravní nehoda
+le lieu de l'accident — místo nehody
+le constat amiable — záznam o dopravní nehodě
+les dégâts matériels — věcná škoda
+les dommages corporels — újma na zdraví
+la responsabilité (juridique) — ručení / odpovědnost (právní)
+la demande d'indemnisation — pojistný nárok
+la déclaration de sinistre — hlášení škody
+l'expert — znalec / odhadce
+l'expertise — znalecké posouzení
+l'interdiction de conduire — zákaz řízení
+le retrait de permis — odebrání řidičského průkazu
+l'alcootest — test na alkohol
+le taux d'alcoolémie — hranice promile
+l'amende administrative — pokuta (správní)
+la contravention (papier) — pokutový lístek
+le radar — radar / měření rychlosti
+la contestation / le recours — námitka / odvolání
+l'insolvabilité — insolvence / úpadek
+la faillite — bankrot / konkurs
+la liquidation (judiciaire) — likvidace (firmy)
+l'administrateur judiciaire — insolvenční správce
+les créanciers — věřitelé
+le débiteur — dlužník
+le remboursement de la dette — splácení dluhu
+la mensualité — měsíční splátka
+l'échéancier — splátkový kalendář
+la vérification de solvabilité — prověření bonity
+la solvabilité — bonita / úvěruschopnost
+le découvert autorisé — kontokorent / povolené přečerpání
+le compte-titres — účet pro cenné papíry
+l'action (bourse) — akcie
+l'obligation (finance) — dluhopis
+le fonds d'investissement — fond (investiční)
+l'ETF / le fonds indiciel coté — ETF (burzovně obchodovaný fond)
+le dividende — dividenda
+le cours de l'action — cena akcie / kurz
+la Bourse — burza
+le courtier — broker / makléř
+la transaction — transakce
+la commission — provize
+l'impôt sur les plus-values — daň z kapitálových výnosů
+la déclaration d'impôts — daňové přiznání
+le centre des impôts / le fisc — finanční úřad
+le conseiller fiscal — daňový poradce
+la clôture annuelle — roční uzávěrka
+la comptabilité — účetnictví
+le chiffre d'affaires — obrat / tržby
+la marge brute — hrubý zisk
+le bénéfice net — čistý zisk
+l'amortissement — odpis / amortizace
+la provision / la réserve — rezerva (finanční)
+les capitaux propres — vlastní kapitál
+les capitaux empruntés — cizí kapitál
+la liquidité — likvidita
+la solvabilité financière — solventnost
+la trésorerie / le flux de trésorerie — cashflow / peněžní tok
+l'EBITDA — EBITDA
+le retour sur investissement — návratnost investic
+la marge — marže
+le segment de marché — tržní segment
+la clientèle cible — cílová klientela
+la saturation du marché — nasycení trhu
+l'entrée sur le marché — vstup na trh
+la stratégie commerciale — tržní strategie
+la stratégie de prix — cenová strategie
+le produit haut de gamme — prémiový produkt
+la marque de distributeur — vlastní značka
+l'assortiment — sortiment / výběr zboží
+la gestion des stocks — řízení zásob
+le prestataire — poskytovatel / dodavatel
+l'approvisionnement — zásobování / nákup
+l'acheteur (professionnel) — nákupčí
+le directeur commercial — ředitel prodeje
+la satisfaction client — spokojenost zákazníků
+la fidélisation de la clientèle — věrnost zákazníků
+la prospection — získávání nových zákazníků
+le parrainage — doporučení (nového zákazníka)
+le bouche-à-oreille — ústní doporučení
+la notoriété de la marque — povědomí o značce
+l'identité visuelle — firemní identita
+la culture d'entreprise — firemní kultura
+la mission — poslání / mise
+la vision — vize
+la stratégie d'entreprise — firemní strategie
+le cœur de métier — klíčová kompetence
+l'appel d'offres — výběrové řízení / tendr
+soumissionner — podat nabídku
+l'attribution du marché — přidělení zakázky
+les conditions de livraison — dodací podmínky
+la lettre de voiture — nákladní list
+les droits de douane — clo
+la TVA à l'importation — dovozní DPH
+l'embargo commercial — obchodní embargo
+les sanctions économiques — hospodářské sankce
+le libre-échange — volný obchod
+l'accord de libre-échange — dohoda o volném obchodu
+l'union douanière — celní unie
+le marché unique — vnitřní / společný trh
+les relations commerciales — obchodní vztahy
+l'importateur — dovozce
+l'exportateur — vývozce
+l'agent commercial — obchodní zástupce
+le registre du commerce — obchodní rejstřík
+la SARL — společnost s ručením omezeným (s.r.o.)
+la société anonyme (SA) — akciová společnost (a.s.)
+l'auto-entrepreneur — živnostník / fyzická osoba
+la société en nom collectif — veřejná obchodní společnost
+la coopérative — družstvo
+l'association (loi 1901) — spolek / sdružení
+la fondation — nadace
+l'immatriculation (d'entreprise) — živnostenské oprávnění / registrace
+le business plan / le plan d'affaires — podnikatelský plán
+l'étude de marché — analýza trhu
+l'analyse SWOT — SWOT analýza
+l'analyse de la concurrence — analýza konkurence
+la proposition de valeur unique — unikátní prodejní argument
+la valeur ajoutée — přidaná hodnota
+l'identité de marque — identita značky
+les valeurs fondamentales — klíčové hodnoty firmy
+l'animal de compagnie — domácí zvíře / mazlíček
+le hamster — křeček
+le cochon d'Inde — morče
+le lapin nain — zakrslý králík
+le perroquet — papoušek
+la perruche — andulka
+la tortue — želva
+le poisson rouge — zlatá rybička
+la souris (animal) — myš
+le rat — potkan
+le gecko — gekon
+la guêpe — vosa
+le frelon — sršeň
+la libellule — vážka
+le scarabée — brouk
+la coccinelle — beruška
+le ver de terre — žížala
+le mille-pattes — stonožka
+le crabe — krab
+le coquillage / la moule — mušle / slávka
+la pieuvre / le poulpe — chobotnice
+le dauphin — delfín
+la baleine — velryba
+le requin — žralok
+le pingouin / le manchot — tučňák
+l'autruche — pštros
+l'aigle — orel
+le faucon — sokol
+le colibri — kolibřík
+la chouette / le hibou — sova
+la cigogne — čáp
+l'hirondelle — vlaštovka
+le pic — datel
+le paon — páv
+le flamant rose — plameňák
+le rhinocéros — nosorožec
+l'hippopotame — hroch
+la girafe — žirafa
+le zèbre — zebra
+le gorille — gorila
+le chimpanzé — šimpanz
+le guépard — gepard
+le jaguar — jaguár
+la panthère — panter
+l'amphibien — obojživelník
+la grenouille — žába
+le crapaud — ropucha
+la salamandre — mlok
+le crocodile — krokodýl
+le lézard — ještěrka
+établir la confiance — budovat důvěru
+soutenir quelqu'un — podporovat někoho
+poser des limites — nastavovat hranice
+présenter ses excuses — omluvit se
+avoir mauvaise conscience — mít špatné svědomí
+pardonner à quelqu'un — odpustit někomu
+dissiper un malentendu — vyjasnit nedorozumění
+communiquer ouvertement — otevřeně komunikovat
+faire des compromis — dělat kompromisy
+être là l'un pour l'autre — být tu jeden pro druhého
+compter sur — spolehnout se na
+grandir ensemble — společně růst
+renforcer le lien — posilovat pouto
+respecter les limites — respektovat hranice
+exprimer ses sentiments — vyjadřovat pocity
+écouter sans juger — naslouchat bez odsuzování
+faire preuve de compréhension — projevit porozumění
+exprimer sa reconnaissance — projevit ocenění
+encourager quelqu'un — povzbudit někoho
+l'humeur — nálada
+excité — vzrušený / nabuzený
+enthousiaste — nadšený
+soulagé — ulehčený
+reconnaissant — vděčný
+fier — hrdý
+coupable — provinilý
+honteux — zahanbený
+gêné / embarrassé — rozpačitý
+envieux — závistivý
+jaloux — žárlivý
+curieux — zvědavý
+impatient (état) — netrpělivý
+détendu — uvolněný / relaxovaný
+épuisé — vyčerpaný
+serein — klidný / vyrovnaný
+inquiet — znepokojený / starostlivý
+être déçu — být zklamaný
+être débordé — být přetížený / nezvládat
+être bien dans sa peau — cítit se dobře / být ve své kůži
+je me fais du souci — dělám si starosti
+je suis à bout — jsem na dně / jsem vyčerpaný
+ça me tient à cœur — záleží mi na tom
+ça me trotte dans la tête — vrtá mi to hlavou
+je suis partagé — jsem rozpolcený
+ça fait mal — to bolí (přen.)
+ça me donne du courage — to mi dodává odvahu
+je me sens compris — cítím se pochopen
+je suis de tout cœur avec toi — stojím za tebou
+tu peux compter sur moi — můžeš na mě počítat
+je suis là pour toi — jsem tu pro tebe
+tout ira bien — všechno bude v pořádku
+courage ! / tiens bon ! — hlavu vzhůru / vydrž
+ne pas abandonner — nevzdávat se
+continue comme ça — tak dál / pokračuj tak
+bien joué — dobře uděláno
+je suis fier de toi — jsem na tebe hrdý/á
+la routine du matin — ranní rutina
+la sieste — odpolední šlofík / zdřímnutí
+le petit somme — zdřímnutí / krátký spánek
+la fin de la journée de travail — konec pracovní doby
+la pause / le temps libre — oddech / pauza / volný čas
+profiter du week-end — užívat si víkend
+essayer quelque chose de nouveau — zkusit něco nového
+faire une promenade — jít na procházku
+être au grand air — být na čerstvém vzduchu
+profiter de la nature — užívat si přírodu
+savourer le silence — užívat si ticho
+prendre son temps — dopřát si čas
+se ressourcer — dojít k odpočinku / načerpat síly
+affiner sa perception — zostřit vnímání
+savourer l'instant — vychutnat okamžik
+vivre l'instant présent — žít tady a teď
+fixer des priorités — stanovit priority
+reconnaître l'essentiel — rozpoznat podstatné
+lâcher prise — umět pustit / nechat být
+rester fidèle à soi-même — zůstat sám sobě věrný
+l'équilibre intérieur — vnitřní rovnováha
+la force intérieure — vnitřní síla
+la bienveillance envers soi-même — soucit se sebou samým
+prendre soin de soi — péče o sebe
+l'épanouissement — rozkvět / prospívání
+développer son potentiel — rozvíjet potenciál
+la croissance personnelle — osobní růst
+les objectifs de vie — životní cíle
+le sens de la vie — smysl života
+trouver l'épanouissement — najít naplnění
+être sur la bonne voie — být na správné cestě
+pas à pas — krok za krokem
+chaque jour compte — každý den se počítá
+profiter de la vie — užívat si života
+être reconnaissant pour — být vděčný za
+voir le bon côté des choses — vidět pozitivní stránku
+la force de l'habitude — síla zvyku
+oser le changement — odvážit se změny
+aller de l'avant avec courage — odvážně jít vpřed

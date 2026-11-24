@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # ================================================================
 # slovicka-interaktivni.sh
-# Interaktivní procvičování slovíček s TTS v plovoucím okně kitty
-# Použití: ./slovicka-interaktivni.sh [jazyk] [--swap|--orig] [--neznama] [--bez-frazi] [--pruhledne] [--bez-sumu]
+# Interaktivní procvičování slovíček s TTS v průhledném okně (slovicka-view.py)
+# Použití: ./slovicka-interaktivni.sh [jazyk] [--swap|--orig] [--neznama] [--bez-frazi] [--bez-sumu] [--intro]
 # ================================================================
 
 # Bez grafické relace (cron, systemd) by mpv nenašel PipeWire
@@ -28,6 +28,16 @@ JEN_NEZNAMA=0
 BEZ_FRAZI=0
 # 1 = bez tichého šumu na pozadí (--bez-sumu)
 BEZ_SUMU=0
+# 1 = před procvičováním intro s obrázkem a hudbou (--intro)
+INTRO=0
+
+# Stav aktuálního slovíčka (čtení běží na pozadí, klávesy se obsluhují mezitím)
+AKT_RADEK=""
+AKT_JAZYK=""
+AKT_OZNACENO=0
+# Odpověď zadaná už během čtení ([Enter]/[n]/[q]); ODPOVED_ZADANA=1 = platí
+ODPOVED=""
+ODPOVED_ZADANA=0
 
 # ── Funkce ──────────────────────────────────────────────────────
 
@@ -41,17 +51,20 @@ _pouziti() {
     echo "  --orig, -o      Nejdříve originál, pak česky (bez dotazu)"
     echo "  --neznama, -u   Procvičit jen dříve neznámá slovíčka"
     echo "  --bez-frazi     Nezobrazovat a nečíst vzorové fráze"
-    echo "  --pruhledne, -t Průhledné okno ve stylu poznámek (pozt) místo kitty"
     echo "  --bez-sumu      Bez tichého šumu na pozadí (drží BT reproduktor vzhůru)"
+    echo "  --intro, intro  Před procvičováním ${INTRO_DELKA} s úvodní obrázek s hudbou, pak ${INTRO_PAUZA} s pauza"
     echo ""
     echo "Ovládání v okně: [Enter] znám · [n] neznám · [z] zopakovat slovíčko · [x] chybná fráze · [q] konec"
     exit "${1:-0}"
 }
 
 _uklid() {
+    rm -f "$TOKEN_SOUBOR"     # nespotřebovaný aktivační token (zrušená nabídka)
+    _intro_zastav
     _pozadi_zastav
+    _signal_tts CONT
+    _signal_tts TERM
     _uklid_tts
-    _okno_zavrit
 }
 
 _zobraz_slovicko() {
@@ -81,14 +94,94 @@ _zobraz_slovicko() {
     clear
     _vypis_kartu "$titulek" "$nazev" "$prvni" "$druhy" "$fraze" "$fraze_cs"
 
-    _tts_reci "$prvni" "$prvni_jazyk"
-    sleep "$PAUZA_PO_ORIG"
-    _tts_reci "$druhy" "$druhy_jazyk"
-    if [[ -n "$fraze" ]]; then
-        sleep "$PAUZA_PRED_FRAZI"
-        _tts_reci "$fraze" "$jazyk"
+    _precti "$prvni" "$prvni_jazyk" "$druhy" "$druhy_jazyk" "$fraze" "$jazyk"
+}
+
+# Přehraje aktuální slovíčko znovu (karta zůstává)
+_precti_znovu() {
+    local radek="$1" jazyk="$2" swap="$3"
+    local orig="${radek%% — *}" cz="${radek#* — }" fraze=""
+    [[ "$BEZ_FRAZI" == "0" ]] && fraze="${FRAZE[$radek]:-}"
+    if [[ "$swap" == "1" ]]; then
+        _precti "$cz" cs "$orig" "$jazyk" "$fraze" "$jazyk"
+    else
+        _precti "$orig" "$jazyk" "$cz" cs "$fraze" "$jazyk"
     fi
-    sleep "$PAUZA_PO_CZ"
+}
+
+# ── Nápověda a klávesy ──────────────────────────────────────────
+# _napoveda stav — stav: cte (právě se čte), pauza, ceka (dočteno, čeká se na odpověď)
+_napoveda() {
+    local stav="$1" t v
+    case "$stav" in
+        pauza) t="\e[1;33m⏸ pauza\e[0;90m · [␣] dál"; v="*⏸ Pauza* · [mezera] play" ;;
+        cte)   t="[␣] pauza"; v="[mezera] pauza" ;;
+        *)     t="[␣] znovu"; v="[mezera] play" ;;
+    esac
+    # terminál: zkráceně, aby se vešla i do úzkého terminálu
+    t+=" · [⏎] znám · [n] neznám"
+    v+=" · [Enter] znám · [n] neznám · [z] znovu"
+    if [[ -n "${FRAZE[$AKT_RADEK]:-}" ]]; then
+        if (( AKT_OZNACENO )); then
+            t+=" · \e[1;31m✗\e[0;90m"; v+=" · *✗ fráze označena*"
+        else
+            t+=" · [x] chyba"; v+=" · [x] chybná fráze"
+        fi
+    fi
+    _view NAPOVEDA "$v · [q] konec"
+    printf '\r\e[K\e[0;90m%b · [q] konec\e[0m' "$t"
+}
+
+_oznac() {
+    (( ! AKT_OZNACENO )) && _oznac_chybnou "$AKT_JAZYK" "$AKT_RADEK" && AKT_OZNACENO=1
+    return 0
+}
+
+# Přečte slovíčko, překlad a frázi na pozadí a mezitím obsluhuje klávesy:
+#   [mezera] pauza / pokračovat · [z] od začátku · [x] chybná fráze
+#   [Enter] / [n] / [q] odpověď hned (čtení se přeruší) → ODPOVED, ODPOVED_ZADANA=1
+_precti() {
+    local prvni="$1" prvni_jazyk="$2" druhy="$3" druhy_jazyk="$4" fraze="$5" jazyk="$6"
+    local klavesa pozastaveno znovu
+    while :; do
+        (
+            trap _uklid_tts EXIT       # podproces nedědí trapy hlavního skriptu
+            _tts_reci "$prvni" "$prvni_jazyk"
+            sleep "$PAUZA_PO_ORIG"
+            _tts_reci "$druhy" "$druhy_jazyk"
+            if [[ -n "$fraze" ]]; then
+                sleep "$PAUZA_PRED_FRAZI"
+                _tts_reci "$fraze" "$jazyk"
+            fi
+            sleep "$PAUZA_PO_CZ"
+        ) </dev/null 2>/dev/null &     # 2>/dev/null: bez hlášky „Terminated“
+        TTS_PID=$!
+        pozastaveno=0 znovu=0
+        _napoveda cte
+        while kill -0 "$TTS_PID" 2>/dev/null; do
+            IFS= read -r -t 0.1 klavesa
+            case $? in
+                0) ;;
+                1) klavesa=q ;;                 # konec vstupu (zavřené okno)
+                *) continue ;;                  # vypršel čas, nic nestisknuto
+            esac
+            case "${klavesa,,}" in
+                " ")
+                    if (( pozastaveno )); then
+                        _signal_tts CONT; pozastaveno=0; _napoveda cte
+                    else
+                        _signal_tts STOP; pozastaveno=1; _napoveda pauza
+                    fi ;;
+                z) znovu=1; _signal_tts CONT; _signal_tts TERM ;;
+                x) _oznac; _napoveda "$( (( pozastaveno )) && echo pauza || echo cte)" ;;
+                *) ODPOVED="$klavesa"; ODPOVED_ZADANA=1
+                   _signal_tts CONT; _signal_tts TERM ;;
+            esac
+        done
+        wait "$TTS_PID" 2>/dev/null
+        TTS_PID=""
+        (( znovu )) || return 0       # [z]: číst znovu od začátku
+    done
 }
 
 # Uloží výsledky kola: neznámá přidá do neznama_<jazyk>.txt,
@@ -118,35 +211,23 @@ _kolo() {
 
     local i=1 radek odpoved
     for radek in "${pole_slov[@]}"; do
+        AKT_RADEK="$radek" AKT_JAZYK="$jazyk" AKT_OZNACENO=0 ODPOVED_ZADANA=0
         _zobraz_slovicko "$radek" "$jazyk" "$swap" "$i" "$celkem"
 
-        # [z] přehraje slovíčko znovu, [x] označí frázi jako chybnou; pak se čeká dál
-        local oznaceno=0 napoveda napoveda_view
+        # Dočteno: čeká se na odpověď. [mezera] / [z] přehraje slovíčko znovu,
+        # [x] označí frázi jako chybnou; pak se čeká dál.
         while :; do
-            # terminál: max. ~54 znaků, okno kitty má jen 58 sloupců
-            napoveda="[⏎] znám · [n] neznám · [z] znovu"
-            napoveda_view="[Enter] znám · [n] neznám · [z] znovu"
-            if [[ -n "${FRAZE[$radek]:-}" ]]; then
-                if (( oznaceno )); then
-                    napoveda+=" · \e[1;31m✗ označeno\e[0;90m"
-                    napoveda_view+=" · *✗ fráze označena*"
-                else
-                    napoveda+=" · [x] chyba"
-                    napoveda_view+=" · [x] chybná fráze"
-                fi
+            if (( ODPOVED_ZADANA )); then        # odpověď přišla už během čtení
+                odpoved="$ODPOVED"; ODPOVED_ZADANA=0
+            else
+                _napoveda ceka
+                IFS= read -r odpoved || odpoved=q      # konec vstupu (zavřené okno)
             fi
-            _view NAPOVEDA "$napoveda_view · [q] konec"
-            printf '\r\e[K\e[0;90m%b · [q] konec\e[0m' "$napoveda"
-            read -r odpoved || odpoved=q      # konec vstupu (zavřené okno)
-            if [[ "${odpoved,,}" == "z" ]]; then
-                _zobraz_slovicko "$radek" "$jazyk" "$swap" "$i" "$celkem"
-                continue
-            fi
-            [[ "${odpoved,,}" == "x" ]] || break
-            if (( ! oznaceno )) && _oznac_chybnou "$jazyk" "$radek"; then
-                oznaceno=1
-            fi
-            printf '\e[1A'     # zpět na řádek s nápovědou (Enter posunul kurzor)
+            case "${odpoved,,}" in
+                " "|z) _precti_znovu "$radek" "$jazyk" "$swap"; continue ;;
+                x) _oznac; printf '\e[1A'; continue ;;   # zpět na řádek s nápovědou
+            esac
+            break
         done
 
         case "${odpoved,,}" in
@@ -195,7 +276,7 @@ trap _na_preruseni INT TERM HUP    # HUP = zavřené okno
 trap _uklid EXIT
 
 main() {
-    local jazyk="" swap="0" poradi_zadano="0" pruhledne="${SLOVICKA_PRUHLEDNE:-0}" arg
+    local jazyk="" swap="0" poradi_zadano="0" arg
 
     for arg in "$@"; do
         case "$arg" in
@@ -203,8 +284,9 @@ main() {
             --orig|-o) swap="0"; poradi_zadano="1" ;;
             --neznama|-u) JEN_NEZNAMA=1 ;;
             --bez-frazi) BEZ_FRAZI=1 ;;
-            --pruhledne|-t) pruhledne="1" ;;
+            --pruhledne|-t) ;;   # dřív volba průhledného okna, teď výchozí
             --bez-sumu) BEZ_SUMU=1 ;;
+            --intro|intro) INTRO=1 ;;
             -h|--help) _pouziti 0 ;;
             *)
                 if _je_jazyk "$arg"; then
@@ -240,23 +322,20 @@ main() {
         [[ -f "$soubor" ]] || _chyba "Soubor nenalezen: $soubor"
     fi
 
-    # Mimo okno: otevřít okno (průhledné nebo kitty) a spustit procvičování v něm
+    # Mimo okno: otevřít průhledné okno a spustit procvičování v něm
     local -a argumenty=("$jazyk")
     if [[ "$swap" == "1" ]]; then argumenty+=(--swap); else argumenty+=(--orig); fi
     [[ "$JEN_NEZNAMA" == "1" ]] && argumenty+=(--neznama)
     [[ "$BEZ_FRAZI" == "1" ]] && argumenty+=(--bez-frazi)
     [[ "$BEZ_SUMU" == "1" ]] && argumenty+=(--bez-sumu)
-    if [[ "$pruhledne" == "1" ]] && _lze_pruhledne; then
-        _spust_pruhledne radky "${argumenty[@]}"
+    [[ "$INTRO" == "1" ]] && argumenty+=(--intro)
+    if _lze_otevrit_okno; then
+        _spust_v_okne radky "${argumenty[@]}"
         trap - EXIT
         exit 0
     fi
-    if _lze_otevrit_okno; then
-        _spust_v_okne "${argumenty[@]}"
-        trap - EXIT     # spouštěč nesmí zavřít okno, které právě otevřel
-        exit 0
-    fi
 
+    [[ "$INTRO" == "1" ]] && _intro_spust
     [[ "$BEZ_FRAZI" == "0" ]] && _nacti_fraze "$jazyk"
     _pozadi_spust "$BEZ_SUMU"
 
