@@ -348,6 +348,19 @@ Trvalé nastavení dej do `~/.zshrc` (`export SLOVICKA_SUM_BARVA=pink`). Šum ge
 
 [`rozbor-skriptu.md`](rozbor-skriptu.md) – výklad skriptů pro učení bashe ve čtyřech částech: původní verze s technikami a cvičeními, opravy slabých míst (kód před/po), rozšíření o fráze, ovládání klávesami a generátory frází, a současná verze (GTK okno přes `uv`, intro, play/pauza, nabídka a fokus v libovolném Wayland prostředí, jak se testovalo). Cvičení mají řešení v rozbalovacích blocích.
 
+## Kde pokračovat (stav k 24. 11. 2026)
+
+**Hotovo:** učení napříč 7 jazyky, rozhraní v 7 jazycích, slovník pojmů a všechny věty a překlady (commit `e19afcf`, vše pushnuto; dotfiles s aliasy `jaz` a `fex` také pushnuté).
+
+**Další krok – propagační video na YouTube:**
+
+- Skript: `~/Projects/PythonSkripty/intro_jazyky.py` (popis v `~/Projects/PythonSkripty/README.md`, sekce *Propagační video k Jazykům*). Natočí jedno video: nejdřív anglická verze, pak česká, nahrává monitor DP-2 přes `wf-recorder` i se zvukem.
+- Postup:
+  1. `./intro_jazyky.py --bez-nahravani` – celá zkouška bez záznamu (~6 min); během ní nesahat na klávesnici ani myš.
+  2. Zkontrolovat, že všechny klávesy došly (skript vypíše `! klávesa … neodeslána`, když okno nemělo fokus) a že časování ukázek sedí (případně `--tempo`, `--zoom`).
+  3. `./intro_jazyky.py` – ostré natáčení → `~/Videos/jazyky-intro-en-cs-<datum>.mp4`.
+- Ověřeno zatím: záznam DP-2 se zvukem, titulky obou verzí (snímky obrazovky), obnova nastavení a neznámých slovíček po ukázce. **Neověřeno:** celý běh s ukázkami po poslední úpravě (návrat fokusu přes `niri msg action focus-window`).
+
 ## Git
 
 Veřejný repozitář: https://github.com/navik61/jazyky (větev `master`). Uložení změn:
