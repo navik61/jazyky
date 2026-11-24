@@ -80,6 +80,29 @@ KLAVESY = {"space": " ", "z": "z", "Z": "z", "x": "x", "X": "x", "n": "n", "N": 
            "q": "q", "Q": "q", "Escape": "q", "Return": "", "KP_Enter": ""}
 
 
+def nacti_texty():
+    """Texty rozhraní z locale/<SLOVICKA_LOCALE>.tsv (chybějící klíče z angličtiny)."""
+    texty = {}
+    adresar = os.path.join(os.path.dirname(os.path.realpath(__file__)), "locale")
+    for kod in ("en", os.environ.get("SLOVICKA_LOCALE", "en")):
+        try:
+            with open(os.path.join(adresar, f"{kod}.tsv"), encoding="utf-8") as f:
+                for radek in f:
+                    if radek.strip() and not radek.startswith("#") and "\t" in radek:
+                        klic, text = radek.rstrip("\n").split("\t", 1)
+                        texty[klic] = text
+        except OSError:
+            pass
+    return texty
+
+
+TEXTY = nacti_texty()
+
+
+def t(klic):
+    return TEXTY.get(klic, klic)
+
+
 def esc(text):
     return GLib.markup_escape_text(text or "")
 
@@ -132,7 +155,7 @@ class Intro(Gtk.Window):
 
     def __init__(self, karta, cesta, sirka):
         super().__init__(transient_for=karta, decorated=False, resizable=False)
-        self.set_title("Slovíčka – intro")
+        self.set_title(f"{t('app')} – intro")
         self.karta = karta
         # Obrázek zmenšit předem: okno bez změny velikosti má přirozenou velikost obsahu,
         # a ta by jinak byla rozměr fotky (1920×1080)
@@ -171,7 +194,7 @@ class Intro(Gtk.Window):
 class Karta(Gtk.ApplicationWindow, Styl):
     def __init__(self, app, rezim, prikaz):
         super().__init__(application=app, decorated=False, resizable=False)
-        self.set_title("Slovíčka")
+        self.set_title(t("app"))
         self.rezim = rezim
         self.nacti_styl()
         self.obsah, self.napoveda = "", ""
@@ -189,7 +212,7 @@ class Karta(Gtk.ApplicationWindow, Styl):
         self.plocha.add_controller(tazeni)
         self.connect("close-request", self.zavrit)
 
-        self.zprava("Slovíčka", "Načítám…")
+        self.zprava(t("app"), t("view.nacitam"))
         self.spust(prikaz)
 
     # ── Skript ───────────────────────────────────────────────────
@@ -333,7 +356,7 @@ class Vyber(Gtk.ApplicationWindow, Styl):
 
     def __init__(self, app, vyzva, polozky, vysledek):
         super().__init__(application=app, decorated=False, resizable=False)
-        self.set_title(f"Slovíčka – {vyzva}")
+        self.set_title(f"{t('app')} – {vyzva}")
         self.nacti_styl()
         self.vyzva, self.polozky, self.vysledek = vyzva, polozky, vysledek
         self.zvolena = 0
@@ -360,8 +383,7 @@ class Vyber(Gtk.ApplicationWindow, Styl):
                                f'▶ {cislo}{esc(text)}</span>')
             else:
                 polozky.append(f'<span {self.velikost(14)}>   {cislo}{esc(text)}</span>')
-        napoveda = (f'<span {self.velikost(10)} alpha="60%">[↑↓] výběr · [Enter] potvrdit · '
-                    f'[1–9] rovnou · [Esc] zrušit</span>')
+        napoveda = f'<span {self.velikost(10)} alpha="60%">{esc(t("view.vyber_napoveda"))}</span>'
         return hlavicka, polozky, napoveda
 
     def rozvrh(self):

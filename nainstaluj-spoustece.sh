@@ -16,24 +16,36 @@ fi
 
 mkdir -p "$cil"
 
-# $1 = soubor, $2 = název, $3 = popis, $4 = argumenty spouštěče
+# Text z locale/<kód>.tsv: _text kód klíč
+_text() { sed -n "s/^$2\t//p" "$adresar/locale/$1.tsv" 2>/dev/null | head -n1; }
+
+# $1 = soubor, $2 = klíč názvu, $3 = klíč popisu, $4 = argumenty spouštěče
+# Výchozí texty anglicky, přeložené jako Name[cs]=… atd. (prostředí vybere podle jazyka systému)
 _zapis() {
-    cat > "$cil/$1" <<EOF
-[Desktop Entry]
-Type=Application
-Name=$2
-Comment=$3
-Exec="$adresar/slovicka.sh"${4:+ $4}
-Icon=accessories-dictionary
-Terminal=false
-Categories=Education;Languages;
-Keywords=jazyky;slovicka;procvičování;němčina;angličtina;italština;francouzština;španělština;ruština;vocabulary;
-StartupNotify=true
-EOF
-    echo "Vytvořeno: $cil/$1"
+    local kod
+    {
+        echo "[Desktop Entry]"
+        echo "Type=Application"
+        echo "Name=$(_text en "$2")"
+        echo "Comment=$(_text en "$3")"
+        for kod in cs de it fr es ru; do
+            echo "Name[$kod]=$(_text "$kod" "$2")"
+            echo "Comment[$kod]=$(_text "$kod" "$3")"
+        done
+        echo "Exec=\"$adresar/slovicka.sh\"${4:+ $4}"
+        echo "Icon=accessories-dictionary"
+        echo "Terminal=false"
+        echo "Categories=Education;Languages;"
+        echo "Keywords=$(_text en desktop.klicova)slovicka;"
+        for kod in cs de it fr es ru; do
+            echo "Keywords[$kod]=$(_text "$kod" desktop.klicova)$(_text en desktop.klicova)slovicka;"
+        done
+        echo "StartupNotify=true"
+    } > "$cil/$1"
+    echo "→ $cil/$1"
 }
 
-_zapis cz.slovicka.desktop "Slovíčka" "Interaktivní procvičování slovíček (znám / neznám)" ""
-_zapis cz.slovicka.poslech.desktop "Slovíčka – poslech" "Pasivní poslech slovíček s frázemi" "--pasivni"
+_zapis cz.slovicka.desktop desktop.nazev desktop.popis ""
+_zapis cz.slovicka.poslech.desktop desktop.poslech desktop.popis_poslech "--pasivni"
 
 command -v update-desktop-database &>/dev/null && update-desktop-database "$cil" 2>/dev/null || true

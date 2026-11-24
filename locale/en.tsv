@@ -1,0 +1,99 @@
+# Texty rozhraní (en) — generuje nastroje/texty-rozhrani.py, ruční úpravy dělej tam
+app	Vocabulary
+jazyk.cs	Czech
+jazyk.de	German
+jazyk.en	English
+jazyk.it	Italian
+jazyk.fr	French
+jazyk.es	Spanish
+jazyk.ru	Russian
+golf	Golf
+chyba	Error: %s
+chyba.argument	Unknown argument: %s
+chyba.jazyk	Unknown language: %s (options: %s)
+chyba.stejny	The target language is your own language (%s). Choose another one or change yours with --z.
+chyba.prazdny	There are no words in the dictionary for %s → %s yet.
+chyba.zadna_neznama	You have no saved unknown words yet (%s).
+chyba.pocet	--count must be a positive whole number (given: '%s')
+chyba.pauza	--pause must be a number of seconds (given: '%s')
+preruseno	Interrupted.
+okno.bezi	Running in the translucent window ([q] in the window = quit).
+vyber.jazyk	What do you want to learn?
+vyber.poradi	Order
+neznama.polozka	Unknown: %s (%s)
+neznama.nazev	Unknown: %s
+nastaveni.zdroj	💬 My language: %s
+nastaveni.locale	🌐 Interface language: %s
+nastaveni.zdroj.vyzva	My (native) language
+nastaveni.locale.vyzva	Interface language
+nabidka.volba	Choice [1-%s, Enter=1]: 
+nabidka.neplatna	Invalid choice: %s
+nabidka.neni	Nothing to show the menu with: install uv (GTK menu) or rofi/fuzzel/wofi/zenity.
+k.mezera	space
+w.pauza	pause
+w.pauza_nadpis	Paused
+w.dal	resume
+w.play	play
+w.znovu	again
+w.znam	I know
+w.neznam	don't know
+w.konec	quit
+w.chyba	wrong
+w.chybna_fraze	wrong sentence
+w.fraze_oznacena	sentence marked
+w.oznaceno	marked
+kolo.zacinam	▶ Starting round %s
+kolo.slovicek	%s words
+kolo.hotovo	✓ Round complete!
+kolo.znam	Known: %s/%s
+kolo.neznam	Unknown: %s/%s
+kolo.opakovat	Repeat %s unknown words?
+kolo.ano_ne	*[Enter] yes* · [n] no
+kolo.ano_ne_term	[Enter=yes / n=no]
+kolo.vyborne	🎉 Excellent! You know all the words!
+ukonceno	Stopped after %s words.
+nacteno	Loaded %s words: %s
+trenink.hotovo	✓ Practice finished.
+zavrit.enter	[Enter] close the window
+zavrit.klavesa	[any key] close the window (otherwise in 10 s)
+pasivni.nadpis	▶ Passive listening: %s
+pasivni.info	Words: %s\nOrder: %s\nPause: %s s
+pasivni.info_term	Words: %s  │  Order: %s  │  Pause: %s s
+hotovo	✓ Done!
+hotovo.prehrano	Played %s words.
+intro.text	Intro picture and music (%s s).
+intro.napoveda	[q/Esc] in the picture = skip · [q] here = quit
+intro.napoveda_term	[Enter] skip · [q] quit
+intro.odpocet_nadpis	⏳ Starting soon
+intro.odpocet	Practice starts in %s s.
+intro.sklada	The text or picture has changed,\ncomposing a new intro picture…
+intro.sklada_kratce	Intro: composing a new picture…
+intro.selhalo	Intro: the picture could not be created.
+intro.chybi_obrazek	Intro: no picture in %s (jpg/png/webp).
+pomoc.pouziti	Usage: %s [target] [options]
+pomoc.jazyky	Target languages: %s
+pomoc.volby	Options:
+pomoc.z	Your (native) language: %s (now %s)
+pomoc.locale	Interface language (now %s)
+pomoc.swap	Your language first, then the foreign one
+pomoc.orig	Foreign language first, then yours (no question)
+pomoc.neznama	Only saved unknown words
+pomoc.bez_frazi	Do not show or read example sentences
+pomoc.bez_sumu	No quiet background noise (keeps a BT speaker awake)
+pomoc.intro	Intro picture with music for %s s before practice, then a %s s pause
+pomoc.vsechna	Go through the whole dictionary
+pomoc.pocet	Number of words (default 30)
+pomoc.pauza	Pause between words in seconds (default 3)
+pomoc.ovladani_i	Keys in the window: [Enter] I know · [n] don't know · [space] play/pause · [z] again · [x] wrong sentence · [q] quit
+pomoc.ovladani_p	Keys in the window: [space] pause / resume · [z] again · [x] wrong sentence · [q] quit
+pomoc.priklady	Examples:
+pomoc.priklad1	30 German words, asks for the order
+pomoc.priklad2	50 English words, your language first
+pomoc.priklad3	all of Spanish for German speakers
+view.nacitam	Loading…
+view.vyber_napoveda	[↑↓] select · [Enter] confirm · [1–9] directly · [Esc] cancel
+desktop.nazev	Vocabulary
+desktop.popis	Interactive vocabulary practice (I know / don't know)
+desktop.poslech	Vocabulary – listening
+desktop.popis_poslech	Passive listening to words with example sentences
+desktop.klicova	languages;words;learning;

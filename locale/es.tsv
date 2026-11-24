@@ -1,0 +1,99 @@
+# Texty rozhraní (es) — generuje nastroje/texty-rozhrani.py, ruční úpravy dělej tam
+app	Vocabulario
+jazyk.cs	Checo
+jazyk.de	Alemán
+jazyk.en	Inglés
+jazyk.it	Italiano
+jazyk.fr	Francés
+jazyk.es	Español
+jazyk.ru	Ruso
+golf	Golf
+chyba	Error: %s
+chyba.argument	Argumento desconocido: %s
+chyba.jazyk	Idioma desconocido: %s (opciones: %s)
+chyba.stejny	El idioma de destino es tu propio idioma (%s). Elige otro o cambia el tuyo con --z.
+chyba.prazdny	Todavía no hay palabras en el diccionario para %s → %s.
+chyba.zadna_neznama	Todavía no tienes palabras desconocidas guardadas (%s).
+chyba.pocet	--count debe ser un número entero positivo (indicado: '%s')
+chyba.pauza	--pause debe ser un número de segundos (indicado: '%s')
+preruseno	Interrumpido.
+okno.bezi	Se ejecuta en la ventana transparente ([q] en la ventana = salir).
+vyber.jazyk	¿Qué quieres aprender?
+vyber.poradi	Orden
+neznama.polozka	Desconocidas: %s (%s)
+neznama.nazev	Desconocidas: %s
+nastaveni.zdroj	💬 Mi idioma: %s
+nastaveni.locale	🌐 Idioma de la interfaz: %s
+nastaveni.zdroj.vyzva	Mi lengua materna
+nastaveni.locale.vyzva	Idioma de la interfaz
+nabidka.volba	Opción [1-%s, Intro=1]: 
+nabidka.neplatna	Opción no válida: %s
+nabidka.neni	No hay programa para el menú: instala uv (menú GTK) o rofi/fuzzel/wofi/zenity.
+k.mezera	espacio
+w.pauza	pausa
+w.pauza_nadpis	En pausa
+w.dal	seguir
+w.play	reproducir
+w.znovu	otra vez
+w.znam	lo sé
+w.neznam	no lo sé
+w.konec	salir
+w.chyba	error
+w.chybna_fraze	frase errónea
+w.fraze_oznacena	frase marcada
+w.oznaceno	marcada
+kolo.zacinam	▶ Empieza la ronda %s
+kolo.slovicek	%s palabras
+kolo.hotovo	✓ ¡Ronda completada!
+kolo.znam	Sabidas: %s/%s
+kolo.neznam	No sabidas: %s/%s
+kolo.opakovat	¿Repetir %s palabras desconocidas?
+kolo.ano_ne	*[Intro] sí* · [n] no
+kolo.ano_ne_term	[Intro=sí / n=no]
+kolo.vyborne	🎉 ¡Excelente! ¡Sabes todas las palabras!
+ukonceno	Terminado tras %s palabras.
+nacteno	%s palabras cargadas: %s
+trenink.hotovo	✓ Práctica terminada.
+zavrit.enter	[Intro] cerrar la ventana
+zavrit.klavesa	[cualquier tecla] cerrar la ventana (si no, en 10 s)
+pasivni.nadpis	▶ Escucha pasiva: %s
+pasivni.info	Palabras: %s\nOrden: %s\nPausa: %s s
+pasivni.info_term	Palabras: %s  │  Orden: %s  │  Pausa: %s s
+hotovo	✓ ¡Hecho!
+hotovo.prehrano	%s palabras reproducidas.
+intro.text	Imagen de inicio y música (%s s).
+intro.napoveda	[q/Esc] en la imagen = saltar · [q] aquí = salir
+intro.napoveda_term	[Intro] saltar · [q] salir
+intro.odpocet_nadpis	⏳ Empezamos enseguida
+intro.odpocet	La práctica empieza en %s s.
+intro.sklada	El texto o la imagen ha cambiado,\ncreando una nueva imagen de inicio…
+intro.sklada_kratce	Intro: creando una nueva imagen…
+intro.selhalo	Intro: no se pudo crear la imagen.
+intro.chybi_obrazek	Intro: no hay imagen en %s (jpg/png/webp).
+pomoc.pouziti	Uso: %s [destino] [opciones]
+pomoc.jazyky	Idiomas de destino: %s
+pomoc.volby	Opciones:
+pomoc.z	Tu lengua materna: %s (ahora %s)
+pomoc.locale	Idioma de la interfaz (ahora %s)
+pomoc.swap	Primero tu idioma, luego el extranjero
+pomoc.orig	Primero el idioma extranjero, luego el tuyo (sin preguntar)
+pomoc.neznama	Solo las palabras desconocidas guardadas
+pomoc.bez_frazi	No mostrar ni leer las frases de ejemplo
+pomoc.bez_sumu	Sin ruido de fondo suave (mantiene despierto el altavoz BT)
+pomoc.intro	Antes de practicar, %s s de imagen con música y luego %s s de pausa
+pomoc.vsechna	Recorrer todo el diccionario
+pomoc.pocet	Número de palabras (30 por defecto)
+pomoc.pauza	Pausa entre palabras en segundos (3 por defecto)
+pomoc.ovladani_i	Teclas en la ventana: [Intro] lo sé · [n] no lo sé · [espacio] reproducir/pausa · [z] otra vez · [x] frase errónea · [q] salir
+pomoc.ovladani_p	Teclas en la ventana: [espacio] pausa / seguir · [z] otra vez · [x] frase errónea · [q] salir
+pomoc.priklady	Ejemplos:
+pomoc.priklad1	30 palabras alemanas, pregunta el orden
+pomoc.priklad2	50 palabras inglesas, primero tu idioma
+pomoc.priklad3	todo el español para hablantes de alemán
+view.nacitam	Cargando…
+view.vyber_napoveda	[↑↓] elegir · [Intro] confirmar · [1–9] directo · [Esc] cancelar
+desktop.nazev	Vocabulario
+desktop.popis	Práctica interactiva de vocabulario (lo sé / no lo sé)
+desktop.poslech	Vocabulario – escucha
+desktop.popis_poslech	Escucha pasiva de palabras con frases de ejemplo
+desktop.klicova	idiomas;palabras;aprender;

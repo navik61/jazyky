@@ -1,0 +1,99 @@
+# Texty rozhraní (it) — generuje nastroje/texty-rozhrani.py, ruční úpravy dělej tam
+app	Vocaboli
+jazyk.cs	Ceco
+jazyk.de	Tedesco
+jazyk.en	Inglese
+jazyk.it	Italiano
+jazyk.fr	Francese
+jazyk.es	Spagnolo
+jazyk.ru	Russo
+golf	Golf
+chyba	Errore: %s
+chyba.argument	Argomento sconosciuto: %s
+chyba.jazyk	Lingua sconosciuta: %s (opzioni: %s)
+chyba.stejny	La lingua di destinazione è la tua lingua (%s). Scegline un'altra o cambia la tua con --z.
+chyba.prazdny	Non ci sono ancora parole nel dizionario per %s → %s.
+chyba.zadna_neznama	Non hai ancora parole sconosciute salvate (%s).
+chyba.pocet	--count deve essere un numero intero positivo (indicato: '%s')
+chyba.pauza	--pause deve essere un numero di secondi (indicato: '%s')
+preruseno	Interrotto.
+okno.bezi	In esecuzione nella finestra trasparente ([q] nella finestra = fine).
+vyber.jazyk	Cosa vuoi imparare?
+vyber.poradi	Ordine
+neznama.polozka	Sconosciute: %s (%s)
+neznama.nazev	Sconosciute: %s
+nastaveni.zdroj	💬 La mia lingua: %s
+nastaveni.locale	🌐 Lingua dell'interfaccia: %s
+nastaveni.zdroj.vyzva	La mia lingua madre
+nastaveni.locale.vyzva	Lingua dell'interfaccia
+nabidka.volba	Scelta [1-%s, Invio=1]: 
+nabidka.neplatna	Scelta non valida: %s
+nabidka.neni	Nessun programma per il menu: installa uv (menu GTK) o rofi/fuzzel/wofi/zenity.
+k.mezera	spazio
+w.pauza	pausa
+w.pauza_nadpis	In pausa
+w.dal	riprendi
+w.play	riproduci
+w.znovu	di nuovo
+w.znam	lo so
+w.neznam	non lo so
+w.konec	fine
+w.chyba	errore
+w.chybna_fraze	frase errata
+w.fraze_oznacena	frase segnalata
+w.oznaceno	segnalata
+kolo.zacinam	▶ Inizia il turno %s
+kolo.slovicek	%s parole
+kolo.hotovo	✓ Turno completato!
+kolo.znam	Sapute: %s/%s
+kolo.neznam	Non sapute: %s/%s
+kolo.opakovat	Ripetere %s parole sconosciute?
+kolo.ano_ne	*[Invio] sì* · [n] no
+kolo.ano_ne_term	[Invio=sì / n=no]
+kolo.vyborne	🎉 Ottimo! Conosci tutte le parole!
+ukonceno	Terminato dopo %s parole.
+nacteno	Caricate %s parole: %s
+trenink.hotovo	✓ Allenamento terminato.
+zavrit.enter	[Invio] chiudi la finestra
+zavrit.klavesa	[qualsiasi tasto] chiudi la finestra (altrimenti tra 10 s)
+pasivni.nadpis	▶ Ascolto passivo: %s
+pasivni.info	Parole: %s\nOrdine: %s\nPausa: %s s
+pasivni.info_term	Parole: %s  │  Ordine: %s  │  Pausa: %s s
+hotovo	✓ Fatto!
+hotovo.prehrano	Riprodotte %s parole.
+intro.text	Immagine iniziale e musica (%s s).
+intro.napoveda	[q/Esc] nell'immagine = salta · [q] qui = fine
+intro.napoveda_term	[Invio] salta · [q] fine
+intro.odpocet_nadpis	⏳ Si comincia tra poco
+intro.odpocet	L'esercizio inizia tra %s s.
+intro.sklada	Il testo o l'immagine è cambiato,\ncreo una nuova immagine iniziale…
+intro.sklada_kratce	Intro: creo una nuova immagine…
+intro.selhalo	Intro: impossibile creare l'immagine.
+intro.chybi_obrazek	Intro: nessuna immagine in %s (jpg/png/webp).
+pomoc.pouziti	Uso: %s [lingua] [opzioni]
+pomoc.jazyky	Lingue: %s
+pomoc.volby	Opzioni:
+pomoc.z	La tua lingua madre: %s (ora %s)
+pomoc.locale	Lingua dell'interfaccia (ora %s)
+pomoc.swap	Prima la tua lingua, poi quella straniera
+pomoc.orig	Prima la lingua straniera, poi la tua (senza domanda)
+pomoc.neznama	Solo le parole sconosciute salvate
+pomoc.bez_frazi	Non mostrare né leggere le frasi di esempio
+pomoc.bez_sumu	Senza leggero rumore di fondo (tiene sveglio l'altoparlante BT)
+pomoc.intro	Prima dell'esercizio %s s di immagine con musica, poi %s s di pausa
+pomoc.vsechna	Scorrere tutto il dizionario
+pomoc.pocet	Numero di parole (predefinito 30)
+pomoc.pauza	Pausa tra le parole in secondi (predefinito 3)
+pomoc.ovladani_i	Tasti nella finestra: [Invio] lo so · [n] non lo so · [spazio] riproduci/pausa · [z] di nuovo · [x] frase errata · [q] fine
+pomoc.ovladani_p	Tasti nella finestra: [spazio] pausa / riprendi · [z] di nuovo · [x] frase errata · [q] fine
+pomoc.priklady	Esempi:
+pomoc.priklad1	30 parole tedesche, chiede l'ordine
+pomoc.priklad2	50 parole inglesi, prima la tua lingua
+pomoc.priklad3	tutto lo spagnolo per chi parla tedesco
+view.nacitam	Caricamento…
+view.vyber_napoveda	[↑↓] scegli · [Invio] conferma · [1–9] diretto · [Esc] annulla
+desktop.nazev	Vocaboli
+desktop.popis	Esercizio interattivo di vocaboli (lo so / non lo so)
+desktop.poslech	Vocaboli – ascolto
+desktop.popis_poslech	Ascolto passivo di parole con frasi di esempio
+desktop.klicova	lingue;parole;imparare;

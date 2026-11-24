@@ -1,0 +1,99 @@
+# Texty rozhraní (fr) — generuje nastroje/texty-rozhrani.py, ruční úpravy dělej tam
+app	Vocabulaire
+jazyk.cs	Tchèque
+jazyk.de	Allemand
+jazyk.en	Anglais
+jazyk.it	Italien
+jazyk.fr	Français
+jazyk.es	Espagnol
+jazyk.ru	Russe
+golf	Golf
+chyba	Erreur : %s
+chyba.argument	Argument inconnu : %s
+chyba.jazyk	Langue inconnue : %s (choix : %s)
+chyba.stejny	La langue cible est ta propre langue (%s). Choisis-en une autre ou change la tienne avec --z.
+chyba.prazdny	Le dictionnaire ne contient pas encore de mots pour %s → %s.
+chyba.zadna_neznama	Tu n'as encore aucun mot inconnu enregistré (%s).
+chyba.pocet	--count doit être un entier positif (donné : '%s')
+chyba.pauza	--pause doit être un nombre de secondes (donné : '%s')
+preruseno	Interrompu.
+okno.bezi	Fonctionne dans la fenêtre transparente ([q] dans la fenêtre = quitter).
+vyber.jazyk	Qu'est-ce que tu veux apprendre ?
+vyber.poradi	Ordre
+neznama.polozka	Inconnus : %s (%s)
+neznama.nazev	Inconnus : %s
+nastaveni.zdroj	💬 Ma langue : %s
+nastaveni.locale	🌐 Langue de l'interface : %s
+nastaveni.zdroj.vyzva	Ma langue maternelle
+nastaveni.locale.vyzva	Langue de l'interface
+nabidka.volba	Choix [1-%s, Entrée=1] : 
+nabidka.neplatna	Choix invalide : %s
+nabidka.neni	Aucun programme pour le menu : installe uv (menu GTK) ou rofi/fuzzel/wofi/zenity.
+k.mezera	espace
+w.pauza	pause
+w.pauza_nadpis	En pause
+w.dal	reprendre
+w.play	lecture
+w.znovu	encore
+w.znam	je sais
+w.neznam	je ne sais pas
+w.konec	quitter
+w.chyba	erreur
+w.chybna_fraze	phrase erronée
+w.fraze_oznacena	phrase signalée
+w.oznaceno	signalée
+kolo.zacinam	▶ Début du tour %s
+kolo.slovicek	%s mots
+kolo.hotovo	✓ Tour terminé !
+kolo.znam	Sus : %s/%s
+kolo.neznam	Pas sus : %s/%s
+kolo.opakovat	Répéter %s mots inconnus ?
+kolo.ano_ne	*[Entrée] oui* · [n] non
+kolo.ano_ne_term	[Entrée=oui / n=non]
+kolo.vyborne	🎉 Bravo ! Tu connais tous les mots !
+ukonceno	Arrêté après %s mots.
+nacteno	%s mots chargés : %s
+trenink.hotovo	✓ Entraînement terminé.
+zavrit.enter	[Entrée] fermer la fenêtre
+zavrit.klavesa	[n'importe quelle touche] fermer la fenêtre (sinon dans 10 s)
+pasivni.nadpis	▶ Écoute passive : %s
+pasivni.info	Mots : %s\nOrdre : %s\nPause : %s s
+pasivni.info_term	Mots : %s  │  Ordre : %s  │  Pause : %s s
+hotovo	✓ Terminé !
+hotovo.prehrano	%s mots lus.
+intro.text	Image d'introduction et musique (%s s).
+intro.napoveda	[q/Échap] dans l'image = passer · [q] ici = quitter
+intro.napoveda_term	[Entrée] passer · [q] quitter
+intro.odpocet_nadpis	⏳ On commence bientôt
+intro.odpocet	L'entraînement commence dans %s s.
+intro.sklada	Le texte ou l'image a changé,\ncréation d'une nouvelle image d'introduction…
+intro.sklada_kratce	Intro : création d'une nouvelle image…
+intro.selhalo	Intro : impossible de créer l'image.
+intro.chybi_obrazek	Intro : aucune image dans %s (jpg/png/webp).
+pomoc.pouziti	Utilisation : %s [cible] [options]
+pomoc.jazyky	Langues cibles : %s
+pomoc.volby	Options :
+pomoc.z	Ta langue maternelle : %s (actuellement %s)
+pomoc.locale	Langue de l'interface (actuellement %s)
+pomoc.swap	D'abord ta langue, puis la langue étrangère
+pomoc.orig	D'abord la langue étrangère, puis la tienne (sans question)
+pomoc.neznama	Seulement les mots inconnus enregistrés
+pomoc.bez_frazi	Ne pas afficher ni lire les phrases d'exemple
+pomoc.bez_sumu	Sans léger bruit de fond (garde l'enceinte BT éveillée)
+pomoc.intro	Avant l'entraînement, %s s d'image avec musique, puis %s s de pause
+pomoc.vsechna	Parcourir tout le dictionnaire
+pomoc.pocet	Nombre de mots (30 par défaut)
+pomoc.pauza	Pause entre les mots en secondes (3 par défaut)
+pomoc.ovladani_i	Touches dans la fenêtre : [Entrée] je sais · [n] je ne sais pas · [espace] lecture/pause · [z] encore · [x] phrase erronée · [q] quitter
+pomoc.ovladani_p	Touches dans la fenêtre : [espace] pause / reprendre · [z] encore · [x] phrase erronée · [q] quitter
+pomoc.priklady	Exemples :
+pomoc.priklad1	30 mots allemands, demande l'ordre
+pomoc.priklad2	50 mots anglais, ta langue d'abord
+pomoc.priklad3	tout l'espagnol pour germanophones
+view.nacitam	Chargement…
+view.vyber_napoveda	[↑↓] choisir · [Entrée] valider · [1–9] directement · [Échap] annuler
+desktop.nazev	Vocabulaire
+desktop.popis	Entraînement interactif au vocabulaire (je sais / je ne sais pas)
+desktop.poslech	Vocabulaire – écoute
+desktop.popis_poslech	Écoute passive de mots avec des phrases d'exemple
+desktop.klicova	langues;mots;apprendre;

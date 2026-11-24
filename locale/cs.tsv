@@ -1,0 +1,99 @@
+# Texty rozhraní (cs) — generuje nastroje/texty-rozhrani.py, ruční úpravy dělej tam
+app	Slovíčka
+jazyk.cs	Čeština
+jazyk.de	Němčina
+jazyk.en	Angličtina
+jazyk.it	Italština
+jazyk.fr	Francouzština
+jazyk.es	Španělština
+jazyk.ru	Ruština
+golf	Golf
+chyba	Chyba: %s
+chyba.argument	Neznámý argument: %s
+chyba.jazyk	Neznámý jazyk: %s (možnosti: %s)
+chyba.stejny	Cílový jazyk je stejný jako tvůj jazyk (%s). Zvol jiný, nebo změň svůj jazyk volbou --z.
+chyba.prazdny	Pro dvojici %s → %s zatím nejsou ve slovníku žádná slova.
+chyba.zadna_neznama	Zatím nemáš uložená žádná neznámá slovíčka (%s).
+chyba.pocet	--pocet musí být kladné celé číslo (zadáno: '%s')
+chyba.pauza	--pauza musí být číslo v sekundách (zadáno: '%s')
+preruseno	Přerušeno.
+okno.bezi	Běží v průhledném okně ([q] v okně = konec).
+vyber.jazyk	Co se chceš učit?
+vyber.poradi	Pořadí
+neznama.polozka	Neznámá: %s (%s)
+neznama.nazev	Neznámá: %s
+nastaveni.zdroj	💬 Můj jazyk: %s
+nastaveni.locale	🌐 Jazyk rozhraní: %s
+nastaveni.zdroj.vyzva	Můj (mateřský) jazyk
+nastaveni.locale.vyzva	Jazyk rozhraní
+nabidka.volba	Volba [1-%s, Enter=1]: 
+nabidka.neplatna	Neplatná volba: %s
+nabidka.neni	Není čím zobrazit nabídku: nainstaluj uv (nabídka v GTK), nebo rofi/fuzzel/wofi/zenity.
+k.mezera	mezera
+w.pauza	pauza
+w.pauza_nadpis	Pauza
+w.dal	dál
+w.play	play
+w.znovu	znovu
+w.znam	znám
+w.neznam	neznám
+w.konec	konec
+w.chyba	chyba
+w.chybna_fraze	chybná věta
+w.fraze_oznacena	věta označena
+w.oznaceno	označeno
+kolo.zacinam	▶ Začínám kolo %s
+kolo.slovicek	%s slovíček
+kolo.hotovo	✓ Kolo dokončeno!
+kolo.znam	Znám: %s/%s
+kolo.neznam	Neznám: %s/%s
+kolo.opakovat	Opakovat %s neznámých?
+kolo.ano_ne	*[Enter] ano* · [n] ne
+kolo.ano_ne_term	[Enter=ano / n=ne]
+kolo.vyborne	🎉 Výborně! Znáš všechna slovíčka!
+ukonceno	Ukončeno po %s slovíčkách.
+nacteno	Načteno %s slovíček: %s
+trenink.hotovo	✓ Trénink dokončen.
+zavrit.enter	[Enter] zavřít okno
+zavrit.klavesa	[libovolná klávesa] zavřít okno (jinak za 10 s)
+pasivni.nadpis	▶ Pasivní poslech: %s
+pasivni.info	Slovíček: %s\nPořadí: %s\nPauza: %s s
+pasivni.info_term	Slovíček: %s  │  Pořadí: %s  │  Pauza: %s s
+hotovo	✓ Hotovo!
+hotovo.prehrano	Přehráno %s slovíček.
+intro.text	Úvodní obrázek a hudba (%s s).
+intro.napoveda	[q/Esc] v obrázku = přeskočit · [q] tady = konec
+intro.napoveda_term	[Enter] přeskočit · [q] konec
+intro.odpocet_nadpis	⏳ Za chvíli začínáme
+intro.odpocet	Procvičování začne za %s s.
+intro.sklada	Text nebo obrázek se změnil,\nskládám nový úvodní obrázek…
+intro.sklada_kratce	Intro: skládám nový úvodní obrázek…
+intro.selhalo	Intro: obrázek se nepodařilo vytvořit.
+intro.chybi_obrazek	Intro: v %s není žádný obrázek (jpg/png/webp).
+pomoc.pouziti	Použití: %s [cíl] [volby]
+pomoc.jazyky	Cílové jazyky: %s
+pomoc.volby	Volby:
+pomoc.z	Tvůj (mateřský) jazyk: %s (teď %s)
+pomoc.locale	Jazyk rozhraní (teď %s)
+pomoc.swap	Nejdřív tvůj jazyk, pak cizí
+pomoc.orig	Nejdřív cizí jazyk, pak tvůj (bez dotazu)
+pomoc.neznama	Jen uložená neznámá slovíčka
+pomoc.bez_frazi	Nezobrazovat a nečíst vzorové věty
+pomoc.bez_sumu	Bez tichého šumu na pozadí (drží BT reproduktor vzhůru)
+pomoc.intro	Před procvičováním %s s úvodní obrázek s hudbou, pak %s s pauza
+pomoc.vsechna	Projít celý slovník
+pomoc.pocet	Počet slovíček (výchozí 30)
+pomoc.pauza	Pauza mezi slovíčky v sekundách (výchozí 3)
+pomoc.ovladani_i	Ovládání v okně: [Enter] znám · [n] neznám · [mezera] play/pauza · [z] znovu · [x] chybná věta · [q] konec
+pomoc.ovladani_p	Ovládání v okně: [mezera] pauza / pokračovat · [z] znovu · [x] chybná věta · [q] konec
+pomoc.priklady	Příklady:
+pomoc.priklad1	30 německých slovíček, zeptá se na pořadí
+pomoc.priklad2	50 anglických, nejdřív tvůj jazyk
+pomoc.priklad3	celá španělština pro mluvčí němčiny
+view.nacitam	Načítám…
+view.vyber_napoveda	[↑↓] výběr · [Enter] potvrdit · [1–9] rovnou · [Esc] zrušit
+desktop.nazev	Slovíčka
+desktop.popis	Interaktivní procvičování slovíček (znám / neznám)
+desktop.poslech	Slovíčka – poslech
+desktop.popis_poslech	Pasivní poslech slovíček se vzorovými větami
+desktop.klicova	jazyky;procvičování;

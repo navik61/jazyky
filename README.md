@@ -2,12 +2,12 @@
 
 **Česky** · [English](README.en.md)
 
-Skripty pro procvičování slovíček (němčina, angličtina, italština, francouzština, španělština, ruština a golfová terminologie v němčině, angličtině a italštině). Slovíčka se zobrazují v průhledném okně ve stylu poznámek, čtou se nahlas (TTS) a ke každému je vzorová věta s českým překladem.
+Procvičování slovíček **mezi libovolnými dvěma ze sedmi jazyků**: čeština, němčina, angličtina, italština, francouzština, španělština a ruština, plus golfová terminologie. Zvolíš si svůj (mateřský) jazyk a jazyk, který se učíš – Čech se učí španělsky, Němec česky, Rus anglicky… Rozhraní je ve všech sedmi jazycích. Slovíčka se zobrazují v průhledném okně ve stylu poznámek, čtou se nahlas (TTS) a ke každému je vzorová věta s překladem do tvého jazyka.
 
 Dva režimy:
 
 - **interaktivní procvičování** (`jaz` – výchozí) – u každého slovíčka odpovíš „znám / neznám“, neznámá se ukládají a dají se procvičit zvlášť,
-- **pasivní poslech** (`jaz --pasivni`) – slovíčka, překlady a fráze běží sama s pauzou, lze pozastavit a opakovat.
+- **pasivní poslech** (`jaz --pasivni`) – slovíčka, překlady a věty běží sama s pauzou, lze pozastavit a opakovat.
 
 Slovíčko se v obou režimech zobrazí jako poloprůhledná „poznámka“ (viz [Průhledné okno](#průhledné-okno)); bez grafické relace běží procvičování přímo v terminálu.
 
@@ -34,18 +34,19 @@ cd -
 ln -s "$PWD/slovicka.sh" ~/.local/bin/slovicka
 ```
 
-První spuštění okna trvá asi 20 s (`uv` sestaví PyGObject), další už jsou rychlá.
+První spuštění okna trvá asi 20 s (`uv` sestaví PyGObject), další už jsou rychlá. Jazyk rozhraní a tvůj jazyk se napoprvé vezmou z `LANG`; změníš je v nabídce (**💬 Můj jazyk**, **🌐 Jazyk rozhraní**) nebo volbami `--z` / `--locale`.
 
 ## Rychlé použití
 
 ```sh
 jaz                 # interaktivní procvičování, jazyk a pořadí se vyberou z nabídky
-jaz de              # rovnou němčina
-jaz en --swap       # angličtina, nejdříve česky
+jaz de              # rovnou němčina (z tvého jazyka, u autora čeština)
+jaz en --swap       # angličtina, nejdříve tvůj jazyk
 jaz it --neznama    # jen dříve neznámá slovíčka
-jaz fr              # francouzština (stejně es = španělština, ru = ruština)
+jaz es --z de       # španělština pro mluvčí němčiny
+jaz cs --z en --locale en   # čeština pro angličtináře, rozhraní anglicky
 jaz de --intro      # nejdřív 60 s úvodní obrázek s hudbou, 5 s pauza, pak procvičování
-jaz --pasivni de    # pasivní poslech (stačí i jen „pasivni“)
+jaz --pasivni de    # pasivní poslech (stačí i jen „pasivni“ nebo „--passive“)
 jaz pasivni it -n 50 --intro   # pasivní poslech 50 slovíček s intrem
 ```
 
@@ -101,137 +102,139 @@ ln -s ~/Projects/Jazyky/slovicka-pasivni.sh ~/.local/bin/slovicka-pasivni
 
 | Volba | Význam | Režim |
 |---|---|---|
-| `de`, `en`, `it`, `fr`, `es`, `ru`, `de_golf`, `en_golf`, `it_golf` | jazyk / slovník (bez zadání nabídka) | oba |
-| `--pasivni`, `pasivni`, `-P` | pasivní poslech místo interaktivního (jen přes `jaz` / `slovicka.sh`) | – |
-| `--swap`, `-s` | nejdříve česky, pak originál | oba |
-| `--orig`, `-o` | nejdříve originál, pak česky | oba |
-| `--neznama`, `-u` | jen uložená neznámá slovíčka | oba |
-| `--bez-frazi` | nezobrazovat a nečíst vzorové fráze | oba |
-| `--bez-sumu` | bez tichého šumu na pozadí (viz [Zvuk na pozadí](#zvuk-na-pozadí)) | oba |
+| `cs`, `de`, `en`, `it`, `fr`, `es`, `ru`, `<kód>_golf` | co se učíš (bez zadání nabídka); nesmí být stejné jako tvůj jazyk | oba |
+| `--z X`, `--from X`, `-f X` | tvůj (mateřský) jazyk, viz [Jazyky a rozhraní](#jazyky-a-rozhraní) | oba |
+| `--locale X`, `-l X` | jazyk rozhraní | oba |
+| `--pasivni`, `--passive`, `-P` | pasivní poslech místo interaktivního (jen přes `jaz` / `slovicka.sh`) | – |
+| `--swap`, `-s` | nejdříve tvůj jazyk, pak cizí | oba |
+| `--orig`, `-o` | nejdříve cizí jazyk, pak tvůj | oba |
+| `--neznama`, `--unknown`, `-u` | jen uložená neznámá slovíčka | oba |
+| `--bez-frazi`, `--no-phrases` | nezobrazovat a nečíst vzorové věty | oba |
+| `--bez-sumu`, `--no-noise` | bez tichého šumu na pozadí (viz [Zvuk na pozadí](#zvuk-na-pozadí)) | oba |
 | `--intro`, `intro` | před procvičováním úvodní obrázek s hudbou (viz [Intro](#intro---intro)) | oba |
-| `--vsechna`, `-a` | projít celý slovník | pasivní |
-| `--pocet N`, `-n N` | počet slovíček (výchozí 30) | pasivní |
-| `--pauza N`, `-p N` | pauza mezi slovíčky v sekundách, i desetinná (výchozí 3) | pasivní |
-| `-h`, `--help` | nápověda | oba |
+| `--vsechna`, `--all`, `-a` | projít celý slovník | pasivní |
+| `--pocet N`, `--count N`, `-n N` | počet slovíček (výchozí 30) | pasivní |
+| `--pauza N`, `--pause N`, `-p N` | pauza mezi slovíčky v sekundách, i desetinná (výchozí 3) | pasivní |
+| `-h`, `--help` | nápověda (v jazyce rozhraní) | oba |
 
-Bez `--swap` / `--orig` se skript na pořadí zeptá (Enter = originál první). Interaktivní kolo má vždy 30 slovíček.
+Bez `--swap` / `--orig` se skript na pořadí zeptá (Enter = cizí jazyk první). Interaktivní kolo má vždy 30 slovíček.
+
+## Jazyky a rozhraní
+
+Každý ze sedmi jazyků může být **tvůj jazyk** (z něj se učíš, do něj se překládá) i **cílový jazyk** (ten se učíš). Nabídka ukazuje všechny cílové jazyky kromě tvého a na konci dvě nastavení:
+
+- **💬 Můj jazyk** – tvůj (mateřský) jazyk,
+- **🌐 Jazyk rozhraní** – jazyk nabídek, nápověd a hlášek (7 jazyků).
+
+Volba v nabídce se uloží do `~/.config/slovicka/nastaveni` (`zdroj=cs`, `locale=cs`) a platí i příště. Pořadí, odkud se jazyky berou:
+
+| | 1. | 2. | 3. | 4. |
+|---|---|---|---|---|
+| tvůj jazyk | `--z` | `SLOVICKA_ZDROJ` | uložené nastavení | jazyk rozhraní |
+| rozhraní | `--locale` | `SLOVICKA_LOCALE` | uložené nastavení | `LC_ALL` / `LC_MESSAGES` / `LANG` (jinak angličtina) |
+
+Texty rozhraní jsou v `locale/<kód>.tsv` (klíč TAB text). Upravují se v `nastroje/texty-rozhrani.py`, který je vygeneruje pro všech 7 jazyků najednou (stejné klíče všude). Chybějící klíč se vezme z angličtiny.
+
+Hlasy: čeština `edge-tts` (online), ostatní jazyky Piper (offline). Čte se slovo v cílovém jazyce, překlad v tvém jazyce a věta v cílovém jazyce.
 
 ## Soubory
 
 | Soubor | Popis |
 |---|---|
-| `nainstaluj-spoustece.sh` | vytvoří položky v nabídce aplikací (`.desktop`) |
 | `slovicka.sh` | spouštěč (alias `jaz`): výchozí interaktivní, `--pasivni` = poslech |
-| `slovicka-pasivni.sh` | pasivní poslech |
 | `slovicka-interaktivni.sh` | interaktivní procvičování |
-| `intro.txt` | text úvodního obrázku – každý řádek = jedna věta |
-| `intro/` | fotka a hudba pro intro; `intro/.vygenerovano/` = složený obrázek (vzniká sám) |
+| `slovicka-pasivni.sh` | pasivní poslech |
+| `spolecne.sh` | sdílený kód (jazyky, slovník, TTS, věty, okno, nabídky, neznámá slovíčka); načítá se přes `source` |
+| `slovicka-view.py` | průhledné okno, nabídka a dialog intra (GTK4 + Pango), spouští se přes `uv run --script` |
+| `slovnik/obecne.tsv`, `slovnik/golf.tsv` | slovník pojmů – viz [Slovník pojmů](#slovník-pojmů) |
+| `fraze/<sada>-<jazyk>.tsv` | vzorové věty v cílovém jazyce a jejich překlady |
+| `fraze/chybne.tsv` | věty označené klávesou `x` (vzniká sám) |
+| `locale/<kód>.tsv` | texty rozhraní (generuje `nastroje/texty-rozhrani.py`) |
+| `intro.txt`, `intro.<kód>.txt` | text úvodního obrázku (česky / v jazyce rozhraní) – každý řádek = jedna věta |
+| `intro/` | fotka a hudba pro intro; `intro/.vygenerovano/` = složené obrázky (vznikají samy) |
 | `intro-obrazek.py` | skládá úvodní obrázek (Pillow přes `uv run --script`) |
-| `slovicka-view.py` | průhledné okno (GTK4 + Pango), spouští se přes `uv run --script` |
-| `spolecne.sh` | sdílený kód (slovníky, TTS, fráze, okno, nabídky, neznámá slovíčka); načítá se přes `source`, nespouští se |
-| `*_slova.txt`, `golf_*.txt` | slovníky |
-| `fraze/<slovník>.tsv` | vzorové fráze |
-| `fraze/chybne.tsv` | fráze označené klávesou `x` (vzniká sám) |
-| `fraze/lokalni/` | záloha starých frází z lokálního modelu (nepoužívá se) |
-| `neznama_<jazyk>.txt` | uložená neznámá slovíčka (vznikají samy) |
-| `generuj-fraze-claude.py` | generátor frází přes Claude Batch API |
-| `generuj-fraze.py` | generátor frází lokálním modelem (gpt-oss-20b) |
-| `rozbor-skriptu.html` | studijní materiál – výklad skriptů pro učení bashe |
+| `neznama/<tvůj>-<cíl>.txt` | uložená neznámá slovíčka (vznikají samy, nejsou v gitu) |
+| `generuj-claude.py` | doplňuje slova a věty přes Claude Batch API |
+| `nainstaluj-spoustece.sh` | vytvoří položky v nabídce aplikací (`.desktop`, přeložené) |
+| `nastroje/texty-rozhrani.py` | zdroj textů rozhraní ve všech jazycích |
+| `nastroje/migrace-pojmy.py` | jednorázový převod starých slovníků „cizí — česky“ na pojmy (historie) |
+| `rozbor-skriptu.md` | studijní materiál – výklad skriptů pro učení bashe |
 
-## Slovníky
+## Slovník pojmů
 
-Jeden řádek = `originál — překlad`, oddělovač je ` — ` (dlouhá pomlčka s mezerami). Více variant lze oddělit `/`, čtou se zvlášť:
+Slovník je tabulka **pojmů**: jeden řádek = jeden význam, sloupce = slovo v každém jazyce. Díky tomu jde procvičovat libovolnou dvojici jazyků.
 
 ```
-il controllo / l'ispezione — inspekce / prohlídka
+id	cs	de	en	it	fr	es	ru
+o00177	klíč	der Schlüssel	the key	la chiave	la clé	la llave	ключ
 ```
 
-Prázdné řádky a řádky bez oddělovače se přeskakují.
+- Dvě sady: `obecne` (~5 000 pojmů: základní slovesa, dům, město, jídlo, tělo, práce, ekonomika, technika, příroda, pocity, ustálená spojení) a `golf` (~1 500 pojmů golfové terminologie). Golfová sada se vybírá klíčem `<kód>_golf`.
+- Varianty se oddělují `/` a čtou se zvlášť (`la clé / la clef`). Poznámky v závorce upřesňují význam.
+- Pojem, kterému chybí slovo v tvém nebo cílovém jazyce, se při procvičování přeskočí.
+- Pojmy vznikly sloučením původních slovníků „cizí slovo — česky“ podle českého významu (`nastroje/migrace-pojmy.py`); chybějící jazyky doplnil Claude (`generuj-claude.py slova`).
 
-| Klíč | Slovník | Hlas Piper |
+| Kód | Jazyk | Hlas |
 |---|---|---|
-| `de` | `nemcina_slova.txt` | `de_DE-thorsten-medium` |
-| `en` | `anglictina_slova.txt` | `en_US-lessac-medium` |
-| `it` | `italstina_slova.txt` | `it_IT-riccardo-x_low` |
-| `fr` | `francouzstina_slova.txt` | `fr_FR-siwis-medium` |
-| `es` | `spanelstina_slova.txt` | `es_ES-davefx-medium` |
-| `ru` | `rustina_slova.txt` | `ru_RU-irina-medium` |
-| `*_golf` | `golf_<jazyk>.txt` | podle jazyka |
+| `cs` | čeština | `edge-tts` cs-CZ-AntoninNeural (online) |
+| `de` | němčina | Piper `de_DE-thorsten-medium` |
+| `en` | angličtina | Piper `en_US-lessac-medium` |
+| `it` | italština | Piper `it_IT-riccardo-x_low` |
+| `fr` | francouzština | Piper `fr_FR-siwis-medium` |
+| `es` | španělština | Piper `es_ES-davefx-medium` |
+| `ru` | ruština | Piper `ru_RU-irina-medium` |
 
-Slovníky fr, es a ru (každý ~3000 hesel) vznikly 24. 11. 2026 podle tematické osnovy italského slovníku: základní slovesa, dům, město, jídlo, tělo, práce, ekonomika, technika, příroda, pocity, ustálená spojení. Italská specifika (jídla, sporty) jsou nahrazena reáliemi daného jazyka (např. paella, crêpe, борщ). Ruská slova jsou bez vyznačeného přízvuku.
+Hlas Piper stáhni z https://huggingface.co/rhasspy/piper-voices (`.onnx` i `.onnx.json`) do `~/.local/share/piper/`. Nový jazyk se přidá v `spolecne.sh` (`JAZYKY`, `VLAJKY`, `TTS_MODELY`), novým sloupcem ve `slovnik/*.tsv` a `fraze/*.tsv`, v `generuj-claude.py` (`JAZYKY`, `NAZEV`) a v `nastroje/texty-rozhrani.py` (nový sloupec textů).
 
-Nový jazyk se přidá v `spolecne.sh` (pole `JAZYKY`, `SOUBORY`, `NAZVY`, `VLAJKY`, `TTS_MODELY`, `TTS_JAZYK`) a v `generuj-fraze.py` (`SLOVNIKY`, `PRIKLADY`). Hlas Piper stáhni z https://huggingface.co/rhasspy/piper-voices (`.onnx` i `.onnx.json`) do `~/.local/share/piper/`.
+## Vzorové věty
 
-## Vzorové fráze
+Ke každému pojmu je v každém cílovém jazyce vzorová věta s překladem do ostatních jazyků. V okně je pod slovíčkem (věta tyrkysově kurzívou, překlad do tvého jazyka šedě). Po slovíčku a překladu se přečte i věta.
 
-Ke každému slovíčku je vzorová věta v cizím jazyce s českým překladem. V okně je pod slovíčkem (věta tyrkysově kurzívou, překlad šedě). Po slovíčku a překladu se přečte i cizojazyčná věta.
-
-**Stav (24. 11. 2026):** frázi má všech 20 847 slovíček ze všech devíti slovníků. Vygeneroval je Claude přes Batch API – 240 Claude Opus 5.5 (zkouška), zbytek Claude Sonnet 5.5 – za celkem 8,47 USD (původní de/en/it/golf 4,91 USD, nové fr/es/ru 3,56 USD).
-
-Formát `fraze/<slovník>.tsv` (oddělovač tabulátor):
+Formát `fraze/<sada>-<cílový jazyk>.tsv` – paralelní věty: sloupec cílového jazyka je věta, ostatní její překlady:
 
 ```
-<řádek slovníku>	<fráze>	<český překlad>
-la chiave — klíč	Non trovo più la chiave della macchina.	Nemůžu najít klíč od auta.
+id	cs	de	en	it	fr	es	ru
+o00177	Nemůžu najít klíč od auta.	Ich finde den Autoschlüssel nicht.	I can't find the car key.	Non trovo più la chiave della macchina.	…
 ```
 
-Fráze se přiřazují podle **celého řádku slovníku**. Když řádek ve slovníku změníš, jeho fráze se přestane zobrazovat; nová se vytvoří dalším spuštěním generátoru. Fráze lze opravovat ručně přímo v `.tsv`.
+Věty se přiřazují podle `id` pojmu, takže úprava slova ve slovníku větu nerozbije. Věty i překlady lze opravovat ručně přímo v `.tsv`. Chybí-li překlad do tvého jazyka, ukáže se věta bez něj.
 
-### Chybné fráze (`x`)
+### Chybné věty (`x`)
 
-Klávesa `x` připíše frázi aktuálního slovíčka do `fraze/chybne.tsv` (bez duplicit) a v nápovědě se ukáže **✗ fráze označena**:
+Klávesa `x` připíše větu aktuálního slovíčka do `fraze/chybne.tsv` (bez duplicit) a v nápovědě se ukáže **✗ věta označena**:
 
 ```
-<soubor frází>	<řádek slovníku>	<fráze>	<překlad>
+<sada>-<cíl>	<id>	<tvůj jazyk>	<věta>	<překlad>
 ```
 
-Opravu udělej ručně v `fraze/<soubor frází>`, nebo nech opravit Claude („oprav fráze z fraze/chybne.tsv“). Po opravě řádky z `chybne.tsv` smaž.
+Opravu udělej ručně v `fraze/<sada>-<cíl>.tsv`, nebo nech opravit Claude („oprav věty z fraze/chybne.tsv“). Po opravě řádky z `chybne.tsv` smaž.
 
-### Generování přes Claude (`generuj-fraze-claude.py`)
+### Generování přes Claude (`generuj-claude.py`)
 
-Používá Claude **Batch API** (zpracování na pozadí, obvykle do hodiny, sleva 50 %). Skutečná cena byla 0,40 USD za 1000 slovíček se Sonnetem 5.5 a 0,78 USD s Opusem 5.5.
-
-Přihlášení – jedno z:
+Doplňuje jen to, co chybí – po přidání pojmů stačí spustit znovu. Používá Claude **Batch API** (zpracování na pozadí, obvykle do hodiny, sleva 50 %).
 
 ```sh
-ant auth login                        # profil Console, uloží se do ~/.config/anthropic/ (výchozí)
-read -rs "?Vlož API klíč: " k && printf '%s' "$k" > ~/.config/anthropic/api-key && unset k
+./generuj-claude.py slova --nanecisto     # plán a odhad ceny, nic neodešle
+./generuj-claude.py slova                 # 1. chybějící slova v pojmech
+./generuj-claude.py vety                  # 2. věty a jejich překlady do všech jazyků
+./generuj-claude.py vety --jazyky es --sady golf --limit 20   # jen část (zkouška)
+./generuj-claude.py --stav                # stav odeslané dávky
 ```
 
-API klíč nedávej do `.zshrc` – Claude Code by ho začal používat místo předplatného. Kredit se nabíjí v Console → Settings → Billing.
+- Krok `slova` dostane do zadání ukázky existujících hesel, aby dodržel zvyklosti (členy u podstatných jmen, infinitiv sloves, vidové dvojice v ruštině…).
+- Krok `vety` napíše větu jen tam, kde chybí, a přeloží ji do jazyků, kde chybí překlad.
+- Před odesláním ukáže počet položek a odhad ceny a zeptá se (`--ano` = neptat se). Po stažení vypíše skutečnou cenu.
+- Ctrl+C dávku nezruší – dalším spuštěním se jen stáhnou výsledky (rozpracovaná dávka je v `fraze/.claude-batch.json`). Neplatné výsledky (příliš krátké, opsané heslo) odešle další spuštění.
+- Volby: `--model claude-sonnet-5-5 | claude-opus-5-5 | claude-haiku-5-5` (výchozí Sonnet), `--effort low | medium | high`, `--davka N`, `--sady`, `--jazyky`, `--limit`.
+- Přihlášení – jedno z: `ant auth login` (profil Console, výchozí), nebo API klíč v `~/.config/anthropic/api-key` (chmod 600). API klíč nedávej do `.zshrc` – Claude Code by ho začal používat místo předplatného.
 
-```sh
-./generuj-fraze-claude.py --nanecisto                    # plán a odhad ceny, nic neodešle
-./generuj-fraze-claude.py --model claude-sonnet-5-5      # doplní všechna slovíčka bez fráze
-./generuj-fraze-claude.py --limit 40                     # zkouška: 40 slovíček z každého slovníku
-./generuj-fraze-claude.py --stav                         # stav odeslané dávky
-```
-
-- Generuje jen slovíčka, která frázi ještě nemají – po přidání slov do slovníku stačí spustit znovu.
-- Před odesláním ukáže počet slovíček a odhad ceny a zeptá se (`--ano` = neptat se). Po stažení vypíše skutečnou cenu podle spotřebovaných tokenů.
-- Čeká na dokončení dávky a každou minutu hlásí stav. Ctrl+C dávku nezruší – dalším spuštěním se jen stáhnou výsledky (rozpracovaná dávka je v `fraze/.claude-batch.json`).
-- Odpověď je vynucená jako JSON podle schématu; věty, které neprojdou kontrolou kvality, se odešlou při dalším spuštění. Kontrola odmítne mimo jiné větu, která opisuje celý řádek slovníku; samotná pomlčka „—“ ve větě nevadí (ruština ji běžně píše).
-- Volby: `--model claude-opus-5-5 | claude-sonnet-5-5 | claude-haiku-5-5` (výchozí Opus), `--effort low | medium | high` (výchozí `low`), `--davka 25`, názvy slovníků jako argumenty.
-- Spouští se přes `uv run --script`; knihovnu `anthropic` si `uv` stáhne sám.
-
-### Generování lokálním modelem (`generuj-fraze.py`)
-
-Alternativa zdarma a offline přes llama.cpp server s gpt-oss-20b (`llama-gpt-oss.service`, OpenAI API na `http://127.0.0.1:8080`). **Kvalita je výrazně nižší** – české překlady mají zhruba ve třetině případů gramatické chyby. Celý slovník trvá asi 10 hodin.
-
-```sh
-systemctl --user start llama-gpt-oss.service
-systemd-run --user --unit=slovicka-fraze ~/Projects/Jazyky/generuj-fraze.py --uvazovani low
-journalctl --user -u slovicka-fraze -f        # průběh
-systemctl --user stop slovicka-fraze          # zastavit (lze pokračovat)
-```
-
-Volby: `--limit N`, `--davka 20`, `--uvazovani low | medium | high` (výchozí `medium`), `--pruchody 2`. Oba generátory zapisují do stejných souborů – nespouštěj je současně.
+**Stav (24. 11. 2026):** původní české slovníky a věty (20 847 slovíček, 8,47 USD) převedeny na pojmy; doplnění na všech 7 jazyků vygeneroval Claude Sonnet 5.5 za 53,50 USD (18 497 slov, 226 867 překladů vět). Slova jsou téměř kompletní, věty mají 86–100 % pojmů obecné sady (golf 57–100 %); zbytek (~3 000 vět, ~21 000 překladů, odhad 4,55 USD) doplní další `./generuj-claude.py vety`.
 
 ## Neznámá slovíčka
 
-Slovíčka označená v interaktivním režimu `n` se ukládají do `neznama_<jazyk>.txt` (stejný formát jako slovník, bez duplicit), i při ukončení klávesou `q`.
+Slovíčka označená v interaktivním režimu `n` se ukládají do `neznama/<tvůj jazyk>-<cíl>.txt` (id pojmů, bez duplicit), i při ukončení klávesou `q`. Každá dvojice jazyků má vlastní soubor.
 
-- Procvičíš je volbou `--neznama` nebo v nabídce jazyka položkou **Neznámá: … (počet)** – ta se ukáže jen u jazyků, které nějaká neznámá slovíčka mají.
+- Procvičíš je volbou `--neznama` nebo v nabídce položkou **Neznámá: … (počet)** – ta se ukáže jen u jazyků, které nějaká neznámá slovíčka mají.
 - V režimu `--neznama` se slovíčko, které v **1. kole** označíš jako známé, ze souboru odebere (opakovací kola soubor nemění). Prázdný soubor se smaže.
 - Pasivní režim umí `--neznama` také (jen poslech, soubor nemění).
 
@@ -267,11 +270,11 @@ jaz pasivni it intro   # pasivní poslech s intrem
 
 | Co | Kde | Poznámka |
 |---|---|---|
-| text | `intro.txt` | každý neprázdný řádek = jedna věta, písmo se zmenší, aby se vešlo |
+| text | `intro.txt` (česky), `intro.<kód>.txt` (ostatní jazyky rozhraní) | každý neprázdný řádek = jedna věta, písmo se zmenší, aby se vešlo; chybí-li text pro jazyk rozhraní, použije se anglický |
 | fotka | `intro/*.jpg`, `*.png`, `*.webp` | použije se **nejnovější** soubor; ořízne se na 16 : 9 (střed) |
 | hudba | `intro/*.ogg`, `*.mp3`, `*.opus`, `*.flac`, `*.wav`, `*.m4a` | nejnovější soubor; hraje se max. 60 s, kratší skladba nevadí |
 
-Stačí soubor přidat nebo přepsat. Při každém spuštění s `--intro` skript spočítá otisk (sha256) textu, fotky, seznamu vlajek a `intro-obrazek.py` a porovná ho s `intro/.vygenerovano/otisk`. Když se něco změnilo, složí nový obrázek `intro/.vygenerovano/intro.jpg`: nahoře vlajky všech jazyků (Noto Color Emoji), dole text z `intro.txt`, pod obojím tmavý přechod kvůli čitelnosti. Beze změny se nic negeneruje (kontrola trvá pár ms).
+Stačí soubor přidat nebo přepsat. Při každém spuštění s `--intro` skript spočítá otisk (sha256) textu, fotky, seznamu vlajek a `intro-obrazek.py` a porovná ho s `intro/.vygenerovano/intro-<kód>.otisk`. Když se něco změnilo, složí nový obrázek `intro/.vygenerovano/intro-<kód>.jpg` (pro každý jazyk rozhraní zvlášť): nahoře vlajky všech sedmi jazyků (Noto Color Emoji), dole text z `intro.txt`, pod obojím tmavý přechod kvůli čitelnosti. Beze změny se nic negeneruje (kontrola trvá pár ms).
 
 | Proměnná | Význam | Výchozí |
 |---|---|---|
@@ -331,7 +334,7 @@ Trvalé nastavení dej do `~/.zshrc` (`export SLOVICKA_SUM_BARVA=pink`). Šum ge
 - **Okno:** po výběru spustí skript sám sebe v `slovicka-view.py` (přes `setsid` a `uv run --script`, odpojeně od terminálu), viz [Průhledné okno](#průhledné-okno). Bez grafické relace nebo `uv` běží přímo v terminálu.
 - **Terminálový režim:** kartu skládá `_vypis_kartu` podle skutečné velikosti terminálu: věty zalomí (`fold -s`), prázdné řádky vloží jen když je místo a v krajním případě zkrátí frázi (`…`). Titulek s vlajkami a pořadím tak nikdy neodroluje. Nápovědy kláves v terminálu jsou proto zkrácené (`[x] chyba`, `[⏎] znám`), aby se vešly na jeden řádek.
 - **Ovládání (oba režimy):** čtení běží na pozadí a skript mezitím čte klávesy (`read -t`). Mezera pošle čtení `SIGSTOP` / `SIGCONT` (zastaví `piper`, `ffmpeg` i `mpv` uprostřed slova), `z` ho ukončí (`SIGTERM`) a slovíčko začne znovu. Čekání mezi slovíčky měří čas přes `$EPOCHREALTIME`.
-- **TTS:** cizí jazyky Piper (program: `SLOVICKA_PIPER`, jinak `~/.local/share/uv/tools/piper-tts/bin/piper`, `~/.local/bin/piper`, nebo `piper` z `PATH`; hlasy: `SLOVICKA_PIPER_MODELY`, jinak `~/.local/share/piper`, vzorkovací frekvence se čte z `<model>.onnx.json`; hlasy viz [Slovníky](#slovníky)), čeština `edge-tts` (potřebuje internet), záložně `espeak-ng`. `mpv` běží s `--no-input-terminal`, aby nebral klávesy.
+- **TTS:** čeština `edge-tts` (bez něj Piper / `espeak-ng`), ostatní jazyky Piper (program: `SLOVICKA_PIPER`, jinak `~/.local/share/uv/tools/piper-tts/bin/piper`, `~/.local/bin/piper`, nebo `piper` z `PATH`; hlasy: `SLOVICKA_PIPER_MODELY`, jinak `~/.local/share/piper`, vzorkovací frekvence se čte z `<model>.onnx.json`; hlasy viz [Slovníky](#slovníky)), čeština `edge-tts` (potřebuje internet), záložně `espeak-ng`. `mpv` běží s `--no-input-terminal`, aby nebral klávesy.
 - **Úklid:** při ukončení (`q`, Ctrl+C, zavření okna, chyba) se zastaví čtení, zavře okno a smaže rozpracovaný mp3 v `/tmp`.
 
 ## Závislosti
@@ -339,11 +342,11 @@ Trvalé nastavení dej do `~/.zshrc` (`export SLOVICKA_SUM_BARVA=pink`). Šum ge
 - Intro: `uv` (Pillow si stáhne sám), `mpv`, `fontconfig` (`fc-match`), font Noto Color Emoji (`noto-fonts-emoji`, Debian/Ubuntu `fonts-noto-color-emoji`) pro vlajky a Noto Sans nebo DejaVu Sans.
 - Okna (karta, nabídka, intro): `uv`, `gtk4`, `pango`, `gobject-introspection`, `cairo` a překladač (`gcc`, `meson`, `pkgconf`) pro sestavení PyGObject; libovolný Wayland kompozitor nebo X11.
 - Skripty: `bash` 5+, `notify-send`, volitelně `rofi` / `fuzzel` / `wofi` / `zenity` (nabídka bez `uv`), `setsid`, `mpv`, `ffmpeg`, `piper-tts` (`uv tool install piper-tts`), `edge-tts`, volitelně `espeak-ng`.
-- Generování frází: `uv` a přístup ke Claude API, nebo `python3` a llama.cpp server s gpt-oss-20b.
+- Generování slov a vět: `uv` a přístup ke Claude API.
 
 ## Studijní materiál
 
-`rozbor-skriptu.html` – výklad skriptů pro učení bashe ve třech částech: původní verze s technikami a cvičeními, opravy slabých míst (kód před/po) a rozšíření o fráze, ovládání klávesami a generátory frází. Otevři `xdg-open rozbor-skriptu.html`, online verze: https://claude.ai/artifact/NrzGvG6r9z5a5sfphknAXR
+[`rozbor-skriptu.md`](rozbor-skriptu.md) – výklad skriptů pro učení bashe ve čtyřech částech: původní verze s technikami a cvičeními, opravy slabých míst (kód před/po), rozšíření o fráze, ovládání klávesami a generátory frází, a současná verze (GTK okno přes `uv`, intro, play/pauza, nabídka a fokus v libovolném Wayland prostředí, jak se testovalo). Cvičení mají řešení v rozbalovacích blocích.
 
 ## Git
 
@@ -361,14 +364,15 @@ Aliasy jsou mimo projekt, v `~/dotfiles`. Pravidla oken pro niri nejsou potřeba
 
 ## Řešení problémů
 
-- **Fráze se nezobrazuje** – zkontroluj, že je slovíčko v `fraze/<slovník>.tsv` (`grep -F 'slovo — ' fraze/*.tsv`); po změně slovníku spusť generátor.
+- **Věta se nezobrazuje** – pojem nemá větu v `fraze/<sada>-<cíl>.tsv` (`grep -F 'slovo' fraze/obecne-de.tsv`); doplní ji `./generuj-claude.py vety`.
+- **Pro dvojici nejsou žádná slova** – slovník pojmů ještě nemá doplněný jeden z jazyků: `./generuj-claude.py slova`.
+- **Rozhraní je anglicky, i když chci česky** – systém má `LANG=en_US…`; v nabídce zvol **🌐 Jazyk rozhraní** nebo spusť s `--locale cs` (uloží se jen přes nabídku).
 - **Klávesy nereagují** – okno musí mít fokus; klávesy se čtou jen v okně se slovíčky, ne v původním terminálu.
 - **Fráze je zkrácená (`…`) nebo chybí titulek** – v terminálovém režimu se obsah nevejde; zvětši terminál.
 - **Ticho místo hlasu** – chybí Piper, jeho hlas nebo `edge-tts` (čeština potřebuje internet). Piper a hlasy jde nasměrovat proměnnými `SLOVICKA_PIPER` a `SLOVICKA_PIPER_MODELY`; bez Piperu se použije `espeak-ng`.
 - **Okno se otevře na pozadí (GNOME, KDE)** – okno dostane fokus jen s aktivačním tokenem. Ze spouštěče aplikací (rofi, fuzzel, GNOME) ho skript předává dál, při spuštění z terminálu žádný token není a GNOME ukáže jen hlášku „… je připraveno“.
 - **„Chybí …/spolecne.sh“** – `spolecne.sh` musí ležet vedle skriptů.
-- **Generátor Claude: „Přihlášení neplatí nebo vypršelo“** – `ant auth login`, pak spusť znovu (dávka mezitím běží dál).
-- **Generátor lokální: `Connection refused`** – neběží server: `systemctl --user start llama-gpt-oss.service`.
+- **Generátor: „Přihlášení neplatí nebo vypršelo“** – `ant auth login`, pak spusť znovu (dávka mezitím běží dál).
 - **BT reproduktor pořád uřízne začátek slova** – zvyš `SLOVICKA_SUM_UROVEN` (např. `0.01`). Některé reproduktory se uspí, i když jim chodí jen velmi tichý signál.
 - **Průhledné okno se neotevře** – spusť ručně `./slovicka-view.py --rezim znaky -- ./slovicka-pasivni.sh de --orig` a podívej se na chyby. Když se PyGObject nesestaví, chybí systémové knihovny (`gobject-introspection`, `cairo`) nebo překladač; bez `uv` skript tiše běží v terminálu.
 - **Intro se nezmění po úpravě** – mění se jen nejnovější fotka/hudba v `intro/`; po `cp -p` si soubor může ponechat staré datum (`touch soubor`). Vynutit nové složení: `rm -r intro/.vygenerovano`.

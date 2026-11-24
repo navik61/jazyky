@@ -12,3 +12,6 @@ api-key
 
 # Vygenerovaný úvodní obrázek (vzniká sám z intro.txt a fotky)
 intro/.vygenerovano/
+
+# Uložená neznámá slovíčka (osobní, vznikají při procvičování)
+neznama/

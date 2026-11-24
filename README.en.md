@@ -2,9 +2,9 @@
 
 [Česky](README.md) · **English**
 
-Scripts for practising vocabulary for **Czech speakers**: German, English, Italian, French, Spanish, Russian, plus golf terminology in German, English and Italian. Words are shown in a translucent note-style window, read aloud (TTS), and each word comes with an example sentence and its Czech translation.
+Vocabulary practice **between any two of seven languages**: Czech, German, English, Italian, French, Spanish and Russian, plus golf terminology. You choose your (native) language and the language you are learning – a Czech learning Spanish, a German learning Czech, a Russian learning English… The interface is available in all seven languages. Words are shown in a translucent note-style window, read aloud (TTS), and each word comes with an example sentence translated into your language.
 
-> The user interface, dictionaries and translations are in Czech – every dictionary entry is `foreign word — Czech translation`. Command-line options are Czech words too (`--pasivni` = passive, `--neznama` = unknown words, …).
+> Command-line options exist in Czech and English (`--pasivni` / `--passive`, `--neznama` / `--unknown`, …). Some file and function names in the code are Czech.
 
 Two modes:
 
@@ -34,18 +34,19 @@ cd -
 ln -s "$PWD/slovicka.sh" ~/.local/bin/slovicka
 ```
 
-The first start of the window takes about 20 s (`uv` builds PyGObject); later starts are fast.
+The first start of the window takes about 20 s (`uv` builds PyGObject); later starts are fast. The interface language and your language are taken from `LANG` at first; change them in the menu (**💬 My language**, **🌐 Interface language**) or with `--z` / `--locale`.
 
 ## Quick start
 
 ```sh
 jaz                 # interactive practice, language and order are chosen from a menu
-jaz de              # German right away
-jaz en --swap       # English, Czech first
+jaz de              # German right away (from your language)
+jaz en --swap       # English, your language first
 jaz it --neznama    # only previously unknown words
-jaz fr              # French (likewise es = Spanish, ru = Russian)
+jaz es --z de       # Spanish for German speakers
+jaz cs --z en --locale en   # Czech for English speakers, English interface
 jaz de --intro      # first a 60 s intro picture with music, 5 s pause, then practice
-jaz --pasivni de    # passive listening (plain "pasivni" works too)
+jaz --passive de    # passive listening (also "--pasivni" or just "pasivni")
 jaz pasivni it -n 50 --intro   # passive listening, 50 words, with intro
 ```
 
@@ -101,137 +102,139 @@ ln -s ~/Projects/Jazyky/slovicka-pasivni.sh ~/.local/bin/slovicka-pasivni
 
 | Option | Meaning | Mode |
 |---|---|---|
-| `de`, `en`, `it`, `fr`, `es`, `ru`, `de_golf`, `en_golf`, `it_golf` | language / dictionary (menu if omitted) | both |
-| `--pasivni`, `pasivni`, `-P` | passive listening instead of interactive (only via `jaz` / `slovicka.sh`) | – |
-| `--swap`, `-s` | Czech first, then the foreign word | both |
-| `--orig`, `-o` | foreign word first, then Czech | both |
-| `--neznama`, `-u` | only saved unknown words | both |
-| `--bez-frazi` | do not show or read example sentences | both |
-| `--bez-sumu` | no quiet background noise (see [Background sound](#background-sound)) | both |
+| `cs`, `de`, `en`, `it`, `fr`, `es`, `ru`, `<code>_golf` | what you are learning (menu if omitted); must differ from your language | both |
+| `--z X`, `--from X`, `-f X` | your (native) language, see [Languages and interface](#languages-and-interface) | both |
+| `--locale X`, `-l X` | interface language | both |
+| `--pasivni`, `--passive`, `-P` | passive listening instead of interactive (only via `jaz` / `slovicka.sh`) | – |
+| `--swap`, `-s` | your language first, then the foreign one | both |
+| `--orig`, `-o` | foreign language first, then yours | both |
+| `--neznama`, `--unknown`, `-u` | only saved unknown words | both |
+| `--bez-frazi`, `--no-phrases` | do not show or read example sentences | both |
+| `--bez-sumu`, `--no-noise` | no quiet background noise (see [Background sound](#background-sound)) | both |
 | `--intro`, `intro` | intro picture with music before practice (see [Intro](#intro---intro)) | both |
-| `--vsechna`, `-a` | go through the whole dictionary | passive |
-| `--pocet N`, `-n N` | number of words (default 30) | passive |
-| `--pauza N`, `-p N` | pause between words in seconds, decimals allowed (default 3) | passive |
-| `-h`, `--help` | help | both |
+| `--vsechna`, `--all`, `-a` | go through the whole dictionary | passive |
+| `--pocet N`, `--count N`, `-n N` | number of words (default 30) | passive |
+| `--pauza N`, `--pause N`, `-p N` | pause between words in seconds, decimals allowed (default 3) | passive |
+| `-h`, `--help` | help (in the interface language) | both |
 
-Without `--swap` / `--orig` the script asks for the order (Enter = foreign word first). An interactive round always has 30 words.
+Without `--swap` / `--orig` the script asks for the order (Enter = foreign language first). An interactive round always has 30 words.
+
+## Languages and interface
+
+Each of the seven languages can be **your language** (you learn from it; translations are in it) and a **target language** (the one you learn). The menu lists all target languages except yours, plus two settings at the end:
+
+- **💬 My language** – your (native) language,
+- **🌐 Interface language** – language of menus, hints and messages (7 languages).
+
+A choice made in the menu is saved to `~/.config/slovicka/nastaveni` (`zdroj=cs`, `locale=cs`) and applies next time too. Where the languages come from, in order:
+
+| | 1. | 2. | 3. | 4. |
+|---|---|---|---|---|
+| your language | `--z` | `SLOVICKA_ZDROJ` | saved setting | interface language |
+| interface | `--locale` | `SLOVICKA_LOCALE` | saved setting | `LC_ALL` / `LC_MESSAGES` / `LANG` (else English) |
+
+Interface texts live in `locale/<code>.tsv` (key TAB text). Edit them in `nastroje/texty-rozhrani.py`, which generates all seven files at once (same keys everywhere). A missing key falls back to English.
+
+Voices: Czech uses `edge-tts` (online), the other languages Piper (offline). The word is read in the target language, its translation in your language, and the sentence in the target language.
 
 ## Files
 
 | File | Description |
 |---|---|
-| `nainstaluj-spoustece.sh` | creates application-menu entries (`.desktop`) |
 | `slovicka.sh` | launcher (alias `jaz`): interactive by default, `--pasivni` = listening |
-| `slovicka-pasivni.sh` | passive listening |
 | `slovicka-interaktivni.sh` | interactive practice |
-| `intro.txt` | text of the intro picture – one sentence per line |
-| `intro/` | photo and music for the intro; `intro/.vygenerovano/` = composed picture (generated) |
-| `intro-obrazek.py` | composes the intro picture (Pillow via `uv run --script`) |
+| `slovicka-pasivni.sh` | passive listening |
+| `spolecne.sh` | shared code (languages, dictionary, TTS, sentences, window, menus, unknown words); sourced |
 | `slovicka-view.py` | translucent window, menu and intro dialog (GTK4 + Pango), runs via `uv run --script` |
-| `spolecne.sh` | shared code (dictionaries, TTS, sentences, window, menus, unknown words); sourced, not run |
-| `*_slova.txt`, `golf_*.txt` | dictionaries |
-| `fraze/<dictionary>.tsv` | example sentences |
+| `slovnik/obecne.tsv`, `slovnik/golf.tsv` | concept dictionary – see [Concept dictionary](#concept-dictionary) |
+| `fraze/<set>-<language>.tsv` | example sentences in the target language and their translations |
 | `fraze/chybne.tsv` | sentences marked with `x` (generated) |
-| `fraze/lokalni/` | backup of old sentences from a local model (unused) |
-| `neznama_<language>.txt` | saved unknown words (generated) |
-| `generuj-fraze-claude.py` | sentence generator using the Claude Batch API |
-| `generuj-fraze.py` | sentence generator using a local model (gpt-oss-20b) |
-| `rozbor-skriptu.html` | study material (in Czech) – walkthrough of the scripts for learning bash |
+| `locale/<code>.tsv` | interface texts (generated by `nastroje/texty-rozhrani.py`) |
+| `intro.txt`, `intro.<code>.txt` | text of the intro picture (Czech / interface language) – one sentence per line |
+| `intro/` | photo and music for the intro; `intro/.vygenerovano/` = composed pictures (generated) |
+| `intro-obrazek.py` | composes the intro picture (Pillow via `uv run --script`) |
+| `neznama/<yours>-<target>.txt` | saved unknown words (generated, not in git) |
+| `generuj-claude.py` | fills in words and sentences via the Claude Batch API |
+| `nainstaluj-spoustece.sh` | creates application-menu entries (`.desktop`, translated) |
+| `nastroje/texty-rozhrani.py` | source of the interface texts in all languages |
+| `nastroje/migrace-pojmy.py` | one-off conversion of the old "foreign — Czech" dictionaries to concepts (history) |
+| `rozbor-skriptu.md` | study material (in Czech) – walkthrough of the scripts for learning bash |
 
-## Dictionaries
+## Concept dictionary
 
-One line = `foreign — Czech`, the separator is ` — ` (em dash with spaces). Variants can be separated by `/` and are read separately:
+The dictionary is a table of **concepts**: one row = one meaning, columns = the word in each language. That is what makes any language pair possible.
 
 ```
-il controllo / l'ispezione — inspekce / prohlídka
+id	cs	de	en	it	fr	es	ru
+o00177	klíč	der Schlüssel	the key	la chiave	la clé	la llave	ключ
 ```
 
-Empty lines and lines without the separator are skipped.
+- Two sets: `obecne` (general, ~5,000 concepts: basic verbs, home, town, food, body, work, economy, technology, nature, feelings, set phrases) and `golf` (~1,500 golf terms). The golf set is selected with `<code>_golf`.
+- Variants are separated by `/` and read separately (`la clé / la clef`). Notes in parentheses clarify the meaning.
+- A concept missing the word in your or the target language is skipped during practice.
+- The concepts were created by merging the original "foreign word — Czech" dictionaries by Czech meaning (`nastroje/migrace-pojmy.py`); Claude filled in the missing languages (`generuj-claude.py slova`).
 
-| Key | Dictionary | Piper voice |
+| Code | Language | Voice |
 |---|---|---|
-| `de` | `nemcina_slova.txt` | `de_DE-thorsten-medium` |
-| `en` | `anglictina_slova.txt` | `en_US-lessac-medium` |
-| `it` | `italstina_slova.txt` | `it_IT-riccardo-x_low` |
-| `fr` | `francouzstina_slova.txt` | `fr_FR-siwis-medium` |
-| `es` | `spanelstina_slova.txt` | `es_ES-davefx-medium` |
-| `ru` | `rustina_slova.txt` | `ru_RU-irina-medium` |
-| `*_golf` | `golf_<language>.txt` | by language |
+| `cs` | Czech | `edge-tts` cs-CZ-AntoninNeural (online) |
+| `de` | German | Piper `de_DE-thorsten-medium` |
+| `en` | English | Piper `en_US-lessac-medium` |
+| `it` | Italian | Piper `it_IT-riccardo-x_low` |
+| `fr` | French | Piper `fr_FR-siwis-medium` |
+| `es` | Spanish | Piper `es_ES-davefx-medium` |
+| `ru` | Russian | Piper `ru_RU-irina-medium` |
 
-Each general dictionary has about 3000 entries: basic verbs, home, town, food, body, work, economy, technology, nature, feelings and set phrases. The French, Spanish and Russian ones follow the topics of the Italian dictionary, with Italian specifics (dishes, sports) replaced by local ones (paella, crêpe, борщ). Russian words are written without stress marks.
-
-A new language is added in `spolecne.sh` (arrays `JAZYKY`, `SOUBORY`, `NAZVY`, `VLAJKY`, `TTS_MODELY`, `TTS_JAZYK`) and in `generuj-fraze.py` (`SLOVNIKY`, `PRIKLADY`). Download the Piper voice from https://huggingface.co/rhasspy/piper-voices (both `.onnx` and `.onnx.json`) into `~/.local/share/piper/`.
+Download Piper voices from https://huggingface.co/rhasspy/piper-voices (both `.onnx` and `.onnx.json`) into `~/.local/share/piper/`. A new language is added in `spolecne.sh` (`JAZYKY`, `VLAJKY`, `TTS_MODELY`), as a new column in `slovnik/*.tsv` and `fraze/*.tsv`, in `generuj-claude.py` (`JAZYKY`, `NAZEV`) and in `nastroje/texty-rozhrani.py` (a new column of texts).
 
 ## Example sentences
 
-Every word has an example sentence in the foreign language with a Czech translation. In the window it is shown under the word (sentence in turquoise italics, translation in grey). After the word and its translation, the foreign sentence is read aloud as well.
+For every concept there is an example sentence in each target language, translated into the other languages. In the window it is shown under the word (sentence in turquoise italics, translation into your language in grey). After the word and its translation, the sentence is read aloud as well.
 
-**Status (24 Nov 2026):** all 20,847 words in all nine dictionaries have a sentence. They were generated by Claude via the Batch API – 240 with Claude Opus 5.5 (trial), the rest with Claude Sonnet 5.5 – for USD 8.47 in total.
-
-Format of `fraze/<dictionary>.tsv` (tab-separated):
+Format of `fraze/<set>-<target language>.tsv` – parallel sentences: the target-language column is the sentence, the others are its translations:
 
 ```
-<dictionary line>	<sentence>	<Czech translation>
-la chiave — klíč	Non trovo più la chiave della macchina.	Nemůžu najít klíč od auta.
+id	cs	de	en	it	fr	es	ru
+o00177	Nemůžu najít klíč od auta.	Ich finde den Autoschlüssel nicht.	I can't find the car key.	Non trovo più la chiave della macchina.	…
 ```
 
-Sentences are matched by the **whole dictionary line**. If you change a line in the dictionary, its sentence stops showing; the generator creates a new one on its next run. Sentences can be fixed by hand directly in the `.tsv`.
+Sentences are matched by concept `id`, so editing a word does not break its sentence. Sentences and translations can be fixed by hand directly in the `.tsv`. If the translation into your language is missing, the sentence is shown without it.
 
 ### Wrong sentences (`x`)
 
-The `x` key appends the current word's sentence to `fraze/chybne.tsv` (no duplicates) and the hint shows **✗ fráze označena** (sentence marked):
+The `x` key appends the current word's sentence to `fraze/chybne.tsv` (no duplicates) and the hint shows **✗ sentence marked**:
 
 ```
-<sentence file>	<dictionary line>	<sentence>	<translation>
+<set>-<target>	<id>	<your language>	<sentence>	<translation>
 ```
 
-Fix it by hand in `fraze/<sentence file>`, or let Claude fix it. Afterwards delete the lines from `chybne.tsv`.
+Fix it by hand in `fraze/<set>-<target>.tsv`, or let Claude fix it. Afterwards delete the lines from `chybne.tsv`.
 
-### Generating with Claude (`generuj-fraze-claude.py`)
+### Generating with Claude (`generuj-claude.py`)
 
-Uses the Claude **Batch API** (processed in the background, usually within an hour, 50 % discount). The actual cost was USD 0.40 per 1000 words with Sonnet 5.5 and USD 0.78 with Opus 5.5.
-
-Authentication – one of:
+Fills in only what is missing – after adding concepts just run it again. Uses the Claude **Batch API** (processed in the background, usually within an hour, 50 % discount).
 
 ```sh
-ant auth login                        # Console profile, stored in ~/.config/anthropic/ (default)
-read -rs "?API key: " k && printf '%s' "$k" > ~/.config/anthropic/api-key && unset k
+./generuj-claude.py slova --nanecisto     # dry run: plan and cost estimate, sends nothing
+./generuj-claude.py slova                 # 1. missing words in the concepts
+./generuj-claude.py vety                  # 2. sentences and their translations into all languages
+./generuj-claude.py vety --jazyky es --sady golf --limit 20   # only a part (trial)
+./generuj-claude.py --stav                # status of the submitted batch
 ```
 
-Do not put the API key into `.zshrc` – Claude Code would start using it instead of the subscription.
+- The `slova` step gets examples of existing entries in its prompt so it follows the conventions (articles with nouns, verb infinitives, aspect pairs in Russian…).
+- The `vety` step writes a sentence only where it is missing and translates it into the languages that lack a translation.
+- Before sending it shows the number of items and a cost estimate and asks (`--ano` = don't ask). After downloading it prints the real cost.
+- Ctrl+C does not cancel the batch – the next run just downloads the results (the pending batch is stored in `fraze/.claude-batch.json`). Invalid results (too short, copied entry) are sent again on the next run.
+- Options: `--model claude-sonnet-5-5 | claude-opus-5-5 | claude-haiku-5-5` (default Sonnet), `--effort low | medium | high`, `--davka N` (items per request), `--sady`, `--jazyky`, `--limit`.
+- Authentication – one of: `ant auth login` (Console profile, default), or an API key in `~/.config/anthropic/api-key` (chmod 600). Do not put the API key into `.zshrc` – Claude Code would start using it instead of the subscription.
 
-```sh
-./generuj-fraze-claude.py --nanecisto                    # dry run: plan and cost estimate, sends nothing
-./generuj-fraze-claude.py --model claude-sonnet-5-5      # fill in all words without a sentence
-./generuj-fraze-claude.py --limit 40                     # trial: 40 words from each dictionary
-./generuj-fraze-claude.py --stav                         # status of the submitted batch
-```
-
-- Generates only words that do not have a sentence yet – after adding words, just run it again.
-- Before sending it shows the number of words and a cost estimate and asks (`--ano` = don't ask). After downloading it prints the real cost from the tokens used.
-- Waits for the batch and reports status every minute. Ctrl+C does not cancel the batch – the next run just downloads the results (the pending batch is stored in `fraze/.claude-batch.json`).
-- The response is forced to JSON by a schema; sentences that fail the quality check are sent again on the next run. The check rejects e.g. a sentence that copies the whole dictionary line; a dash "—" inside a sentence is fine (Russian uses it routinely).
-- Options: `--model claude-opus-5-5 | claude-sonnet-5-5 | claude-haiku-5-5` (default Opus), `--effort low | medium | high` (default `low`), `--davka 25`, dictionary names as arguments.
-- Runs via `uv run --script`; `uv` downloads the `anthropic` library itself.
-
-### Generating with a local model (`generuj-fraze.py`)
-
-A free, offline alternative via a llama.cpp server with gpt-oss-20b (`llama-gpt-oss.service`, OpenAI API at `http://127.0.0.1:8080`). **Quality is much lower** – about a third of the Czech translations have grammar mistakes. A whole dictionary takes about 10 hours.
-
-```sh
-systemctl --user start llama-gpt-oss.service
-systemd-run --user --unit=slovicka-fraze ~/Projects/Jazyky/generuj-fraze.py --uvazovani low
-journalctl --user -u slovicka-fraze -f        # progress
-systemctl --user stop slovicka-fraze          # stop (can be resumed)
-```
-
-Options: `--limit N`, `--davka 20`, `--uvazovani low | medium | high` (reasoning, default `medium`), `--pruchody 2`. Both generators write to the same files – do not run them at the same time.
+**Status (24 Nov 2026):** the original Czech dictionaries and sentences (20,847 words, USD 8.47) were converted to concepts; the extension to all 7 languages was generated with Claude Sonnet 5.5 for USD 53.50 (18,497 words, 226,867 sentence translations). Words are almost complete; sentences cover 86–100 % of general concepts (golf 57–100 %); the rest (~3,000 sentences, ~21,000 translations, estimate USD 4.55) will be filled in by another `./generuj-claude.py vety`.
 
 ## Unknown words
 
-Words marked `n` in interactive mode are saved to `neznama_<language>.txt` (same format as the dictionary, no duplicates), even when you quit with `q`.
+Words marked `n` in interactive mode are saved to `neznama/<your language>-<target>.txt` (concept ids, no duplicates), even when you quit with `q`. Each language pair has its own file.
 
-- Practise them with `--neznama` or via the **Neznámá: … (count)** item in the language menu – it only appears for languages that have unknown words.
+- Practise them with `--neznama` or via the **Unknown: … (count)** menu item – it only appears for languages that have unknown words.
 - In `--neznama` mode, a word you mark as known in **round 1** is removed from the file (repeat rounds do not change it). An empty file is deleted.
 - Passive mode supports `--neznama` too (listening only, the file is not changed).
 
@@ -267,11 +270,11 @@ jaz pasivni it intro   # passive listening with intro
 
 | What | Where | Note |
 |---|---|---|
-| text | `intro.txt` | each non-empty line = one sentence; the font shrinks to fit |
+| text | `intro.txt` (Czech), `intro.<code>.txt` (other interface languages) | each non-empty line = one sentence; the font shrinks to fit; if there is no text for the interface language, the English one is used |
 | photo | `intro/*.jpg`, `*.png`, `*.webp` | the **newest** file is used; cropped to 16 : 9 (centre) |
 | music | `intro/*.ogg`, `*.mp3`, `*.opus`, `*.flac`, `*.wav`, `*.m4a` | newest file; plays for at most 60 s, a shorter track is fine |
 
-Just add or overwrite a file. On every start with `--intro` the script computes a fingerprint (sha256) of the text, the photo, the list of flags and `intro-obrazek.py` and compares it with `intro/.vygenerovano/otisk`. If anything changed, it composes a new `intro/.vygenerovano/intro.jpg`: flags of all languages at the top (Noto Color Emoji), the text of `intro.txt` at the bottom, with a dark gradient behind both for readability. If nothing changed, nothing is generated (the check takes a few ms).
+Just add or overwrite a file. On every start with `--intro` the script computes a fingerprint (sha256) of the text, the photo, the list of flags and `intro-obrazek.py` and compares it with `intro/.vygenerovano/intro-<code>.otisk`. If anything changed, it composes a new `intro/.vygenerovano/intro-<code>.jpg` (separately for each interface language): flags of all seven languages at the top (Noto Color Emoji), the text of `intro.txt` at the bottom, with a dark gradient behind both for readability. If nothing changed, nothing is generated (the check takes a few ms).
 
 | Variable | Meaning | Default |
 |---|---|---|
@@ -331,7 +334,7 @@ For a permanent setting put it into `~/.zshrc` (`export SLOVICKA_SUM_BARVA=pink`
 - **Window:** after the selection the script starts itself inside `slovicka-view.py` (via `setsid` and `uv run --script`, detached from the terminal), see [Translucent window](#translucent-window). Without a graphical session or `uv` it runs directly in the terminal.
 - **Terminal mode:** the card is laid out by `_vypis_kartu` according to the real terminal size: sentences are wrapped (`fold -s`), blank lines are added only if there is room, and as a last resort the sentence is shortened (`…`). The title with flags and position never scrolls away. Key hints in the terminal are shortened (`[x] chyba`, `[⏎] znám`) to fit on one line.
 - **Controls (both modes):** reading runs in the background while the script reads keys (`read -t`). Space sends `SIGSTOP` / `SIGCONT` to the reading (stopping `piper`, `ffmpeg` and `mpv` mid-word), `z` ends it (`SIGTERM`) and the word starts again. Waiting between words is timed with `$EPOCHREALTIME`.
-- **TTS:** foreign languages use Piper (program: `SLOVICKA_PIPER`, else `~/.local/share/uv/tools/piper-tts/bin/piper`, `~/.local/bin/piper`, or `piper` from `PATH`; voices: `SLOVICKA_PIPER_MODELY`, else `~/.local/share/piper`; the sample rate is read from `<model>.onnx.json`), Czech uses `edge-tts` (needs internet), fallback `espeak-ng`. `mpv` runs with `--no-input-terminal` so it does not steal keys.
+- **TTS:** Czech uses `edge-tts` (without it Piper / `espeak-ng`), the other languages use Piper (program: `SLOVICKA_PIPER`, else `~/.local/share/uv/tools/piper-tts/bin/piper`, `~/.local/bin/piper`, or `piper` from `PATH`; voices: `SLOVICKA_PIPER_MODELY`, else `~/.local/share/piper`; the sample rate is read from `<model>.onnx.json`), Czech uses `edge-tts` (needs internet), fallback `espeak-ng`. `mpv` runs with `--no-input-terminal` so it does not steal keys.
 - **Clean-up:** on exit (`q`, Ctrl+C, closing the window, error) reading stops, the window closes and the temporary mp3 in `/tmp` is deleted.
 
 ## Dependencies
@@ -339,11 +342,11 @@ For a permanent setting put it into `~/.zshrc` (`export SLOVICKA_SUM_BARVA=pink`
 - Intro: `uv` (downloads Pillow itself), `mpv`, `fontconfig` (`fc-match`), the Noto Color Emoji font (`noto-fonts-emoji`, Debian/Ubuntu `fonts-noto-color-emoji`) for flags, and Noto Sans or DejaVu Sans.
 - Windows (card, menu, intro): `uv`, `gtk4`, `pango`, `gobject-introspection`, `cairo` and a compiler (`gcc`, `meson`, `pkgconf`) to build PyGObject; any Wayland compositor or X11.
 - Scripts: `bash` 5+, `notify-send`, optionally `rofi` / `fuzzel` / `wofi` / `zenity` (menu without `uv`), `setsid`, `mpv`, `ffmpeg`, `piper-tts` (`uv tool install piper-tts`), `edge-tts`, optionally `espeak-ng`.
-- Sentence generation: `uv` and access to the Claude API, or `python3` and a llama.cpp server with gpt-oss-20b.
+- Generating words and sentences: `uv` and access to the Claude API.
 
 ## Study material
 
-`rozbor-skriptu.html` (in Czech) – a walkthrough of the scripts for learning bash in three parts: the original version with techniques and exercises, fixes of weak spots (code before/after), and the extensions (sentences, key controls, sentence generators). Open with `xdg-open rozbor-skriptu.html`.
+[`rozbor-skriptu.md`](rozbor-skriptu.md) (in Czech) – a walkthrough of the scripts for learning bash in four parts: the original version with techniques and exercises, fixes of weak spots (code before/after), the extensions (sentences, key controls, sentence generators), and the current version (GTK window via `uv`, intro, play/pause, menu and focus on any Wayland compositor, how it was tested). Exercises have solutions in collapsible blocks.
 
 ## Git
 
@@ -355,14 +358,15 @@ Public repository: https://github.com/navik61/jazyky (branch `master`).
 
 ## Troubleshooting
 
-- **No sentence shown** – check that the word is in `fraze/<dictionary>.tsv` (`grep -F 'word — ' fraze/*.tsv`); after changing a dictionary run the generator.
+- **No sentence shown** – the concept has no sentence in `fraze/<set>-<target>.tsv`; `./generuj-claude.py vety` fills it in.
+- **No words for a language pair** – the concept dictionary is still missing one of the languages: `./generuj-claude.py slova`.
+- **The interface is in the wrong language** – it follows `LANG` until you choose one; use **🌐 Interface language** in the menu or `--locale xx`.
 - **Keys do nothing** – the window must have focus; keys are read only in the word window, not in the original terminal.
 - **Sentence shortened (`…`) or title missing** – in terminal mode the content does not fit; enlarge the terminal.
 - **Silence instead of a voice** – Piper, its voice or `edge-tts` is missing (Czech needs internet). Point to Piper and its voices with `SLOVICKA_PIPER` and `SLOVICKA_PIPER_MODELY`; without Piper `espeak-ng` is used.
 - **Window opens in the background (GNOME, KDE)** – a window only gets focus with an activation token. When started from an application launcher (rofi, fuzzel, GNOME) the script passes it on; when started from a terminal there is no token and GNOME only shows a "… is ready" notification.
 - **"Chybí …/spolecne.sh"** (missing) – `spolecne.sh` must be next to the scripts.
-- **Claude generator: "Přihlášení neplatí nebo vypršelo"** (login invalid or expired) – run `ant auth login`, then start again (the batch keeps running meanwhile).
-- **Local generator: `Connection refused`** – the server is not running: `systemctl --user start llama-gpt-oss.service`.
+- **Generator: "Přihlášení neplatí nebo vypršelo"** (login invalid or expired) – run `ant auth login`, then start again (the batch keeps running meanwhile).
 - **Bluetooth speaker still cuts off the start of words** – raise `SLOVICKA_SUM_UROVEN` (e.g. `0.01`). Some speakers sleep even with a very quiet signal.
 - **The window does not open** – run `./slovicka-view.py --rezim znaky -- ./slovicka-pasivni.sh de --orig` by hand and look at the errors. If PyGObject fails to build, system libraries (`gobject-introspection`, `cairo`) or a compiler are missing; without `uv` the script silently runs in the terminal.
 - **Intro does not change after editing** – only the newest photo/music in `intro/` is used; `cp -p` may keep an old date (`touch file`). Force recomposition: `rm -r intro/.vygenerovano`.

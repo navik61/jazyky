@@ -1,0 +1,1525 @@
+id	cs	de	en	it	fr	es	ru
+g00001	golfové hřiště	der Golfplatz	the golf course	il campo da golf	le terrain de golf	el campo de golf	поле для гольфа
+g00002	jamka	das Loch	the hole	la buca	le trou	el hoyo	лунка
+g00003	odpaliště	das Abschlagsgebiet / der Abschlagplatz	the tee box / the teeing ground	le buche di partenza	l'aire de départ	la zona de salida	стартовая зона
+g00004	odpal	der Abschlag	the tee shot	il tee shot	le coup de départ	el golpe de salida	первый удар
+g00005	green	das Grün	the green	il green	le green	el green	грин
+g00006	fairway	das Fairway	the fairway	il fairway	le fairway	el fairway	фервей
+g00007	rough	der Rough	the rough	il rough	le rough	el rough	рафф
+g00008	bunker / písečná překážka	das Bunker	the bunker / the sand trap	il bunker	le bunker	el bunker	бункер
+g00009	bunker (písečný)	der Sandkegel	the sand bunker	il bunker di sabbia	le bunker de sable	el bunker de arena	песчаный бункер
+g00010	vodní překážka	der Wasserhindernis	the water hazard	l'ostacolo d'acqua	l'obstacle d'eau	el obstáculo de agua	водная преграда
+g00011	označení / značka	die Markierung	the marker	il segnalino	le marquage	la marca	маркер
+g00012	rybník / vodní plocha	der Teich	the pond	lo stagno	l'étang	el estanque	пруд
+g00013	potok	der Bach	the stream	il ruscello	le ruisseau	el arroyo	ручей
+g00014	příkop / kanál	der Graben	the ditch	il fosso	le fossé	la zanja	канава
+g00015	strom	der Baum	the tree	l'albero	l'arbre	el árbol	дерево
+g00016	les	der Wald	the woods	il bosco	le bois	el bosque	лес
+g00017	keř / houština	das Gebüsch	the bush	il cespuglio	le buisson	el arbusto	кустарник
+g00018	svah	der Hang	the slope	il pendio	la pente	la pendiente	склон
+g00019	svah / násep	die Böschung	the embankment	la scarpata	le talus	el talud	откос
+g00020	kopec	der Hügel	the hill	la collina	la colline	la colina	холм
+g00021	údolí	das Tal	the valley	la valle	la vallée	el valle	долина
+g00022	prohlubeň / kotlina	die Senke	the hollow	la depressione	la dépression	la depresión	впадина
+g00023	golfový míček	der Golfball	the golf ball	la pallina da golf	la balle de golf	la pelota de golf	мяч для гольфа
+g00024	hole	der Schläger	the club	la mazza	le club	el palo	клюшка
+g00025	železo (hole)	das Eisen	the iron	il ferro	le fer	el hierro	айрон
+g00026	dřevo (hole)	das Holz	the wood	il legno	le bois	la madera	вуд
+g00027	driver	der Driver	the driver	il driver	le driver	el driver	драйвер
+g00028	driver (jednička)	die Eins	the one wood	il legno uno	le bois 1	la madera 1	первый вуд
+g00029	putter	der Putter	the putter	il putter	le putter	el putter	паттер
+g00030	wedge	der Wedge	the wedge	il wedge	le wedge	el wedge	веджа
+g00031	pitching wedge	das Pitching Wedge	the pitching wedge	il pitching wedge	le pitching wedge	el pitching wedge	питчинг-веджа
+g00032	sand wedge	das Sand Wedge	the sand wedge	il sand wedge	le sand wedge	el sand wedge	сэнд-веджа
+g00033	lob wedge	das Lob Wedge	the lob wedge	il lob wedge	le lob wedge	el lob wedge	лоб-веджа
+g00034	gap wedge	das Gap Wedge	the gap wedge	il gap wedge	le gap wedge	el gap wedge	гэп-веджа
+g00035	hybrid (hole)	der Hybrid	the hybrid	l'ibrido	l'hybride	el híbrido	гибрид
+g00036	golfový bag	die Tasche	the golf bag	la sacca da golf	le sac de golf	la bolsa de golf	сумка для гольфа
+g00037	vozík	der Trolley	the trolley	il carrello	le chariot	el carrito	тележка
+g00038	caddie	der Caddie	the caddie	il caddie	le caddie	el caddie	кэдди
+g00039	tee	das Tee	the tee	il tee	le tee	el tee	ти
+g00040	dřevěné tee	das Holztee	the wooden tee	il tee di legno	le tee en bois	el tee de madera	деревянный ти
+g00041	plastové tee	das Plastiktee	the plastic tee	il tee di plastica	le tee en plastique	el tee de plástico	пластиковое ти
+g00042	pitch markovátko / vidlička	die Pitchgabel	the pitch mark repairer / the divot tool	il riparapitch / la forchetta	la fourchette de relevage	el reparapiques	вилка для починки следов
+g00043	markovátko míčku	der Ballmarker	the ball marker	il segnaballe	le repère de balle	el marcador de bola	маркер мяча
+g00044	golfová rukavice	der Handschuh	the glove	il guanto	le gant de golf	el guante de golf	перчатка для гольфа
+g00045	golfová bota	der Schuh	the golf shoe	la scarpa da golf	la chaussure de golf	el zapato de golf	ботинок для гольфа
+g00046	spiky	die Spikes	the spikes	i chiodi	les crampons	los tacos	шипы
+g00047	kšiltovka / čepice	die Kappe	the cap	il cappello	la casquette	la gorra	кепка
+g00048	nepromokavá bunda	das Regenjacke	the waterproof jacket	la giacca impermeabile	la veste imperméable	la chaqueta impermeable	непромокаемая куртка
+g00049	skórkarta	die Scorekarte	the scorecard	il segnapunti	la carte de score	la tarjeta de puntuación	карточка счёта
+g00050	tužka	der Bleistift	the pencil	la matita	le crayon	el lápiz	карандаш
+g00051	dálkoměr	das Rangefinder	the rangefinder	il telemetro	le télémètre	el telémetro	дальномер
+g00052	GPS zařízení	das GPS-Gerät	the GPS device	il dispositivo GPS	le GPS	el dispositivo GPS	GPS-устройство
+g00053	par	Par	par	par	le par	el par	пар
+g00054	birdie	Birdie	birdie	birdie	le birdie	el birdie	бёрди
+g00055	eagle	Eagle	eagle	eagle	l'eagle	el eagle	игл
+g00056	albatros	Albatross	albatross	albatros	l'albatros	el albatros	альбатрос
+g00057	bogey	Bogey	bogey	bogey	le bogey	el bogey	богей
+g00058	double bogey	Doppelbogey	double bogey	doppio bogey	le double bogey	el doble bogey	дабл-богей
+g00059	hole in one / ace	Hole in One	hole in one	buca in uno	le trou en un	el hoyo en uno	хол-ин-уан
+g00060	skóre	der Score	the score	il punteggio	le score	el resultado	счёт
+g00061	výsledek	das Ergebnis	the result	il risultato	le résultat	el resultado	результат
+g00062	pod par	unter Par	under par	sotto par	sous le par	bajo par	ниже пара
+g00063	nad par	über Par	over par	sopra par	au-dessus du par	sobre par	выше пара
+g00064	na par	gleich Par	level par	pari par	par	par	на уровне пара
+g00065	handicap	das Handicap	the handicap	l'handicap	le handicap	el hándicap	гандикап
+g00066	herní handicap	der Spielvorgabe	the playing handicap	il gioco di handicap	le handicap de jeu	el hándicap de juego	игровой гандикап
+g00067	netto kolo	die Nettorunde	the net round	il giro netto	le tour net	la vuelta neta	нетто-раунд
+g00068	brutto kolo	die Bruttorunde	the gross round	il giro lordo	le tour brut	la vuelta bruta	брутто-раунд
+g00069	stableford	das Stableford	Stableford	lo Stableford	le stableford	el stableford	стейблфорд
+g00070	rána / úder	der Schlag	the stroke	il colpo	le coup	el golpe	удар
+g00071	přístřel / approach	der Approach	the approach	l'avvicinamento	l'approche	el approach	подходящий удар
+g00072	pitch	der Pitch	the pitch	il pitch	le pitch	el pitch	питч
+g00073	chip	der Chip	the chip	il chip	le chip	el chip	чип
+g00074	putt	der Putt	the putt	il putt	le putt	el putt	патт
+g00075	výhoz z bunkeru	der Bunker Schlag	the bunker shot	il colpo dal bunker	le coup de bunker	el golpe de búnker	удар из бункера
+g00076	flop shot	der Flop Shot	the flop shot	il flop shot	le flop shot	el flop	флоп-шот
+g00077	bump and run	der Bump and Run	the bump and run	il bump and run	le bump and run	el bump and run	бамп-энд-ран
+g00078	lag putt	der Lag Putt	the lag putt	il lag putt	le lag putt	el lag putt	лэг-патт
+g00079	hrát jamku	das Loch spielen	to play the hole	giocare la buca	jouer le trou	jugar el hoyo	играть лунку
+g00080	zapíchnout / doputovat	einlochen	to hole out	imbucare	rentrer la balle	embocar	загнать в лунку
+g00081	vlajka / pin	die Fahne	the flag / pin	la bandiera	le drapeau	la bandera	флаг
+g00082	tyčka / pin	die Stange	the pin	l'asta	le piquet	el palo	флагшток
+g00083	zamířit na jamku	das Loch anspielen	to aim at the hole	mirare alla buca	viser le trou	apuntar al hoyo	целиться в лунку
+g00084	číst green	das Grün lesen	to read the green	leggere il green	lire le green	leer el green	читать грин
+g00085	linie / čtení	die Linie	the line	la linea	la ligne	la línea	линия
+g00086	sklon / klesání	das Gefälle	the slope	la pendenza	la pente	la pendiente	уклон
+g00087	přepadání (čtení greenu)	der Überhang	the break	la caduta	la chute	la caída	перепад
+g00088	zalomení (putt)	der Break	the break	la rottura	le break	el break	брейк
+g00089	pozice míčku	die Ballposition	the ball position	la posizione della pallina	la position de la balle	la posición de la bola	позиция мяча
+g00090	lie / pozice míčku v trávě	das Lie	the lie	il lie	le lie	el lie	лай
+g00091	dobré lie	das gute Lie / gutes Lie	a good lie	un buon lie	un bon lie	un buen lie	хороший лай
+g00092	špatné lie	das schlechte Lie / schlechtes Lie	a bad lie	un cattivo lie	un mauvais lie	un mal lie	плохой лай
+g00093	ploché lie	das flache Lie	a flat lie	un lie piatto	un lie plat	un lie plano	плоский лай
+g00094	hluboké lie	das tiefe Lie	a deep lie	un lie profondo	un lie profond	un lie profundo	глубокий лай
+g00095	divot / výkop drnu	das Divot	the divot	il divot	le divot	el divot	дивот
+g00096	pitchmark / stopa po dopadu	das Pitchmark	the pitch mark	il pitch mark	la marque d'impact	la marca de impacto	след от удара
+g00097	opravit	reparieren	to repair	riparare	réparer	reparar	починить
+g00098	herní linie	die Spiellinie	the line of play	la linea di gioco	la ligne de jeu	la línea de juego	линия игры
+g00099	dráha letu	die Spielbahn	the ball flight	la traiettoria	la trajectoire	la trayectoria	траектория полета
+g00100	švih / swing	der Schwung	the swing	lo swing	le swing	el swing	свинг
+g00101	backswing / zpětný švih	der Backswing	the backswing	il backswing	le backswing	el backswing	бэкcвинг
+g00102	downswing	der Downswing	the downswing	il downswing	le downswing	el downswing	даунсвинг
+g00103	dopad / impact	der Impact	the impact	l'impatto	l'impact	el impacto	удар
+g00104	follow-through / dokončení švihu	der Follow-Through	the follow-through	il follow-through	le follow-through	el follow-through	завершение свинга
+g00105	zamáchnout	die Ausholbewegung	the takeaway	il movimento all'indietro	le mouvement de départ	el movimiento de salida	замах
+g00106	grip / uchopení hole	der Grip	the grip	il grip	le grip	el grip	хват
+g00107	překrývající grip	der Overlapping Grip	the overlapping grip	il grip overlapping	le grip overlapping	el grip overlapping	хват overlapping
+g00108	propletený grip	der Interlocking Grip	the interlocking grip	il grip interlocking	le grip interlocking	el grip interlocking	хват interlocking
+g00109	baseball grip	der Baseball Grip	the ten finger grip	il grip a dieci dita	le grip baseball	el grip de béisbol	бейсбольный хват
+g00110	postoj	der Stance	the stance	lo stance	le stance	el stance	стойка
+g00111	držení těla / postoj	die Körperhaltung	the posture	la postura	la posture	la postura	осанка
+g00112	adresa (příprava k ráně)	der Adresszustand	the address	l'address	l'address	el address	адрес
+g00113	nastavení / zarovnání	die Ausrichtung	the alignment	l'allineamento	l'alignement	la alineación	выравнивание
+g00114	alignment / zarovnání	das Alignment	the alignment	l'allineamento	l'alignement	la alineación	выравнивание
+g00115	pozice ramen	der Schulterstand	the shoulder alignment	l'allineamento delle spalle	l'alignement des épaules	la alineación de hombros	положение плеч
+g00116	pozice boků	der Hüftstand	the hip alignment	l'allineamento dei fianchi	l'alignement des hanches	la alineación de caderas	положение бёдер
+g00117	ohnutí kolen	das Kniebeuge	the knee flex	la flessione delle ginocchia	la flexion des genoux	la flexión de rodillas	сгибание коленей
+g00118	hlava dole	der Kopf unten	keep your head down	testa bassa	tête baissée	cabeza abajo	голова вниз
+g00119	oko na míčku	das Auge am Ball	keep your eye on the ball	occhio alla pallina	l'œil sur la balle	ojo en la bola	глаз на мяче
+g00120	těžiště	der Schwerpunkt	the center of gravity	il baricentro	le centre de gravité	el centro de gravedad	центр тяжести
+g00121	přenášení váhy	die Gewichtsverlagerung	the weight transfer	il trasferimento del peso	le transfert de poids	la transferencia de peso	перенос веса
+g00122	rotace	die Rotation	the rotation	la rotazione	la rotation	la rotación	вращение
+g00123	tempo	das Tempo	the tempo	il tempo	le tempo	el tempo	темп
+g00124	rytmus	der Rhythmus	the rhythm	il ritmo	le rythme	el ritmo	ритм
+g00125	plocha hole (face)	die Schlägerfläche	the clubface	la faccia del bastone	la face du club	la cara del palo	face клюшки
+g00126	otevřená (face)	offen	open	aperta	ouverte	abierta	открытая
+g00127	zavřená (face)	geschlossen	closed	chiusa	fermée	cerrada	закрытая
+g00128	čtvercová (face)	quadratisch	square	square	carrée	cuadrada	прямая
+g00129	loft	der Anstellwinkel	the loft	il loft	le loft	el loft	лофт
+g00130	délka rány	die Schlagweite	the shot distance	la lunghezza del colpo	la longueur du coup	la longitud del golpe	длина удара
+g00131	vzdálenost	die Distanz	the distance	la distanza	la distance	la distancia	дистанция
+g00132	metry	die Meter	the metres	i metri	les mètres	los metros	метры
+g00133	yardy	die Yards	the yards	le yard	les yards	las yardas	ярды
+g00134	síla rány	die Schlagstärke	the shot strength	la forza del colpo	la force du coup	la fuerza del golpe	сила удара
+g00135	příliš silně	zu stark	too hard	troppo forte	trop fort	demasiado fuerte	слишком сильно
+g00136	příliš slabě	zu schwach	too soft	troppo dolce	trop faible	demasiado flojo	слишком слабо
+g00137	přesně správně	genau richtig	just right	proprio giusto	juste comme il faut	justo lo correcto	в самый раз
+g00138	hook	der Hook	a hook	un hook	un hook	un hook	хук
+g00139	draw	der Draw	a draw	un draw	un draw	un draw	дро
+g00140	fade	der Fade	a fade	un fade	un fade	un fade	фейд
+g00141	slice	der Slice	a slice	uno slice	un slice	un slice	слайс
+g00142	push	der Push	a push	uno push	un push	un push	пуш
+g00143	pull	der Pull	a pull	uno pull	un pull	un pull	пулл
+g00144	rovná rána	der Straight Shot	a straight shot	un colpo dritto	un coup droit	un golpe recto	прямой удар
+g00145	toped míček	der Topped Ball	a topped ball	una pallina cimata	une balle topée	una bola topeada	топ-удар
+g00146	tučná rána	der Fat Shot	a fat shot	un colpo grasso	un coup gras	un golpe gordo	удар с жирным
+g00147	tenká rána / bladed	der Thin Shot	a thin shot / bladed	un colpo magro	un coup maigre	un golpe fino	тонкий удар
+g00148	shank	der Shank	a shank	uno shank	un shank	un shank	шенк
+g00149	šlápnutí vedle	das Whiff	a whiff	un colpo a vuoto	un coup dans le vide	un golpe en falso	промах мимо мяча
+g00150	mimo hřiště (OB)	der Ausritt	out of bounds	fuori limite	hors limites	fuera de límites	аут
+g00151	mimo hřiště	Out of Bounds	out of bounds	fuori limite	hors limites	fuera de límites	аут
+g00152	žlutá kolíčka (vodní překážka)	der gelbe Stab	yellow stakes	paletti gialli	piquets jaunes	estacas amarillas	жёлтые колышки
+g00153	červené kolíčky (boční překážka)	der rote Stab	red stakes	paletti rossi	piquets rouges	estacas rojas	красные колышки
+g00154	bílé označení (OB)	die weiße Markierung	white markings	segnali bianchi	marques blanches	marcas blancas	белая разметка
+g00155	ztracený míček	der verlorene Ball	a lost ball	pallina persa	une balle perdue	una bola perdida	потерянный мяч
+g00156	provizorní míček	der provisorische Ball / Provisorischer Ball	a provisional ball	pallina provvisoria	une balle provisoire	una bola provisional	условный мяч
+g00157	trestná rána	Strafschlag	a penalty stroke	colpo di penalità	un coup de pénalité	un golpe de penalización	штрафной удар
+g00158	pravidlo	Regel	the rule	la regola	la règle	la regla	правило
+g00159	pravidla hry	die Spielregeln	the rules of golf	le regole del gioco	les règles du jeu	las reglas de juego	правила игры
+g00160	etiketa	die Etikette	etiquette	l'etichetta	l'étiquette	la etiqueta	этикет
+g00161	tempo hry	Spieltempo	pace of play	il ritmo di gioco	le rythme de jeu	el ritmo de juego	темп игры
+g00162	hrát svižně	zügig spielen	play at a good pace	giocare speditamente	jouer rapidement	jugar con agilidad	играть быстро
+g00163	skupina / flight	die Gruppe	the group	il gruppo	le groupe	el grupo	группа
+g00164	čtveřice	die Vierergruppe	the foursome	un quattro giocatori	le quatuor	el cuarteto	четвёрка
+g00165	dvojice / pár	die Zweiergruppe	a twoball	una coppia	le duo	la pareja	пара
+g00166	singleplayer / sólový hráč	der Einzelspieler	the single player	il giocatore singolo	le joueur seul	el jugador individual	одиночный игрок
+g00167	vedoucí skupiny	der Spielführer	the group leader	il capogruppo	le chef de groupe	el líder del grupo	лидер группы
+g00168	prosím hrajte svižně	Bitte spielen Sie zügig / bitte zügig spielen	please play at a good pace	Per favore giocate speditamente	Veuillez jouer rapidement	Por favor, jueguen con agilidad	Пожалуйста, играйте быстрее
+g00169	jste na řadě	Sie sind dran	It's your turn	Tocca a lei	C'est à vous	Es su turno	Ваш ход
+g00170	po vás prosím	Nach Ihnen bitte	After you please	Dopo di lei prego	Après vous, s'il vous plaît	Después de usted, por favor	После вас, пожалуйста
+g00171	prosím počkejte	Bitte warten Sie	Please wait	Prego aspetti	Veuillez attendre	Por favor, espere	Пожалуйста, подождите
+g00172	mohu projít / propustit?	Darf ich durchspielen?	May I play through?	Posso passare?	Puis-je passer ?	¿Puedo pasar?	Можно пройти вперёд?
+g00173	prosím nás propusťte	Bitte lassen Sie uns durch	Please let us play through	Per favore lasciateci passare	Laissez-nous passer, s'il vous plaît	Por favor, déjennos pasar	Пропустите нас, пожалуйста
+g00174	Fore! (pozor!)	Fore!	Fore!	Fore!	Fore !	¡Fore!	Фор!
+g00175	Fore vlevo!	Fore links!	Fore left!	Fore a sinistra!	Fore à gauche !	¡Fore a la izquierda!	Фор слева!
+g00176	Fore vpravo!	Fore rechts!	Fore right!	Fore a destra!	Fore à droite !	¡Fore a la derecha!	Фор справа!
+g00177	Fore dopředu!	Fore vorne!	Fore ahead!	Fore avanti!	Fore devant !	¡Fore adelante!	Фор впереди!
+g00178	Pozor!	Achtung!	Watch out!	Attenzione!	Attention !	¡Atención!	Осторожно!
+g00179	omlouvám se / pardon	Entschuldigung	Sorry	Mi scusi	Excusez-moi	Perdón	Извините
+g00180	Dobrá rána!	Guter Schlag!	Good shot!	Bel colpo!	Beau coup !	¡Buen golpe!	Хороший удар!
+g00181	Hezká rána!	Schöner Schuss!	Nice shot!	Bel tiro!	Joli coup !	¡Bonito golpe!	Красивый удар!
+g00182	Dobře zahráno!	Gut gespielt!	Well played!	Ben giocato!	Bien joué !	¡Bien jugado!	Хорошо сыграно!
+g00183	Skvělé!	Toll!	Brilliant!	Splendido!	Superbe !	¡Genial!	Отлично!
+g00184	Škoda!	Schade!	Too bad!	Che peccato!	Dommage !	¡Qué lástima!	Жаль!
+g00185	Smůla!	Pech gehabt!	Bad luck!	Sfortuna!	Pas de chance !	¡Mala suerte!	Не повезло!
+g00186	Skoro!	Fast!	Nearly!	Quasi!	Presque !	¡Casi!	Почти!
+g00187	Tak blízko!	So nah!	So close!	Così vicino!	Si près !	¡Tan cerca!	Так близко!
+g00188	míček je v jamce	Der Ball ist im Loch	The ball is in the hole	La pallina è in buca	La balle est dans le trou	La bola está en el hoyo	Мяч в лунке
+g00189	Zapíchnuto!	Eingelocht!	Holed out!	Imbucata!	Dans le trou !	¡Embocada!	В лунку!
+g00190	to byl birdie	Das war ein Birdie	That was a birdie	Era un birdie	C'était un birdie	Fue un birdie	Это был берди
+g00191	to byl eagle	Das war ein Eagle	That was an eagle	Era un eagle	C'était un eagle	Fue un eagle	Это был игл
+g00192	hole in one!	Hole in One!	Hole in one!	Buca in uno!	Trou en un !	¡Hoyo en uno!	Хole-ин-уан!
+g00193	gratulace!	Herzlichen Glückwunsch!	Congratulations!	Congratulazioni!	Félicitations !	¡Felicidades!	Поздравляю!
+g00194	Dobře uděláno!	Gut gemacht!	Well done!	Ben fatto!	Bien fait !	¡Bien hecho!	Молодец!
+g00195	kolik ran?	Wie viele Schläge?	How many strokes?	Quanti colpi?	Combien de coups ?	¿Cuántos golpes?	Сколько ударов?
+g00196	jsem ve třetí ráně	Ich liege drei	I'm lying three	Sono al terzo colpo	Je joue le trois	Voy por el tercer golpe	Я играю третий удар
+g00197	jsem ve čtvrté ráně	Ich liege vier	I'm lying four	Sono al quarto colpo	Je joue le quatre	Voy por el cuarto golpe	Я играю четвёртый удар
+g00198	co máte na téhle jamce?	Was haben Sie auf diesem Loch?	What did you score on this hole?	Che punteggio ha su questa buca?	Quel score avez-vous sur ce trou ?	¿Qué score tiene en este hoyo?	Какой у вас счёт на этой лунке?
+g00199	kterou jamku hrajeme?	Welches Loch spielen wir?	Which hole are we playing?	Quale buca stiamo giocando?	Quel trou jouons-nous ?	¿Qué hoyo estamos jugando?	Какую лунку мы играем?
+g00200	jak daleko to ještě je?	Wie weit ist es noch?	How far is it still?	Quanto è ancora lontano?	C'est encore à quelle distance ?	¿Cuánto falta todavía?	Сколько ещё осталось?
+g00201	kde je vlajka?	Wo ist die Fahne?	Where is the flag?	Dov'è la bandiera?	Où est le drapeau ?	¿Dónde está la bandera?	Где флаг?
+g00202	je green volný?	Ist das Grün frei?	Is the green clear?	Il green è libero?	Le green est-il libre ?	¿Está libre el green?	Грин свободен?
+g00203	viděli jste můj míček?	Haben Sie meinen Ball gesehen?	Have you seen my ball?	Ha visto la mia pallina?	Avez-vous vu ma balle ?	¿Ha visto mi bola?	Вы видели мой мяч?
+g00204	míček je tady	Der Ball ist hier	The ball is here	La pallina è qui	La balle est ici	La bola está aquí	Мяч здесь
+g00205	nemohu najít svůj míček	Ich kann meinen Ball nicht finden	I can't find my ball	Non riesco a trovare la mia pallina	Je ne trouve pas ma balle	No encuentro mi bola	Я не могу найти свой мяч
+g00206	pomozte mi prosím hledat	Bitte helfen Sie mir suchen	Please help me search	Mi aiuti a cercare per favore	Aidez-moi à chercher, s'il vous plaît	Ayúdeme a buscar, por favor	Помогите мне искать, пожалуйста
+g00207	tři minuty na hledání	Drei Minuten Suchzeit	Three minutes to search	Tre minuti per cercare	Trois minutes pour chercher	Tres minutos para buscar	Три минуты на поиски
+g00208	míček je ztracen	Der Ball ist verloren	The ball is lost	La pallina è persa	La balle est perdue	La bola está perdida	Мяч потерян
+g00209	hraji provizorní míček	Ich spiele einen provisorischen Ball	I'm playing a provisional ball	Gioco una pallina provvisoria	Je joue une balle provisoire	Juego una bola provisional	Я играю временный мяч
+g00210	kde je mimo hřiště?	Wo ist Out of Bounds?	Where is out of bounds?	Dov'è il fuori limite?	Où sont les hors-limites ?	¿Dónde está el fuera de límites?	Где аут?
+g00211	je to mimo hřiště?	Ist das Out of Bounds?	Is that out of bounds?	È fuori limite?	Est-ce hors limites ?	¿Está fuera de límites?	Это аут?
+g00212	míček leží ve vodě	Der Ball liegt im Wasser	The ball is in the water	La pallina è in acqua	La balle est dans l'eau	La bola está en el agua	Мяч лежит в воде
+g00213	penalizace / trestná rána	Penalty	the penalty	la penalità	la pénalité	la penalización	штраф
+g00214	jedna trestná rána	Ein Schlag Strafe	One stroke penalty	Un colpo di penalità	Un coup de pénalité	Un golpe de penalización	Один штрафной удар
+g00215	dvě trestné rány	Zwei Schläge Strafe	Two stroke penalty	Due colpi di penalità	Deux coups de pénalité	Dos golpes de penalización	Два штрафных удара
+g00216	dropovat / spustit míček	Droppen	to drop	droppare	dropper	dropear	дропать
+g00217	pustit míček	Fallen lassen	drop the ball	lasciare cadere la pallina	laisser tomber la balle	soltar la bola	бросить мяч
+g00218	volná úleva	Freie Ablage	free relief	sollievo gratuito	allègement gratuit	alivio gratuito	бесплатное облегчение
+g00219	hrajte z odpaliště	Spielen Sie vom Abschlag	Play from the tee	Giochi dal tee	Jouez depuis le tee	Juegue desde el tee	Играйте с ти
+g00220	green je poškozený	Das Grün ist beschädigt	The green is damaged	Il green è danneggiato	Le green est endommagé	El green está dañado	Грин повреждён
+g00221	mohu vzít úlevu?	Kann ich Erleichterung nehmen?	May I take relief?	Posso prendere sollievo?	Puis-je prendre un allègement ?	¿Puedo tomar alivio?	Могу ли я взять облегчение?
+g00222	míček je nehratelný	Der Ball ist unspielbar	The ball is unplayable	La pallina è injocabile	La balle est injouable	La bola es injugable	Мяч не для игры
+g00223	prohlašuji míček za nehratelný	Ich erkläre den Ball für unspielbar	I declare my ball unplayable	Dichiaro la mia pallina injocabile	Je déclare ma balle injouable	Declaro mi bola injugable	Я объявляю мяч не для игры
+g00224	sekce / oblast	der Abschnitt	the section	la sezione	la section	la sección	секция
+g00225	ranger / marshal	der Ranger	the ranger	il ranger	le ranger	el ranger	рейнджер
+g00226	marshal	der Marshal	the marshal	il marshal	le marshal	el marshal	маршал
+g00227	mohu vám pomoci?	Darf ich Ihnen helfen?	May I help you?	Posso aiutarla?	Puis-je vous aider ?	¿Puedo ayudarle?	Могу я вам помочь?
+g00228	prosím jeďte po cestě	Bitte fahren Sie auf dem Weg	Please keep to the path	Per favore rimanga sul percorso	Restez sur le chemin, s'il vous plaît	Circule por el camino, por favor	Пожалуйста, езжайте по дорожке
+g00229	prosím dodržujte odstup	Bitte halten Sie den Abstand	Please maintain your distance	Per favore mantenga la distanza	Gardez vos distances, s'il vous plaît	Mantenga la distancia, por favor	Пожалуйста, соблюдайте дистанцию
+g00230	opravte prosím své pitchmarky	Bitte reparieren Sie Ihre Pitchmarks	Please repair your pitch marks	Per favore ripari i suoi pitch mark	Réparez vos pitchs, s'il vous plaît	Repare sus marcas de bola, por favor	Пожалуйста, исправьте свои питч-марки
+g00231	prosím zahrabte bunker	Bitte den Bunker harken	Please rake the bunker	Per favore rastrelli il bunker	Ratissez le bunker, s'il vous plaît	Rastrille el búnker, por favor	Пожалуйста, разровняйте бункер
+g00232	bunkerové hrábě	der Bunkerrechen	the bunker rake	il rastrello del bunker	le râteau de bunker	el rastrillo de búnker	грабли для бункера
+g00233	prosím opravte divot	Bitte das Divot reparieren	Please replace the divot	Per favore rimetta il divot	Replacez le divot, s'il vous plaît	Reponga el divot, por favor	Пожалуйста, верните дёрн на место
+g00234	prosím vraťte pin	Bitte den Flaggenstock zurückstellen	Please replace the flagstick	Per favore rimetta la bandierina	Remettez le drapeau, s'il vous plaît	Reponga la bandera, por favor	Пожалуйста, верните флагшток
+g00235	caddie master	der Caddie Master	the caddie master	il caddie master	le caddie master	el caddie master	кэдди-мастер
+g00236	proshop	die Pro-Shop	the pro shop	il pro shop	le pro-shop	la tienda de golf	про-шоп
+g00237	šatna	die Umkleide	the changing room	lo spogliatoio	le vestiaire	el vestuario	раздевалка
+g00238	sprcha	die Dusche	the shower	la doccia	la douche	la ducha	душ
+g00239	klubovna	das Klubhaus	the clubhouse	la club house	le club-house	la casa club	клубный дом
+g00240	restaurace	das Restaurant	the restaurant	il ristorante	le restaurant	el restaurante	ресторан
+g00241	bar	die Bar	the bar	il bar	le bar	el bar	бар
+g00242	půjčené hole	der Leihschläger	rental clubs	i bastoni in affitto	les clubs de location	los palos de alquiler	арендованные клюшки
+g00243	golfový vozík / buggy	der Golfwagen	the golf cart / buggy	il golf cart / buggy	la voiturette de golf	el buggy de golf	гольф-кар
+g00244	elektrický vozík	das E-Trolley	the electric trolley	il carrello elettrico	le chariot électrique	el carro eléctrico	электрическая тележка
+g00245	prosím nejeďte na greenu	Bitte fahren Sie nicht auf dem Grün	Please don't drive on the green	Per favore non guidare sul green	Veuillez ne pas rouler sur le green	Por favor, no circule por el green	Пожалуйста, не ездите по грину
+g00246	prosím zůstaňte na fairwayi	Bitte bleiben Sie auf dem Fairway	Please stay on the fairway	Per favore rimanga sul fairway	Veuillez rester sur le fairway	Por favor, permanezca en el fairway	Пожалуйста, оставайтесь на фервее
+g00247	startovní čas / tee time	der Startzeit	the tee time	l'orario di partenza	l'heure de départ	la hora de salida	время старта
+g00248	rezervace	die Reservierung	the booking	la prenotazione	la réservation	la reserva	бронирование
+g00249	startovní číslo	die Startnummer	the starting number	il numero di partenza	le numéro de départ	el número de salida	стартовый номер
+g00250	kolo	die Runde	the round	il giro	le tour	la vuelta	раунд
+g00251	18-jamkové kolo	die 18-Loch-Runde	the 18-hole round	il giro di 18 buche	le tour de 18 trous	la vuelta de 18 hoyos	раунд из 18 лунок
+g00252	9-jamkové kolo	die 9-Loch-Runde	the 9-hole round	il giro di 9 buche	le tour de 9 trous	la vuelta de 9 hoyos	раунд из 9 лунок
+g00253	tréninkové kolo	die Übungsrunde	the practice round	il giro di allenamento	le tour d'entraînement	la vuelta de práctica	тренировочный раунд
+g00254	turnaj	das Turnier	the tournament	il torneo	le tournoi	el torneo	турнир
+g00255	soutěž	der Wettkampf	the competition	la competizione	la compétition	la competición	соревнование
+g00256	hráč	der Spieler	the player	il giocatore	le joueur	el jugador	игрок
+g00257	hráčka	die Spielerin	the female player	la giocatrice	la joueuse	la jugadora	игрок-женщина
+g00258	amatér	der Amateur	the amateur	l'amatore	l'amateur	el aficionado	любитель
+g00259	profesionál	der Profi	the professional	il professionista	le professionnel	el profesional	профессионал
+g00260	host	der Gast	the guest	l'ospite	l'invité	el invitado	гость
+g00261	člen	das Mitglied	the member	il socio	le membre	el socio	член клуба
+g00262	greenkeeper	der Greenkeeper / der Platzpfleger	the greenkeeper	il greenskeeper	le greenkeeper	el greenkeeper	грин-кипер
+g00263	golfový trenér / instruktor	der Golflehrer	the golf instructor	l'istruttore di golf	le professeur de golf	el entrenador de golf	тренер по гольфу
+g00264	golfová lekce	die Golfstunde	the golf lesson	la lezione di golf	la leçon de golf	la clase de golf	урок гольфа
+g00265	cvičný areál	das Übungsgelände / der Übungsplatz	the practice area	l'area di pratica	la zone d'entraînement	la zona de práctica	тренировочная зона
+g00266	driving range / odpaliště	die Driving Range	the driving range	il driving range	le practice	el campo de prácticas	драйвинг-рейндж
+g00267	cvičný green	das Übungsgrün	the practice green	il green di pratica	le putting green d'entraînement	el green de práctica	тренировочный грин
+g00268	cvičný putt	der Übungsputt	the practice putting	la pratica di putting	le putting d'entraînement	el putt de práctica	тренировочный патт
+g00269	cvičný bunker	das Sandübungsgelände	the practice bunker	il bunker di pratica	le bunker d'entraînement	el bunker de práctica	тренировочный бункер
+g00270	žluté tee (dámské / seniorské)	der gelbe Tee	the yellow tees	i tee gialli	les départs jaunes	las salidas amarillas	жёлтые ти
+g00271	červené tee (dámské)	der rote Tee	the red tees	i tee rossi	les départs rouges	las salidas rojas	красные ти
+g00272	bílé tee	der weiße Tee	the white tees	i tee bianchi	les départs blancs	las salidas blancas	белые ти
+g00273	žluté tee	der gelbe Tee	the yellow tees	i tee gialli	les départs jaunes	las salidas amarillas	жёлтые ти
+g00274	modré tee	der blaue Tee	the blue tees	i tee blu	les départs bleus	las salidas azules	синие ти
+g00275	černé tee (championship)	der schwarze Tee	the black tees	i tee neri	les départs noirs	las salidas negras	чёрные ти
+g00276	tee značení	die Teemarkierung	the tee marker	il segnatee	le marqueur de départ	la marca de salida	разметка ти
+g00277	označení vzdálenosti	die Entfernungsangabe	the distance marker	il segnale di distanza	le marqueur de distance	la señal de distancia	указатель расстояния
+g00278	milník vzdálenosti	der Meilenstein	the distance marker	il segnale di distanza	la borne de distance	el hito de distancia	веха расстояния
+g00279	označení 150 metrů	die 150-Meter-Markierung	the 150-metre marker	il segnale dei 150 metri	la marque des 150 mètres	la señal de 150 metros	отметка 150 метров
+g00280	course handicap	das Platzhandicap	the course handicap	il course handicap	le handicap de parcours	el hándicap de campo	гандикап поля
+g00281	slope	der Slope	the slope	lo slope	le slope	el slope	слоуп
+g00282	course rating	das Course Rating	the course rating	il punteggio per il corso	le course rating	el course rating	курс рейтинг
+g00283	playing handicap	die Spielvorgabe	the playing handicap	l'handicap di gioco	le handicap de jeu	el hándicap de juego	игровой гандикап
+g00284	netto skóre	der Nettoscore	the net score	il punteggio netto	le score net	el resultado neto	нетто-результат
+g00285	brutto skóre	der Bruttoscore	the gross score	il punteggio lordo	le score brut	el resultado bruto	брутто-результат
+g00286	diferenční skóre	die Differenz / das Differenzielle Scoring	the differential / the score differential	il differenziale / il differenziale di punteggio	le différentiel	el diferencial	дифференциал
+g00287	cut	der Cut	the cut	il taglio	le cut	el corte	кат
+g00288	matchplay	das Matchplay	matchplay	il matchplay	le match play	el match play	матч-плей
+g00289	strokeplay / medal play	das Strokeplay	strokeplay	lo stroke play	le stroke play	el stroke play	строк-плей
+g00290	foursome	das Foursome	foursome	il foursome	le foursome	el foursome	фоурсом
+g00291	four ball	das Fourballs	four-ball	il four ball	le four-balls	el four ball	фоусбол
+g00292	scramble	das Scramble	scramble	lo scramble	le scramble	el scramble	скремблинг
+g00293	Texas scramble	das Texas Scramble	Texas scramble	lo Texas scramble	le Texas scramble	el Texas scramble	техасский скрэмбл
+g00294	stableford systém	das Stableford System	the Stableford system	il sistema Stableford	le système Stableford	el sistema Stableford	система Стейблфорд
+g00295	body (stableford)	die Punkte	the points	i punti	les points	los puntos	очки
+g00296	dva body (par)	zwei Punkte	two points	due punti	deux points	dos puntos	два очка
+g00297	tři body (birdie)	drei Punkte	three points	tre punti	trois points	tres puntos	три очка
+g00298	čtyři body (eagle)	vier Punkte	four points	quattro punti	quatre points	cuatro puntos	четыре очка
+g00299	jeden bod (bogey)	ein Punkt	one point	un punto	un point	un punto	одно очко
+g00300	nula bodů (double bogey)	null Punkte	no points	zero punti	zéro point	cero puntos	ноль очков
+g00301	pořadí / výsledková tabule	der Leaderboard	the leaderboard	la classifica	le classement	la clasificación	таблица лидеров
+g00302	startovní listina	die Startliste	the start list	l'elenco di partenza	la liste de départ	la lista de salida	стартовый список
+g00303	výsledková listina	die Ergebnisliste	the results list	l'elenco dei risultati	la liste des résultats	la lista de resultados	список результатов
+g00304	dnes	heute	today	oggi	aujourd'hui	hoy	сегодня
+g00305	zítra	morgen	tomorrow	domani	demain	mañana	завтра
+g00306	včera	gestern	yesterday	ieri	hier	ayer	вчера
+g00307	počasí	das Wetter	the weather	il tempo	la météo	el tiempo	погода
+g00308	vítr	der Wind	the wind	il vento	le vent	el viento	ветер
+g00309	déšť	der Regen	the rain	la pioggia	la pluie	la lluvia	дождь
+g00310	sluneční svit	der Sonnenschein	the sunshine	il sole	le soleil	el sol	солнце
+g00311	mrak	die Wolke	the cloud	la nuvola	le nuage	la nube	облако
+g00312	mlha	der Nebel	the fog	la nebbia	le brouillard	la niebla	туман
+g00313	studený / chladno	kalt	cold	freddo	froid	frío	холодный
+g00314	teplý / teplo	warm	warm	caldo	chaud	cálido	тёплый
+g00315	horký / horko	heiß	hot	caldo	très chaud	caluroso	жаркий
+g00316	protivítr	der Gegenwind	headwind	vento contrario	le vent de face	el viento en contra	встречный ветер
+g00317	vítr zezadu	der Rückenwind	tailwind	vento in favore	le vent arrière	el viento a favor	попутный ветер
+g00318	boční vítr	der Seitenwind	crosswind	vento laterale	le vent de côté	el viento lateral	боковой ветер
+g00319	vítr přichází zleva	der Wind kommt von links	the wind is from the left	il vento viene da sinistra	le vent vient de la gauche	el viento viene de la izquierda	ветер дует слева
+g00320	vítr přichází zprava	der Wind kommt von rechts	the wind is from the right	il vento viene da destra	le vent vient de la droite	el viento viene de la derecha	ветер дует справа
+g00321	silný	stark	strong	forte	fort	fuerte	сильный
+g00322	slabý	schwach	weak	debole	faible	débil	слабый
+g00323	poryvový	böig	gusty	a raffiche	en rafales	racheado	порывистый
+g00324	metry za sekundu	der Meter pro Sekunde	meters per second	il metro al secondo	le mètre par seconde	el metro por segundo	метры в секунду
+g00325	hrajeme i přes déšť?	Spielen wir trotz Regen?	Are we playing in the rain?	Giochiamo anche sotto la pioggia?	On joue malgré la pluie ?	¿Jugamos bajo la lluvia?	Играем под дождём?
+g00326	hra se přerušuje	Das Spiel wird unterbrochen	Play is suspended	Il gioco è sospeso	Le jeu est suspendu	Se suspende el juego	Игра приостановлена
+g00327	hra pokračuje	Das Spiel wird fortgesetzt	Play resumes	Il gioco riprende	Le jeu reprend	Se reanuda el juego	Игра возобновляется
+g00328	siréna (přerušení hry)	die Sirene	the siren	la sirena	la sirène	la sirena	сирена
+g00329	jeden dlouhý tón (přerušení)	ein langer Ton	one long blast	un suono lungo	un long signal	un sonido largo	один длинный сигнал
+g00330	tři krátké tóny (ukončení)	drei kurze Töne	three short blasts	tre suoni brevi	trois signaux courts	tres sonidos cortos	три коротких сигнала
+g00331	nebezpečí blesku	Blitzgefahr	lightning danger	pericolo di fulmine	danger de foudre	peligro de rayos	опасность молнии
+g00332	prosím vyhledejte úkryt	Bitte suchen Sie Schutz	Please seek shelter	Per favore cerchi riparo	Veuillez vous mettre à l'abri	Por favor, busque refugio	Пожалуйста, укройтесь
+g00333	přístřešek	der Unterstand	the shelter	il rifugio	l'abri	el refugio	укрытие
+g00334	dešťová pauza	die Regenpause	the rain delay	la pausa per pioggia	la pause pluie	la pausa por lluvia	перерыв из-за дождя
+g00335	dobré ráno	Guten Morgen	Good morning	Buongiorno	Bonjour	Buenos días	Доброе утро
+g00336	dobrý den	Guten Tag	Good day	Buongiorno	Bonjour	Buenas tardes	Добрый день
+g00337	dobrý večer	Guten Abend	Good evening	Buonasera	Bonsoir	Buenas noches	Добрый вечер
+g00338	na shledanou	Auf Wiedersehen	Goodbye	Arrivederci	Au revoir	Adiós	До свидания
+g00339	čau	Tschüss	Bye	Ciao	Salut	Chao	Пока
+g00340	hodně zábavy	Viel Spaß	Have fun	Buon divertimento	Amusez-vous bien	Que se divierta	Приятной игры
+g00341	dobré kolo	Gute Runde	Have a good round	Buon giro	Bon parcours	Buena vuelta	Хорошего раунда
+g00342	hodně úspěchů	Viel Erfolg	Good luck	Buona fortuna	Bonne réussite	Mucho éxito	Успехов
+g00343	hrajte dobře	Spielen Sie gut	Play well	Giochi bene / giocate bene	Jouez bien	Juegue bien	Играйте хорошо
+g00344	dobré utkání	Gutes Spiel	Good game	Bella partita	Belle partie	Buen partido	Хорошая игра
+g00345	díky za hru	Danke für das Spiel	Thanks for the game	Grazie per la partita	Merci pour la partie	Gracias por el juego	Спасибо за игру
+g00346	bylo to zábavné	Es hat Spaß gemacht	That was enjoyable	È stato divertente	C'était agréable	Fue divertido	Было весело
+g00347	do příště	Bis zum nächsten Mal	See you next time	A la prossima volta	À la prochaine	Hasta la próxima	До следующего раза
+g00348	dobrou chuť	Guten Appetit	Enjoy your meal	Buon appetito	Bon appétit	Buen provecho	Приятного аппетита
+g00349	Na zdraví!	Prost!	Cheers!	Salute! / Cin cin!	Santé !	¡Salud!	За здоровье!
+g00350	19. jamka (bar/restaurace)	das 19. Loch	the 19th hole	la 19a buca	le 19e trou	el hoyo 19	19-я лунка
+g00351	co si dáte k pití?	Was trinken Sie?	What are you drinking?	Cosa prende da bere?	Que buvez-vous ?	¿Qué va a tomar?	Что будете пить?
+g00352	platím kolo	Ich zahle eine Runde	I'll buy a round	Offro io un giro	Je paie une tournée	Invito a una ronda	Я угощаю
+g00353	vyhrál/a jsem	Ich habe gewonnen	I won	Ho vinto	J'ai gagné	He ganado	Я выиграл
+g00354	prohrál/a jsem	Ich habe verloren	I lost	Ho perso	J'ai perdu	He perdido	Я проиграл
+g00355	remíza	Unentschieden	a tie	pareggio	égalité	empate	ничья
+g00356	bylo to dobré kolo	Das war eine gute Runde	That was a good round	È stato un bel giro	C'était un bon parcours	Fue una buena vuelta	Это был хороший раунд
+g00357	dnes jsem nehrál/a dobře	Ich war heute nicht gut	I wasn't playing well today	Oggi non ho giocato bene	Je n'ai pas bien joué aujourd'hui	Hoy no he jugado bien	Сегодня я играл плохо
+g00358	příště to bude lepší	Nächstes Mal wird es besser	Better next time	La prossima volta andrà meglio	La prochaine fois sera meilleure	La próxima será mejor	В следующий раз будет лучше
+g00359	jaký máte handicap?	Wie ist Ihr Handicap?	What's your handicap?	Qual è il suo handicap?	Quel est votre handicap ?	¿Cuál es su hándicap?	Какой у вас гандикап?
+g00360	moje handicap je 15	Mein Handicap ist fünfzehn	My handicap is fifteen	Il mio handicap è quindici	Mon handicap est quinze	Mi hándicap es quince	Мой гандикап пятнадцать
+g00361	hrajete zde často?	Spielen Sie oft hier?	Do you play here often?	Gioca spesso qui?	Jouez-vous souvent ici ?	¿Juega a menudo aquí?	Вы часто здесь играете?
+g00362	jsem tu poprvé	Ich bin zum ersten Mal hier	This is my first time here	È la mia prima volta qui	C'est ma première fois ici	Es mi primera vez aquí	Я здесь впервые
+g00363	hřiště je hezké	Der Platz ist schön	The course is nice	Il campo è bello	Le parcours est beau	El campo es bonito	Поле красивое
+g00364	hřiště je obtížné	Der Platz ist schwierig	The course is difficult	Il campo è difficile	Le parcours est difficile	El campo es difícil	Поле сложное
+g00365	líbí se mi toto hřiště	Ich mag diesen Platz	I like this course	Mi piace questo campo	J'aime ce parcours	Me gusta este campo	Мне нравится это поле
+g00366	jak dlouho hrajete golf?	Wie lange spielen Sie schon Golf?	How long have you been playing?	Da quanto tempo gioca a golf?	Depuis combien de temps jouez-vous au golf ?	¿Cuánto tiempo lleva jugando al golf?	Как долго вы играете в гольф?
+g00367	hraji pět let	Ich spiele seit fünf Jahren	I've been playing for five years	Gioco da cinque anni	Je joue depuis cinq ans	Juego desde hace cinco años	Я играю пять лет
+g00368	máte greencard / povolení ke hře?	Haben Sie eine Spielgenehmigung?	Do you have a green card?	Ha il permesso di gioco?	Avez-vous une carte verte ?	¿Tiene permiso de juego?	У вас есть грин-карта?
+g00369	greencard	die Greencard	the green card	la green card	la carte verte	la tarjeta verde	грин-карта
+g00370	platzreife / povolení ke hře	die Platzreife	the course permit	il permesso di gioco	la carte verte	el permiso de juego	допуск к игре
+g00371	průkaz DGV (německý golfový svaz	der DGV-Ausweis	the DGV card	la tessera DGV	la carte DGV	el carné DGV	карта DGV
+g00372	členství	die Mitgliedschaft	the membership	l'abbonamento	l'adhésion	la membresía	членство
+g00373	roční příspěvek	der Jahresbeitrag	the annual fee	la quota annuale	la cotisation annuelle	la cuota anual	годовой взнос
+g00374	greenfee / poplatek za hřiště	die Greenfee	the green fee	il green fee	le green fee	el green fee	грин-фи
+g00375	denní karta	die Tageskarte	the day ticket	il biglietto giornaliero	le ticket journalier	el pase diario	дневной билет
+g00376	sleva	der Rabatt	the discount	lo sconto	la réduction	el descuento	скидка
+g00377	seniorská sleva	der Seniorenrabatt	the senior discount	lo sconto senior	la réduction senior	el descuento sénior	скидка для сеньоров
+g00378	juniorská sleva	der Juniorenrabatt	the junior discount	lo sconto junior	la réduction junior	el descuento júnior	скидка для юниоров
+g00379	rezervace / booking	die Buchung	the booking	la prenotazione	la réservation	la reserva	бронирование
+g00380	rezervovat online	online buchen	to book online	prenotare online	réserver en ligne	reservar en línea	бронировать онлайн
+g00381	startovní lístek	der Startzettel	the starting sheet	il foglio di partenza	la feuille de départ	la hoja de salida	стартовый лист
+g00382	přechod na další jamku	der Lochwechsel	moving to the next hole	il passaggio alla buca successiva	le passage au trou suivant	el paso al siguiente hoyo	переход на следующую лунку
+g00383	čekací doba	die Wartezeit	the waiting time	il tempo di attesa	le temps d'attente	el tiempo de espera	время ожидания
+g00384	čekat	warten	to wait	aspettare	attendre	esperar	ждать
+g00385	další skupina	die nächste Gruppe	the next group	il gruppo successivo	le groupe suivant	el siguiente grupo	следующая группа
+g00386	předchozí skupina	die vorherige Gruppe	the previous group	il gruppo precedente	le groupe précédent	el grupo anterior	предыдущая группа
+g00387	udržovat odstup	Abstand halten	maintain your distance	mantenere la distanza	garder ses distances	mantener la distancia	держать дистанцию
+g00388	bezpečná vzdálenost	der sichere Abstand	a safe distance	la distanza di sicurezza	la distance de sécurité	la distancia de seguridad	безопасное расстояние
+g00389	prosím čekejte dokud není dráha volná	Bitte warten bis die Bahn frei ist	Please wait until the fairway is clear	Per favore aspettate finché il fairway è libero	Veuillez attendre que le fairway soit libre		Пожалуйста, ждите, пока фервей свободен
+g00390	hrací oblast	der Spielbereich	the playing area	l'area di gioco	la zone de jeu	la zona de juego	игровая зона
+g00391	nebezpečná zóna	die Gefahrenzone	the danger zone	la zona di pericolo	la zone de danger	la zona de peligro	опасная зона
+g00392	Opatrně!	Vorsicht!	Be careful!	Attenzione!	Attention !	¡Cuidado!	Осторожно!
+g00393	Dávejte pozor!	Aufpassen!	Watch out!	Fate attenzione!	Faites attention !	¡Atención!	Внимание!
+g00394	prosím stůjte	Bitte stehen bleiben	Please stand still	Fermatevi, per favore	Ne bougez pas, s'il vous plaît	Por favor, quédense quietos	Пожалуйста, остановитесь
+g00395	nouzová situace	der Notfall	the emergency	l'emergenza	l'urgence	la emergencia	чрезвычайная ситуация
+g00396	první pomoc	die erste Hilfe	first aid	il primo soccorso	les premiers secours	los primeros auxilios	первая помощь
+g00397	defibrilátor	der Defibrillator	the defibrillator	il defibrillatore	le défibrillateur	el desfibrilador	дефибриллятор
+g00398	záchranář	der Sanitäter	the paramedic	il soccorritore	le secouriste	el socorrista	спасатель
+g00399	zavolejte lékaře	Rufen Sie einen Arzt	Call a doctor	Chiami un medico	Appelez un médecin	Llame a un médico	Вызовите врача
+g00400	potřebuji pomoc	Ich brauche Hilfe	I need help	Ho bisogno di aiuto	J'ai besoin d'aide	Necesito ayuda	Мне нужна помощь
+g00401	je vše v pořádku?	Ist alles in Ordnung?	Is everything okay?	Va tutto bene?	Tout va bien ?	¿Está todo bien?	Всё в порядке?
+g00402	zranili jste se?	Haben Sie sich verletzt?	Are you injured?	Si è fatto male?	Vous êtes-vous blessé ?	¿Se ha lesionado?	Вы ушиблись?
+g00403	kde to bolí?	Wo tut es weh?	Where does it hurt?	Dove fa male?	Où avez-vous mal ?	¿Dónde le duele?	Где болит?
+g00404	prosím sedněte si	Bitte setzen Sie sich	Please sit down	Si sieda per favore	Asseyez-vous, s'il vous plaît	Siéntese, por favor	Пожалуйста, садитесь
+g00405	pít vodu	Wasser trinken	drink water	bere acqua	boire de l'eau	beber agua	пить воду
+g00406	opalovací krém	die Sonnencreme	sunscreen	la crema solare	la crème solaire	el protector solar	солнцезащитный крем
+g00407	úžeh	der Sonnenstich	sunstroke	il colpo di sole	l'insolation	la insolación	солнечный удар
+g00408	přehřátí	die Überhitzung	overheating	il surriscaldamento	la surchauffe	el sobrecalentamiento	перегрев
+g00409	pijte dostatek vody	Trinken Sie genug Wasser	drink enough water	beva abbastanza acqua	buvez suffisamment d'eau	beba suficiente agua	пейте достаточно воды
+g00410	stanice s vodou	die Wasserstation	the water station	la stazione dell'acqua	le point d'eau	la estación de agua	пункт с водой
+g00411	občerstvovací stolek	der Erfrischungsstand	the refreshment stand	il punto di ristoro	le stand de rafraîchissements	el puesto de refrescos	буфет
+g00412	svačina	der Snack	the snack	lo spuntino	le snack	el tentempié	перекус
+g00413	energetická tyčinka	der Energieriegel	the energy bar	la barretta energetica	la barre énergétique	la barrita energética	энергетический батончик
+g00414	ovoce	das Obst	the fruit	la frutta	les fruits	la fruta	фрукты
+g00415	voda	das Wasser	the water	l'acqua	l'eau	el agua	вода
+g00416	izotonický nápoj	der Isotrank	the isotonic drink	la bevanda isotonica	la boisson isotonique	la bebida isotónica	изотонический напиток
+g00417	káva	der Kaffee	the coffee	il caffè	le café	el café	кофе
+g00418	čaj	der Tee	the tea	il tè	le thé	el té	чай
+g00419	mám hlad	Ich habe Hunger	I am hungry	Ho fame	J'ai faim	Tengo hambre	Я голоден
+g00420	mám žízeň	Ich habe Durst	I am thirsty	Ho sete	J'ai soif	Tengo sed	Я хочу пить
+g00421	kde je nejbližší stolek s vodou?	Wo ist der nächste Wasserstand?	Where is the nearest water station?	Dov'è la stazione dell'acqua più vicina?		¿Dónde está la estación de agua más cercana?	Где ближайший пункт с водой?
+g00422	mapa hřiště	der Platzplan	the course map	la mappa del campo	le plan du parcours	el mapa del campo	карта поля
+g00423	popis jamky	die Lochbeschreibung	the hole description	la descrizione della buca	la description du trou	la descripción del hoyo	описание лунки
+g00424	hodnota par	der Par-Wert	the par value	il valore par	la valeur du par	el valor del par	значение пар
+g00425	délka	die Länge	the length	la lunghezza	la longueur	la longitud	длина
+g00426	překážky	die Hindernisse	the hazards	gli ostacoli	les obstacles	los obstáculos	препятствия
+g00427	vzdálenost k jamce	der Abstand zur Fahne	the distance to the flag	la distanza dalla bandiera	la distance au drapeau	la distancia a la bandera	расстояние до флага
+g00428	vlevo od vlajky	links von der Fahne	left of the flag	a sinistra della bandiera	à gauche du drapeau	a la izquierda de la bandera	слева от флага
+g00429	vpravo od vlajky	rechts von der Fahne	right of the flag	a destra della bandiera	à droite du drapeau	a la derecha de la bandera	справа от флага
+g00430	za vlajkou	hinter der Fahne	behind the flag	dietro la bandiera	derrière le drapeau	detrás de la bandera	за флагом
+g00431	před vlajkou	vor der Fahne	in front of the flag	davanti alla bandiera	devant le drapeau	delante de la bandera	перед флагом
+g00432	střed greenu	die Mitte des Grüns	the middle of the green	il centro del green	le milieu du green	el centro del green	центр грина
+g00433	přední část greenu	vorne am Grün	front of the green	la parte anteriore del green	l'avant du green	la parte delantera del green	передняя часть грина
+g00434	zadní část greenu	hinten am Grün	back of the green	la parte posteriore del green	l'arrière du green	la parte trasera del green	задняя часть грина
+g00435	levá část greenu	links am Grün	left of the green	il lato sinistro del green	le côté gauche du green	el lado izquierdo del green	левая часть грина
+g00436	pravá část greenu	rechts am Grün	right of the green	il lato destro del green	le côté droit du green	el lado derecho del green	правая часть грина
+g00437	rychlý green	schnelles Grün	fast green	green veloce	green rapide	green rápido	быстрый грин
+g00438	pomalý green	langsames Grün	slow green	green lento	green lent	green lento	медленный грин
+g00439	green je v dobrém stavu	das Grün ist in gutem Zustand	the green is in good condition	il green è in buone condizioni	le green est en bon état	el green está en buen estado	грин в хорошем состоянии
+g00440	green je mokrý	das Grün ist feucht	the green is wet	il green è bagnato	le green est mouillé	el green está mojado	грин мокрый
+g00441	green je suchý	das Grün ist trocken	the green is dry	il green è asciutto	le green est sec	el green está seco	грин сухой
+g00442	odpor při rolování	der Rollwiderstand	the rolling resistance	la resistenza al rotolamento	la résistance au roulement	la resistencia a la rodadura	сопротивление качению
+g00443	stimpmeter (měření rychlosti greenu)	der Stimpmeter	the stimpmeter	lo stimpmeter	le stimpmètre	el stimpmeter	стимпметр
+g00444	dávejte pozor na svahy	aufpassen auf Schrägen	watch out for the slopes	attenzione alle pendenze	attention aux pentes	cuidado con las pendientes	осторожно, склоны
+g00445	do kopce	bergauf	uphill	in salita	en montée	cuesta arriba	в гору
+g00446	z kopce	bergab	downhill	in discesa	en descente	cuesta abajo	с горы
+g00447	zleva doprava	von links nach rechts	left to right	da sinistra a destra	de gauche à droite	de izquierda a derecha	слева направо
+g00448	zprava doleva	von rechts nach links	right to left	da destra a sinistra	de droite à gauche	de derecha a izquierda	справа налево
+g00449	rovně	geradeaus	straight	dritto	tout droit	recto	прямо
+g00450	mírně vlevo	leicht links	slightly left	leggermente a sinistra	légèrement à gauche	ligeramente a la izquierda	слегка влево
+g00451	mírně vpravo	leicht rechts	slightly right	leggermente a destra	légèrement à droite	ligeramente a la derecha	слегка вправо
+g00452	výrazně vlevo	stark links	sharply left	nettamente a sinistra	nettement à gauche	claramente a la izquierda	сильно влево
+g00453	výrazně vpravo	stark rechts	sharply right	nettamente a destra	nettement à droite	claramente a la derecha	сильно вправо
+g00454	vzdálenost / odstup	der Abstand	the distance	la distanza	la distance	la distancia	расстояние
+g00455	jak daleko je jamka?	wie weit bis zur Fahne?	how far to the flag?	quanto dista la bandiera?	à quelle distance est le drapeau ?	¿a qué distancia está la bandera?	как далеко до флага?
+g00456	přibližně sto metrů	ungefähr hundert Meter	about a hundred meters	circa cento metri	environ cent mètres	unos cien metros	примерно сто метров
+g00457	přesně	genau	exactly	esattamente	exactement	exactamente	точно
+g00458	nevím	ich weiß nicht	I don't know	non lo so	je ne sais pas	no lo sé	я не знаю
+g00459	možná	vielleicht	maybe	forse	peut-être	quizás	возможно
+g00460	to souhlasí	das stimmt	that's right	è giusto	c'est exact	eso es correcto	это верно
+g00461	myslím že ano	ich glaube schon	I think so	credo di sì	je pense que oui	creo que sí	думаю, да
+g00462	myslím že ne	ich glaube nicht	I don't think so	credo di no	je pense que non	creo que no	думаю, нет
+g00463	promiňte, smím se zeptat?	Entschuldigung, darf ich fragen?	Excuse me, may I ask?	Mi scusi, posso chiedere?	Excusez-moi, puis-je demander ?	Perdone, ¿puedo preguntar?	Извините, можно спросить?
+g00464	mluvíte německy?	Sprechen Sie Deutsch?	Do you speak German?	Parla tedesco?	Parlez-vous allemand ?	¿Habla alemán?	Вы говорите по-немецки?
+g00465	mluvím trochu německy	Ich spreche ein bisschen Deutsch	I speak a little German	Parlo un po' di tedesco	Je parle un peu allemand	Hablo un poco de alemán	Я немного говорю по-немецки
+g00466	nerozumím	Ich verstehe nicht	I don't understand	Non capisco	Je ne comprends pas	No entiendo	Я не понимаю
+g00467	můžete to zopakovat?	Können Sie das wiederholen?	Can you repeat that?	Può ripeterlo?	Pouvez-vous répéter ?	¿Puede repetirlo?	Можете повторить?
+g00468	pomaleji prosím	Langsamer bitte	Slowly please	Più lentamente per favore	Plus lentement s'il vous plaît	Más despacio por favor	Помедленнее, пожалуйста
+g00469	nemluvím německy	Ich spreche kein Deutsch	I don't speak German	Non parlo tedesco	Je ne parle pas allemand	No hablo alemán	Я не говорю по-немецки
+g00470	mluvíte anglicky?	Sprechen Sie Englisch?	Do you speak English?	Parla inglese?	Parlez-vous anglais ?	¿Habla inglés?	Вы говорите по-английски?
+g00471	mluvíte česky?	Sprechen Sie Tschechisch?	Do you speak Czech?	Parla ceco?	Parlez-vous tchèque ?	¿Habla checo?	Вы говорите по-чешски?
+g00472	mnohokrát děkuji	Vielen Dank	Thank you very much	Grazie mille	Merci beaucoup	Muchas gracias	Большое спасибо
+g00473	prosím / není zač	Bitte sehr	you're welcome	Prego	Je vous en prie	De nada	Пожалуйста
+g00474	žádný problém	Kein Problem	No problem	Nessun problema	Pas de problème	Ningún problema	Нет проблем
+g00475	rádo se stalo	Gern geschehen	My pleasure	Con piacere	Avec plaisir	Un placer	Рад помочь
+g00476	odpal zepředu	der Abschlag von vorne	the tee shot from the front	il tiro dal davanti	le départ de l'avant	la salida desde delante	удар с передних ти
+g00477	odpal zezadu	der Abschlag von hinten	the tee shot from the back	il tiro da dietro	le départ de l'arrière	la salida desde atrás	удар с задних ти
+g00478	tee značky	die Teemarkierungen	the tee markers	i segni del tee	les marques de départ	las marcas del tee	маркеры ти
+g00479	mezi značkami	zwischen den Markierungen	between the markers	tra i segni	entre les marques	entre las marcas	между маркерами
+g00480	za značkami	hinter den Markierungen	behind the markers	dietro i segni	derrière les marques	detrás de las marcas	за маркерами
+g00481	dvě délky hole	zwei Schlägerlängen	two club lengths	due lunghezze di bastone	deux longueurs de club	dos largos de palo	две длины клюшки
+g00482	jedna délka hole	eine Schlägerlänge	one club length	una lunghezza di bastone	une longueur de club	un largo de palo	одна длина клюшки
+g00483	uvnitř označení	innerhalb der Markierungen	inside the markings	all'interno dei segnali	à l'intérieur des marques	dentro de las marcas	внутри разметки
+g00484	vně označení	außerhalb der Markierungen	outside the markings	all'esterno dei segnali	à l'extérieur des marques	fuera de las marcas	за пределами разметки
+g00485	oprávnění ke hře	die Spielberechtigung	playing eligibility	l'idoneità al gioco	l'autorisation de jeu	la autorización de juego	допуск к игре
+g00486	dámy	Damen	ladies	le donne	les dames	las damas	женщины
+g00487	pánové	Herren	men	gli uomini	les messieurs	los caballeros	мужчины
+g00488	senioři	Senioren	seniors	i senior	les seniors	los séniors	сеньоры
+g00489	junioři	Junioren	juniors	i junior	les juniors	los júniors	юниоры
+g00490	dámské odpaliště	die Damenabschlag	the ladies' tee	il tee delle donne	le départ des dames	la salida de damas	женский ти
+g00491	pánské odpaliště	der Herrenabschlag	the men's tee	il tee degli uomini	le départ des messieurs	la salida de caballeros	мужской ти
+g00492	seniorské odpaliště	der Seniorenabschlag	the seniors' tee	il tee dei senior	le départ des seniors	la salida de séniors	сеньорский ти
+g00493	limit handicapu	das Handicap-Limit	the handicap limit	il limite di handicap	la limite de handicap	el límite de hándicap	лимит гандикапа
+g00494	zlepšit handicap	die Vorgabe verbessern	improve the handicap	migliorare l'handicap	améliorer le handicap	mejorar el hándicap	улучшить гандикап
+g00495	zvýšit handicap	die Vorgabe erhöhen	increase the handicap	aumentare l'handicap	augmenter le handicap	aumentar el hándicap	повысить гандикап
+g00496	EDS kolo (evidence diferenčního skóre)	die EDS-Runde	the extra day score round	il giro EDS	le tour EDS	la vuelta EDS	раунд EDS
+g00497	HCP index	der HCP-Index	the handicap index	l'indice di handicap	l'index de handicap	el índice de hándicap	гандикап-индекс
+g00498	hodnotící kolo / wertung kolo	die Wertungsrunde	the counting round	il giro valido	le tour comptant	la vuelta válida	зачётный раунд
+g00499	nehodnotící kolo	die Nichtwertungsrunde	the non-counting round	il giro non valido	le tour non comptant	la vuelta no válida	незачётный раунд
+g00500	domácí kolo	die Heimrunde	the home round	il giro in casa	le tour à domicile	la vuelta en casa	домашний раунд
+g00501	hostující kolo	die Gastrunde	the away round	il giro in trasferta	le tour à l'extérieur	la vuelta como visitante	выездной раунд
+g00502	potvrzení skóre	der Zählernachweis	the score attestation	la conferma del punteggio	la validation de la carte	la confirmación de la tarjeta	подтверждение счёта
+g00503	podepsat	unterschreiben	sign	firmare	signer	firmar	подписать
+g00504	attestant / potvrzovatel	der Attestant	the marker	il marcatore	le marqueur	el marcador	маркер
+g00505	podepsat skórkarta	das Scorekard unterschreiben	sign the scorecard	firmare lo scorecard	signer la carte de score	firmar la tarjeta	подписать скоркарту
+g00506	chybná skórkarta	die falsche Scorecard	the incorrect scorecard	lo scorecard errato	la carte de score erronée	la tarjeta incorrecta	неверная скоркарта
+g00507	diskvalifikace	Disqualifikation	disqualification	la squalifica	la disqualification	la descalificación	дисквалификация
+g00508	porušení pravidla	der Regelverstoß	the rule breach	la violazione della regola	l'infraction à la règle	la infracción de la regla	нарушение правила
+g00509	zdržování hry	die Spielverzögerung	undue delay	il ritardo ingiustificato	le retard de jeu	la demora indebida	задержка игры
+g00510	pomalá hra	langsames Spiel	slow play	il gioco lento	le jeu lent	el juego lento	медленная игра
+g00511	časová penalizace	die Zeitstrafe	the time penalty	la penalità di tempo	la pénalité de temps	la penalización de tiempo	штраф за время
+g00512	špatný postoj	die schlechte Haltung	the poor stance	la postura sbagliata	la mauvaise position	la mala postura	неправильная стойка
+g00513	čištění míčku	die Ballreinigung	ball cleaning	la pulizia della palla	le nettoyage de la balle	la limpieza de la bola	чистка мяча
+g00514	vyčistit míček	den Ball reinigen	clean the ball	pulire la palla	nettoyer la balle	limpiar la bola	почистить мяч
+g00515	na greenu	auf dem Grün	on the green	sul green	sur le green	en el green	на грине
+g00516	mezi jamkami	zwischen den Löchern	between holes	tra le buche	entre les trous	entre hoyos	между лунками
+g00517	na fairwayi	auf dem Fairway	on the fairway	sul fairway	sur le fairway	en el fairway	на фервее
+g00518	v roughu	im Rough	in the rough	nel rough	dans le rough	en el rough	в рафе
+g00519	v bunkeru	im Bunker	in the bunker	nel bunker	dans le bunker	en el bunker	в бункере
+g00520	ve vodě	im Wasser	in the water	in acqua	dans l'eau	en el agua	в воде
+g00521	pod stromy	unter den Bäumen	under the trees	sotto gli alberi	sous les arbres	bajo los árboles	под деревьями
+g00522	za stromem	hinter dem Baum	behind the tree	dietro l'albero	derrière l'arbre	detrás del árbol	за деревом
+g00523	vedle cesty	neben dem Weg	beside the path	accanto al sentiero	à côté du chemin	junto al camino	рядом с дорожкой
+g00524	na cestě	auf dem Weg	on the path	sul sentiero	sur le chemin	en el camino	на дорожке
+g00525	vedle rybníka	neben dem Teich	beside the pond	accanto allo stagno	à côté de l'étang	junto al estanque	рядом с прудом
+g00526	na okraji	am Rand	on the edge	sul bordo	sur le bord	en el borde	на краю
+g00527	uprostřed	in der Mitte	in the middle	in mezzo	au milieu	en el medio	посередине
+g00528	na levém okraji	am linken Rand	on the left edge	sul bordo sinistro	sur le bord gauche	en el borde izquierdo	на левом краю
+g00529	na pravém okraji	am rechten Rand	on the right edge	sul bordo destro	sur le bord droit	en el borde derecho	на правом краю
+g00530	daleko vlevo	weit links	far left	molto a sinistra	loin à gauche	muy a la izquierda	далеко влево
+g00531	daleko vpravo	weit rechts	far right	molto a destra	loin à droite	muy a la derecha	далеко вправо
+g00532	krátce / krátká rána	kurz	short	corto	court	corto	недолёт
+g00533	daleko / dlouhá rána	lang	long	lungo	long	largo	перелёт
+g00534	příliš krátce	zu kurz	too short	troppo corto	trop court	demasiado corto	слишком короткий
+g00535	příliš daleko	zu lang	too long	troppo lungo	trop long	demasiado largo	слишком длинный
+g00536	leží mi to dobře	ich liege gut	I have a good lie	ho un buon lie	j'ai une bonne position	tengo buena colocación	у меня хорошее лежание
+g00537	leží mi to špatně	ich liege schlecht	I have a bad lie	ho un brutto lie	j'ai une mauvaise position	tengo mala colocación	у меня плохое лежание
+g00538	míček leží hluboko v roughu	der Ball liegt tief im Rough	the ball is deep in the rough	la pallina è in profondità nel rough	la balle est profonde dans le rough	la bola está hundida en el rough	мяч глубоко в рафе
+g00539	míček je v díře	der Ball ist in einem Loch	the ball is in a hole	la pallina è in una buca	la balle est dans un trou	la bola está en un hoyo	мяч в ямке
+g00540	míček je pod listem	der Ball ist unter einem Blatt	the ball is under a leaf	la pallina è sotto una foglia	la balle est sous une feuille	la bola está bajo una hoja	мяч под листом
+g00541	míček je ve vodě	der Ball ist im Wasser	The ball is in the water	La pallina è nell'acqua	La balle est dans l'eau	La bola está en el agua	Мяч в воде
+g00542	míček je na okraji vody	der Ball ist am Rand des Wassers	the ball is at the water's edge	la pallina è al bordo dell'acqua	la balle est au bord de l'eau	la bola está al borde del agua	мяч на краю воды
+g00543	dropovat za vodní překážkou	Droppen hinter dem Wasserhindernis	drop behind the water hazard	droppare dietro l'ostacolo d'acqua	dropper derrière l'obstacle d'eau	dropar detrás del obstáculo de agua	дроп за водной преградой
+g00544	na místě posledního úderu	an der Stelle des letzten Schlags	at the spot of the last shot	nel punto dell'ultimo colpo	à l'endroit du dernier coup	en el lugar del último golpe	на месте последнего удара
+g00545	co nejblíže	so nah wie möglich	as near as possible	il più vicino possibile	au plus près	lo más cerca posible	как можно ближе
+g00546	ne blíže k jamce	nicht näher zum Loch	not nearer the hole	non più vicino alla buca	pas plus près du trou	no más cerca del hoyo	не ближе к лунке
+g00547	s jednou trestnou ranou	mit einem Schlag Strafe	with one penalty stroke	con un colpo di penalità	avec un coup de pénalité	con un golpe de penalización	с одним штрафным ударом
+g00548	bez trestu	ohne Strafe	without penalty	senza penalità	sans pénalité	sin penalización	без штрафа
+g00549	pravidla (kniha)	das Regelwerk	the rule book	il regolamento	le livre des règles	el reglamento	свод правил
+g00550	místní pravidlo	die lokale Regel	the local rule	la regola locale	la règle locale	la regla local	местное правило
+g00551	herní řád	die Spielordnung	the code of play	il regolamento di gioco	le règlement de jeu	el reglamento de juego	регламент игры
+g00552	ředitel turnaje	der Turnierdirektor	the tournament director	il direttore del torneo	le directeur du tournoi	el director del torneo	директор турнира
+g00553	rozhodčí	der Referee / der Schiedsrichter	the referee	l'arbitro	l'arbitre	el árbitro	рефери
+g00554	žádat o rozhodnutí	eine Entscheidung anfragen	request a ruling	richiedere una decisione	demander une décision	solicitar una decisión	запросить решение
+g00555	podat protest	Einspruch erheben	file a protest	presentare un reclamo	déposer une réclamation	presentar una protesta	подать протест
+g00556	hráčský výbor	die Spielkommission	the players' committee	il comitato dei giocatori	le comité des joueurs	el comité de jugadores	комитет игроков
+g00557	hrát podle pravidel	nach den Regeln spielen	play by the rules	giocare secondo le regole	jouer selon les règles	jugar según las reglas	играть по правилам
+g00558	v duchu hry	im Geiste des Spiels	in the spirit of the game	nello spirito del gioco	dans l'esprit du jeu	en el espíritu del juego	в духе игры
+g00559	fair play	fair play	fair play	fair play	fair-play	juego limpio	фэйр-плей
+g00560	respekt	der Respekt	respect	il rispetto	le respect	el respeto	уважение
+g00561	ohled / takt	die Rücksicht	consideration / courtesy	il rispetto / la cortesia	la considération / la courtoisie	la consideración / el tacto	внимание / такт
+g00562	být ticho	ruhig sein	be quiet	fare silenzio	faire silence	guardar silencio	соблюдать тишину
+g00563	nerušit	nicht stören	do not disturb	non disturbare	ne pas déranger	no molestar	не мешать
+g00564	ztlumit mobilní telefon	das Handy stumm stellen	silence the mobile phone	silenziare il cellulare	mettre le portable en silencieux	silenciar el móvil	отключить звук телефона
+g00565	nevolat při ráně	kein Telefonieren beim Schlag	no phone calls during the shot	non telefonare durante il colpo	ne pas téléphoner pendant le coup	no llamar durante el golpe	не звонить во время удара
+g00566	stín (nerušit hráče stínem)	der Schatten	the shadow	l'ombra	l'ombre	la sombra	тень
+g00567	nestoupat do herní linie	nicht in die Spiellinie treten	do not step on the line of play	non calpestare la linea di gioco	ne pas marcher sur la ligne de jeu	no pisar la línea de juego	не наступать на линию игры
+g00568	držet pin	den Flaggenstock halten	attend the flagstick	tenere la bandiera	tenir le drapeau	sostener la bandera	держать флаг
+g00569	vytáhnout pin	den Flaggenstock herausnehmen	remove the flagstick	togliere la bandiera	retirer le drapeau	retirar la bandera	вытащить флаг
+g00570	vrátit pin	den Flaggenstock zurücklegen	replace the flagstick	rimettere la bandiera	remettre le drapeau	colocar la bandera	вернуть флаг
+g00571	divácká oblast	der Zuschauerbereich	the spectator area	l'area spettatori	la zone des spectateurs	la zona de espectadores	зона для зрителей
+g00572	páska / ohraničení	das Absperrband	the rope / barrier tape	il nastro di delimitazione	le ruban de délimitation	la cinta de delimitación	ограждающая лента
+g00573	prosím zůstaňte za linií	bitte hinter der Linie bleiben	please stay behind the line	per favore restate dietro la linea	veuillez rester derrière la ligne	por favor permanezcan detrás de la línea	пожалуйста, оставайтесь за линией
+g00574	fotografování povoleno	fotografieren erlaubt	photography allowed	fotografie consentite	photographie autorisée	fotografía permitida	фотографировать разрешено
+g00575	fotografování zakázáno	fotografieren verboten	no photography	fotografie vietate	photographie interdite	fotografía prohibida	фотографировать запрещено
+g00576	ticho prosím	Ruhe bitte	quiet please	silenzio per favore	silence s'il vous plaît	silencio por favor	тишина, пожалуйста
+g00577	potlesk	der Applaus	the applause	l'applauso	les applaudissements	el aplauso	аплодисменты
+g00578	dobře sledováno	gut zugeschaut	well watched	ben osservato	bien regardé	bien observado	хорошо смотрели
+g00579	profesionální turnaj	das Profiturnier	the professional tournament	il torneo professionistico	le tournoi professionnel	el torneo profesional	профессиональный турнир
+g00580	amatérský šampionát	die Amateurmeisterschaft	the amateur championship	il campionato dilettanti	le championnat amateur	el campeonato amateur	любительский чемпионат
+g00581	klubový šampión	der Clubmeister	the club champion	il campione del club	le champion du club	el campeón del club	чемпион клуба
+g00582	klubové mistrovství	die Clubmeisterschaft	the club championship	il campionato del club	le championnat du club	el campeonato del club	клубный чемпионат
+g00583	spolkový turnaj	das Vereinsturnier	the club tournament	il torneo sociale	le tournoi du club	el torneo social	клубный турнир
+g00584	single (jeden hráč)	der Einzel	the singles	il singolo	le simple	el individual	одиночная игра
+g00585	párová hra	das Paarspiel	the pairs match	il gioco a coppie	le jeu par paires	el juego por parejas	парная игра
+g00586	týmová soutěž	der Teamwettbewerb	the team competition	la gara a squadre	la compétition par équipes	la competición por equipos	командное соревнование
+g00587	Ryder Cup	der Ryder Cup	the Ryder Cup	la Ryder Cup	la Ryder Cup	la Ryder Cup	Кубок Райдера
+g00588	Presidents Cup	der Presidents Cup	the Presidents Cup	la Presidents Cup	la Presidents Cup	la Presidents Cup	Кубок Presidents
+g00589	Solheim Cup	die Solheim Cup	the Solheim Cup	la Solheim Cup	la Solheim Cup	la Solheim Cup	Кубок Сольхейм
+g00590	major (velký turnaj)	das Major	the major	il major	le majeur	el major	мейджор
+g00591	Masters	das Masters	the Masters	il Masters	le Masters	el Masters	Мастерс
+g00592	US Open	die US Open	the US Open	lo US Open	l'US Open	el US Open	US Open
+g00593	Open Championship (British Open)	die Open Championship	the Open Championship	l'Open Championship	l'Open Championship	el Open Championship	Открытый чемпионат
+g00594	PGA Championship	die PGA Championship	the PGA Championship	il PGA Championship	le PGA Championship	el PGA Championship	PGA Championship
+g00595	European Tour	die European Tour	the European Tour	l'European Tour	l'European Tour	el European Tour	European Tour
+g00596	PGA Tour	die PGA Tour	the PGA Tour	il PGA Tour	le PGA Tour	el PGA Tour	PGA Tour
+g00597	světový žebříček	der Weltrangliste	the world ranking	il ranking mondiale	le classement mondial	el ranking mundial	мировой рейтинг
+g00598	umístění	die Platzierung	the placing	il piazzamento	le classement	la clasificación	место
+g00599	první místo	der erste Platz	first place	il primo posto	la première place	el primer puesto	первое место
+g00600	poslední místo	der letzte Platz	last place	l'ultimo posto	la dernière place	el último puesto	последнее место
+g00601	prize money / výherní částka	das Preisgeld	the prize money	il montepremi	la dotation	el premio en metálico	призовые деньги
+g00602	trofej	die Trophäe	the trophy	il trofeo	le trophée	el trofeo	трофей
+g00603	medaile	die Medaille	the medal	la medaglia	la médaille	la medalla	медаль
+g00604	pohár	der Pokal	the cup	la coppa	la coupe	la copa	кубок
+g00605	vyhlášení výsledků	die Siegerehrung	the awards ceremony	la premiazione	la remise des prix	la entrega de premios	церемония награждения
+g00606	vítěz	der Sieger	the winner	il vincitore	le vainqueur	el ganador	победитель
+g00607	vítězka	die Siegerin	the winner (female)	la vincitrice	la vainqueure	la ganadora	победительница
+g00608	gratulace k vítězství	Herzlichen Glückwunsch zum Sieg	Congratulations on your win	Congratulazioni per la vittoria	Félicitations pour la victoire	Felicidades por la victoria	Поздравляю с победой
+g00609	dobře zahráno	gut gespielt	well played	ben giocato	bien joué	bien jugado	хорошо сыграно
+g00610	statečně zahráno	tapfer gespielt	bravely played	giocato con coraggio	joué avec courage	jugado con valentía	смело сыграно
+g00611	to bylo těsné	das war knapp	that was close	è stato vicino	c'était serré	ha sido por poco	это было близко
+g00612	příště	beim nächsten Mal	next time	la prossima volta	la prochaine fois	la próxima vez	в следующий раз
+g00613	budu více trénovat	ich werde mehr üben	I will practice more	mi allenerò di più	je vais m'entraîner davantage	voy a practicar más	я буду больше тренироваться
+g00614	cvičná hodina	die Übungsstunde	the practice lesson	la lezione di pratica	la leçon d'entraînement	la clase de práctica	тренировочное занятие
+g00615	trenér švihu	der Schwungtrainer	the swing coach	l'istruttore di swing	le coach de swing	el entrenador de swing	тренер по свингу
+g00616	video analýza	die Videoanalyse	the video analysis	l'analisi video	l'analyse vidéo	el análisis de vídeo	видеоанализ
+g00617	launch monitor	der Launch Monitor	the launch monitor	il launch monitor	le launch monitor	el launch monitor	лаунч-монитор
+g00618	analýza rány	die Schlaganalyse	the shot analysis	l'analisi del colpo	l'analyse du coup	el análisis del golpe	анализ удара
+g00619	rychlost míčku	die Ballgeschwindigkeit	the ball speed	la velocità della pallina	la vitesse de la balle	la velocidad de la bola	скорость мяча
+g00620	rychlost hlavy hole	die Schlägerkopfgeschwindigkeit	the club head speed	la velocità della testa del bastone	la vitesse de la tête de club	la velocidad de la cabeza del palo	скорость головки клюшки
+g00621	startovní úhel letu	der Startwinkel	the launch angle	l'angolo di lancio	l'angle de départ	el ángulo de salida	угол вылета
+g00622	spin rate / otáčky	die Spin-Rate	the spin rate	lo spin rate	le taux de spin	las revoluciones de spin	скорость вращения
+g00623	carry vzdálenost	der Carry	the carry	il carry	le carry	el carry	кэрри
+g00624	celková vzdálenost	die Gesamtdistanz	the total distance	la distanza totale	la distance totale	la distancia total	общая дистанция
+g00625	odchylka	die Abweichung	the deviation	la deviazione	la déviation	la desviación	отклонение
+g00626	odchylovat vlevo	links abweichen	deviate left	deviare a sinistra	dévier à gauche	desviarse a la izquierda	отклоняться влево
+g00627	odchylovat vpravo	rechts abweichen	deviate right	deviare a destra	dévier à droite	desviarse a la derecha	отклоняться вправо
+g00628	statistika ran	die Schlagstatistik	the shot statistics	le statistiche dei colpi	les statistiques de coups	las estadísticas de golpes	статистика ударов
+g00629	zasažená fairways	Fairways getroffen	fairways hit	fairway colpiti	fairways touchés	calles acertadas	попадания на фервей
+g00630	greeny v regulaci (GIR)	Greens in Regulation	greens in regulation	green in regolamentare	greens en régulation	greens en regulación	грины в регуляции
+g00631	putty za kolo	Putts pro Runde	putts per round	putt per giro	putts par tour	putts por vuelta	патты за раунд
+g00632	sand save procento	Sandrettungsquote / Sand-Rettungsquote	sand save percentage	percentuale di sand save	pourcentage de sauvetages de bunker	porcentaje de sand save	процент сэнд-сейвов
+g00633	scrambling procento	Scrambling / Scrambling-Quote	scrambling percentage	percentuale di scrambling	pourcentage de scrambling	porcentaje de scrambling	процент скремблинга
+g00634	zlepšit herní výkonnost	die Spielstärke verbessern	improve playing ability	migliorare il livello di gioco	améliorer son niveau de jeu	mejorar el nivel de juego	улучшить игровой уровень
+g00635	stanovit cíl	das Ziel setzen	set a goal	fissare un obiettivo	fixer un objectif	fijar un objetivo	поставить цель
+g00636	postupně	schrittweise	gradually	gradualmente	progressivement	poco a poco	постепенно
+g00637	pravidelně trénovat	regelmäßig üben	practice regularly	allenarsi regolarmente	s'entraîner régulièrement	practicar regularmente	регулярно тренироваться
+g00638	mít trpělivost	Geduld haben	be patient	avere pazienza	avoir de la patience	tener paciencia	иметь терпение
+g00639	bavit se	Spaß haben	have fun	divertirsi	s'amuser	divertirse	веселиться
+g00640	užívat si hru	das Spiel genießen	enjoy the game	godersi il gioco	profiter du jeu	disfrutar del juego	наслаждаться игрой
+g00641	užívat si přírodu	die Natur genießen	enjoy the nature	godersi la natura	profiter de la nature	disfrutar de la naturaleza	наслаждаться природой
+g00642	relaxovat	entspannen	relax	rilassarsi	se détendre	relajarse	расслабляться
+g00643	setkávat se s přáteli	Freunde treffen	meet friends	incontrare gli amici	retrouver des amis	quedar con amigos	встречаться с друзьями
+g00644	společenská hra	das gesellige Spiel	the social game	il gioco sociale	le jeu social	el juego social	общественная игра
+g00645	golf je celoživotní hra	Golf ist ein Lebenslanges Spiel	golf is a lifelong game		le golf est un jeu pour la vie		
+g00646	startovní úhel	der Startwinkel	the launch angle	l'angolo di partenza	l'angle de lancement	el ángulo de salida	угол вылета
+g00647	spin / otáčky	die Spin-Rate	the spin rate	il tasso di spin	le taux de spin	la tasa de spin	скорость вращения
+g00648	rozptyl / odchylka	die Streuung	the dispersion	la dispersione	la dispersion	la dispersión	разброс
+g00649	smash faktor	der Smash-Faktor	the smash factor	il fattore smash	le facteur smash	el factor smash	смэш-фактор
+g00650	úhel dopadu	der Angriffswinkel	the attack angle	l'angolo di attacco	l'angle d'attaque	el ángulo de ataque	угол атаки
+g00651	násada	das Schaft	the shaft	il fusto	le shaft	el shaft	шафт
+g00652	ohybnost násady	die Schaftflexibilität	shaft flex	la flessibilità del fusto	la flexibilité du shaft	la flexibilidad del shaft	жесткость шафта
+g00653	regular flex	Regular Flex	regular flex	flex regular	flex regular	flex regular	регуляр флекс
+g00654	stiff flex	Stiff Flex	stiff flex	flex stiff	flex stiff	flex stiff	стифф флекс
+g00655	extra stiff	Extra Stiff	extra stiff	extra stiff	extra stiff	extra stiff	экстра стифф
+g00656	senior flex	Senior Flex	senior flex	flex senior	flex senior	flex senior	сеньор флекс
+g00657	ladies flex	Ladies Flex	ladies flex	flex ladies	flex ladies	flex ladies	леди флекс
+g00658	délka násady	die Schaftlänge	the shaft length	la lunghezza del fusto	la longueur du shaft	la longitud del shaft	длина шафта
+g00659	lie úhel	der Liegewinkel	the lie angle	l'angolo di lie	l'angle de lie	el ángulo de lie	лай-угол
+g00660	litá hlava	das Gusseisen	cast iron	il ferro fuso	le fer coulé	el hierro fundido	литая головка
+g00661	kovaná hlava	das Schmiedeeisen	forged iron	il ferro forgiato	le fer forgé	el hierro forjado	кованая головка
+g00662	cavity back	der Cavity-Back-Schläger	cavity back	il cavity back	le cavity back	el cavity back	кавити бэк
+g00663	blade	das Blade	the blade	il blade	le blade	el blade	блейд
+g00664	bounce	der Bounce	the bounce	il bounce	le bounce	el bounce	баунс
+g00665	drážka (plocha hole)	die Rille	the groove	la scanalatura	la rainure	la ranura	проточка
+g00666	mallet putter	der Mallet-Putter	mallet putter	il mallet putter	le putter mallet	el putter mallet	маллет паттер
+g00667	blade putter	der Blade-Putter	blade putter	il blade putter	le putter blade	el putter blade	блейд паттер
+g00668	střední násada (putter)	der Mittelschaft	the centre shaft	il fusto centrale	le shaft central	el shaft central	центральный шафт
+g00669	nastavení / fitování	die Anpassung	the fitting	il fitting	le fitting	el ajuste	фиттинг
+g00670	custom fitting	das Custom-Fitting	custom fitting	la vestibilità personalizzata	le fitting personnalisé	el ajuste personalizado	индивидуальный фиттинг
+g00671	grafitová násada	die Graphitschaft	graphite shaft	il fusto in grafite	le shaft en graphite	el shaft de grafito	графитовый шафт
+g00672	ocelová násada	die Stahlschaft	steel shaft	il fusto in acciaio	le shaft en acier	el shaft de acero	стальной шафт
+g00673	komprese (míčku)	die Kompression	the compression	la compressione	la compression	la compresión	компрессия
+g00674	důlek (míčku)	das Grübchen	the dimple	la fossetta	l'alvéole	el hoyuelo	выемка
+g00675	povrch míčku	die Hülle	the cover	la copertura	l'enveloppe	la cubierta	оболочка
+g00676	dvoudílný míček	zweiteiliger Ball	a two-piece ball	la palla a due strati	la balle à deux couches	la bola de dos capas	двухслойный мяч
+g00677	třídílný míček	dreiteiliger Ball	a three-piece ball	la palla a tre strati	la balle à trois couches	la bola de tres capas	трехслойный мяч
+g00678	handicap index	der Handicap-Index	the handicap index	l'indice di handicap	l'index de handicap	el índice de hándicap	гандикап-индекс
+g00679	světový handicap systém	das World Handicap System (WHS)	the World Handicap System (WHS)	il World Handicap System (WHS)	le World Handicap System (WHS)	el Sistema Mundial de Hándicap (WHS)	Всемирная система гандикапов (WHS)
+g00680	upravené brutto skóre	das bereinigte Brutto-Ergebnis	the adjusted gross score	il punteggio lordo rettificato	le score brut ajusté	el resultado bruto ajustado	скорректированный брутто-счет
+g00681	netto double bogey	Netto-Doppelbogey	net double bogey	netto doppio bogey	double bogey net	doble bogey neto	нетто дубль-богги
+g00682	golfová aplikace	das Scoring-App	the golf app	l'applicazione golf	l'application de golf	la aplicación de golf	гольф-приложение
+g00683	nahrát skóre	die Runde einreichen	submit a score	inviare il punteggio	soumettre la carte	enviar la tarjeta	отправить счёт
+g00684	zasažená fairways (%)	Fairways getroffen	fairways hit	fairways colpiti	fairways touchés	calles acertadas	попадания в фервей
+g00685	greeny v regulaci (%)	Greens in Regulation	greens in regulation	green in regolazione	greens en régulation	greens en regulación	грины в регуляции
+g00686	blízkost k jamce	die Nähe zur Fahne	proximity to hole	la vicinanza alla buca	la proximité du trou	la proximidad al hoyo	близость к лунке
+g00687	vysoká dráha letu	hohe Flugkurve	a high ball flight	traiettoria alta	la trajectoire haute	la trayectoria alta	высокая траектория
+g00688	nízká dráha letu	niedrige Flugkurve	a low ball flight	traiettoria bassa	la trajectoire basse	la trayectoria baja	низкая траектория
+g00689	hra do větru	gegen den Wind spielen	playing into the wind	giocare contro il vento	jouer face au vent	jugar contra el viento	играть против ветра
+g00690	hra po větru	mit dem Wind spielen	playing with the wind	giocare con il vento	jouer avec le vent	jugar con el viento	играть по ветру
+g00691	vzít delší hole	einen Schläger mehr nehmen	club up	prendere un bastone in più	prendre un club de plus	coger un palo más	взять клюшку длиннее
+g00692	vzít kratší hole	einen Schläger weniger nehmen	club down	prendere un bastone in meno	prendre un club de moins	coger un palo menos	взять клюшку короче
+g00693	yardage book	das Yardage-Buch	the yardage book	il libretto delle yardage	le carnet de parcours	el libro de distancias	ярдейдж-бук
+g00694	pin sheet	der Pin-Sheet	the pin sheet	la scheda del pin	la feuille de positions de drapeau	la hoja de posiciones de bandera	пин-шит
+g00695	poloha jamky	die Fahnenposition	pin position	la posizione della bandiera	la position du drapeau	la posición de la bandera	позиция флага
+g00696	přední poloha jamky	vordere Fahnenposition	front pin	posizione anteriore	drapeau à l'avant	bandera delantera	передняя позиция флага
+g00697	střední poloha jamky	mittlere Fahnenposition	middle pin	posizione centrale	drapeau au milieu	bandera central	центральная позиция флага
+g00698	zadní poloha jamky	hintere Fahnenposition	back pin	posizione posteriore	drapeau à l'arrière	bandera trasera	задняя позиция флага
+g00699	rychlost greenu	die Grüngeschwindigkeit	the green speed	la velocità del green	la vitesse du green	la velocidad del green	скорость грина
+g00700	těžké greeny	schwere Grüns	heavy greens	green pesanti	greens lents	greens lentos	медленные грины
+g00701	zrno trávy (směr)	der Grain	the grain	il grain	le grain	el grano	направление роста травы
+g00702	putt po zrnu	mit dem Grain putten	putting with the grain	puttare con il grain	putter dans le sens du grain	putear a favor del grano	патт по ворсу
+g00703	putt proti zrnu	gegen den Grain putten	putting against the grain	puttare contro il grain	putter contre le grain	putear contra el grano	патт против ворса
+g00704	apron / okraj greenu	das Apron	the apron	l'apron	le tablier	el antegreen	авансцена грина
+g00705	okraj greenu	der Fransen	the fringe	il bordo del green	la frange	el fringe	кромка грина
+g00706	límec greenu	der Kragen	the collar	il collare	le collier	el collar	воротник грина
+g00707	up and down	das Up-and-Down	the up and down	l'up and down	le up and down	el up and down	ап-энд-даун
+g00708	sand save	das Sand-Save	the sand save	il sand save	le sand save	el sand save	сэнд-сейв
+g00709	obejití jamky (lip out)	der Lippen-Ausritt	a lip out	il lip out	un lip out	un lip out	лип-аут
+g00710	podkova (obejde jamku)	das Hufeisen	a horseshoe	il ferro di cavallo	un fer à cheval	una herradura	подкова
+g00711	gimme (darovaný putt)	der Gimme	a gimme	il gimme	un gimme	un gimme	гимми
+g00712	darovat putt	den Putt schenken	concede the putt	concedere il putt	concéder le putt	conceder el putt	засчитать патт
+g00713	jamka je přiznána	das Loch ist vergeben	the hole is conceded	la buca è concessa	le trou est concédé	el hoyo está concedido	лунка засчитана
+g00714	remíza na par	gleichgestellt mit Par	halved in par	pari col par	égalité au par	empate a par	ничья на par
+g00715	zápas je vyrovnaný	das Spiel ist ausgeglichen	the match is all square	la partita è in parità	le match est à égalité	el partido está igualado	матч равный
+g00716	o jednu jamku vpředu	eins vorne	one up	uno avanti	un up	uno arriba	плюс одна лунка
+g00717	o jednu jamku pozadu	eins hinten	one down	uno indietro	un down	uno abajo	минус одна лунка
+g00718	dormie	das Dormie	dormie	il dormie	le dormie	el dormie	дорми
+g00719	zápas skončil	das Spiel ist beendet	the match is over	la partita è finita	le match est terminé	el partido ha terminado	матч окончен
+g00720	vyhrál tři a dvě (3&2)	drei zu zwei gewonnen	won three and two	vinto tre e due	gagné trois et deux	ganado tres y dos	выиграл три и два
+g00721	vyhrál na 19. jamce	auf dem 19. Loch gewonnen	won on the 19th hole	vinto alla 19ª buca	gagné au 19e trou	ganó en el hoyo 19	выиграл на 19-й лунке
+g00722	sudden death	das Sudden Death	the sudden death	la morte improvvisa	la mort subite	la muerte súbita	внезапная смерть
+g00723	playoff	das Playoff	the playoff	lo spareggio	le playoff	el playoff	плей-офф
+g00724	nejblíže k jamce (soutěž)	das Nächste-zur-Fahne	the nearest the pin	il più vicino alla buca	le plus près du drapeau	el más cercano al hoyo	ближе всех к лунке
+g00725	nejdelší odpal (soutěž)	der Weiteste-Abschlag	the longest drive	il drive più lungo	le drive le plus long	el drive más largo	самый длинный драйв
+g00726	charitativní turnaj	das Charity-Turnier	a charity event	il torneo di beneficenza	le tournoi caritatif	el torneo benéfico	благотворительный турнир
+g00727	pro-am turnaj	das Pro-Am	the pro-am	il pro-am	le pro-am	el pro-am	про-ам
+g00728	klubový kapitán	der Vereinskapitän	the club captain	il capitano del club	le capitaine du club	el capitán del club	капитан клуба
+g00729	dámská kapitánka	die Damenkapitänin	the ladies captain	la capitana delle signore	la capitaine des dames	la capitana de damas	капитан женской команды
+g00730	sekretář klubu	der Clubsekretär	the club secretary	il segretario del club	le secrétaire du club	el secretario del club	секретарь клуба
+g00731	handicapový výbor	der Handicap-Ausschuss	the handicap committee	il comitato di handicap	le comité d'index	el comité de hándicap	гандикапный комитет
+g00732	hlavní greenkeeper	der Hauptplatzpfleger	the head greenkeeper	il greenkeeper capo	le greenkeeper en chef	el greenkeeper jefe	главный грин-кипер
+g00733	správce hřiště	der Kursmanager	the course manager	il responsabile del campo	le directeur du parcours	el gerente del campo	управляющий полем
+g00734	klubový profesionál	der Clubprofi	the pro	il professionista del club	le pro du club	el profesional del club	профессионал клуба
+g00735	výukový profesionál	der Lehrprofi	the teaching pro	il professionista insegnante	le pro enseignant	el profesional instructor	тренер-профессионал
+g00736	rovina švihu	die Schwungebene	the swing plane	il piano dello swing	le plan de swing	el plano del swing	плоскость свинга
+g00737	úhel páteře	die Wirbelsäulenneigung	the spine angle	l'inclinazione della colonna vertebrale	l'angle de la colonne	el ángulo de la columna	угол позвоночника
+g00738	rotace boků	die Hüftdrehung	the hip turn	la rotazione delle anche	la rotation des hanches	la rotación de caderas	вращение бёдер
+g00739	rotace ramen	die Schulterdrehung	the shoulder turn	la rotazione delle spalle	la rotation des épaules	la rotación de hombros	вращение плеч
+g00740	ohnutí zápěstí	das Handgelenk knicken	the wrist hinge	la flessione del polso	le cassage du poignet	la flexión de la muñeca	сгиб запястья
+g00741	lag / zpoždění	das Lag	the lag	il lag	le lag	el lag	лаг
+g00742	uvolnění	das Loslassen	the release	il rilascio	le relâchement	la liberación	релиз
+g00743	rutina před ránou	die Vorroutine	the pre-shot routine	la routine pre-colpo	la routine pré-coup	la rutina previa al golpe	предударная рутина
+g00744	vizualizace	die Visualisierung	the visualisation / visualisation	la visualizzazione	la visualisation	la visualización	визуализация
+g00745	cíl	das Ziel	the target	l'obiettivo	la cible	el objetivo	цель
+g00746	mezicíl	der Zwischenziel	the intermediate target	l'obiettivo intermedio	la cible intermédiaire	el objetivo intermedio	промежуточная цель
+g00747	zákony letu míčku	die Fluggesetze	the ball flight laws	le leggi del volo della palla	les lois du vol de balle	las leyes del vuelo de la bola	законы полёта мяча
+g00748	sweet spot	der Sweet Spot	the sweet spot	lo sweet spot	le sweet spot	el punto dulce	свит-спот
+g00749	špička hole	die Schlägerspitze	the toe	la punta del bastone	la pointe du club	la punta del palo	носок клюшки
+g00750	pata hole	die Schlägerferse	the heel	il tallone del bastone	le talon du club	el talón del palo	пятка клюшки
+g00751	přední hrana	der Anschliff	the leading edge	il bordo anteriore	le bord d'attaque	el borde de ataque	передняя кромка
+g00752	chodidlo hole	die Schlägerseele	the sole	la suola	la semelle	la suela	подошва
+g00753	plný švih	das volle Schwung	a full swing	lo swing completo	le swing complet	el swing completo	полный свинг
+g00754	poloviční švih	der halbe Schwung	a half swing	il mezzo swing	le demi-swing	el medio swing	половинный свинг
+g00755	tříčtvrteční švih	die Drei-Viertel-Schwung	a three-quarter swing	lo swing a tre quarti	le swing trois-quarts	el swing de tres cuartos	свинг три четверти
+g00756	par 3 jamka	die Par-3-Bahn	the par-3 hole	la buca par 3	le trou par 3	el hoyo par 3	лунка par 3
+g00757	par 4 jamka	die Par-4-Bahn	the par-4 hole	la buca par 4	le trou par 4	el hoyo par 4	лунка par 4
+g00758	par 5 jamka	die Par-5-Bahn	the par-5 hole	la buca par 5	le trou par 5	el hoyo par 5	лунка par 5
+g00759	dogleg jamka	die Dogleg-Bahn	the dogleg hole	la buca a dogleg	le trou en dogleg	el hoyo dogleg	лунка доглег
+g00760	dogleg vlevo	das Dogleg links	dogleg left	dogleg a sinistra	dogleg à gauche	dogleg a la izquierda	доглег влево
+g00761	dogleg vpravo	das Dogleg rechts	dogleg right	dogleg a destra	le dogleg à droite	el dogleg a la derecha	догleg вправо
+g00762	slepá jamka	die blinde Bahn	the blind hole	la buca cieca	le trou aveugle	el hoyo ciego	слепая лунка
+g00763	nejtěžší jamka (index 1)	die Index-1-Bahn	the stroke index 1	l'indice di stroke 1	l'index 1	el hándicap de hoyo 1	лунка с индексом 1
+g00764	nejlehčí jamka	die leichteste Bahn	the easiest hole	la buca più facile	le trou le plus facile	el hoyo más fácil	самая лёгкая лунка
+g00765	handicap index jamky	der Lochindex	the stroke index	l'indice di stroke	l'index du trou	el hándicap del hoyo	индекс лунки
+g00766	první jamka	die erste Bahn	the first hole	la prima buca	le premier trou	el primer hoyo	первая лунка
+g00767	devátá jamka	die neunte Bahn	the ninth hole	la nona buca	le neuvième trou	el hoyo nueve	девятая лунка
+g00768	osmnáctá jamka	die achtzehnte Bahn	the eighteenth hole	la diciottesima buca	le dix-huitième trou	el hoyo dieciocho	восемнадцатая лунка
+g00769	projití jamky	die Lochspielung	playing the hole	il gioco della buca	le jeu du trou	el juego del hoyo	прохождение лунки
+g00770	odchod (z jamky)	der Ausgang	the exit	l'uscita	la sortie	la salida	выход
+g00771	vstupní green	das Eingangsgrün	the entry green	il green d'ingresso	le green d'entrée	el green de entrada	входной грин
+g00772	závěrečný green	das Schlussgrün	the final green	il green finale	le green final	el green final	финальный грин
+g00773	první devítka	die erste Neun	the front nine	il primo nove	les neuf premiers trous	los primeros nueve	первая девятка
+g00774	druhá devítka	die zweite Neun	the back nine	il secondo nove	les neuf derniers trous	los segundos nueve	вторая девятка
+g00775	přední šestka	die Vordersechs	the front six	i primi sei	les six premiers trous	los primeros seis	первая шестёрка
+g00776	střední šestka	die Mittelsechs	the middle six	i sei centrali	les six trous du milieu	los seis del medio	средняя шестёрка
+g00777	zadní šestka	die Hintersechs	the back six	gli ultimi sei	les six derniers trous	los últimos seis	задняя шестёрка
+g00778	údržba hřiště	die Platzpflege	course maintenance	la manutenzione del campo	l'entretien du parcours	el mantenimiento del campo	уход за полем
+g00779	péče / údržba	die Pflege	maintenance	la manutenzione	l'entretien	el mantenimiento	уход
+g00780	sekání trávy	die Mäharbeit	mowing	la falciatura	la tonte	el corte del césped	кошение травы
+g00781	sekačka na trávu	der Rasenmäher	the lawnmower	il tagliaerba	la tondeuse	el cortacésped	газонокосилка
+g00782	zavlažovací systém	das Bewässerungssystem	the irrigation system	il sistema di irrigazione	le système d'arrosage	el sistema de riego	система орошения
+g00783	provzdušňování	die Belüftung	aeration	l'aerazione	l'aération	la aireación	аэрация
+g00784	vertikutace	das Vertikutieren	scarification	la scarificatura	la scarification	la verticulación	вертикутирование
+g00785	topdressing	das Topdressing	top dressing	il top dressing	le top dressing	el top dressing	топдрессинг
+g00786	písek	der Sand	the sand	la sabbia	le sable	la arena	песок
+g00787	hnojivo	der Dünger	fertiliser	il fertilizzante	l'engrais	el fertilizante	удобрение
+g00788	herbicid	der Herbizid	the herbicide	l'erbicida	l'herbicide	el herbicida	гербицид
+g00789	plevel	das Unkraut	the weed	l'erbaccia	la mauvaise herbe	la maleza	сорняк
+g00790	péče o green	die Grünpflege	green care	la cura del green	l'entretien du green	el cuidado del green	уход за грином
+g00791	měřit rychlost greenu	die Grüngeschwindigkeit messen	measure the green speed	misurare la velocità del green	mesurer la vitesse du green	medir la velocidad del green	измерять скорость грина
+g00792	stimpmeter	der Stimpmeter	the stimpmeter	lo stimpmeter	le stimpmètre	el stimpmeter	стимпметр
+g00793	měnit polohy jamek	die Lochpositionen wechseln	change the hole positions	cambiare le posizioni delle buche	changer les positions des trous	cambiar las posiciones de los hoyos	менять позиции лунок
+g00794	přesouvat tee značky	die Teemarkierungen versetzen	move the tee markers	spostare i marker del tee	déplacer les repères de départ	mover las marcas de salida	переносить маркеры тии
+g00795	hřiště je zavřeno	der Platz ist geschlossen	the course is closed	il campo è chiuso	le parcours est fermé	el campo está cerrado	поле закрыто
+g00796	hřiště je otevřeno	der Platz ist geöffnet	the course is open	il campo è aperto	le parcours est ouvert	el campo está abierto	поле открыто
+g00797	dočasné greeny	temporäre Grüns	temporary greens	i green temporanei	les greens temporaires	los greens temporales	временные грины
+g00798	zatlouct kolíčky	Pfähle einschlagen	drive in stakes	piantare i picchetti	planter des piquets	clavar estacas	забивать колышки
+g00799	zábrana / mantinel	die Bande	the barrier	la barriera	la barrière	la valla	ограждение
+g00800	bezpečnostní síť	der Sicherheitsnetz	the safety net	la rete di sicurezza	le filet de sécurité	la red de seguridad	защитная сетка
+g00801	cesta / chodník	der Pfad	the path	il sentiero	le chemin	el camino	дорожка
+g00802	vozíková cesta	die Karrenweg	the buggy path	il percorso per carrelli	le chemin pour voiturettes	el camino para buggies	дорожка для гольф-каров
+g00803	areál klubu	das Clubgelände	the clubhouse area	l'area del club	le domaine du club	el área del club	территория клуба
+g00804	parkoviště	der Parkplatz	the car park	il parcheggio	le parking	el aparcamiento	парковка
+g00805	recepce	der Empfang	the reception	la ricezione	la réception	la recepción	ресепшн
+g00806	startovací pavilon	der Starter-Pavillon	the starter's pavilion	il padiglione di partenza	le pavillon de départ	el pabellón de salida	стартовый павильон
+g00807	informační tabule	die Anzeigetafel	the information board	la bacheca delle comunicazioni	le tableau d'information	el tablón de información	информационное табло
+g00808	výsledková tabule	die Ergebnisanzeige	the leaderboard / the scoreboard	il tabellone dei risultati	le tableau des résultats	el marcador de resultados	табло результатов
+g00809	tabule prize money	das Preisgeldboard	the prize money board	il tabellone del montepremi	le tableau des gains	el tablero de premios	табло призовых
+g00810	cedule jamky	das Lochschild	the hole sign	il cartello della buca	le panneau du trou	el cartel del hoyo	табличка лунки
+g00811	plán jamky	der Lochplan	the hole layout	il layout della buca	le plan du trou	el plano del hoyo	схема лунки
+g00812	trasa / hřiště (přen.)	der Parcours	the course	il percorso	le parcours	el campo	поле
+g00813	první jamka / otevírací jamka	das Eröffnungsloch	the opening hole	la prima buca	le premier trou	el primer hoyo	первая лунка
+g00814	závěrečná jamka	das Schlussloch	the closing hole	la buca finale	le dernier trou	el hoyo final	финальная лунка
+g00815	domovská devítka	die Heimkehr	the back nine	le seconde nove	les neuf derniers trous	los nueve de vuelta	вторая девятка
+g00816	venkovní devítka	die Auswärtsneine	the front nine	le prime nove	les neuf premiers trous	los nueve de ida	первая девятка
+g00817	ranní kolo	der Morgenball	the morning round	il giro mattutino	le tour du matin	la ronda de la mañana	утренний раунд
+g00818	večerní kolo	der Abendball	the evening round	il giro serale	le tour du soir	la ronda de la tarde	вечерний раунд
+g00819	twilight golf (podvečerní)	der Twilight-Golf	twilight golf	il golf al crepuscolo	le golf crépusculaire	el golf crepuscular	сумеречный гольф
+g00820	golfové oblečení	die Golfkleidung	the golf clothing	l'abbigliamento da golf	la tenue de golf	la ropa de golf	одежда для гольфа
+g00821	polo tričko	das Polo-Shirt	the golf shirt / polo shirt	la polo	le polo	el polo	поло
+g00822	golfové kalhoty	die Golfhose	the golf trousers	i pantaloni da golf	le pantalon de golf	el pantalón de golf	брюки для гольфа
+g00823	golfové šortky	die Golfshorts	the golf shorts	i pantaloni corti da golf	le short de golf	los pantalones cortos de golf	шорты для гольфа
+g00824	golfová sukně (dámská)	der Golfrock	the golf skirt	la gonna da golf	la jupe de golf	la falda de golf	юбка для гольфа
+g00825	golfové ponožky	die Golfstrümpfe	the golf socks	le calze da golf	les chaussettes de golf	los calcetines de golf	носки для гольфа
+g00826	golfový pásek	der Golfgürtel	the golf belt	la cintura da golf	la ceinture de golf	el cinturón de golf	ремень для гольфа
+g00827	větrovka (vesta)	die Windweste	the wind vest	il gilet antivento	le gilet coupe-vent	el chaleco cortavientos	ветрозащитный жилет
+g00828	mezivrstevní bunda	der Midlayer	the midlayer	lo strato intermedio	la couche intermédiaire	la capa intermedia	промежуточный слой
+g00829	softshell	der Softshell	the softshell	il softshell	la softshell	el softshell	софтшелл
+g00830	termo kalhoty	die Thermohose	the thermal trousers	i pantaloni termici	le pantalon thermique	el pantalón térmico	термобрюки
+g00831	zimní rukavice	die Winterhandschuhe	the winter gloves	i guanti invernali	les gants d'hiver	los guantes de invierno	зимние перчатки
+g00832	kamaše (mokré podmínky)	der Gaiter	the gaiter	la ghetta	la guêtre	la polaina	гетры
+g00833	deštník	der Umbrella	the umbrella	l'ombrello	le parapluie	el paraguas	зонт
+g00834	golfový deštník	der Golfschirm	the golf umbrella	l'ombrello da golf	le parapluie de golf	el paraguas de golf	гольф-зонт
+g00835	hlavy holí (head covers)	die Schlägerhauben	the head covers	le cover per i bastoni	les couvre-clubs	las fundas de palos	чехлы для клюшек
+g00836	kryt putteru	der Puttercover	the putter cover	la cover del putter	le couvre-putter	la funda del putter	чехол для паттера
+g00837	ručník	das Towel	the towel	l'asciugamano	la serviette	la toalla	полотенце
+g00838	ručník na tašku	die Taschenhandtuch	the bag towel	l'asciugamano per la sacca	la serviette de sac	la toalla de bolsa	полотенце для сумки
+g00839	chránit bag	die Schlägertasche schützen	protect the bag	proteggere la sacca	protéger le sac	proteger la bolsa	защищать сумку
+g00840	pláštěnka / ochrana před deštěm	das Regenschutz	the rain cover	la protezione antipioggia	la protection contre la pluie	el protector de lluvia	дождевик
+g00841	váček na míčky	der Ballbeutel	the ball pocket	la taschina per le palline	la pochette à balles	la bolsa para pelotas	мешочек для мячей
+g00842	váček na svačinu	der Snack-Beutel	the snack pouch	la borsa per gli snack	la pochette à snacks	la bolsa para snacks	мешочек для перекуса
+g00843	chladicí box / termoska	die Eisbox	the cooler / thermos	la borsa frigo / il thermos	la glacière / le thermos	la nevera / el termo	термобокс / термос
+g00844	powerbank (nabíjení GPS)	die Powerbank	the power bank	il power bank	la batterie externe	la batería externa	powerbank
+g00845	nabíjecí kabel	das Ladekabel	the charging cable	il cavo di ricarica	le câble de charge	el cable de carga	зарядный кабель
+g00846	opalovací krém SPF 50	die Sonnencreme SPF 50	the sunscreen SPF 50	la crema solare SPF 50	la crème solaire SPF 50	la crema solar SPF 50	солнцезащитный крем SPF 50
+g00847	sluneční brýle	die Sonnenbrille	the sunglasses	gli occhiali da sole	les lunettes de soleil	las gafas de sol	солнцезащитные очки
+g00848	čelenka	das Stirnband	the headband	il cerchietto	le bandeau	la cinta para la cabeza	повязка на голову
+g00849	čepice (zimní)	die Mütze	the winter hat	il berretto invernale	le bonnet	el gorro	шапка
+g00850	sítka na čepici (proti hmyzu)	das Netz am Hut	the hat insect net	la retina antinsetti per il cappello	la moustiquaire de casquette	la malla antiinsectos del sombrero	сетка на кепку
+g00851	repelent	das Insektenschutzmittel	the insect repellent	il repellente per insetti	l'anti-moustiques	el repelente de insectos	репеллент
+g00852	náplast / obvaz	das Pflaster	the bandage / plaster	il cerotto / la benda	le pansement	la tirita / la venda	пластырь / повязка
+g00853	lék proti bolesti	das Schmerzmittel	the pain relief	il farmaco antidolorifico	l'antidouleur	el analgésico	обезболивающее
+g00854	bolesti zad	die Rückenschmerzen	back pain	il dolore alla schiena	le mal de dos	el dolor de espalda	боль в спине
+g00855	protahování	das Stretching	stretching	lo stretching	les étirements	el estiramiento	растяжка
+g00856	zahřívání	das Aufwärmen	warming up	il riscaldamento	l'échauffement	el calentamiento	разминка
+g00857	cvičení / procvičování	die Übung	the exercise / drill	l'esercizio	l'exercice	el ejercicio	упражнение
+g00858	pohyby nohama	die Bodenbewegung	the footwork	il lavoro dei piedi	le jeu de jambes	el juego de piernas	работа ног
+g00859	trénink rovnováhy	das Balance-Training	balance training	l'allenamento dell'equilibrio	l'entraînement d'équilibre	el entrenamiento de equilibrio	тренировка равновесия
+g00860	core / hluboký stabilizační systém	die Kernmuskulatur	the core	il core	le core	el core	кор
+g00861	stabilita trupu	die Rumpfstabilität	core stability	la stabilità del tronco	la stabilité du tronc	la estabilidad del tronco	стабильность корпуса
+g00862	mentální hra	das mentale Spiel	the mental game	il gioco mentale	le jeu mental	el juego mental	ментальная игра
+g00863	mentální kouč	der mentale Coach	the mental coach	il coach mentale	le coach mental	el coach mental	ментальный коуч
+g00864	sebedůvěra / sebejistota	das Selbstvertrauen	self-confidence	la fiducia in sé	la confiance en soi	la confianza en uno mismo	уверенность в себе
+g00865	koncentrace / soustředění	die Konzentration	concentration	la concentrazione	la concentration	la concentración	концентрация
+g00866	flow / stav plynutí	der Flow-Zustand	the flow state	lo stato di flow	l'état de flow	el estado de flow	состояние потока
+g00867	akceptování / přijetí výsledku	die Akzeptanz	acceptance	l'accettazione	l'acceptation	la aceptación	принятие
+g00868	pustit / nechat jít	loslassen	let it go	lasciare andare	lâcher prise	soltar	отпустить
+g00869	být v přítomném okamžiku	im Moment bleiben	stay in the moment	restare nel momento	rester dans l'instant	estar en el momento	быть в моменте
+g00870	nepředjímat	nicht vorausnehmen	not anticipate	non anticipare	ne pas anticiper	no anticiparse	не предвосхищать
+g00871	soustředit se na proces	auf den Prozess konzentrieren	focus on the process	concentrarsi sul processo	se concentrer sur le processus	centrarse en el proceso	сосредоточиться на процессе
+g00872	pustit výsledek	das Ergebnis loslassen	let go of the result	lasciare andare il risultato	lâcher prise sur le résultat	soltar el resultado	отпустить результат
+g00873	pozitivní vnitřní dialog	positive Selbstgespräche	positive self-talk	il dialogo interiore positivo	le dialogue interne positif	el diálogo interno positivo	позитивный внутренний диалог
+g00874	plán vizualizace	der Visualisierungsplan	the visualization plan	il piano di visualizzazione	le plan de visualisation	el plan de visualización	план визуализации
+g00875	stanovení cílů	das Zielsetzen	goal setting	la definizione degli obiettivi	la définition des objectifs	el establecimiento de metas	постановка целей
+g00876	krátkodobé cíle	kurze Ziele	short-term goals	obiettivi a breve termine	objectifs à court terme	metas a corto plazo	краткосрочные цели
+g00877	dlouhodobé cíle	langfristige Ziele	long-term goals	obiettivi a lungo termine	objectifs à long terme	metas a largo plazo	долгосрочные цели
+g00878	herní plán	der Spielplan	the game plan	il piano di gioco	le plan de jeu	el plan de juego	игровой план
+g00879	herní strategie	die Spielstrategie	the course strategy	la strategia del campo	la stratégie de jeu	la estrategia de juego	игровая стратегия
+g00880	hrát konzervativně	konservativ spielen	play conservatively	giocare in modo conservativo	jouer de façon conservatrice	jugar de forma conservadora	играть консервативно
+g00881	hrát agresivně	aggressiv spielen	play aggressively	giocare in modo aggressivo	jouer de façon agressive	jugar de forma agresiva	играть агрессивно
+g00882	poměr rizika a zisku	das Risiko-Ertrags-Verhältnis	the risk-reward	il rapporto rischio-rendimento	le rapport risque-récompense	la relación riesgo-recompensa	соотношение риска и выгоды
+g00883	zvolit bezpečnou cestu	den sicheren Weg wählen	take the safe route	scegliere la via sicura	choisir la voie sûre	elegir el camino seguro	выбрать безопасный путь
+g00884	hrát na šanci birdie	auf Birdie-Chance spielen	play for birdie chance	giocare per la possibilità di birdie	jouer pour une chance de birdie	jugar a la oportunidad de birdie	играть на шанс бёрди
+g00885	vyhýbat se bogey	das Bogey vermeiden	avoid the bogey	evitare il bogey	éviter le bogey	evitar el bogey	избегать боги
+g00886	vyhýbat se double bogey	das Doppelbogey vermeiden	avoid the double bogey	evitare il doppio bogey	éviter le double bogey	evitar el doble bogey	избегать дабл-боги
+g00887	hrát ze složité situace	aus dem Trouble spielen	play out of trouble	giocare fuori dai guai	jouer pour sortir d'une situation difficile	jugar desde una situación difícil	играть из сложной ситуации
+g00888	zachránit jamku	das Loch retten	save the hole	salvare la buca	sauver le trou	salvar el hoyo	спасти лунку
+g00889	hrát pod tlakem	unter Druck spielen	playing under pressure	giocare sotto pressione	jouer sous pression	jugar bajo presión	играть под давлением
+g00890	hrát na turnaji	beim Turnier spielen	playing in a tournament	giocare in un torneo	jouer dans un tournoi	jugar en un torneo	играть на турнире
+g00891	překonat nervozitu	die Nervosität überwinden	overcome the nerves	superare la tensione	surmonter la nervosité	superar los nervios	преодолеть волнение
+g00892	zůstat klidný	ruhig bleiben	stay calm	rimanere calmo	rester calme	mantener la calma	сохранять спокойствие
+g00893	zhluboka dýchat	durchatmen	take a deep breath	fare un respiro profondo	respirer profondément	respirar hondo	глубоко дышать
+g00894	tep srdce	der Herzschlag	the heartbeat	il battito cardiaco	le rythme cardiaque	el pulso	пульс
+g00895	relaxační technika	die Entspannungstechnik	relaxation technique	la tecnica di rilassamento	la technique de relaxation	la técnica de relajación	техника релаксации
+g00896	zastavení myšlenek	der Gedankenstopp	the thought stop	l'arresto dei pensieri	l'arrêt des pensées	la parada de pensamiento	остановка мыслей
+g00897	reset (mentální)	der Reset	the reset	il reset mentale	la réinitialisation mentale	el reinicio mental	ментальный сброс
+g00898	příští rána	der nächste Schlag	the next shot	il prossimo colpo	le prochain coup	el siguiente golpe	следующий удар
+g00899	rána po ráně	Schlag für Schlag	shot by shot	colpo per colpo	coup par coup	golpe a golpe	удар за ударом
+g00900	jamka po jamce	ein Loch nach dem anderen	one hole at a time	una buca alla volta	un trou à la fois	un hoyo a la vez	лунка за лункой
+g00901	dohrát kolo	die Runde zu Ende spielen	finish the round	finire il giro	terminer le parcours	terminar la vuelta	доиграть раунд
+g00902	nikdy se nevzdat	nie aufgeben	never give up	non arrendersi mai	ne jamais abandonner	no rendirse nunca	никогда не сдаваться
+g00903	bojovat do konce	kämpfen bis zum Schluss	fight to the finish	lottare fino alla fine	se battre jusqu'au bout	luchar hasta el final	бороться до конца
+g00904	hra na par 3	das Par-3-Spiel	the par 3 game	il gioco sul par 3	le jeu sur par 3	el juego en par 3	игра на par 3
+g00905	krátká hra / short game	das Kurzspiel	the short game	il gioco corto	le petit jeu	el juego corto	короткая игра
+g00906	dlouhá hra / long game	das Langspiel	the long game	il gioco lungo	le grand jeu	el juego largo	длинная игра
+g00907	odpal z tee	der Tee-Schlag	the tee shot	il colpo di partenza	le coup de départ	el golpe de salida	удар с ти
+g00908	druhá rána	der zweite Schlag	the second shot	il secondo colpo	le deuxième coup	el segundo golpe	второй удар
+g00909	třetí rána	der dritte Schlag	the third shot	il terzo colpo	le troisième coup	el tercer golpe	третий удар
+g00910	přiblížení / approach	das Annähern	the approach	l'avvicinamento	l'approche	el approach	подход
+g00911	zapíchnutí / dokončení	das Einlochen	holing out	imbucare	terminer le trou	embocar	закатить в лунку
+g00912	blízkost ran	die Schlagnähe	shot proximity	la vicinanza dei colpi	la proximité des coups	la cercanía de los golpes	близость ударов
+g00913	skórovací hra	das Scoring-Spiel	the scoring game	il gioco di scoring	le jeu de scoring	el juego de scoring	игра на счёт
+g00914	oprava chyby	die Fehlerkorrektur	error correction	la correzione degli errori	la correction d'erreur	la corrección de errores	исправление ошибок
+g00915	bod kontaktu (místo dopadu)	der Treffpunkt	the point of contact	il punto di contatto	le point de contact	el punto de impacto	точка контакта
+g00916	vyčistit plochu hole	die Schlagfläche reinigen	clean the clubface	pulire la faccia del bastone	nettoyer la face du club	limpiar la cara del palo	очистить поверхность клюшки
+g00917	pečovat o hole	die Schläger pflegen	take care of the clubs	curare i bastoni	entretenir les clubs	cuidar los palos	ухаживать за клюшками
+g00918	vyměnit gripy	die Griffe wechseln	change the grips	cambiare le impugnature	changer les grips	cambiar los grips	поменять грипы
+g00919	nové gripy	neue Griffe	new grips	nuove impugnature	de nouveaux grips	grips nuevos	новые грипы
+g00920	vyměnit grip	der Griff austauschen	replace the grip	sostituire l'impugnatura	remplacer le grip	reemplazar el grip	заменить грип
+g00921	čistit hlavu hole	das Reinigen der Schlägerkopf	clean the club head	pulire la testa del bastone	nettoyer la tête du club	limpiar la cabeza del palo	чистить головку клюшки
+g00922	opravit hole	der Schläger reparieren	club repair	la riparazione del bastone	la réparation du club	la reparación del palo	ремонт клюшки
+g00923	počítadlo ran	der Schlagzähler	the stroke counter	il contatore di colpi	le compteur de coups	el contador de golpes	счётчик ударов
+g00924	stepscan / krokový senzor	der Stepscan	the stepscan / step sensor	lo stepscan / sensore di passi	le stepscan / capteur de pas	el stepscan / sensor de pasos	степскан / датчик шагов
+g00925	zaznamenat hru	das Spiel aufzeichnen	record the game	registrare la partita	enregistrer la partie	registrar el juego	записать игру
+g00926	statistika kola	die Rundenstatistik	the round statistics	le statistiche del giro	les statistiques du tour	las estadísticas de la vuelta	статистика раунда
+g00927	průměrná statistika	die Durchschnittsstatistik	the average statistics	le statistiche medie	les statistiques moyennes	las estadísticas promedio	средняя статистика
+g00928	oblast zlepšení	die Verbesserungsbereich	the improvement area	l'area di miglioramento	le domaine d'amélioration	el área de mejora	область улучшения
+g00929	tréninkový plán	der Trainingsplan	the training plan	il piano di allenamento	le plan d'entraînement	el plan de entrenamiento	план тренировок
+g00930	týdenní trénink	das wöchentliche Training	the weekly practice	la pratica settimanale	l'entraînement hebdomadaire	el entrenamiento semanal	еженедельная тренировка
+g00931	denní procvičování	das tägliche Üben	the daily practice	la pratica quotidiana	la pratique quotidienne	la práctica diaria	ежедневная практика
+g00932	tréninková jednotka	die Trainingseinheit	the practice session	la sessione di allenamento	la séance d'entraînement	la sesión de práctica	тренировочное занятие
+g00933	zahřátí před kolem	das Aufwärmen vor dem Runde	warming up before the round	il riscaldamento prima del giro	l'échauffement avant le tour	el calentamiento antes de la vuelta	разминка перед раундом
+g00934	první rány	die ersten Schläge	the first few shots	i primi colpi	les premiers coups	los primeros golpes	первые удары
+g00935	procvičování puttů	das Einputten	practice putting	la pratica del putting	la pratique du putting	la práctica de putt	тренировка патта
+g00936	procvičování chipů	das Einchippen	practice chipping	la pratica del chipping	la pratique du chipping	la práctica de chip	тренировка чипов
+g00937	frekvence ran	die Schlagfrequenz	the stroke frequency	la frequenza dei colpi	la fréquence des coups	la frecuencia de golpes	частота ударов
+g00938	znát hřiště	das Spielfeld kennen	knowing the course	conoscere il campo	connaître le parcours	conocer el campo	знать поле
+g00939	přizpůsobit strategii	die Strategie anpassen	adapting the strategy	adattare la strategia	adapter la stratégie	adaptar la estrategia	адаптировать стратегию
+g00940	zohlednit počasí	das Wetter berücksichtigen	taking the weather into account	tenere conto del tempo	tenir compte de la météo	tener en cuenta el clima	учитывать погоду
+g00941	podmínky povrchu	die Bodenverhältnisse	the ground conditions	le condizioni del terreno	les conditions du terrain	las condiciones del terreno	состояние покрытия
+g00942	mokrý povrch	nasse Böden	wet ground	terreno bagnato	terrain mouillé	terreno mojado	мокрое покрытие
+g00943	suchý povrch	trockene Böden	dry ground	terreno asciutto	terrain sec	terreno seco	сухое покрытие
+g00944	tvrdý povrch	fester Boden	the firm ground / hard ground	il terreno duro / terreno duro	le terrain dur	el terreno duro	твёрдое покрытие
+g00945	měkký povrch	weicher Boden	the soft ground / soft ground	il terreno morbido / terreno morbido	le terrain mou	el terreno blando	мягкое покрытие
+g00946	odhadnout rychlost greenu	die Grüngeschwindigkeit einschätzen	judging the green speed	valutare la velocità del green	évaluer la vitesse du green	calcular la velocidad del green	оценить скорость грина
+g00947	hrát první green	das erste Grün spielen	playing the first green	giocare il primo green	jouer le premier green	jugar el primer green	играть первый грин
+g00948	přivyknout / aklimatizovat se	eingewöhnen	get acclimatized	acclimatarsi	s'acclimater	aclimatarse	акклиматизироваться
+g00949	náhradní míček	der Ersatzball	the replacement ball	la pallina sostitutiva	la balle de remplacement	la bola de reemplazo	запасной мяч
+g00950	správný míček (dle pravidel)	der Regelball	the conforming ball	la pallina conforme	la balle conforme	la bola conforme	мяч по правилам
+g00951	pravidlo jednoho míčku	das One-Ball-Rule	the one ball rule	la regola della pallina unica	la règle de la balle unique	la regla de una sola bola	правило одного мяча
+g00952	výměna míčku	der Ballwechsel	changing the ball	cambiare la pallina	changer de balle	cambiar la bola	замена мяча
+g00953	hrát jiný míček	einen anderen Ball spielen	play a different ball	giocare un'altra pallina	jouer une autre balle	jugar otra bola	играть другим мячом
+g00954	míček je poškozený	der Ball ist beschädigt	the ball is damaged	la pallina è danneggiata	la balle est endommagée	la bola está dañada	мяч повреждён
+g00955	míček je špinavý	der Ball ist verschmutzt	the ball is dirty	la pallina è sporca	la balle est sale	la bola está sucia	мяч грязный
+g00956	zvednout a vyčistit míček	den Ball heben und reinigen	lift and clean the ball	sollevare e pulire la pallina	lever et nettoyer la balle	levantar y limpiar la bola	поднять и почистить мяч
+g00957	položit markovátko	Markierung setzen	place the marker	posizionare il segnaballe	placer le marque-balle	colocar el marcador	положить маркер
+g00958	označit míček	Ball markieren	mark the ball	segnare la pallina	marquer la balle	marcar la bola	отметить мяч
+g00959	vrátit míček	Ball zurücklegen	replace the ball	rimettere la pallina	replacer la balle	reponer la bola	вернуть мяч на место
+g00960	přesně na místo	genau an die Stelle	exactly on the spot	esattamente sul posto	exactement à l'endroit	exactamente en el lugar	точно на место
+g00961	nedotknout se herní linie	die Spiellinie nicht berühren	don't touch the line of play	non toccare la linea di gioco	ne pas toucher la ligne de jeu	no tocar la línea de juego	не касаться линии игры
+g00962	interference / rušení	Interference	interference	l'interferenza	l'interférence	la interferencia	помеха
+g00963	překážení	die Behinderung	the obstruction	l'impedimento	la gêne	la obstrucción	препятствие
+g00964	abnormální podmínky hřiště (APC)	abnormale Platzverhältnisse	abnormal course conditions	condizioni anomale del campo	conditions anormales du parcours	condiciones anormales del campo	ненормальные условия поля
+g00965	dočasná voda	Casual Water	casual water	l'acqua temporanea	l'eau temporaire	el agua accidental	временная вода
+g00966	opravovaný prostor (GUR)	Ground Under Repair	ground under repair	il terreno in riparazione	le terrain en réparation	el terreno en reparación	участок в ремонте
+g00967	nepohyblivá překážka	Immovable Obstruction	immovable obstruction	l'ostacolo inamovibile	l'obstruction inamovible	la obstrucción inamovible	неподвижное препятствие
+g00968	pohyblivá překážka	Movable Obstruction	movable obstruction	l'ostacolo amovibile	l'obstruction amovible	la obstrucción movible	подвижное препятствие
+g00969	zapuštěný míček	Embedded Ball	embedded ball	la pallina affondata	la balle enfoncée	la bola empotrada	вкопанный мяч
+g00970	místní pravidla	Local Rules	local rules	le regole locali	les règles locales	las reglas locales	местные правила
+g00971	červená trestná oblast	Red Penalty Area	red penalty area	l'area di penalità rossa	la zone de pénalité rouge	el área de penalización roja	красная штрафная зона
+g00972	žlutá trestná oblast	Yellow Penalty Area	yellow penalty area	l'area di penalità gialla	la zone de pénalité jaune	el área de penalización amarilla	жёлтая штрафная зона
+g00973	poslední známý průsečík	die letzte bekannte Kreuzung	the last known crossing point	l'ultimo punto di attraversamento noto	le dernier point de franchissement connu	el último punto de cruce conocido	последняя известная точка пересечения
+g00974	zpět na linii (trestná možnost)	Back-on-the-Line	back-on-the-line relief	il rilascio sulla linea all'indietro	en arrière sur la ligne	hacia atrás en línea	возврат назад по линии
+g00975	nejbližší bod úlevy	die nächste Erleichterungsstelle	the nearest point of relief	il punto di sollievo più vicino	le point de dégagement le plus proche	el punto de alivio más cercano	ближайшая точка облегчения
+g00976	dropovat do dvou délek hole	zwei Schlägerlängen fallen lassen	drop within two club-lengths	droppare entro due lunghezze di bastone	dropper à deux longueurs de club	dropear a dos largos de palo	дропнуть в пределах двух длин клюшки
+g00977	golfový simulátor	der Golfsimulator	the golf simulator	il simulatore di golf	le simulateur de golf	el simulador de golf	гольф-симулятор
+g00978	indoor golf	das Indoor-Golf	indoor golf	il golf indoor	le golf en salle	el golf indoor	индор-гольф
+g00979	zimní golf	der Wintergolf	winter golf	il golf invernale	le golf d'hiver	el golf de invierno	зимний гольф
+g00980	letní golf	das Sommergolf	summer golf	il golf estivo	le golf d'été	el golf de verano	летний гольф
+g00981	hrát brzy ráno	früh morgens spielen	play early in the morning	giocare al mattino presto / giocare presto la mattina	jouer tôt le matin	jugar temprano por la mañana	играть рано утром
+g00982	hrát při západu slunce	bei Sonnenuntergang spielen	play at sunset	giocare al tramonto	jouer au coucher du soleil	jugar al atardecer	играть на закате
+g00983	noční golf (se svítícími míčky)	der Nachtgolf	night golf	il golf notturno	le golf de nuit	el golf nocturno	ночной гольф
+g00984	svítící míček	der Leuchtball	the glow ball	la pallina luminosa	la balle lumineuse	la bola luminosa	светящийся мяч
+g00985	golf v dešti	Golf im Regen	golf in the rain	il golf sotto la pioggia	le golf sous la pluie	el golf bajo la lluvia	гольф под дождём
+g00986	vybavení na déšť	die Regenausrüstung	rain gear	equipaggiamento per la pioggia	l'équipement de pluie	el equipo de lluvia	дождевая экипировка
+g00987	golf je zdravý	Golf ist gesund	golf is healthy	il golf fa bene alla salute / Golf fa bene alla salute	le golf est bon pour la santé	el golf es saludable	гольф полезен для здоровья
+g00988	chůze při golfu	beim Golf laufen	walking while golfing	camminare durante il golf	marcher en jouant au golf	caminar jugando al golf	ходьба во время игры в гольф
+g00989	golf a příroda	Golf und Natur	golf and nature	il golf e la natura	le golf et la nature	el golf y la naturaleza	гольф и природа
+g00990	golf a komunita	Golf und Gemeinschaft	golf and community	il golf e la comunità	le golf et la communauté	el golf y la comunidad	гольф и сообщество
+g00991	golf jako sport pro celý život	Golf als Sport fürs Leben	golf as a lifelong sport	il golf come sport per tutta la vita	le golf, un sport pour la vie	el golf como deporte para toda la vida	гольф как спорт на всю жизнь
+g00992	golfový začátečník	der Golfanfänger	the beginner golfer	il golfista principiante	le golfeur débutant	el golfista principiante	начинающий гольфист
+g00993	pokročilý hráč	der fortgeschrittene Spieler	the advanced player	il giocatore avanzato	le joueur avancé	el jugador avanzado	опытный игрок
+g00994	golfové hodiny / lekce	die Golfstunden	the golf lessons	le lezioni di golf	les cours de golf	las clases de golf	уроки гольфа
+g00995	cvičné hřiště	das Übungsfeld	the practice course	il campo pratica	le terrain d'entraînement	el campo de prácticas	тренировочное поле
+g00996	R&A (Royal and Ancient)	die R&A	the R&A	l'R&A	le R&A	el R&A	R&A
+g00997	oblast pravidel	der Regelbereich	the rules area	l'area delle regole	le domaine des règles	el área de reglas	раздел правил
+g00998	pravidlová příručka	das Regelhandbuch	the rule book	il manuale delle regole	le manuel des règles	el manual de reglas	справочник правил
+g00999	studium pravidel	das Regelstudium	rules study	lo studio delle regole	l'étude des règles	el estudio de las reglas	изучение правил
+g01000	příklad pravidla	das Regelbeispiel	the rule example	l'esempio di regola	l'exemple de règle	el ejemplo de regla	пример правила
+g01001	maximální počet holí	die maximale Schlägeranzahl	the maximum number of clubs	il numero massimo di bastoni	le nombre maximal de clubs	el número máximo de palos	максимальное количество клюшек
+g01002	omezení holí	die Schlägerbeschränkung	the club limit	il limite di bastoni	la limite de clubs	el límite de palos	ограничение клюшек
+g01003	vyhovující vybavení	das konforme Gerät	conforming equipment	l'attrezzatura conforme	l'équipement conforme	el equipo conforme	соответствующее снаряжение
+g01004	nevyhovující vybavení	das nicht konforme Gerät	non-conforming equipment	l'attrezzatura non conforme	l'équipement non conforme	el equipo no conforme	несоответствующее снаряжение
+g01005	bunker / písková překážka	der Bunker	the bunker	il bunker	le bunker	el búnker	бункер
+g01006	písková překážka (AmE)	die Sandfalle	the sand trap	la trappola di sabbia	le piège de sable	la trampa de arena	песчаная ловушка
+g01007	boční překážka	das seitliche Hindernis	the lateral hazard	l'ostacolo laterale	l'obstacle latéral	el obstáculo lateral	боковое препятствие
+g01008	trestná oblast (nová pravidla)	das Strafbereich	the penalty area	l'area di penalità	la zone de pénalité	el área de penalización	штрафная зона
+g01009	rybník	der Teich	the pond	lo stagno	l'étang	el estanque	пруд
+g01010	keř / křoviny	der Busch	the bush	il cespuglio	le buisson	el arbusto	куст
+g01011	násep	der Damm	the embankment	la scarpata	le talus	el terraplén	насыпь
+g01012	prohlubeň / díra	die Senke	the hollow	la depressione	la dépression	la hondonada	впадина
+g01013	železo	das Eisen	the iron	il ferro	le fer	el hierro	железо
+g01014	hybrid	das Hybrid	the hybrid	l'ibrido	l'hybride	el híbrido	гибрид
+g01015	bag / taška	die Tasche	the bag	la sacca	le sac	la bolsa	бэг
+g01016	vozík (ruční)	der Trolley	the trolley	il carrello	le chariot	el carro	тележка
+g01017	golfový vozík (motorový)	das Golfcart	the buggy / the golf cart	il golf cart	la voiturette	el buggy	гольф-кар
+g01018	pitch markovátko	die Pitchgabel	the pitch repairer	il riparatore di pitch	la fourchette à pitch	el reparapiques	вилка для питч-марок
+g01019	spiky / tretry	die Golfschuhe	the spikes	gli spikes	les spikes	los spikes	шипы
+g01020	na par / rovno	Par	level par	pari	par	par	пар
+g01021	odpal / drive	der Abschlag	the drive	il drive	le drive	el drive	драйв
+g01022	přístřel	der Annäherungsschlag	the approach shot	il colpo di avvicinamento	le coup d'approche	el golpe de aproximación	подход
+g01023	zapíchnout / dokončit jamku	einlochen	to hole out	imbucare	terminer le trou	embocar	закончить лунку
+g01024	vlajka	die Fahne	the flag	la bandiera	le drapeau	la bandera	флаг
+g01025	pin / tyčka	der Flaggenstock	the flagstick / pin	la bandierina / il pin	le drapeau	la bandera	флагшток
+g01026	linie puttu	die Linie	the line	la linea	la ligne	la línea	линия
+g01027	lie / pozice míčku	die Lage	the lie	il lie	le lie	el lie	лай
+g01028	těsné lie	die knappe Lage	a tight lie	un lie stretto / il lie stretto	un lie serré	un lie apretado	плотный лай
+g01029	divot / vykopaný drn	das Divot	the divot	il divot	le divot	el divot	дёрн
+g01030	pitchmark / dopadová stopa	das Pitchmark	the pitch mark	il segno di pitch	la marque de pitch	la marca de impacto	питч-марка
+g01031	backswing	der Rückschwung	the backswing	il backswing	le backswing	el backswing	бэксвинг
+g01032	follow-through	der Durchschwung	the follow-through	il follow-through	le follow-through	el follow-through	фоллоу-through
+g01033	grip / uchopení	der Griff	the grip	la presa	le grip	el grip	хват
+g01034	adresa (příprava na ránu)	die Ansprechposition	the address	l'indirizzo	l'adresse	el address	стойка
+g01035	otevřená plocha	offene Schlagfläche	open face	faccia aperta	face ouverte	cara abierta	открытая плоскость
+g01036	zavřená plocha	geschlossene Schlagfläche	closed face	faccia chiusa	face fermée	cara cerrada	закрытая плоскость
+g01037	čtvercová plocha	gerade Schlagfläche	square face	faccia quadrata	face carrée	cara cuadrada	прямая плоскость
+g01038	tenká rána	der dünne Schlag	a thin shot	il colpo sottile	un coup mince	un golpe flojo	тонкий удар
+g01039	šlápnutí vedle / mišung	der Luftschlag	a whiff	il colpo a vuoto	un coup dans le vide	un golpe en falso	промах
+g01040	červená kolíčka (boční překážka)	rote Pfähle	red stakes	paletti rossi	piquets rouges	estacas rojas	красные колышки
+g01041	bílá kolíčka / linie (OB)	die weißen Pfosten / Linie	white stakes	i paletti bianchi / la linea	les piquets blancs / la ligne	las estacas blancas / la línea	белые колышки / линия
+g01042	pravidla	die Regeln	the rules	le regole	les règles	las reglas	правила
+g01043	pravidla golfu	die Golfregeln	the rules of golf	le regole del golf	les règles du golf	las reglas del golf	правила гольфа
+g01044	čtyřka / fourball	der Vierer / der Fourball	a fourball	il fourball	le fourball	el fourball	фурбол
+g01045	sólový hráč	der Einzelspieler	a singles player	il giocatore singolo	le joueur en solo	el jugador individual	одиночный игрок
+g01046	hrací partner	der Spielpartner	the playing partner	il compagno di gioco	le partenaire de jeu	el compañero de juego	партнёр по игре
+g01047	mohu projít?	Darf ich durchspielen?	May I play through?	Posso passare?	Puis-je passer ?	¿Puedo pasar?	Можно пройти?
+g01048	promiňte!	Entschuldigung!	Sorry!	Mi scusi!	Pardon !	¡Perdón!	Простите!
+g01049	jak daleko je to?	Wie weit ist es?	How far is it?	Quanto manca?	C'est à quelle distance ?	¿Qué distancia hay?	Сколько до цели?
+g01050	dropovat míček	den Ball droppen	to drop the ball	droppare la pallina	dropper la balle	dropar la bola	дропнуть мяч
+g01051	ranger	der Ranger	the ranger	il ranger	le ranger	el ranger	рейнджер
+g01052	starter	der Starter	the starter	lo starter	le starter	el starter	стартер
+g01053	opravte prosím pitchmarky	Bitte Pitchmarken reparieren	Please repair your pitch marks	Per favore ripari i segni di pitch	Veuillez réparer les pitchs	Por favor, repare las marcas de pitch	Пожалуйста, исправляйте питчмарки
+g01054	golfový instruktor	der Golflehrer	the golf instructor	l'istruttore di golf	le professeur de golf	el instructor de golf	инструктор по гольфу
+g01055	driving range	die Driving Range	the driving range	il driving range	le practice	el campo de prácticas	драйвинг-рейндж
+g01056	žluté tee (přední)	die gelben Abschläge	the yellow tees	i tee gialli	les départs jaunes	las salidas amarillas	жёлтые ти
+g01057	označení 150 yardů	die 150-Yard-Markierung	the 150-yard marker	il segnale dei 150 yard	le repère des 150 yards	la marca de 150 yardas	отметка 150 ярдов
+g01058	slope rating	das Slope Rating	the slope rating	lo slope rating	le slope rating	el slope rating	слоуп рейтинг
+g01059	stableford bodování	die Stableford-Wertung	Stableford scoring	il punteggio Stableford	le décompte Stableford	la puntuación Stableford	подсчёт по Стейблфорду
+g01060	body	die Punkte	points	i punti	les points	los puntos	очки
+g01061	výsledky	die Ergebnisse	the results	i risultati	les résultats	los resultados	результаты
+g01062	slabý / lehký	schwach / leicht	weak / light	debole / leggero	faible / léger	débil / ligero	слабый / лёгкий
+g01063	siréna	die Sirene	the siren	la sirena	la sirène	la sirena	сирена
+g01064	dobrý den (odpoledne)	Guten Tag	Good afternoon	Buon pomeriggio	Bon après-midi	Buenas tardes	Добрый день
+g01065	hodně štěstí	Viel Glück	Good luck	Buona fortuna	Bonne chance	Buena suerte	Удачи
+g01066	19. jamka (bar)	das 19. Loch	the 19th hole	la buca 19	le 19e trou	el hoyo 19	19-я лунка
+g01067	hřiště je krásné	Der Platz ist wunderschön	The course is beautiful	Il campo è bellissimo	Le parcours est magnifique	El campo es precioso	Поле прекрасное
+g01068	hřiště je náročné	Der Platz ist anspruchsvoll	The course is challenging	Il campo è difficile	Le parcours est difficile	El campo es exigente	Поле сложное
+g01069	máte handicapový průkaz?	Haben Sie einen Handicap-Ausweis?	Do you have a handicap certificate?	Ha il tesserino di handicap?	Avez-vous un certificat de handicap ?	¿Tiene licencia de hándicap?	У вас есть гандикап-карта?
+g01070	golfová členská karta	die Golf-Mitgliedskarte	the golf society card	la tessera del club	la carte de membre	el carné de socio	членская карта клуба
+g01071	průkaz handicapu	der Handicap-Ausweis	the handicap certificate	il tesserino di handicap	le certificat de handicap	el certificado de hándicap	гандикап-карта
+g01072	greenfee	die Greenfee	the green fee	il green fee	le green fee	el green fee	грин-фи
+g01073	čekejte dokud není dráha volná	Bitte warten, bis das Fairway frei ist	please wait until the fairway is clear	attendere finché il fairway è libero	attendez que le fairway soit libre	espere hasta que la calle esté libre	подождите, пока фервей освободится
+g01074	pijte vodu	Wasser trinken	drink water	beva dell'acqua	buvez de l'eau	beba agua	пейте воду
+g01075	úpal / úžeh	der Hitzschlag	heatstroke	il colpo di sole	le coup de chaleur	la insolación	тепловой удар
+g01076	přibližně sto yardů	ungefähr hundert Yards	approximately one hundred yards	circa cento yard	environ cent yards	unas cien yardas	примерно сто ярдов
+g01077	mluvím trochu anglicky	Ich spreche ein wenig Englisch	I speak a little English	Parlo un po' di inglese	Je parle un peu anglais	Hablo un poco de inglés	Я немного говорю по-английски
+g01078	mohl/a byste to zopakovat?	Könnten Sie das wiederholen?	Could you repeat that?	Può ripetere per favore?	Pourriez-vous répéter ?	¿Podría repetirlo?	Не могли бы вы повторить?
+g01079	nemluvím anglicky	Ich spreche kein Englisch	I don't speak English	Non parlo inglese	Je ne parle pas anglais	No hablo inglés	Я не говорю по-английски
+g01080	není zač / prosím	Gern geschehen	You're welcome	Prego	De rien	De nada	Пожалуйста
+g01081	s radostí / rádo se stalo	Gern geschehen	My pleasure	Con piacere	Avec plaisir	Con gusto	С удовольствием
+g01082	dynamický loft	der dynamische Loft	the dynamic loft	il loft dinamico	le loft dynamique	el loft dinámico	динамический лофт
+g01083	dráha hole	der Schlagweg	the path	la traiettoria del bastone	la trajectoire du club	la trayectoria del palo	траектория клюшки
+g01084	face k dráze	die Schlagfläche zum Schlagweg	the face to path	la faccia rispetto alla traiettoria	la face par rapport à la trajectoire	la cara respecto a la trayectoria	face к траектории
+g01085	prodloužení (follow-through)	der Durchschwung	the extension	l'estensione	l'extension	la extensión	продолжение движения
+g01086	dokončení švihu	der Abschwung-Abschluss	the finish	il finale	le finish	el final del swing	завершение свинга
+g01087	osa spinu	die Spinachse	the spin axis	l'asse di rotazione	l'axe de rotation	el eje de giro	ось вращения
+g01088	křivka zprava doleva (draw/hook)	die Kurve von rechts nach links	a right-to-left curve	la curva da destra a sinistra	la courbe de droite à gauche	la curva de derecha a izquierda	кривая справа налево
+g01089	křivka zleva doprava (fade/slice)	die Kurve von links nach rechts	a left-to-right curve	la curva da sinistra a destra	la courbe de gauche à droite	la curva de izquierda a derecha	кривая слева направо
+g01090	sweet spot / střed hole	der Sweet Spot	the sweet spot	lo sweet spot	le sweet spot	el punto dulce	свит-спот
+g01091	násada hole	der Schaft	the shaft	lo shaft	le manche	el eje	шафт
+g01092	lie úhel hole	der Lie-Winkel	the lie angle	l'angolo di lie	l'angle de lie	el ángulo de lie	угол лай
+g01093	úhel plochy	der Schlagflächenwinkel	the face angle	l'angolo della faccia	l'angle de face	el ángulo de la cara	угол плоскости клюшки
+g01094	offset	der Offset	offset	l'offset	l'offset	el offset	оффсет
+g01095	hmotnost hlavy	das Kopfgewicht	the head weight	il peso della testa	le poids de la tête	el peso de la cabeza	вес головки
+g01096	blade (svalnatá záda)	das Blade	blade	il blade	le blade	el blade	блейд
+g01097	bounce (sand wedge)	der Bounce	the bounce	il bounce	le bounce	el bounce	баунс
+g01098	grind (tvarování sole)	der Grind	the grind	il grind	le grind	el grind	гринд
+g01099	insert (putter)	der Insert	the insert	l'insert	l'insert	el inserto	вставка
+g01100	frézování plochy	die Schlagflächenfräsung	face milling	la fresatura della faccia	le fraisage de la face	el fresado de la cara	фрезеровка плоскости
+g01101	vyvážení špička-pata	die Fersen-Spitzen-Gewichtung	the toe-heel weighted	il bilanciamento punta-tacco	la répartition pointe-talon	el balance punta-talón	баланс носок-пятка
+g01102	nastavitelná objímka	das verstellbare Hosel	the adjustable hosel	l'hosel regolabile	le hosel ajustable	el hosel ajustable	регулируемый хосель
+g01103	nastavení loftu	die Loft-Einstellung	loft adjustment	la regolazione del loft	le réglage du loft	el ajuste del loft	регулировка лофта
+g01104	nastavení lie	die Lie-Einstellung	lie adjustment	la regolazione del lie	le réglage du lie	el ajuste del lie	регулировка лая
+g01105	fitování / přizpůsobení hole	das Fitting	the fitting	il fitting	le fitting	el fitting	фиттинг
+g01106	fitovací sezení	die Fitting-Sitzung	the fitting session	la sessione di fitting	la séance de fitting	la sesión de fitting	сессия фиттинга
+g01107	z prodejny (standardní)	von der Stange	off the shelf	di serie	de série	de serie	стандартный
+g01108	na míru vyrobené	maßgefertigt	custom built	su misura	sur mesure	a medida	сделанный на заказ
+g01109	golfová násada	der Golfschaft	the golf shaft	lo shaft da golf	le manche de golf	el eje de golf	гольф-шафт
+g01110	povrch míčku (cover)	die Ballhülle	the cover	il cover	la couverture	la cubierta	оболочка мяча
+g01111	uretan povrch	die Urethanhülle	urethane cover	il cover in uretano	la couverture en uréthane	la cubierta de uretano	уретановая оболочка
+g01112	surlyn povrch	die Surlynhülle	surlyn cover	il cover in surlyn	la couverture en surlyn	la cubierta de surlyn	оболочка из сурлина
+g01113	čtyřdílný míček	der vierteilige Ball	a four-piece ball	la palla a quattro strati	la balle à quatre couches	la bola de cuatro capas	четырёхслойный мяч
+g01114	světový handicap systém (WHS)	das Welt-Handicap-System	the World Handicap System	il World Handicap System	le système mondial de handicap	el Sistema Mundial de Hándicap	Всемирная система гандикапа
+g01115	výpočet podmínek hry (PCC)	die Spielbedingungsberechnung	the playing conditions calculation	il calcolo delle condizioni di gioco	le calcul des conditions de jeu	el cálculo de condiciones de juego	расчёт условий игры
+g01116	netto double bogey (maximum na jamce)	das Netto-Doppelbogey	net double bogey	il doppio bogey netto	le double bogey net	el doble bogey neto	нетто дабл-богги
+g01117	výjimečné skóre	das außergewöhnliche Ergebnis	exceptional score	il punteggio eccezionale	le score exceptionnel	la puntuación excepcional	исключительный результат
+g01118	měkký strop (handicap)	die weiche Obergrenze	a soft cap	il soft cap	le plafond souple	el límite blando	мягкий предел
+g01119	pevný strop (handicap)	die harte Obergrenze	a hard cap	il hard cap	le plafond strict	el límite duro	жёсткий предел
+g01120	nejnižší handicap index	der niedrigste Handicap-Index	the low handicap index	l'indice di handicap più basso	l'index de handicap le plus bas	el índice de hándicap más bajo	самый низкий индекс гандикапа
+g01121	revize handicapu	die Handicap-Revision	the handicap revision	la revisione dell'handicap	la révision du handicap	la revisión del hándicap	пересмотр гандикапа
+g01122	roční přezkum	die jährliche Überprüfung	the annual review	la revisione annuale	la révision annuelle	la revisión anual	ежегодный пересмотр
+g01123	domovský klub	der Heimatclub	the home club	il circolo di appartenenza	le club d'attache	el club de origen	домашний клуб
+g01124	kolo obecné hry	die Runde im allgemeinen Spiel	the general play round	il giro di gioco generale	le tour de jeu général	la vuelta de juego general	раунд общей игры
+g01125	soutěžní kolo	die Turnierrunde	the competition round	il giro di gara	le tour de compétition	la vuelta de competición	турнирный раунд
+g01126	Arccos (GPS systém)	Arccos	Arccos	Arccos	Arccos	Arccos	Arccos
+g01127	sledování ran	der Schlagtracker	the shot tracker	il tracciatore dei colpi	le suivi des coups	el seguimiento de golpes	отслеживание ударов
+g01128	strokes gained (statistika)	die Strokes Gained	the strokes gained	gli strokes gained	les strokes gained	los strokes gained	страйкс гейнд
+g01129	strokes gained putting	Strokes Gained Putting	strokes gained putting	strokes gained putting	strokes gained putting	strokes gained putting	страйкс гейнд паттинг
+g01130	strokes gained approach	Strokes Gained Approach	strokes gained approach	strokes gained approach	strokes gained approach	strokes gained approach	страйкс гейнд аппроуч
+g01131	strokes gained z odpaliště	Strokes Gained Off the Tee	strokes gained off the tee	strokes gained off the tee	strokes gained off the tee	strokes gained off the tee	страйкс гейнд с тee
+g01132	strokes gained kolem greenu	Strokes Gained Around the Green	strokes gained around the green	strokes gained around the green	strokes gained around the green	strokes gained around the green	страйкс гейнд вокруг грина
+g01133	sand save procento (%)	die Sand-Save-Quote	sand saves	la percentuale di sand save	le pourcentage de sand save	el porcentaje de sand save	процент сэнд сейвов
+g01134	tvar rány	die Schlagform	the shot shape	la forma del colpo	la trajectoire du coup	la forma del golpe	форма удара
+g01135	pronikavá dráha letu	die durchdringende Flugbahn	a penetrating ball flight	la traiettoria penetrante	la trajectoire pénétrante	la trayectoria penetrante	пробивная траектория полёта
+g01136	vliv větru	der Windeinfluss	the wind effect	l'effetto del vento	l'effet du vent	el efecto del viento	влияние ветра
+g01137	o jedno hole více	einen Schläger mehr	one club more	un bastone in più	un club de plus	un palo más	на одну клюшку больше
+g01138	o dvě hole více	zwei Schläger mehr	two clubs more	due bastoni in più	deux clubs de plus	dos palos más	на две клюшки больше
+g01139	yardage book / knížka vzdáleností	das Yardage Book	the yardage book	lo yardage book	le carnet de distances	el libro de distancias	книга дистанций
+g01140	pin sheet (poloha jamky)	das Pin Sheet	the pin sheet	il pin sheet	la feuille de positions de drapeau	la hoja de banderas	расположение лунок
+g01141	Sunday pin (nejtěžší poloha)	die Sunday Pin	Sunday pin	la Sunday pin	le drapeau du dimanche	la bandera de domingo	воскресная позиция флага
+g01142	stimp hodnota	der Stimp-Wert	stimp reading	il valore stimp	la valeur stimp	el valor stimp	значение стимпа
+g01143	zrnité greeny	die körnigen Grüns	grainy greens	i green con grana	les greens granuleux	los greens con grano	зернистые грины
+g01144	zrno (směr trávy)	die Grain	the grain	la grana	le grain	el grano	направление травы
+g01145	oblast kolem greenu	der Chipping-Bereich	the chipping area	l'area di chipping	la zone de chip	el área de chip	зона чиппинга
+g01146	chip z okraje greenu	vom Grünrand chippen	chipping from the fringe	il chip dal fringe	chipper depuis la frange	el chip desde el fringe	чип с края грина
+g01147	up and down (chip + putt)	das Up and Down	the up and down	l'up and down	le up and down	el up and down	ап энд даун
+g01148	sand save (z bunkeru)	der Sand Save	the sand save	il sand save	le sand save	el sand save	сэнд сейв
+g01149	scramble (zachránit par z problémů)	der Scramble	the scramble	lo scramble	le scramble	el scramble	скрэмбл
+g01150	zapíchnout putt	den Putt lochen	making the putt	imbucare il putt	réussir le putt	embocar el putt	забить патт
+g01151	minout putt	den Putt verfehlen	missing the putt	sbagliare il putt	rater le putt	fallar el putt	промахнуться паттом
+g01152	vyhoření okraje	der Lochrand-Lipout	a burn edge	il bordo bruciato	le bord brûlé	el borde quemado	касание края лунки
+g01153	to je dobré (gimme)	Das ist gut	that's good	è buono	c'est bon	está dado	засчитано
+g01154	zvedněte to (gimme)	Nehmen Sie ihn auf	pick it up	raccoglila	ramassez-la	recógela	поднимайте мяч
+g01155	v délce kůže (gimme)	in Lederlänge	in the leather	nella lunghezza del cuoio	dans la longueur du cuir	en el largo del cuero	в длине кожи
+g01156	remíza na birdie	Halbierung mit Birdie	halved in birdie	pareggiata con birdie	égalité sur un birdie	empate con birdie	ничья с бёрди
+g01157	o dvě jamky vpředu	zwei Löcher vorn	two up	due buche avanti	deux trous d'avance	dos hoyos arriba	впереди на две лунки
+g01158	dormie (matchplay)	Dormie	dormie	dormie	dormie	dormie	дорми
+g01159	vyhrál na 19. jamce (playoff)	am 19. Loch gewonnen	won at the 19th	vinto alla 19	gagné au 19e	ganó en el 19	выиграл на 19-й лунке
+g01160	sudden death / náhlá smrt	das Sudden Death	sudden death	il sudden death	la mort subite	la muerte súbita	внезапная смерть
+g01161	playoff / rozehrávka	das Stechen	a playoff	lo spareggio	le playoff	el desempate	плей-офф
+g01162	první extra jamka	das erste Extraloch	the first extra hole	la prima buca supplementare	le premier trou supplémentaire	el primer hoyo extra	первая дополнительная лунка
+g01163	soutěž na vlajku	der Fahnenwettbewerb	the pin flag competition	la gara della bandiera	la compétition du drapeau	la competición de bandera	турнир с флажком
+g01164	výběr kapitána	die Wahl des Kapitäns	the captain's choice	la scelta del capitano	le choix du capitaine	la elección del capitán	выбор капитана
+g01165	better ball	der Better Ball	better ball	il better ball	le meilleur ballon	el mejor bola	беттер болл
+g01166	souhrnné skóre	das Gesamtergebnis	aggregate score	il punteggio complessivo	le score cumulé	la puntuación total	суммарный счёт
+g01167	brutto a netto ceny	die Brutto- und Nettopreise	gross and net prizes	i premi lordo e netto	les prix brut et net	los premios brutos y netos	призы брутто и нетто
+g01168	celkový vítěz	der Gesamtsieger	the overall winner	il vincitore assoluto	le vainqueur général	el ganador absoluto	абсолютный победитель
+g01169	vítěz kategorie	der Kategoriesieger	category winner	il vincitore della categoria	le vainqueur de la catégorie	el ganador de la categoría	победитель категории
+g01170	vyhlášení výsledků / předání cen	die Siegerehrung	the presentation	la premiazione	la remise des prix	la entrega de premios	награждение
+g01171	předávání cen	die Preisverleihung	the prize giving	la consegna dei premi	la remise des prix	la entrega de premios	вручение призов
+g01172	cena / výhra	der Preis	the prize	il premio	le prix	el premio	приз
+g01173	voucher / poukaz	der Gutschein	the voucher	il buono	le bon	el vale	ваучер
+g01174	golfová společnost / oddíl	die Golfgesellschaft	the golf society	la società di golf	la société de golf	la sociedad de golf	гольф-клуб
+g01175	předseda klubu	der Klubvorsitzende	the club chairman	il presidente del club	le président du club	el presidente del club	председатель клуба
+g01176	výbor pro greeny	der Grünausschuss	the greens committee	il comitato dei green	le comité des greens	el comité de greens	комитет по грину
+g01177	sekretář členství	der Mitgliedschaftssekretär	the membership secretary	il segretario dei soci	le secrétaire des adhésions	el secretario de socios	секретарь по членству
+g01178	asistent profesionála	der Assistenzprofi	the assistant pro	il maestro assistente	le pro assistant	el profesional asistente	ассистент профессионала
+g01179	otevírací / první jamka	das erste Loch	the opening hole	la buca di apertura	le trou d'ouverture	el hoyo inicial	первая лунка
+g01180	kontrola plevele	die Unkrautbekämpfung	weed control	il controllo delle erbacce	le contrôle des mauvaises herbes	el control de malezas	борьба с сорняками
+g01181	startovací domek	das Starterhäuschen	the starter hut	la capanna dello starter	la cabane du starter	la caseta del starter	стартовый домик
+g01182	nepromokavé kalhoty	die wasserdichte Hose	the waterproof trousers	i pantaloni impermeabili	le pantalon imperméable	los pantalones impermeables	непромокаемые брюки
+g01183	pláštěnka bagu	die Regenhaube	the rain cover	la protezione per la sacca	la housse de pluie	el cubre bolsa de lluvia	дождевик для бага
+g01184	chladicí taška	die Kühltasche	the cool bag	la borsa termica	le sac isotherme	la bolsa nevera	сумка-холодильник
+g01185	powerbank	die Powerbank	the power bank	il powerbank	la batterie externe	la batería externa	пауэрбанк
+g01186	náplast	das Pflaster	the plaster	il cerotto	le pansement	la tirita	пластырь
+g01187	stabilita core / trupu	die Rumpfstabilität	core stability	la stabilità del core	la stabilité du tronc	la estabilidad del core	стабильность кора
+g01188	akceptování výsledku	die Akzeptanz	acceptance	l'accettazione	l'acceptation	la aceptación	принятие результата
+g01189	hrát na birdie	auf Birdie spielen	go for the birdie	andare per il birdie	jouer pour le birdie	ir a por el birdie	играть на бёрди
+g01190	snížit tep	den Puls senken	slow the heart rate	abbassare il battito	ralentir le pouls	reducir el pulso	снизить пульс
+g01191	skórovací zóna (100y a blíže)	die Scoringzone	the scoring zone	la zona di scoring	la zone de scoring	la zona de scoring	скоринговая зона
+g01192	skórovací hole	die Scoring-Schläger	the scoring clubs	i bastoni di scoring	les clubs de scoring	los palos de scoring	скоринговые клюшки
+g01193	kontrola vzdálenosti wedgem	die Distanzkontrolle mit dem Wedge	wedge distance control	il controllo della distanza col wedge	le contrôle de distance au wedge	el control de distancia con el wedge	контроль дистанции вэджем
+g01194	plný wedge	der volle Wedge	full wedge	il wedge completo	le wedge complet	el wedge completo	полный вэдж
+g01195	tříčtvrteční wedge	der Dreiviertel-Wedge	three-quarter wedge	il wedge a tre quarti	le wedge trois quarts	el wedge de tres cuartos	вэдж на три четверти
+g01196	poloviční wedge	der halbe Wedge	half wedge	il mezzo wedge	le demi-wedge	el medio wedge	половинный вэдж
+g01197	čtvrteční wedge	der Viertel-Wedge	quarter wedge	il wedge a un quarto	le quart de wedge	el wedge de un cuarto	вэдж на четверть
+g01198	systém hodin (délka švihu)	das Uhrsystem	clock system	il sistema dell'orologio	le système de l'horloge	el sistema del reloj	система часов
+g01199	sedm hodin (backswing)	sieben Uhr	seven o'clock	le sette	sept heures	las siete	семь часов
+g01200	devět hodin (backswing)	neun Uhr	nine o'clock	le nove	neuf heures	las nueve	девять часов
+g01201	deset hodin (backswing)	zehn Uhr	ten o'clock	le dieci	dix heures	las diez	десять часов
+g01202	kontrola trajektorie	die Flugbahnkontrolle	the trajectory control	il controllo della traiettoria	le contrôle de la trajectoire	el control de la trayectoria	контроль траектории
+g01203	kontrola spinu	die Spinkontrolle	the spin control	il controllo dello spin	le contrôle de l'effet	el control del efecto	контроль спина
+g01204	backspin (zpětný spin)	der Backspin	backspin	il backspin	le backspin	el backspin	бэкспин
+g01205	topspin	der Topspin	topspin	il topspin	le topspin	el topspin	топспин
+g01206	sidespin (boční spin)	der Sidespin	sidespin	il sidespin	le sidespin	el sidespin	сайдспин
+g01207	rána do větru	der Schlag gegen den Wind	the wind shot	il colpo nel vento	le coup face au vent	el golpe contra el viento	удар против ветра
+g01208	knockdown shot	der Knockdown-Schlag	the knockdown shot	il knockdown shot	le coup knockdown	el golpe knockdown	удар нокдаун
+g01209	stinger (nízká pronikavá rána)	der Stinger	the stinger	lo stinger	le stinger	el stinger	стингер
+g01210	hrát vítr	den Wind spielen	playing the wind	giocare col vento	jouer avec le vent	jugar con el viento	играть с учётом ветра
+g01211	číst podmínky	die Bedingungen lesen	reading the conditions	leggere le condizioni	lire les conditions	leer las condiciones	читать условия
+g01212	mokré podmínky	die nassen Bedingungen	the wet conditions	le condizioni bagnate	les conditions humides	las condiciones húmedas	влажные условия
+g01213	suché podmínky	die trockenen Bedingungen	the dry conditions	le condizioni asciutte	les conditions sèches	las condiciones secas	сухие условия
+g01214	těsné lie (krátká tráva)	die enge Lage	the tight lie	il lie rasato	la balle sur herbe rase	la bola en lie ajustado	плотное лежание
+g01215	nadýchané lie (dlouhá tráva)	die lockere Lage	the fluffy lie	il lie soffice	la balle sur herbe haute	la bola en lie esponjoso	пушистое лежание
+g01216	lie ze svahu dolů	die Lage am Gefälle	the downhill lie	il lie in discesa	la balle en descente	el lie cuesta abajo	лежание под уклон
+g01217	lie do svahu	die Lage am Hang bergauf	the uphill lie	il lie in salita	la balle en montée	el lie cuesta arriba	лежание в горку
+g01218	lie bokem s míčem výše	die Hanglage Ball über den Füßen	the sidehill lie ball above feet	il lie laterale palla sopra i piedi	la balle au-dessus des pieds	el lie lateral bola sobre los pies	лежание мяч выше ног
+g01219	lie bokem s míčem níže	die Hanglage Ball unter den Füßen	the sidehill lie ball below feet	il lie laterale palla sotto i piedi	la balle en dessous des pieds	el lie lateral bola bajo los pies	лежание мяч ниже ног
+g01220	lie na svahu	die Hanglage	the hanging lie	il lie in pendenza	la balle sur pente	el lie en pendiente	лежание на склоне
+g01221	přizpůsobit se lie	sich der Lage anpassen	adjusting for the lie	adattarsi al lie	s'adapter à la position de balle	adaptarse al lie	приспосабливаться к лежанию
+g01222	výběr hole	die Schlägerwahl	club selection	la selezione del bastone	le choix du club	la selección del palo	выбор клюшки
+g01223	kontrola vzdálenosti	die Distanzkontrolle	distance control	il controllo della distanza	le contrôle de la distance	el control de la distancia	контроль дистанции
+g01224	carry vs. rollout	Carry gegen Rollen	carry vs roll	carry vs roll	carry contre roulement	carry contra rodada	полёт против наката
+g01225	dopadová oblast	der Landebereich	the landing area	l'area di atterraggio	la zone d'atterrissage	la zona de aterrizaje	зона приземления
+g01226	cílová oblast	der Zielbereich	the target area	l'area obiettivo	la zone cible	la zona objetivo	целевая зона
+g01227	bezpečná oblast (alternativa)	der sichere Bereich	the bail-out area	l'area di sicurezza	la zone de repli	la zona de escape	безопасная зона
+g01228	přihrávající rána	der Vorlegeschlag	the feeding shot	il colpo di preparazione	le coup de préparation	el golpe de preparación	подводящий удар
+g01229	approach wedge (50-52°)	das Approach Wedge	the approach wedge	l'approach wedge	le approach wedge	el approach wedge	аппроуч-wedge
+g01230	útočit na jamku	die Fahne angreifen	the attack the flag	attaccare la bandiera	attaquer le drapeau	atacar la bandera	атаковать флаг
+g01231	hrát bezpečně	sicher spielen	the play safe	giocare in sicurezza	jouer prudemment	jugar seguro	играть безопасно
+g01232	layup (záměrně kratší rána)	der Layup	the layup	il layup	le layup	el layup	лэй-ап
+g01233	agresivní hra	das aggressive Spiel	the aggressive play	il gioco aggressivo	le jeu agressif	el juego agresivo	агрессивная игра
+g01234	konzervativní hra	das konservative Spiel	the conservative play	il gioco conservativo	le jeu conservateur	el juego conservador	консервативная игра
+g01235	řízení hry na hřišti	das Platzmanagement	course management	la gestione del campo	la gestion du parcours	la gestión del campo	управление игрой на поле
+g01236	hrát podle svých silných stránek	nach den eigenen Stärken spielen	playing to your strengths	giocare sui propri punti di forza	jouer selon ses points forts	jugar a tus puntos fuertes	играть от своих сильных сторон
+g01237	vyhýbat se slabým stránkám	Schwächen vermeiden	avoiding your weaknesses	evitare i propri punti deboli	éviter ses points faibles	evitar tus puntos débiles	избегать своих слабых сторон
+g01238	výběr rány	die Schlagauswahl	the shot selection	la scelta del colpo	le choix du coup	la selección del golpe	выбор удара
+g01239	procentuální / nejbezpečnější rána	der sicherste Schlag	the percentage shot	il colpo più sicuro	le coup le plus sûr	el golpe más seguro	наиболее надёжный удар
+g01240	hra s vysokou pravděpodobností úspěchu	das Spiel mit hoher Erfolgschance	the high-percentage play	il gioco ad alta probabilità	le jeu à forte probabilité	la jugada de alta probabilidad	игра с высокой вероятностью успеха
+g01241	hra s nízkou pravděpodobností	das risikoreiche Spiel	the low-percentage play	il gioco a bassa probabilità	le jeu à faible probabilité	la jugada de baja probabilidad	игра с низкой вероятностью
+g01242	riziková rána	der riskante Schlag	the risk shot	il colpo rischioso	le coup risqué	el golpe arriesgado	рискованный удар
+g01243	útočit na green	das Grün angreifen	going for the green	andare sul green	attaquer le green	atacar el green	атаковать грин
+g01244	zastavit se před překážkou	vor dem Hindernis ablegen	laying up short	fermarsi prima dell'ostacolo	jouer court devant l'obstacle	quedarse corto antes del obstáculo	остановиться перед препятствием
+g01245	přístřel na green	der Annäherungsschlag zum Grün	the approach to the green	l'avvicinamento al green	l'approche vers le green	el approach al green	подход к грину
+g01246	chip a putt	der Chip und Putt	the chip and putt	il chip e putt	le chip et putt	el chip y putt	чип и патт
+g01247	pitch a putt	der Pitch und Putt	the pitch and putt	il pitch e putt	le pitch et putt	el pitch y putt	питч и патт
+g01248	bump and run přístřel	der Bump-and-Run-Annäherungsschlag	the bump and run approach	l'avvicinamento bump and run	l'approche bump and run	el approach bump and run	подход бамп-энд-ран
+g01249	lob přes bunker	der Lob über den Bunker	the lob over the bunker	il lob sopra il bunker	le lob par-dessus le bunker	el lob sobre el bunker	лоб над бункером
+g01250	draw za roh	der Draw um die Ecke	the draw around the corner	il draw intorno all'angolo	le draw autour du coin	el draw alrededor de la esquina	дро за угол
+g01251	fade k vlajce	der Fade zur Fahne	the fade into the flag	il fade verso la bandiera	le fade vers le drapeau	el fade hacia la bandera	фейд к флагу
+g01252	vysoká měkká rána	der hohe weiche Schlag	the high soft shot	il colpo alto e morbido	le coup haut et doux	el golpe alto y suave	высокий мягкий удар
+g01253	nízká běžící rána	der flache rollende Schlag	the low running shot	il colpo basso rotolante	le coup bas roulant	el golpe bajo rodado	низкий катящийся удар
+g01254	záchranná rána	der Befreiungsschlag	the recovery shot	il colpo di recupero	le coup de récupération	el golpe de recuperación	удар восстановления
+g01255	úniková rána	der Fluchtschlag	the escape shot	il colpo di fuga	le coup d'évasion	el golpe de escape	удар для выхода
+g01256	punch shot	der Punch-Schlag	the punch shot	il punch shot	le punch shot	el punch shot	панч-шот
+g01257	hra ze stromů	aus den Bäumen spielen	playing from the trees	giocare tra gli alberi	jouer depuis les arbres	jugar desde los árboles	играть из-под деревьев
+g01258	hra z roughu	aus dem Rough spielen	playing from the rough	giocare dal rough	jouer depuis le rough	jugar desde el rough	играть из рафа
+g01259	hra z divotu	aus einem Divot spielen	playing from a divot	giocare da un divot	jouer depuis un divot	jugar desde un divot	играть из дивота
+g01260	hra z tvrdého povrchu	von hartem Boden spielen	playing from hardpan	giocare da terreno duro	jouer depuis un sol dur	jugar desde suelo duro	играть с твёрдого грунта
+g01261	hra z mokrého písku	aus nassem Sand spielen	playing from wet sand	giocare dalla sabbia bagnata	jouer depuis du sable mouillé	jugar desde arena mojada	играть из мокрого песка
+g01262	výbuchová rána (z bunkeru)	der Explosionsschlag	the explosion shot	il colpo esplosivo	le coup d'explosion	el golpe de explosión	взрывной удар
+g01263	zahrabaný míček v bunkeru	der eingegrabene Ball im Bunker	the buried lie in bunker	la pallina sepolta nel bunker	la balle enterrée dans le bunker	la bola enterrada en el bunker	зарытый мяч в бункере
+g01264	fried egg lie (hluboce zahrabaný)	die Spiegelei-Lage	the fried egg lie	la posizione uovo fritto	la balle en œuf au plat	la bola en huevo frito	лёжа «яичница»
+g01265	čistý výhoz z bunkeru	der saubere Bunkerschlag	the clean bunker shot	il colpo pulito dal bunker	le coup de bunker propre	la salida limpia del bunker	чистый выход из бункера
+g01266	splash shot (z bunkeru)	der Splash-Schlag	the splash shot	lo splash shot	le splash shot	el splash shot	сплэш-шот
+g01267	otevřít plochu	die Schlagfläche öffnen	open the face	aprire la faccia	ouvrir la face	abrir la cara	открыть face клюшки
+g01268	zavřít plochu	die Schlagfläche schließen	close the face	chiudere la faccia	fermer la face	cerrar la cara	закрыть face клюшки
+g01269	zamířit vlevo od cíle	links vom Ziel zielen	aim left of target	mirare a sinistra del bersaglio	viser à gauche de la cible	apuntar a la izquierda del objetivo	целиться левее цели
+g01270	zamířit vpravo od cíle	rechts vom Ziel zielen	aim right of target	mirare a destra del bersaglio	viser à droite de la cible	apuntar a la derecha del objetivo	целиться правее цели
+g01271	odhodlat se k ráně	sich zum Schlag entschließen	commit to the shot	impegnarsi nel colpo	s'engager dans le coup	comprometerse con el golpe	решиться на удар
+g01272	důvěřovat švihu	dem Schwung vertrauen	trust the swing	fidarsi dello swing	faire confiance au swing	confiar en el swing	доверять свингу
+g01273	hrát svou vlastní hru	sein eigenes Spiel spielen	play your own game	giocare il proprio gioco	jouer son propre jeu	jugar tu propio juego	играть в свою игру
+g01274	užívat si kolo	die Runde genießen	enjoy the round	godersi il giro	profiter du parcours	disfrutar de la vuelta	наслаждаться раундом
+g01275	tradice 19. jamky	die Tradition des 19. Lochs	the 19th hole tradition	la tradizione della 19ª buca	la tradition du 19e trou	la tradición del hoyo 19	традиция 19-й лунки
+g01276	podepsat kartu	die Karte unterschreiben	sign the card	firmare la scheda	signer la carte	firmar la tarjeta	подписать карточку
+g01277	zaznamenat skóre	das Ergebnis eintragen	record the score	registrare il punteggio	inscrire le score	anotar el resultado	записать счёт
+g01278	potvrdit kartu	die Karte bestätigen	attest the card	attestare la scheda	attester la carte	certificar la tarjeta	заверить карточку
+g01279	marker / potvrzovatel	der Marker	the marker	il marker	le marqueur	el marcador	маркер
+g01280	herní společník	der Mitspieler	the playing companion	il compagno di gioco	le partenaire de jeu	el compañero de juego	партнёр по игре
+g01281	sportovní duch / chování	die Sportlichkeit / das Verhalten	good sportsmanship	lo spirito sportivo	l'esprit sportif	el espíritu deportivo	спортивное поведение
+g01282	respektovat hřiště	den Platz respektieren	respect the course	rispettare il campo	respecter le parcours	respetar el campo	уважать поле
+g01283	pečovat o hřiště	den Platz pflegen	care for the course	prendersi cura del campo	prendre soin du parcours	cuidar el campo	заботиться о поле
+g01284	nahradit divoty	Divots zurücklegen	replace divots	rimettere i divot	replacer les divots	reponer los divots	класть дёрн на место
+g01285	opravit pitch marky	Pitchmarken ausbessern	fix pitch marks	riparare i segni di pitch	réparer les pitchs	reparar las marcas de pitch	исправлять следы от мяча
+g01286	zahrabat bunkery	Bunker harken	rake bunkers	rastrellare i bunker	ratisser les bunkers	rastrillar los búnkeres	разравнивать бункеры
+g01287	udržovat hřiště v pořádku	den Platz in Ordnung halten	keep the course tidy	tenere il campo in ordine	garder le parcours en ordre	mantener el campo en orden	поддерживать поле в порядке
+g01288	nezanechat stopu	keine Spuren hinterlassen	leave no trace	non lasciare traccia	ne laisser aucune trace	no dejar rastro	не оставлять следов
+g01289	procházka parkem (přen.)	der Spaziergang im Park	the walk in the park	la passeggiata nel parco	la promenade de santé	un paseo por el parque	прогулка по парку
+g01290	čerstvý vzduch	die frische Luft	the fresh air	l'aria fresca	l'air frais	el aire fresco	свежий воздух
+g01291	společenský aspekt	der soziale Aspekt	the social aspect	l'aspetto sociale	l'aspect social	el aspecto social	социальный аспект
+g01292	poznávat nové přátele	neue Freunde finden	making new friends	fare nuove amicizie	se faire de nouveaux amis	hacer nuevos amigos	заводить новых друзей
+g01293	golfová komunita	die Golfgemeinschaft	the golf community	la comunità del golf	la communauté du golf	la comunidad del golf	гольф-сообщество
+g01294	krátká hra	das kurze Spiel	the short game	il gioco corto	le petit jeu	el juego corto	короткая игра
+g01295	dlouhá hra	das lange Spiel	the long game	il gioco lungo	le grand jeu	el juego largo	длинная игра
+g01296	přiblížení	der Annäherungsschlag	the approach	l'avvicinamento	l'approche	el approach	подходящий удар
+g01297	bod kontaktu	der Kontaktpunkt	the contact point	il punto di contatto	le point de contact	el punto de contacto	точка контакта
+g01298	údržba holí	die Schlägerpflege	club maintenance	la manutenzione dei bastoni	l'entretien des clubs	el mantenimiento de los palos	уход за клюшками
+g01299	výměna gripů	der Griffwechsel	regripping	la sostituzione delle impugnature	le changement de grips	el cambio de grips	замена грипов
+g01300	přivyknout hřišti	sich an den Platz gewöhnen	getting used to the course	abituarsi al campo	s'habituer au parcours	acostumbrarse al campo	привыкнуть к полю
+g01301	cvičný švih	der Probeschwung	the practice swing	lo swing di pratica	le swing d'essai	el swing de práctica	пробный замах
+g01302	udělat cvičný švih	einen Probeschwung machen	take a practice swing	fare uno swing di pratica	faire un swing d'essai	hacer un swing de práctica	сделать пробный замах
+g01303	adresovat míček	den Ball ansprechen	addressing the ball	indirizzare la pallina	se placer face à la balle	encarar la bola	встать к мячу
+g01304	přistoupit k míčku	an den Ball treten	stepping up to the ball	avvicinarsi alla pallina	s'approcher de la balle	acercarse a la bola	подойти к мячу
+g01305	zaujmout postoj	den Stand einnehmen	taking your stance	assumere la posizione	prendre son stance	adoptar la postura	занять стойку
+g01306	waggle (rozhýbání před ránou)	das Waggle	the waggle	il waggle	le waggle	el waggle	вэгл
+g01307	forward press	der Forward Press	the forward press	il forward press	le forward press	el forward press	форвард пресс
+g01308	spustit švih	den Schwung auslösen	trigger the swing	avviare lo swing	déclencher le swing	iniciar el swing	запустить свинг
+g01309	spouštěč švihu	der Schwungauslöser	the swing trigger	il trigger dello swing	le déclencheur du swing	el disparador del swing	триггер свинга
+g01310	tahavý pohyb	die Zugbewegung	the pulling motion	il movimento di trazione	le mouvement de traction	el movimiento de tracción	тянущее движение
+g01311	tlačivý pohyb	die Druckbewegung	the pushing motion	il movimento di spinta	le mouvement de poussée	el movimiento de empuje	толкающее движение
+g01312	propojený švih	der verbundene Schwung	the connected swing	lo swing connesso	le swing connecté	el swing conectado	связанный свинг
+g01313	jednocelistvý backswing	der einteilige Rückschwung	the one-piece takeaway	il takeaway in un pezzo	le takeaway en un bloc	el takeaway en una pieza	цельный замах
+g01314	udržet jednoduchost	es einfach halten	keeping it simple	mantenere la semplicità	rester simple	mantenerlo simple	сохранять простоту
+g01315	základy / fundamentaly	die Grundlagen	the fundamentals	i fondamentali	les fondamentaux	los fundamentos	основы
+g01316	návrat k základům	zurück zu den Grundlagen	back to basics	tornare alle basi	retour aux bases	volver a lo básico	возврат к основам
+g01317	věřit procesu	dem Prozess vertrauen	trust the process	fidarsi del processo	faire confiance au processus	confiar en el proceso	доверять процессу
+g01318	hráč na pocit	der Gefühlsspieler	the feel player	il giocatore di feel	le joueur au feeling	el jugador de sensaciones	игрок на ощущениях
+g01319	technický hráč	der technische Spieler	the technical player	il giocatore tecnico	le joueur technique	el jugador técnico	технический игрок
+g01320	hrát podle pocitu	nach Gefühl spielen	playing by feel	giocare a sensazione	jouer au feeling	jugar por sensaciones	играть по ощущениям
+g01321	smyčka zpětné vazby	die Feedbackschleife	the feedback loop	il circolo di feedback	la boucle de rétroaction	el bucle de retroalimentación	петля обратной связи
+g01322	učit se hru	das Spiel lernen	learning the game	imparare il gioco	apprendre le jeu	aprender el juego	учиться игре
+g01323	golfová cesta / putování	die Golfreise	the golf journey	il viaggio nel golf	le parcours de golf	el camino del golf	гольф-путешествие
+g01324	cesta zlepšování	der Verbesserungsweg	the improvement journey	il percorso di miglioramento	le parcours d'amélioration	el camino de mejora	путь совершенствования
+g01325	golf je životní dovednost	Golf ist eine Lebenskompetenz	the golf is a life skill	il golf è un'abilità per la vita	le golf est une compétence de vie	el golf es una habilidad para la vida	гольф - жизненный навык
+g01326	sdílet hru	das Spiel teilen	sharing the game	condividere il gioco	partager le jeu	compartir el juego	делиться игрой
+g01327	láska ke hře	die Liebe zum Spiel	the love of the game	l'amore per il gioco	l'amour du jeu	el amor por el juego	любовь к игре
+g01328	abnormální podmínky (APC)	abnorme Platzverhältnisse	abnormal course conditions	le condizioni anomale del campo	les conditions anormales du parcours	las condiciones anormales del campo	ненормальные условия поля
+g01329	dropovat do dvou délek	innerhalb von zwei Schlägerlängen droppen	drop within two club lengths	droppare entro due misure di bastone	dropper à deux longueurs de club	dropar a dos palos de distancia	дропать в пределах двух длин клюшки
+g01330	referenční bod	der Referenzpunkt	the reference point	il punto di riferimento	le point de référence	el punto de referencia	опорная точка
+g01331	oblast úlevy	die Erleichterungszone	the relief area	l'area di sollievo	la zone de dégagement	el área de alivio	зона снятия штрафа
+g01332	rána a vzdálenost (trest)	Schlag und Distanz	stroke and distance	colpo e distanza	coup et distance	golpe y distancia	удар и расстояние
+g01333	úleva zpět na linii	die Erleichterung rückwärts auf der Linie	back on the line relief	il sollievo all'indietro sulla linea	le dégagement en arrière sur la ligne	el alivio hacia atrás en línea	снятие назад по линии
+g01334	možnosti trestné oblasti	die Optionen im Strafbereich	penalty area options	le opzioni dell'area di penalità	les options de la zone de pénalité	las opciones del área de penalización	варианты штрафной зоны
+g01335	vzít boční úlevu	seitliche Erleichterung nehmen	taking lateral relief	prendere il sollievo laterale	prendre un dégagement latéral	tomar alivio lateral	взять боковое снятие
+g01336	hrát odkud míček naposledy přešel	von dort spielen, wo der Ball zuletzt kreuzte	playing from where the ball last crossed	giocare da dove la pallina ha attraversato	jouer d'où la balle a franchi	jugar desde donde la bola cruzó	играть с места последнего пересечения
+g01337	výbor / komise	das Komitee	the committee	il comitato	le comité	el comité	комитет
+g01338	rozhodnutí / verdikt	die Regelentscheidung	a ruling	la decisione	la décision	la decisión	решение
+g01339	souhlasit s pravidly	die Regeln vereinbaren	agree the rules	concordare le regole	convenir des règles	acordar las reglas	согласовать правила
+g01340	hrát v duchu hry	im Geist des Spiels spielen	playing in the spirit of the game	giocare nello spirito del gioco	jouer dans l'esprit du jeu	jugar con el espíritu del juego	играть в духе игры
+g01341	integrita hry	die Integrität des Spiels	the integrity of the game	l'integrità del gioco	l'intégrité du jeu	la integridad del juego	целостность игры
+g01342	čestnost v golfu	die Ehrlichkeit im Golf	honesty in golf	l'onestà nel golf	l'honnêteté au golf	la honestidad en el golf	честность в гольфе
+g01343	seberegulace	die Selbstregulierung	self-regulation	l'autoregolamentazione	l'autorégulation	la autorregulación	саморегулирование
+g01344	systém cti	das Ehrensystem	the honour system	il sistema dell'onore	le système d'honneur	el sistema de honor	система чести
+g01345	hraj to tak jak to leží	Spiele den Ball, wie er liegt	play it as it lies	gioca la pallina come si trova	jouez la balle comme elle repose	juega la bola como esté	играй мяч как он лежит
+g01346	hraj hřiště jak ho najdeš	Spiele den Platz, wie du ihn vorfindest	play the course as you find it	gioca il campo come lo trovi	jouez le parcours comme vous le trouvez	juega el campo como lo encuentres	играй поле как оно есть
+g01347	nezlepšuj své lie	Verbessere deine Lage nicht	don't improve your lie	non migliorare il tuo lie	n'améliorez pas votre lie	no mejores tu lie	не улучшай свой лай
+g01348	nezlepšuj herní linii	Verbessere deine Spiellinie nicht	don't improve your line of play	non migliorare la linea di gioco	n'améliorez pas votre ligne de jeu	no mejores tu línea de juego	не улучшай линию игры
+g01349	základní principy golfu	die Grundprinzipien des Golfs	the basic principles of golf	i principi fondamentali del golf	les principes de base du golf	los principios básicos del golf	основные принципы гольфа
+g01350	historie golfu	die Geschichte des Golfs	the history of golf	la storia del golf	l'histoire du golf	la historia del golf	история гольфа
+g01351	původ golfu	der Ursprung des Golfs	the origins of golf	le origini del golf	les origines du golf	los orígenes del golf	происхождение гольфа
+g01352	golf ve Skotsku	Golf in Schottland	golf in Scotland	il golf in Scozia	le golf en Écosse	el golf en Escocia	гольф в Шотландии
+g01353	golf v Anglii	Golf in England	golf in England	il golf in Inghilterra	le golf en Angleterre	el golf en Inglaterra	гольф в Англии
+g01354	USGA (United States Golf Association)	die USGA	the USGA	la USGA	l'USGA	la USGA	USGA
+g01355	pravidlová kniha	das Regelbuch	the rules book	il libro delle regole	le livre des règles	el libro de reglas	книга правил
+g01356	rozhodnutí k pravidlům	die Regelentscheidungen	the decisions on the rules	le decisioni sulle regole	les décisions sur les règles	las decisiones sobre las reglas	решения по правилам
+g01357	duch hry	der Geist des Spiels	the spirit of the game	lo spirito del gioco	l'esprit du jeu	el espíritu del juego	дух игры
+g01358	definice	die Definition	the definition	la definizione	la définition	la definición	определение
+g01359	úder (definice v pravidlech)	der Schlag (Regeldefinition)	the stroke	il colpo (definizione regole)	le coup (définition des règles)	el golpe (definición de reglas)	удар (определение правил)
+g01360	míček ve hře	der Ball im Spiel	the ball in play	la pallina in gioco	la balle en jeu	la bola en juego	мяч в игре
+g01361	oblast odpaliště	der Abschlagsbereich	the teeing area	l'area di partenza	la zone de départ	el área de salida	зона стартовой площадки
+g01362	obecná oblast	das allgemeine Spielfeld	the general area	l'area generale	la zone générale	el área general	общая зона
+g01363	putting green	das Putting Green	the putting green	il putting green	le green	el putting green	грин
+g01364	trestná oblast	das Strafgebiet	the penalty area	l'area di penalità	la zone à pénalité	el área de penalización	штрафная зона
+g01365	bunker (dle pravidel)	der Bunker (Regeln)	bunker	il bunker (definizione regole)	le bunker (règles)	el bunker (reglas)	бункер (правила)
+g01366	pin / tyčka (dle pravidel)	die Flagge / der Flaggenstock	the flagstick	l'asta della bandiera	le drapeau / le piquet	la bandera / el asta	флагшток
+g01367	pravidla vybavení	die Ausrüstungsregeln	the equipment rules	le regole sull'attrezzatura	les règles sur l'équipement	las reglas de equipamiento	правила об экипировке
+g01368	maximum 14 holí	maximal 14 Schläger	the maximum 14 clubs	il massimo di 14 bastoni	maximum 14 clubs	máximo 14 palos	максимум 14 клюшек
+g01369	přidávání holí během kola	Schläger während der Runde hinzufügen	adding clubs during a round	aggiungere bastoni durante il giro	ajouter des clubs pendant le tour	añadir palos durante la vuelta	добавлять клюшки во время раунда
+g01370	skóre (dle pravidel)	das Ergebnis (Regeln)	the score	il punteggio (definizione regole)	le score (règles)	el resultado (reglas)	счёт (правила)
+g01371	marker (skórkarta)	der Zähler (Scorekarte)	the marker (scorecard)	il marker (scheda)	le marqueur (carte de score)	el marcador (tarjeta)	маркер (скоркарта)
+g01372	spoluhráč	der Mitspieler	the fellow competitor	il compagno di competizione	le partenaire de jeu	el compañero de competición	партнёр по игре
+g01373	soupeř (matchplay)	der Gegner	the opponent	l'avversario	l'adversaire	el oponente	соперник
+g01374	pravidla pro caddieho	die Caddie-Regeln	the caddie rules	le regole per il caddie	les règles pour le caddie	las reglas para el caddie	правила для кедди
+g01375	rada (dle pravidel)	der Rat (Regeln)	advice	il consiglio (definizione regole)	le conseil (règles)	el consejo (reglas)	совет (правила)
+g01376	žádat o radu	um Rat fragen	asking for advice	chiedere un consiglio	demander conseil	pedir consejo	просить совета
+g01377	dávat radu	Rat geben	giving advice	dare un consiglio	donner un conseil	dar un consejo	давать совет
+g01378	linie puttu (dle pravidel)	die Puttlinie (Regeln)	the line of putt	la linea del putt (regole)	la ligne de putt (règles)	la línea de putt (reglas)	линия патта (правила)
+g01379	stát na linii puttu	auf der Puttlinie stehen	standing astride the line	stare a cavallo della linea	se tenir à cheval sur la ligne	pararse sobre la línea	стоять на линии патта
+g01380	odpaliště / tee	der Abschlag / das Tee	the tee	il tee	le départ / le tee	el tee / la salida	тee / стартовая площадка
+g01381	odpal / start	der Abschlag / der Start	the tee shot / the start	la partenza	le départ	la salida	старт / первый удар
+g01382	písečná překážka	das Sandhindernis	the sand trap	la trappola di sabbia	le piège de sable	la trampa de arena	песчаная ловушка
+g01383	hole / klub	der Schläger	the club	il bastone	le club	el palo	клюшка
+g01384	tee (kolíček)	das Tee (Stift)	the tee (peg)	il tee (piolo)	le tee (cheville)	el tee (soporte)	ти (колышек)
+g01385	zapíchnout	einlochen	to hole out	imbucare	rentrer le putt	embocar	загнать в лунку
+g01386	zarovnání	die Ausrichtung	the alignment	l'allineamento	l'alignement	la alineación	выравнивание
+g01387	tučná rána (fat shot)	der fette Schlag	the fat shot	un colpo grasso	le coup gras	el golpe gordo	жирный удар
+g01388	tenká rána (thin)	der dünne Schlag	the thin shot	un colpo sottile	le coup maigre	el golpe fino	тонкий удар
+g01389	bílá kolíčka (OB)	weiße Pfosten (Aus)	white stakes (OB)	paletti bianchi	piquets blancs (hors limites)	estacas blancas (fuera de límites)	белые колышки (аут)
+g01390	Skvělá rána!	Toller Schlag!	Great shot!	Ottimo colpo!	Beau coup !	¡Gran golpe!	Отличный удар!
+g01391	Fantastické!	Fantastisch!	Fantastic!	Fantastico!	Fantastique !	¡Fantástico!	Фантастика!
+g01392	Skvěle!	Bravo!	Well done!	Bravo!	Bravo !	¡Bravo!	Браво!
+g01393	strokeplay	das Zählspiel	stroke play	lo strokeplay	le stroke play	el juego por golpes	страйк-плей
+g01394	výsledková tabule / pořadí	die Rangliste	the leaderboard	la classifica	le classement	la clasificación	таблица результатов
+g01395	členství / předplatné	die Mitgliedschaft	the membership	l'abbonamento	l'abonnement	la suscripción	членство
+g01396	mluvíte italsky?	Sprechen Sie Italienisch?	Do you speak Italian?	Parla italiano?	Parlez-vous italien ?	¿Habla italiano?	Вы говорите по-итальянски?
+g01397	mluvím trochu italsky	Ich spreche ein bisschen Italienisch	I speak a little Italian	Parlo un po' di italiano	Je parle un peu italien	Hablo un poco de italiano	Я немного говорю по-итальянски
+g01398	nemluvím italsky	Ich spreche kein Italienisch	I don't speak Italian	Non parlo italiano	Je ne parle pas italien	No hablo italiano	Я не говорю по-итальянски
+g01399	do kopce / nahoru	bergauf	uphill	in alto	en montée	cuesta arriba	в гору
+g01400	z kopce / dolů	bergab	downhill	in discesa	en descente	cuesta abajo	под гору
+g01401	potřebujete pomoc?	Brauchen Sie Hilfe?	Do you need help?	Ha bisogno di aiuto?	Avez-vous besoin d'aide ?	¿Necesita ayuda?	Вам нужна помощь?
+g01402	jsem v pořádku, díky	Mir geht es gut, danke	I'm fine, thanks	Sto bene grazie	Ça va, merci	Estoy bien, gracias	Я в порядке, спасибо
+g01403	kde je první pomoc?	Wo ist die Erste Hilfe?	Where is first aid?	Dov'è il pronto soccorso?	Où est le poste de premiers secours ?	¿Dónde están los primeros auxilios?	Где первая помощь?
+g01404	komprese (míčku	die Kompression	the compression	la compressione	la compression	la compresión	компрессия
+g01405	sand save %	Sand-Save-Quote	sand save percentage	percentuale di salvataggio dalla sabbia	pourcentage de sauvetage du bunker	porcentaje de salvadas de bunker	процент сэйвов из бункера
+g01406	zrno trávy	die Grasmaserung	the grain	il grain	le grain	el grano de la hierba	направление роста травы
+g01407	vysoká rána	der hohe Schlag	the high shot	il colpo alto	le coup haut	el golpe alto	высокий удар
+g01408	nízká rána	der flache Schlag	the low shot	il colpo basso	le coup bas	el golpe bajo	низкий удар
+g01409	punch shot (nízká rána do větru)	der Punchschlag	the punch shot	il colpo punch	le coup punch	el golpe punch	панч-удар
+g01410	kreativní rána	der kreative Schlag	the creative shot	il colpo creativo	le coup créatif	el golpe creativo	креативный удар
+g01411	riskovat	Risiko eingehen	take a risk	prendere il rischio	prendre un risque	arriesgar	рисковать
+g01412	strategie	die Strategie	the strategy	la strategia	la stratégie	la estrategia	стратегия
+g01413	řídit hru na hřišti	den Platz managen	manage the course	gestire il campo	gérer le parcours	gestionar el campo	управлять игрой на поле
+g01414	zvládat emoce	Emotionen kontrollieren	manage emotions	gestire le emozioni	gérer ses émotions	controlar las emociones	управлять эмоциями
+g01415	zůstat soustředěný	konzentriert bleiben	stay focused	rimanere concentrato	rester concentré	mantenerse concentrado	оставаться сосредоточенным
+g01416	mentalita	die Mentalität	the mentality	la mentalità	la mentalité	la mentalidad	менталитет
+g01417	sebedůvěra	das Selbstvertrauen	the confidence	la fiducia	la confiance en soi	la confianza	уверенность
+g01418	rutina	die Routine	the routine	la routine	la routine	la rutina	рутина
+g01419	příprava na ránu	die Schlagvorbereitung	the pre-shot routine	il pre-shot	la préparation du coup	la preparación del golpe	подготовка к удару
+g01420	vizualizovat ránu	den Schlag visualisieren	visualize the shot	visualizzare il colpo	visualiser le coup	visualizar el golpe	визуализировать удар
+g01421	odhodlat se / zavázat se	sich festlegen	commit	impegnarsi	s'engager	comprometerse	решиться
+g01422	akce po ráně	die Aktion nach dem Schlag	the post-shot routine	il disfatto dopo il colpo	la routine après le coup	la acción después del golpe	действия после удара
+g01423	přijmout výsledek	das Ergebnis akzeptieren	accept the result	accettare il risultato	accepter le résultat	aceptar el resultado	принять результат
+g01424	učit se z chyb	aus Fehlern lernen	learn from mistakes	imparare dagli errori	apprendre de ses erreurs	aprender de los errores	учиться на ошибках
+g01425	zůstat pozitivní	positiv bleiben	stay positive	rimanere positivo	rester positif	mantenerse positivo	оставаться позитивным
+g01426	respekt k ostatním hráčům	der Respekt vor anderen Spielern	respect for other players	il rispetto per gli altri giocatori	le respect des autres joueurs	el respeto a los demás jugadores	уважение к другим игрокам
+g01427	pomáhat hledat míček	beim Ballsuchen helfen	help look for the ball	aiutare a cercare la pallina	aider à chercher la balle	ayudar a buscar la bola	помогать искать мяч
+g01428	tleskat dobrým ranám	gute Schläge applaudieren	applaud good shots	applaudire i buoni colpi	applaudir les bons coups	aplaudir los buenos golpes	аплодировать хорошим ударам
+g01429	fair play v golfu	das Fairplay im Golf	fair play in golf	il fair play nel golf	le fair-play au golf	el juego limpio en el golf	фейр-плей в гольфе
+g01430	sportovní chování	das sportliche Verhalten	sportsmanship	la sportività	l'esprit sportif	la deportividad	спортивное поведение
+g01431	správně zaznamenat skóre	Score korrekt eintragen	record the score correctly	segnare correttamente	noter correctement le score	anotar bien la tarjeta	правильно записать счёт
+g01432	integrita v golfu	die Integrität im Golf	integrity in golf	l'integrità nel golf	l'intégrité au golf	la integridad en el golf	честность в гольфе
+g01433	odpovědnost hráče	die Verantwortung des Spielers	the player's responsibility	la responsabilità del giocatore	la responsabilité du joueur	la responsabilidad del jugador	ответственность игрока
+g01434	potěšení z golfu	die Freude am Golf	the enjoyment of golf	il piacere del golf	le plaisir du golf	el placer del golf	удовольствие от гольфа
+g01435	golf jako životní styl	Golf als Lebensstil	golf as a lifestyle	il golf come stile di vita	le golf comme mode de vie	el golf como estilo de vida	гольф как образ жизни
+g01436	twilight golf	das Twilight-Golf	twilight golf	il golf al tramonto	le golf au crépuscule	el golf al atardecer	сумеречный гольф
+g01437	golfová sukně	der Golfrock	the golf skirt	la gonna da golf	la jupe de golf	la falda de golf	юбка для гольфа
+g01438	skórovací zóna	die Scoring-Zone	the scoring zone	la zona di scoring	la zone de scoring	la zona de scoring	скоринговая зона
+g01439	nadýchané lie	der weiche Lie	the fluffy lie	il lie soffice	le lie moelleux	el lie esponjoso	пышное лай
+g01440	boční lie	der seitliche Lie	the sidehill lie	il lie laterale	le lie latéral	el lie lateral	боковой лай
+g01441	bezpečná oblast	der sichere Bereich	the safe area	l'area di sicurezza	la zone de sécurité	la zona segura	безопасная зона
+g01442	nejbezpečnější rána	der sicherste Schlag	the percentage shot	il colpo percentuale	le coup le plus sûr	el golpe más seguro	самый безопасный удар
+g01443	splash shot	der Splash-Schlag	the splash shot	il colpo splash	le coup splash	el golpe splash	сплэш-удар
+g01444	sportovní duch	der sportliche Geist	sportsmanship	lo spirito sportivo	l'esprit sportif	el espíritu deportivo	спортивный дух
+g01445	golf jako vášeň	Golf als Leidenschaft	golf as a passion	il golf come passione	le golf comme passion	el golf como pasión	гольф как страсть
+g01446	golf na celý život	Golf fürs ganze Leben	golf for life	il golf per tutta la vita	le golf pour toute la vie	el golf para toda la vida	гольф на всю жизнь
+g01447	waggle	der Waggle	the waggle	il waggle	le waggle	el waggle	вагл
+g01448	základy	die Grundlagen	the fundamentals	i fondamentali	les fondamentaux	los fundamentos	основы
+g01449	rozhodnutí	die Entscheidung	a decision	una decisione	une décision	una decisión	решение
+g01450	golf v Itálii	Golf in Italien	golf in Italy	il golf in Italia	le golf en Italie	el golf en Italia	гольф в Италии
+g01451	profesionální golf	das Profigolf	professional golf	il golf professionistico	le golf professionnel	el golf profesional	профессиональный гольф
+g01452	amatérský golf	das Amateurgolf	amateur golf	il golf amatoriale	le golf amateur	el golf amateur	любительский гольф
+g01453	juniorský golf	das Juniorengolf	junior golf	il golf giovanile	le golf junior	el golf juvenil	юниорский гольф
+g01454	seniorský golf	das Seniorengolf	senior golf	il golf senior	le golf senior	el golf sénior	сеньорский гольф
+g01455	dámský golf	das Damengolf	women's golf	il golf femminile	le golf féminin	el golf femenino	женский гольф
+g01456	golf pro tělesně postižené	Golf für Menschen mit Behinderung	golf for disabled players	il golf disabili	le golf handisport	el golf para discapacitados	гольф для инвалидов
+g01457	adaptivní golf	das adaptive Golf	adaptive golf	il golf adaptivo	le golf adapté	el golf adaptado	адаптивный гольф
+g01458	golf je pro každého	Golf ist für alle da	golf is for everyone	il golf è per tutti	le golf est pour tous	el golf es para todos	гольф для всех
+g01459	R&A	der R&A	the R&A	il Royal and Ancient (R&A)	le R&A	el R&A	R&A
+g01460	USGA	die USGA	the USGA	l'USGA	l'USGA	la USGA	USGA
+g01461	pin (dle pravidel)	die Flaggenstange (Regeldefinition)	the flagstick (rules definition)	la bandierina (definizione regole)	le drapeau (définition règles)	la bandera (definición reglas)	флагшток (определение правил)
+g01462	golf pro začátečníky	Golf für Anfänger	golf for beginners	il golf per principianti	le golf pour débutants	el golf para principiantes	гольф для начинающих
+g01463	golf pro pokročilé	Golf für Fortgeschrittene	golf for advanced players	il golf per avanzati / il golf per giocatori avanzati	le golf pour avancés	el golf para avanzados	гольф для продвинутых
+g01464	golfové lekce	die Golfstunden	golf lessons	le lezioni di golf	les cours de golf	las clases de golf	уроки гольфа
+g01465	golf v zimě	Golf im Winter	golf in winter	il golf in inverno	le golf en hiver	el golf en invierno	гольф зимой
+g01466	golf v létě	Golf im Sommer	golf in summer	il golf in estate	le golf en été	el golf en verano	гольф летом
+g01467	noční kolo (s nočními míčky)	die Nachtrunde	the night round	il giro notturno	le tour de nuit	la vuelta nocturna	ночной раунд
+g01468	amatérský turnaj	das Amateurturnier	the amateur tournament	il torneo amateur	le tournoi amateur	el torneo amateur	любительский турнир
+g01469	místní turnaj	das lokale Turnier	the local tournament	il torneo locale	le tournoi local	el torneo local	местный турнир
+g01470	regionální turnaj	das regionale Turnier	the regional tournament	il torneo regionale	le tournoi régional	el torneo regional	региональный турнир
+g01471	národní turnaj	das nationale Turnier	the national tournament	il torneo nazionale	le tournoi national	el torneo nacional	национальный турнир
+g01472	golfová federace	der Golfverband	the golf federation	la federazione golf	la fédération de golf	la federación de golf	федерация гольфа
+g01473	italská golfová federace	der italienische Golfverband	the Italian golf federation	la federazione italiana golf	la fédération italienne de golf	la federación italiana de golf	итальянская федерация гольфа
+g01474	golfový klub / oddíl	der Golfclub	the golf club	il circolo golf	le club de golf	el club de golf	гольф-клуб
+g01475	výbor klubu	der Clubvorstand	the club committee	il comitato del club	le comité du club	la junta del club	комитет клуба
+g01476	schůze klubu	die Clubversammlung	the club meeting	la riunione del club	la réunion du club	la reunión del club	собрание клуба
+g01477	členské příspěvky	die Mitgliedsbeiträge	membership fees	le quote associative	les cotisations	las cuotas de socio	членские взносы
+g01478	registrace / přihláška	die Anmeldung	registration	il tesseramento	l'inscription	la inscripción	регистрация
+g01479	lékařský posudek	das ärztliche Attest	the medical certificate	il certificato medico	le certificat médical	el certificado médico	медицинская справка
+g01480	pojistka / pojistná smlouva	die Versicherungspolice	the insurance policy	la polizza assicurativa	la police d'assurance	la póliza de seguro	страховой полис
+g01481	odpovědnost za škodu	die Haftpflicht	liability	la responsabilità civile	la responsabilité civile	la responsabilidad civil	гражданская ответственность
+g01482	veřejné hřiště	der öffentliche Golfplatz	the public course	il campo pubblico	le parcours public	el campo público	общедоступное поле
+g01483	soukromé hřiště	der private Golfplatz	the private course	il campo privato	le parcours privé	el campo privado	частное поле
+g01484	obecní hřiště	der kommunale Golfplatz	the municipal course	il campo municipale	le parcours municipal	el campo municipal	муниципальное поле
+g01485	links hřiště (u moře)	der Linksplatz	the links course	il campo links	le parcours links	el campo de links	линкс
+g01486	parkové hřiště	der Parklandplatz	the parkland course	il campo parkland	le parcours de type parkland	el campo parkland	парковое поле
+g01487	horské hřiště	der Bergplatz	the mountain course	il campo di montagna	le parcours de montagne	el campo de montaña	горное поле
+g01488	kopečkové hřiště	der Hügelplatz	the hilly course	il campo di collina	le parcours vallonné	el campo de colinas	холмистое поле
+g01489	hřiště u jezera	der Golfplatz am See	the lakeside course	il campo di lago	le parcours au bord du lac	el campo junto al lago	поле у озера
+g01490	přímořské hřiště	der Küstenplatz	the coastal course	il campo di mare	le parcours en bord de mer	el campo costero	прибрежное поле
+g01491	resort hřiště	der Resortplatz	the resort course	il campo di resort	le parcours de resort	el campo de resort	курортное поле
+g01492	9-jamkové hřiště	der 9-Loch-Platz	the 9-hole course	il campo a 9 buche	le parcours de 9 trous	el campo de 9 hoyos	9-луночное поле
+g01493	18-jamkové hřiště	der 18-Loch-Platz	the 18-hole course	il campo a 18 buche	le parcours de 18 trous	el campo de 18 hoyos	18-луночное поле
+g01494	27-jamkové hřiště	der 27-Loch-Platz	the 27-hole course	il campo a 27 buche	le parcours de 27 trous	el campo de 27 hoyos	27-луночное поле
+g01495	36-jamkové hřiště	der 36-Loch-Platz	the 36-hole course	il campo a 36 buche	le parcours de 36 trous	el campo de 36 hoyos	36-луночное поле
+g01496	poloroh / semirought	das Semirough	the semi-rough	il semirought	le semi-rough	el semirough	семи-рафф
+g01497	čekací zóna	die Wartezone	the waiting area	la zona di attesa	la zone d'attente	la zona de espera	зона ожидания
+g01498	označení hřiště	die Platzmarkierung	the course markings	la segnaletica del campo	le balisage du parcours	la señalización del campo	разметка поля
+g01499	místní instrukce	die Platzregeln	the local rules	le istruzioni locali	les règles locales	las reglas locales	местные правила
+g01500	slope koeficient	der Slope-Wert	the slope rating	il coefficiente di slope	le coefficient de slope	el coeficiente de slope	коэффициент слоуп
+g01501	par hřiště	das Platzpar	the course par	il par del campo	le par du parcours	el par del campo	пар поля
+g01502	celková délka	die Gesamtlänge	the total length	la lunghezza totale	la longueur totale	la longitud total	общая длина
+g01503	z championship odpaliště	vom Meisterschaftsabschlag	from the championship tees	da campionato	depuis les départs championnat	desde las salidas de campeonato	с чемпионских ти
+g01504	championship odpaliště	der Meisterschaftsabschlag	the championship tee	il tee di campionato	le départ championnat	la salida de campeonato	чемпионское ти
+g01505	hrát zezadu	von hinten spielen	play from the back	giocare da dietro	jouer de l'arrière	jugar desde atrás	играть с дальних ти
+g01506	hrát zepředu	von vorne spielen	play from the front	giocare da davanti	jouer de l'avant	jugar desde adelante	играть с ближних ти
+g01507	vybrat správné odpaliště	den richtigen Abschlag wählen	choose the right tees	scegliere i tee giusti	choisir le bon départ	elegir la salida correcta	выбрать правильные ти
+g01508	hrát na své úrovni	auf dem eigenen Niveau spielen	play at your level	giocare al proprio livello	jouer à son niveau	jugar a tu nivel	играть на своём уровне
+g01509	nestydět se za přední tee	sich nicht für vordere Abschläge schämen	not be ashamed of forward tees	non vergognarsi di tee avanzati	ne pas avoir honte des départs avancés	no avergonzarse de las salidas adelantadas	не стыдиться передних ти
+g01510	bavit se na hřišti	Spaß auf dem Platz haben	have fun on the course	divertirsi sul campo	s'amuser sur le parcours	divertirse en el campo	веселиться на поле
+g01511	respektovat všechny hráče	alle Spieler respektieren	respect all players	rispettare tutti i giocatori	respecter tous les joueurs	respetar a todos los jugadores	уважать всех игроков
+g01512	časový management	das Zeitmanagement	time management	la gestione del tempo	la gestion du temps	la gestión del tiempo	управление временем
+g01513	přijít dopředu	früher ankommen	arrive early	arrivare in anticipo	arriver en avance	llegar con antelación	прийти заранее
+g01514	zahřátí před hrou	das Aufwärmen vor dem Spiel	warming up before play	il riscaldamento prima della partita	l'échauffement avant le jeu	el calentamiento antes del juego	разминка перед игрой
+g01515	přihlásit se na recepci	sich an der Rezeption anmelden	check in at reception	registrarsi alla reception	s'enregistrer à la réception	registrarse en recepción	зарегистрироваться на ресепшене
+g01516	zaplatit greenfee	das Greenfee bezahlen	pay the green fee	pagare il green fee	payer le green fee	pagar el green fee	оплатить грин-фи
+g01517	dostat scorekartu	die Scorekarte bekommen	get the scorecard	ricevere la scheda del percorso	recevoir la carte de score	recibir la tarjeta de resultados	получить скоркарту
+g01518	najít spoluhráče	Mitspieler finden	find playing partners	trovare i propri compagni	trouver des partenaires de jeu	encontrar compañeros de juego	найти партнёров по игре
+g01519	první jamka je volná	das erste Loch ist frei	the first hole is free	la prima buca è libera	le premier trou est libre	el primer hoyo está libre	первая лунка свободна
+g01520	odcházíme / startujeme	wir gehen los / starten	we're off / starting	si parte	on y va / on part	salimos / empezamos	начинаем / стартуем
+g01521	připraveni ke hře	Bereit zum Spiel	ready to play	pronti a giocare	prêts à jouer	listos para jugar	готовы к игре
+g01522	začínáme	Wir fangen an	let's get started	si comincia	on commence	empezamos	начинаем
+g01523	dobrou hru všem	Gutes Spiel allerseits	good game everyone	buona partita a tutti	bon jeu à tous	buen juego a todos	хорошей игры всем
+g01524	užijte si hřiště	Genießen Sie den Platz	enjoy the course	godetevi il campo	profitez du parcours	disfruten del campo	наслаждайтесь полем

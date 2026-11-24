@@ -46,53 +46,11 @@ if [[ "$V_OKNE" == "0" && -n "${XDG_ACTIVATION_TOKEN:-}${DESKTOP_STARTUP_ID:-}" 
 fi
 unset XDG_ACTIVATION_TOKEN DESKTOP_STARTUP_ID
 
-# Vzorové fráze: fraze/<slovník>.tsv, řádek = <řádek slovníku> TAB <fráze> TAB <překlad>
-# (generuje generuj-fraze.py)
-readonly ADRESAR_FRAZI="$CESTA_SLOVNIKU/fraze"
-# Fráze označené klávesou [x] jako chybné — k pozdější opravě
-readonly SOUBOR_CHYBNYCH="$ADRESAR_FRAZI/chybne.tsv"
-declare -A FRAZE=()
-declare -A FRAZE_CS=()
-
-# Pořadí určuje i pořadí v nabídce
-readonly JAZYKY=(de en it fr es ru de_golf en_golf it_golf)
-
-declare -A SOUBORY=(
-    [de]="$CESTA_SLOVNIKU/nemcina_slova.txt"
-    [en]="$CESTA_SLOVNIKU/anglictina_slova.txt"
-    [it]="$CESTA_SLOVNIKU/italstina_slova.txt"
-    [fr]="$CESTA_SLOVNIKU/francouzstina_slova.txt"
-    [es]="$CESTA_SLOVNIKU/spanelstina_slova.txt"
-    [ru]="$CESTA_SLOVNIKU/rustina_slova.txt"
-    [de_golf]="$CESTA_SLOVNIKU/golf_nemcina.txt"
-    [en_golf]="$CESTA_SLOVNIKU/golf_anglictina.txt"
-    [it_golf]="$CESTA_SLOVNIKU/golf_italstina.txt"
-)
-
-declare -A NAZVY=(
-    [de]="🇩🇪 Němčina"
-    [en]="🇬🇧 Angličtina"
-    [it]="🇮🇹 Italština"
-    [fr]="🇫🇷 Francouzština"
-    [es]="🇪🇸 Španělština"
-    [ru]="🇷🇺 Ruština"
-    [de_golf]="🇩🇪 Němčina Golf"
-    [en_golf]="🇬🇧 Angličtina Golf"
-    [it_golf]="🇮🇹 Italština Golf"
-)
-
-declare -A VLAJKY=(
-    [de]="🇩🇪"
-    [en]="🇬🇧"
-    [it]="🇮🇹"
-    [fr]="🇫🇷"
-    [es]="🇪🇸"
-    [ru]="🇷🇺"
-    [de_golf]="🇩🇪"
-    [en_golf]="🇬🇧"
-    [it_golf]="🇮🇹"
-)
-
+# ── Jazyky ──────────────────────────────────────────────────────
+# Každý jazyk může být mateřský (ZDROJ, volba --z) i cílový (co se učíš).
+# Cílový „klíč“ je kód jazyka, u golfové terminologie <kód>_golf.
+readonly JAZYKY=(cs de en it fr es ru)
+declare -A VLAJKY=([cs]="🇨🇿" [de]="🇩🇪" [en]="🇬🇧" [it]="🇮🇹" [fr]="🇫🇷" [es]="🇪🇸" [ru]="🇷🇺")
 declare -A TTS_MODELY=(
     [de]="$PIPER_MODELY/de_DE-thorsten-medium.onnx"
     [en]="$PIPER_MODELY/en_US-lessac-medium.onnx"
@@ -103,50 +61,205 @@ declare -A TTS_MODELY=(
     [cs]="$PIPER_MODELY/cs_CZ-jirka-medium.onnx"
 )
 
-declare -A TTS_JAZYK=(
-    [de]="de"
-    [en]="en"
-    [it]="it"
-    [fr]="fr"
-    [es]="es"
-    [ru]="ru"
-    [cs]="cs"
-    [de_golf]="de"
-    [en_golf]="en"
-    [it_golf]="it"
-)
+# Data: slovnik/<sada>.tsv (pojmy: id cs de en it fr es ru), fraze/<sada>-<cíl>.tsv (paralelní věty)
+readonly ADRESAR_SLOVNIKU="$CESTA_SLOVNIKU/slovnik"
+readonly ADRESAR_FRAZI="$CESTA_SLOVNIKU/fraze"
+readonly ADRESAR_NEZNAMYCH="$CESTA_SLOVNIKU/neznama"
+# Fráze označené klávesou [x] jako chybné — k pozdější opravě
+readonly SOUBOR_CHYBNYCH="$ADRESAR_FRAZI/chybne.tsv"
+
+# Nastavení mezi spuštěními (mateřský jazyk, jazyk rozhraní): klic=hodnota
+readonly SOUBOR_NASTAVENI="${XDG_CONFIG_HOME:-$HOME/.config}/slovicka/nastaveni"
+
+# Načtený slovník: řádek „cílové slovo — slovo v mateřském jazyce“ ↔ id pojmu
+declare -A RADEK_ID=() ID_RADEK=()
+RADKY=()
+# Vzorové věty podle řádku slovníku: věta v cílovém jazyce a její překlad do mateřského
+declare -A FRAZE=() FRAZE_PREKLAD=()
 
 # Rozpracovaný mp3 soubor edge-tts; globální, aby ho uklidil i trap při Ctrl+C
 TMP_MP3=""
 
-# ── Pomocné funkce ──────────────────────────────────────────────
-
-# Je $1 platný klíč jazyka?
-_je_jazyk() {
+# ── Nastavení a texty rozhraní ──────────────────────────────────
+_je_kod() {
     local j
-    for j in "${JAZYKY[@]}"; do
-        [[ "$1" == "$j" ]] && return 0
-    done
+    for j in "${JAZYKY[@]}"; do [[ "$1" == "$j" ]] && return 0; done
     return 1
 }
 
-# Výpis jazyků pro nápovědu: "de, en, it, fr, es, ru, de_golf, en_golf, it_golf"
+_nastaveni_cti() {
+    [[ -f "$SOUBOR_NASTAVENI" ]] || return 0
+    sed -n "s/^$1=//p" "$SOUBOR_NASTAVENI" | tail -n1
+}
+
+_nastaveni_zapis() {
+    mkdir -p "$(dirname "$SOUBOR_NASTAVENI")"
+    { grep -v "^$1=" "$SOUBOR_NASTAVENI" 2>/dev/null; printf '%s=%s\n' "$1" "$2"; } \
+        > "$SOUBOR_NASTAVENI.tmp" && mv -f "$SOUBOR_NASTAVENI.tmp" "$SOUBOR_NASTAVENI"
+}
+
+# Jazyk rozhraní: SLOVICKA_LOCALE > uložené nastavení > LC_ALL/LC_MESSAGES/LANG > angličtina
+_vychozi_locale() {
+    local l
+    for l in "${SLOVICKA_LOCALE:-}" "$(_nastaveni_cti locale)" "${LC_ALL:-}" "${LC_MESSAGES:-}" "${LANG:-}"; do
+        l="${l:0:2}"
+        _je_kod "$l" && { printf '%s' "$l"; return; }
+    done
+    printf 'en'
+}
+
+LOCALE=$(_vychozi_locale)
+# Mateřský jazyk: SLOVICKA_ZDROJ > uložené nastavení > jazyk rozhraní
+ZDROJ="${SLOVICKA_ZDROJ:-$(_nastaveni_cti zdroj)}"
+_je_kod "$ZDROJ" || ZDROJ="$LOCALE"
+
+declare -A TEXTY=()
+# Načte texty rozhraní: nejdřív angličtina (záloha pro chybějící klíče), pak LOCALE.
+# Formát locale/<kód>.tsv: klíč TAB text (printf formát, \n = nový řádek)
+_nacti_texty() {
+    local f k v
+    TEXTY=()
+    for f in "$CESTA_SLOVNIKU/locale/en.tsv" "$CESTA_SLOVNIKU/locale/$LOCALE.tsv"; do
+        [[ -f "$f" ]] || continue
+        while IFS=$'\t' read -r k v; do
+            [[ -z "$k" || "$k" == \#* ]] && continue
+            TEXTY["$k"]="$v"
+        done < "$f"
+    done
+    export SLOVICKA_LOCALE="$LOCALE"     # pro slovicka-view.py (nabídka, okno)
+}
+
+# _t klíč [argumenty…] — přeložený text (printf formát)
+_t() {
+    local klic="$1"; shift
+    # shellcheck disable=SC2059  # formát je text rozhraní z locale/*.tsv
+    printf -- "${TEXTY[$klic]:-$klic}" "$@"
+}
+
+# _nastav_jazyky zdroj locale — po volbách --z / --locale nebo po změně v nabídce
+_nastav_jazyky() {
+    _je_kod "${1:-}" && ZDROJ="$1"
+    _je_kod "${2:-}" && LOCALE="$2"
+    _nacti_texty
+}
+_nacti_texty
+
+# Název jazyka v jazyce rozhraní; s vlajkou: _nazev_jazyka kód [vlajka]
+_nazev_jazyka() {
+    if [[ "${2:-}" == "vlajka" ]]; then
+        printf '%s %s' "${VLAJKY[$1]}" "$(_t "jazyk.$1")"
+    else
+        _t "jazyk.$1"
+    fi
+}
+
+# Kód jazyka a sada z cílového klíče (de_golf → de, golf)
+_kod() { printf '%s' "${1%_golf}"; }
+_sada() { if [[ "$1" == *_golf ]]; then printf 'golf'; else printf 'obecne'; fi; }
+
+# Název cíle pro nabídku a titulek: „🇩🇪 Němčina“, „🇩🇪 Němčina Golf“
+_nazev() {
+    local n
+    n=$(_nazev_jazyka "$(_kod "$1")" vlajka)
+    [[ "$1" == *_golf ]] && n+=" $(_t golf)"
+    printf '%s' "$n"
+}
+
+# Cílové klíče pro mateřský jazyk ZDROJ (všechny jazyky kromě něj, pak golf)
+_cile() {
+    local j
+    for j in "${JAZYKY[@]}"; do [[ "$j" != "$ZDROJ" ]] && printf '%s\n' "$j"; done
+    for j in "${JAZYKY[@]}"; do [[ "$j" != "$ZDROJ" ]] && printf '%s\n' "${j}_golf"; done
+}
+
+# Je $1 platný cílový klíč (cs, de_golf…)?
+_je_jazyk() {
+    _je_kod "$(_kod "$1")" && [[ "$1" == "$(_kod "$1")" || "$1" == "$(_kod "$1")_golf" ]]
+}
+
+# Výpis cílů pro nápovědu: "cs, de, en, …, de_golf, …"
 _seznam_jazyku() {
+    local -a c
+    mapfile -t c < <(_cile)
     local IFS=","
-    printf '%s' "${JAZYKY[*]}" | sed 's/,/, /g'
+    printf '%s' "${c[*]}" | sed 's/,/, /g'
 }
 
 # Chybová hláška do terminálu, a když terminál není (rofi), i jako notifikace
 _chyba() {
-    echo -e "\e[1;31mChyba: $1\e[0m" >&2
-    [[ -t 0 ]] || notify-send -u critical "Slovíčka" "$1" 2>/dev/null
+    echo -e "\e[1;31m$(_t chyba "$1")\e[0m" >&2
+    [[ -t 0 ]] || notify-send -u critical "$(_t app)" "$1" 2>/dev/null
     exit 1
+}
+
+# ── Slovník a věty ──────────────────────────────────────────────
+# _nacti_slovnik cíl — RADKY / RADEK_ID / ID_RADEK pro dvojici cíl × ZDROJ.
+# Pojmy bez slova v jednom z obou jazyků se přeskočí.
+_nacti_slovnik() {
+    local cil kod id slovo preklad radek
+    kod=$(_kod "$1")
+    RADKY=(); RADEK_ID=(); ID_RADEK=()
+    while IFS=$'\t' read -r id slovo preklad; do
+        radek="$slovo — $preklad"
+        RADKY+=("$radek")
+        RADEK_ID["$radek"]="$id"
+        ID_RADEK["$id"]="$radek"
+    done < <(_sloupce "$ADRESAR_SLOVNIKU/$(_sada "$1").tsv" "$kod" "$ZDROJ" | awk -F'\t' '$2 != "" && $3 != ""')
+}
+
+# _sloupce soubor.tsv sloupec1 sloupec2 — vypíše id a dva sloupce podle hlavičky
+_sloupce() {
+    [[ -f "$1" ]] || return 0
+    awk -F'\t' -v a="$2" -v b="$3" '
+        NR == 1 { for (i = 1; i <= NF; i++) sl[$i] = i; next }
+        { printf "%s\t%s\t%s\n", $1, $(sl[a]), $(sl[b]) }' "$1"
+}
+
+_soubor_frazi() {
+    printf '%s/%s-%s.tsv' "$ADRESAR_FRAZI" "$(_sada "$1")" "$(_kod "$1")"
+}
+
+# Načte věty cíle do FRAZE / FRAZE_PREKLAD (klíč = řádek slovníku; nejdřív _nacti_slovnik).
+# Chybějící soubor nevadí — slovíčka se pak zobrazí bez vět.
+_nacti_fraze() {
+    local id veta preklad radek
+    FRAZE=(); FRAZE_PREKLAD=()
+    while IFS=$'\t' read -r id veta preklad; do
+        radek="${ID_RADEK[$id]:-}"
+        [[ -n "$radek" && -n "$veta" ]] || continue
+        FRAZE["$radek"]="$veta"
+        FRAZE_PREKLAD["$radek"]="$preklad"
+    done < <(_sloupce "$(_soubor_frazi "$1")" "$(_kod "$1")" "$ZDROJ")
+}
+
+# Slovíčka k procvičení (řádky slovníku): _slovicka cíl [neznama]
+_slovicka() {
+    if [[ "${2:-}" == "neznama" ]]; then
+        local id
+        while IFS= read -r id; do
+            [[ -n "${ID_RADEK[$id]:-}" ]] && printf '%s\n' "${ID_RADEK[$id]}"
+        done < <(cat "$(_soubor_neznamych "$1")" 2>/dev/null)
+    else
+        printf '%s\n' "${RADKY[@]}"
+    fi
+}
+
+# Označí větu slovíčka jako chybnou (klávesa [x]).
+# Řádek: <sada>-<cíl> TAB <id> TAB <mateřský jazyk> TAB <věta> TAB <překlad>, bez duplicit.
+# Vrací 1, když slovíčko větu nemá.
+_oznac_chybnou() {
+    local cil="$1" radek="$2"
+    [[ -n "${FRAZE[$radek]:-}" ]] || return 1
+    { cat "$SOUBOR_CHYBNYCH" 2>/dev/null
+      printf '%s-%s\t%s\t%s\t%s\t%s\n' "$(_sada "$cil")" "$(_kod "$cil")" "${RADEK_ID[$radek]:-}" \
+          "$ZDROJ" "${FRAZE[$radek]}" "${FRAZE_PREKLAD[$radek]:-}"
+    } | sort -u > "$SOUBOR_CHYBNYCH.tmp" && mv -f "$SOUBOR_CHYBNYCH.tmp" "$SOUBOR_CHYBNYCH"
 }
 
 # Vypíše kartu slovíčka tak, aby se vešla do výšky terminálu (záložní režim bez okna;
 # při přetečení by terminál odroloval a titulek s vlajkami zmizel). Poslední řádek je pro nápovědu.
-# Prázdné řádky se vloží jen když je místo; v krajním případě se zkrátí fráze (…).
-# _vypis_kartu titulek nazev prvni druhy fraze fraze_cs
+# Prázdné řádky se vloží jen když je místo; v krajním případě se zkrátí věta (…).
+# _vypis_kartu titulek nazev prvni druhy fraze preklad
 _vypis_kartu() {
     local titulek="$1" nazev="$2" prvni="$3" druhy="$4" fraze="$5" fraze_cs="$6"
     local sirka vyska volno
@@ -163,7 +276,7 @@ _vypis_kartu() {
     # titulek + nápověda + obsah
     volno=$(( vyska - 2 - ${#r_prvni[@]} - ${#r_druhy[@]} - ${#r_fraze[@]} - ${#r_cs[@]} ))
 
-    # Nevejde se → zkrátit nejdřív překlad fráze, pak frázi (poslední řádek s …)
+    # Nevejde se → zkrátit nejdřív překlad věty, pak větu (poslední řádek s …)
     while (( volno < 0 && ${#r_cs[@]} > 1 )); do
         unset 'r_cs[-1]'; r_cs[-1]="${r_cs[-1]% } …"; (( ++volno ))
     done
@@ -172,7 +285,7 @@ _vypis_kartu() {
     done
     (( volno < 0 && ${#r_cs[@]} )) && { r_cs=(); (( ++volno )); }
 
-    # Prázdné řádky podle priority: před frází, za titulkem, před nápovědou
+    # Prázdné řádky podle priority: před větou, za titulkem, před nápovědou
     local mezera_fraze=0 mezera_titulek=0 mezera_konec=0
     if (( ${#r_fraze[@]} && volno > 0 )); then mezera_fraze=1; (( --volno )); fi
     if (( volno > 0 )); then mezera_titulek=1; (( --volno )); fi
@@ -190,37 +303,6 @@ _vypis_kartu() {
     return 0
 }
 
-# ── Vzorové fráze ───────────────────────────────────────────────
-_soubor_frazi() {
-    local slovnik="${SOUBORY[$1]}"
-    printf '%s/%s.tsv' "$ADRESAR_FRAZI" "$(basename "$slovnik" .txt)"
-}
-
-# Načte fráze jazyka do FRAZE / FRAZE_CS (klíč = celý řádek slovníku).
-# Chybějící soubor nevadí — slovíčka se pak zobrazí bez frází.
-_nacti_fraze() {
-    local soubor radek fraze cs
-    soubor=$(_soubor_frazi "$1")
-    [[ -f "$soubor" ]] || return 0
-    while IFS=$'\t' read -r radek fraze cs; do
-        [[ -n "$fraze" ]] || continue
-        FRAZE["$radek"]="$fraze"
-        FRAZE_CS["$radek"]="$cs"
-    done < "$soubor"
-}
-
-# Označí frázi slovíčka jako chybnou (klávesa [x]).
-# Řádek: <soubor frází> TAB <řádek slovníku> TAB <fráze> TAB <překlad>, bez duplicit.
-# Vrací 1, když slovíčko frázi nemá.
-_oznac_chybnou() {
-    local jazyk="$1" radek="$2" soubor
-    [[ -n "${FRAZE[$radek]:-}" ]] || return 1
-    soubor=$(basename "$(_soubor_frazi "$jazyk")")
-    { cat "$SOUBOR_CHYBNYCH" 2>/dev/null
-      printf '%s\t%s\t%s\t%s\n' "$soubor" "$radek" "${FRAZE[$radek]}" "${FRAZE_CS[$radek]:-}"
-    } | sort -u > "$SOUBOR_CHYBNYCH.tmp" && mv -f "$SOUBOR_CHYBNYCH.tmp" "$SOUBOR_CHYBNYCH"
-}
-
 # ── Průhledné okno ──────────────────────────────────────────────
 # Spustí tentýž skript v průhledném okně slovicka-view.py (vzhled jako poznámky pozt),
 # odpojeně od terminálu, aby klávesy fungovaly přímo v okně se slovíčky.
@@ -230,7 +312,7 @@ _spust_v_okne() {
     local rezim="$1"; shift
     _s_tokenem setsid -f uv run --quiet --script "$VIEW_PY" --rezim "$rezim" -- "$SKRIPT" "$@" \
         </dev/null &>/dev/null
-    echo -e "\e[0;90mBěží v průhledném okně ([q] v okně = konec).\e[0m"
+    echo -e "\e[0;90m$(_t okno.bezi)\e[0m"
 }
 
 # Jde spustit GTK okno? (grafická relace — Wayland i X11 — a uv)
@@ -263,15 +345,15 @@ _s_tokenem() {
 _pruhledne() { [[ "$V_OKNE" == "2" && -n "$VIEW_FD" ]]; }
 
 # Pošle příkaz průhlednému oknu (pole oddělená tabulátorem, viz slovicka-view.py):
-#   _view KARTA hlavička první druhý fráze fráze_cs
+#   _view KARTA hlavička první druhý věta překlad
 #   _view NAPOVEDA "text *zvýrazněné*"
 #   _view ZPRAVA nadpis "řádek\nřádek" [nápověda]
-# Mimo průhledné okno nic nedělá.
+# Skutečné konce řádků se posílají jako \n (okno je převede zpět). Mimo okno nic nedělá.
 _view() {
     _pruhledne || return 0
     local IFS=$'\t'
     # shellcheck disable=SC2261  # >&"$VIEW_FD" je deskriptor, ne soubor
-    printf '%s\n' "${*//$'\n'/ }" >&"$VIEW_FD" 2>/dev/null
+    printf '%s\n' "${*//$'\n'/\\n}" >&"$VIEW_FD" 2>/dev/null
     return 0
 }
 
@@ -299,12 +381,12 @@ _signal_tts() {
     return 0
 }
 
-# _tts_reci "text" jazyk   — jazyk: cs nebo klíč z JAZYKY
+# _tts_reci "text" jazyk   — jazyk: kód (cs, de…) nebo cílový klíč (de_golf)
 _tts_reci() {
     local text="$1"
-    local jazyk="$2"
-    local tts_jazyk="${TTS_JAZYK[$jazyk]:-$jazyk}"
-    local model="${TTS_MODELY[$tts_jazyk]:-}"
+    local jazyk
+    jazyk=$(_kod "$2")
+    local model="${TTS_MODELY[$jazyk]:-}"
     local prvni=1 cast vzorkovani
 
     # Piper vydává holá data bez hlavičky — frekvence je v <model>.onnx.json
@@ -321,8 +403,8 @@ _tts_reci() {
         [[ "$prvni" == "0" ]] && sleep 0.5
         prvni=0
 
-        # Čeština — edge-tts (přirozenější hlas, potřebuje internet)
-        if [[ "$jazyk" == "cs" ]]; then
+        # Čeština — edge-tts (přirozenější hlas, potřebuje internet); bez něj Piper / espeak-ng
+        if [[ "$jazyk" == "cs" ]] && command -v edge-tts &>/dev/null; then
             TMP_MP3=$(mktemp /tmp/tts_XXXXXX.mp3)
             edge-tts --voice cs-CZ-AntoninNeural \
                 --text "$cast" \
@@ -335,9 +417,9 @@ _tts_reci() {
         # Ostatní jazyky — Piper, bez Piperu nebo modelu záložně espeak-ng
         if [[ -z "$PIPER" || ! -f "$model" ]]; then
             if command -v espeak-ng &>/dev/null; then
-                espeak-ng -v "$tts_jazyk" -s 130 "$cast" 2>/dev/null
+                espeak-ng -v "$jazyk" -s 130 "$cast" 2>/dev/null
             else
-                echo "[TTS model nenalezen: $model]" >&2
+                echo "[TTS: $model]" >&2
             fi
             continue
         fi
@@ -355,19 +437,28 @@ _tts_reci() {
 }
 
 # ── Intro (--intro) ─────────────────────────────────────────────
-# Před procvičováním se v dialogu nad kartou ukáže úvodní obrázek (vlajky + text z intro.txt)
-# a hraje hudba, pak je krátká pauza. Obrázek se skládá z nejnovější fotky v intro/
-# a znovu se vygeneruje jen když se změnil text, fotka, seznam vlajek nebo intro-obrazek.py.
-readonly INTRO_TEXT="$CESTA_SLOVNIKU/intro.txt"
+# Před procvičováním se v dialogu nad kartou ukáže úvodní obrázek (vlajky + text) a hraje
+# hudba, pak je krátká pauza. Text je v jazyce rozhraní: intro.<kód>.txt, čeština intro.txt.
+# Obrázek se skládá z nejnovější fotky v intro/ a znovu se vygeneruje jen když se změnil
+# text, fotka, seznam vlajek nebo intro-obrazek.py (pro každý jazyk rozhraní zvlášť).
 readonly INTRO_ADR="$CESTA_SLOVNIKU/intro"
 readonly INTRO_PY="$CESTA_SLOVNIKU/intro-obrazek.py"
-readonly INTRO_VYSTUP="$INTRO_ADR/.vygenerovano/intro.jpg"
-readonly INTRO_OTISK="$INTRO_ADR/.vygenerovano/otisk"
 readonly INTRO_DELKA="${SLOVICKA_INTRO_DELKA:-60}"
 readonly INTRO_PAUZA="${SLOVICKA_INTRO_PAUZA:-5}"
 # Šířka okna s úvodním obrázkem v px (výška = 16 : 9)
 readonly INTRO_SIRKA="${SLOVICKA_INTRO_SIRKA:-1280}"
 INTRO_HUDBA_PID=""
+
+# Soubor s textem intra pro jazyk rozhraní (záložně angličtina, pak čeština)
+_intro_text() {
+    local f
+    for f in "intro.$LOCALE.txt" "$( [[ "$LOCALE" == "cs" ]] && echo intro.txt)" "intro.en.txt" "intro.txt"; do
+        [[ -n "$f" && -f "$CESTA_SLOVNIKU/$f" ]] && { printf '%s' "$CESTA_SLOVNIKU/$f"; return; }
+    done
+    printf '/dev/null'
+}
+
+_intro_vystup() { printf '%s/.vygenerovano/intro-%s.jpg' "$INTRO_ADR" "$LOCALE"; }
 
 # Nejnovější soubor v intro/ s některou z přípon: _intro_soubor jpg png …
 _intro_soubor() {
@@ -377,43 +468,41 @@ _intro_soubor() {
         | sort -rn | head -n1 | cut -f2-
 }
 
-# Vlajky všech jazyků bez opakování, oddělené mezerou (pořadí podle JAZYKY)
+# Vlajky všech jazyků oddělené mezerou (pořadí podle JAZYKY)
 _intro_vlajky() {
-    local j v vysledek=""
-    for j in "${JAZYKY[@]}"; do
-        v="${VLAJKY[$j]}"
-        [[ " $vysledek " == *" $v "* ]] || vysledek+="${vysledek:+ }$v"
-    done
+    local j vysledek=""
+    for j in "${JAZYKY[@]}"; do vysledek+="${vysledek:+ }${VLAJKY[$j]}"; done
     printf '%s' "$vysledek"
 }
 
 # Zkontroluje text, fotku a vlajky; při změně znovu složí úvodní obrázek.
 # Vrací 1, když obrázek nejde připravit (chybí fotka nebo generátor selže).
 _intro_priprav() {
-    local obrazek vlajky otisk
+    local obrazek vlajky otisk text vystup otisk_soubor
     obrazek=$(_intro_soubor jpg jpeg png webp)
     if [[ -z "$obrazek" ]]; then
-        echo "Intro: v $INTRO_ADR není žádný obrázek (jpg/png/webp)." >&2
+        { _t intro.chybi_obrazek "$INTRO_ADR"; echo; } >&2
         return 1
     fi
     vlajky=$(_intro_vlajky)
+    text=$(_intro_text)
+    vystup=$(_intro_vystup)
+    otisk_soubor="${vystup%.jpg}.otisk"
     otisk=$( { sha256sum "$obrazek" "$INTRO_PY" | cut -d' ' -f1
-               sha256sum "$INTRO_TEXT" 2>/dev/null | cut -d' ' -f1
-               printf '%s\n' "$obrazek" "$vlajky"
+               sha256sum "$text" 2>/dev/null | cut -d' ' -f1
+               printf '%s\n' "$obrazek" "$text" "$vlajky"
              } | sha256sum | cut -d' ' -f1 )
-    if [[ -f "$INTRO_VYSTUP" && "$(cat "$INTRO_OTISK" 2>/dev/null)" == "$otisk" ]]; then
+    if [[ -f "$vystup" && "$(cat "$otisk_soubor" 2>/dev/null)" == "$otisk" ]]; then
         return 0
     fi
-    _view ZPRAVA "🎨 Intro" "Text nebo obrázek se změnil,\nskládám nový úvodní obrázek…"
-    echo -e "\e[0;90mIntro: skládám nový úvodní obrázek…\e[0m"
-    local text="$INTRO_TEXT"
-    [[ -f "$text" ]] || text=/dev/null
+    _view ZPRAVA "🎨 Intro" "$(_t intro.sklada)"
+    echo -e "\e[0;90m$(_t intro.sklada_kratce)\e[0m"
     if ! uv run --quiet --script "$INTRO_PY" --obrazek "$obrazek" --text "$text" \
-            --vystup "$INTRO_VYSTUP" --vlajky "$vlajky" >&2; then
-        echo "Intro: obrázek se nepodařilo vytvořit." >&2
+            --vystup "$vystup" --vlajky "$vlajky" >&2; then
+        { _t intro.selhalo; echo; } >&2
         return 1
     fi
-    printf '%s\n' "$otisk" > "$INTRO_OTISK"
+    printf '%s\n' "$otisk" > "$otisk_soubor"
 }
 
 _intro_zastav() {
@@ -437,10 +526,10 @@ _intro_spust() {
         INTRO_HUDBA_PID=$!
     fi
 
-    _view ZPRAVA "🎵 Intro" "Úvodní obrázek a hudba (${INTRO_DELKA} s)." "[q/Esc] v obrázku = přeskočit · [q] tady = konec"
-    echo -e "\e[1;32m🎵 Intro (${INTRO_DELKA} s)\e[0m \e[0;90m[Enter] přeskočit · [q] konec\e[0m"
+    _view ZPRAVA "🎵 Intro" "$(_t intro.text "$INTRO_DELKA")" "$(_t intro.napoveda)"
+    echo -e "\e[1;32m🎵 Intro (${INTRO_DELKA} s)\e[0m \e[0;90m$(_t intro.napoveda_term)\e[0m"
     if [[ "$obraz_ok" == "1" ]] && _pruhledne; then
-        _view INTRO "$INTRO_VYSTUP" "$INTRO_SIRKA"
+        _view INTRO "$(_intro_vystup)" "$INTRO_SIRKA"
     fi
     if [[ "$obraz_ok" == "1" ]] && _pruhledne || [[ -n "$INTRO_HUDBA_PID" ]]; then
         # Čeká INTRO_DELKA s, nebo na klávesu (přeskočit / q = konec)
@@ -455,8 +544,8 @@ _intro_spust() {
 
     local i
     for (( i = INTRO_PAUZA; i > 0; i-- )); do
-        _view ZPRAVA "⏳ Za chvíli začínáme" "Procvičování začne za $i s."
-        printf '\r\e[0;90mProcvičování začne za %d s… \e[0m' "$i"
+        _view ZPRAVA "$(_t intro.odpocet_nadpis)" "$(_t intro.odpocet "$i")"
+        printf '\r\e[0;90m%s \e[0m' "$(_t intro.odpocet "$i")"
         sleep 1
     done
     echo
@@ -490,27 +579,29 @@ _pozadi_zastav() {
 }
 
 # ── Neznámá slovíčka ────────────────────────────────────────────
-# Soubor neznama_<jazyk>.txt ve stejném formátu jako slovníky
+# neznama/<mateřský>-<cíl>.txt — id pojmů, jedno na řádek
 
 _soubor_neznamych() {
-    printf '%s/neznama_%s.txt' "$CESTA_SLOVNIKU" "$1"
+    printf '%s/%s-%s.txt' "$ADRESAR_NEZNAMYCH" "$ZDROJ" "$1"
 }
 
-# _neznama_pridej jazyk "radek" ...   — přidá řádky (bez duplicit)
+# _neznama_pridej cíl "řádek slovníku" ...   — přidá (bez duplicit)
 _neznama_pridej() {
-    local f
+    local f r
     f=$(_soubor_neznamych "$1"); shift
     (( $# )) || return 0
-    { cat "$f" 2>/dev/null; printf '%s\n' "$@"; } | sort -u > "$f.tmp" \
-        && mv -f "$f.tmp" "$f"
+    mkdir -p "$ADRESAR_NEZNAMYCH"
+    { cat "$f" 2>/dev/null
+      for r in "$@"; do [[ -n "${RADEK_ID[$r]:-}" ]] && printf '%s\n' "${RADEK_ID[$r]}"; done
+    } | sort -u > "$f.tmp" && mv -f "$f.tmp" "$f"
 }
 
-# _neznama_odeber jazyk "radek" ...   — odebere řádky; prázdný soubor smaže
+# _neznama_odeber cíl "řádek slovníku" ...   — odebere; prázdný soubor smaže
 _neznama_odeber() {
-    local f
+    local f r
     f=$(_soubor_neznamych "$1"); shift
     (( $# )) && [[ -f "$f" ]] || return 0
-    grep -vxF -f <(printf '%s\n' "$@") "$f" > "$f.tmp"
+    grep -vxF -f <(for r in "$@"; do printf '%s\n' "${RADEK_ID[$r]:-}"; done) "$f" > "$f.tmp"
     mv -f "$f.tmp" "$f"
     [[ -s "$f" ]] || rm -f "$f"
 }
@@ -526,7 +617,7 @@ _vyber() {
         echo -e "\n\e[1;34m$vyzva\e[0m" >&2
         local n=1 polozka
         for polozka in "$@"; do printf '  %d) %s\n' "$n" "$polozka" >&2; (( ++n )); done
-        echo -n "Volba [1-$#, Enter=1]: " >&2
+        printf '%s' "$(_t nabidka.volba "$#")" >&2
         local volba; read -r volba
         echo "${volba:-1}"
     elif _lze_gtk; then
@@ -553,9 +644,9 @@ _vyber_dmenu() {
     elif command -v wofi &>/dev/null; then
         text=$(printf '%s\n' "$@" | wofi --dmenu --insensitive --prompt "$vyzva")
     elif command -v zenity &>/dev/null; then
-        text=$(zenity --list --title="Slovíčka" --text="$vyzva" --column="$vyzva" "$@" 2>/dev/null)
+        text=$(zenity --list --title="$(_t app)" --text="$vyzva" --column="$vyzva" "$@" 2>/dev/null)
     else
-        _chyba "Není čím zobrazit nabídku: nainstaluj uv (nabídka v GTK), nebo rofi/fuzzel/wofi/zenity."
+        _chyba "$(_t nabidka.neni)"
     fi
     [[ -n "$text" ]] || return 0
     for polozka in "$@"; do
@@ -564,38 +655,106 @@ _vyber_dmenu() {
     done
 }
 
-# Vypíše klíč jazyka, u uložených neznámých slovíček "neznama:<klíč>".
-# Esc v nabídce = konec skriptu.
-_vyber_jazyk() {
-    local -a klice=() polozky=()
-    local j f n volba
-    for j in "${JAZYKY[@]}"; do
-        klice+=("$j"); polozky+=("${NAZVY[$j]}")
-    done
-    for j in "${JAZYKY[@]}"; do
-        f=$(_soubor_neznamych "$j")
-        [[ -s "$f" ]] || continue
-        n=$(wc -l < "$f")
-        klice+=("neznama:$j"); polozky+=("Neznámá: ${NAZVY[$j]} ($n)")
-    done
-
-    volba=$(_vyber "Vyber jazyk" "${polozky[@]}")
+# Číslo volby z nabídky → položka pole; zrušení = konec skriptu
+_volba_z() {
+    local volba="$1"; shift
     [[ -z "$volba" ]] && exit 0
-    if [[ "$volba" =~ ^[0-9]+$ ]] && (( volba >= 1 && volba <= ${#klice[@]} )); then
-        echo "${klice[volba-1]}"
+    if [[ "$volba" =~ ^[0-9]+$ ]] && (( volba >= 1 && volba <= $# )); then
+        printf '%s' "${!volba}"
     else
-        _chyba "Neplatná volba: $volba"
+        _chyba "$(_t nabidka.neplatna "$volba")"
     fi
 }
 
-# Vypíše 0 (originál první) nebo 1 (česky první)
-_vyber_poradi() {
+# Vybere jazyk (mateřský nebo rozhraní) a uloží ho: _vyber_nastaveni zdroj|locale
+_vyber_nastaveni() {
+    local co="$1" j aktualni
+    local -a polozky=()
+    [[ "$co" == "zdroj" ]] && aktualni="$ZDROJ" || aktualni="$LOCALE"
+    for j in "${JAZYKY[@]}"; do
+        polozky+=("$(_nazev_jazyka "$j" vlajka)$([[ "$j" == "$aktualni" ]] && echo "  ✓")")
+    done
     local volba
-    volba=$(_vyber "Pořadí" "Originál → Česky" "Česky → Originál")
+    volba=$(_volba_z "$(_vyber "$(_t "nastaveni.$co.vyzva")" "${polozky[@]}")" "${JAZYKY[@]}") || exit $?
+    _nastaveni_zapis "$co" "$volba"
+}
+
+# Vypíše cílový klíč, u uložených neznámých slovíček "neznama:<klíč>",
+# po změně nastavení "nastaveni" (volající nabídku zobrazí znovu). Esc = konec skriptu.
+_vyber_jazyk() {
+    local -a klice=() polozky=() cile
+    local j f n
+    mapfile -t cile < <(_cile)
+    for j in "${cile[@]}"; do
+        klice+=("$j"); polozky+=("$(_nazev "$j")")
+    done
+    for j in "${cile[@]}"; do
+        f=$(_soubor_neznamych "$j")
+        [[ -s "$f" ]] || continue
+        n=$(wc -l < "$f")
+        klice+=("neznama:$j"); polozky+=("$(_t neznama.polozka "$(_nazev "$j")" "$n")")
+    done
+    klice+=("nastaveni:zdroj" "nastaveni:locale")
+    polozky+=("$(_t nastaveni.zdroj "$(_nazev_jazyka "$ZDROJ" vlajka)")"
+              "$(_t nastaveni.locale "$(_nazev_jazyka "$LOCALE" vlajka)")")
+
+    local klic
+    klic=$(_volba_z "$(_vyber "$(_t vyber.jazyk)" "${polozky[@]}")" "${klice[@]}") || exit $?
+    if [[ "$klic" == nastaveni:* ]]; then
+        _vyber_nastaveni "${klic#nastaveni:}"
+        echo "nastaveni"
+    else
+        echo "$klic"
+    fi
+}
+
+# Nabídka jazyka v cyklu — po změně nastavení se znovu načtou jazyky a texty.
+# Výsledek v proměnné VYBRANY_CIL (volat bez $( ), aby platilo i nové nastavení).
+_vyber_cil() {
+    local volba
+    while :; do
+        volba=$(_vyber_jazyk) || exit $?
+        [[ -z "$volba" ]] && exit 0
+        if [[ "$volba" == "nastaveni" ]]; then
+            _nastav_jazyky "$(_nastaveni_cti zdroj)" "$(_nastaveni_cti locale)"
+            continue
+        fi
+        VYBRANY_CIL="$volba"
+        return 0
+    done
+}
+
+# Vypíše 0 (cizí jazyk první) nebo 1 (mateřský první)
+_vyber_poradi() {
+    local cil="$1" a b
+    a=$(_nazev_jazyka "$(_kod "$cil")")
+    b=$(_nazev_jazyka "$ZDROJ")
+    local volba
+    volba=$(_vyber "$(_t vyber.poradi)" "$a → $b" "$b → $a")
     case "$volba" in
         1) echo "0" ;;
         2) echo "1" ;;
         "") exit 0 ;;
-        *) _chyba "Neplatná volba: $volba" ;;
+        *) _chyba "$(_t nabidka.neplatna "$volba")" ;;
     esac
+}
+
+# Společné volby obou skriptů (--z, --locale) — vrací 0, když volbu zpracovala.
+# _spolecna_volba "$volba" "$hodnota"; posun indexu řeší volající podle návratové hodnoty 2.
+_spolecna_volba() {
+    case "$1" in
+        --z|--from|-f)
+            _je_kod "${2:-}" || _chyba "$(_t chyba.jazyk "${2:-}" "${JAZYKY[*]}")"
+            _nastav_jazyky "$2" ""; return 2 ;;
+        --locale|-l)
+            _je_kod "${2:-}" || _chyba "$(_t chyba.jazyk "${2:-}" "${JAZYKY[*]}")"
+            _nastav_jazyky "" "$2"; return 2 ;;
+    esac
+    return 1
+}
+
+# Kontrola cíle po volbách: existuje a liší se od mateřského jazyka
+_over_cil() {
+    _je_jazyk "$1" || _chyba "$(_t chyba.jazyk "$1" "$(_seznam_jazyku)")"
+    [[ "$(_kod "$1")" != "$ZDROJ" ]] || _chyba "$(_t chyba.stejny "$(_nazev_jazyka "$ZDROJ")")"
 }

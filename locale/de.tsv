@@ -1,0 +1,99 @@
+# Texty rozhraní (de) — generuje nastroje/texty-rozhrani.py, ruční úpravy dělej tam
+app	Vokabeln
+jazyk.cs	Tschechisch
+jazyk.de	Deutsch
+jazyk.en	Englisch
+jazyk.it	Italienisch
+jazyk.fr	Französisch
+jazyk.es	Spanisch
+jazyk.ru	Russisch
+golf	Golf
+chyba	Fehler: %s
+chyba.argument	Unbekanntes Argument: %s
+chyba.jazyk	Unbekannte Sprache: %s (möglich: %s)
+chyba.stejny	Die Zielsprache ist deine eigene Sprache (%s). Wähle eine andere oder ändere deine Sprache mit --z.
+chyba.prazdny	Für %s → %s gibt es noch keine Wörter im Wörterbuch.
+chyba.zadna_neznama	Du hast noch keine unbekannten Wörter gespeichert (%s).
+chyba.pocet	--pocet muss eine positive ganze Zahl sein (angegeben: '%s')
+chyba.pauza	--pauza muss eine Zahl in Sekunden sein (angegeben: '%s')
+preruseno	Abgebrochen.
+okno.bezi	Läuft im transparenten Fenster ([q] im Fenster = Ende).
+vyber.jazyk	Was möchtest du lernen?
+vyber.poradi	Reihenfolge
+neznama.polozka	Unbekannt: %s (%s)
+neznama.nazev	Unbekannt: %s
+nastaveni.zdroj	💬 Meine Sprache: %s
+nastaveni.locale	🌐 Sprache der Oberfläche: %s
+nastaveni.zdroj.vyzva	Meine Muttersprache
+nastaveni.locale.vyzva	Sprache der Oberfläche
+nabidka.volba	Auswahl [1-%s, Enter=1]: 
+nabidka.neplatna	Ungültige Auswahl: %s
+nabidka.neni	Kein Programm für das Menü: installiere uv (GTK-Menü) oder rofi/fuzzel/wofi/zenity.
+k.mezera	Leertaste
+w.pauza	Pause
+w.pauza_nadpis	Pause
+w.dal	weiter
+w.play	abspielen
+w.znovu	nochmal
+w.znam	kenne ich
+w.neznam	kenne ich nicht
+w.konec	Ende
+w.chyba	Fehler
+w.chybna_fraze	falscher Satz
+w.fraze_oznacena	Satz markiert
+w.oznaceno	markiert
+kolo.zacinam	▶ Runde %s beginnt
+kolo.slovicek	%s Wörter
+kolo.hotovo	✓ Runde beendet!
+kolo.znam	Gewusst: %s/%s
+kolo.neznam	Nicht gewusst: %s/%s
+kolo.opakovat	%s unbekannte wiederholen?
+kolo.ano_ne	*[Enter] ja* · [n] nein
+kolo.ano_ne_term	[Enter=ja / n=nein]
+kolo.vyborne	🎉 Super! Du kennst alle Wörter!
+ukonceno	Beendet nach %s Wörtern.
+nacteno	%s Wörter geladen: %s
+trenink.hotovo	✓ Training beendet.
+zavrit.enter	[Enter] Fenster schließen
+zavrit.klavesa	[beliebige Taste] Fenster schließen (sonst nach 10 s)
+pasivni.nadpis	▶ Passives Hören: %s
+pasivni.info	Wörter: %s\nReihenfolge: %s\nPause: %s s
+pasivni.info_term	Wörter: %s  │  Reihenfolge: %s  │  Pause: %s s
+hotovo	✓ Fertig!
+hotovo.prehrano	%s Wörter abgespielt.
+intro.text	Startbild und Musik (%s s).
+intro.napoveda	[q/Esc] im Bild = überspringen · [q] hier = Ende
+intro.napoveda_term	[Enter] überspringen · [q] Ende
+intro.odpocet_nadpis	⏳ Gleich geht es los
+intro.odpocet	Das Üben beginnt in %s s.
+intro.sklada	Text oder Bild hat sich geändert,\nneues Startbild wird erstellt…
+intro.sklada_kratce	Intro: neues Startbild wird erstellt…
+intro.selhalo	Intro: Bild konnte nicht erstellt werden.
+intro.chybi_obrazek	Intro: kein Bild in %s (jpg/png/webp).
+pomoc.pouziti	Verwendung: %s [Ziel] [Optionen]
+pomoc.jazyky	Zielsprachen: %s
+pomoc.volby	Optionen:
+pomoc.z	Deine Muttersprache: %s (jetzt %s)
+pomoc.locale	Sprache der Oberfläche (jetzt %s)
+pomoc.swap	Zuerst deine Sprache, dann die fremde
+pomoc.orig	Zuerst die fremde Sprache, dann deine (ohne Nachfrage)
+pomoc.neznama	Nur gespeicherte unbekannte Wörter
+pomoc.bez_frazi	Keine Beispielsätze zeigen oder vorlesen
+pomoc.bez_sumu	Ohne leises Hintergrundrauschen (hält BT-Lautsprecher wach)
+pomoc.intro	Vor dem Üben %s s Startbild mit Musik, dann %s s Pause
+pomoc.vsechna	Das ganze Wörterbuch durchgehen
+pomoc.pocet	Anzahl der Wörter (Standard 30)
+pomoc.pauza	Pause zwischen Wörtern in Sekunden (Standard 3)
+pomoc.ovladani_i	Steuerung im Fenster: [Enter] kenne ich · [n] kenne ich nicht · [Leertaste] Wiedergabe/Pause · [z] nochmal · [x] falscher Satz · [q] Ende
+pomoc.ovladani_p	Steuerung im Fenster: [Leertaste] Pause / weiter · [z] nochmal · [x] falscher Satz · [q] Ende
+pomoc.priklady	Beispiele:
+pomoc.priklad1	30 deutsche Wörter, fragt nach der Reihenfolge
+pomoc.priklad2	50 englische, zuerst deine Sprache
+pomoc.priklad3	ganzes Spanisch für Deutschsprachige
+view.nacitam	Wird geladen…
+view.vyber_napoveda	[↑↓] auswählen · [Enter] bestätigen · [1–9] direkt · [Esc] abbrechen
+desktop.nazev	Vokabeln
+desktop.popis	Vokabeln interaktiv üben (kenne ich / kenne ich nicht)
+desktop.poslech	Vokabeln – Hören
+desktop.popis_poslech	Vokabeln mit Beispielsätzen passiv hören
+desktop.klicova	Sprachen;lernen;Wörter;

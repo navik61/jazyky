@@ -1,0 +1,99 @@
+# Texty rozhraní (ru) — generuje nastroje/texty-rozhrani.py, ruční úpravy dělej tam
+app	Слова
+jazyk.cs	Чешский
+jazyk.de	Немецкий
+jazyk.en	Английский
+jazyk.it	Итальянский
+jazyk.fr	Французский
+jazyk.es	Испанский
+jazyk.ru	Русский
+golf	Гольф
+chyba	Ошибка: %s
+chyba.argument	Неизвестный аргумент: %s
+chyba.jazyk	Неизвестный язык: %s (варианты: %s)
+chyba.stejny	Изучаемый язык совпадает с твоим языком (%s). Выбери другой или смени свой с помощью --z.
+chyba.prazdny	В словаре пока нет слов для пары %s → %s.
+chyba.zadna_neznama	У тебя пока нет сохранённых незнакомых слов (%s).
+chyba.pocet	--count должно быть целым положительным числом (указано: '%s')
+chyba.pauza	--pause должно быть числом секунд (указано: '%s')
+preruseno	Прервано.
+okno.bezi	Работает в прозрачном окне ([q] в окне = выход).
+vyber.jazyk	Что ты хочешь учить?
+vyber.poradi	Порядок
+neznama.polozka	Незнакомые: %s (%s)
+neznama.nazev	Незнакомые: %s
+nastaveni.zdroj	💬 Мой язык: %s
+nastaveni.locale	🌐 Язык интерфейса: %s
+nastaveni.zdroj.vyzva	Мой родной язык
+nastaveni.locale.vyzva	Язык интерфейса
+nabidka.volba	Выбор [1-%s, Enter=1]: 
+nabidka.neplatna	Неверный выбор: %s
+nabidka.neni	Нечем показать меню: установи uv (меню GTK) или rofi/fuzzel/wofi/zenity.
+k.mezera	пробел
+w.pauza	пауза
+w.pauza_nadpis	Пауза
+w.dal	дальше
+w.play	играть
+w.znovu	снова
+w.znam	знаю
+w.neznam	не знаю
+w.konec	выход
+w.chyba	ошибка
+w.chybna_fraze	ошибка в фразе
+w.fraze_oznacena	фраза отмечена
+w.oznaceno	отмечено
+kolo.zacinam	▶ Начинаю раунд %s
+kolo.slovicek	слов: %s
+kolo.hotovo	✓ Раунд завершён!
+kolo.znam	Знаю: %s/%s
+kolo.neznam	Не знаю: %s/%s
+kolo.opakovat	Повторить незнакомые (%s)?
+kolo.ano_ne	*[Enter] да* · [n] нет
+kolo.ano_ne_term	[Enter=да / n=нет]
+kolo.vyborne	🎉 Отлично! Ты знаешь все слова!
+ukonceno	Остановлено после %s слов.
+nacteno	Загружено слов: %s (%s)
+trenink.hotovo	✓ Тренировка завершена.
+zavrit.enter	[Enter] закрыть окно
+zavrit.klavesa	[любая клавиша] закрыть окно (иначе через 10 с)
+pasivni.nadpis	▶ Пассивное прослушивание: %s
+pasivni.info	Слов: %s\nПорядок: %s\nПауза: %s с
+pasivni.info_term	Слов: %s  │  Порядок: %s  │  Пауза: %s с
+hotovo	✓ Готово!
+hotovo.prehrano	Прослушано слов: %s.
+intro.text	Заставка и музыка (%s с).
+intro.napoveda	[q/Esc] на картинке = пропустить · [q] здесь = выход
+intro.napoveda_term	[Enter] пропустить · [q] выход
+intro.odpocet_nadpis	⏳ Скоро начинаем
+intro.odpocet	Тренировка начнётся через %s с.
+intro.sklada	Текст или картинка изменились,\nсоздаю новую заставку…
+intro.sklada_kratce	Заставка: создаю новую картинку…
+intro.selhalo	Заставка: не удалось создать картинку.
+intro.chybi_obrazek	Заставка: в %s нет картинки (jpg/png/webp).
+pomoc.pouziti	Использование: %s [язык] [параметры]
+pomoc.jazyky	Изучаемые языки: %s
+pomoc.volby	Параметры:
+pomoc.z	Твой родной язык: %s (сейчас %s)
+pomoc.locale	Язык интерфейса (сейчас %s)
+pomoc.swap	Сначала твой язык, потом иностранный
+pomoc.orig	Сначала иностранный, потом твой (без вопроса)
+pomoc.neznama	Только сохранённые незнакомые слова
+pomoc.bez_frazi	Не показывать и не читать примеры
+pomoc.bez_sumu	Без тихого фонового шума (не даёт BT-колонке уснуть)
+pomoc.intro	Перед тренировкой %s с заставка с музыкой, затем пауза %s с
+pomoc.vsechna	Пройти весь словарь
+pomoc.pocet	Количество слов (по умолчанию 30)
+pomoc.pauza	Пауза между словами в секундах (по умолчанию 3)
+pomoc.ovladani_i	Клавиши в окне: [Enter] знаю · [n] не знаю · [пробел] играть/пауза · [z] снова · [x] ошибка в фразе · [q] выход
+pomoc.ovladani_p	Клавиши в окне: [пробел] пауза / дальше · [z] снова · [x] ошибка в фразе · [q] выход
+pomoc.priklady	Примеры:
+pomoc.priklad1	30 немецких слов, спросит порядок
+pomoc.priklad2	50 английских, сначала твой язык
+pomoc.priklad3	весь испанский для говорящих по-немецки
+view.nacitam	Загрузка…
+view.vyber_napoveda	[↑↓] выбор · [Enter] подтвердить · [1–9] сразу · [Esc] отмена
+desktop.nazev	Слова
+desktop.popis	Интерактивная тренировка слов (знаю / не знаю)
+desktop.poslech	Слова – прослушивание
+desktop.popis_poslech	Пассивное прослушивание слов с примерами
+desktop.klicova	языки;словарь;учить;
