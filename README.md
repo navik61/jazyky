@@ -355,6 +355,10 @@ git add -A && git commit -m "popis změny" && git push
 
 Aliasy jsou mimo projekt, v `~/dotfiles`. Pravidla oken pro niri nejsou potřeba.
 
+## Licence
+
+[MIT](LICENSE). Výchozí fotka a hudba v `intro/` jsou volné dílo (viz [Intro](#intro---intro)).
+
 ## Řešení problémů
 
 - **Fráze se nezobrazuje** – zkontroluj, že je slovíčko v `fraze/<slovník>.tsv` (`grep -F 'slovo — ' fraze/*.tsv`); po změně slovníku spusť generátor.

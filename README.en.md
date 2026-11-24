@@ -349,6 +349,10 @@ For a permanent setting put it into `~/.zshrc` (`export SLOVICKA_SUM_BARVA=pink`
 
 Public repository: https://github.com/navik61/jazyky (branch `master`).
 
+## License
+
+[MIT](LICENSE). The default photo and music in `intro/` are public domain (see [Intro](#intro---intro)).
+
 ## Troubleshooting
 
 - **No sentence shown** – check that the word is in `fraze/<dictionary>.tsv` (`grep -F 'word — ' fraze/*.tsv`); after changing a dictionary run the generator.
