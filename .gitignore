@@ -15,3 +15,6 @@ intro/.vygenerovano/
 
 # Uložená neznámá slovíčka (osobní, vznikají při procvičování)
 neznama/
+
+# Lokální kontext pro Claude Code (osobní cesty)
+CLAUDE.md
