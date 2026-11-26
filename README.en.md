@@ -111,6 +111,7 @@ ln -s ~/Projects/Jazyky/slovicka-pasivni.sh ~/.local/bin/slovicka-pasivni
 | `--neznama`, `--unknown`, `-u` | only saved unknown words | both |
 | `--bez-frazi`, `--no-phrases` | do not show or read example sentences | both |
 | `--bez-sumu`, `--no-noise` | no quiet background noise (see [Background sound](#background-sound)) | both |
+| `--gr`, `gr`, `--grammar`, `-g` | grammar instead of words, see [Grammar](#grammar---gr) (en ↔ cs for now) | interactive |
 | `--intro`, `intro` | intro picture with music before practice (see [Intro](#intro---intro)) | both |
 | `--vsechna`, `--all`, `-a` | go through the whole dictionary | passive |
 | `--pocet N`, `--count N`, `-n N` | number of words (default 30) | passive |
@@ -153,7 +154,8 @@ Voices: Czech uses `edge-tts` (online), the other languages Piper (offline). The
 | `intro.txt`, `intro.<code>.txt` | text of the intro picture (Czech / interface language) – one sentence per line |
 | `intro/` | photo and music for the intro; `intro/.vygenerovano/` = composed pictures (generated) |
 | `intro-obrazek.py` | composes the intro picture (Pillow via `uv run --script`) |
-| `neznama/<yours>-<target>.txt` | saved unknown words (generated, not in git) |
+| `neznama/<yours>-<target>.txt` | saved unknown words (generated, not in git); for grammar `<yours>-<target>-gr.txt` |
+| `gramatika/<target>-<source>.tsv` | grammar forms: sentences and word-by-word translation (`en-cs.tsv`, `cs-en.tsv`) |
 | `generuj-claude.py` | fills in words and sentences via the Claude Batch API |
 | `nainstaluj-spoustece.sh` | creates application-menu entries (`.desktop`, translated) |
 | `nastroje/texty-rozhrani.py` | source of the interface texts in all languages |
@@ -185,6 +187,26 @@ o00177	klíč	der Schlüssel	the key	la chiave	la clé	la llave	ключ
 | `ru` | Russian | Piper `ru_RU-irina-medium` |
 
 Download Piper voices from https://huggingface.co/rhasspy/piper-voices (both `.onnx` and `.onnx.json`) into `~/.local/share/piper/`. A new language is added in `spolecne.sh` (`JAZYKY`, `VLAJKY`, `TTS_MODELY`), as a new column in `slovnik/*.tsv` and `fraze/*.tsv`, in `generuj-claude.py` (`JAZYKY`, `NAZEV`) and in `nastroje/texty-rozhrani.py` (a new column of texts).
+
+## Grammar (`--gr`)
+
+```bash
+jaz gr              # target chosen from your language (cs → English)
+jaz gr --z en       # native English → Czech
+jaz gr --neznama    # only saved unknown forms
+```
+
+Practises **grammatical forms** of the target language. Each card has three parts, always in this order:
+
+1. a sentence in **your language**,
+2. the sentence in the **target language**,
+3. a **word-by-word translation** (`≈`, italic) into your language – it shows how the target language *thinks* (e.g. `I have lived here for five years` → `Já mám žil tady po pět rok`).
+
+The header names the form (Present Perfect – for, Conditional 2, Locative – o …). All three parts are read aloud. Keys are the same as for words (`Enter` known, `n` unknown, space pause, `z` repeat, `q` quit); the order is fixed and `--swap` is ignored. A round has 30 items; unknown ones are repeated and saved to `neznama/<yours>-<target>-gr.txt`.
+
+**Data** (`gramatika/<target>-<source>.tsv`, columns `id`, `tvar` (form name), sentence in your language, target sentence, word-by-word translation): `en-cs.tsv` has 100 English sentences (tenses, passive, modals, conditionals, reported speech, questions, gerund vs. infinitive, comparison, relative clauses…), `cs-en.tsv` has 68 Czech ones (tenses, aspect, conditional, imperative, reflexives, verbs of motion, **all seven cases**, numerals, agreement, subordinate clauses…). To add another language create `gramatika/<target>-<source>.tsv` with the same columns – `--gr` finds it automatically.
+
+**Notation in the word-by-word line:** `[the]`, `[a]`, `[do]`, `[did]` = word without an equivalent in your language; `works-s`-style suffixes and `a-b` = joined words; `a_b` = one word rendered by several; for Czech `(I)-work` = dropped pronoun, `.loc` `.acc` … = case, `.pf`/`.impf` = aspect, `.m .f .n .pl` = gender/number. Notation is skipped when reading aloud.
 
 ## Example sentences
 

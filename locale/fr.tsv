@@ -81,6 +81,9 @@ pomoc.neznama	Seulement les mots inconnus enregistrés
 pomoc.bez_frazi	Ne pas afficher ni lire les phrases d'exemple
 pomoc.bez_sumu	Sans léger bruit de fond (garde l'enceinte BT éveillée)
 pomoc.intro	Avant l'entraînement, %s s d'image avec musique, puis %s s de pause
+pomoc.gr	Grammaire : formes grammaticales – ta langue, langue cible, traduction mot à mot (pour l'instant en ↔ cs)
+gr.nazev	Grammaire
+gr.neni	La grammaire n'est pas encore disponible pour ta langue (%s) – seulement anglais et tchèque.
 pomoc.vsechna	Parcourir tout le dictionnaire
 pomoc.pocet	Nombre de mots (30 par défaut)
 pomoc.pauza	Pause entre les mots en secondes (3 par défaut)

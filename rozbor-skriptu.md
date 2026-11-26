@@ -2059,6 +2059,12 @@ def ukazky_stylu(pojmy: list[dict], jazyk: str, pocet: int = 8) -> str:
 
 **Nejdřív zkouška, pak rozhodnutí.** Odhad pro všech 7 mateřských jazyků vyšel řádově jinak než první odhad z hlavy (~50 USD místo ~15 USD se Sonnetem, ~3 USD s Haiku). Před ostrým během proto proběhla zkouška obou modelů na 8 větách (`--limit 8`, za haléře) a rozhodnutí padlo podle skutečných výsledků, ne podle dojmu.
 
+## 60a. Gramatika (`--gr`): stejná kostra, jiná data
+
+Nový režim nepotřeboval nový skript. Kolo, klávesy, čtení na pozadí i ukládání neznámých pracují s „řádky“ a jejich `id`, takže `_nacti_gramatiku` jen naplní `RADKY` identifikátory vět a `RADEK_ID` / `ID_RADEK` jako identitu (`RADEK_ID[g001]=g001`). Zbytek se liší jen na třech místech: `_zobraz_slovicko` a `_precti_znovu` se na začátku větví podle `GR` a `_soubor_neznamych` přidá příponu `-gr`. Věta s větvením na začátku funkce (`if … ; then _zobraz_gramatiku …; return; fi`) je nejlevnější způsob, jak do hotové funkce přidat režim bez přepisování.
+
+Data jsou asociativní pole podle `id` (`GR_TVAR`, `GR_ZDROJ`, `GR_CIL`, `GR_DOSL`), načtená smyčkou `while IFS=$'\t' read -r …` – stejný vzor jako u slovníku. Doslovný překlad se pro čtení čistí přes `sed -E` (značky pádů a závorky pryč). Cíl se bez zadání vybere z existujících souborů `gramatika/*-<zdroj>.tsv` (`_gr_cile`): jediný možný se vezme rovnou, víc možností → nabídka.
+
 ## 60. Cvičení k části 5
 
 <details><summary><b>1. Nový jazyk: polština</b></summary>

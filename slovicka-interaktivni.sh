@@ -3,7 +3,8 @@
 # slovicka-interaktivni.sh
 # Interaktivní procvičování slovíček s TTS v průhledném okně (slovicka-view.py)
 # Použití: ./slovicka-interaktivni.sh [cíl] [--z jazyk] [--locale jazyk] [--swap|--orig] [--neznama]
-#                                     [--bez-frazi] [--bez-sumu] [--intro]
+#                                     [--bez-frazi] [--bez-sumu] [--intro] [--gr]
+# --gr = gramatika: procvičování gramatických tvarů (mateřský jazyk → cílový → doslovný překlad)
 # ================================================================
 
 # Bez grafické relace (cron, systemd) by mpv nenašel PipeWire
@@ -32,6 +33,8 @@ BEZ_SUMU=0
 # 1 = před procvičováním intro s obrázkem a hudbou (--intro)
 INTRO=0
 
+# GR (spolecne.sh) = 1: místo slovíček se procvičují gramatické tvary (--gr)
+
 # Stav aktuálního slovíčka (čtení běží na pozadí, klávesy se obsluhují mezitím)
 AKT_RADEK=""
 AKT_JAZYK=""
@@ -54,7 +57,8 @@ _pouziti() {
         "--neznama, --unknown, -u" "$(_t pomoc.neznama)" \
         "--bez-frazi, --no-phrases" "$(_t pomoc.bez_frazi)" \
         "--bez-sumu, --no-noise" "$(_t pomoc.bez_sumu)" \
-        "--intro, intro" "$(_t pomoc.intro "$INTRO_DELKA" "$INTRO_PAUZA")"
+        "--intro, intro" "$(_t pomoc.intro "$INTRO_DELKA" "$INTRO_PAUZA")" \
+        "--gr, --gramatika, -g" "$(_t pomoc.gr)"
     echo
     _t pomoc.ovladani_i; echo
     exit "${1:-0}"
@@ -69,8 +73,24 @@ _uklid() {
     _uklid_tts
 }
 
+# Gramatika: 1. věta v mateřském jazyce, 2. v cílovém, 3. doslovný překlad (způsob myšlení)
+_zobraz_gramatiku() {
+    local id="$1" jazyk="$2" cislo="$3" celkem="$4"
+    local zdroj="${GR_ZDROJ[$id]}" cil="${GR_CIL[$id]}" dosl="${GR_DOSL[$id]}"
+    local titulek="${VLAJKY[$ZDROJ]} $cislo/$celkem  →  ${VLAJKY[$(_kod "$jazyk")]}"
+    local nazev
+    nazev="$(_t gr.nazev)  ·  ${GR_TVAR[$id]}"
+    [[ "$JEN_NEZNAMA" == "1" ]] && nazev=$(_t neznama.nazev "$nazev")
+
+    _view KARTA "$titulek  │  $nazev" "$zdroj" "$cil" "≈ $dosl" ""
+    clear
+    _vypis_kartu "$titulek" "$nazev" "$zdroj" "$cil" "≈ $dosl" ""
+    _precti "$zdroj" "$ZDROJ" "$cil" "$jazyk" "$(_gr_dosl_tts "$dosl")" "$ZDROJ"
+}
+
 _zobraz_slovicko() {
     local radek="$1" jazyk="$2" swap="$3" cislo="$4" celkem="$5"
+    if [[ "$GR" == "1" ]]; then _zobraz_gramatiku "$radek" "$jazyk" "$cislo" "$celkem"; return; fi
     local orig="${radek%% — *}" cz="${radek#* — }"
     local fraze="" fraze_cs=""
     if [[ "$BEZ_FRAZI" == "0" ]]; then
@@ -103,6 +123,11 @@ _zobraz_slovicko() {
 # Přehraje aktuální slovíčko znovu (karta zůstává)
 _precti_znovu() {
     local radek="$1" jazyk="$2" swap="$3"
+    if [[ "$GR" == "1" ]]; then
+        _precti "${GR_ZDROJ[$radek]}" "$ZDROJ" "${GR_CIL[$radek]}" "$jazyk" \
+                "$(_gr_dosl_tts "${GR_DOSL[$radek]}")" "$ZDROJ"
+        return
+    fi
     local orig="${radek%% — *}" cz="${radek#* — }" fraze=""
     [[ "$BEZ_FRAZI" == "0" ]] && fraze="${FRAZE[$radek]:-}"
     if [[ "$swap" == "1" ]]; then
@@ -297,6 +322,7 @@ main() {
             --pruhledne|-t) ;;   # dřív volba průhledného okna, teď výchozí
             --bez-sumu|--no-noise) BEZ_SUMU=1 ;;
             --intro|intro) INTRO=1 ;;
+            --gr|gr|--gramatika|--grammar|-g) GR=1 ;;
             -h|--help) _pouziti 0 ;;
             *)
                 if _je_jazyk "${args[i]}"; then
@@ -308,6 +334,13 @@ main() {
         esac
         (( ++i ))
     done
+
+    # Gramatika: pořadí je pevné (mateřský → cílový → doslovně), cíl podle dostupných dat
+    if [[ "$GR" == "1" ]]; then
+        swap="0"; poradi_zadano="1"
+        [[ -n "$jazyk" ]] || jazyk=$(_gr_vyber_cil) || exit $?
+        [[ -n "$jazyk" ]] || exit 0
+    fi
 
     # Výběr jazyka (terminál, GTK nebo rofi…), včetně uložených neznámých a nastavení
     if [[ -z "$jazyk" ]]; then
@@ -325,7 +358,13 @@ main() {
         [[ -z "$swap" ]] && exit 0
     fi
 
-    _nacti_slovnik "$jazyk"
+    if [[ "$GR" == "1" ]]; then
+        [[ "$jazyk" == "$(_kod "$jazyk")" && -f "$(_gr_soubor "$jazyk")" ]] \
+            || _chyba "$(_t gr.neni "$(_nazev_jazyka "$ZDROJ")")"
+        _nacti_gramatiku "$jazyk"
+    else
+        _nacti_slovnik "$jazyk"
+    fi
     (( ${#RADKY[@]} )) || _chyba "$(_t chyba.prazdny "$(_nazev "$jazyk")" "$(_nazev_jazyka "$ZDROJ")")"
     if [[ "$JEN_NEZNAMA" == "1" && ! -s "$(_soubor_neznamych "$jazyk")" ]]; then
         _chyba "$(_t chyba.zadna_neznama "$(_nazev "$jazyk")")"
@@ -338,6 +377,7 @@ main() {
     [[ "$BEZ_FRAZI" == "1" ]] && argumenty+=(--bez-frazi)
     [[ "$BEZ_SUMU" == "1" ]] && argumenty+=(--bez-sumu)
     [[ "$INTRO" == "1" ]] && argumenty+=(--intro)
+    [[ "$GR" == "1" ]] && argumenty+=(--gr)
     if _lze_otevrit_okno; then
         _spust_v_okne radky "${argumenty[@]}"
         trap - EXIT
@@ -345,7 +385,7 @@ main() {
     fi
 
     [[ "$INTRO" == "1" ]] && _intro_spust
-    [[ "$BEZ_FRAZI" == "0" ]] && _nacti_fraze "$jazyk"
+    [[ "$BEZ_FRAZI" == "0" && "$GR" == "0" ]] && _nacti_fraze "$jazyk"
     _pozadi_spust "$BEZ_SUMU"
 
     local -a slovicka

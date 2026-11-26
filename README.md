@@ -112,6 +112,7 @@ ln -s ~/Projects/Jazyky/slovicka-pasivni.sh ~/.local/bin/slovicka-pasivni
 | `--bez-frazi`, `--no-phrases` | nezobrazovat a nečíst vzorové věty | oba |
 | `--bez-sumu`, `--no-noise` | bez tichého šumu na pozadí (viz [Zvuk na pozadí](#zvuk-na-pozadí)) | oba |
 | `--intro`, `intro` | před procvičováním úvodní obrázek s hudbou (viz [Intro](#intro---intro)) | oba |
+| `--gr`, `gr`, `--gramatika`, `-g` | gramatika místo slovíček, viz [Gramatika](#gramatika---gr) (zatím en ↔ cs) | interaktivní |
 | `--vsechna`, `--all`, `-a` | projít celý slovník | pasivní |
 | `--pocet N`, `--count N`, `-n N` | počet slovíček (výchozí 30) | pasivní |
 | `--pauza N`, `--pause N`, `-p N` | pauza mezi slovíčky v sekundách, i desetinná (výchozí 3) | pasivní |
@@ -148,12 +149,13 @@ Hlasy: čeština `edge-tts` (online), ostatní jazyky Piper (offline). Čte se s
 | `slovicka-view.py` | průhledné okno, nabídka a dialog intra (GTK4 + Pango), spouští se přes `uv run --script` |
 | `slovnik/obecne.tsv`, `slovnik/golf.tsv` | slovník pojmů – viz [Slovník pojmů](#slovník-pojmů) |
 | `fraze/<sada>-<jazyk>.tsv` | vzorové věty v cílovém jazyce a jejich překlady |
+| `gramatika/<cíl>-<zdroj>.tsv` | gramatické tvary: věty a doslovný překlad (`en-cs.tsv`, `cs-en.tsv`) |
 | `fraze/chybne.tsv` | věty označené klávesou `x` (vzniká sám) |
 | `locale/<kód>.tsv` | texty rozhraní (generuje `nastroje/texty-rozhrani.py`) |
 | `intro.txt`, `intro.<kód>.txt` | text úvodního obrázku (česky / v jazyce rozhraní) – každý řádek = jedna věta |
 | `intro/` | fotka a hudba pro intro; `intro/.vygenerovano/` = složené obrázky (vznikají samy) |
 | `intro-obrazek.py` | skládá úvodní obrázek (Pillow přes `uv run --script`) |
-| `neznama/<tvůj>-<cíl>.txt` | uložená neznámá slovíčka (vznikají samy, nejsou v gitu) |
+| `neznama/<tvůj>-<cíl>.txt` | uložená neznámá slovíčka (vznikají samy, nejsou v gitu); u gramatiky `<tvůj>-<cíl>-gr.txt` |
 | `generuj-claude.py` | doplňuje slova a věty přes Claude Batch API |
 | `nainstaluj-spoustece.sh` | vytvoří položky v nabídce aplikací (`.desktop`, přeložené) |
 | `nastroje/texty-rozhrani.py` | zdroj textů rozhraní ve všech jazycích |
@@ -229,6 +231,40 @@ Doplňuje jen to, co chybí – po přidání pojmů stačí spustit znovu. Pou�
 - Přihlášení – jedno z: `ant auth login` (profil Console, výchozí), nebo API klíč v `~/.config/anthropic/api-key` (chmod 600). API klíč nedávej do `.zshrc` – Claude Code by ho začal používat místo předplatného.
 
 **Stav (24. 11. 2026):** původní české slovníky a věty (20 847 slovíček, 8,47 USD) převedeny na pojmy; doplnění na všech 7 jazyků vygeneroval Claude Sonnet 5.5 za 59,04 USD (18 497 slov, ~21 000 nových vět, ~248 000 překladů). Všech 6 555 pojmů má slovo, větu i překlady ve všech sedmi jazycích.
+
+## Gramatika (`--gr`)
+
+```bash
+jaz gr              # cs → angličtina (podle tvého jazyka; cíl se vybere sám)
+jaz gr --z en       # mateřština angličtina → čeština
+jaz gr --neznama    # jen uložené neznámé tvary
+```
+
+Procvičují se **gramatické tvary** cílového jazyka. Každá karta má tři části, vždy v tomto pořadí:
+
+1. věta v **tvém jazyce**,
+2. věta v **cílovém jazyce**,
+3. **doslovný překlad slovo od slova** (`≈`, kurzívou) do tvého jazyka – ukazuje, jak se v cílovém jazyce *myslí* (např. `I have lived here for five years` → `Já mám žil tady po pět rok`).
+
+V záhlaví je název tvaru (Present Perfect – for, Conditional 2, Lokál – o …). Čtou se všechny tři části. Ovládání je stejné jako u slovíček (`Enter` znám, `n` neznám, mezera pauza, `z` znovu, `q` konec); pořadí je pevné, `--swap` se ignoruje. Kolo má 30 tvarů, neznámé se opakují a ukládají do `neznama/<tvůj>-<cíl>-gr.txt`.
+
+**Co je v datech** (`gramatika/<cíl>-<zdroj>.tsv`, sloupce `id`, `tvar`, věta v mateřském jazyce, věta v cílovém, doslovný překlad):
+
+- `en-cs.tsv` – angličtina pro Čechy (100 vět): všechny časy (prostý, průběhový, předpřítomný, předminulý, budoucí vč. průběhových a perfekta), trpný rod, modální slovesa, podmínkové věty 0–3 a smíšené, *wish*, nepřímá řeč, otázky (podmět, předmět, dovětek, nepřímé), rozkaz, gerundium × infinitiv, stupňování, vztažné věty, členy a počitatelnost, kauzativ, frázová slovesa…
+- `cs-en.tsv` – čeština pro anglicky mluvící (68 vět): časy, vid (dokonavý × nedokonavý), kondicionál, rozkaz, zvratná slovesa, slovesa pohybu, modální a neosobní konstrukce, **všech sedm pádů** (po několika příkladech), číslovky, shoda přídavných jmen, stupňování, vedlejší věty (*že, aby, jestli*)…
+
+**Značky v doslovném překladu:**
+
+| Značka | Význam |
+|---|---|
+| `[the]`, `[a]`, `[do]`, `[did]`, `[does]` | slovo, které v tvém jazyce nemá protějšek (členy, pomocné sloveso) |
+| `pracovat-s` | koncovka 3. osoby (`works`); `ne-je` = spojené slovo |
+| `mít_rád` | jedno slovo přeložené více slovy (podtržítko) |
+| `(I)-work`, `.loc`, `.acc` … | česky: vynechané osobní zájmeno v závorce, pád a vid jako přípona (`.nom .gen .dat .acc .voc .loc .ins`, `.pf` / `.impf`, `.m .f .n`, `.pl`) |
+
+Při čtení se značky, závorky a spojovníky vynechají (`_gr_dosl_tts`).
+
+**Přidání dalšího jazyka:** vytvoř `gramatika/<cíl>-<zdroj>.tsv` se stejnými sloupci (hlavička + řádky oddělené tabulátorem); volba `--gr` ho najde sama, žádný kód se nemění.
 
 ## Neznámá slovíčka
 
@@ -331,6 +367,7 @@ Trvalé nastavení dej do `~/.zshrc` (`export SLOVICKA_SUM_BARVA=pink`). Šum ge
 ## Jak to funguje
 
 - **Cesty:** `CESTA_SLOVNIKU` se odvozuje z umístění skriptu (`readlink -f`), takže fungují symlinky i přesun složky – stačí upravit aliasy.
+- **Gramatika (`--gr`):** `_nacti_gramatiku` naplní `RADKY` identifikátory vět a `RADEK_ID` / `ID_RADEK` jako identitu, takže neznámá, kolo a opakování fungují beze změny; karta (`_zobraz_gramatiku`) posílá oknu větu v mateřském jazyce, cílovou a doslovný překlad (do pole „fráze“).
 - **Okno:** po výběru spustí skript sám sebe v `slovicka-view.py` (přes `setsid` a `uv run --script`, odpojeně od terminálu), viz [Průhledné okno](#průhledné-okno). Bez grafické relace nebo `uv` běží přímo v terminálu.
 - **Terminálový režim:** kartu skládá `_vypis_kartu` podle skutečné velikosti terminálu: věty zalomí (`fold -s`), prázdné řádky vloží jen když je místo a v krajním případě zkrátí frázi (`…`). Titulek s vlajkami a pořadím tak nikdy neodroluje. Nápovědy kláves v terminálu jsou proto zkrácené (`[x] chyba`, `[⏎] znám`), aby se vešly na jeden řádek.
 - **Ovládání (oba režimy):** čtení běží na pozadí a skript mezitím čte klávesy (`read -t`). Mezera pošle čtení `SIGSTOP` / `SIGCONT` (zastaví `piper`, `ffmpeg` i `mpv` uprostřed slova), `z` ho ukončí (`SIGTERM`) a slovíčko začne znovu. Čekání mezi slovíčky měří čas přes `$EPOCHREALTIME`.
@@ -354,12 +391,12 @@ Trvalé nastavení dej do `~/.zshrc` (`export SLOVICKA_SUM_BARVA=pink`). Šum ge
 
 **Další krok – propagační video na YouTube:**
 
-- Skript: `~/Projects/PythonSkripty/intro_jazyky.py` (popis v `~/Projects/PythonSkripty/README.md`, sekce *Propagační video k Jazykům*). Natočí jedno video: nejdřív anglická verze, pak česká, nahrává monitor DP-2 přes `wf-recorder` i se zvukem.
+- Skript: `~/Projects/PythonSkripty/intro_jazyky.py` (popis v `~/Projects/PythonSkripty/README.md`, sekce *Propagační video k Jazykům*). Prezentace v plovoucím okně (karta ve stylu aplikace): „Jazyky offline – kdy mám čas a chuť na studium“ → intro → varianty použití (s živými ukázkami) → závěr; snímek 5 s, pauza 2 s. Jedno video: nejdřív anglická verze, pak česká, nahrává monitor DP-2 přes `wf-recorder` i se zvukem.
 - Postup:
-  1. `./intro_jazyky.py --bez-nahravani` – celá zkouška bez záznamu (~6 min); během ní nesahat na klávesnici ani myš.
-  2. Zkontrolovat, že všechny klávesy došly (skript vypíše `! klávesa … neodeslána`, když okno nemělo fokus) a že časování ukázek sedí (případně `--tempo`, `--zoom`).
+  1. `./intro_jazyky.py --nahledy` – snímky a video prezentace do `$TMPDIR/intro-jazyky-nahledy` ke kontrole textů.
+  2. `./intro_jazyky.py --bez-nahravani` – celá zkouška bez záznamu; během ní nesahat na klávesnici ani myš. Zkontrolovat, že všechny klávesy došly (skript vypíše `! klávesa … neodeslána`).
   3. `./intro_jazyky.py` – ostré natáčení → `~/Videos/jazyky-intro-en-cs-<datum>.mp4`.
-- Ověřeno zatím: záznam DP-2 se zvukem, titulky obou verzí (snímky obrazovky), obnova nastavení a neznámých slovíček po ukázce. **Neověřeno:** celý běh s ukázkami po poslední úpravě (návrat fokusu přes `niri msg action focus-window`).
+- Ověřeno zatím: náhledy snímků (`--nahledy`), plovoucí okno se snímky a pauzou v niri, záznam DP-2 se zvukem, obnova nastavení a neznámých slovíček po ukázce. ukázka interaktivního procvičování přes nabídku (oprava první klávesy z `wtype`). **Neověřeno:** celý běh s ukázkami po této opravě.
 
 ## Git
 

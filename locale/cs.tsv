@@ -81,6 +81,9 @@ pomoc.neznama	Jen uložená neznámá slovíčka
 pomoc.bez_frazi	Nezobrazovat a nečíst vzorové věty
 pomoc.bez_sumu	Bez tichého šumu na pozadí (drží BT reproduktor vzhůru)
 pomoc.intro	Před procvičováním %s s úvodní obrázek s hudbou, pak %s s pauza
+pomoc.gr	Gramatika: gramatické tvary – tvůj jazyk, cílový jazyk, doslovný překlad (zatím en ↔ cs)
+gr.nazev	Gramatika
+gr.neni	Gramatika zatím není pro tvůj jazyk (%s) k dispozici – jen angličtina a čeština.
 pomoc.vsechna	Projít celý slovník
 pomoc.pocet	Počet slovíček (výchozí 30)
 pomoc.pauza	Pauza mezi slovíčky v sekundách (výchozí 3)

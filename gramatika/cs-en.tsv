@@ -1,0 +1,69 @@
+id	tvar	en	cs	doslovne
+c001	Present tense (přítomný čas) – 1. osoba	I work in a bank.	Pracuju v bance.	(I)-work in bank.loc.
+c002	Present tense – 3. osoba	She lives in Prague.	Bydlí v Praze.	(She)-lives in Prague.loc.
+c003	Present tense – zápor ne-	I do not understand.	Nerozumím.	(I)-not-understand.
+c004	Present tense – otázka intonací	Do you speak Czech?	Mluvíš česky?	(You)-speak Czech-ly?
+c005	Past tense (minulý čas) – mužský rod	I was at home yesterday. (muž)	Včera jsem byl doma.	Yesterday (I)-am was.m at-home.
+c006	Past tense – ženský rod	I was at home yesterday. (žena)	Včera jsem byla doma.	Yesterday (I)-am was.f at-home.
+c007	Past tense – množné číslo	We bought a car.	Koupili jsme auto.	Bought.pl (we)-are car.acc.
+c008	Past tense – 3. osoba bez pomocného slovesa	He read the book.	Přečetl tu knihu.	(He)-read.pf that book.acc.
+c009	Future (budoucí čas) – nedokonavé sloveso	Tomorrow I will work at home.	Zítra budu pracovat doma.	Tomorrow (I)-will work at-home.
+c010	Future – dokonavé sloveso (přítomný tvar = budoucnost)	I will call you tomorrow.	Zavolám ti zítra.	(I)-will-call.pf you.dat tomorrow.
+c011	Conditional (podmiňovací způsob)	I would like a coffee.	Dal bych si kávu.	(I)-would give myself.dat coffee.acc.
+c012	Conditional – kdyby	If I had time, I would come.	Kdybych měl čas, přišel bych.	If-(I)-would had time.acc, came.pf (I)-would.
+c013	Past conditional – minulý kondicionál	If I had known, I would have called.	Kdybych to byl věděl, byl bych zavolal.	If-(I)-would it.acc been known, been (I)-would called.
+c014	Imperative (rozkaz) – tykání	Wait here!	Počkej tady!	Wait.imp here!
+c015	Imperative – vykání a množné číslo	Please come in.	Pojďte dál, prosím.	Go.imp.pl further, please.
+c016	Imperative – zápor	Don't worry!	Neboj se!	Not-fear.imp yourself.acc!
+c017	Reflexive verbs (zvratná slovesa) – se	I am studying Czech today.	Dnes se učím česky.	Today self.acc (I)-teach Czech-ly.
+c018	Reflexive verbs – si (dativ)	I am buying myself a new phone.	Kupuju si nový telefon.	(I)-buy self.dat new phone.acc.
+c019	Vid nedokonavý – probíhající děj	I was writing a letter.	Psal jsem dopis.	Wrote.impf (I)-am letter.acc.
+c020	Vid dokonavý – dokončený děj	I wrote the letter.	Napsal jsem ten dopis.	Wrote.pf (I)-am that letter.acc.
+c021	Slovesa pohybu – určitá (jdu)	I am going to school (right now).	Jdu do školy.	(I)-go.now into school.gen.
+c022	Slovesa pohybu – neurčitá (chodím)	I go to school every day.	Chodím do školy každý den.	(I)-go.habitually into school.gen every day.acc.
+c023	Modální sloveso – muset	I have to go.	Musím jít.	(I)-must go.
+c024	Modální sloveso – moct	May I come in?	Můžu vstoupit?	(I)-can enter?
+c025	Modální sloveso – chtít	I want to sleep.	Chci spát.	(I)-want sleep.
+c026	Modální sloveso – smět	You are not allowed to smoke here.	Tady nesmíš kouřit.	Here (you)-not-may smoke.
+c027	Dativ pocitů – je mi	I am cold.	Je mi zima.	Is me.dat cold.
+c028	Dativ – líbit se	I like this film.	Ten film se mi líbí.	That film.nom self me.dat pleases.
+c029	Dativ – chybět	I miss you.	Chybíš mi.	(You)-are-missing me.dat.
+c030	Dvojitý zápor	Nobody knows anything.	Nikdo nic neví.	Nobody nothing not-knows.
+c031	Trpný rod (passive)	The house was built in 1990.	Dům byl postaven v roce 1990.	House.nom was built in year.loc 1990.
+c032	Zvratné pasivum	Czech is spoken here.	Tady se mluví česky.	Here self speaks Czech-ly.
+c033	Nominativ (1. pád)	This is my friend.	To je můj kamarád.	This is my friend.nom.
+c034	Genitiv (2. pád) – bez	Coffee without milk.	Káva bez mléka.	Coffee without milk.gen.
+c035	Genitiv – míra, množství	I would like a glass of water.	Dal bych si sklenici vody.	(I)-would give myself.dat glass.acc water.gen.
+c036	Genitiv – přivlastnění	This is my brother's car.	To je auto mého bratra.	This is car.nom my.gen brother.gen.
+c037	Genitiv – z / do / od	I am from Prague.	Jsem z Prahy.	(I)-am from Prague.gen.
+c038	Dativ (3. pád) – komu	I give the book to my brother.	Dávám knihu bratrovi.	(I)-give book.acc brother.dat.
+c039	Dativ – k	I am going to the doctor.	Jdu k doktorovi.	(I)-go to doctor.dat.
+c040	Akuzativ (4. pád) – životné	I see a dog.	Vidím psa.	(I)-see dog.acc.
+c041	Akuzativ – neživotné	I am reading a book.	Čtu knihu.	(I)-read book.acc.
+c042	Akuzativ – na / pro	I am waiting for the bus.	Čekám na autobus.	(I)-wait for bus.acc.
+c043	Vokativ (5. pád) – oslovení	Peter, come here!	Petře, pojď sem!	Peter.voc, come.imp here!
+c044	Vokativ – pan	Good day, Mr Novák.	Dobrý den, pane Nováku.	Good day, mister.voc Novák.voc.
+c045	Lokál (6. pád) – v / na	I live in Prague.	Bydlím v Praze.	(I)-live in Prague.loc.
+c046	Lokál – o	We are talking about work.	Mluvíme o práci.	(We)-talk about work.loc.
+c047	Instrumentál (7. pád) – s	I am going to the cinema with a friend.	Jdu do kina s kamarádem.	(I)-go into cinema.gen with friend.ins.
+c048	Instrumentál – být kým	He wants to be a doctor.	Chce být lékařem.	(He)-wants be doctor.ins.
+c049	Instrumentál – prostředek	I travel by train.	Cestuju vlakem.	(I)-travel train.ins.
+c050	Instrumentál – před / za / nad	The car is standing in front of the house.	Auto stojí před domem.	Car.nom stands before house.ins.
+c051	Číslovky 2–4	I have two brothers.	Mám dva bratry.	(I)-have two brother.acc.pl.
+c052	Číslovky 5 a více – genitiv množný	There are five people in the room.	V pokoji je pět lidí.	In room.loc is five people.gen.pl.
+c053	Číslovka jeden – shoda v rodě	I have one brother and one sister.	Mám jednoho bratra a jednu sestru.	(I)-have one.acc brother.acc and one.acc sister.acc.
+c054	Přídavná jména – shoda v rodě	A good film, a good book, a good city.	Dobrý film, dobrá kniha, dobré město.	Good.m film, good.f book, good.n city.
+c055	Komparativ	This film is better than that book.	Tento film je lepší než ta kniha.	This film.nom is better than that book.nom.
+c056	Superlativ	It is the most beautiful city.	Je to nejkrásnější město.	(It)-is it most-beautiful city.
+c057	Zvratné přivlastňování – svůj	I am taking my book.	Beru svou knihu.	(I)-take own.reflexive book.acc.
+c058	Vedlejší věta – že	He said that he would come.	Řekl, že přijde.	(He)-said that (he)-will-come.
+c059	Vedlejší věta – aby	I want you to come.	Chci, abys přišel.	(I)-want, so-that-(you) came.
+c060	Vedlejší věta – jestli	I do not know if he is at home.	Nevím, jestli je doma.	(I)-not-know whether (he)-is at-home.
+c061	Tázací slova a zvratné se	Why are you laughing?	Proč se směješ?	Why self.acc (you)-laugh?
+c062	Zvratné se – pozdrav	How are you?	Jak se máš?	How self.acc (you)-have?
+c063	Neosobní sloveso – počasí	It is raining.	Prší.	(It)-rains.
+c064	Mít rád	I like coffee.	Mám rád kávu.	(I)-have glad coffee.acc.
+c065	Čas na hodinách	It is half past three.	Je půl čtvrté.	(It)-is half fourth.
+c066	Věk – dativ	I am thirty years old.	Je mi třicet let.	Is me.dat thirty years.gen.pl.
+c067	Datum – genitiv	Today is the fifth of May.	Dnes je pátého května.	Today is fifth.gen May.gen.
+c068	Dny v týdnu – v + akuzativ	On Monday I work.	V pondělí pracuju.	On Monday.acc (I)-work.

@@ -81,6 +81,9 @@ pomoc.neznama	Only saved unknown words
 pomoc.bez_frazi	Do not show or read example sentences
 pomoc.bez_sumu	No quiet background noise (keeps a BT speaker awake)
 pomoc.intro	Intro picture with music for %s s before practice, then a %s s pause
+pomoc.gr	Grammar: grammatical forms – your language, target language, word-by-word translation (en ↔ cs for now)
+gr.nazev	Grammar
+gr.neni	Grammar is not available for your language (%s) yet – only English and Czech.
 pomoc.vsechna	Go through the whole dictionary
 pomoc.pocet	Number of words (default 30)
 pomoc.pauza	Pause between words in seconds (default 3)

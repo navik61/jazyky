@@ -71,6 +71,12 @@ readonly SOUBOR_CHYBNYCH="$ADRESAR_FRAZI/chybne.tsv"
 # Nastavení mezi spuštěními (mateřský jazyk, jazyk rozhraní): klic=hodnota
 readonly SOUBOR_NASTAVENI="${XDG_CONFIG_HOME:-$HOME/.config}/slovicka/nastaveni"
 
+# 1 = režim gramatiky (--gr): místo slovíček se procvičují gramatické tvary (gramatika/<cíl>-<zdroj>.tsv)
+GR=0
+readonly ADRESAR_GRAMATIKY="$CESTA_SLOVNIKU/gramatika"
+# Gramatika podle id: název tvaru, věta v mateřském jazyce, věta v cílovém jazyce, doslovný překlad
+declare -A GR_TVAR=() GR_ZDROJ=() GR_CIL=() GR_DOSL=()
+
 # Načtený slovník: řádek „cílové slovo — slovo v mateřském jazyce“ ↔ id pojmu
 declare -A RADEK_ID=() ID_RADEK=()
 RADKY=()
@@ -301,6 +307,52 @@ _vypis_kartu() {
     for radek in "${r_cs[@]}"; do printf '\e[0;90m  %s\e[0m\n' "$radek"; done
     (( mezera_konec )) && echo
     return 0
+}
+
+# ── Gramatika (--gr) ────────────────────────────────────────────
+# gramatika/<cíl>-<zdroj>.tsv: id, tvar, věta v mateřském jazyce, věta v cílovém jazyce, doslovný překlad
+# (slovo od slova v mateřském jazyce = způsob myšlení v cílovém jazyce). Zatím en↔cs.
+_gr_soubor() {
+    printf '%s/%s-%s.tsv' "$ADRESAR_GRAMATIKY" "$(_kod "$1")" "$ZDROJ"
+}
+
+# Cíle, pro které existují data gramatiky k mateřskému jazyku ZDROJ
+_gr_cile() {
+    local j
+    for j in "${JAZYKY[@]}"; do
+        [[ "$j" != "$ZDROJ" && -f "$(_gr_soubor "$j")" ]] && printf '%s\n' "$j"
+    done
+}
+
+# Vypíše cíl gramatiky: jediný možný rovnou, jinak nabídka. Bez dat chyba.
+_gr_vyber_cil() {
+    local -a cile
+    local j
+    mapfile -t cile < <(_gr_cile)
+    (( ${#cile[@]} )) || _chyba "$(_t gr.neni "$(_nazev_jazyka "$ZDROJ")")"
+    if (( ${#cile[@]} == 1 )); then printf '%s' "${cile[0]}"; return; fi
+    local -a polozky=()
+    for j in "${cile[@]}"; do polozky+=("$(_nazev "$j")"); done
+    _volba_z "$(_vyber "$(_t vyber.jazyk)" "${polozky[@]}")" "${cile[@]}"
+}
+
+# _nacti_gramatiku cíl — RADKY = id vět; RADEK_ID / ID_RADEK jsou identita,
+# takže neznámá (neznama/<zdroj>-<cíl>-gr.txt) fungují stejně jako u slovíček.
+_nacti_gramatiku() {
+    local id tvar zdroj cil dosl
+    RADKY=(); RADEK_ID=(); ID_RADEK=()
+    GR_TVAR=(); GR_ZDROJ=(); GR_CIL=(); GR_DOSL=()
+    [[ -f "$(_gr_soubor "$1")" ]] || return 0
+    while IFS=$'\t' read -r id tvar zdroj cil dosl; do
+        [[ -z "$id" || "$id" == id || "$id" == \#* ]] && continue
+        RADKY+=("$id"); RADEK_ID["$id"]="$id"; ID_RADEK["$id"]="$id"
+        GR_TVAR["$id"]="$tvar"; GR_ZDROJ["$id"]="$zdroj"; GR_CIL["$id"]="$cil"; GR_DOSL["$id"]="$dosl"
+    done < "$(_gr_soubor "$1")"
+}
+
+# Doslovný překlad pro čtení: bez značek (.acc, .pf …), závorek a spojovníků
+_gr_dosl_tts() {
+    printf '%s' "$1" | sed -E 's/\.(nom|gen|dat|acc|voc|loc|ins|pf|impf|imp|pl|m|f|n|now|habitually|reflexive)\b//g; s/[][()]//g; s/[-_]/ /g'
 }
 
 # ── Průhledné okno ──────────────────────────────────────────────
@@ -582,7 +634,7 @@ _pozadi_zastav() {
 # neznama/<mateřský>-<cíl>.txt — id pojmů, jedno na řádek
 
 _soubor_neznamych() {
-    printf '%s/%s-%s.txt' "$ADRESAR_NEZNAMYCH" "$ZDROJ" "$1"
+    printf '%s/%s-%s%s.txt' "$ADRESAR_NEZNAMYCH" "$ZDROJ" "$1" "$([[ "$GR" == "1" ]] && printf -- '-gr')"
 }
 
 # _neznama_pridej cíl "řádek slovníku" ...   — přidá (bez duplicit)
