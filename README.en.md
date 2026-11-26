@@ -312,6 +312,7 @@ The picture is shown by `slovicka-view.py` as a dialog above the card (command `
 
 All windows are GTK4, so they should work in any Wayland compositor (GNOME, KDE, niri, sway, Hyprland…) and on X11. Nothing is tied to niri. **Only niri has been tested so far; GNOME, KDE, Hyprland, sway and X11 are untested.**
 
+- **Terminal outside the session (tty, ssh, `tmux`):** when neither `WAYLAND_DISPLAY` nor `DISPLAY` is set, the script finds the `$XDG_RUNTIME_DIR/wayland-N` socket itself and the window opens. Force text mode with `SLOVICKA_V_TERMINALU=1`.
 - **Floating windows:** the card and the menu have a fixed size, the intro is a dialog above the card. GNOME and KDE show them normally, niri opens them floating by itself. For other tiling compositors that tile fixed-size windows, one rule is enough:
 
   ```sh

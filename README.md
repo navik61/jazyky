@@ -326,6 +326,7 @@ Obrázek ukazuje `slovicka-view.py` jako dialog nad kartou (příkaz `INTRO`), h
 
 Všechna okna jsou GTK4, takže by měla fungovat v libovolném Wayland kompozitoru (GNOME, KDE, niri, sway, Hyprland…) i na X11. Nic není vázané na niri. **Otestováno je zatím jen niri; GNOME, KDE, Hyprland, sway a X11 netestovány.**
 
+- **Terminál mimo relaci (tty, ssh, `tmux`):** když chybí `WAYLAND_DISPLAY` i `DISPLAY`, skript sám najde socket `$XDG_RUNTIME_DIR/wayland-N` a okno se otevře. Textový režim vynutíš `SLOVICKA_V_TERMINALU=1`.
 - **Plovoucí okna:** karta a nabídka mají pevnou velikost, intro je dialog nad kartou. GNOME a KDE je zobrazí normálně, niri je otevře jako plovoucí samo. Pro jiné dlaždicové kompozitory, které okno s pevnou velikostí dají do dlaždic, stačí jedno pravidlo:
 
   ```sh

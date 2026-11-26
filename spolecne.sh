@@ -8,6 +8,19 @@
 # ================================================================
 
 # ── Konfigurace ─────────────────────────────────────────────────
+# Bez grafické proměnné (tty, ssh, terminál mimo relaci) zkusit najít běžící Wayland socket,
+# aby se otevřelo okno místo textového režimu. Vyloučené: SLOVICKA_V_TERMINALU=1.
+if [[ -z "${WAYLAND_DISPLAY:-}${DISPLAY:-}" && "${SLOVICKA_V_TERMINALU:-0}" != "1" ]]; then
+    for _sock in "${XDG_RUNTIME_DIR:-/run/user/$UID}"/wayland-[0-9]*; do
+        if [[ -S "$_sock" ]]; then
+            WAYLAND_DISPLAY="${_sock##*/}"; export WAYLAND_DISPLAY
+            export XDG_RUNTIME_DIR="${XDG_RUNTIME_DIR:-/run/user/$UID}"
+            break
+        fi
+    done
+    unset _sock
+fi
+
 # Piper (TTS): SLOVICKA_PIPER, jinak instalace přes `uv tool install piper-tts`, jinak piper z PATH.
 # Pozor: na některých distribucích je „piper“ i nástroj na herní myši — proto má uv přednost.
 _najdi_piper() {
