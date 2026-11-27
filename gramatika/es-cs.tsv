@@ -1,0 +1,131 @@
+id	tvar	cs	es	doslovne
+g001	Presente – skupina -ar	Mluvím španělsky.	Hablo español.	(já)-mluvit španělština.
+g002	Presente – skupina -er	Čtu knihu.	Leo un libro.	(já)-číst [a] kniha.
+g003	Presente – skupina -ir	Bydlím v Madridu.	Vivo en Madrid.	(já)-bydlet v Madrid.
+g004	Presente – ser	Jsem učitel.	Soy profesor.	(já)-jsem.ser učitel.
+g005	Presente – estar	Jsem unavený.	Estoy cansado.	(já)-jsem.estar unavený.
+g006	Ser × estar	Je vysoký, ale dnes je smutný.	Es alto, pero hoy está triste.	(on)-je.ser vysoký, ale dnes (on)-je.estar smutný.
+g007	Presente – tener	Mám dvě děti.	Tengo dos hijos.	(já)-mít dva děti.
+g008	Presente – ir	Jdu do školy.	Voy a la escuela.	(já)-jít do [the] škola.
+g009	Presente – hacer	Co děláš?	¿Qué haces?	Co (ty)-děláš?
+g010	Presente – změna kmene e → ie	Chci kávu.	Quiero un café.	(já)-chtít [a] káva.
+g011	Presente – změna kmene o → ue	Můžu ti pomoct?	¿Puedo ayudarte?	(já)-moct pomoci-ty?
+g012	Presente – změna kmene e → i	Objednávám si kávu.	Pido un café.	(já)-žádat [a] káva.
+g013	Presente – 1. osoba na -go / -zco	Znám Madrid a vím to.	Conozco Madrid y lo sé.	(já)-znát Madrid a to (já)-vím.
+g014	Vynechané osobní zájmeno	Bydlíme v Madridu.	Vivimos en Madrid.	(my)-bydlet v Madrid.
+g015	Určitý člen – el, la, los, las	Děti jedí zmrzlinu.	Los niños comen el helado.	[the] děti jíst [the] zmrzlina.
+g016	Člen el před zdůrazněným a-	Voda je studená.	El agua está fría.	[the] voda je.estar studený.f
+g017	Neurčitý člen	Mám psa a kočku.	Tengo un perro y una gata.	(já)-mít [a] pes a [a] kočka.
+g018	Splývání – al	Jdu do kina.	Voy al cine.	(já)-jít do_[the] kino.
+g019	Splývání – del	Vracím se z trhu.	Vuelvo del mercado.	(já)-vracet_se z_[the] trh.
+g020	Shoda přídavného jména	On je spokojený, ona je spokojená.	Él está contento, ella está contenta.	On je.estar spokojený.m, ona je.estar spokojený.f.
+g021	Množné číslo	Mám dva bratry a tři sestry.	Tengo dos hermanos y tres hermanas.	(já)-mít dva bratři a tři sestry.
+g022	Přídavné jméno za podstatným jménem	Mám červené auto.	Tengo un coche rojo.	(já)-mít [a] auto červený.
+g023	Přídavné jméno – zkrácený tvar (buen)	Je to dobrý přítel.	Es un buen amigo.	(to)-je.ser [a] dobrý přítel.
+g024	Přídavné jméno – zkrácený tvar (gran)	Je to velký muž.	Es un gran hombre.	(to)-je.ser [a] velký muž.
+g025	Přivlastňovací – před podstatným jménem	Můj otec a moje matka bydlí tady.	Mi padre y mi madre viven aquí.	Můj otec a můj matka bydlet tady.
+g026	Přivlastňovací – za podstatným jménem	Je to můj přítel.	Es un amigo mío.	(to)-je.ser [a] přítel můj.
+g027	Ukazovací zájmena – este, ese	Tato kniha je moje, ta tvoje.	Este libro es mío, ese es tuyo.	Tento kniha je.ser můj, tamten je.ser tvůj.
+g028	Zápor – no	Nemluvím německy.	No hablo alemán.	Ne (já)-mluvit němčina.
+g029	Zápor – no … nada	Nic nevidím.	No veo nada.	Ne (já)-vidět nic.
+g030	Zápor – no … nunca	Nikdy nepiju kávu.	No bebo nunca café.	Ne (já)-pít nikdy káva.
+g031	Zápor – no … nadie	Nikoho nevidím.	No veo a nadie.	Ne (já)-vidět k nikdo.
+g032	Zápor – nadie před slovesem	Nikdo neví.	Nadie sabe.	Nikdo (on)-ví.
+g033	Osobní a	Vidím Petra.	Veo a Pedro.	(já)-vidět k Petr.
+g034	Otázka – intonace	Mluvíš španělsky?	¿Hablas español?	(ty)-mluvit španělština?
+g035	Otázka – tázací slovo	Kde bydlíš?	¿Dónde vives?	Kde (ty)-bydlet?
+g036	Otázka – cuánto	Kolik to stojí?	¿Cuánto cuesta?	Kolik (to)-stát?
+g037	Zvratné sloveso	Každé ráno vstávám v sedm.	Me levanto a las siete cada mañana.	Se (já)-zvedat v_[the] sedm každý ráno.
+g038	Zvratné sloveso – llamarse	Jak se jmenuješ?	¿Cómo te llamas?	Jak ty.se (ty)-nazývat?
+g039	Pretérito perfecto	Dnes jsem koupil chleba.	Hoy he comprado pan.	Dnes (já)-mít koupený chléb.
+g040	Pretérito perfecto – nepravidelné příčestí	Viděl jsem ten film.	He visto esa película.	(já)-mít viděný ta film.
+g041	Pretérito perfecto – zápor	Nic jsem neslyšel.	No he oído nada.	Ne (já)-mít slyšený nic.
+g042	Pretérito perfecto – zájmeno	Už jsem to udělal.	Ya lo he hecho.	Už to (já)-mít udělaný.
+g043	Pretérito indefinido – -ar	Včera jsem koupil chleba.	Ayer compré pan.	Včera (já)-koupit.pr chléb.
+g044	Pretérito indefinido – -er / -ir	Včera jsme jedli v restauraci.	Ayer comimos en un restaurante.	Včera (my)-jíst.pr v [a] restaurace.
+g045	Pretérito indefinido – ir / ser	Včera jsem šel do kina.	Ayer fui al cine.	Včera (já)-jít.pr do_[the] kino.
+g046	Pretérito indefinido – nepravidelný kmen	Včera jsem měl hodně práce.	Ayer tuve mucho trabajo.	Včera (já)-mít.pr mnoho práce.
+g047	Pretérito indefinido – změna kmene	Řekl mi pravdu.	Me dijo la verdad.	Já.dat (on)-říct.pr [the] pravda.
+g048	Pretérito imperfecto – zvyk	Dříve jsem bydlel v Madridu.	Vivía en Madrid.	(já)-bydlel.impf v Madrid.
+g049	Pretérito imperfecto – popis	Bylo teplo a svítilo slunce.	Hacía calor y el sol brillaba.	(to)-dělat.impf teplo a [the] slunce svítit.impf.
+g050	Pretérito imperfecto – ser	Tehdy jsem byl mladý.	Entonces era joven.	Tehdy (já)-byl.impf.ser mladý.
+g051	Indefinido × imperfecto	Když jsem přišel, pršelo.	Cuando llegué, llovía.	Když (já)-přijít.pr, (to)-pršet.impf.
+g052	Pluscuamperfecto	Už jsem jedl, když jsi zavolal.	Ya había comido cuando llamaste.	Už (já)-měl.impf jedený když (ty)-zavolat.pr.
+g053	Futuro simple	Zítra budu pracovat.	Mañana trabajaré.	Zítra (já)-pracovat.fut.
+g054	Futuro simple – nepravidelný	Příští týden budu v Madridu.	La semana que viene estaré en Madrid.	[the] týden který přichází (já)-být.fut v Madrid.
+g055	Futuro – domněnka	Teď asi spí.	Ahora estará durmiendo.	Teď (on)-být.fut spící.
+g056	Ir a + infinitiv	Budu cestovat do Madridu.	Voy a viajar a Madrid.	(já)-jít k cestovat do Madrid.
+g057	Presente místo budoucnosti	Zítra jedu do Madridu.	Mañana voy a Madrid.	Zítra (já)-jít do Madrid.
+g058	Estar + gerundio	Právě vařím.	Estoy cocinando.	(já)-jsem.estar vařící.
+g059	Seguir + gerundio	Pořád pracuju.	Sigo trabajando.	(já)-pokračovat pracující.
+g060	Llevar + gerundio	Čekám už dvě hodiny.	Llevo dos horas esperando.	(já)-nést dva hodiny čekající.
+g061	Condicional simple	Chtěl bych kávu.	Querría un café.	(já)-chtít.cond [a] káva.
+g062	Condicional – zdvořilá prosba	Mohl byste mi pomoci?	¿Podría ayudarme?	(vy)-moct.cond pomoci-mi?
+g063	Podmínka – si + indikativ	Jestli bude pršet, zůstanu doma.	Si llueve, me quedo en casa.	Jestli (to)-prší, se (já)-zůstat doma.
+g064	Podmínka – si + subjuntivo imperfecto	Kdybych měl čas, cestoval bych.	Si tuviera tiempo, viajaría.	Jestli (já)-měl.subj čas, (já)-cestovat.cond.
+g065	Condicional compuesto	Kdybych to věděl, přišel bych.	Si lo hubiera sabido, habría venido.	Jestli to (já)-měl.subj věděný, (já)-měl.cond přišlý.
+g066	Imperativo – tú	Pojď sem!	¡Ven aquí!	Přijď sem!
+g067	Imperativo – tú, pravidelný	Mluv pomalu!	¡Habla despacio!	Mluv pomalu!
+g068	Imperativo – usted	Zavřete prosím dveře.	Cierre la puerta, por favor.	Zavřít.vy [the] dveře, prosím.
+g069	Imperativo – nosotros	Pojďme jíst!	¡Comamos!	Jíst.my!
+g070	Imperativo – zápor	Nechoď tam!	¡No vayas allí!	Ne jít.subj tam!
+g071	Imperativo – zájmena	Dej mi to!	¡Dámelo!	Dej.mi.to!
+g072	Zájmena – přímý předmět	Vidím ho každý den.	Lo veo todos los días.	On.acc (já)-vidět všechny [the] dny.
+g073	Zájmena – nepřímý předmět	Dávám jí knihu.	Le doy un libro.	Ona.dat (já)-dávat [a] kniha.
+g074	Zájmena – le → se	Dávám jí to.	Se lo doy.	Jí to.acc (já)-dávat.
+g075	Zájmena – za infinitivem	Chci to vidět.	Quiero verlo.	(já)-chtít vidět-to.
+g076	Zájmena – důrazná po předložce	Půjdu s tebou.	Voy contigo.	(já)-jít s_tebou.
+g077	Předložky – a × en	Bydlím v Madridu a jdu do Říma.	Vivo en Madrid y voy a Roma.	(já)-bydlet v Madrid a (já)-jít do Řím.
+g078	Předložky – de	Přicházím z Madridu.	Vengo de Madrid.	(já)-přicházet z Madrid.
+g079	Předložky – para	Dárek je pro tebe.	El regalo es para ti.	[the] dárek je.ser pro ty.
+g080	Předložky – por	Děkuju za pomoc.	Gracias por la ayuda.	Díky za [the] pomoc.
+g081	Sloveso + a + infinitiv	Učím se plavat.	Aprendo a nadar.	(já)-učit_se k plavat.
+g082	Sloveso + de + infinitiv	Přestal jsem kouřit.	He dejado de fumar.	(já)-mít nechaný od kouřit.
+g083	Tener que + infinitiv	Musím odejít.	Tengo que salir.	(já)-mít že vyjít.
+g084	Hay que + infinitiv	Je třeba spát.	Hay que dormir.	(to)-mít že spát.
+g085	Deber	Měl bys odpočívat.	Debes descansar.	(ty)-dlužit odpočívat.
+g086	Acabar de + infinitiv	Právě jsem dojedl.	Acabo de comer.	(já)-dokončit od jíst.
+g087	Volver a + infinitiv	Zase zavolal.	Volvió a llamar.	(on)-vrátit.pr k volat.
+g088	Saber × conocer	Umím plavat a znám Madrid.	Sé nadar y conozco Madrid.	(já)-vím plavat a (já)-znát Madrid.
+g089	Gustar – jednotné číslo	Líbí se mi ta kniha.	Me gusta el libro.	Já.dat (to)-líbí_se [the] kniha.
+g090	Gustar – množné číslo	Líbí se mi ty filmy.	Me gustan las películas.	Já.dat (to)-líbí_se.pl [the] filmy.
+g091	Doler	Bolí mě hlava.	Me duele la cabeza.	Já.dat (to)-bolet [the] hlava.
+g092	Echar de menos	Chybíš mi.	Te echo de menos.	Tě (já)-házet z méně.
+g093	Hay	Ve městě je park.	Hay un parque en la ciudad.	(to)-mít [a] park v [the] město.
+g094	Hay – množné číslo	Na stole jsou dvě knihy.	Hay dos libros en la mesa.	(to)-mít dva knihy na [the] stůl.
+g095	Desde hace	Bydlím tady tři roky.	Vivo aquí desde hace tres años.	(já)-bydlet tady od (to)-dělat tři roky.
+g096	Hace – před časem	Přijel jsem před dvěma hodinami.	Llegué hace dos horas.	(já)-přijít.pr (to)-dělat dva hodiny.
+g097	Tener – věk	Je mi dvacet let.	Tengo veinte años.	(já)-mít dvacet roky.
+g098	Tener – pocity	Mám hlad a žízeň.	Tengo hambre y sed.	(já)-mít hlad a žízeň.
+g099	Počasí (hacer)	Dnes je zima.	Hoy hace frío.	Dnes (to)-dělat zima.
+g100	Počasí – bezpodmětové sloveso	Prší.	Llueve.	(to)-prší.
+g101	Čas na hodinách	Je půl osmé.	Son las siete y media.	(to)-jsou [the] sedm a půl.
+g102	Čas – jedna hodina	Je jedna hodina.	Es la una.	(to)-je [the] jedna.
+g103	Datum	Dnes je pátého května.	Hoy es el cinco de mayo.	Dnes je [the] pět z květen.
+g104	Komparativ	Madrid je větší než Sevilla.	Madrid es más grande que Sevilla.	Madrid je více velký než Sevilla.
+g105	Komparativ – mejor	Ta kniha je lepší.	Este libro es mejor.	Tento kniha je lepší.
+g106	Superlativ	Je to nejlepší restaurace.	Es el mejor restaurante.	(to)-je [the] nejlepší restaurace.
+g107	Superlativ absolutní (-ísimo)	Je to výborné.	Es buenísimo.	(to)-je dobrý-ísimo.
+g108	Rovnost – tan … como	Je stejně vysoký jako já.	Es tan alto como yo.	(on)-je tak vysoký jako já.
+g109	Příslovce na -mente	Mluví pomalu.	Habla lentamente.	(on)-mluvit pomalu.
+g110	Vztažná věta – que	Kniha, kterou čtu, je dobrá.	El libro que leo es bueno.	[the] kniha kterou (já)-číst je dobrý.
+g111	Vztažná věta – quien	Muž, se kterým mluvím, je lékař.	El hombre con quien hablo es médico.	[the] muž s kterým (já)-mluvit je lékař.
+g112	Vztažná věta – donde	Město, kde bydlím, je malé.	La ciudad donde vivo es pequeña.	[the] město kde (já)-bydlet je malý.
+g113	Subjuntivo – querer que	Chci, abys přišel.	Quiero que vengas.	(já)-chtít že (ty)-přijít.subj.
+g114	Subjuntivo – es necesario que	Musíš přijít.	Es necesario que vengas.	(to)-je nutný že (ty)-přijít.subj.
+g115	Subjuntivo – esperar que	Doufám, že se ti to líbí.	Espero que te guste.	(já)-doufat že ty.dat (to)-líbit.subj.
+g116	Subjuntivo – aunque	I když je unavený, pracuje.	Aunque esté cansado, trabaja.	I_když (on)-být.subj unavený, (on)-pracovat.
+g117	Subjuntivo – antes de que	Zavolej mi, než odejdeš.	Llámame antes de que te vayas.	Volej-mě dřív od že ty.se (ty)-jít.subj.
+g118	Subjuntivo – cuando (budoucnost)	Zavolám ti, až přijdu.	Te llamaré cuando llegue.	Ty.acc (já)-volat.fut když (já)-přijít.subj.
+g119	Subjuntivo – no creo que	Nemyslím, že je to pravda.	No creo que sea verdad.	Ne (já)-věřit že (to)-být.subj pravda.
+g120	Pasiva – ser	Dům byl postaven v roce 1900.	La casa fue construida en 1900.	[the] dům byl.pr.ser postavený.f v 1900.
+g121	Pasiva refleja	Tady se mluví španělsky.	Aquí se habla español.	Tady se (to)-mluvit španělština.
+g122	Se impersonal	Tady se jí dobře.	Aquí se come bien.	Tady se (to)-jíst dobře.
+g123	Se – nechtěná událost	Zapomněl jsem klíče.	Se me olvidaron las llaves.	Se já.dat zapomenout.pl [the] klíče.
+g124	Souvětí – porque	Zůstávám doma, protože jsem nemocný.	Me quedo en casa porque estoy enfermo.	Se (já)-zůstat v dům protože (já)-jsem.estar nemocný.
+g125	Souvětí – cuando	Když přijdu domů, jím.	Cuando llego a casa, como.	Když (já)-přicházet domů, (já)-jím.
+g126	Nepřímá řeč	Řekl, že je nemocný.	Dijo que estaba enfermo.	(on)-říct.pr že (on)-byl.impf.estar nemocný.
+g127	Infinitiv po předložce	Před jídlem si myju ruce.	Antes de comer, me lavo las manos.	Před od jíst, se (já)-mýt [the] ruce.
+g128	Slovosled – příslovce	Často chodím do kina.	Voy al cine a menudo.	(já)-jít do_[the] kino často.
+g129	Zdvořilost – usted	Jak se jmenujete?	¿Cómo se llama usted?	Jak se (vy)-nazývat vy?
+g130	Tykání – estar	Jak se máš?	¿Cómo estás?	Jak (ty)-jsi.estar?

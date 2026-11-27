@@ -1,0 +1,118 @@
+id	tvar	cs	it	doslovne
+g001	Presente – skupina -are	Mluvím italsky.	Parlo italiano.	(já)-mluvit italština.
+g002	Presente – skupina -ere	Čtu knihu.	Leggo un libro.	(já)-číst [a] kniha.
+g003	Presente – skupina -ire	Spím osm hodin.	Dormo otto ore.	(já)-spát osm hodiny.
+g004	Presente – -ire s příponou -isc-	Končím v pět.	Finisco alle cinque.	(já)-končit v_[the] pět.
+g005	Presente – essere	Jsem unavený.	Sono stanco.	(já)-jsem unavený.
+g006	Presente – avere	Mám dvě děti.	Ho due figli.	(já)-mít dva děti.
+g007	Presente – andare	Jdu do školy.	Vado a scuola.	(já)-jít do škola.
+g008	Presente – fare	Co děláš?	Che cosa fai?	Co (ty)-děláš?
+g009	Presente – volere, potere	Chci přijít, ale nemůžu.	Voglio venire, ma non posso.	(já)-chtít přijít, ale ne (já)-moct.
+g010	Vynechané osobní zájmeno	Bydlíme v Římě.	Abitiamo a Roma.	(my)-bydlet v Řím.
+g011	Určitý člen – il, lo, la, l'	Muž, student a žena.	L'uomo, lo studente e la donna.	[the] muž, [the] student a [the] žena.
+g012	Určitý člen – množné číslo (i, gli, le)	Děti jedí zmrzlinu.	I bambini mangiano il gelato.	[the] děti jíst [the] zmrzlina.
+g013	Neurčitý člen	Mám psa a kočku.	Ho un cane e una gatta.	(já)-mít [a] pes a [a] kočka.
+g014	Dělivý člen	Piju vodu a jím chleba.	Bevo dell'acqua e mangio del pane.	(já)-pít [some] voda a (já)-jíst [some] chléb.
+g015	Splývání předložek s členem	Jdu do kina.	Vado al cinema.	(já)-jít do_[the] kino.
+g016	Splývání předložek – nel, sul	Kniha je na stole.	Il libro è sul tavolo.	[the] kniha je na_[the] stůl.
+g017	Shoda přídavného jména (-o / -a)	On je spokojený, ona je spokojená.	Lui è contento, lei è contenta.	On je spokojený.m, ona je spokojený.f.
+g018	Množné číslo	Mám dva bratry a tři sestry.	Ho due fratelli e tre sorelle.	(já)-mít dva bratři a tři sestry.
+g019	Přídavné jméno za podstatným jménem	Mám červené auto.	Ho una macchina rossa.	(já)-mít [a] auto červený.
+g020	Přídavné jméno před podstatným jménem	Je to krásný dům.	È una bella casa.	(to)-je [a] krásný.f dům.
+g021	Přivlastňovací – bez členu (rodina)	Můj otec a moje matka bydlí tady.	Mio padre e mia madre abitano qui.	Můj otec a můj matka bydlet tady.
+g022	Přivlastňovací – se členem	Moje auto je nové.	La mia macchina è nuova.	[the] můj auto je nový.
+g023	Ukazovací zájmena – questo, quello	Tato kniha je moje, ta tvoje.	Questo libro è mio, quello è tuo.	Tento kniha je můj, tamten je tvůj.
+g024	Zápor – non	Nemluvím německy.	Non parlo tedesco.	Ne (já)-mluvit němčina.
+g025	Zápor – non … niente	Nic nevidím.	Non vedo niente.	Ne (já)-vidět nic.
+g026	Zápor – non … mai	Nikdy nepiju kávu.	Non bevo mai caffè.	Ne (já)-pít nikdy káva.
+g027	Zápor – non … nessuno	Nikoho nevidím.	Non vedo nessuno.	Ne (já)-vidět nikdo.
+g028	Zápor – non … più	Už nebydlím v Římě.	Non abito più a Roma.	Ne (já)-bydlet už v Řím.
+g029	Zápor – nessuno před slovesem	Nikdo neví.	Nessuno sa.	Nikdo (on)-ví.
+g030	Otázka – intonace	Mluvíš italsky?	Parli italiano?	(ty)-mluvit italština?
+g031	Otázka – tázací slovo	Kde bydlíš?	Dove abiti?	Kde (ty)-bydlet?
+g032	Otázka – quanto	Kolik to stojí?	Quanto costa?	Kolik (to)-stát?
+g033	Zvratné sloveso	Každé ráno vstávám v sedm.	Mi alzo alle sette ogni mattina.	Se (já)-zvedat v_[the] sedm každý ráno.
+g034	Passato prossimo – avere	Včera jsem koupil chleba.	Ieri ho comprato il pane.	Včera (já)-mít koupený [the] chléb.
+g035	Passato prossimo – essere (pohyb)	Včera jsem jel do Říma.	Ieri sono andato a Roma.	Včera (já)-jsem šlý do Řím.
+g036	Passato prossimo – essere, shoda (ona)	Ona přijela včera.	Lei è arrivata ieri.	Ona je přijetý.f včera.
+g037	Passato prossimo – nepravidelné příčestí	Viděl jsem ten film.	Ho visto quel film.	(já)-mít viděný tamten film.
+g038	Passato prossimo – zvratné sloveso	Vstal jsem v sedm.	Mi sono alzato alle sette.	Se (já)-jsem zvednutý v_[the] sedm.
+g039	Passato prossimo – zápor	Nic jsem neslyšel.	Non ho sentito niente.	Ne (já)-mít slyšený nic.
+g040	Passato prossimo – shoda se zájmenem	Koupil jsem je.	Le ho comprate.	Je.f.pl (já)-mít koupený.f.pl.
+g041	Imperfetto – zvyk v minulosti	Dříve jsem bydlel v Miláně.	Abitavo a Milano.	(já)-bydlel.impf v Milán.
+g042	Imperfetto – popis	Bylo teplo a svítilo slunce.	Faceva caldo e il sole splendeva.	(to)-dělat.impf teplo a [the] slunce svítit.impf.
+g043	Imperfetto – essere	Tehdy jsem byl mladý.	Allora ero giovane.	Tehdy (já)-byl.impf mladý.
+g044	Imperfetto × passato prossimo	Když jsem přišel, pršelo.	Quando sono arrivato, pioveva.	Když (já)-jsem přijetý, (to)-pršet.impf.
+g045	Trapassato prossimo	Už jsem jedl, když jsi zavolal.	Avevo già mangiato quando hai chiamato.	(já)-měl.impf už jedený když (ty)-mít zavolaný.
+g046	Passato remoto	Kolumbus objevil Ameriku.	Colombo scoprì l'America.	Kolumbus objevil.pr [the] Amerika.
+g047	Futuro semplice	Zítra budu pracovat.	Domani lavorerò.	Zítra (já)-pracovat.fut.
+g048	Futuro semplice – nepravidelné	Příští týden budu v Římě.	La settimana prossima sarò a Roma.	[the] týden příští (já)-být.fut v Řím.
+g049	Futuro – domněnka	Teď asi spí.	Ora dormirà.	Teď (on)-spát.fut.
+g050	Futuro – po quando	Zavolám ti, až přijdu.	Ti chiamerò quando arriverò.	Ty.acc (já)-volat.fut když (já)-přijít.fut.
+g051	Presente místo budoucnosti	Zítra jedu do Říma.	Domani vado a Roma.	Zítra (já)-jít do Řím.
+g052	Stare per + infinitiv	Právě chci odejít.	Sto per uscire.	(já)-stát pro vyjít.
+g053	Stare + gerundio	Právě vařím.	Sto cucinando.	(já)-stát vařící.
+g054	Condizionale presente	Chtěl bych kávu.	Vorrei un caffè.	(já)-chtít.cond [a] káva.
+g055	Condizionale – zdvořilá prosba	Mohl byste mi pomoci?	Potrebbe aiutarmi?	(vy)-moct.cond pomoci-mi?
+g056	Podmínka – se + indikativ	Jestli bude pršet, zůstanu doma.	Se piove, resto a casa.	Jestli (to)-prší, (já)-zůstat doma.
+g057	Podmínka – se + congiuntivo imperfetto	Kdybych měl čas, cestoval bych.	Se avessi tempo, viaggerei.	Jestli (já)-měl.subj čas, (já)-cestovat.cond.
+g058	Condizionale passato	Kdybych to věděl, přišel bych.	Se l'avessi saputo, sarei venuto.	Jestli to (já)-měl.subj věděný, (já)-být.cond přijetý.
+g059	Imperativo – tu	Pojď sem!	Vieni qui!	Přijď sem!
+g060	Imperativo – Lei	Zavřete prosím dveře.	Chiuda la porta, per favore.	Zavřít.vy [the] dveře, prosím.
+g061	Imperativo – noi	Pojďme jíst!	Mangiamo!	Jíst.my!
+g062	Imperativo – zápor (tu)	Nechoď tam!	Non andare lì!	Ne jít.inf tam!
+g063	Imperativo – zájmena	Dej mi to!	Dammelo!	Dej.mi.to!
+g064	Imperativo – nepravidelný	Jdi a řekni mu to!	Vai e diglielo!	Jdi a řekni.mu.to!
+g065	Zájmena – přímý předmět	Vidím ho každý den.	Lo vedo ogni giorno.	On.acc (já)-vidět každý den.
+g066	Zájmena – nepřímý předmět	Dávám jí knihu.	Le do un libro.	Ona.dat (já)-dávat [a] kniha.
+g067	Zájmena – spojení dvou zájmen	Dávám ti to.	Te lo do.	Ty.dat to.acc (já)-dávat.
+g068	Zájmena – za infinitivem	Chci to vidět.	Voglio vederlo.	(já)-chtít vidět-to.
+g069	Zájmeno ci	Zítra tam jdu.	Ci vado domani.	Tam (já)-jít zítra.
+g070	Zájmeno ne	Mám toho dost.	Ne ho abbastanza.	Z_toho (já)-mít dost.
+g071	Zájmena – důrazná	Půjdu s tebou.	Vengo con te.	(já)-jít s ty.
+g072	Předložky – a × in	Bydlím v Římě a v Itálii.	Abito a Roma e in Italia.	(já)-bydlet v Řím a v Itálie.
+g073	Předložky – di	To je auto mého přítele.	È la macchina del mio amico.	To je [the] auto z_[the] můj přítel.
+g074	Předložky – da	Jdu k lékaři.	Vado dal medico.	(já)-jít k_[the] lékař.
+g075	Předložky – per	Dárek je pro tebe.	Il regalo è per te.	[the] dárek je pro ty.
+g076	Sloveso + a + infinitiv	Učím se plavat.	Imparo a nuotare.	(já)-učit_se k plavat.
+g077	Sloveso + di + infinitiv	Přestal jsem kouřit.	Ho smesso di fumare.	(já)-mít přestaný od kouřit.
+g078	Modální sloveso – dovere	Musím odejít.	Devo partire.	(já)-muset odejít.
+g079	Modální sloveso – potere	Můžu ti pomoct?	Posso aiutarti?	(já)-moct pomoci-ty?
+g080	Sapere × conoscere	Umím plavat a znám Řím.	So nuotare e conosco Roma.	(já)-vědět plavat a (já)-znát Řím.
+g081	Piacere – jednotné číslo	Líbí se mi ta kniha.	Mi piace il libro.	Já.dat (to)-líbí_se [the] kniha.
+g082	Piacere – množné číslo	Líbí se mi ty filmy.	Mi piacciono i film.	Já.dat (to)-líbí_se.pl [the] filmy.
+g083	Mancare	Chybíš mi.	Mi manchi.	Já.dat (ty)-chybět.
+g084	C'è / ci sono	Ve městě je park.	In città c'è un parco.	V město tam_je [a] park.
+g085	Ci sono	Na stole jsou dvě knihy.	Sul tavolo ci sono due libri.	Na_[the] stůl tam_jsou dva knihy.
+g086	Da + čas	Bydlím tady tři roky.	Abito qui da tre anni.	(já)-bydlet tady od tři roky.
+g087	Fa – před časem	Přijel jsem před dvěma hodinami.	Sono arrivato due ore fa.	(já)-jsem přijetý dva hodiny před.
+g088	Avere – věk	Je mi dvacet let.	Ho vent'anni.	(já)-mít dvacet_roky.
+g089	Avere – pocity	Mám hlad a žízeň.	Ho fame e sete.	(já)-mít hlad a žízeň.
+g090	Počasí (fare)	Dnes je zima.	Oggi fa freddo.	Dnes (to)-dělat zima.
+g091	Počasí – bezpodmětové sloveso	Prší.	Piove.	(to)-prší.
+g092	Čas na hodinách	Je půl osmé.	Sono le sette e mezza.	(to)-jsou [the] sedm a půl.
+g093	Datum	Dnes je pátého května.	Oggi è il cinque maggio.	Dnes je [the] pět květen.
+g094	Komparativ – di	Řím je větší než Milán.	Roma è più grande di Milano.	Řím je více velký z Milán.
+g095	Komparativ – che	Pít je snazší než vařit.	Bere è più facile che cucinare.	Pít je více snadný než vařit.
+g096	Superlativ relativní	Je to nejlepší restaurace.	È il miglior ristorante.	(to)-je [the] nejlepší restaurace.
+g097	Superlativ absolutní (-issimo)	Je to velmi hezké.	È bellissimo.	(to)-je hezký-issimo.
+g098	Rovnost – come	Je stejně vysoký jako já.	È alto come me.	(on)-je vysoký jako já.
+g099	Příslovce na -mente	Mluví pomalu.	Parla lentamente.	(on)-mluvit pomalu.
+g100	Vztažná věta – che	Kniha, kterou čtu, je dobrá.	Il libro che leggo è buono.	[the] kniha kterou (já)-číst je dobrý.
+g101	Vztažná věta – cui	Film, o kterém mluvíš, je nový.	Il film di cui parli è nuovo.	[the] film z kterého (ty)-mluvit je nový.
+g102	Congiuntivo – bisogna che	Musíš přijít.	Bisogna che tu venga.	Je_třeba že ty přijít.subj.
+g103	Congiuntivo – penso che	Myslím, že má pravdu.	Penso che abbia ragione.	(já)-myslet že (on)-mít.subj pravda.
+g104	Congiuntivo – volere che	Chci, abys přišel.	Voglio che tu venga.	(já)-chtít že ty přijít.subj.
+g105	Congiuntivo – sebbene	I když je unavený, pracuje.	Sebbene sia stanco, lavora.	I_když (on)-být.subj unavený, (on)-pracovat.
+g106	Congiuntivo – prima che	Zavolej mi, než odejdeš.	Chiamami prima che tu parta.	Volej-mě dřív než ty odejít.subj.
+g107	Passivo – essere	Dům byl postaven v roce 1900.	La casa è stata costruita nel 1900.	[the] dům je být postavený.f v_[the] 1900.
+g108	Passivo – venire	Pizza se peče v peci.	La pizza viene cotta nel forno.	[the] pizza přichází upečený.f v_[the] pec.
+g109	Si passivante	Tady se mluví italsky.	Qui si parla italiano.	Tady se mluvit italština.
+g110	Si impersonale	Tady se jí dobře.	Qui si mangia bene.	Tady se jíst dobře.
+g111	Souvětí – perché	Zůstávám doma, protože jsem nemocný.	Resto a casa perché sono malato.	(já)-zůstat doma protože (já)-jsem nemocný.
+g112	Souvětí – quando	Když přijdu domů, jím.	Quando torno a casa, mangio.	Když (já)-vracet_se domů, (já)-jíst.
+g113	Nepřímá řeč	Řekl, že je nemocný.	Ha detto che era malato.	(on)-mít řečený že (on)-byl.impf nemocný.
+g114	Gerundio	Čtu při jídle.	Leggo mangiando.	(já)-číst jedouc.
+g115	Zdvořilost – Lei	Jak se jmenujete?	Come si chiama?	Jak se (vy)-nazývat?
+g116	Zvratné sloveso – chiamarsi	Jak se jmenuješ?	Come ti chiami?	Jak ty.se (ty)-nazývat?
+g117	Slovosled – příslovce	Často chodím do kina.	Vado spesso al cinema.	(já)-jít často do_[the] kino.

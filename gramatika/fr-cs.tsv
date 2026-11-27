@@ -1,0 +1,120 @@
+id	tvar	cs	fr	doslovne
+g001	Présent – skupina -er	Mluvím francouzsky.	Je parle français.	Já mluvit francouzština.
+g002	Présent – skupina -ir	Končím v pět.	Je finis à cinq heures.	Já končit v pět hodina.
+g003	Présent – skupina -re	Čekám na vlak.	J'attends le train.	Já čekat [the] vlak.
+g004	Présent – être	Jsem unavený.	Je suis fatigué.	Já jsem unavený.
+g005	Présent – avoir	Mám dvě děti.	J'ai deux enfants.	Já mít dva děti.
+g006	Présent – aller	Jdu do školy.	Je vais à l'école.	Já jít do [the] škola.
+g007	Présent – faire	Co děláš?	Qu'est-ce que tu fais ?	Co je-to že ty děláš?
+g008	Présent – vouloir, pouvoir	Chci přijít, ale nemůžu.	Je veux venir, mais je ne peux pas.	Já chtít přijít, ale já ne moct [pas].
+g009	Présent – nous (-ons)	Mluvíme spolu.	Nous parlons ensemble.	My mluvit-me spolu.
+g010	Présent – on (= my)	Dnes večer jdeme ven.	On sort ce soir.	On jde-ven tento večer.
+g011	Elize před samohláskou	Mám rád kávu.	J'aime le café.	Já mít_rád [the] káva.
+g012	Určitý člen – obecné tvrzení	Děti mají rády čokoládu.	Les enfants aiment le chocolat.	[the] děti mít_rád [the] čokoláda.
+g013	Neurčitý člen	Mám psa a kočku.	J'ai un chien et un chat.	Já mít [a] pes a [a] kočka.
+g014	Dělivý člen	Piju vodu a jím chleba.	Je bois de l'eau et je mange du pain.	Já pít [some] voda a já jíst [some] chléb.
+g015	Dělivý člen – po záporu (de)	Nemám peníze.	Je n'ai pas d'argent.	Já ne mít [pas] [of] peníze.
+g016	Splývání členů – à + le = au	Jdu do kina.	Je vais au cinéma.	Já jít do_[the] kino.
+g017	Splývání členů – de + le = du	Vracím se z trhu.	Je reviens du marché.	Já vracet_se z_[the] trh.
+g018	Shoda přídavného jména v rodě	Ona je spokojená, on je spokojený.	Elle est contente, il est content.	Ona je spokojený.f, on je spokojený.m
+g019	Přídavné jméno před podstatným jménem	Mám velké auto.	J'ai une grande voiture.	Já mít [a] velký.f auto.
+g020	Přídavné jméno za podstatným jménem	Mám červené auto.	J'ai une voiture rouge.	Já mít [a] auto červený.
+g021	Množné číslo	Mám dva bratry a tři sestry.	J'ai deux frères et trois sœurs.	Já mít dva bratři a tři sestry.
+g022	Přivlastňovací zájmena	Můj otec a moje matka bydlí tady.	Mon père et ma mère habitent ici.	Můj.m otec a můj.f matka bydlet tady.
+g023	Přivlastňovací – mon před samohláskou	To je moje kamarádka.	C'est mon amie.	To je můj.m kamarádka.
+g024	Ukazovací zájmena – ce / cet / cette	Ten muž je vysoký.	Cet homme est grand.	Tento muž je vysoký.
+g025	C'est × il est	Je lékař.	Il est médecin.	On je lékař.
+g026	Zápor – ne … pas	Nemluvím německy.	Je ne parle pas allemand.	Já ne mluvit [pas] němčina.
+g027	Zápor – ne … jamais	Nikdy nepiju kávu.	Je ne bois jamais de café.	Já ne pít nikdy [of] káva.
+g028	Zápor – ne … rien	Nic nevidím.	Je ne vois rien.	Já ne vidět nic.
+g029	Zápor – ne … personne	Nikoho nevidím.	Je ne vois personne.	Já ne vidět nikdo.
+g030	Zápor – ne … plus	Už nebydlím v Paříži.	Je n'habite plus à Paris.	Já ne bydlet už v Paříž.
+g031	Zápor – ne … que	Mám jen jednu sestru.	Je n'ai qu'une sœur.	Já ne mít než jedna sestra.
+g032	Otázka – intonace	Mluvíš francouzsky?	Tu parles français ?	Ty mluvit francouzština?
+g033	Otázka – est-ce que	Kde bydlíš?	Où est-ce que tu habites ?	Kde je-to že ty bydlet?
+g034	Otázka – inverze (sloveso být)	Kolik je hodin?	Quelle heure est-il ?	Jaký hodina je-on?
+g035	Otázka – inverze (vous)	Máte děti?	Avez-vous des enfants ?	Mít-vy [some] děti?
+g036	Otázka – tázací slovo	Jak se jmenuješ?	Comment tu t'appelles ?	Jak ty se nazývat?
+g037	Zvratné sloveso	Každé ráno vstávám v sedm.	Je me lève à sept heures chaque matin.	Já se zvedat v sedm hodina každý ráno.
+g038	Zvratné sloveso – vzájemné	Vídáme se každý týden.	Nous nous voyons chaque semaine.	My se vidět každý týden.
+g039	Passé composé – avoir	Včera jsem koupil chleba.	Hier, j'ai acheté du pain.	Včera já mít koupený [some] chléb.
+g040	Passé composé – avoir, nepravidelné příčestí	Viděl jsem ten film.	J'ai vu ce film.	Já mít viděný tento film.
+g041	Passé composé – être (pohyb)	Včera jsem jel do Paříže.	Hier, je suis allé à Paris.	Včera já jsem jetý do Paříž.
+g042	Passé composé – être, shoda s podmětem	Ona přijela včera.	Elle est arrivée hier.	Ona je přijetý.f včera.
+g043	Passé composé – zvratné sloveso (être)	Vstal jsem v sedm.	Je me suis levé à sept heures.	Já se jsem zvednutý v sedm hodina.
+g044	Passé composé – zůstat (être)	Zůstal jsem doma.	Je suis resté à la maison.	Já jsem zůstalý v [the] dům.
+g045	Passé composé – shoda s předmětem před slovesem	Klíče, které jsem ztratil, jsou tady.	Les clés que j'ai perdues sont ici.	[the] klíče které já mít ztracený.pl jsou tady.
+g046	Passé composé – zápor	Nic jsem neslyšel.	Je n'ai rien entendu.	Já ne mít nic slyšený.
+g047	Imparfait – zvyk v minulosti	Dříve jsem bydlel v Lyonu.	J'habitais à Lyon.	Já bydlel.impf v Lyon.
+g048	Imparfait – popis	Bylo teplo a svítilo slunce.	Il faisait chaud et le soleil brillait.	To dělat.impf teplo a [the] slunce svítit.impf.
+g049	Imparfait – être	Tehdy jsem byl mladý.	J'étais jeune à l'époque.	Já byl.impf mladý v [the] doba.
+g050	Imparfait × passé composé	Když jsem přijel, pršelo.	Quand je suis arrivé, il pleuvait.	Když já jsem přijetý, to pršet.impf.
+g051	Plus-que-parfait	Už jsem jedl, když jsi zavolal.	J'avais déjà mangé quand tu as appelé.	Já měl.impf už jedený když ty mít zavolaný.
+g052	Futur proche (aller + infinitiv)	Za chvíli budu vařit.	Je vais cuisiner bientôt.	Já jít vařit brzy.
+g053	Futur simple	Zítra budu pracovat.	Je travaillerai demain.	Já pracovat.fut zítra.
+g054	Futur simple – nepravidelné sloveso	Příští týden budu v Paříži.	Je serai à Paris la semaine prochaine.	Já být.fut v Paříž [the] týden příští.
+g055	Futur simple – po quand	Zavolám ti, až přijdu.	Je t'appellerai quand j'arriverai.	Já ty volat.fut když já přijít.fut.
+g056	Futur simple – avoir	Budeme mít čas.	Nous aurons le temps.	My mít.fut [the] čas.
+g057	Présent po si	Jestli bude pršet, zůstanu doma.	S'il pleut, je resterai à la maison.	Jestli to prší, já zůstat.fut v [the] dům.
+g058	Conditionnel présent	Chtěl bych kávu.	Je voudrais un café.	Já chtít.cond [a] káva.
+g059	Conditionnel – si + imparfait	Kdybych měl čas, cestoval bych.	Si j'avais le temps, je voyagerais.	Jestli já měl.impf [the] čas, já cestovat.cond.
+g060	Conditionnel – zdvořilá prosba	Mohl byste mi pomoci?	Pourriez-vous m'aider ?	Moct.cond-vy já pomoci?
+g061	Conditionnel passé	Kdybych to věděl, přišel bych.	Si j'avais su, je serais venu.	Jestli já měl.impf věděný, já být.cond přijetý.
+g062	Impératif – tykání	Pojď sem!	Viens ici !	Přijď sem!
+g063	Impératif – vykání	Zavřete prosím dveře.	Fermez la porte, s'il vous plaît.	Zavřít.vy [the] dveře, jestli to vy líbit.
+g064	Impératif – nous	Pojďme jíst!	Mangeons !	Jíst.my!
+g065	Impératif – zápor	Nechoď tam!	N'y va pas !	Ne tam jít [pas]!
+g066	Impératif – zájmena	Dej mi to!	Donne-le-moi !	Dej-to-mi!
+g067	Zájmena – přímý předmět (le, la, les)	Vidím ho každý den.	Je le vois tous les jours.	Já on.acc vidět všechny [the] dny.
+g068	Zájmena – nepřímý předmět (lui, leur)	Dávám jí knihu.	Je lui donne un livre.	Já ona.dat dávat [a] kniha.
+g069	Zájmena – y	Zítra tam jdu.	J'y vais demain.	Já tam jít zítra.
+g070	Zájmena – en (částečné množství)	Mám toho dost.	J'en ai assez.	Já z_toho mít dost.
+g071	Zájmena – en (počet)	Mám dva.	J'en ai deux.	Já z_toho mít dva.
+g072	Zájmena – dvě zájmena	Dává mi to.	Il me le donne.	On já.dat to.acc dává.
+g073	Zájmena – důrazná (moi, toi)	Půjdu s tebou.	Je viens avec toi.	Já jít s ty.
+g074	Předložky – à × de (místo)	Bydlím v Paříži a pocházím z Lyonu.	J'habite à Paris et je viens de Lyon.	Já bydlet v Paříž a já přicházet z Lyon.
+g075	Předložky – země (en, au, aux)	Jedu do Francie, do Japonska a do Spojených států.	Je vais en France, au Japon et aux États-Unis.	Já jít do Francie, do_[the] Japonsko a do_[the] Spojené_státy.
+g076	Předložky – à + osoba	Volám kamarádovi.	Je téléphone à un ami.	Já telefonovat k [a] kamarád.
+g077	Předložky – de	Potřebuju pomoc.	J'ai besoin d'aide.	Já mít potřeba [of] pomoc.
+g078	Předložky – penser à	Myslím na tebe.	Je pense à toi.	Já myslet na ty.
+g079	Infinitiv po slovese	Chci jít spát.	Je veux aller dormir.	Já chtít jít spát.
+g080	Sloveso + à + infinitiv	Učím se plavat.	J'apprends à nager.	Já učit_se k plavat.
+g081	Sloveso + de + infinitiv	Přestal jsem kouřit.	J'ai arrêté de fumer.	Já mít přestaný od kouřit.
+g082	Devoir	Musím odejít.	Je dois partir.	Já muset odejít.
+g083	Pouvoir	Můžu ti pomoct?	Je peux t'aider ?	Já moct ty pomoci?
+g084	Savoir × connaître	Umím plavat a znám Paříž.	Je sais nager et je connais Paris.	Já vědět plavat a já znát Paříž.
+g085	Il faut	Je třeba spát.	Il faut dormir.	To je_třeba spát.
+g086	Il y a – existence	Ve městě je park.	Il y a un parc dans la ville.	To tam mít [a] park v [the] město.
+g087	Il y a – před časem	Přijel jsem před dvěma hodinami.	Je suis arrivé il y a deux heures.	Já jsem přijetý to tam mít dva hodiny.
+g088	Depuis	Bydlím tady tři roky.	J'habite ici depuis trois ans.	Já bydlet tady od tři roky.
+g089	Venir de + infinitiv	Právě jsem dojedl.	Je viens de manger.	Já přicházet z jíst.
+g090	Être en train de	Právě vařím.	Je suis en train de cuisiner.	Já jsem v vlak z vařit.
+g091	Gérondif	Čtu při jídle.	Je lis en mangeant.	Já číst v jedení.
+g092	Komparativ	Paříž je větší než Lyon.	Paris est plus grand que Lyon.	Paříž je více velký než Lyon.
+g093	Komparativ – meilleur	Ten film je lepší.	Ce film est meilleur.	Tento film je lepší.
+g094	Superlativ	Je to nejlepší restaurace.	C'est le meilleur restaurant.	To je [the] nejlepší restaurace.
+g095	Rovnost – aussi ... que	Je stejně vysoký jako já.	Il est aussi grand que moi.	On je tak velký jako já.
+g096	Příslovce na -ment	Mluví pomalu.	Il parle lentement.	On mluvit pomalu.
+g097	Vztažná věta – qui	Muž, který bydlí vedle, je lékař.	L'homme qui habite à côté est médecin.	[the] muž který bydlet vedle je lékař.
+g098	Vztažná věta – que	Kniha, kterou čtu, je dobrá.	Le livre que je lis est bon.	[the] kniha kterou já číst je dobrý.
+g099	Vztažná věta – où	Město, kde bydlím, je malé.	La ville où j'habite est petite.	[the] město kde já bydlet je malý.
+g100	Vztažná věta – dont	Film, o kterém mluvíš, je nový.	Le film dont tu parles est nouveau.	[the] film z_kterého ty mluvit je nový.
+g101	Subjonctif – il faut que	Musíš přijít.	Il faut que tu viennes.	To je_třeba že ty přijít.subj.
+g102	Subjonctif – vouloir que	Chci, abys přišel.	Je veux que tu viennes.	Já chtít že ty přijít.subj.
+g103	Subjonctif – bien que	I když je unavený, pracuje.	Bien qu'il soit fatigué, il travaille.	Ačkoli on být.subj unavený, on pracovat.
+g104	Subjonctif – avant que	Zavolej mi, než odejdeš.	Appelle-moi avant que tu partes.	Volej-mě dřív než ty odejít.subj.
+g105	Passif	Dům byl postaven v roce 1900.	La maison a été construite en 1900.	[the] dům mít být postavený.f v 1900.
+g106	Passif – původce (par)	Ten obraz namaloval Monet.	Ce tableau a été peint par Monet.	Tento obraz mít být namalovaný od Monet.
+g107	On – neosobní	Tady se mluví francouzsky.	Ici, on parle français.	Tady on mluvit francouzština.
+g108	Souvětí – parce que	Zůstávám doma, protože jsem nemocný.	Je reste à la maison parce que je suis malade.	Já zůstávat v [the] dům protože já jsem nemocný.
+g109	Souvětí – quand	Když přijdu domů, jím.	Quand j'arrive à la maison, je mange.	Když já přicházet do [the] dům, já jíst.
+g110	Nepřímá řeč	Řekl, že je nemocný.	Il a dit qu'il était malade.	On mít řečený že on byl.impf nemocný.
+g111	Čas na hodinách	Je půl osmé.	Il est sept heures et demie.	To je sedm hodina a půl.
+g112	Datum	Dnes je pátého května.	Nous sommes le cinq mai.	My jsme [the] pět květen.
+g113	Číslovky – 70, 80, 90	Je mu devadesát let.	Il a quatre-vingt-dix ans.	On mít čtyři_dvacet_deset roky.
+g114	Číslovky – 70	To stojí sedmdesát eur.	Ça fait soixante-dix euros.	To dělat šedesát_deset euro.
+g115	Avoir – věk	Je mi dvacet let.	J'ai vingt ans.	Já mít dvacet roky.
+g116	Avoir – pocity	Mám hlad a žízeň.	J'ai faim et soif.	Já mít hlad a žízeň.
+g117	Počasí (faire)	Dnes je zima.	Il fait froid aujourd'hui.	To dělat zima dnes.
+g118	Jouer à × jouer de	Hraju fotbal a hraju na klavír.	Je joue au football et je joue du piano.	Já hrát k_[the] fotbal a já hrát z_[the] klavír.
+g119	Slovosled – příslovce	Často chodím do kina.	Je vais souvent au cinéma.	Já jít často do_[the] kino.
