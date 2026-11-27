@@ -36,6 +36,33 @@ ln -s "$PWD/slovicka.sh" ~/.local/bin/slovicka
 
 The first start of the window takes about 20 s (`uv` builds PyGObject); later starts are fast. The interface language and your language are taken from `LANG` at first; change them in the menu (**💬 My language**, **🌐 Interface language**) or with `--z` / `--locale`.
 
+### Windows (WSL2) – untested
+
+> ⚠️ **Untested.** The steps follow what the scripts need (bash, GTK4, mpv, Piper), but I have not tried them on Windows. The scripts do not run directly in Windows (PowerShell, `cmd`) – they are `bash` and the windows use GTK4 on Wayland/X11. The way is **WSL2 with Ubuntu and WSLg** (Linux GUI apps and sound inside Windows 11, or Windows 10 22H2).
+
+1. In PowerShell as administrator: `wsl --install -d Ubuntu`, reboot, create a user. Up-to-date WSL: `wsl --update`.
+2. In Ubuntu:
+
+```sh
+sudo apt update
+sudo apt install -y git curl mpv ffmpeg build-essential pkg-config meson \
+    libgtk-4-dev gir1.2-gtk-4.0 libgirepository1.0-dev libcairo2-dev \
+    libnotify-bin fonts-noto-color-emoji fonts-noto-core
+# if building PyGObject complains about girepository-2.0: apt install libgirepository-2.0-dev
+curl -LsSf https://astral.sh/uv/install.sh | sh && exec $SHELL
+uv tool install piper-tts && uv tool install edge-tts
+
+git clone https://github.com/navik61/jazyky.git ~/Projects/Jazyky
+cd ~/Projects/Jazyky
+mkdir -p ~/.local/bin && ln -s "$PWD/slovicka.sh" ~/.local/bin/slovicka
+# Piper voices → ~/.local/share/piper (same as in Installation above)
+slovicka            # or: slovicka de, slovicka gr
+```
+
+3. Run it from the Ubuntu terminal (Windows Terminal). `nainstaluj-spoustece.sh` (rofi/fuzzel) makes no sense in WSL; the language choice appears as a GTK menu.
+
+**Possible problems** (not tried): sound goes through WSLg's PulseAudio (`mpv` must hear the output – check with `mpv --no-video file.mp3`); the window under WSLg may behave differently from a real compositor (background transparency, floating window, focus); the first start is slower because `uv` builds PyGObject. If it does not work, use `SLOVICKA_V_TERMINALU=1` (text mode only). Please report experiences and bugs as a GitHub issue.
+
 ## Quick start
 
 ```sh
@@ -155,7 +182,7 @@ Voices: Czech uses `edge-tts` (online), the other languages Piper (offline). The
 | `intro/` | photo and music for the intro; `intro/.vygenerovano/` = composed pictures (generated) |
 | `intro-obrazek.py` | composes the intro picture (Pillow via `uv run --script`) |
 | `neznama/<yours>-<target>.txt` | saved unknown words (generated, not in git); for grammar `<yours>-<target>-gr.txt` |
-| `gramatika/<target>-<source>.tsv` | grammar forms: sentences and word-by-word translation (`en-cs.tsv`, `cs-en.tsv`, `de-cs.tsv`, `fr-cs.tsv`, `it-cs.tsv`, `es-cs.tsv`) |
+| `gramatika/<target>-<source>.tsv` | grammar forms: sentences and word-by-word translation (`en-cs.tsv`, `cs-en.tsv`, `de-cs.tsv`, `fr-cs.tsv`, `it-cs.tsv`, `es-cs.tsv`, `ru-cs.tsv`) |
 | `generuj-claude.py` | fills in words and sentences via the Claude Batch API |
 | `nainstaluj-spoustece.sh` | creates application-menu entries (`.desktop`, translated) |
 | `nastroje/texty-rozhrani.py` | source of the interface texts in all languages |
@@ -204,7 +231,7 @@ Practises **grammatical forms** of the target language. Each card has three part
 
 The header names the form (Present Perfect – for, Conditional 2, Locative – o …). All three parts are read aloud. Keys are the same as for words (`Enter` known, `n` unknown, space pause, `z` repeat, `q` quit); the order is fixed and `--swap` is ignored. A round has 30 items; unknown ones are repeated and saved to `neznama/<yours>-<target>-gr.txt`.
 
-**Data** (`gramatika/<target>-<source>.tsv`, columns `id`, `tvar` (form name), sentence in your language, target sentence, word-by-word translation): `it-cs.tsv` has 117 Italian and `es-cs.tsv` 130 Spanish sentences for Czech speakers (tenses, articles, negation, pronouns, prepositions, *essere/avere*, **ser × estar**, *piacere/gustar*, subjunctive, passive, *si/se* constructions…), `fr-cs.tsv` has 119 French sentences for Czech speakers (present, articles incl. partitive, negation, questions, passé composé, imparfait, future, conditional, imperative, **pronouns** y/en, prepositions, relative clauses, subjonctif, passive…), `de-cs.tsv` has 105 German sentences for Czech speakers (verb position, separable/reflexive verbs, subordinate clauses, Perfekt/Präteritum, modals, cases and case-governing prepositions, adjective endings, Konjunktiv I/II, passive…), `en-cs.tsv` has 100 English sentences (tenses, passive, modals, conditionals, reported speech, questions, gerund vs. infinitive, comparison, relative clauses…), `cs-en.tsv` has 68 Czech ones (tenses, aspect, conditional, imperative, reflexives, verbs of motion, **all seven cases**, numerals, agreement, subordinate clauses…). To add another language create `gramatika/<target>-<source>.tsv` with the same columns – `--gr` finds it automatically.
+**Data** (`gramatika/<target>-<source>.tsv`, columns `id`, `tvar` (form name), sentence in your language, target sentence, word-by-word translation): `ru-cs.tsv` has 120 Russian sentences for Czech speakers (zero copula, aspect, verbs of motion, all six cases, dative constructions, *бы/чтобы*, impersonal constructions, *который*…), `it-cs.tsv` has 117 Italian and `es-cs.tsv` 130 Spanish sentences for Czech speakers (tenses, articles, negation, pronouns, prepositions, *essere/avere*, **ser × estar**, *piacere/gustar*, subjunctive, passive, *si/se* constructions…), `fr-cs.tsv` has 119 French sentences for Czech speakers (present, articles incl. partitive, negation, questions, passé composé, imparfait, future, conditional, imperative, **pronouns** y/en, prepositions, relative clauses, subjonctif, passive…), `de-cs.tsv` has 105 German sentences for Czech speakers (verb position, separable/reflexive verbs, subordinate clauses, Perfekt/Präteritum, modals, cases and case-governing prepositions, adjective endings, Konjunktiv I/II, passive…), `en-cs.tsv` has 100 English sentences (tenses, passive, modals, conditionals, reported speech, questions, gerund vs. infinitive, comparison, relative clauses…), `cs-en.tsv` has 68 Czech ones (tenses, aspect, conditional, imperative, reflexives, verbs of motion, **all seven cases**, numerals, agreement, subordinate clauses…). To add another language create `gramatika/<target>-<source>.tsv` with the same columns – `--gr` finds it automatically.
 
 **Notation in the word-by-word line:** `[the]`, `[a]`, `[do]`, `[did]` = word without an equivalent in your language; `works-s`-style suffixes and `a-b` = joined words; `a_b` = one word rendered by several; for Czech `(I)-work` = dropped pronoun, `.loc` `.acc` … = case, `.pf`/`.impf` = aspect, `.m .f .n .pl` = gender/number. Notation is skipped when reading aloud.
 

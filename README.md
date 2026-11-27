@@ -36,6 +36,33 @@ ln -s "$PWD/slovicka.sh" ~/.local/bin/slovicka
 
 První spuštění okna trvá asi 20 s (`uv` sestaví PyGObject), další už jsou rychlá. Jazyk rozhraní a tvůj jazyk se napoprvé vezmou z `LANG`; změníš je v nabídce (**💬 Můj jazyk**, **🌐 Jazyk rozhraní**) nebo volbami `--z` / `--locale`.
 
+### Windows (WSL2) – netestováno
+
+> ⚠️ **Netestováno.** Postup vychází z toho, co skripty potřebují (bash, GTK4, mpv, Piper), ale na Windows jsem ho nevyzkoušel. Přímo ve Windows (PowerShell, `cmd`) skripty nepoběží – jsou v `bash` a okna používají GTK4 pod Waylandem/X11. Cesta je **WSL2 s Ubuntu a WSLg** (grafické aplikace a zvuk z Linuxu přímo ve Windows 11, případně Windows 10 22H2).
+
+1. V PowerShellu jako správce: `wsl --install -d Ubuntu`, restart, vytvoř uživatele. Aktuální WSL: `wsl --update`.
+2. V Ubuntu:
+
+```sh
+sudo apt update
+sudo apt install -y git curl mpv ffmpeg build-essential pkg-config meson \
+    libgtk-4-dev gir1.2-gtk-4.0 libgirepository1.0-dev libcairo2-dev \
+    libnotify-bin fonts-noto-color-emoji fonts-noto-core
+# kdyby sestavení PyGObject hlásilo chybějící girepository-2.0: apt install libgirepository-2.0-dev
+curl -LsSf https://astral.sh/uv/install.sh | sh && exec $SHELL
+uv tool install piper-tts && uv tool install edge-tts
+
+git clone https://github.com/navik61/jazyky.git ~/Projects/Jazyky
+cd ~/Projects/Jazyky
+mkdir -p ~/.local/bin && ln -s "$PWD/slovicka.sh" ~/.local/bin/slovicka
+# hlasy Piper → ~/.local/share/piper (stejně jako výše v Instalaci)
+slovicka            # nebo: slovicka de, slovicka gr
+```
+
+3. Spouštěj z terminálu Ubuntu (Windows Terminal). `nainstaluj-spoustece.sh` (rofi/fuzzel) ve WSL nedává smysl; výběr jazyka se ukáže jako GTK nabídka.
+
+**Co může dělat potíže** (nezkoušeno): zvuk jde přes PulseAudio z WSLg (`mpv` musí slyšet výstup – ověř `mpv --no-video soubor.mp3`); okno pod WSLg se může chovat jinak než ve skutečném kompozitoru (průhlednost pozadí, plovoucí okno, fokus); první start trvá déle, protože `uv` sestavuje PyGObject. Pokud to nepůjde, použij `SLOVICKA_V_TERMINALU=1` (jen textový režim). Zkušenosti a chyby prosím jako issue na GitHubu.
+
 ## Rychlé použití
 
 ```sh
@@ -237,7 +264,7 @@ Doplňuje jen to, co chybí – po přidání pojmů stačí spustit znovu. Pou�
 ```bash
 jaz gr              # cs → angličtina (podle tvého jazyka; cíl se vybere sám)
 jaz gr --z en       # mateřština angličtina → čeština
-# mateřština čeština má dva cíle (angličtina, němčina, francouzština, italština, španělština) – nabídne se výběr
+# mateřština čeština má dva cíle (angličtina, němčina, francouzština, italština, španělština, ruština) – nabídne se výběr
 jaz gr --neznama    # jen uložené neznámé tvary
 ```
 
@@ -252,6 +279,7 @@ V záhlaví je název tvaru (Present Perfect – for, Conditional 2, Lokál – 
 **Co je v datech** (`gramatika/<cíl>-<zdroj>.tsv`, sloupce `id`, `tvar`, věta v mateřském jazyce, věta v cílovém, doslovný překlad):
 
 - `en-cs.tsv` – angličtina pro Čechy (100 vět): všechny časy (prostý, průběhový, předpřítomný, předminulý, budoucí vč. průběhových a perfekta), trpný rod, modální slovesa, podmínkové věty 0–3 a smíšené, *wish*, nepřímá řeč, otázky (podmět, předmět, dovětek, nepřímé), rozkaz, gerundium × infinitiv, stupňování, vztažné věty, členy a počitatelnost, kauzativ, frázová slovesa…
+- `ru-cs.tsv` – ruština pro Čechy (120 vět): přítomný čas, **vynechané sloveso být** (`[je]`), *u меня есть*, minulý čas podle rodu, **vid** (nedokonavý × dokonavý), slovesa pohybu (určitá × neurčitá, `.det` / `.indet`), zápory a dvojitý zápor, **všech šest pádů** (genitiv po číslovkách, akuzativ životných, instrumentál, lokál), dativní konstrukce (*мне нравится, мне надо*), přídavná jména a zájmena, komparativ a superlativ, *бы* a *чтобы*, modální a neosobní konstrukce, čas, datum, vztažné věty (*который*), pasivum…
 - `it-cs.tsv` – italština pro Čechy (117 vět): přítomný čas, vynechané podmětové zájmeno, členy vč. dělivého a splývání předložek, zápory (*non … niente/mai/nessuno/più*), *passato prossimo* (*avere* × *essere*, shoda), *imperfetto*, *passato remoto*, budoucí čas, *stare + gerundio*, kondicionál, rozkaz se zájmeny, zájmena (*ci*, *ne*, dvě zájmena), *piacere*, *c'è*, *da*, *congiuntivo*, pasivum (*essere* × *venire*), *si* (trpné a neosobní), vztažné věty…
 - `es-cs.tsv` – španělština pro Čechy (130 vět): přítomný čas a změny kmene (*e→ie, o→ue, e→i*), **ser × estar**, členy, zkrácené tvary (*buen, gran*), zápory, osobní *a*, *pretérito perfecto* × *indefinido* × *imperfecto*, budoucí čas, *estar/seguir/llevar + gerundio*, kondicionál, rozkaz, zájmena (*le → se*), *por × para*, *gustar/doler*, *hay*, *desde hace*, *tener que × hay que*, *subjuntivo*, pasivum, *se* (zvratné, neosobní, nechtěná událost)…
 - `fr-cs.tsv` – francouzština pro Čechy (119 vět): přítomný čas (-er/-ir/-re, nepravidelná), členy vč. dělivého, shoda přídavných jmen, zápory (*ne … pas/jamais/rien/plus/que*), otázky (intonace, *est-ce que*, inverze), *passé composé* (*avoir* × *être*, shoda příčestí), *imparfait*, budoucí čas, kondicionál, rozkaz, **zájmena** (*le/lui/y/en*, dvě zájmena), předložky, *il y a*, *depuis*, *venir de*, vztažné věty (*qui/que/où/dont*), *subjonctif*, pasivum, *on*, čas, datum, číslovky 70–99…
@@ -266,6 +294,8 @@ V záhlaví je název tvaru (Present Perfect – for, Conditional 2, Lokál – 
 | `pracovat-s` | koncovka 3. osoby (`works`); `ne-je` = spojené slovo |
 | `mít_rád` | jedno slovo přeložené více slovy (podtržítko) |
 | `(I)-work`, `.loc`, `.acc` … | česky: vynechané osobní zájmeno v závorce, pád a vid jako přípona (`.nom .gen .dat .acc .voc .loc .ins`, `.pf` / `.impf`, `.m .f .n`, `.pl`) |
+
+U ruštiny navíc: `[je]` = vynechané sloveso *být* v přítomném čase, `.det` / `.indet` = slovesa pohybu určitá / neurčitá, `.fut`, `.cond`, `.subj` = budoucí čas, kondicionál, spojovací způsob (u it/es/fr/de i `.ser` / `.estar`, `.impf`, `.pr`).
 
 Při čtení se značky, závorky a spojovníky vynechají (`_gr_dosl_tts`).
 

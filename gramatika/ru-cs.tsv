@@ -1,0 +1,121 @@
+id	tvar	cs	ru	doslovne
+g001	Přítomný čas – 1. časování (-ать)	Pracuju každý den.	Я работаю каждый день.	Já pracovat každý.acc den.acc.
+g002	Přítomný čas – 2. časování (-ить)	Mluvím rusky.	Я говорю по-русски.	Já mluvit po_rusku.
+g003	Vynechané sloveso být – podstatné jméno	Jsem student.	Я студент.	Já [je] student.
+g004	Vynechané sloveso být – přídavné jméno	Ten dům je velký.	Дом большой.	Dům [je] velký.
+g005	Vynechané sloveso být – místo	Ona je doma.	Она дома.	Ona [je] doma.
+g006	Mít – u меня есть	Mám sestru.	У меня есть сестра.	U já.gen je sestra.nom.
+g007	Mít – zápor нет + genitiv	Nemám čas.	У меня нет времени.	U já.gen není čas.gen.
+g008	Mít – bez есть	Mám nové auto.	У меня новая машина.	U já.gen nový.f auto.nom.
+g009	Přítomný čas – ты	Co děláš?	Что ты делаешь?	Co ty děláš.
+g010	Přítomný čas – změna kmene	Píšu dopis.	Я пишу письмо.	Já psát dopis.acc.
+g011	Nepravidelné sloveso – хотеть	Chci pít.	Я хочу пить.	Já chtít pít.
+g012	Nepravidelné sloveso – есть, пить	Jím chleba a piju čaj.	Я ем хлеб и пью чай.	Já jíst chléb.acc a já pít čaj.acc.
+g013	Slovesa pohybu – určitá (jdu teď)	Teď jdu do práce.	Сейчас я иду на работу.	Teď já jít.det na práce.acc.
+g014	Slovesa pohybu – neurčitá (chodím)	Každý den chodím do práce.	Каждый день я хожу на работу.	Každý.acc den.acc já chodit.indet na práce.acc.
+g015	Slovesa pohybu – jet	Zítra jedu do Moskvy.	Завтра я еду в Москву.	Zítra já jet.det do Moskva.acc.
+g016	Zvratné sloveso -ся	Učím se na univerzitě.	Я учусь в университете.	Já učit_se v univerzita.loc.
+g017	Jmenovat se	Jmenuju se Petr.	Меня зовут Пётр.	Já.acc volat.pl Petr.
+g018	Minulý čas – mužský rod	Včera jsem pracoval.	Вчера я работал.	Včera já pracoval.m.
+g019	Minulý čas – ženský rod	Včera jsem pracovala.	Вчера я работала.	Včera já pracovala.f.
+g020	Minulý čas – množné číslo	Včera jsme pracovali.	Вчера мы работали.	Včera my pracovali.pl.
+g021	Minulý čas – být	Včera jsem byl doma.	Вчера я был дома.	Včera já byl.m doma.
+g022	Vid nedokonavý – průběh	Včera jsem celý večer četl.	Вчера весь вечер я читал.	Včera celý.acc večer.acc já číst.impf.m.
+g023	Vid dokonavý – výsledek	Včera jsem přečetl knihu.	Вчера я прочитал книгу.	Včera já přečíst.pf.m kniha.acc.
+g024	Vid – opakování × jednorázový děj	Každý den píšu dopisy, dnes jsem napsal jeden.	Каждый день я пишу письма, сегодня я написал одно.	Každý.acc den.acc já psát.impf dopisy.acc, dnes já napsat.pf.m jeden.acc.
+g025	Budoucí čas – složený (буду)	Zítra budu pracovat.	Завтра я буду работать.	Zítra já budu pracovat.impf.
+g026	Budoucí čas – dokonavý	Zítra to napíšu.	Завтра я это напишу.	Zítra já to napsat.pf.fut.
+g027	Budoucí čas – dokonavý (hned)	Hned zavolám.	Я сразу позвоню.	Já hned zavolat.pf.fut.
+g028	Zápor – не	Nemluvím německy.	Я не говорю по-немецки.	Já ne mluvit po_německy.
+g029	Dvojitý zápor – никто	Nikoho nevidím.	Я никого не вижу.	Já nikdo.acc ne vidět.
+g030	Dvojitý zápor – ничего	Nic nevím.	Я ничего не знаю.	Já nic.gen ne vědět.
+g031	Dvojitý zápor – никогда	Nikdy nepiju kávu.	Я никогда не пью кофе.	Já nikdy ne pít káva.acc.
+g032	Zápor – нет	Není tady.	Его здесь нет.	On.gen tady není.
+g033	Zápor – не было	Včera jsem nebyl doma.	Вчера меня не было дома.	Včera já.gen nebylo doma.
+g034	Otázka – intonace	Mluvíš rusky?	Ты говоришь по-русски?	Ty mluvit po_rusku?
+g035	Otázka – tázací slovo	Kde bydlíš?	Где ты живёшь?	Kde ty bydlet?
+g036	Otázka – jak se jmenuješ	Jak se jmenuješ?	Как тебя зовут?	Jak ty.acc volat.pl?
+g037	Otázka – сколько	Kolik to stojí?	Сколько это стоит?	Kolik to stát?
+g038	Nominativ	Moje sestra je lékařka.	Моя сестра врач.	Můj.f sestra.nom [je] lékař.
+g039	Genitiv – přivlastnění	To je auto mého bratra.	Это машина моего брата.	To [je] auto můj.gen bratr.gen.
+g040	Genitiv – po нет	V městě není park.	В городе нет парка.	V město.loc není park.gen.
+g041	Genitiv – у	U Petra je auto.	У Петра есть машина.	U Petr.gen je auto.nom.
+g042	Genitiv – без, из, от, до	Káva bez cukru.	Кофе без сахара.	Káva bez cukr.gen.
+g043	Genitiv – číslovky 2–4	Mám dva bratry a tři sestry.	У меня два брата и три сестры.	U já.gen dva bratr.gen.sg a tři sestra.gen.sg.
+g044	Genitiv – číslovky 5 a více	Mám pět knih.	У меня пять книг.	U já.gen pět kniha.gen.pl.
+g045	Genitiv – množství	Mám hodně přátel.	У меня много друзей.	U já.gen mnoho přítel.gen.pl.
+g046	Dativ – komu	Dávám sestře knihu.	Я даю сестре книгу.	Já dávat sestra.dat kniha.acc.
+g047	Dativ – věk	Je mi dvacet let.	Мне двадцать лет.	Já.dat dvacet rok.gen.
+g048	Dativ – нравиться	Líbí se mi ten film.	Мне нравится этот фильм.	Já.dat líbit_se tento film.nom.
+g049	Dativ – надо	Musím jít.	Мне надо идти.	Já.dat třeba jít.
+g050	Dativ – pocit	Je mi zima.	Мне холодно.	Já.dat zima.
+g051	Dativ – нужен	Potřebuju pomoc.	Мне нужна помощь.	Já.dat potřebný.f pomoc.nom.
+g052	Dativ – помогать	Pomáhám mamince.	Я помогаю маме.	Já pomáhat máma.dat.
+g053	Akuzativ – neživotné	Vidím dům.	Я вижу дом.	Já vidět dům.acc.
+g054	Akuzativ – životné (= genitiv)	Vidím bratra.	Я вижу брата.	Já vidět bratr.acc.
+g055	Akuzativ – ženský rod (-а → -у)	Čtu knihu.	Я читаю книгу.	Já číst kniha.acc.
+g056	Akuzativ – směr (в, на)	Jdu do školy a na poštu.	Я иду в школу и на почту.	Já jít do škola.acc a na pošta.acc.
+g057	Akuzativ – čas	V pátek mám volno.	В пятницу я свободен.	V pátek.acc já volný.
+g058	Instrumentál – prostředek	Píšu perem.	Я пишу ручкой.	Já psát pero.ins.
+g059	Instrumentál – s kým	Jdu s kamarádem.	Я иду с другом.	Já jít s kamarád.ins.
+g060	Instrumentál – být kým (minulost)	Byl jsem učitel.	Я был учителем.	Já byl.m učitel.ins.
+g061	Instrumentál – pracovat jako	Pracuju jako inženýr.	Я работаю инженером.	Já pracovat inženýr.ins.
+g062	Instrumentál – заниматься	Věnuju se sportu.	Я занимаюсь спортом.	Já zabývat_se sport.ins.
+g063	Instrumentál – před, za, nad	Před domem je zahrada.	Перед домом сад.	Před dům.ins [je] zahrada.nom.
+g064	Lokál – в, на	Bydlím v Moskvě.	Я живу в Москве.	Já bydlet v Moskva.loc.
+g065	Lokál – о	Mluvíme o práci.	Мы говорим о работе.	My mluvit o práce.loc.
+g066	Lokál – na	Jsem na poště a v obchodě.	Я на почте и в магазине.	Já [je] na pošta.loc a v obchod.loc.
+g067	Lokál – koncovka -у	V lese je ticho.	В лесу тихо.	V les.loc ticho.
+g068	Množné číslo	Moji rodiče bydlí tady.	Мои родители живут здесь.	Můj.pl rodiče bydlet tady.
+g069	Shoda přídavných jmen v rodě	Nový dům, nová kniha, nové okno.	Новый дом, новая книга, новое окно.	Nový.m dům, nový.f kniha, nový.n okno.
+g070	Krátký tvar přídavného jména	Jsem rád, že tě vidím.	Я рад тебя видеть.	Já rád ty.acc vidět.
+g071	Přivlastňovací zájmena	Můj bratr a tvoje sestra.	Мой брат и твоя сестра.	Můj.m bratr a tvůj.f sestra.
+g072	Přivlastňovací – его, её, их (nesklonná)	Jeho matka a její otec.	Его мама и её отец.	On.gen máma a ona.gen otec.
+g073	Zvratné přivlastňování – свой	Miluju svou rodinu.	Я люблю свою семью.	Já milovat svůj.acc rodina.acc.
+g074	Ukazovací zájmena	Tento dům je velký, tamten je malý.	Этот дом большой, тот маленький.	Tento dům [je] velký, tamten [je] malý.
+g075	Osobní zájmena – pády	Vidím tě a ty vidíš mě.	Я вижу тебя, а ты видишь меня.	Já vidět ty.acc, a ty vidět já.acc.
+g076	Zájmena – н- po předložce	Mluvím s ním.	Я говорю с ним.	Já mluvit s on.ins.
+g077	Komparativ – než	Kniha je zajímavější než film.	Книга интереснее, чем фильм.	Kniha zajímavější než film.
+g078	Komparativ – genitiv	Můj bratr je starší než já.	Мой брат старше меня.	Můj bratr starší já.gen.
+g079	Komparativ – větší	Moskva je větší než Praha.	Москва больше, чем Прага.	Moskva větší než Praha.
+g080	Superlativ – лучший	To je nejlepší restaurace.	Это лучший ресторан.	To [je] nejlepší restaurace.
+g081	Superlativ – самый	To je nejkrásnější město.	Это самый красивый город.	To [je] nejvíc krásný město.
+g082	Příslovce	Mluví dobře a rychle.	Он говорит хорошо и быстро.	On mluvit dobře a rychle.
+g083	Podmiňovací způsob – бы	Chtěl bych čaj.	Я хотел бы чай.	Já chtěl by čaj.acc.
+g084	Podmínka – если бы	Kdybych měl čas, šel bych do kina.	Если бы у меня было время, я бы пошёл в кино.	Kdyby u já.gen bylo čas.nom, já by šel do kino.
+g085	Podmínka – если	Jestli bude pršet, zůstanu doma.	Если будет дождь, я останусь дома.	Jestli bude déšť, já zůstat.pf.fut doma.
+g086	Přání – чтобы	Chci, abys přišel.	Я хочу, чтобы ты пришёл.	Já chtít, aby ty přišel.pf.m.
+g087	Účel – чтобы + infinitiv	Učím se rusky, abych pracoval v Rusku.	Я учу русский, чтобы работать в России.	Já učit ruský.acc, aby pracovat v Rusko.loc.
+g088	Rozkaz – ty	Pojď sem!	Иди сюда!	Jdi sem!
+g089	Rozkaz – vy	Zavřete prosím dveře.	Закройте дверь, пожалуйста.	Zavřít.pf.vy dveře.acc, prosím.
+g090	Rozkaz – zápor	Nezavírej okno!	Не закрывай окно!	Ne zavírej.impf okno.acc!
+g091	Rozkaz – my	Pojďme!	Давай пойдём!	Dávej pojďme!
+g092	Modální – мочь	Můžu ti pomoct?	Могу я тебе помочь?	Moct já ty.dat pomoci.pf?
+g093	Modální – уметь × знать	Umím plavat a znám Moskvu.	Я умею плавать и знаю Москву.	Já umět plavat a já znát Moskva.acc.
+g094	Modální – должен	Musím odejít.	Я должен уйти.	Já povinen odejít.pf.
+g095	Modální – можно	Smím tady kouřit?	Здесь можно курить?	Tady možno kouřit?
+g096	Modální – нельзя	Tady se nesmí kouřit.	Здесь нельзя курить.	Tady nelze kouřit.
+g097	Neosobní – надо	Je třeba spát.	Надо спать.	Třeba spát.
+g098	Neosobní – počasí	Dnes je zima a prší.	Сегодня холодно и идёт дождь.	Dnes zima a jít.det déšť.nom.
+g099	Čas na hodinách	Je půl osmé.	Сейчас половина восьмого.	Teď polovina osmý.gen.
+g100	Čas – hodiny	Je sedm hodin.	Сейчас семь часов.	Teď sedm hodina.gen.pl.
+g101	Datum	Dnes je pátého května.	Сегодня пятое мая.	Dnes pátý.n květen.gen.
+g102	Věk – dativ	Je mu dvacet let.	Ему двадцать лет.	On.dat dvacet rok.gen.
+g103	Číslovky – jeden a dva (rod)	Mám jednu knihu a dvě pera.	У меня одна книга и две ручки.	U já.gen jedna.f kniha.nom a dvě.f pero.gen.
+g104	Souvětí – что	Myslím, že máš pravdu.	Я думаю, что ты прав.	Já myslet, že ty pravý.
+g105	Souvětí – потому что	Zůstávám doma, protože jsem nemocný.	Я остаюсь дома, потому что я болен.	Já zůstávat doma, protože já nemocný.
+g106	Souvětí – когда	Když přijdu domů, jím.	Когда я прихожу домой, я ем.	Když já přicházet domů, já jíst.
+g107	Souvětí – хотя	I když je unavený, pracuje.	Хотя он устал, он работает.	Ačkoli on unavit_se.pf.m, on pracovat.
+g108	Vztažná věta – который (podmět)	Muž, který bydlí vedle, je lékař.	Мужчина, который живёт рядом, врач.	Muž, který.nom bydlet vedle, [je] lékař.
+g109	Vztažná věta – который (akuzativ)	Kniha, kterou čtu, je dobrá.	Книга, которую я читаю, хорошая.	Kniha, který.f.acc já číst, [je] dobrá.
+g110	Vztažná věta – který (lokál)	Film, o kterém mluvíš, je nový.	Фильм, о котором ты говоришь, новый.	Film, o který.loc ty mluvit, [je] nový.
+g111	Nepřímá řeč	Řekl, že je nemocný.	Он сказал, что он болен.	On říct.pf.m, že on nemocen.
+g112	Zvratné sloveso – trpný význam	Dům se staví.	Дом строится.	Dům stavět_se.
+g113	Trpné příčestí	Dům byl postaven v roce 1900.	Дом был построен в 1900 году.	Dům byl.m postaven v 1900 rok.loc.
+g114	Neosobní – 3. osoba množná	Říká se, že je to pravda.	Говорят, что это правда.	Mluvit.pl, že to pravda.
+g115	Mít rád – любить	Mám rád kávu.	Я люблю кофе.	Já milovat káva.acc.
+g116	Dívat se – смотреть	Dívám se na film.	Я смотрю фильм.	Já dívat_se film.acc.
+g117	Zvratné sloveso – vzájemné	Vídáme se každý týden.	Мы видимся каждую неделю.	My vidět_se každý.acc týden.acc.
+g118	Slovosled – volný	Dnes večer jdu do kina.	Сегодня вечером я иду в кино.	Dnes večer.ins já jít do kino.
+g119	Slovesa pohybu s předponou	Vcházím do domu a vycházím z domu.	Я вхожу в дом и выхожу из дома.	Já vcházet do dům.acc a já vycházet z dům.gen.
+g120	Dokonavý vid – přijít	Přijdu zítra.	Я приду завтра.	Já přijít.pf.fut zítra.
