@@ -1,0 +1,109 @@
+id	tvar	en	de	doslovne
+g001	Present tense – regular verb	Every morning I drink coffee.	Jeden Morgen trinke ich Kaffee.	Every.acc morning drink I coffee.
+g002	Present tense – regular verb	I live in Berlin.	Ich wohne in Berlin.	I live in.dat Berlin.
+g003	Present tense – 3rd person (-t)	My sister works in a hospital.	Meine Schwester arbeitet in einem Krankenhaus.	My sister work-t in a.dat hospital.
+g004	Present tense – sein	I am tired.	Ich bin müde.	I am tired.
+g005	Present tense – haben	I have two children.	Ich habe zwei Kinder.	I have two children.
+g006	Present tense – vowel change (a → ä)	He drives to work by car.	Er fährt mit dem Auto zur Arbeit.	He drive.ä-t with the.dat car to-the.dat work.
+g007	Present tense – vowel change (e → i)	She gives him a book.	Sie gibt ihm ein Buch.	She give.i-t him.dat a book.
+g008	Present tense – vowel change (e → ie)	My father reads the newspaper.	Mein Vater liest die Zeitung.	My father read.ie-t the.acc newspaper.
+g009	Present tense – 'do' is not used	Do you speak German?	Sprichst du Deutsch?	Speak.i-st you German?
+g010	Present tense – 'am doing' is not used	I am cooking right now.	Ich koche gerade.	I cook just-now.
+g011	Separable verb – main clause	I get up at seven o'clock.	Ich stehe um sieben Uhr auf.	I stand at seven o'clock up.
+g012	Separable verb – question	When does the train arrive?	Wann kommt der Zug an?	When come-t the train at?
+g013	Inseparable verb	I understand you very well.	Ich verstehe dich sehr gut.	I understand you.acc very well.
+g014	Reflexive verb (accusative)	I am getting dressed.	Ich ziehe mich an.	I pull myself.acc on.
+g015	Reflexive verb (dative)	I am washing my hands.	Ich wasche mir die Hände.	I wash myself.dat the.acc hands.
+g016	Word order – verb in second place	Tomorrow I am going to the cinema.	Morgen gehe ich ins Kino.	Tomorrow go I into-the.acc cinema.
+g017	Word order – inversion after adverb	Today we are eating pizza.	Heute essen wir Pizza.	Today eat we pizza.
+g018	Question without question word	Are you coming with us?	Kommst du mit uns?	Come-st you with us.dat?
+g019	Question with question word	Where do you live?	Wo wohnst du?	Where live-st you?
+g020	Negation – nicht	I am not coming today.	Ich komme heute nicht.	I come today not.
+g021	Negation – kein	I have no time.	Ich habe keine Zeit.	I have no.acc time.
+g022	Subordinate clause – weil (verb at the end)	I am staying at home because I am sick.	Ich bleibe zu Hause, weil ich krank bin.	I stay at home, because I sick am.
+g023	Subordinate clause – dass	I think that he is right.	Ich denke, dass er recht hat.	I think, that he right has.
+g024	Subordinate clause – wenn	If it rains, we stay at home.	Wenn es regnet, bleiben wir zu Hause.	If it rain-t, stay we at home.
+g025	Subordinate clause – obwohl	Although he is tired, he is working.	Obwohl er müde ist, arbeitet er.	Although he tired is, work-t he.
+g026	Subordinate clause – ob	I don't know whether she is coming.	Ich weiß nicht, ob sie kommt.	I know not, whether she come-t.
+g027	Subordinate clause – separable verb at the end	I am tired because I get up early every day.	Ich bin müde, weil ich jeden Tag früh aufstehe.	I tired am, because I every.acc day early up-stand.
+g028	Subordinate clause – clause first	When I get home, I cook.	Wenn ich nach Hause komme, koche ich.	When I to home come, cook I.
+g029	Infinitive with zu	I forgot to call him.	Ich habe vergessen, ihn anzurufen.	I have forgotten, him on-to-call.
+g030	Infinitive – um ... zu (purpose)	I am learning German in order to work in Germany.	Ich lerne Deutsch, um in Deutschland zu arbeiten.	I learn German, in-order in Germany to work.
+g031	Perfect – haben	Yesterday I played football.	Gestern habe ich Fußball gespielt.	Yesterday have I football ge-play-t.
+g032	Perfect – sein (movement)	We went to Munich.	Wir sind nach München gefahren.	We are to Munich ge-driven.
+g033	Perfect – sein (change of state)	He fell asleep at ten.	Er ist um zehn eingeschlafen.	He is at ten in-ge-slept.
+g034	Perfect – irregular verb	I ate a bread roll.	Ich habe ein Brötchen gegessen.	I have a bread-roll ge-eaten.
+g035	Perfect – separable verb	She called me yesterday.	Sie hat mich gestern angerufen.	She has me yesterday on-ge-called.
+g036	Perfect – inseparable verb (no ge-)	I have ordered a new phone.	Ich habe ein neues Handy bestellt.	I have a new.n phone ordered.
+g037	Perfect – verb in -ieren	He studied in Vienna.	Er hat in Wien studiert.	He has in Vienna studied.
+g038	Preterite – sein	Yesterday I was at home.	Gestern war ich zu Hause.	Yesterday was I at home.
+g039	Preterite – haben	We had no money.	Wir hatten kein Geld.	We had no money.
+g040	Preterite – modal verb	I had to work.	Ich musste arbeiten.	I must-ed work.
+g041	Preterite – regular verb	He lived in Spain for a long time.	Er lebte lange in Spanien.	He live-d long in Spain.
+g042	Preterite – irregular verb	He went to school every day.	Er ging jeden Tag zur Schule.	He went every.acc day to-the.dat school.
+g043	Pluperfect	When I arrived, the film had already started.	Als ich ankam, hatte der Film schon begonnen.	When I on-came, had the film already begun.
+g044	Future – werden	Next year I will move to Hamburg.	Nächstes Jahr werde ich nach Hamburg ziehen.	Next year will I to Hamburg move.
+g045	Future – supposition	He will probably be at home.	Er wird wohl zu Hause sein.	He will probably at home be.
+g046	Present as future	I am flying to Rome tomorrow.	Morgen fliege ich nach Rom.	Tomorrow fly I to Rome.
+g047	Modal verb – können	I can swim.	Ich kann schwimmen.	I can swim.
+g048	Modal verb – müssen	You have to go to the doctor.	Du musst zum Arzt gehen.	You must to-the.dat doctor go.
+g049	Modal verb – dürfen	May I open the window?	Darf ich das Fenster öffnen?	May I the.acc window open?
+g050	Modal verb – wollen	We want to travel to Italy.	Wir wollen nach Italien reisen.	We want to Italy travel.
+g051	Modal verb – sollen	You should drink more water.	Du sollst mehr Wasser trinken.	You shall more water drink.
+g052	Modal verb – möchte	I would like a coffee.	Ich möchte einen Kaffee.	I would-like a.acc coffee.
+g053	Modal verb – negative	You must not smoke here.	Hier darfst du nicht rauchen.	Here may-st you not smoke.
+g054	Imperative – du	Come here!	Komm her!	Come here!
+g055	Imperative – du (e → i)	Give me the book!	Gib mir das Buch!	Give me.dat the book!
+g056	Imperative – Sie	Please sit down.	Setzen Sie sich bitte.	Sit you yourself please.
+g057	Imperative – plural	Open your books!	Öffnet eure Bücher!	Open-t your books!
+g058	Nominative	The man is a teacher.	Der Mann ist Lehrer.	The.nom man is [a] teacher.
+g059	Accusative – definite article	I see the man.	Ich sehe den Mann.	I see the.acc man.
+g060	Accusative – indefinite article	I am buying a car.	Ich kaufe einen Wagen.	I buy a.acc car.
+g061	Accusative – prepositions (für, durch, ohne)	The gift is for you.	Das Geschenk ist für dich.	The gift is for you.acc.
+g062	Accusative – time expression	I was there all day.	Ich war den ganzen Tag dort.	I was the.acc whole.acc day there.
+g063	Dative – indirect object	I give my mother flowers.	Ich schenke meiner Mutter Blumen.	I give my.dat mother flowers.
+g064	Dative – prepositions (mit, bei, nach, von, zu, aus)	I am going to the doctor with my friend.	Ich gehe mit meinem Freund zum Arzt.	I go with my.dat friend to-the.dat doctor.
+g065	Dative – seit	I have been learning German for two years.	Ich lerne seit zwei Jahren Deutsch.	I learn since two.dat years German.
+g066	Dative – verbs (helfen)	Can you help me?	Kannst du mir helfen?	Can you me.dat help?
+g067	Dative – verbs (gefallen)	I like the film.	Der Film gefällt mir.	The film please-t me.dat.
+g068	Dative – How are you?	How are you?	Wie geht es dir?	How go-t it you.dat?
+g069	Two objects – pronouns (accusative before dative)	I give it to him.	Ich gebe es ihm.	I give it.acc him.dat.
+g070	Two-way prepositions – where? (dative)	The book is on the table.	Das Buch liegt auf dem Tisch.	The book lie-t on the.dat table.
+g071	Two-way prepositions – where to? (accusative)	I put the book on the table.	Ich lege das Buch auf den Tisch.	I lay the book on the.acc table.
+g072	Two-way prepositions – in (where?)	I am in the kitchen.	Ich bin in der Küche.	I am in the.dat kitchen.
+g073	Two-way prepositions – in (where to?)	I am going into the kitchen.	Ich gehe in die Küche.	I go into the.acc kitchen.
+g074	Genitive – possession	That is my brother's car.	Das ist das Auto meines Bruders.	That is the car my.gen brother.gen.
+g075	Genitive – wegen	Because of the rain we stayed at home.	Wegen des Regens blieben wir zu Hause.	Because-of the.gen rain.gen stayed we at home.
+g076	Plural	I have three brothers and two sisters.	Ich habe drei Brüder und zwei Schwestern.	I have three brothers and two sisters.
+g077	Possessive pronouns	Is that your bag?	Ist das deine Tasche?	Is that your.f bag?
+g078	Gender of nouns	The girl is playing.	Das Mädchen spielt.	The.n girl play-t.
+g079	Adjective – definite article	The old man is sleeping.	Der alte Mann schläft.	The old.e man sleep.ä-t.
+g080	Adjective – indefinite article	I have a new car.	Ich habe ein neues Auto.	I have a new.es car.
+g081	Adjective – no article	I like hot coffee.	Ich mag heißen Kaffee.	I like hot.en coffee.
+g082	Adjective – predicate (no ending)	The coffee is hot.	Der Kaffee ist heiß.	The coffee is hot.
+g083	Comparative	My house is bigger than your house.	Mein Haus ist größer als dein Haus.	My house is big-er than your house.
+g084	Superlative	He is the tallest in the class.	Er ist der Größte in der Klasse.	He is the big-est in the.dat class.
+g085	Superlative – am ...sten	This city is the most beautiful.	Diese Stadt ist am schönsten.	This city is at-the beautiful-est.
+g086	gern – lieber – am liebsten	I like to drink tea, but I prefer coffee.	Ich trinke gern Tee, aber lieber Kaffee.	I drink gladly tea, but more-gladly coffee.
+g087	Relative clause – subject	The man who lives here is my uncle.	Der Mann, der hier wohnt, ist mein Onkel.	The man, who here live-t, is my uncle.
+g088	Relative clause – object	The film that I saw was good.	Der Film, den ich gesehen habe, war gut.	The film, which.acc I ge-seen have, was good.
+g089	Subjunctive II – würde + infinitive	I would travel more if I had time.	Ich würde mehr reisen, wenn ich Zeit hätte.	I would more travel, if I time had.subj.
+g090	Subjunctive II – wäre	If I were rich, I would buy a house.	Wenn ich reich wäre, würde ich ein Haus kaufen.	If I rich were.subj, would I a house buy.
+g091	Subjunctive II – polite request	Could you help me?	Könnten Sie mir helfen?	Could.subj you.formal me.dat help?
+g092	Subjunctive II – wish	I wish I had more time.	Ich wünschte, ich hätte mehr Zeit.	I wish.subj, I had.subj more time.
+g093	Reported speech – Subjunctive I	He said that he was ill.	Er sagte, er sei krank.	He said, he be.subj ill.
+g094	Passive – present	The window is opened.	Das Fenster wird geöffnet.	The window become-t ge-opened.
+g095	Passive – preterite	The house was built in 1990.	Das Haus wurde 1990 gebaut.	The house became 1990 ge-built.
+g096	State passive	The shop is closed.	Das Geschäft ist geschlossen.	The shop is ge-closed.
+g097	Impersonal man	You can't smoke here.	Hier darf man nicht rauchen.	Here may one not smoke.
+g098	Verbs with prepositions	I am waiting for the bus.	Ich warte auf den Bus.	I wait on the.acc bus.
+g099	Pronominal adverbs (da-)	I am looking forward to it.	Ich freue mich darauf.	I be-glad myself there-on.
+g100	Es gibt	There is a park in the city.	In der Stadt gibt es einen Park.	In the.dat city give-t it a.acc park.
+g101	Conjunction denn (no inversion)	I am staying at home, because I am tired.	Ich bleibe zu Hause, denn ich bin müde.	I stay at home, for I am tired.
+g102	Word order – time, manner, place	I am driving to Berlin by train tomorrow.	Ich fahre morgen mit dem Zug nach Berlin.	I drive tomorrow with the.dat train to Berlin.
+g103	Formal address – Sie	How are you, Mr. Müller?	Wie geht es Ihnen, Herr Müller?	How go-t it you.dat.formal, Mr. Müller?
+g104	Telling time	It is a quarter past three.	Es ist Viertel nach drei.	It is quarter after three.
+g105	Date – ordinal number	Today is the third of May.	Heute ist der dritte Mai.	Today is the third May.
+g106	Numbers – 21 (units before tens)	I am twenty-one years old.	Ich bin einundzwanzig Jahre alt.	I am one-and-twenty years old.
+g107	Verb lassen	I am having my hair cut.	Ich lasse mir die Haare schneiden.	I let myself.dat the.acc hair cut.
+g108	Verb anfangen + zu	It is starting to rain.	Es fängt an zu regnen.	It catch.ä-t on to rain.
