@@ -1,0 +1,106 @@
+id	tvar	cs	de	doslovne
+g001	Präsens – pravidelné sloveso	Každé ráno piju kávu.	Ich trinke jeden Morgen Kaffee.	Já pít každý.acc ráno káva.
+g002	Präsens – 3. osoba (-t)	Moje sestra pracuje v nemocnici.	Meine Schwester arbeitet im Krankenhaus.	Můj sestra pracovat-t v_[the].dat nemocnice.
+g003	Präsens – sein	Jsem unavený.	Ich bin müde.	Já jsem unavený.
+g004	Präsens – haben	Mám dvě děti.	Ich habe zwei Kinder.	Já mít dva děti.
+g005	Präsens – změna kmenové samohlásky (a → ä)	Ona jezdí rychle.	Sie fährt schnell.	Ona jet-t rychle.
+g006	Präsens – změna kmenové samohlásky (e → i)	Ona čte knihu.	Sie liest ein Buch.	Ona číst-t [a].acc kniha.
+g007	Präsens – změna kmenové samohlásky (e → ie)	Vidím psa.	Ich sehe einen Hund.	Já vidět [a].acc pes.
+g008	Odlučitelné sloveso – hlavní věta	Vstávám v sedm.	Ich stehe um sieben Uhr auf.	Já stát v sedm hodina nahoru.
+g009	Odlučitelné sloveso – otázka	Kdy přijede vlak?	Wann kommt der Zug an?	Kdy přijít [the] vlak na?
+g010	Neodlučitelné sloveso	Rozumím ti.	Ich verstehe dich.	Já rozumět ty.acc.
+g011	Zvratné sloveso (akuzativ)	Zajímám se o hudbu.	Ich interessiere mich für Musik.	Já zajímat se.acc pro hudba.
+g012	Zvratné sloveso (dativ)	Myju si ruce.	Ich wasche mir die Hände.	Já myju já.dat [the].acc ruce.
+g013	Slovosled – sloveso na 2. místě	Dnes jdu do kina.	Heute gehe ich ins Kino.	Dnes jdu já do_[the].acc kino.
+g014	Slovosled – inverze po příslovci	Včera jsme byli doma.	Gestern waren wir zu Hause.	Včera byli my doma.
+g015	Otázka bez tázacího slova	Mluvíš německy?	Sprichst du Deutsch?	Mluvit-š ty němčina?
+g016	Otázka s tázacím slovem	Kde bydlíš?	Wo wohnst du?	Kde bydlet-š ty?
+g017	Zápor – nicht	Dnes nepracuju.	Ich arbeite heute nicht.	Já pracovat dnes ne.
+g018	Zápor – kein	Nemám čas.	Ich habe keine Zeit.	Já mít ne-[a] čas.
+g019	Souvětí – weil (sloveso na konci)	Zůstávám doma, protože jsem nemocný.	Ich bleibe zu Hause, weil ich krank bin.	Já zůstávat doma, protože já nemocný jsem.
+g020	Souvětí – dass	Myslím, že máš pravdu.	Ich denke, dass du recht hast.	Já myslet, že ty pravdu máš.
+g021	Souvětí – wenn (inverze v hlavní větě)	Když prší, zůstanu doma.	Wenn es regnet, bleibe ich zu Hause.	Když to prší, zůstanu já doma.
+g022	Souvětí – obwohl	Jdu ven, i když prší.	Ich gehe raus, obwohl es regnet.	Já jít ven, i_když to prší.
+g023	Souvětí – ob	Nevím, jestli přijde.	Ich weiß nicht, ob er kommt.	Já vědět ne, jestli on přijde.
+g024	Souvětí – odlučitelné sloveso na konci	Vím, že vlak odjíždí v osm.	Ich weiß, dass der Zug um acht abfährt.	Já vědět, že [the] vlak v osm pryč-jede.
+g025	Souvětí – vedlejší věta první	Když přijdu domů, jím.	Wenn ich nach Hause komme, esse ich.	Když já po domu přijdu, jím já.
+g026	Infinitiv se zu	Nechce se mi dnes pracovat.	Ich habe keine Lust, heute zu arbeiten.	Já mít ne-[a] chuť, dnes k pracovat.
+g027	Infinitiv – um ... zu (účel)	Učím se německy, abych pracoval v Německu.	Ich lerne Deutsch, um in Deutschland zu arbeiten.	Já učit-se němčina, aby v Německo k pracovat.
+g028	Perfekt – haben	Včera jsem koupil chleba.	Gestern habe ich Brot gekauft.	Včera mám já chléb koupený.
+g029	Perfekt – sein (pohyb)	Včera jsem jel do Berlína.	Gestern bin ich nach Berlin gefahren.	Včera jsem já do Berlín jetý.
+g030	Perfekt – sein (změna stavu)	Vstal jsem v šest.	Ich bin um sechs Uhr aufgestanden.	Já jsem v šest hodina nahoru-stanutý.
+g031	Perfekt – nepravidelné sloveso	Včera jsem ho viděl.	Ich habe ihn gestern gesehen.	Já mám on.acc včera viděný.
+g032	Perfekt – odlučitelné sloveso	Zavolal jsem ti.	Ich habe dich angerufen.	Já mám ty.acc na-volaný.
+g033	Perfekt – neodlučitelné sloveso (bez ge-)	Zapomněl jsem klíče.	Ich habe meine Schlüssel vergessen.	Já mám můj.acc klíče zapomenutý.
+g034	Perfekt – sloveso na -ieren	Studoval jsem v Praze.	Ich habe in Prag studiert.	Já mám v Praha studovaný.
+g035	Präteritum – sein	Včera jsem byl nemocný.	Gestern war ich krank.	Včera byl já nemocný.
+g036	Präteritum – haben	Měl jsem hlad.	Ich hatte Hunger.	Já měl hlad.
+g037	Präteritum – modální sloveso	Musel jsem pracovat.	Ich musste arbeiten.	Já musel pracovat.
+g038	Präteritum – pravidelné sloveso	Tehdy jsme bydleli ve Vídni.	Damals wohnten wir in Wien.	Tehdy bydleli my v Vídeň.dat.
+g039	Präteritum – nepravidelné sloveso	Šel domů a spal.	Er ging nach Hause und schlief.	On šel k_domovu a spal.
+g040	Plusquamperfekt	Když jsem přišel, film už začal.	Als ich kam, hatte der Film schon begonnen.	Když já přišel, měl [the] film už začatý.
+g041	Futur I	Zítra budu pracovat.	Morgen werde ich arbeiten.	Zítra stanu_se já pracovat.
+g042	Futur I – domněnka	Teď asi spí.	Er wird jetzt wohl schlafen.	On stane_se teď asi spát.
+g043	Präsens jako budoucnost	Zítra jedu do Prahy.	Morgen fahre ich nach Prag.	Zítra jedu já do Praha.
+g044	Modální sloveso – können	Umím plavat.	Ich kann schwimmen.	Já moct plavat.
+g045	Modální sloveso – müssen	Musím jít.	Ich muss gehen.	Já muset jít.
+g046	Modální sloveso – dürfen	Smím tady kouřit?	Darf ich hier rauchen?	Smět já tady kouřit?
+g047	Modální sloveso – wollen	Chci jet na dovolenou.	Ich will in den Urlaub fahren.	Já chtít do [the].acc dovolená jet.
+g048	Modální sloveso – sollen	Máš jít k lékaři.	Du sollst zum Arzt gehen.	Ty mít_povinnost k_[the].dat lékař jít.
+g049	Modální sloveso – möchte	Dal bych si kávu.	Ich möchte einen Kaffee.	Já chtít_bych [a].acc káva.
+g050	Modální sloveso – záporné	Tady nesmíš parkovat.	Du darfst hier nicht parken.	Ty smět tady ne parkovat.
+g051	Imperativ – tykání	Pojď sem!	Komm her!	Pojď sem!
+g052	Imperativ – tykání (e → i)	Čti nahlas!	Lies laut!	Čti hlasitě!
+g053	Imperativ – vykání	Zavřete prosím dveře.	Schließen Sie bitte die Tür.	Zavřít vy prosím [the].acc dveře.
+g054	Imperativ – množné číslo	Pojďte rychle!	Kommt schnell!	Pojďte rychle!
+g055	Nominativ	Ten muž je lékař.	Der Mann ist Arzt.	[the] muž je lékař.
+g056	Akuzativ – určitý člen (mužský rod)	Vidím toho muže.	Ich sehe den Mann.	Já vidět [the].acc muž.
+g057	Akuzativ – neurčitý člen	Mám psa.	Ich habe einen Hund.	Já mít [a].acc pes.
+g058	Akuzativ – předložky (für, durch, ohne)	Dárek je pro tebe.	Das Geschenk ist für dich.	[the] dárek je pro ty.acc.
+g059	Akuzativ – časový údaj	Pracuju celý den.	Ich arbeite den ganzen Tag.	Já pracovat [the].acc celý.acc den.
+g060	Dativ – nepřímý předmět	Dávám dítěti knihu.	Ich gebe dem Kind ein Buch.	Já dát [the].dat dítě [a].acc kniha.
+g061	Dativ – předložky (mit, bei, nach, von, zu, aus)	Jedu s kamarádem.	Ich fahre mit einem Freund.	Já jet s [a].dat kamarád.
+g062	Dativ – seit	Bydlím tady tři roky.	Ich wohne seit drei Jahren hier.	Já bydlet od tři rok.dat tady.
+g063	Dativ – slovesa (helfen)	Pomáhá mi.	Er hilft mir.	On pomáhat-t já.dat.
+g064	Dativ – slovesa (gefallen)	Líbí se mi ten dům.	Das Haus gefällt mir.	[the] dům líbit-t se já.dat.
+g065	Dativ – Wie geht's?	Jak se máš?	Wie geht es dir?	Jak jde to ty.dat?
+g066	Dvojitý pád – zájmena (akuzativ před dativem)	Dám ti to.	Ich gebe es dir.	Já dát to.acc ty.dat.
+g067	Předložky se 3./4. pádem – kde? (dativ)	Kniha leží na stole.	Das Buch liegt auf dem Tisch.	[the] kniha leží na [the].dat stůl.
+g068	Předložky se 3./4. pádem – kam? (akuzativ)	Pokládám knihu na stůl.	Ich lege das Buch auf den Tisch.	Já pokládat [the].acc kniha na [the].acc stůl.
+g069	Předložky se 3./4. pádem – in (kde?)	Jsem ve škole.	Ich bin in der Schule.	Já jsem v [the].dat škola.
+g070	Předložky se 3./4. pádem – in (kam?)	Jdu do školy.	Ich gehe in die Schule.	Já jít do [the].acc škola.
+g071	Genitiv – přivlastnění	To je auto mého otce.	Das ist das Auto meines Vaters.	To je [the] auto můj.gen otec.gen.
+g072	Genitiv – wegen	Kvůli dešti zůstáváme doma.	Wegen des Regens bleiben wir zu Hause.	Kvůli [the].gen déšť.gen zůstávat my doma.
+g073	Množné číslo	Mám dvě sestry a tři bratry.	Ich habe zwei Schwestern und drei Brüder.	Já mít dva sestry a tři bratři.
+g074	Přivlastňovací zájmena	Moje matka a tvůj otec jsou doma.	Meine Mutter und dein Vater sind zu Hause.	Má matka a tvůj otec jsou doma.
+g075	Rod podstatných jmen (střední rod)	To děvče je chytré.	Das Mädchen ist klug.	[the].n děvče je chytré.
+g076	Přídavné jméno – určitý člen	Vidím toho starého muže.	Ich sehe den alten Mann.	Já vidět [the].acc starý.acc muž.
+g077	Přídavné jméno – neurčitý člen	Mám nové auto.	Ich habe ein neues Auto.	Já mít [a] nový auto.
+g078	Přídavné jméno – bez členu	Rád piju studené mléko.	Ich trinke gern kalte Milch.	Já pít rád studený mléko.
+g079	Přídavné jméno – přísudek (bez koncovky)	Ta kniha je zajímavá.	Das Buch ist interessant.	[the] kniha je zajímavý.
+g080	Komparativ	Berlín je větší než Praha.	Berlin ist größer als Prag.	Berlín je větší než Praha.
+g081	Superlativ	Je to nejlepší film.	Das ist der beste Film.	To je [the] nejlepší film.
+g082	Superlativ – am ...sten	V létě je to nejhezčí.	Im Sommer ist es am schönsten.	V_[the].dat léto je to na_[the] nejhezčí.
+g083	gern – lieber – am liebsten	Raději piju pivo než víno.	Ich trinke lieber Bier als Wein.	Já pít raději pivo než víno.
+g084	Vztažná věta – podmět	Muž, který bydlí vedle, je lékař.	Der Mann, der nebenan wohnt, ist Arzt.	[the] muž, který vedle bydlí, je lékař.
+g085	Vztažná věta – předmět	Kniha, kterou čtu, je dobrá.	Das Buch, das ich lese, ist gut.	[the] kniha, kterou já čtu, je dobrá.
+g086	Konjunktiv II – würde + infinitiv	Kdybych měl čas, šel bych do kina.	Wenn ich Zeit hätte, würde ich ins Kino gehen.	Když já čas měl_by, stal_by já do_[the].acc kino jít.
+g087	Konjunktiv II – wäre	Kdybych byl bohatý, koupil bych dům.	Wenn ich reich wäre, würde ich ein Haus kaufen.	Když já bohatý byl_by, stal_by já [a].acc dům koupit.
+g088	Konjunktiv II – zdvořilá prosba	Mohl byste mi pomoci?	Könnten Sie mir helfen?	Moct_by vy já.dat pomoci?
+g089	Konjunktiv II – přání	Kéž bych měl víc času.	Ich wünschte, ich hätte mehr Zeit.	Já přát_si.pt, já víc čas měl_by.
+g090	Nepřímá řeč – Konjunktiv I	Řekl, že je nemocný.	Er sagte, er sei krank.	On řekl, on byl.konj nemocný.
+g091	Passiv – přítomný čas	Dům se staví.	Das Haus wird gebaut.	[the] dům stává_se postavený.
+g092	Passiv – Präteritum	Dům byl postaven v roce 1900.	Das Haus wurde 1900 gebaut.	[the] dům stal_se 1900 postavený.
+g093	Zustandspassiv	Obchod je zavřený.	Das Geschäft ist geschlossen.	[the] obchod je zavřený.
+g094	Neosobní man	Tady se mluví německy.	Hier spricht man Deutsch.	Tady mluví man němčina.
+g095	Slovesa s předložkou	Čekám na autobus.	Ich warte auf den Bus.	Já čekat na [the].acc autobus.
+g096	Zájmenné příslovce (da-)	Těším se na to.	Ich freue mich darauf.	Já těšit se.acc na_to.
+g097	Es gibt	Ve městě je park.	In der Stadt gibt es einen Park.	V [the].dat město dává to [a].acc park.
+g098	Spojka denn (bez inverze)	Zůstanu doma, protože jsem nemocný.	Ich bleibe zu Hause, denn ich bin krank.	Já zůstanu doma, neboť já jsem nemocný.
+g099	Slovosled – čas, způsob, místo	Dnes jedu autem do Berlína.	Ich fahre heute mit dem Auto nach Berlin.	Já jet dnes s [the].dat auto do Berlín.
+g100	Vykání – Sie	Jak se jmenujete?	Wie heißen Sie?	Jak jmenovat_se vy?
+g101	Čas na hodinách	Je půl osmé.	Es ist halb acht.	To je půl osm.
+g102	Datum – řadová číslovka	Dnes je pátého května.	Heute ist der fünfte Mai.	Dnes je [the] pátý květen.
+g103	Číslovky – 21 (jednotky před desítkami)	Je mi jednadvacet.	Ich bin einundzwanzig Jahre alt.	Já jsem jedna_a_dvacet rok starý.
+g104	Sloveso lassen	Nechám se ostříhat.	Ich lasse mir die Haare schneiden.	Já nechat já.dat [the].acc vlasy stříhat.
+g105	Sloveso anfangen + zu	Začíná pršet.	Es fängt an zu regnen.	To začíná k pršet.

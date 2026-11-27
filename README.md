@@ -237,6 +237,7 @@ Doplňuje jen to, co chybí – po přidání pojmů stačí spustit znovu. Pou�
 ```bash
 jaz gr              # cs → angličtina (podle tvého jazyka; cíl se vybere sám)
 jaz gr --z en       # mateřština angličtina → čeština
+# mateřština čeština má dva cíle (angličtina, němčina) – nabídne se výběr
 jaz gr --neznama    # jen uložené neznámé tvary
 ```
 
@@ -251,6 +252,7 @@ V záhlaví je název tvaru (Present Perfect – for, Conditional 2, Lokál – 
 **Co je v datech** (`gramatika/<cíl>-<zdroj>.tsv`, sloupce `id`, `tvar`, věta v mateřském jazyce, věta v cílovém, doslovný překlad):
 
 - `en-cs.tsv` – angličtina pro Čechy (100 vět): všechny časy (prostý, průběhový, předpřítomný, předminulý, budoucí vč. průběhových a perfekta), trpný rod, modální slovesa, podmínkové věty 0–3 a smíšené, *wish*, nepřímá řeč, otázky (podmět, předmět, dovětek, nepřímé), rozkaz, gerundium × infinitiv, stupňování, vztažné věty, členy a počitatelnost, kauzativ, frázová slovesa…
+- `de-cs.tsv` – němčina pro Čechy (105 vět): přítomný čas a změna kmenové samohlásky, odlučitelná a zvratná slovesa, slovosled (sloveso na 2. místě, vedlejší věty se slovesem na konci, *weil/dass/wenn/obwohl/ob/denn*), Perfekt (*haben* × *sein*) a Präteritum, Plusquamperfekt, Futur, modální slovesa, rozkaz, **pády** (akuzativ, dativ, genitiv, předložky se 3./4. pádem), skloňování přídavných jmen, stupňování, vztažné věty, Konjunktiv I a II, pasivum, *man*, *es gibt*, zájmenná příslovce, čas a datum…
 - `cs-en.tsv` – čeština pro anglicky mluvící (68 vět): časy, vid (dokonavý × nedokonavý), kondicionál, rozkaz, zvratná slovesa, slovesa pohybu, modální a neosobní konstrukce, **všech sedm pádů** (po několika příkladech), číslovky, shoda přídavných jmen, stupňování, vedlejší věty (*že, aby, jestli*)…
 
 **Značky v doslovném překladu:**

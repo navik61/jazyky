@@ -155,7 +155,7 @@ Voices: Czech uses `edge-tts` (online), the other languages Piper (offline). The
 | `intro/` | photo and music for the intro; `intro/.vygenerovano/` = composed pictures (generated) |
 | `intro-obrazek.py` | composes the intro picture (Pillow via `uv run --script`) |
 | `neznama/<yours>-<target>.txt` | saved unknown words (generated, not in git); for grammar `<yours>-<target>-gr.txt` |
-| `gramatika/<target>-<source>.tsv` | grammar forms: sentences and word-by-word translation (`en-cs.tsv`, `cs-en.tsv`) |
+| `gramatika/<target>-<source>.tsv` | grammar forms: sentences and word-by-word translation (`en-cs.tsv`, `cs-en.tsv`, `de-cs.tsv`) |
 | `generuj-claude.py` | fills in words and sentences via the Claude Batch API |
 | `nainstaluj-spoustece.sh` | creates application-menu entries (`.desktop`, translated) |
 | `nastroje/texty-rozhrani.py` | source of the interface texts in all languages |
@@ -204,7 +204,7 @@ Practises **grammatical forms** of the target language. Each card has three part
 
 The header names the form (Present Perfect – for, Conditional 2, Locative – o …). All three parts are read aloud. Keys are the same as for words (`Enter` known, `n` unknown, space pause, `z` repeat, `q` quit); the order is fixed and `--swap` is ignored. A round has 30 items; unknown ones are repeated and saved to `neznama/<yours>-<target>-gr.txt`.
 
-**Data** (`gramatika/<target>-<source>.tsv`, columns `id`, `tvar` (form name), sentence in your language, target sentence, word-by-word translation): `en-cs.tsv` has 100 English sentences (tenses, passive, modals, conditionals, reported speech, questions, gerund vs. infinitive, comparison, relative clauses…), `cs-en.tsv` has 68 Czech ones (tenses, aspect, conditional, imperative, reflexives, verbs of motion, **all seven cases**, numerals, agreement, subordinate clauses…). To add another language create `gramatika/<target>-<source>.tsv` with the same columns – `--gr` finds it automatically.
+**Data** (`gramatika/<target>-<source>.tsv`, columns `id`, `tvar` (form name), sentence in your language, target sentence, word-by-word translation): `de-cs.tsv` has 105 German sentences for Czech speakers (verb position, separable/reflexive verbs, subordinate clauses, Perfekt/Präteritum, modals, cases and case-governing prepositions, adjective endings, Konjunktiv I/II, passive…), `en-cs.tsv` has 100 English sentences (tenses, passive, modals, conditionals, reported speech, questions, gerund vs. infinitive, comparison, relative clauses…), `cs-en.tsv` has 68 Czech ones (tenses, aspect, conditional, imperative, reflexives, verbs of motion, **all seven cases**, numerals, agreement, subordinate clauses…). To add another language create `gramatika/<target>-<source>.tsv` with the same columns – `--gr` finds it automatically.
 
 **Notation in the word-by-word line:** `[the]`, `[a]`, `[do]`, `[did]` = word without an equivalent in your language; `works-s`-style suffixes and `a-b` = joined words; `a_b` = one word rendered by several; for Czech `(I)-work` = dropped pronoun, `.loc` `.acc` … = case, `.pf`/`.impf` = aspect, `.m .f .n .pl` = gender/number. Notation is skipped when reading aloud.
 
