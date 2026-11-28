@@ -1,0 +1,136 @@
+id	tvar	en	it	doslovne
+g001	Present – -are verbs	I speak Italian with my friends.	Parlo italiano con i miei amici.	(I)-speak Italian with the.pl my.pl friends.
+g002	Present – -are, no progressive	I am working right now.	Lavoro in questo momento.	(I)-work in this moment.
+g003	Present – -ere verbs	We read the newspaper every morning.	Leggiamo il giornale ogni mattina.	(We)-read the newspaper every morning.
+g004	Present – -ire verbs	He sleeps eight hours.	Dorme otto ore.	(He)-sleeps eight hours.
+g005	Present – -ire with -isc-	She finishes work at six.	Finisce di lavorare alle sei.	(She)-finish.isc of work at-the.f.pl six.
+g006	Present – essere	I am tired.	Sono stanco.	(I)-am tired.m.
+g007	Present – avere	I have two brothers.	Ho due fratelli.	(I)-have two brothers.
+g008	Present – andare	We are going to the market.	Andiamo al mercato.	(We)-go to-the market.
+g009	Present – fare	What are you doing tonight?	Che cosa fai stasera?	What thing (you)-do this-evening?
+g010	Present – volere, potere	I want to come, but I can't.	Voglio venire, ma non posso.	(I)-want come, but not (I)-can.
+g011	Dropped subject pronoun	She lives in Rome and works in a bank.	Abita a Roma e lavora in banca.	(She)-lives in Rome and (she)-works in bank.
+g012	Subject pronoun for emphasis	I am the one who is paying.	Pago io.	(I)-pay I.
+g013	Tu × Lei (formal)	Excuse me, sir, do you speak English?	Scusi, signore, parla inglese?	(You.formal)-excuse, sir, (you.formal)-speak English?
+g014	Definite article – il, lo, la, l'	The boy, the student, the girl and the friend are here.	Il ragazzo, lo studente, la ragazza e l'amico sono qui.	The.m boy, the.m student, the.f girl and the-friend are here.
+g015	Definite article – plural	The boys, the students and the girls are here.	I ragazzi, gli studenti e le ragazze sono qui.	The.pl boys, the.pl students and the.f.pl girls are here.
+g016	Definite article – generalisation	I love music.	Amo la musica.	(I)-love the music.
+g017	Indefinite article	I have a dog and a friend (f.).	Ho un cane e un'amica.	(I)-have a.m dog and a.f-friend.f.
+g018	Partitive – some	I'm buying some bread and some apples.	Compro del pane e delle mele.	(I)-buy of-the bread and of-the.f.pl apples.
+g019	Contraction a + il = al	I'm going to the cinema.	Vado al cinema.	(I)-go to-the cinema.
+g020	Contraction di + il = del	This is the teacher's book.	Questo è il libro del professore.	This is the book of-the teacher.
+g021	Contraction in + il = nel	The keys are in the drawer.	Le chiavi sono nel cassetto.	The.f.pl keys are in-the drawer.
+g022	Contraction su + il = sul	The book is on the table.	Il libro è sul tavolo.	The book is on-the table.
+g023	Adjective agreement – gender	My sister is tall and my brother is tall.	Mia sorella è alta e mio fratello è alto.	My.f sister is tall.f and my brother is tall.m.
+g024	Adjective agreement – plural	These are big, old houses.	Sono case grandi e vecchie.	(They)-are houses big.pl and old.f.pl.
+g025	Adjective position – after the noun	I'm looking for a black car.	Cerco una macchina nera.	(I)-look-for a.f car black.f.
+g026	Adjective position – before the noun	It's a beautiful house.	È una bella casa.	(It)-is a.f beautiful.f house.
+g027	Plural of nouns	The friends have two cars.	Gli amici hanno due macchine.	The.pl friends have two cars.
+g028	Possessive – with the article	My car is new.	La mia macchina è nuova.	The.f my.f car is new.f.
+g029	Possessive – no article with family	My mother lives in Milan.	Mia madre abita a Milano.	My.f mother lives in Milan.
+g030	Possessive – agrees with the thing owned	Marco loves his mother and his father.	Marco ama sua madre e suo padre.	Marco loves his.f mother and his.m father.
+g031	No possessive 's	This is Maria's book.	Questo è il libro di Maria.	This is the book of Maria.
+g032	Demonstratives – questo, quello	I like this book, not that one.	Mi piace questo libro, non quello.	To-me pleases this book, not that.
+g033	C'è × ci sono	There is a problem and there are two solutions.	C'è un problema e ci sono due soluzioni.	There-is a problem and there are two solutions.
+g034	Negation – non	I don't speak German.	Non parlo tedesco.	Not (I)-speak German.
+g035	Negation – non … niente	I don't see anything.	Non vedo niente.	Not (I)-see nothing.
+g036	Negation – non … mai	He never drinks wine.	Non beve mai vino.	Not (he)-drinks never wine.
+g037	Negation – non … nessuno	I don't know anyone here.	Non conosco nessuno qui.	Not (I)-know nobody here.
+g038	Negation – non … più	She doesn't live here any more.	Non abita più qui.	Not (she)-lives more here.
+g039	Negation – nessuno before the verb	Nobody knows.	Nessuno sa.	Nobody knows.
+g040	Question – intonation	You live in Rome?	Abiti a Roma?	(You)-live in Rome?
+g041	Question – no do-support	Do you speak English?	Parli inglese?	(You)-speak English?
+g042	Question – question word	Why are you laughing?	Perché ridi?	Why (you)-laugh?
+g043	Question – quanto	How much does it cost?	Quanto costa?	How-much (it)-costs?
+g044	Reflexive verb	I get up at seven.	Mi alzo alle sette.	Myself (I)-raise at-the.f.pl seven.
+g045	Reflexive verb – chiamarsi	My name is Luca.	Mi chiamo Luca.	Myself (I)-call Luca.
+g046	Reflexive verb – body parts	I'm washing my hands.	Mi lavo le mani.	Myself (I)-wash the.f.pl hands.
+g047	Passato prossimo – avere	Yesterday I bought bread.	Ieri ho comprato il pane.	Yesterday (I)-have bought.pp the bread.
+g048	Passato prossimo – avere, irregular participle	I saw that film.	Ho visto quel film.	(I)-have seen.pp that film.
+g049	Passato prossimo – essere (motion)	Yesterday I went to Rome.	Ieri sono andato a Roma.	Yesterday (I)-am gone.pp.m to Rome.
+g050	Passato prossimo – essere, agreement	She arrived yesterday.	È arrivata ieri.	(She)-is arrived.pp.f yesterday.
+g051	Passato prossimo – essere, plural	My friends (f.) came home late.	Le mie amiche sono tornate tardi.	The.f.pl my.f.pl friends.f are returned.pp.f.pl late.
+g052	Passato prossimo – irregular participle	I have done everything.	Ho fatto tutto.	(I)-have done.pp everything.
+g053	Passato prossimo – reflexive verb	I got up at seven.	Mi sono alzato alle sette.	Myself (I)-am raised.pp.m at-the.f.pl seven.
+g054	Passato prossimo – reflexive, agreement	She woke up late.	Si è svegliata tardi.	Herself (she)-is woken.pp.f late.
+g055	Passato prossimo – negation	I haven't eaten yet.	Non ho ancora mangiato.	Not (I)-have yet eaten.pp.
+g056	Passato prossimo – agreement with pronoun	I bought the books and I read them.	Ho comprato i libri e li ho letti.	(I)-have bought.pp the.pl books and them (I)-have read.pp.pl.
+g057	Imperfetto – habit in the past	When I was little, I played outside every day.	Da piccolo giocavo fuori ogni giorno.	From little.m (I)-played.impf outside every day.
+g058	Imperfetto – description	It was raining and it was cold.	Pioveva e faceva freddo.	(It)-rained.impf and (it)-made.impf cold.
+g059	Imperfetto – essere	I was at home.	Ero a casa.	(I)-was.impf at home.
+g060	Imperfetto × passato prossimo	I was sleeping when you called.	Dormivo quando hai chiamato.	(I)-slept.impf when (you)-have called.pp.
+g061	Trapassato prossimo	I had already eaten when she arrived.	Avevo già mangiato quando è arrivata.	(I)-had.impf already eaten.pp when (she)-is arrived.pp.f.
+g062	Passato remoto	Dante was born in Florence.	Dante nacque a Firenze.	Dante was-born.remote in Florence.
+g063	Futuro semplice	Tomorrow I will work at home.	Domani lavorerò a casa.	Tomorrow (I)-work.fut at home.
+g064	Futuro semplice – irregular	We will have time on Monday.	Avremo tempo lunedì.	(We)-have.fut time Monday.
+g065	Futuro – supposition	Where is Marco? He is probably at home.	Dov'è Marco? Sarà a casa.	Where-is Marco? (He)-be.fut at home.
+g066	Futuro – after quando	When I arrive, I will call you.	Quando arriverò, ti chiamerò.	When (I)-arrive.fut, you (I)-call.fut.
+g067	Present for the future	I'm leaving tomorrow.	Parto domani.	(I)-leave tomorrow.
+g068	Stare per + infinitive	I'm about to leave.	Sto per uscire.	(I)-stay for go-out.
+g069	Stare + gerund	I'm reading a book (at this moment).	Sto leggendo un libro.	(I)-stay reading a.m book.
+g070	Condizionale presente	I would like a coffee.	Vorrei un caffè.	(I)-want.cond a.m coffee.
+g071	Condizionale – polite request	Could you help me, please?	Potrebbe aiutarmi, per favore?	(You.formal)-can.cond help-me, for favour?
+g072	Condition – se + indicative	If it rains, we will stay at home.	Se piove, resteremo a casa.	If (it)-rains, (we)-stay.fut at home.
+g073	Condition – se + congiuntivo imperfetto	If I had time, I would travel.	Se avessi tempo, viaggerei.	If (I)-had.subj time, (I)-travel.cond.
+g074	Condizionale passato	If I had known, I would have come.	Se avessi saputo, sarei venuto.	If (I)-had.subj known.pp, (I)-be.cond come.pp.m.
+g075	Imperativo – tu	Come here!	Vieni qui!	Come here!
+g076	Imperativo – Lei	Please sit down.	Si accomodi, prego.	Yourself.formal seat.formal, please.
+g077	Imperativo – noi	Let's go!	Andiamo!	Go.we!
+g078	Imperativo – negative (tu)	Don't worry!	Non preoccuparti!	Not worry-yourself!
+g079	Imperativo – with pronouns	Give it to me!	Dammelo!	Give-me-it!
+g080	Imperativo – irregular	Go away and do it now!	Va' via e fallo adesso!	Go away and do-it now!
+g081	Object pronouns – lo, la, li, le	I see him / her / them.	Lo vedo. La vedo. Li vedo.	Him (I)-see. Her (I)-see. Them (I)-see.
+g082	Object pronouns – before the verb	I know it.	Lo so.	It (I)-know.
+g083	Object pronouns – gli, le	I'm giving her a gift.	Le do un regalo.	To-her (I)-give a gift.
+g084	Object pronouns – two together	I'm giving it to him.	Glielo do.	To-him-it (I)-give.
+g085	Object pronouns – after the infinitive	I want to see it.	Voglio vederlo.	(I)-want see-it.
+g086	Pronoun ci	I'm going there tomorrow.	Ci vado domani.	There (I)-go tomorrow.
+g087	Pronoun ne	Do you want some? Yes, I want some.	Ne vuoi? Sì, ne voglio.	Of-it (you)-want? Yes, of-it (I)-want.
+g088	Pronoun ne – quantity	I have three of them.	Ne ho tre.	Of-them (I)-have three.
+g089	Stressed pronouns	It's me. I'm coming with you.	Sono io. Vengo con te.	(I)-am I. (I)-come with you.
+g090	Prepositions – a × in	I live in Rome, in Italy.	Abito a Roma, in Italia.	(I)-live at Rome, in Italy.
+g091	Prepositions – di	I come from Naples.	Sono di Napoli.	(I)-am of Naples.
+g092	Prepositions – da	I'm going to the doctor's.	Vado dal medico.	(I)-go from-the doctor.
+g093	Prepositions – per	This gift is for you.	Questo regalo è per te.	This gift is for you.
+g094	Verb + infinitive	I like to read.	Mi piace leggere.	To-me pleases read.
+g095	Verb + a + infinitive	I'm learning to swim.	Imparo a nuotare.	(I)-learn to swim.
+g096	Verb + di + infinitive	I've decided to leave.	Ho deciso di partire.	(I)-have decided.pp of leave.
+g097	Modal – dovere	I have to leave.	Devo partire.	(I)-must leave.
+g098	Modal – potere	Can I come in?	Posso entrare?	(I)-can enter?
+g099	Sapere × conoscere	I know Rome, but I don't know where he lives.	Conosco Roma, ma non so dove abita.	(I)-know Rome, but not (I)-know where (he)-lives.
+g100	Piacere – singular	I like pizza.	Mi piace la pizza.	To-me pleases the pizza.
+g101	Piacere – plural	I like cats.	Mi piacciono i gatti.	To-me please the.pl cats.
+g102	Piacere – with a name	Marco likes coffee.	A Marco piace il caffè.	To Marco pleases the coffee.
+g103	Piacere – passato prossimo	I liked the film.	Mi è piaciuto il film.	To-me (it)-is pleased.pp.m the film.
+g104	Mancare	I miss you.	Mi manchi.	To-me (you)-lack.
+g105	Da + time – present tense	I have been living here for five years.	Abito qui da cinque anni.	(I)-live here since five years.
+g106	Da + date	I have been working here since 2020.	Lavoro qui dal 2020.	(I)-work here from-the 2020.
+g107	Fa – ago	I arrived two days ago.	Sono arrivato due giorni fa.	(I)-am arrived.pp.m two days makes.
+g108	Avere – age	I am twenty years old.	Ho vent'anni.	(I)-have twenty-years.
+g109	Avere – feelings	I'm hungry and I'm cold.	Ho fame e ho freddo.	(I)-have hunger and (I)-have cold.
+g110	Weather (fare)	It's nice weather today.	Oggi fa bel tempo.	Today (it)-makes beautiful weather.
+g111	Weather – impersonal verbs	It's raining and it's snowing.	Piove e nevica.	(It)-rains and (it)-snows.
+g112	Time of day	It is half past three.	Sono le tre e mezza.	(They)-are the.f.pl three and half.
+g113	Date	Today is the first of May.	Oggi è il primo maggio.	Today is the first May.
+g114	Comparative – di	She is taller than me.	Lei è più alta di me.	She is more tall.f of me.
+g115	Comparative – che	I like tea more than coffee.	Mi piace più il tè che il caffè.	To-me pleases more the tea than the coffee.
+g116	Superlative – relative	It is the most beautiful city in Italy.	È la città più bella d'Italia.	(It)-is the.f city more beautiful.f of-Italy.
+g117	Superlative – absolute (-issimo)	The film is very beautiful.	Il film è bellissimo.	The film is beautiful-issimo.
+g118	Equality – come	He is as tall as his father.	È alto come suo padre.	(He)-is tall as his.m father.
+g119	Adverbs in -mente	He speaks slowly and clearly.	Parla lentamente e chiaramente.	(He)-speaks slow-ly and clear-ly.
+g120	Relative clause – che	The man who lives here is a doctor.	L'uomo che abita qui è medico.	The-man who lives here is doctor.
+g121	Relative clause – che (object)	The film that I saw was good.	Il film che ho visto era bello.	The film that (I)-have seen.pp was.impf good.
+g122	Relative clause – cui	The friend I'm talking about is Italian.	L'amico di cui parlo è italiano.	The-friend of whom (I)-speak is Italian.
+g123	Congiuntivo – bisogna che	I must go home.	Bisogna che io torni a casa.	(It)-is-necessary that I return.subj at home.
+g124	Congiuntivo – penso che	I think he is right.	Penso che abbia ragione.	(I)-think that (he)-have.subj reason.
+g125	Congiuntivo – volere che	I want you to come.	Voglio che tu venga.	(I)-want that you come.subj.
+g126	Congiuntivo – sebbene	Although he is tired, he is working.	Sebbene sia stanco, lavora.	Although (he)-be.subj tired.m, (he)-works.
+g127	Congiuntivo – prima che	I'm leaving before he arrives.	Parto prima che arrivi.	(I)-leave before that (he)-arrive.subj.
+g128	Passive – essere	The house was built in 1900.	La casa è stata costruita nel 1900.	The.f house is been.f built.pp.f in-the 1900.
+g129	Passive – venire	The letters are sent every day.	Le lettere vengono spedite ogni giorno.	The.f.pl letters come sent.pp.f.pl every day.
+g130	Si passivante	Italian is spoken here.	Qui si parla italiano.	Here one speaks Italian.
+g131	Si impersonale	You (= one) eat well in Italy.	In Italia si mangia bene.	In Italy one eats well.
+g132	Conjunction – perché	I'm staying because I'm tired.	Resto perché sono stanco.	(I)-stay because (I)-am tired.m.
+g133	Reported speech	He says that he is coming.	Dice che viene.	(He)-says that (he)-comes.
+g134	Gerund	I listen to music while working.	Ascolto musica lavorando.	(I)-listen music working.
+g135	Word order – adverbs	I often eat fish.	Mangio spesso il pesce.	(I)-eat often the fish.

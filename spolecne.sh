@@ -324,7 +324,7 @@ _vypis_kartu() {
 
 # ── Gramatika (--gr) ────────────────────────────────────────────
 # gramatika/<cíl>-<zdroj>.tsv: id, tvar, věta v mateřském jazyce, věta v cílovém jazyce, doslovný překlad
-# (slovo od slova v mateřském jazyce = způsob myšlení v cílovém jazyce). Zatím en↔cs.
+# (slovo od slova v mateřském jazyce = způsob myšlení v cílovém jazyce). Čtení doslovného překladu: viz _gr_dosl_tts.
 _gr_soubor() {
     printf '%s/%s-%s.tsv' "$ADRESAR_GRAMATIKY" "$(_kod "$1")" "$ZDROJ"
 }
@@ -365,7 +365,7 @@ _nacti_gramatiku() {
 
 # Doslovný překlad pro čtení: bez značek (.acc, .pf …), závorek a spojovníků
 _gr_dosl_tts() {
-    printf '%s' "$1" | sed -E 's/\.(nom|gen|dat|acc|voc|loc|ins|pf|impf|imp|pl|m|f|n|now|habitually|reflexive)\b//g; s/[][()]//g; s/[-_]/ /g'
+    printf '%s' "$1" | sed -E 's/([^[:space:].])(\.[[:alpha:]äöüß]+)+/\1/g; s/[][()]//g; s/[-_\/]/ /g'
 }
 
 # ── Průhledné okno ──────────────────────────────────────────────

@@ -1,0 +1,142 @@
+id	tvar	en	es	doslovne
+g001	Present – -ar verbs	I speak Spanish with my friends.	Hablo español con mis amigos.	(I)-speak Spanish with my.pl friends.
+g002	Present – -ar, no progressive	I am working right now.	Trabajo en este momento.	(I)-work in this moment.
+g003	Present – -er verbs	We eat at two o'clock.	Comemos a las dos.	(We)-eat at the.f.pl two.
+g004	Present – -ir verbs	He lives in Madrid.	Vive en Madrid.	(He)-lives in Madrid.
+g005	Present – stem change e → ie	I want a coffee.	Quiero un café.	(I)-want.ie a.m coffee.
+g006	Present – stem change o → ue	I can't sleep.	No puedo dormir.	Not (I)-can.ue sleep.
+g007	Present – stem change e → i	I ask for the bill.	Pido la cuenta.	(I)-ask.i the bill.
+g008	Present – irregular yo form	I know the answer and I do the homework.	Sé la respuesta y hago los deberes.	(I)-know the answer and (I)-do the.pl duties.
+g009	Present – ir	We are going to the market.	Vamos al mercado.	(We)-go to-the market.
+g010	Present – hacer	What are you doing tonight?	¿Qué haces esta noche?	What (you)-do this night?
+g011	Dropped subject pronoun	She lives in Seville and works in a bank.	Vive en Sevilla y trabaja en un banco.	(She)-lives in Seville and (she)-works in a.m bank.
+g012	Subject pronoun for emphasis	I am paying, not you.	Yo pago, no tú.	I pay, not you.
+g013	Tú × usted	Excuse me, sir, do you speak English?	Perdone, señor, ¿habla usted inglés?	Excuse.formal, sir, ¿speak.formal you.formal English?
+g014	Ser – identity	I am a teacher.	Soy profesor.	(I)-am.ser teacher.
+g015	Ser – origin	I am from Mexico.	Soy de México.	(I)-am.ser of Mexico.
+g016	Ser – time and date	It is three o'clock.	Son las tres.	(They)-are.ser the.f.pl three.
+g017	Ser – characteristic	Marta is intelligent.	Marta es inteligente.	Marta is.ser intelligent.
+g018	Estar – location	The keys are on the table.	Las llaves están en la mesa.	The.f.pl keys are.estar on the.f table.
+g019	Estar – state	I am tired and the soup is cold.	Estoy cansado y la sopa está fría.	(I)-am.estar tired.m and the soup is.estar cold.f.
+g020	Ser × estar – change in meaning	He is bored because he is boring.	Está aburrido porque es aburrido.	(He)-is.estar bored.m because (he)-is.ser boring.
+g021	Estar + gerund	I am reading a book (at the moment).	Estoy leyendo un libro.	(I)-am.estar reading a.m book.
+g022	Definite article – generalisation	I love music.	Me encanta la música.	To-me (it)-enchants the music.
+g023	Definite article – days	I work on Mondays.	Trabajo los lunes.	(I)-work the.pl Mondays.
+g024	No article with professions	My father is a doctor.	Mi padre es médico.	My father is.ser doctor.
+g025	Contraction a + el = al	I'm going to the cinema.	Voy al cine.	(I)-go to-the cinema.
+g026	Contraction de + el = del	This is the teacher's book.	Este es el libro del profesor.	This is the book of-the teacher.
+g027	Adjective agreement – gender	My sister is tall and my brother is tall.	Mi hermana es alta y mi hermano es alto.	My sister is.ser tall.f and my brother is.ser tall.m.
+g028	Adjective agreement – plural	These are big, old houses.	Son casas grandes y viejas.	(They)-are.ser houses big.pl and old.f.pl.
+g029	Adjective position – after the noun	I'm looking for a black car.	Busco un coche negro.	(I)-look-for a.m car black.m.
+g030	Adjective position – before the noun	It's a good book and a great city.	Es un buen libro y una gran ciudad.	(It)-is.ser a.m good.m book and a.f great city.
+g031	Plural of nouns	The lessons are on Fridays.	Las lecciones son los viernes.	The.f.pl lessons are.ser the.pl Fridays.
+g032	Possessive – before the noun	My house is small.	Mi casa es pequeña.	My house is.ser small.f.
+g033	Possessive – agrees in number only	Marta and Pablo love their son and their daughters.	Marta y Pablo quieren a su hijo y a sus hijas.	Marta and Pablo love to their son and to their.pl daughters.
+g034	Possessive – de él / de ella	Is this his book or her book?	¿Es el libro de él o de ella?	Is.ser the book of him or of her?
+g035	No possessive 's	This is Maria's book.	Este es el libro de María.	This is the book of Maria.
+g036	Demonstratives – este, ese	I like this one, not that one.	Me gusta este, no ese.	To-me pleases this, not that.
+g037	Hay	There is a problem and there are two solutions.	Hay un problema y hay dos soluciones.	There-has a problem and there-has two solutions.
+g038	Negation – no	I don't speak German.	No hablo alemán.	Not (I)-speak German.
+g039	Negation – double negative	I don't see anything.	No veo nada.	Not (I)-see nothing.
+g040	Negation – no … nunca	He never drinks wine.	No bebe nunca vino.	Not (he)-drinks never wine.
+g041	Negation – no … nadie	I don't know anyone here.	No conozco a nadie aquí.	Not (I)-know to nobody here.
+g042	Negation – nadie before the verb	Nobody knows.	Nadie sabe.	Nobody knows.
+g043	Personal a	I see Maria and I see the house.	Veo a María y veo la casa.	(I)-see to Maria and (I)-see the house.
+g044	Personal a – no object person	I'm looking for my friend and I'm looking for a job.	Busco a mi amigo y busco un trabajo.	(I)-look-for to my friend and (I)-look-for a job.
+g045	Question – intonation	You live in Madrid?	¿Vives en Madrid?	¿(You)-live in Madrid?
+g046	Question – no do-support	Do you speak English?	¿Hablas inglés?	¿(You)-speak English?
+g047	Question – question word	Why are you laughing?	¿Por qué te ríes?	¿For what yourself (you)-laugh?
+g048	Question – cuánto	How much does it cost?	¿Cuánto cuesta?	¿How-much (it)-costs?
+g049	Reflexive verb	I get up at seven.	Me levanto a las siete.	Myself (I)-raise at the.f.pl seven.
+g050	Reflexive verb – llamarse	My name is Pablo.	Me llamo Pablo.	Myself (I)-call Pablo.
+g051	Reflexive verb – body parts	I'm washing my hands.	Me lavo las manos.	Myself (I)-wash the.f.pl hands.
+g052	Pretérito perfecto	I have already eaten today.	Hoy he comido ya.	Today (I)-have eaten.pp already.
+g053	Pretérito perfecto – irregular participle	I have seen that film.	He visto esa película.	(I)-have seen.pp that.f film.
+g054	Pretérito indefinido – regular	Yesterday I bought bread.	Ayer compré pan.	Yesterday (I)-bought.pret bread.
+g055	Pretérito indefinido – -er / -ir	We ate at home and he left early.	Comimos en casa y él salió temprano.	(We)-ate.pret at home and he left.pret early.
+g056	Pretérito indefinido – irregular (ser, ir)	Last year I went to Peru.	El año pasado fui a Perú.	The year past (I)-went.pret to Peru.
+g057	Pretérito indefinido – irregular (hacer, tener)	I did everything and she had no time.	Hice todo y ella no tuvo tiempo.	(I)-did.pret everything and she not had.pret time.
+g058	Pretérito indefinido – stem change	He asked for water and slept badly.	Pidió agua y durmió mal.	(He)-asked.i.pret water and (he)-slept.u.pret badly.
+g059	Imperfecto – habit in the past	When I was little, I played outside every day.	De pequeño jugaba fuera todos los días.	From little.m (I)-played.impf outside all the.pl days.
+g060	Imperfecto – description	It was raining and it was cold.	Llovía y hacía frío.	(It)-rained.impf and (it)-made.impf cold.
+g061	Imperfecto – ser, ir	I was little and I used to go to school.	Era pequeño e iba a la escuela.	(I)-was.impf small.m and (I)-went.impf to the.f school.
+g062	Imperfecto × indefinido	I was sleeping when you called.	Dormía cuando llamaste.	(I)-slept.impf when (you)-called.pret.
+g063	Pluscuamperfecto	I had already eaten when she arrived.	Ya había comido cuando ella llegó.	Already (I)-had.impf eaten.pp when she arrived.pret.
+g064	Futuro simple	Tomorrow I will work at home.	Mañana trabajaré en casa.	Tomorrow (I)-work.fut at home.
+g065	Futuro simple – irregular	We will have time on Monday.	Tendremos tiempo el lunes.	(We)-have.fut time the Monday.
+g066	Futuro – supposition	Where is Marco? He is probably at home.	¿Dónde está Marco? Estará en casa.	¿Where is.estar Marco? (He)-be.fut.estar at home.
+g067	Ir a + infinitive	I'm going to call him tomorrow.	Voy a llamarlo mañana.	(I)-go to call-him tomorrow.
+g068	Present for the future	I'm leaving tomorrow.	Salgo mañana.	(I)-leave tomorrow.
+g069	Acabar de + infinitive	I have just arrived.	Acabo de llegar.	(I)-finish of arrive.
+g070	Estar a punto de	I'm about to leave.	Estoy a punto de salir.	(I)-am.estar at point of go-out.
+g071	Seguir + gerund	I'm still working.	Sigo trabajando.	(I)-continue working.
+g072	Condicional	I would like a coffee.	Querría un café.	(I)-want.cond a.m coffee.
+g073	Condicional – polite request	Could you help me, please?	¿Podría ayudarme, por favor?	¿(You.formal)-can.cond help-me, for favour?
+g074	Condition – si + present	If it rains, we will stay at home.	Si llueve, nos quedaremos en casa.	If (it)-rains, us (we)-stay.fut at home.
+g075	Condition – si + imperfecto de subjuntivo	If I had time, I would travel.	Si tuviera tiempo, viajaría.	If (I)-had.subj time, (I)-travel.cond.
+g076	Condicional perfecto	If I had known, I would have come.	Si lo hubiera sabido, habría venido.	If it (I)-had.subj known.pp, (I)-have.cond come.pp.
+g077	Imperative – tú	Come here!	¡Ven aquí!	Come here!
+g078	Imperative – tú, regular	Speak slowly!	¡Habla despacio!	Speak slowly!
+g079	Imperative – usted	Please sit down.	Siéntese, por favor.	Sit.formal-yourself, for favour.
+g080	Imperative – negative	Don't worry!	¡No te preocupes!	Not yourself worry.subj!
+g081	Imperative – with pronouns	Give it to me!	¡Dámelo!	Give-me-it!
+g082	Object pronouns – lo, la, los, las	I see him / her / them.	Lo veo. La veo. Los veo.	Him (I)-see. Her (I)-see. Them (I)-see.
+g083	Object pronouns – before the verb	I know it.	Lo sé.	It (I)-know.
+g084	Object pronouns – le, les	I'm giving her a gift.	Le doy un regalo.	To-her (I)-give a.m gift.
+g085	Object pronouns – redundant le	I'm telling Maria the truth.	Le digo la verdad a María.	To-her (I)-tell the truth to Maria.
+g086	Object pronouns – le → se	I'm giving it to him.	Se lo doy.	To-him it (I)-give.
+g087	Object pronouns – after the infinitive	I want to see it.	Quiero verlo.	(I)-want see-it.
+g088	Prepositions – por × para (purpose)	This gift is for you.	Este regalo es para ti.	This gift is.ser for you.
+g089	Prepositions – por (reason)	I'm late because of the traffic.	Llego tarde por el tráfico.	(I)-arrive late for the traffic.
+g090	Prepositions – por × para (deadline)	I need it for Monday.	Lo necesito para el lunes.	It (I)-need for the Monday.
+g091	Prepositions – por (through, duration)	We walk through the park for an hour.	Caminamos por el parque por una hora.	(We)-walk through the park for an.f hour.
+g092	Prepositions – a (direction)	I'm going to Madrid.	Voy a Madrid.	(I)-go to Madrid.
+g093	Prepositions – en	I live in Spain.	Vivo en España.	(I)-live in Spain.
+g094	Prepositions – con + mí/ti	Do you want to come with me?	¿Quieres venir conmigo?	¿(You)-want.ie come with-me?
+g095	Verb + infinitive	I like to read.	Me gusta leer.	To-me pleases read.
+g096	Verb + a + infinitive	I'm learning to swim.	Aprendo a nadar.	(I)-learn to swim.
+g097	Verb + de + infinitive	I've stopped smoking.	He dejado de fumar.	(I)-have left.pp of smoke.
+g098	Tener que × hay que	I have to leave, and one must work.	Tengo que irme y hay que trabajar.	(I)-have that go-myself and there-is that work.
+g099	Poder	Can I come in?	¿Puedo entrar?	¿(I)-can.ue enter?
+g100	Saber × conocer	I know Madrid, but I don't know where he lives.	Conozco Madrid, pero no sé dónde vive.	(I)-know Madrid, but not (I)-know where (he)-lives.
+g101	Gustar – singular	I like pizza.	Me gusta la pizza.	To-me pleases the pizza.
+g102	Gustar – plural	I like cats.	Me gustan los gatos.	To-me please the.pl cats.
+g103	Gustar – with a name	Marco likes coffee.	A Marco le gusta el café.	To Marco to-him pleases the coffee.
+g104	Gustar – emphasis	I like it, but you don't.	A mí me gusta, pero a ti no.	To me to-me pleases, but to you not.
+g105	Doler	My head hurts.	Me duele la cabeza.	To-me hurts.ue the head.
+g106	Encantar, interesar	I love this film and it interests me.	Me encanta esta película y me interesa.	To-me enchants this.f film and to-me interests.
+g107	Echar de menos	I miss you.	Te echo de menos.	You (I)-throw of less.
+g108	Desde hace – present tense	I have been living here for five years.	Vivo aquí desde hace cinco años.	(I)-live here since makes five years.
+g109	Hace … que	I have been studying Spanish for two years.	Hace dos años que estudio español.	Makes two years that (I)-study Spanish.
+g110	Llevar + gerund	I have been waiting for an hour.	Llevo una hora esperando.	(I)-carry an.f hour waiting.
+g111	Hace – ago	I arrived two days ago.	Llegué hace dos días.	(I)-arrived.pret makes two days.
+g112	Tener – age	I am twenty years old.	Tengo veinte años.	(I)-have twenty years.
+g113	Tener – feelings	I'm hungry and I'm cold.	Tengo hambre y tengo frío.	(I)-have hunger and (I)-have cold.
+g114	Weather (hacer)	It's nice weather today.	Hoy hace buen tiempo.	Today (it)-makes good weather.
+g115	Weather – impersonal verbs	It's raining and it's snowing.	Llueve y nieva.	(It)-rains.ue and (it)-snows.
+g116	Time of day	It is half past three.	Son las tres y media.	(They)-are.ser the.f.pl three and half.
+g117	Date	Today is the first of May.	Hoy es el uno de mayo.	Today is.ser the one of May.
+g118	Comparative – más … que	She is taller than me.	Ella es más alta que yo.	She is.ser more tall.f than I.
+g119	Comparative – irregular	This wine is better and he sings better.	Este vino es mejor y él canta mejor.	This wine is.ser better and he sings better.
+g120	Superlative	It is the most beautiful city in Spain.	Es la ciudad más bonita de España.	(It)-is.ser the.f city more pretty.f of Spain.
+g121	Superlative – absolute (-ísimo)	The film is very beautiful.	La película es hermosísima.	The film is.ser beautiful-ísima.
+g122	Equality – tan … como	He is as tall as his father.	Es tan alto como su padre.	(He)-is.ser so tall as his father.
+g123	Adverbs in -mente (only the last one)	He speaks slowly and clearly.	Habla lenta y claramente.	(He)-speaks slow and clear-ly.
+g124	Relative clause – que	The man who lives here is a doctor.	El hombre que vive aquí es médico.	The man who lives here is.ser doctor.
+g125	Relative clause – que (object)	The film that I saw was good.	La película que vi era buena.	The film that (I)-saw.pret was.impf good.f.
+g126	Relative clause – de quien	The friend I'm talking about is Spanish.	El amigo de quien hablo es español.	The friend of whom (I)-speak is.ser Spanish.
+g127	Subjunctive – querer que	I want you to come.	Quiero que vengas.	(I)-want that (you)-come.subj.
+g128	Subjunctive – es necesario que	I must go home.	Es necesario que vuelva a casa.	(It)-is.ser necessary that (I)-return.subj to home.
+g129	Subjunctive – espero que	I hope you are well.	Espero que estés bien.	(I)-hope that (you)-be.subj.estar well.
+g130	Subjunctive – ojalá	I hope it doesn't rain!	¡Ojalá no llueva!	Hopefully not (it)-rain.subj!
+g131	Subjunctive – cuando (future)	When I arrive, I will call you.	Cuando llegue, te llamaré.	When (I)-arrive.subj, you (I)-call.fut.
+g132	Subjunctive – aunque	Even if it rains, we will go out.	Aunque llueva, saldremos.	Although (it)-rain.subj, (we)-go-out.fut.
+g133	Subjunctive – antes de que	I'm leaving before he arrives.	Me voy antes de que llegue.	Myself (I)-go before of that (he)-arrive.subj.
+g134	Passive – ser + participle	The house was built in 1900.	La casa fue construida en 1900.	The house was.ser.pret built.pp.f in 1900.
+g135	Passive – se	Spanish is spoken here.	Aquí se habla español.	Here one speaks Spanish.
+g136	Impersonal se	You (= one) eat well in Spain.	En España se come bien.	In Spain one eats well.
+g137	Accidental se	The keys fell (and it's not my fault).	Se me cayeron las llaves.	Itself to-me fell.pret the.f.pl keys.
+g138	Conjunction – porque	I'm staying because I'm tired.	Me quedo porque estoy cansado.	Myself (I)-stay because (I)-am.estar tired.m.
+g139	Reported speech	He says that he is coming.	Dice que viene.	(He)-says that (he)-comes.
+g140	Gerund	I listen to music while working.	Escucho música trabajando.	(I)-listen music working.
+g141	Word order – adverbs	I often eat fish.	Como pescado a menudo.	(I)-eat fish at often.

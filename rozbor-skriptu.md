@@ -2065,6 +2065,8 @@ Nový režim nepotřeboval nový skript. Kolo, klávesy, čtení na pozadí i uk
 
 Data jsou asociativní pole podle `id` (`GR_TVAR`, `GR_ZDROJ`, `GR_CIL`, `GR_DOSL`), načtená smyčkou `while IFS=$'\t' read -r …` – stejný vzor jako u slovníku. Doslovný překlad se pro čtení čistí přes `sed -E` (značky pádů a závorky pryč). Cíl se bez zadání vybere z existujících souborů `gramatika/*-<zdroj>.tsv` (`_gr_cile`): jediný možný se vezme rovnou, víc možností → nabídka.
 
+Čtení doslovného překladu (`_gr_dosl_tts`) čistí značky jedním regexem `s/([^[:space:].])(\.[[:alpha:]äöüß]+)+/\1/g`: tečka s písmeny hned za neprázdným znakem je značka (`bought.pp`, `[the].dat`), `…` a konec věty (tečka za mezerou nebo bez písmen) zůstanou. Dřívější seznam značek (`.acc|.dat|…`) jich spoustu nezachytil (`.fut .cond .subj .ser .ä`) a TTS je četl nahlas; záchyt jen po písmeni (`[[:alpha:]]`) zase míjel `[the].dat`. Nový regex je obecný, takže další jazyk nevyžaduje úpravu kódu.
+
 ## 60. Cvičení k části 5
 
 <details><summary><b>1. Nový jazyk: polština</b></summary>

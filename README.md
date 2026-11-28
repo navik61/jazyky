@@ -139,7 +139,7 @@ ln -s ~/Projects/Jazyky/slovicka-pasivni.sh ~/.local/bin/slovicka-pasivni
 | `--bez-frazi`, `--no-phrases` | nezobrazovat a nečíst vzorové věty | oba |
 | `--bez-sumu`, `--no-noise` | bez tichého šumu na pozadí (viz [Zvuk na pozadí](#zvuk-na-pozadí)) | oba |
 | `--intro`, `intro` | před procvičováním úvodní obrázek s hudbou (viz [Intro](#intro---intro)) | oba |
-| `--gr`, `gr`, `--gramatika`, `-g` | gramatika místo slovíček, viz [Gramatika](#gramatika---gr) (zatím en ↔ cs) | interaktivní |
+| `--gr`, `gr`, `--gramatika`, `-g` | gramatika místo slovíček, viz [Gramatika](#gramatika---gr) (cs → 6 jazyků, en → cs/de/fr/it/es, ru-cs, de-cs…) | interaktivní |
 | `--vsechna`, `--all`, `-a` | projít celý slovník | pasivní |
 | `--pocet N`, `--count N`, `-n N` | počet slovíček (výchozí 30) | pasivní |
 | `--pauza N`, `--pause N`, `-p N` | pauza mezi slovíčky v sekundách, i desetinná (výchozí 3) | pasivní |
@@ -176,7 +176,7 @@ Hlasy: čeština `edge-tts` (online), ostatní jazyky Piper (offline). Čte se s
 | `slovicka-view.py` | průhledné okno, nabídka a dialog intra (GTK4 + Pango), spouští se přes `uv run --script` |
 | `slovnik/obecne.tsv`, `slovnik/golf.tsv` | slovník pojmů – viz [Slovník pojmů](#slovník-pojmů) |
 | `fraze/<sada>-<jazyk>.tsv` | vzorové věty v cílovém jazyce a jejich překlady |
-| `gramatika/<cíl>-<zdroj>.tsv` | gramatické tvary: věty a doslovný překlad (`en-cs.tsv`, `cs-en.tsv`, `de-cs.tsv`, `fr-cs.tsv`, `it-cs.tsv`, `es-cs.tsv`, `ru-cs.tsv`, `de-en.tsv`) |
+| `gramatika/<cíl>-<zdroj>.tsv` | gramatické tvary: věty a doslovný překlad (`en-cs.tsv`, `cs-en.tsv`, `de-cs.tsv`, `fr-cs.tsv`, `it-cs.tsv`, `es-cs.tsv`, `ru-cs.tsv`, `de-en.tsv`, `fr-en.tsv`, `it-en.tsv`, `es-en.tsv`) |
 | `fraze/chybne.tsv` | věty označené klávesou `x` (vzniká sám) |
 | `locale/<kód>.tsv` | texty rozhraní (generuje `nastroje/texty-rozhrani.py`) |
 | `intro.txt`, `intro.<kód>.txt` | text úvodního obrázku (česky / v jazyce rozhraní) – každý řádek = jedna věta |
@@ -263,8 +263,8 @@ Doplňuje jen to, co chybí – po přidání pojmů stačí spustit znovu. Pou�
 
 ```bash
 jaz gr              # cs → angličtina (podle tvého jazyka; cíl se vybere sám)
-jaz gr --z en       # mateřština angličtina → čeština nebo němčina
-# mateřština čeština má dva cíle (angličtina, němčina, francouzština, italština, španělština, ruština) – nabídne se výběr
+jaz gr --z en       # mateřština angličtina → čeština, němčina, francouzština, italština nebo španělština
+# mateřština čeština má víc cílů (angličtina, němčina, francouzština, italština, španělština, ruština) – nabídne se výběr
 jaz gr --neznama    # jen uložené neznámé tvary
 ```
 
@@ -278,6 +278,7 @@ V záhlaví je název tvaru (Present Perfect – for, Conditional 2, Lokál – 
 
 **Co je v datech** (`gramatika/<cíl>-<zdroj>.tsv`, sloupce `id`, `tvar`, věta v mateřském jazyce, věta v cílovém, doslovný překlad):
 
+- `fr-en.tsv` (137), `it-en.tsv` (135), `es-en.tsv` (141) – francouzština, italština a španělština pro anglicky mluvící: tvary, které angličtinu zaskočí – rod a shoda, přivlastňovací zájmeno shodné s vlastněnou věcí (*sa mère*), člen u obecných tvrzení, dělivý člen, zájmena před slovesem, *avoir/être*, *avere/essere*, vynechaný podmět, *ser × estar*, osobní *a*, *piacere/gustar* (podmět a předmět se prohazují), *depuis/da/desde hace* a *llevar + gerundio* (= „už dělám“), *por × para*, subjuntivo, *se*… Doslovný překlad je do angličtiny (`(I)-speak`, `to-the`, `.pp .f .pl .subj .impf .fut .cond .formal`, `.ser/.estar`).
 - `de-en.tsv` – němčina pro anglicky mluvící (108 vět): slovosled (sloveso na 2. místě, na konci vedlejší věty), odlučitelná a zvratná slovesa, Perfekt (*haben* × *sein*) a Präteritum, modální slovesa, **pády** a předložky, 3./4. pád, skloňování přídavných jmen, Konjunktiv I/II, pasivum, *man*, *es gibt*… (doslovný překlad do angličtiny, značky `.acc .dat .gen`, `.subj`, `-t`)
 - `en-cs.tsv` – angličtina pro Čechy (100 vět): všechny časy (prostý, průběhový, předpřítomný, předminulý, budoucí vč. průběhových a perfekta), trpný rod, modální slovesa, podmínkové věty 0–3 a smíšené, *wish*, nepřímá řeč, otázky (podmět, předmět, dovětek, nepřímé), rozkaz, gerundium × infinitiv, stupňování, vztažné věty, členy a počitatelnost, kauzativ, frázová slovesa…
 - `ru-cs.tsv` – ruština pro Čechy (120 vět): přítomný čas, **vynechané sloveso být** (`[je]`), *u меня есть*, minulý čas podle rodu, **vid** (nedokonavý × dokonavý), slovesa pohybu (určitá × neurčitá, `.det` / `.indet`), zápory a dvojitý zápor, **všech šest pádů** (genitiv po číslovkách, akuzativ životných, instrumentál, lokál), dativní konstrukce (*мне нравится, мне надо*), přídavná jména a zájmena, komparativ a superlativ, *бы* a *чтобы*, modální a neosobní konstrukce, čas, datum, vztažné věty (*который*), pasivum…
@@ -296,9 +297,9 @@ V záhlaví je název tvaru (Present Perfect – for, Conditional 2, Lokál – 
 | `mít_rád` | jedno slovo přeložené více slovy (podtržítko) |
 | `(I)-work`, `.loc`, `.acc` … | česky: vynechané osobní zájmeno v závorce, pád a vid jako přípona (`.nom .gen .dat .acc .voc .loc .ins`, `.pf` / `.impf`, `.m .f .n`, `.pl`) |
 
-U ruštiny navíc: `[je]` = vynechané sloveso *být* v přítomném čase, `.det` / `.indet` = slovesa pohybu určitá / neurčitá, `.fut`, `.cond`, `.subj` = budoucí čas, kondicionál, spojovací způsob (u it/es/fr/de i `.ser` / `.estar`, `.impf`, `.pr`).
+U en-párů (fr/it/es) navíc: `.pp` = příčestí, `.formal` = vykání, `.we` = 1. os. mn. č., `.pret` = pretérito indefinido (i `.remote` = passato remoto), `.isc` = -isc- (it), `.ie/.ue/.i/.u` = změna kmene (es). U ruštiny navíc: `[je]` = vynechané sloveso *být* v přítomném čase, `.det` / `.indet` = slovesa pohybu určitá / neurčitá, `.fut`, `.cond`, `.subj` = budoucí čas, kondicionál, spojovací způsob (u it/es/fr/de i `.ser` / `.estar`, `.impf`, `.pr`).
 
-Při čtení se značky, závorky a spojovníky vynechají (`_gr_dosl_tts`).
+Při čtení se vynechá každá značka tvaru `.přípona` (`.acc`, `.pp`, `.ser` …), závorky, spojovníky a lomítka (`_gr_dosl_tts`).
 
 **Přidání dalšího jazyka:** vytvoř `gramatika/<cíl>-<zdroj>.tsv` se stejnými sloupci (hlavička + řádky oddělené tabulátorem); volba `--gr` ho najde sama, žádný kód se nemění.
 
