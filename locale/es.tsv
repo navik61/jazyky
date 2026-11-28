@@ -81,9 +81,9 @@ pomoc.neznama	Solo las palabras desconocidas guardadas
 pomoc.bez_frazi	No mostrar ni leer las frases de ejemplo
 pomoc.bez_sumu	Sin ruido de fondo suave (mantiene despierto el altavoz BT)
 pomoc.intro	Antes de practicar, %s s de imagen con música y luego %s s de pausa
-pomoc.gr	Gramática: formas gramaticales – tu idioma, idioma de destino, traducción palabra por palabra (por ahora en ↔ cs)
+pomoc.gr	Gramática: formas gramaticales – tu idioma, idioma de destino, traducción palabra por palabra (para hablantes nativos de checo e inglés)
 gr.nazev	Gramática
-gr.neni	La gramática aún no está disponible para tu idioma (%s) – solo inglés y checo.
+gr.neni	La gramática aún no está disponible para tu idioma (%s) – solo para hablantes nativos de checo e inglés.
 pomoc.vsechna	Recorrer todo el diccionario
 pomoc.pocet	Número de palabras (30 por defecto)
 pomoc.pauza	Pausa entre palabras en segundos (3 por defecto)

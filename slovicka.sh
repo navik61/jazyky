@@ -5,7 +5,7 @@
 # Ostatní argumenty se předají vybranému skriptu beze změny.
 #   slovicka.sh de --intro           → slovicka-interaktivni.sh de --intro
 #   slovicka.sh --pasivni it -n 50   → slovicka-pasivni.sh it -n 50
-#   slovicka.sh gr                   → gramatika (jen interaktivní; zatím en↔cs, cs→de/fr/it/es/ru)
+#   slovicka.sh gr                   → gramatika (jen interaktivní; mateřština cs nebo en → ostatní jazyky)
 # ================================================================
 
 adresar=$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")

@@ -2,9 +2,9 @@ id	tvar	cs	en	doslovne
 g001	Present Simple – zvyk, rutina	Každé ráno piju kávu.	I drink coffee every morning.	Já pít káva každý ráno.
 g002	Present Simple – 3. osoba (-s)	Moje sestra pracuje v nemocnici.	My sister works in a hospital.	Můj sestra pracovat-s v [a] nemocnice.
 g003	Present Simple – obecná pravda	Voda vře při sto stupních.	Water boils at one hundred degrees.	Voda vařit-s při sto stupeň.
-g004	Present Simple – zápor (do not)	Nemám rád sladký čaj.	I do not like sweet tea.	Já [do] ne mít_rád sladký čaj.
+g004	Present Simple – zápor (do not)	Nemám rád sladký čaj.	I do not like sweet tea.	Já dělat ne mít_rád sladký čaj.
 g005	Present Simple – zápor (does not)	On nemluví italsky.	He does not speak Italian.	On [does] ne mluvit italština.
-g006	Present Simple – otázka (do)	Bydlíš blízko centra?	Do you live near the centre?	[Do] ty bydlet blízko [the] centrum?
+g006	Present Simple – otázka (do)	Bydlíš blízko centra?	Do you live near the centre?	Dělat ty bydlet blízko [the] centrum?
 g007	Present Simple – otázka (does)	Kdy začíná film?	When does the film start?	Kdy [does] [the] film začít?
 g008	Present Continuous – děje se právě teď	Právě vařím večeři.	I am cooking dinner right now.	Já jsem vařící večeře právě teď.
 g009	Present Continuous – dočasný stav	Tento týden bydlím u kamaráda.	I am staying with a friend this week.	Já jsem bydlící s [a] kamarád tento týden.
@@ -50,7 +50,7 @@ g048	might – možnost	Možná dnes večer zavolám.	I might call tonight.	Já 
 g049	must – povinnost	Dnes musím pracovat.	I must work today.	Já musit pracovat dnes.
 g050	must not – zákaz	Tady nesmíš parkovat.	You must not park here.	Ty musit ne parkovat tady.
 g051	have to – nutnost	Zítra musím vstávat brzy.	I have to get up early tomorrow.	Já mít k vstávat brzy zítra.
-g052	do not have to – není nutné	Nemusíš čekat.	You do not have to wait.	Ty [do] ne mít k čekat.
+g052	do not have to – není nutné	Nemusíš čekat.	You do not have to wait.	Ty dělat ne mít k čekat.
 g053	should – rada	Měl bys víc spát.	You should sleep more.	Ty měl spát víc.
 g054	would like – zdvořilé přání	Dal bych si čaj.	I would like some tea.	Já bych chtěl nějaký čaj.
 g055	used to – dřívější zvyk	Dřív jsem hrával tenis.	I used to play tennis.	Já zvyknul k hrát tenis.
@@ -72,10 +72,10 @@ g070	Reported speech – příkaz	Řekla mi, abych počkal.	She told me to wait.
 g071	Otázka na podmět (bez do)	Kdo ti to řekl?	Who told you that?	Kdo říct ty to?
 g072	Otázka na předmět (did)	Koho jsi včera viděl?	Who did you see yesterday?	Koho [did] ty vidět včera?
 g073	Question tag – dovětek	Je to těžké, že?	It is difficult, isn't it?	To je těžký, ne-je to?
-g074	Nepřímá otázka	Víš, kde je nádraží?	Do you know where the station is?	[Do] ty vědět kde [the] nádraží je?
+g074	Nepřímá otázka	Víš, kde je nádraží?	Do you know where the station is?	Dělat ty vědět kde [the] nádraží je?
 g075	Never – Present Perfect	Nikdy jsem tam nebyl.	I have never been there.	Já mám nikdy byl tam.
 g076	Imperative – rozkaz, výzva	Zavři prosím dveře.	Please close the door.	Prosím zavřít [the] dveře.
-g077	Imperative – zápor	Nedotýkej se toho!	Do not touch that!	[Do] ne dotýkat se toho!
+g077	Imperative – zápor	Nedotýkej se toho!	Do not touch that!	Dělat ne dotýkat se toho!
 g078	Let's – návrh	Pojďme do kina.	Let us go to the cinema.	Nech nás jít do [the] kino.
 g079	Gerund po slovese	Rád vařím.	I enjoy cooking.	Já užívat vaření.
 g080	Infinitiv po slovese	Chci se naučit plavat.	I want to learn to swim.	Já chtít k naučit se k plavat.
@@ -86,12 +86,12 @@ g084	Comparative – dlouhá přídavná jména	Ten film je zajímavější než
 g085	Superlative	To je nejlepší restaurace ve městě.	It is the best restaurant in town.	To je [the] nejlepší restaurace v město.
 g086	as … as – rovnost	Je stejně vysoký jako jeho otec.	He is as tall as his father.	On je tak vysoký jako jeho otec.
 g087	too – příliš	Je to příliš drahé.	It is too expensive.	To je příliš drahý.
-g088	enough – dost	Nemám dost peněz.	I do not have enough money.	Já [do] ne mít dost peníze.
+g088	enough – dost	Nemám dost peněz.	I do not have enough money.	Já dělat ne mít dost peníze.
 g089	Vztažná věta – who	Muž, který tam stojí, je můj učitel.	The man who is standing there is my teacher.	[The] muž který je stojící tam je můj učitel.
 g090	Vztažná věta – which	Kniha, kterou čtu, je skvělá.	The book which I am reading is great.	[The] kniha která já jsem čtoucí je skvělý.
 g091	Přivlastnění ('s)	To je auto mého bratra.	It is my brother's car.	To je můj bratr-'s auto.
 g092	There is / there are	V pokoji jsou dvě židle.	There are two chairs in the room.	Tam jsou dva židle v [the] pokoj.
-g093	some / any	Nemáme žádné mléko.	We do not have any milk.	My [do] ne mít jakýkoli mléko.
+g093	some / any	Nemáme žádné mléko.	We do not have any milk.	My dělat ne mít jakýkoli mléko.
 g094	many / much – otázka na počet	Kolik lidí tam bylo?	How many people were there?	Jak mnoho lidé byl tam?
 g095	Kauzativ – have + příčestí	Nechal jsem si ostříhat vlasy.	I had my hair cut.	Já měl můj vlasy ostříhaný.
 g096	be used to + gerund	Jsem zvyklý vstávat brzy.	I am used to getting up early.	Já jsem zvyklý k vstávající brzy.
