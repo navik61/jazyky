@@ -1,0 +1,132 @@
+id	tvar	en	ru	doslovne
+g001	Present – -ать verbs	I work at a bank.	Я работаю в банке.	I work in bank.loc.
+g002	Present – no progressive	I am reading a book right now.	Я сейчас читаю книгу.	I now read book.acc.
+g003	1st × 2nd conjugation (живёт × говорит)	He speaks Russian and she lives in Moscow.	Он говорит по-русски, а она живёт в Москве.	He speaks in-Russian, and she lives in Moscow.loc.
+g004	Present – мы, вас (object before the verb)	We know you well.	Мы хорошо вас знаем.	We well you.acc know.
+g005	Present – ты × вы	Excuse me, do you speak English?	Извините, вы говорите по-английски?	Excuse.formal, you.formal speak in-English?
+g006	Zero copula – no "to be" in the present	I am a student.	Я студент.	I [am] student.
+g007	Zero copula – adjectives	The weather is good today.	Сегодня хорошая погода.	Today [is] good.f weather.
+g008	Zero copula – location	The book is on the table.	Книга на столе.	Book.f [is] on table.loc.
+g009	Zero copula – "this is"	This is my brother.	Это мой брат.	This [is] my.m brother.
+g010	У меня есть – possession	I have a sister.	У меня есть сестра.	At me is sister.
+g011	У меня нет + genitive	I have no time.	У меня нет времени.	At me not-is time.gen.
+g012	У меня – no есть needed	I have a new car.	У меня новая машина.	At me [is] new.f car.
+g013	Past tense – gender of the speaker	I was at home (said by a man / by a woman).	Я был дома. Я была дома.	I was.m at-home. I was.f at-home.
+g014	Past tense – agrees with the subject	She read a book and they watched a film.	Она читала книгу, а они смотрели фильм.	She read.f book.acc, and they watched.pl film.acc.
+g015	Future – быть	Tomorrow I will be at home.	Завтра я буду дома.	Tomorrow I will-be at-home.
+g016	Future – imperfective	I will work all day tomorrow.	Завтра я буду работать весь день.	Tomorrow I will-be work.impf all day.acc.
+g017	Future – perfective	Tomorrow I will write him a letter.	Завтра я напишу ему письмо.	Tomorrow I write.pf.fut him.dat letter.acc.
+g018	Aspect – imperfective: process	I was reading a book all evening.	Я читал книгу весь вечер.	I read.impf.m book.acc all evening.acc.
+g019	Aspect – perfective: result	I have read the book (finished it).	Я прочитал книгу.	I read-through.pf.m book.acc.
+g020	Aspect – imperfective: repeated	I wrote to him every day.	Я писал ему каждый день.	I wrote.impf.m him.dat every day.acc.
+g021	Aspect – perfective: one-off	Yesterday I wrote him a letter.	Вчера я написал ему письмо.	Yesterday I wrote.pf.m him.dat letter.acc.
+g022	Aspect – "what did you do?"	What were you doing yesterday?	Что ты делал вчера?	What you do.impf.m yesterday?
+g023	Aspect – perfective with "suddenly"	Suddenly the phone rang.	Вдруг зазвонил телефон.	Suddenly ring.pf.m phone.
+g024	Aspect – after "begin", "stop"	I started to work.	Я начал работать.	I began.m work.impf.
+g025	Aspect – negative imperative	Don't open the window!	Не открывай окно!	Not open.impf window.acc!
+g026	Aspect – positive imperative	Open the window, please.	Открой окно, пожалуйста.	Open.pf window.acc, please.
+g027	Verbs of motion – идти (on foot, one direction)	I am walking to work.	Я иду на работу.	I go.det on work.acc.
+g028	Verbs of motion – ходить (habitual / round trip)	I walk to work every day.	Я хожу на работу каждый день.	I go.indet on work.acc every day.acc.
+g029	Verbs of motion – ехать (by vehicle)	We are driving to Moscow.	Мы едем в Москву.	We ride.det in Moscow.acc.
+g030	Verbs of motion – ездить	I often go to Moscow by train.	Я часто езжу в Москву на поезде.	I often ride.indet in Moscow.acc on train.loc.
+g031	Verbs of motion – past, round trip	I have been to Moscow (and I'm back).	Я ездил в Москву.	I rode.indet.m in Moscow.acc.
+g032	Verbs of motion – prefixed (при-, у-)	He came yesterday and left today.	Он приехал вчера и уехал сегодня.	He arrive.pf.m yesterday and away-ride.pf.m today.
+g033	Negation – не	I don't understand.	Я не понимаю.	I not understand.
+g034	Negation – double negative	I don't see anything.	Я ничего не вижу.	I nothing.gen not see.
+g035	Negation – никто	Nobody knows.	Никто не знает.	Nobody not knows.
+g036	Negation – никогда	He never drinks wine.	Он никогда не пьёт вино.	He never not drinks wine.
+g037	Negation – genitive after нет	There is no milk in the fridge.	В холодильнике нет молока.	In fridge.loc not-is milk.gen.
+g038	Nominative – subject	The student is reading a book.	Студент читает книгу.	Student.nom reads book.acc.
+g039	Accusative – inanimate object	I see a house.	Я вижу дом.	I see house.acc.
+g040	Accusative – feminine -а → -у	I'm reading a book and drinking water.	Я читаю книгу и пью воду.	I read book.acc and drink water.acc.
+g041	Accusative – animate masculine = genitive	I see my brother.	Я вижу моего брата.	I see my.acc.m brother.acc.
+g042	Accusative – animate feminine	I know your sister.	Я знаю твою сестру.	I know your.acc.f sister.acc.
+g043	Genitive – "of"	This is my friend's car.	Это машина моего друга.	This [is] car my.gen friend.gen.
+g044	Genitive – absence	There are no tickets.	Билетов нет.	Tickets.gen not-is.
+g045	Genitive – after numerals 2–4	I have two brothers and three sisters.	У меня два брата и три сестры.	At me two brother.gen and three sister.gen.
+g046	Genitive – after numerals 5+	We have five rooms.	У нас пять комнат.	At us five room.gen.pl.
+g047	Genitive – quantity	I want a lot of water.	Я хочу много воды.	I want much water.gen.
+g048	Genitive – after prepositions (для, от)	This gift is for my mother, from me.	Этот подарок для мамы, от меня.	This gift [is] for mum.gen, from me.gen.
+g049	Dative – indirect object	I'm giving my mother a gift.	Я дарю маме подарок.	I give mum.dat gift.acc.
+g050	Dative – "I like"	I like this film.	Мне нравится этот фильм.	To-me pleases this film.
+g051	Dative – "I need"	I need to go.	Мне надо идти.	To-me [is] necessary go.
+g052	Dative – age	I am twenty years old.	Мне двадцать лет.	To-me twenty years.
+g053	Dative – feelings	I'm cold.	Мне холодно.	To-me cold.
+g054	Dative – "I want to / I feel like"	I feel like sleeping.	Мне хочется спать.	To-me wants-itself sleep.
+g055	Dative – preposition к	I'm going to my friend's.	Я иду к другу.	I go to friend.dat.
+g056	Instrumental – with	I'm going with my friend.	Я иду с другом.	I go with friend.ins.
+g057	Instrumental – tool	I write with a pen.	Я пишу ручкой.	I write pen.ins.
+g058	Instrumental – to be (past)	He was a doctor.	Он был врачом.	He was.m doctor.ins.
+g059	Instrumental – become, work as	I work as a teacher.	Я работаю учителем.	I work teacher.ins.
+g060	Instrumental – interested in	I'm interested in music.	Я интересуюсь музыкой.	I interest-myself music.ins.
+g061	Instrumental – preposition за	The garden is behind the house.	Сад за домом.	Garden [is] behind house.ins.
+g062	Prepositional (locative) – в, на	I live in Moscow, in a big house.	Я живу в Москве, в большом доме.	I live in Moscow.loc, in big.loc house.loc.
+g063	Prepositional – о	We are talking about the film.	Мы говорим о фильме.	We talk about film.loc.
+g064	Prepositional – на (event, activity)	I'm at a concert and he is at work.	Я на концерте, а он на работе.	I [am] on concert.loc, and he [is] on work.loc.
+g065	Prepositional – special ending -у	I'm at home, in the garden.	Я дома, в саду.	I [am] at-home, in garden.loc.
+g066	в × на + accusative (direction)	I'm going to school and to the station.	Я иду в школу и на вокзал.	I go in school.acc and on station.acc.
+g067	Where × where to	I am in the park. I'm going to the park.	Я в парке. Я иду в парк.	I [am] in park.loc. I go in park.acc.
+g068	Cases – prepositions with two cases	The book is on the table. I put the book on the table.	Книга лежит на столе. Я кладу книгу на стол.	Book lies on table.loc. I put book.acc on table.acc.
+g069	Plural – nominative	The students are reading books.	Студенты читают книги.	Students.pl read books.pl.
+g070	Plural – genitive	There are many books and many students here.	Здесь много книг и много студентов.	Here many book.gen.pl and many student.gen.pl.
+g071	Adjectives – agree in gender	A new house, a new car, a new window.	Новый дом, новая машина, новое окно.	New.m house, new.f car, new.n window.
+g072	Adjectives – agree in case	I see a big house and I live in a big house.	Я вижу большой дом и живу в большом доме.	I see big.acc house.acc and live in big.loc house.loc.
+g073	Adjectives – short forms	The shop is closed.	Магазин закрыт.	Shop [is] closed.short.
+g074	Pronouns – cases	I see him, I give her a book.	Я вижу его, я дарю ей книгу.	I see him.acc, I give her.dat book.acc.
+g075	Pronouns – н- after a preposition	I'm going with him and to him.	Я иду с ним и к нему.	I go with him.ins and to him.dat.
+g076	Possessives – свой	I love my family and he loves his own family.	Я люблю свою семью, а он любит свою семью.	I love self's.acc family.acc, and he loves self's.acc family.acc.
+g077	Possessives – agree with the owned thing	This is my book and my house.	Это моя книга и мой дом.	This [is] my.f book and my.m house.
+g078	Possessives – его, её, их do not change	His mother and her brother live here.	Его мама и её брат живут здесь.	His mum and her brother live here.
+g079	Demonstratives – этот, тот	I like this house, not that one.	Мне нравится этот дом, а не тот.	To-me pleases this.m house, and not that.
+g080	Reflexive verbs	I'm washing and he is getting dressed.	Я умываюсь, а он одевается.	I wash-myself, and he dress-himself.
+g081	Reflexive verbs – reciprocal	We meet every week.	Мы встречаемся каждую неделю.	We meet-each-other every week.acc.
+g082	Modal – можно, нельзя	May I come in? You can't smoke here.	Можно войти? Здесь нельзя курить.	[Is] possible enter.pf? Here [is] impossible smoke.
+g083	Modal – надо, нужно	I have to work tomorrow.	Мне завтра нужно работать.	To-me tomorrow [is] needed work.
+g084	Modal – мочь	I can come tomorrow.	Я могу прийти завтра.	I can come.pf tomorrow.
+g085	Modal – уметь	I can swim (I know how).	Я умею плавать.	I know-how swim.
+g086	Modal – хотеть	I want to drink tea.	Я хочу пить чай.	I want drink tea.acc.
+g087	Impersonal – холодно, жарко	It is hot in the room.	В комнате жарко.	In room.loc hot.
+g088	Impersonal – "one can / it is possible"	You can see the sea from here.	Отсюда видно море.	From-here [is]-visible sea.
+g089	Existence – есть	There is a park near the house.	Рядом с домом есть парк.	Next with house.ins is park.
+g090	Existence – "there is" with location	There is a cat on the table.	На столе лежит кошка.	On table.loc lies cat.
+g091	Time – "at what time?"	I get up at seven o'clock.	Я встаю в семь часов.	I get-up.impf in seven hours.gen.
+g092	Time – "what time is it?"	It is half past three.	Сейчас половина четвёртого.	Now half fourth.gen.
+g093	Time – days	On Monday I work.	В понедельник я работаю.	In Monday.acc I work.
+g094	Time – months	In May it is warm.	В мае тепло.	In May.loc [is] warm.
+g095	Date	Today is the first of May.	Сегодня первое мая.	Today first.n May.gen.
+g096	Time – "for an hour" × "in an hour"	I read for an hour. I'll finish in an hour.	Я читал час. Я закончу через час.	I read.impf.m hour.acc. I finish.pf.fut through hour.acc.
+g097	Time – "ago"	I arrived two days ago.	Я приехал два дня назад.	I arrive.pf.m two days.gen back.
+g098	Present + уже for "have been doing"	I have been living here for five years.	Я живу здесь уже пять лет.	I live here already five years.gen.
+g099	Conditional – бы	If I had time, I would come.	Если бы у меня было время, я бы пришёл.	If would at me was.n time, I would come.pf.m.
+g100	Conditional – бы, polite request	I would like some tea.	Я бы хотел чаю.	I would wanted.m tea.gen.
+g101	Conditional – real condition	If it rains, we will stay at home.	Если пойдёт дождь, мы останемся дома.	If go.pf.fut rain, we stay.pf.fut at-home.
+g102	Purpose – чтобы	I'm learning Russian in order to work in Moscow.	Я учу русский, чтобы работать в Москве.	I learn Russian, so-that work in Moscow.loc.
+g103	Purpose – чтобы + past (different subject)	I want you to come.	Я хочу, чтобы ты пришёл.	I want, so-that you came.pf.m.
+g104	Subordinate clause – что	I think that he is right.	Я думаю, что он прав.	I think, that he [is] right.short.
+g105	Subordinate clause – потому что	I'm staying at home because I'm ill.	Я остаюсь дома, потому что я болен.	I stay at-home, because I [am] ill.short.
+g106	Subordinate clause – когда	When I come home, I cook dinner.	Когда я прихожу домой, я готовлю ужин.	When I come.impf home, I cook dinner.acc.
+g107	Subordinate clause – если	If you want, let's go.	Если хочешь, пойдём.	If want, go.pf.we.
+g108	Relative clause – который	The man who lives here is a doctor.	Человек, который живёт здесь, врач.	Person, which.nom lives here, [is] doctor.
+g109	Relative clause – который, other cases	The book I'm reading is interesting.	Книга, которую я читаю, интересная.	Book, which.acc.f I read, [is] interesting.f.
+g110	Reported speech – no tense shift	He said that he was working.	Он сказал, что работает.	He said.pf.m, that works.
+g111	Indirect question – ли	I don't know whether he is coming.	Я не знаю, придёт ли он.	I not know, come.pf.fut whether he.
+g112	Questions – no do-support, no inversion	Do you live here?	Ты живёшь здесь?	You live here?
+g113	Questions – question words	Where do you work and what do you do?	Где ты работаешь и что ты делаешь?	Where you work and what you do?
+g114	Questions – неужели	Really? You don't know?	Неужели ты не знаешь?	Really you not know?
+g115	Comparative – -ее	This book is more interesting than that one.	Эта книга интереснее той.	This book [is] more-interesting that.gen.
+g116	Comparative – чем	Moscow is bigger than Kazan.	Москва больше, чем Казань.	Moscow [is] bigger, than Kazan.
+g117	Comparative – irregular	Today is better than yesterday.	Сегодня лучше, чем вчера.	Today [is] better, than yesterday.
+g118	Superlative – самый	It is the most beautiful city.	Это самый красивый город.	This [is] most beautiful.m city.
+g119	Adverbs	He speaks Russian well and quickly.	Он говорит по-русски хорошо и быстро.	He speaks in-Russian well and quickly.
+g120	Numerals – gender of "one", "two"	one book, two books, three books	одна книга, две книги, три книги	one.f book, two.f book.gen, three book.gen.
+g121	Passive – short participle	The book is written in Russian.	Книга написана по-русски.	Book [is] written.short.f in-Russian.
+g122	Passive – -ся	The shop opens at nine.	Магазин открывается в девять.	Shop open-itself in nine.
+g123	Impersonal – they	They say that it will rain.	Говорят, что будет дождь.	[They]-say, that will-be rain.
+g124	Imperative – ты	Come here!	Иди сюда!	Go.imp here!
+g125	Imperative – вы	Please sit down.	Садитесь, пожалуйста.	Sit-down.formal, please.
+g126	Imperative – "let's"	Let's go!	Пойдёмте!	Go.pf.we!
+g127	Imperative – "let him"	Let him come.	Пусть он придёт.	Let him come.pf.fut.
+g128	Imperative – negative	Don't be late!	Не опаздывай!	Not be-late.impf!
+g129	Greetings and politeness	Thank you very much.	Большое спасибо.	Big.n thanks.
+g130	Weather	It is snowing and it is cold.	Идёт снег, и холодно.	Goes.det snow, and cold.
+g131	Word order – free	The dog bit the man. (Emphasis: it was the dog that bit the man.)	Собака укусила человека. Человека укусила собака.	Dog.nom bit.pf.f person.acc. Person.acc bit.pf.f dog.nom.
